@@ -364,6 +364,45 @@ function ConsumeMtrLogsTask($trans,$reply,$remote_host,$remote_port)
         . "\n");
 }
 
+function ManagePingresult(&$list)
+{
+	ksort($list);
+	
+	$lststate =    -1;
+	$oldstate =    -1;
+	$kannwech = false;
+	$wasalive = false;
+	
+	foreach ($list as $stamp => $ms)
+	{
+		$newstate = ($ms == -1) ? 0 : 1;
+		
+		if ($newstate == 1) $wasalive = true;
+		
+		if ($newstate == $oldstate)
+		{
+			if ($kannwech !== false) unset($list[ $kannwech ]);
+			
+			$kannwech = $stamp;
+		}
+		else
+		{
+			$kannwech = false;
+		}
+		
+		$lststate = $oldstate;
+		$oldstate = $newstate;
+	}
+	
+	krsort($list);
+	
+	if (($lststate == -1) || ($lststate == $oldstate) || (! $wasalive)) return false;
+	
+	if ($oldstate == 0) return "died";
+	
+	return "live";	
+}
+
 function ScheduleEndpingTask($task,&$request)
 {
 	if (isset($request[ "what" ])) return;
@@ -576,45 +615,6 @@ function ScheduleEndpingTask($task,&$request)
 	$trans[ "list"    ] = $request[ "list" ];
 }
 
-function ManageEndpings(&$list)
-{
-	ksort($list);
-	
-	$lststate =    -1;
-	$oldstate =    -1;
-	$kannwech = false;
-	$wasalive = false;
-	
-	foreach ($list as $stamp => $ms)
-	{
-		$newstate = ($ms == -1) ? 0 : 1;
-		
-		if ($newstate == 1) $wasalive = true;
-		
-		if ($newstate == $oldstate)
-		{
-			if ($kannwech !== false) unset($list[ $kannwech ]);
-			
-			$kannwech = $stamp;
-		}
-		else
-		{
-			$kannwech = false;
-		}
-		
-		$lststate = $oldstate;
-		$oldstate = $newstate;
-	}
-	
-	krsort($list);
-	
-	if (($lststate == -1) || ($lststate == $oldstate) || (! $wasalive)) return false;
-	
-	if ($oldstate == 0) return "died";
-	
-	return "live";	
-}
-
 function ConsumeEndpingTask($trans,$reply,$remote_host,$remote_port)
 {
 	$isp    = $trans[ "isp"    ];
@@ -674,7 +674,7 @@ function ConsumeEndpingTask($trans,$reply,$remote_host,$remote_port)
 
 		$endpingdata[ $from ][ $stamp ] = $ms;
 
-		$change = ManageEndpings($endpingdata[ $from ]);
+		$change = ManagePingresult($endpingdata[ $from ]);
 		
 		if ($change !== false)
 		{
@@ -721,12 +721,15 @@ function ConsumeEndpingTask($trans,$reply,$remote_host,$remote_port)
 	{
 		$gate = $trans[ "gate" ];
 		$ms   = $reply[ "gate" ];
+		$myms = "n.a.";
 		
 		if (! isset($endpingdata[ $gate ])) $endpingdata[ $gate ] = array();
 
+		if ($ms == -1) $ms = $myms = Ping(IP($gate),1000);
+		
 		$endpingdata[ $gate ][ $stamp ] = $ms;
 
-		$change = ManageEndpings($endpingdata[ $gate ]);
+		$change = ManagePingresult($endpingdata[ $gate ]);
 		
 		if ($change !== false)
 		{
@@ -751,6 +754,8 @@ function ConsumeEndpingTask($trans,$reply,$remote_host,$remote_port)
 			   . $gate 
 			   . " => "
 			   . $change
+			   . " => "
+			   . $myms
 			   . " => "
 			   . $trans[ "host" ]
 			   . "\n");
@@ -816,6 +821,242 @@ function ConsumeEndpingTask($trans,$reply,$remote_host,$remote_port)
 	   . $trans[ "consume" ] 
 	   . " => "
 	   . $endpingfile 
+	   . "\n");
+}
+
+function ScheduleUplpingTask($task,&$request)
+{
+	if (isset($request[ "what" ])) return;
+	if (! HasFeature($task,"uplping")) return;
+	if (! IsVersion($task,"1.03")) return;
+	
+	$isp = GetRandomISP("mapdata/uplinks.json");
+	$isp = "de/kd";
+	
+	if (! isset($GLOBALS[ $isp ])) $GLOBALS[ $isp ] = array();
+	
+	if (! is_dir("../var/$isp/results")) mkdir("../var/$isp/results",0777);
+	if (! is_dir("../var/$isp/uplping")) mkdir("../var/$isp/uplping",0777);
+
+	//
+	// Read nopings uplinks status file.
+	//
+	
+	if (! isset($GLOBALS[ $isp ][ "nopingsu" ]))
+	{
+		$GLOBALS[ $isp ][ "nopingsu" ] = array();
+		
+		$nopingsufile = "../var/$isp/results/nopings.uplinks.json";
+	
+		if (file_exists($nopingsufile))
+		{
+			$json = file_get_contents($nopingsufile);
+			$data = json_decdat($json);
+			$GLOBALS[ $isp ][ "nopingsu" ] = $data[ "nopings" ];
+		}
+	}
+	
+	//
+	// Organize endpings todo lists.
+	//
+	
+	if (isset($GLOBALS[ $isp ][ "uplpingstime" ]) &&
+		((time() - $GLOBALS[ $isp ][ "uplpingstime" ]) > 600))
+	{
+		unset($GLOBALS[ $isp ][ "uplpings" ]);
+	}
+	
+	if ((! isset($GLOBALS[ $isp ][ "uplpings" ]) ||
+		  (count($GLOBALS[ $isp ][ "uplpings" ]) == 0)))
+	{			
+		$uplpingsfile = "../var/$isp/mapdata/uplinks.json";
+		$uplpings = json_decdat(file_get_contents($uplpingsfile));
+		
+		foreach ($uplpings as $uplinkip => $dummy)
+		{
+			if (substr($uplinkip,0,9) == "001.000.0")
+			{
+				//
+				// Dummy unpingeable uplinks, remove.
+				//
+				
+				unset($uplpings[ $uplinkip ]);
+				continue;
+			}
+			
+			$uplpingfile = "../var/$isp/uplping/$uplinkip.ping.json";
+			
+			if (file_exists($uplpingfile))
+			{
+				$uplpings[ $uplinkip ] = filemtime($uplpingfile);
+			}
+			else
+			{
+				$uplpings[ $uplinkip ] = 0;
+			}
+		}
+		
+		asort($uplpings);
+		
+		$GLOBALS[ $isp ][ "uplpings"     ] = &$uplpings;
+		$GLOBALS[ $isp ][ "uplpingstime" ] = time();
+	}
+	
+	$uplpings = &$GLOBALS[ $isp ][ "uplpings" ];
+	
+	$pinglist = array();
+	
+	foreach ($uplpings as $uplinkip => $time)
+	{
+		if ((time() - $time) > 300)
+		{
+			array_push($pinglist,$uplinkip);
+			unset($uplpings[ $uplinkip ]);
+				
+			if (count($pinglist) < 64) continue;
+		}
+		
+		break;
+	}
+	
+	if (! count($pinglist)) return;
+			
+	$trans = &$GLOBALS[ "transactions" ][ $request[ "guid" ] ];
+
+	$request[ "what" ] = "uplping";
+	$request[ "list" ] = &$pinglist;
+
+	$trans[ "consume" ] = "uplping";
+	$trans[ "isp" 	  ] = $isp;
+	$trans[ "list"    ] = &$pinglist;
+}
+
+function ConsumeUplpingTask($trans,$reply,$remote_host,$remote_port)
+{
+	$isp = $trans[ "isp" ];
+	
+	if (count($trans[ "list" ]) != count($reply[ "list" ]))
+	{
+		//
+		// Requested pings count not replied pings count.
+		//
+		
+		Logdat("$remote_host:$remote_port"
+		   . " => " 
+		   . $trans[ "isp"  ]
+		   . " => " 
+		   . $trans[ "consume" ] 
+		   . " => "
+		   . count($trans[ "list" ])
+		   . " != "
+		   . count($reply[ "list" ]) 
+		   . "\n");
+		   
+		return;
+	}
+	
+	$dirty = false;
+	
+	foreach ($trans[ "list" ] as $uplinkip)
+	{		
+		$ms   = array_shift($reply[ "list" ]);
+		$myms = "n.a.";
+		
+		if ($ms == -1) $ms = $myms = Ping(IP($uplinkip),1000);
+
+		$uplpingfile = "../var/$isp/uplping/$uplinkip.ping.json";
+		$uplpingdata = array();
+	
+		if (file_exists($uplpingfile))
+		{
+			$uplpingdata = json_decdat(file_get_contents($uplpingfile));
+			if ($uplpingdata === false) $uplpingdata = array();
+		}
+	
+		$stamp = date("Ymd.His");
+
+		if (! isset($uplpingdata[ $uplinkip ])) $uplpingdata[ $uplinkip ] = array();
+
+		$uplpingdata[ $uplinkip ][ $stamp ] = $ms;
+
+		$change = ManagePingresult($uplpingdata[ $uplinkip ]);
+		
+		if ($change !== false)
+		{
+			if ($change == "died")
+			{
+				//
+				// Re-schedule right away.
+				//
+				
+				$GLOBALS[ $isp ][ "uplpings" ][ $uplinkip ] = 0;
+				asort($GLOBALS[ $isp ][ "uplpings" ]);
+				
+				$GLOBALS[ $isp ][ "nopingsu" ][ $uplinkip ] = $change;
+				$dirty = true;
+			}
+		
+			if ($change == "live")
+			{
+				unset($GLOBALS[ $isp ][ "nopingsu" ][ $uplinkip ]);
+				$dirty = true;
+			}
+		
+			Logdat("$remote_host:$remote_port"
+			   . " => " 
+			   . $trans[ "isp"  ]
+			   . " => " 
+			   . $trans[ "consume" ] 
+			   . " => "
+			   . $uplinkip 
+			   . " => "
+			   . $change
+			   . " => "
+			   . $myms
+			   . " => "
+			   . $trans[ "host" ]
+			   . "\n");
+		}
+		else
+		{
+			if (($ms != -1) && isset($GLOBALS[ $isp ][ "nopingsu" ][ $uplinkip ]))
+			{
+				//
+				// Clean unconsolidated state.
+				//
+				
+				unset($GLOBALS[ $isp ][ "nopingsu" ][ $uplinkip ]);
+				$dirty = true;
+			}
+		}
+			
+		file_put_contents($uplpingfile,json_encdat($uplpingdata) . "\n");
+	}
+
+	if ($dirty)
+	{
+		$data = array();
+		$data[ "stamp"   ] = date("Ymd.His");
+		$data[ "nopings" ] = &$GLOBALS[ $isp ][ "nopingsu" ];
+		
+		ksort($data[ "nopings" ]);
+		
+		$nopingsujson = json_encdat($data) . "\n";	
+		$nopingsufile = "../var/$isp/results/nopings.uplinks.json";
+		file_put_contents($nopingsufile,$nopingsujson);
+		
+		$nopingsujson = "kappa.UplinksNopingsCallback(\n$nopingsujson);\n";	
+		$nopingsufile = "../www/$isp/uplinks.nopings.js";
+		file_put_contents($nopingsufile,$nopingsujson);
+	}
+	
+	Logdat("$remote_host:$remote_port"
+	   . " => " 
+	   . $trans[ "isp"  ]
+	   . " => " 
+	   . $trans[ "consume" ] 
+	   . " => "
+	   . count($trans[ "list" ])
 	   . "\n");
 }
 
@@ -1092,8 +1333,9 @@ function ScheduleTask($task,$remote_host,$remote_port)
 	$GLOBALS[ "transactions" ][ $request[ "guid" ] ] = &$trans;
 	
 	if (! mt_rand(0,8)) ScheduleMtrLogsTask($task,$request);
-    if (! mt_rand(0,4)) ScheduleNetpingTask($task,$request);
-    if (! mt_rand(0,0)) ScheduleEndpingTask($task,$request);
+	if (! mt_rand(0,4)) ScheduleNetpingTask($task,$request);
+	if (! mt_rand(0,2)) ScheduleEndpingTask($task,$request);
+    if (! mt_rand(0,0)) ScheduleUplpingTask($task,$request);
 
   //if (! mt_rand(0,0)) ScheduleMtrDomsTask($task,$request);
 	
@@ -1147,6 +1389,7 @@ function ConsumeReply($reply,$remote_host,$remote_port)
 		case "mtrdoms" : ConsumeMtrDomsTask($trans,$reply,$remote_host,$remote_port); break;
 		case "netping" : ConsumeNetpingTask($trans,$reply,$remote_host,$remote_port); break;
 		case "endping" : ConsumeEndpingTask($trans,$reply,$remote_host,$remote_port); break;
+		case "uplping" : ConsumeUplpingTask($trans,$reply,$remote_host,$remote_port); break;
 		
 		default: var_dump($reply); break;
 	}
