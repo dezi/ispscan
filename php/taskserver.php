@@ -1336,6 +1336,7 @@ function ScheduleTask($task,$remote_host,$remote_port)
 	if (! mt_rand(0,4)) ScheduleNetpingTask($task,$request);
 	if (! mt_rand(0,2)) ScheduleEndpingTask($task,$request);
     if (! mt_rand(0,0)) ScheduleUplpingTask($task,$request);
+	if (! mt_rand(0,0)) ScheduleNetpingTask($task,$request);
 
   //if (! mt_rand(0,0)) ScheduleMtrDomsTask($task,$request);
 	

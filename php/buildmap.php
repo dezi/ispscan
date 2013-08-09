@@ -5,7 +5,6 @@
 	
 	$tobuilds = Array();
 
-	/*
 	$isp = "de/kd";
 	array_push($tobuilds,"024.134.000.000-024.134.255.255");
 	array_push($tobuilds,"031.016.000.000-031.019.255.255");
@@ -16,8 +15,8 @@
     array_push($tobuilds,"095.088.000.000-095.091.255.255");
 	array_push($tobuilds,"146.052.000.000-146.052.255.255");
 	array_push($tobuilds,"178.024.000.000-178.027.255.255");
-	*/
 	
+	/*
 	$isp = "de/tk";
     array_push($tobuilds,"046.080.000.000-046.095.255.255");
     array_push($tobuilds,"079.192.000.000-079.255.255.255");
@@ -30,6 +29,7 @@
 	array_push($tobuilds,"217.000.000.000-217.007.255.255");
 	array_push($tobuilds,"217.080.000.000-217.095.255.255");
 	array_push($tobuilds,"217.224.000.000-217.255.255.255");
+	*/
 
 	//
 	// Get a list of existent subnets.
