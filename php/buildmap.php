@@ -15,6 +15,7 @@
     array_push($tobuilds,"095.088.000.000-095.091.255.255");
 	array_push($tobuilds,"146.052.000.000-146.052.255.255");
 	array_push($tobuilds,"178.024.000.000-178.027.255.255");
+	array_push($tobuilds,"188.192.000.000-188.195.255.255");
 	
 	/*
 	$isp = "de/tk";
@@ -87,6 +88,33 @@
 	$bonusnailed[ "xxxxx"  				] =  "xxxxxxxxx";
 	$bonusnailed[ "xxxxx"  				] =  "xxxxxxxxx";
 	$bonusnailed[ "xxxxx"  				] =  "xxxxxxxxx";
+	$bonusnailed[ "Lindau"  			] =  "DE,Bayern,Lindau,47.55,9.6833";
+	$bonusnailed[ "Marktredwitz" 		] =  "DE,Bayern,Marktredwitz,50.0103,12.1008";
+	$bonusnailed[ "Rosenheim"  			] =  "DE,Bayern,Rosenheim,47.85,12.1333";
+	$bonusnailed[ "Memmingen"  			] =  "DE,Bayern,Memmingen,47.9826,10.1725";
+	$bonusnailed[ "Dachau" 				] =  "DE,Bayern,Dachau,48.2667,11.4333";
+	$bonusnailed[ "Erding"  			] =  "DE,Bayern,Erding,48.3001,11.9082";
+	$bonusnailed[ "Mayen"  				] =  "DE,Rheinland-Pfalz,Mayen,50.3333,7.2167";
+	$bonusnailed[ "Diez"  				] =  "DE,Rheinland-Pfalz,Diez,50.3667,8.0167";
+	$bonusnailed[ "Blieskastel" 		] =  "DE,Saarland,Blieskastel,49.2333,7.25";
+	$bonusnailed[ "Aschaffenburg"  		] =  "DE,Bayern,Aschaffenburg,49.9739,9.1492";
+	$bonusnailed[ "Kempten"  			] =  "DE,Bayern,Kempten,47.7167,10.3167";
+	$bonusnailed[ "Landshut"  			] =  "DE,Bayern,Landshut,48.5333,12.15";
+	$bonusnailed[ "Dingolfing"  		] =  "DE,Bayern,Dingolfing,48.6381,12.4907";
+	$bonusnailed[ "Miesbach"  			] =  "DE,Bayern,Miesbach,47.7833,11.8333";
+	$bonusnailed[ "Bad Reichenhall" 	] =  "DE,Bayern,Bad Reichenhall,47.7333,12.8833";
+	$bonusnailed[ "Mühldorf"  			] =  "DE,Bayern,Mühldorf,48.25,12.5333";
+	$bonusnailed[ "Deggendorf" 			] =  "DE,Bayern,Deggendorf,48.8333,12.9667";
+	$bonusnailed[ "Regensburg" 			] =  "DE,Bayern,Regensburg,49.015,12.0956";
+	$bonusnailed[ "Ingolstadt"  		] =  "DE,Bayern,Ingolstadt,48.7667,11.4333";
+	$bonusnailed[ "Donauwörth" 			] =  "DE,Bayern,Donauwörth,48.7291,10.7687";
+	$bonusnailed[ "Erlangen"  			] =  "DE,Bayern,Erlangen,49.5897,11.0039";
+	$bonusnailed[ "Nürnberg"  			] =  "DE,Bayern,Nürnberg,49.4478,11.0683";
+	$bonusnailed[ "Hof"  				] =  "DE,Bayern,Hof,50.3167,11.9167";
+	$bonusnailed[ "Kronach"  			] =  "DE,Bayern,Kronach,50.2333,11.3167";
+	$bonusnailed[ "Bamberg"  			] =  "DE,Bayern,Bamberg,49.91,10.89";
+	$bonusnailed[ "Schweinfurt"  		] =  "DE,Bayern,Schweinfurt,50.05,10.2333";
+	$bonusnailed[ "Bad Kissingen"  		] =  "DE,Bayern,Bad Kissingen,50.2,10.0833";
 	$bonusnailed[ "Cuxhaven"  			] =  "DE,Niedersachsen,Cuxhaven,53.8555,8.6773";
 	$bonusnailed[ "Kulmbach"  			] =  "DE,Bayern,Kulmbach,50.1053,11.4426";
 	$bonusnailed[ "Altötting"  			] =  "DE,Bayern,Altötting,48.2333,12.6833";
@@ -779,6 +807,8 @@
 			{
 				if ($numcities[ $subnetip ] > 1) 
 				{
+					$gateways[ $routerip ][ $subnetip ] .= "!!!";
+					
 					$allsingle = false;
 				}
 			}
@@ -803,7 +833,7 @@
 			{
 				if ($numcities[ $subnetip ] <= 1) 
 				{
-					unset($gateways[ $routerip ][ $subnetip ]);
+					//unset($gateways[ $routerip ][ $subnetip ]);
 				}
 			}			
 		}
