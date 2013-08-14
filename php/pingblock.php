@@ -34,7 +34,7 @@ function Ping_Block($from,$toto)
 	return floor(($alive * 100) / $total);
 }
 
-	
+	/*
 	while (true)
 	{
 		foreach ($toping as $dummy => $ping)
@@ -43,5 +43,22 @@ function Ping_Block($from,$toto)
 		}
 		
 		break;
+	}
+
+	exit();
+	*/
+		
+	$json = json_decdat(file_get_contents("../var/de/kd/mapdata/eplinks.json"));
+	
+	foreach ($json as $host => $dummy)
+	{
+		$time = -1;
+		
+		if ($time == -1) $time = Ping(Bin_IP(IP_Bin($host)), 500);
+		if ($time == -1) $time = Ping(Bin_IP(IP_Bin($host)),1000);
+		if ($time == -1) $time = Ping(Bin_IP(IP_Bin($host)),2000);
+		
+		$time = ($time == -1) ? "nix" : "dox";
+		echo $host . " => " . $time . "\n";
 	}
 ?>

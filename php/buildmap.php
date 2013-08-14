@@ -62,6 +62,19 @@
 	
 	closedir($dfd);
 	
+	$oldeplping = array();
+	
+	$dfd = opendir("../var/$isp/eplping");
+	
+	while (($file = readdir($dfd)) !== false)
+	{
+		if (substr($file,0,1) == ".") continue;
+		
+		$oldeplping[ "../var/$isp/eplping/$file" ] = true;
+	}
+	
+	closedir($dfd);
+	
 	//
 	// Read manual router locations if required.
 	//
@@ -71,13 +84,14 @@
 	
 	if (file_exists($locationsfile))
 	{
-		$locations = json_decdat(file_get_contents($locationsfile));
+		//$locations = json_decdat(file_get_contents($locationsfile));
 	}
 	
 	$endpoint = Array();
 	$downlink = Array();
 	$deadnets = Array();
 	$gateways = Array();
+	$eplinks  = Array();
 	
 	$bonuscities = array();
 	$bonusnailed = array();
@@ -87,7 +101,7 @@
 	$bonusnailed[ "xxxxx"  				] =  "xxxxxxxxx";
 	$bonusnailed[ "xxxxx"  				] =  "xxxxxxxxx";
 	$bonusnailed[ "xxxxx"  				] =  "xxxxxxxxx";
-	$bonusnailed[ "xxxxx"  				] =  "xxxxxxxxx";
+	$bonusnailed[ "Rennerod"  			] =  "DE,Rheinland-Pfalz,Rennerod,50.6167,8.0667";
 	$bonusnailed[ "Lindau"  			] =  "DE,Bayern,Lindau,47.55,9.6833";
 	$bonusnailed[ "Marktredwitz" 		] =  "DE,Bayern,Marktredwitz,50.0103,12.1008";
 	$bonusnailed[ "Rosenheim"  			] =  "DE,Bayern,Rosenheim,47.85,12.1333";
@@ -486,6 +500,8 @@
 							$subnet[ "pc" ] += $subnet[ "segs" ][ $sinx ][ "pc" ];							
 						}
 						
+						if (isset($subnet[ "gw" ])) $eplinks[ $subnet[ "gw" ] ] = true;
+						
 						//
 						// Push into routed networks.
 						//
@@ -696,12 +712,18 @@
 						. ".ping.json"
 						;
 						
+			$eplnetfile = "../var/$isp/eplping/" 
+						. (isset($subnet[ "gw" ]) ? $subnet[ "gw" ] : "")
+						. ".ping.json"
+						;
+						
 			file_put_contents($subnetfile,json_encdat($subnet) . "\n");
 			
 			echo "$subnetfile\n";
 			
 			if (isset($oldsubnets[ $subnetfile ])) unset($oldsubnets[ $subnetfile ]);
 			if (isset($oldendping[ $endnetfile ])) unset($oldendping[ $endnetfile ]);
+			if (isset($oldeplping[ $eplnetfile ])) unset($oldeplping[ $eplnetfile ]);
 		}
 		
 		$final = "../www/$isp/$tobuild.map";
@@ -758,6 +780,8 @@
 		}
 	}
 	
+	$notracecandidates = array();
+	
 	foreach ($gateways as $routerip => $subnets)
 	{
 		if (isset($locations[ $routerip ]))
@@ -809,6 +833,8 @@
 				{
 					$gateways[ $routerip ][ $subnetip ] .= "!!!";
 					
+					$notracecandidates[ $subnetip ] = true;
+					
 					$allsingle = false;
 				}
 			}
@@ -819,26 +845,19 @@
 				// All subnets have an individual gateway, so this is
 				// a backbone router and not a gateway.
 				//
-			
-				unset($gateways[ $routerip ]);
 				
+				unset($gateways[ $routerip ]);
 				continue;
 			}
-		
-			//
-			// Remove all single city endpoints from this gateway.
-			//
-			
-			foreach ($subnets as $subnetip => $dummy)
-			{
-				if ($numcities[ $subnetip ] <= 1) 
-				{
-					//unset($gateways[ $routerip ][ $subnetip ]);
-				}
-			}			
 		}
 	}
 	
+	ksort($notracecandidates);
+	
+	$notracecandidatesfile = "../var/$isp/mapdata/notraces.json";
+	$notracecandidatesjson = json_encdat($notracecandidates) . "\n";
+	file_put_contents($notracecandidatesfile,$notracecandidatesjson);
+
 	$gatewaysfile = "../var/$isp/mapdata/uplinks.json";
 	$gatewaysjson = json_encdat($gateways) . "\n";
 	file_put_contents($gatewaysfile,$gatewaysjson);
@@ -881,6 +900,14 @@
 	$uplinksfile = "../www/$isp/uplinks.map.js";
 	$uplinksjson = "kappa.UplinksCallback(\n" . json_encdat($uplinks) . "\n);\n";
 	file_put_contents($uplinksfile,$uplinksjson);
+	
+	//
+	// Dump endpoint links.
+	//
+	
+	$eplinksfile = "../var/$isp/mapdata/eplinks.json";
+	$eplinksjson = json_encdat($eplinks) . "\n";
+	file_put_contents($eplinksfile,$eplinksjson);
 
 	//
 	// Check for obsoleted subnet and endping files.
@@ -896,6 +923,12 @@
 
 	
 	foreach ($oldendping as $file => $dummy)
+	{
+		echo "Obsolete: $file\n";
+		@unlink($file);
+	}
+
+	foreach ($oldeplping as $file => $dummy)
 	{
 		echo "Obsolete: $file\n";
 		@unlink($file);

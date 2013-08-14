@@ -1,25 +1,241 @@
 kappa = new Object();
 
+kappa.ISPList =
+{
+	"de" :
+	{
+		"kd" : 
+		{
+			name : "Kabel Deutschland",
+			nets :
+			[
+    			'024.134.000.000-024.134.255.255',
+    			'031.016.000.000-031.019.255.255',
+    			'037.004.000.000-037.005.255.255',
+    			'077.020.000.000-077.023.255.255',
+    			'088.134.000.000-088.134.191.255',
+    			'091.064.000.000-091.067.255.255',
+    			'095.088.000.000-095.091.255.255',
+    			'146.052.000.000-146.052.255.255',
+    			'178.024.000.000-178.027.255.255',
+    			'188.192.000.000-188.195.255.255',
+			]
+		},
+	
+		"tk" : 
+		{
+			name : "Deutsche Telekom",
+			nets :
+			[
+    			'046.080.000.000-046.095.255.255',
+    			'079.192.000.000-079.255.255.255',
+    			'080.128.000.000-080.159.255.255',
+    		  //'080.187.000.000-080.187.255.255',
+    			'084.128.000.000-084.191.255.255',
+    			'087.128.000.000-087.159.255.255',
+    			'087.160.000.000-087.191.255.255',
+    			'091.000.000.000-091.063.255.255',
+    			'093.192.000.000-093.255.255.255',
+    			'217.000.000.000-217.007.255.255',
+    			'217.080.000.000-217.095.255.255',
+    			'217.224.000.000-217.255.255.255',
+			]
+		}
+	}
+}
+
+kappa.MenuOnClick = function()
+{
+	if (this.mytype == 'selector') 
+	{
+		kappa.LocalStorageSet('selector',this.myval);
+	}
+	
+	if (this.mytype == 'country') 
+	{
+		kappa.LocalStorageSet('country',this.myval);
+	}
+	
+	if (this.mytype == 'provider') 
+	{
+		kappa.LocalStorageSet('provider-' + kappa.country,this.myval);
+	}
+	
+	document.location.reload();
+}
+
+kappa.InitializeMaps = function()
+{
+	kappa.mapstoload = 0;
+	kappa.mapsloaded = 0;
+	
+	for (var ninx in kappa.ISPList[ kappa.country ][ kappa.provider ].nets)
+	{
+		var mapload = document.createElement('script');
+		
+		mapload.src = kappa.country 
+					+ '/'
+					+ kappa.provider
+					+ '/'
+					+ kappa.ISPList[ kappa.country ][ kappa.provider ].nets[ ninx ]
+					+ '.map.js'
+					+ '?rnd=' 
+					+ Math.random();
+					;
+	
+		document.body.appendChild(mapload);
+		
+		kappa.mapstoload++;
+	}
+}
+
+kappa.InitializeMenu = function()
+{	
+	var selectors = { "ep" : "Endpoints" , "bb" : "Backbone" , "gw" : "Gateways" };
+
+	if (! kappa.LocalStorageGet('selector')) kappa.LocalStorageSet('selector','ep');
+	kappa.selector = kappa.LocalStorageGet('selector');
+	
+	if (! kappa.LocalStorageGet('country')) kappa.LocalStorageSet('country','de');
+	kappa.country = kappa.LocalStorageGet('country');
+
+	if (! kappa.LocalStorageGet('provider-' + kappa.country)) kappa.LocalStorageSet('provider-' + kappa.country,'kd');
+	kappa.provider = kappa.LocalStorageGet('provider-' + kappa.country);
+
+	document.title = kappa.country.toUpperCase() 
+				   + "/"
+				   + kappa.provider.toUpperCase() 
+				   + " " 
+				   + selectors[ kappa.selector ]
+				   ;
+	
+	kappa.Menu = document.createElement('div');
+	
+	kappa.Menu.style.position  		 = 'absolute';
+	kappa.Menu.style.top       		 = '48px';
+	kappa.Menu.style.right     		 = '5px';
+	kappa.Menu.style.width     		 = '214px';
+	kappa.Menu.style.height    		 = '48px';
+	kappa.Menu.style.fontSize  		 = 'small';
+	kappa.Menu.style.fontWeight		 = 'normal';
+	kappa.Menu.style.fontFamily 	 = 'arial';
+	kappa.Menu.style.cursor		 	 = 'pointer';
+
+	document.body.appendChild(kappa.Menu);
+	
+	kappa.Countries = document.createElement('span');
+	kappa.Countries.style.position   = 'absolute';
+	kappa.Countries.style.top        = '0px';
+	kappa.Countries.style.left       = '0px';
+	kappa.Countries.style.height     = '15px';
+	kappa.Countries.style.lineHeight = '17px';
+	kappa.Countries.style.borderTop  = '1px solid grey';
+	kappa.Countries.style.borderLeft = '1px solid grey';
+	kappa.Countries.style.boxShadow  = '6px 6px 5px #aaa';
+	kappa.Menu.appendChild(kappa.Countries);
+
+	kappa.Providers = document.createElement('span');
+	kappa.Providers.style.position   = 'absolute';
+	kappa.Providers.style.top        = '16px';
+	kappa.Providers.style.left       = '0px';
+	kappa.Providers.style.height     = '15px';
+	kappa.Providers.style.lineHeight = '17px';
+	kappa.Providers.style.borderTop  = '1px solid grey';
+	kappa.Providers.style.borderLeft = '1px solid grey';
+	kappa.Providers.style.boxShadow  = '6px 6px 5px #aaa';
+	kappa.Menu.appendChild(kappa.Providers);
+	
+	kappa.Selectors = document.createElement('span');
+	kappa.Selectors.style.position   = 'absolute';
+	kappa.Selectors.style.top        = '32px';
+	kappa.Selectors.style.left       = '0px';
+	kappa.Selectors.style.height     = '15px';
+	kappa.Selectors.style.lineHeight = '17px';
+	kappa.Selectors.style.borderTop  = '1px solid grey';
+	kappa.Selectors.style.borderLeft = '1px solid grey';
+	kappa.Selectors.style.boxShadow  = '6px 6px 5px #aaa';
+	kappa.Menu.appendChild(kappa.Selectors);
+
+	for (var ckey in kappa.ISPList)
+	{
+		var ce = document.createElement('span');
+		ce.style.display	 	 = 'inline-block'
+		ce.style.width  	 	 = '52px';
+		ce.style.height		 	 = '15px';
+		ce.style.textAlign   	 = 'center';
+		ce.style.borderRight 	 = '1px solid grey';
+		ce.style.fontWeight	 	 = (ckey == kappa.country) ? 'bold' : 'normal';
+		ce.style.backgroundColor = '#ffffff';
+		
+		ce.innerHTML = ckey.toUpperCase();
+		ce.onclick   = kappa.MenuOnClick;
+		ce.mytype    = 'country';
+		ce.myval     = ckey;
+		
+		kappa.Countries.appendChild(ce);
+	}
+	
+	for (var pkey in kappa.ISPList[ kappa.country ])
+	{
+		var pe = document.createElement('span');
+		pe.style.display	 	 = 'inline-block'
+		pe.style.width  	 	 = '52px';
+		pe.style.height 	 	 = '15px';
+		pe.style.textAlign   	 = 'center';
+		pe.style.borderRight 	 = '1px solid grey';
+		pe.style.fontWeight	 	 = (pkey == kappa.provider) ? 'bold' : 'normal';
+		pe.style.backgroundColor = '#ffffff';
+		
+		pe.innerHTML = pkey.toUpperCase();
+		pe.onclick   = kappa.MenuOnClick;
+		pe.mytype    = 'provider';
+		pe.myval     = pkey;
+		
+		kappa.Providers.appendChild(pe);
+	}
+	
+	for (var skey in selectors)
+	{
+		var ep = document.createElement('span');
+		ep.style.display	 	 = 'inline-block'
+		ep.style.width  	 	 = '52px';
+		ep.style.height 	 	 = '15px';
+		ep.style.textAlign   	 = 'center';
+		ep.style.borderRight 	 = '1px solid grey';
+		ep.style.borderBottom	 = '1px solid grey';
+		ep.style.fontWeight		 = (skey == kappa.selector) ? 'bold' : 'normal';
+		ep.style.backgroundColor = '#ffffff';
+		
+		ep.innerHTML = skey.toUpperCase();
+		ep.onclick   = kappa.MenuOnClick;
+		ep.mytype    = 'selector';
+		ep.myval     = skey;
+
+		kappa.Selectors.appendChild(ep);
+	}
+}
+
 kappa.InitializeInfo = function()
 {
 	kappa.Info = document.createElement('div');
-	
 	kappa.Info.style.position  		 = 'absolute';
-	kappa.Info.style.width     		 = '200px';
-	kappa.Info.style.height    		 = '402px';
-	kappa.Info.style.top       		 = '40px';
+	kappa.Info.style.top       		 = '96px';
 	kappa.Info.style.right     		 = '6px';
-	kappa.Info.style.border    		 = '1px solid grey';
+	kappa.Info.style.width     		 = '203px';
+	kappa.Info.style.height    		 = '402px';
 	kappa.Info.style.whiteSpace		 = 'nowrap';
 	kappa.Info.style.overflow  		 = 'hidden';
 	kappa.Info.style.padding    	 = '4px';
 	kappa.Info.style.fontSize  		 = 'small';
 	kappa.Info.style.fontWeight		 = 'normal';
 	kappa.Info.style.fontFamily 	 = 'arial';
-	kappa.Info.style.boxShadow  	 = '6px 6px 5px #aaa';
 	kappa.Info.style.lineHeight  	 = '15px';
+	kappa.Info.style.border    		 = '1px solid grey';
+	kappa.Info.style.boxShadow  	 = '6px 6px 5px #aaa';
 	kappa.Info.style.backgroundColor = '#ffffff';
-
+	kappa.Info.style.fontSize  		 = 'small';
+	kappa.Info.style.fontWeight		 = 'normal';
+	kappa.Info.style.fontFamily 	 = 'arial';
 	document.body.appendChild(kappa.Info);
 	
 	kappa.Info.divIndex = new Object();
@@ -164,6 +380,13 @@ kappa.MapCallback = function(map)
 	if (! kappa.Map) kappa.Map = new Array();
 	
 	kappa.Map = kappa.Map.concat(map);
+	
+	if (++kappa.mapsloaded == kappa.mapstoload) 
+	{
+		kappa.EndpointsDraw();
+		kappa.ZoomChanged();
+    	kappa.CenterChanged();
+	}
 } 
 
 kappa.RoutersCallback = function(routers)
@@ -405,6 +628,7 @@ kappa.Initialize = function()
     google.maps.event.addListener(kappa.map,'zoom_changed',kappa.ZoomChanged);
     google.maps.event.addListener(kappa.map,'center_changed',kappa.CenterChanged);
 	
+	kappa.InitializeMenu();
 	kappa.InitializeInfo();
 	kappa.InitializeLabel();
 
@@ -560,12 +784,10 @@ kappa.Initialize = function()
         new google.maps.Size(21,34),
         new google.maps.Point(0,0),
         new google.maps.Point(10,34));
-        
-        
-        
-        
-        
-        
+
+
+
+
     kappa.RouterPoint = new google.maps.MarkerImage(
     	'http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|' + '8888dd',
         new google.maps.Size(21,34),
@@ -590,14 +812,11 @@ kappa.Initialize = function()
     kappa.SignalDead.src = 'snd/sound.sirene.wav';
     kappa.SignalDead.preload = true;
 
-	kappa.EndpointsDraw();
-
 	//kappa.NetworkDraw();
 	//kappa.RoutersDraw();
 	//kappa.GatewaysDraw();
 	
-	kappa.ZoomChanged();
-    kappa.CenterChanged();
+	window.setTimeout('kappa.InitializeMaps()',1000);
 }
 
 kappa.setSignal = function(signal)

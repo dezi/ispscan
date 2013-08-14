@@ -233,7 +233,7 @@ function InspectRange($ipfrom,$iptoto,$netbound = 1,$nowrite = false)
 				
 				$ipzero = substr($line,0,15);
 				$rest   = substr($line,15);
-			
+
 				$tunenet[ $ipzero  ] = $rest;
 				$tuneips[ $netfrom ] = $ipzero;
 				
@@ -296,7 +296,7 @@ function InspectRange($ipfrom,$iptoto,$netbound = 1,$nowrite = false)
 		
 		$binfrom = IP2Bin($ipfrom);
 		$bintoto = IP2Bin($iptoto);
-			
+
 		foreach ($notracesdata as $noip => $dummyip)
 		{
 			$ipbin = IP2Bin($noip);
@@ -382,8 +382,11 @@ function InspectRange($ipfrom,$iptoto,$netbound = 1,$nowrite = false)
 				$lastgates[ $lastgate ] = true;
 			}
 			
-			if (count($lasthops) == 0)
+			if ((count($lasthops) == 0) || isset($notraces[ IPZero($from) ]))
 			{
+				$lasthops  = array();
+				$lastgates = array();
+				
 				//
 				// We have a network with probably non tracing
 				// routers. Retry with manual config list.
@@ -397,27 +400,45 @@ function InspectRange($ipfrom,$iptoto,$netbound = 1,$nowrite = false)
 					if (substr($lasthop,0,11) != substr(IPZero($from),0,11)) continue;
 				
 					$lasthop = IPZero(array_pop($path));
-				
+					
 					if ($lasthop == "000.000.000.000")
 					{
-						//
-						// Gateway is a notraceroute router. 
-						// Try to find in config list and substitute.
-						//
-					
 						if (isset($notraces[ IPZero($from) ]))
 						{
+							//
+							// Gateway is a configured notraceroute router. 
+							//
+						
 							$lasthop = $notraces[ IPZero($from) ];
 						}
 						else
 						{
-							echo "NOTRACE:" . IPZero($from) . "\n";
-							fputs($logfd,"NOTRACE:" . IPZero($from) . "\n");
-						
-							continue;
+							//
+							// Gateway is a spacko gateway. just pop another hop.
+							//
+							
+							$lasthop = IPZero(array_pop($path));
 						}
 					}
-				
+					else
+					{
+						if (isset($notraces[ IPZero($from) ]))
+						{
+							//
+							// Gateway is a configure phantom router.
+							//
+
+							array_push($path,$lasthop);
+							
+							echo "NOVISIBLE:" . IPZero($from) . "\n";
+							fputs($logfd,"NOVISIBLE:" . IPZero($from) . "\n");
+
+							$lasthop = $notraces[ IPZero($from) ];
+						}
+					}
+					
+					if ($lasthop == "000.000.000.000") continue;
+
 					$lastgate = IPZero(array_pop($path));
 					if ($lastgate == "000.000.000.000") continue;
 				
@@ -546,7 +567,7 @@ function InspectRange($ipfrom,$iptoto,$netbound = 1,$nowrite = false)
 			echo IPZero($from - 2) . $tunenet[ IPZero($from - 2) ]. "\n";
 			fputs($logfd,IPZero($from - 2) . $tunenet[ IPZero($from - 2) ]. "\n");
 			
-			$gwtag = "*";
+			$gwtag = isset($tunenet[ IPZero($from - 1) ]) ? substr($tunenet[ IPZero($from - 1) ],2,1) : "*";
 				
 			if ($gwcount > $netdiv)   $gwtag = "?";
 			if (! IsPower2($gwcount)) $gwtag = "?";
