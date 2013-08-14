@@ -4,6 +4,7 @@ var/xx/geoip/
 var/de/kd/backups/
 var/de/kd/domains/
 var/de/kd/endping/
+var/de/kd/eplping/
 var/de/kd/explore/
 var/de/kd/keepmes/
 var/de/kd/mapdata/
