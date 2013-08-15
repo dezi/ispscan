@@ -1598,8 +1598,7 @@
 031.017.071.255=0*1
 =======8
 031.017.072.000=0 DE,Schleswig-Holstein,Lübeck,53.8667,10.7
-031.017.072.000=0 DE,Schleswig-Holstein,Timmendorfer Strand,54,10.7833
-031.017.072.000!0 DE,Schleswig-Holstein,Timmendorfer Strand,53.9858,10.7744
+031.017.072.000=0 DE,Schleswig-Holstein,Timmendorfer Strand,53.9858,10.7744
 083.169.172.153@
 083.169.172.145@
 031.017.073.000=0 DE,Schleswig-Holstein,Timmendorfer Strand,53.9858,10.7744
@@ -2813,8 +2812,6 @@
 031.018.094.255=0*1
 -------
 031.018.095.000=0 DE,Niedersachsen,Soltau,52.9833,9.8333
-031.018.095.000=0 DE,Niedersachsen,Munster,52.9833,10.0833
-031.018.095.000!0 DE,Niedersachsen,Soltau,52.9833,9.8333
 001.000.000.018@
 083.169.129.157~DE,Hamburg,Hamburg,53.55,10
 083.169.129.141~DE,Hamburg,Hamburg,53.55,10
@@ -2927,8 +2924,7 @@
 031.018.128.255=0*1
 -------
 031.018.129.000=0 DE,Niedersachsen,Celle,52.6167,10.0833
-031.018.129.000=0 DE,Niedersachsen,Uelzen,52.9667,10.5667
-031.018.129.000!0 DE,Niedersachsen,Uelzen,52.9675,10.5615
+031.018.129.000=0 DE,Niedersachsen,Uelzen,52.9675,10.5615
 001.000.000.019@
 083.169.129.141~DE,Hamburg,Hamburg,53.55,10
 083.169.129.157~DE,Hamburg,Hamburg,53.55,10
@@ -3250,8 +3246,7 @@
 031.018.203.255=0*4
 -------
 031.018.204.000=0 DE,Mecklenburg-Vorpommern,Rostock,54.0833,12.1333
-031.018.204.000=0 DE,Mecklenburg-Vorpommern,Neustadt-Glewe,53.3833,11.5833
-031.018.204.000!0 DE,Mecklenburg-Vorpommern,Parchim,53.4284,11.843
+031.018.204.000=0 DE,Mecklenburg-Vorpommern,Parchim,53.4284,11.843
 088.134.196.254@
 031.018.205.000=5 DE,Mecklenburg-Vorpommern,Neustadt-Glewe,53.3833,11.5833
 088.134.196.254@
@@ -3354,17 +3349,13 @@
 031.018.227.255=0*1
 -------
 031.018.228.000=0 DE,Niedersachsen,Celle,52.6167,10.0833
-031.018.228.000=0 DE,Niedersachsen,Uelzen,52.9667,10.5667
-031.018.228.000!0 DE,Niedersachsen,Uelzen,52.9675,10.5615
+031.018.228.000=0 DE,Niedersachsen,Uelzen,52.9675,10.5615
 001.000.000.020@
-031.018.229.000=0 DE,Niedersachsen,Uelzen,52.9667,10.5667
-031.018.229.000!0 DE,Niedersachsen,Uelzen,52.9675,10.5615
+031.018.229.000=0 DE,Niedersachsen,Uelzen,52.9675,10.5615
 001.000.000.020@
-031.018.230.000=0 DE,Niedersachsen,Uelzen,52.9667,10.5667
-031.018.230.000!0 DE,Niedersachsen,Uelzen,52.9675,10.5615
+031.018.230.000=0 DE,Niedersachsen,Uelzen,52.9675,10.5615
 001.000.000.020@
-031.018.231.000=0 DE,Niedersachsen,Uelzen,52.9667,10.5667
-031.018.231.000!0 DE,Niedersachsen,Uelzen,52.9675,10.5615
+031.018.231.000=0 DE,Niedersachsen,Uelzen,52.9675,10.5615
 001.000.000.020@
 083.169.129.141~DE,Hamburg,Hamburg,53.55,10
 083.169.129.157~DE,Hamburg,Hamburg,53.55,10
@@ -3374,8 +3365,7 @@
 031.018.231.255=0*4
 =======8
 031.018.232.000=2 DE,Schleswig-Holstein,Neumünster,54.0667,9.9833
-031.018.232.000=2 DE,Schleswig-Holstein,Bad Bramstedt,53.9167,9.8833
-031.018.232.000!0 DE,Schleswig-Holstein,Kaltenkirchen,53.8333,9.9667
+031.018.232.000=0 DE,Schleswig-Holstein,Kaltenkirchen,53.8333,9.9667
 088.134.192.205@
 088.134.219.009@
 088.134.219.001@
@@ -3531,8 +3521,7 @@
 031.019.007.255=0*2
 =======8
 031.019.008.000=5 DE,Schleswig-Holstein,Pinneberg,53.65,9.8
-031.019.008.000=2 DE,Schleswig-Holstein,Rellingen,53.65,9.8167
-031.019.008.000!0 DE,Schleswig-Holstein,Halstenbek,53.6333,9.85
+031.019.008.000=0 DE,Schleswig-Holstein,Halstenbek,53.6333,9.85
 088.134.192.188@
 088.134.192.189@
 083.169.173.177@
@@ -3644,8 +3633,7 @@
 031.019.027.255=0*4
 -------
 031.019.028.000=0 DE,Mecklenburg-Vorpommern,Rostock,54.0833,12.1333
-031.019.028.000=0 DE,Mecklenburg-Vorpommern,Greifswald,54.1,13.3833
-031.019.028.000!0 DE,Mecklenburg-Vorpommern,Greifswald,54.0881,13.3876
+031.019.028.000=0 DE,Mecklenburg-Vorpommern,Greifswald,54.0881,13.3876
 088.134.193.029@
 088.134.193.030@
 031.019.029.000=0 DE,Mecklenburg-Vorpommern,Greifswald,54.0881,13.3876
@@ -3735,8 +3723,7 @@
 031.019.047.255=0*8
 =======16
 031.019.048.000=0 DE,Mecklenburg-Vorpommern,Rostock,54.0833,12.1333
-031.019.048.000=0 DE,Mecklenburg-Vorpommern,Greifswald,54.1,13.3833
-031.019.048.000!0 DE,Mecklenburg-Vorpommern,Greifswald,54.0881,13.3876
+031.019.048.000=0 DE,Mecklenburg-Vorpommern,Greifswald,54.0881,13.3876
 088.134.193.029@
 088.134.193.030@
 088.134.193.175~88-134-193-175-dynip.superkabel.de
@@ -3745,8 +3732,7 @@
 031.019.048.255=0*1
 -------
 031.019.049.000=2 DE,Schleswig-Holstein,Neumünster,54.0667,9.9833
-031.019.049.000=2 DE,Schleswig-Holstein,Henstedt-Ulzburg,53.7833,10
-031.019.049.000!0 DE,Schleswig-Holstein,Bad Bramstedt,53.9167,9.8833
+031.019.049.000=0 DE,Schleswig-Holstein,Bad Bramstedt,53.9167,9.8833
 088.134.219.001@
 088.134.219.009@
 088.134.192.204@
@@ -3759,8 +3745,7 @@
 031.019.049.255=0*1
 -------
 031.019.050.000=0 DE,Niedersachsen,Celle,52.6167,10.0833
-031.019.050.000=0 DE,Niedersachsen,Uelzen,52.9667,10.5667
-031.019.050.000!0 DE,Schleswig-Holstein,Winsen,53.3484,10.2068
+031.019.050.000=0 DE,Schleswig-Holstein,Winsen,53.3484,10.2068
 083.169.157.033@
 083.169.156.033@
 083.169.129.161~DE,Hamburg,Hamburg,53.55,10
@@ -3850,8 +3835,7 @@
 031.019.067.255=0*4
 -------
 031.019.068.000=0 DE,Mecklenburg-Vorpommern,Rostock,54.0833,12.1333
-031.019.068.000=0 DE,Mecklenburg-Vorpommern,Greifswald,54.1,13.3833
-031.019.068.000!0 DE,Mecklenburg-Vorpommern,Greifswald,54.0902,13.4464
+031.019.068.000=0 DE,Mecklenburg-Vorpommern,Greifswald,54.0902,13.4464
 088.134.193.029@
 088.134.193.030@
 031.019.069.000=5 DE,Mecklenburg-Vorpommern,Greifswald,54.1,13.3833
@@ -3941,8 +3925,7 @@
 031.019.083.255=0*4
 -------
 031.019.084.000=0 DE,Mecklenburg-Vorpommern,Rostock,54.0833,12.1333
-031.019.084.000=0 DE,Mecklenburg-Vorpommern,Greifswald,54.1,13.3833
-031.019.084.000!0 DE,Mecklenburg-Vorpommern,Greifswald,54.0902,13.4464
+031.019.084.000=0 DE,Mecklenburg-Vorpommern,Greifswald,54.0902,13.4464
 088.134.193.029@
 088.134.193.030@
 031.019.085.000=0 DE,Mecklenburg-Vorpommern,Greifswald,54.0902,13.4464

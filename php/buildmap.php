@@ -64,13 +64,29 @@
 	
 	$oldeplping = array();
 	
-	$dfd = opendir("../var/$isp/eplping");
+	if (file_exists("../var/$isp/eplping"))
+	{
+		$dfd = opendir("../var/$isp/eplping");
+	
+		while (($file = readdir($dfd)) !== false)
+		{
+			if (substr($file,0,1) == ".") continue;
+		
+			$oldeplping[ "../var/$isp/eplping/$file" ] = true;
+		}
+	
+		closedir($dfd);
+	}
+	
+	$olduplping = array();
+	
+	$dfd = opendir("../var/$isp/uplping");
 	
 	while (($file = readdir($dfd)) !== false)
 	{
 		if (substr($file,0,1) == ".") continue;
 		
-		$oldeplping[ "../var/$isp/eplping/$file" ] = true;
+		$olduplping[ "../var/$isp/uplping/$file" ] = true;
 	}
 	
 	closedir($dfd);
@@ -97,10 +113,10 @@
 	$bonusnailed = array();
 	
 	$bonusnailed[ "xxxxx"  				] =  "xxxxxxxxx";
-	$bonusnailed[ "xxxxx"  				] =  "xxxxxxxxx";
-	$bonusnailed[ "xxxxx"  				] =  "xxxxxxxxx";
-	$bonusnailed[ "xxxxx"  				] =  "xxxxxxxxx";
-	$bonusnailed[ "xxxxx"  				] =  "xxxxxxxxx";
+	$bonusnailed[ "Günzburg"  			] =  "DE,Bayern,Günzburg,48.45,10.2667";
+	$bonusnailed[ "Amberg"  			] =  "DE,Bayern,Amberg,49.4502,11.848";
+	$bonusnailed[ "Weiden"  			] =  "DE,Bayern,Weiden,49.7,12.2333";
+	$bonusnailed[ "Bautzen"  			] =  "DE,Sachsen,Bautzen,51.1833,14.4333";
 	$bonusnailed[ "Rennerod"  			] =  "DE,Rheinland-Pfalz,Rennerod,50.6167,8.0667";
 	$bonusnailed[ "Lindau"  			] =  "DE,Bayern,Lindau,47.55,9.6833";
 	$bonusnailed[ "Marktredwitz" 		] =  "DE,Bayern,Marktredwitz,50.0103,12.1008";
@@ -179,7 +195,6 @@
 	$bonusnailed[ "Helmstedt"  			] =  "DE,Niedersachsen,Helmstedt,52.2316,11.0018";
 	$bonusnailed[ "Weilheim"  			] =  "DE,Bayern,Weilheim,47.8376,11.1489";
 	$bonusnailed[ "München"  			] =  "DE,Bayern,München,48.15,11.5833";
-	$bonusnailed[ "Amberg"  			] =  "DE,Bayern,Amberg,49.4414,11.8622";
 	$bonusnailed[ "Heide"  				] =  "DE,Schleswig-Holstein,Heide,54.2,9.1";
 	$bonusnailed[ "Einbeck"  			] =  "DE,Niedersachsen,Einbeck,51.8167,9.8667";
 	$bonusnailed[ "Berlin"  			] =  "DE,Berlin,Berlin,52.5167,13.4";
@@ -729,9 +744,9 @@
 		$final = "../www/$isp/$tobuild.map";
 	
 		$json = json_encdat($map) . "\n";
-		file_put_contents($final . ".json",$json);
+		//file_put_contents($final . ".json",$json);
 	
-		$json = "kappa.MapCallback(\n" . $json . ");\n";
+		$json = "kappa.EndpointsCallback(\n" . $json . ");\n";
 		file_put_contents($final . ".js",$json);
 	}
 	
@@ -796,17 +811,6 @@
 		
 		ksort($gateways[ $routerip ]);
 		
-		if (substr($routerip,0,7) == "001.000")
-		{
-			//
-			// Move dummy locations at end.
-			//
-			
-			unset($gateways[ $routerip ]);
-			
-			$gateways[ $routerip ] = $subnets;
-		}
-		
 		if (count(GetDifferentGetCities($subnets)) == 1)
 		{
 			//
@@ -852,6 +856,24 @@
 		}
 	}
 	
+	foreach ($gateways as $routerip => $subnets)
+	{
+		if (substr($routerip,0,7) == "001.000")
+		{
+			//
+			// Move dummy locations at end.
+			//
+			
+			unset($gateways[ $routerip ]);
+			
+			$gateways[ $routerip ] = $subnets;
+		}
+		
+		$uplpingfile = "../var/$isp/uplping/$routerip.ping.json";
+		
+		if (isset($olduplping[ $uplpingfile ])) unset($olduplping[ $uplpingfile ]);
+	}
+	
 	ksort($notracecandidates);
 	
 	$notracecandidatesfile = "../var/$isp/mapdata/notraces.json";
@@ -880,7 +902,7 @@
 		
 		foreach ($subnets as $subnetip => $location)
 		{
-			array_push($uplink[ "eps" ],$subnetip);
+			array_push($uplink[ "eps" ],$subnetip . ":" . $location);
 			if ($uplink[ "loc" ] != null) continue;
 			
 			$parts = explode(",",$location);
@@ -914,21 +936,28 @@
 	//
 	
 	ksort($oldsubnets);
-	
 	foreach ($oldsubnets as $file => $dummy)
 	{
 		echo "Obsolete: $file\n";
 		@unlink($file);
 	}
-
 	
+	ksort($oldendping);
 	foreach ($oldendping as $file => $dummy)
 	{
 		echo "Obsolete: $file\n";
 		@unlink($file);
 	}
-
+	
+	ksort($oldeplping);
 	foreach ($oldeplping as $file => $dummy)
+	{
+		echo "Obsolete: $file\n";
+		@unlink($file);
+	}
+
+	ksort($olduplping);
+	foreach ($olduplping as $file => $dummy)
 	{
 		echo "Obsolete: $file\n";
 		@unlink($file);

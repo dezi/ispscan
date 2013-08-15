@@ -34,7 +34,6 @@ function Ping_Block($from,$toto)
 	return floor(($alive * 100) / $total);
 }
 
-	/*
 	while (true)
 	{
 		foreach ($toping as $dummy => $ping)
@@ -46,7 +45,6 @@ function Ping_Block($from,$toto)
 	}
 
 	exit();
-	*/
 		
 	$json = json_decdat(file_get_contents("../var/de/kd/mapdata/eplinks.json"));
 	

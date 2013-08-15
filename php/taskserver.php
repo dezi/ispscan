@@ -543,7 +543,7 @@ function ScheduleEndpingTask($task,&$request)
 	
 	foreach ($endpings as $file => $time)
 	{
-		if ((time() - $time) > 300)
+		if ((time() - $time) > 600)
 		{
 			$subnetdata = json_decdat(file_get_contents("../var/$isp/subnets/$file"));		
 			
@@ -608,11 +608,13 @@ function ScheduleEndpingTask($task,&$request)
 	$request[ "best" ] = &$bestlist;
 	$request[ "maxp" ] = 255;
 	
+	/*
 	if (isset($subnetdata[ "gw" ]))
 	{
 		$request[ "gate" ] = $subnetdata[ "gw" ];
 		$trans  [ "gate" ] = $subnetdata[ "gw" ];
 	}
+	*/
 	
 	$trans[ "consume" ] = "endping";
 	$trans[ "isp" 	  ] = $isp;
@@ -806,7 +808,7 @@ function ConsumeEndpingTask($trans,$reply,$remote_host,$remote_port)
 		file_put_contents($nopingsefile,$nopingsejson);
 		
 		$nopingsejson = "kappa.EndpointsNopingsCallback(\n$nopingsejson);\n";	
-		$nopingsefile = "../www/$isp/endpoints.nopings.js";
+		$nopingsefile = "../www/$isp/nopings.endpoints.js";
 		file_put_contents($nopingsefile,$nopingsejson);
 	}
 	
@@ -836,8 +838,8 @@ function ScheduleUplpingTask($task,&$request)
 	if (! IsVersion($task,"1.03")) return;
 	
 	$isp = GetRandomISP("mapdata/uplinks.json");
-	$isp = "de/kd";
-	
+	if ($request[ "isp" ] != $isp) return;
+
 	if (! isset($GLOBALS[ $isp ])) $GLOBALS[ $isp ] = array();
 	
 	if (! is_dir("../var/$isp/results")) mkdir("../var/$isp/results",0777);
@@ -1051,7 +1053,7 @@ function ConsumeUplpingTask($trans,$reply,$remote_host,$remote_port)
 		file_put_contents($nopingsufile,$nopingsujson);
 		
 		$nopingsujson = "kappa.UplinksNopingsCallback(\n$nopingsujson);\n";	
-		$nopingsufile = "../www/$isp/uplinks.nopings.js";
+		$nopingsufile = "../www/$isp/nopings.uplinks.js";
 		file_put_contents($nopingsufile,$nopingsujson);
 	}
 	
@@ -1072,7 +1074,7 @@ function ScheduleEplpingTask($task,&$request)
 	if (! IsVersion($task,"1.03")) return;
 	
 	$isp = GetRandomISP("mapdata/eplinks.json");
-	$isp = "de/kd";
+	if ($request[ "isp" ] != $isp) return;
 	
 	if (! isset($GLOBALS[ $isp ])) $GLOBALS[ $isp ] = array();
 	
@@ -1287,7 +1289,7 @@ function ConsumeEplpingTask($trans,$reply,$remote_host,$remote_port)
 		file_put_contents($nopingseplfile,$nopingsepljson);
 		
 		$nopingsepljson = "kappa.EplinksNopingsCallback(\n$nopingsepljson);\n";	
-		$nopingseplfile = "../www/$isp/eplinks.nopings.js";
+		$nopingseplfile = "../www/$isp/nopings.eplinks.js";
 		file_put_contents($nopingseplfile,$nopingsepljson);
 	}
 	
