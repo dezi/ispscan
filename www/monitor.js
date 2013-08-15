@@ -1486,7 +1486,7 @@ kappa.BackbonesDraw = function()
 		
 		var nl = (uplmarker.subnets % 3) ? '\n' : '\n';
 		var ac = isalive ? '+' : '-';
-		var ip = uplink.ip.replace(/^001.000./,'???.???.');
+		var ip = uplink.ip.replace(/^001.000./,'XXX.XXX.');
 		
 		uplmarker.setTitle(uplmarker.getTitle() + nl + ip + ac);
 		uplmarker.subnets++;
