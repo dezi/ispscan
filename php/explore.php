@@ -425,7 +425,7 @@ function InspectRange($ipfrom,$iptoto,$netbound = 1,$nowrite = false)
 						if (isset($notraces[ IPZero($from) ]))
 						{
 							//
-							// Gateway is a configure phantom router.
+							// Gateway is a configured phantom router.
 							//
 
 							array_push($path,$lasthop);
@@ -804,7 +804,6 @@ function Explore($isp,$minsize,$netbound)
 
   //InspectRange("084.144.000.000","084.144.255.255",8,true);
 	
-	/*
 	InspectRange("046.080.000.000","046.095.255.255",8);	
 	InspectRange("079.192.000.000","079.255.255.255",8);
 	InspectRange("084.128.000.000","084.191.255.255",8);
@@ -817,7 +816,6 @@ function Explore($isp,$minsize,$netbound)
 	InspectRange("217.000.000.000","217.007.255.255",8);
 	InspectRange("217.080.000.000","217.095.255.255",8);
 	InspectRange("217.224.000.000","217.255.255.255",8);	
-	*/
 	
 	//Explore("de/tk",500000,8);
 	
@@ -825,6 +823,7 @@ function Explore($isp,$minsize,$netbound)
 	// KD
 	//
 
+	/*
 	InspectRange("024.134.000.000","024.134.255.255",8);
 	InspectRange("031.016.000.000","031.019.255.255",8);
 	InspectRange("037.004.000.000","037.005.255.255",8);
@@ -837,5 +836,5 @@ function Explore($isp,$minsize,$netbound)
 	InspectRange("146.052.000.000","146.052.255.255",8);
 	InspectRange("178.024.000.000","178.027.255.255",8);
 	InspectRange("188.192.000.000","188.195.255.255",8);
-
+	*/
 ?>

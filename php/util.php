@@ -1,5 +1,66 @@
 <?php
 
+$GLOBALS[ "knownisp" ] = array();
+$GLOBALS[ "knownisp" ][ "Kabel Deutschland Vertrieb und Service GmbH" ] = "de/kd";
+$GLOBALS[ "knownisp" ][ "Deutsche Telekom AG" 						  ] = "de/tk";
+$GLOBALS[ "knownisp" ][ "Telekom Deutschland GmbH" 					  ] = "de/tk";
+
+function ResolveISP($ip)
+{
+	if (isset($GLOBALS[ "ispcache" ]) &&
+		isset($GLOBALS[ "ispcache" ][ $ip ]))
+	{
+		return $GLOBALS[ "ispcache" ][ $ip ];
+	}
+		
+	if (! isset($GLOBALS[ "isplist" ]))
+	{
+		$lines = file("../lib/Nirsoft.ISP.de.csv");
+		
+		$isplist = array();
+
+		foreach ($lines as $line)
+		{
+			$parts = explode(",",trim($line));
+			if (count($parts) != 5) continue;
+			
+			$entry = array();
+			
+			$entry[ "from" ] = IP_Bin($parts[ 0 ]);
+			$entry[ "upto" ] = IP_Bin($parts[ 1 ]);
+			$entry[ "name" ] = $parts[ 4 ];
+			
+			array_push($isplist,$entry);
+		}
+		
+		$GLOBALS[ "isplist" ] = $isplist;
+	}
+
+	$ipbin = IP_Bin($ip);
+	$isplist = $GLOBALS[ "isplist" ];
+	
+	foreach ($isplist as $entry)
+	{
+		if ($ipbin < $entry[ "from" ]) continue;
+		if ($ipbin > $entry[ "upto" ]) continue;
+
+		if (! isset($GLOBALS[ "knownisp" ][ $entry[ "name" ] ])) break;
+		
+		$isp = $GLOBALS[ "knownisp" ][ $entry[ "name" ] ];
+		
+		if (! isset($GLOBALS[ "ispcache" ]))
+		{
+			$GLOBALS[ "ispcache" ] = array();
+		}
+		
+		$GLOBALS[ "ispcache" ][ $ip ] = $isp;
+		
+		return $isp;
+	}
+	
+	return "xx/xx";
+}
+
 function KappaRound($val)
 {
 	return floor($val * 1000) / 1000.0;
@@ -54,7 +115,7 @@ function Fix_City($city)
 	return $city;
 }
 
-function GetDifferentGetCities($subnets)
+function GetDifferentCities($subnets)
 {
 	$difflocs = array();
 	
@@ -97,6 +158,8 @@ function GetDifferentLocations($subnets)
 		{
 			$loc = substr($loc,3);
 		}
+		
+		if ($loc == "n.n.") continue;
 		
 		$difflocs[ $loc ] = true;
 	}
@@ -141,7 +204,18 @@ function Bin_IP($bin)
 
 function IPZero($ip)
 {
-	return Bin_IPZero(IP_Bin($ip));
+	$bin = strpos($ip,".") ? IP_Bin($ip) : $ip;
+	
+	$ip = str_pad((($bin >> 24) & 0xff),3,"0",STR_PAD_LEFT)
+		. "."
+		. str_pad((($bin >> 16) & 0xff),3,"0",STR_PAD_LEFT)
+		. "."
+		. str_pad((($bin >>  8) & 0xff),3,"0",STR_PAD_LEFT)
+		. "."
+		. str_pad((($bin >>  0) & 0xff),3,"0",STR_PAD_LEFT)
+		; 
+
+	return $ip;
 }
 
 function IP($ip)

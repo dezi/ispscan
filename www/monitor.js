@@ -638,11 +638,17 @@ kappa.Initialize = function()
     kappa.SegPointDead 	 = new google.maps.MarkerImage('img/map.point.lt-green-red.png',ps,or,an);
     kappa.SegPointEvent  = new google.maps.MarkerImage('img/map.point.lt-green-yellow.png',ps,or,an);
    
-    kappa.UplPointzIndex = 5000;
+    kappa.UplPointzIndex = 4000;
     
     kappa.UplPoint		 = new google.maps.MarkerImage('img/map.point.lt-violett.png',ps,or,an);
     kappa.UplPointDead	 = new google.maps.MarkerImage('img/map.point.lt-violett-red.png',ps,or,an);
     kappa.UplPointEvent	 = new google.maps.MarkerImage('img/map.point.lt-violett-yellow.png',ps,or,an);
+    
+    kappa.BboPointzIndex = 5000;
+    
+    kappa.BboPoint		 = new google.maps.MarkerImage('img/map.point.violett.png',ps,or,an);
+    kappa.BboPointDead	 = new google.maps.MarkerImage('img/map.point.violett-red.png',ps,or,an);
+    kappa.BboPointEvent	 = new google.maps.MarkerImage('img/map.point.violett-yellow.png',ps,or,an);
         
     kappa.LocPointzIndex = 3000;
     
@@ -1433,7 +1439,11 @@ kappa.BackbonesRequest = function()
 	var uplload = document.createElement('script');
 	uplload.src = kappa.country + '/' + kappa.provider + '/' + 'uplinks.map.js' + '?rnd=' + Math.random();
 	document.body.appendChild(uplload);
-		
+	kappa.backbonestoload++;
+	
+	var bboneload = document.createElement('script');
+	bboneload.src = kappa.country + '/' + kappa.provider + '/' + 'backbones.map.js' + '?rnd=' + Math.random();
+	document.body.appendChild(bboneload);		
 	kappa.backbonestoload++;
 }
 
@@ -1443,6 +1453,20 @@ kappa.UplinksCallback = function(uplinks)
 	
 	if (++kappa.backbonesloaded == kappa.backbonestoload) 
 	{
+		kappa.UplinksDraw();
+		kappa.BackbonesDraw();
+		kappa.ZoomChanged();
+    	kappa.CenterChanged();
+	}
+} 
+
+kappa.BackbonesCallback = function(backbones)
+{
+	kappa.Backbones = backbones;
+	
+	if (++kappa.backbonesloaded == kappa.backbonestoload) 
+	{
+		kappa.UplinksDraw();
 		kappa.BackbonesDraw();
 		kappa.ZoomChanged();
     	kappa.CenterChanged();
@@ -1450,6 +1474,110 @@ kappa.UplinksCallback = function(uplinks)
 } 
 
 kappa.BackbonesDraw = function()
+{
+	kappa.Bbopoints = new Object();
+	
+	for (var binx in kappa.Backbones)
+	{		
+		var backbone = kappa.Backbones[ binx ];
+
+		var bbolat  = kappa.Round(backbone.loc.lat);
+		var bbolon  = kappa.Round(backbone.loc.lon);
+		
+		var isalive = ! (kappa.BackbonesNopings && kappa.BackbonesNopings.nopings[ backbone.ip ]);
+		
+		var markerkey = bbolat + '/' + bbolon;
+		var bbomarker = kappa.Bbopoints[ markerkey ];
+				
+		if (! bbomarker)
+		{
+			bbomarker = new google.maps.Marker
+			({
+				map      : kappa.map,
+				position : new google.maps.LatLng(bbolat,bbolon),
+				zIndex	 : kappa.BboPointzIndex + (isalive ? 0 : 10000),
+				icon	 : isalive ? kappa.BboPoint : kappa.BboPointDead,
+				visible  : true,
+				title    : backbone.loc.city
+			});
+			
+			google.maps.event.addListener(bbomarker,'click',kappa.EndpointClick);
+
+			kappa.Bbopoints[ markerkey ] = bbomarker;
+			
+			bbomarker.isalive  = isalive;
+			bbomarker.isrouter = true;
+			bbomarker.subnets  = 0;
+		}
+		
+		var nl = (bbomarker.subnets % 3) ? '\n' : '\n';
+		var ac = isalive ? '+' : '-';
+		var ip = backbone.ip.replace(/^001.000./,'XXX.XXX.');
+		
+		bbomarker.setTitle(bbomarker.getTitle() + nl + ip + ac);
+		bbomarker.subnets++;
+		
+		if (! isalive) 
+		{	
+			bbomarker.isalive = false;
+
+			bbomarker.setZIndex(kappa.BboPointzIndex + 10000);
+			bbomarker.setIcon(kappa.BboPointDead);
+		}
+		
+		for (var lip in backbone.upls)
+		{
+			var link  = backbone.upls[ lip ];
+			var parts = link.split(',');
+
+			var upllat = kappa.Round(parseFloat(parts[ 3 ])); 
+			var upllon = kappa.Round(parseFloat(parts[ 4 ]));
+
+			var path = 
+			[
+				new google.maps.LatLng(bbolat,bbolon),
+				new google.maps.LatLng(upllat,upllon)
+			];
+	
+			line = new google.maps.Polyline
+			({
+				map      	  : kappa.map,
+				path          : path,
+				visible       : true,
+				strokeColor   : '#8888ff',
+				strokeWeight  : 2.0,
+				strokeOpacity : 1.0
+			});
+		}
+
+		for (var lip in backbone.bbls)
+		{
+			var link  = backbone.bbls[ lip ];
+			var parts = link.split(',');
+
+			var upllat = kappa.Round(parseFloat(parts[ 3 ])); 
+			var upllon = kappa.Round(parseFloat(parts[ 4 ]));
+
+			var path = 
+			[
+				new google.maps.LatLng(bbolat,bbolon),
+				new google.maps.LatLng(upllat,upllon)
+			];
+	
+			line = new google.maps.Polyline
+			({
+				map      	  : kappa.map,
+				path          : path,
+				visible       : true,
+				strokeColor   : '#4444ff',
+				strokeWeight  : 2.0,
+				strokeOpacity : 1.0
+			});
+		}
+	}
+}
+
+kappa.UplinksDraw = function()
 {
 	kappa.Uplpoints = new Object();
 	
@@ -1627,10 +1755,10 @@ kappa.EndpointsDraw = function()
 				isalive = false;
 			}
 			
-			if ((Math.abs(seglat - fixlat) < 0.500) && 
-				(Math.abs(seglon - fixlon) < 0.500))
+			if ((Math.abs(seglat - fixlat) < 1.000) && 
+				(Math.abs(seglon - fixlon) < 1.000))
 			{
-				//continue;
+				continue;
 			}
 			
 			if ((Math.abs(seglat - fixlat) < 0.001) && 

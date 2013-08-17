@@ -1536,10 +1536,9 @@
 037.005.083.254=1+
 037.005.083.255=0*4
 -------
-037.005.084.000=0 DE,Mecklenburg-Vorpommern,Rostock,54.0833,12.1333
-037.005.084.000=0 DE,Mecklenburg-Vorpommern,Malchin,53.65,12.6833
+037.005.084.000=0 DE,Berlin,Berlin,52.5167,13.4
 083.169.180.146@
-037.005.085.000=0 DE,Mecklenburg-Vorpommern,Malchin,53.65,12.6833
+037.005.085.000=0 DE,Berlin,Berlin,52.5167,13.4
 088.134.196.218~88-134-196-218-dynip.superkabel.de
 037.005.085.254=1+
 037.005.085.255=0*2
@@ -1663,19 +1662,16 @@
 037.005.111.254=5+
 037.005.111.255=0*4
 =======16
-037.005.112.000=2 DE,Niedersachsen,Celle,52.6167,10.0833
-037.005.112.000!0 DE,Schleswig-Holstein,Neumünster,54.0667,9.9833
+037.005.112.000=0 DE,Schleswig-Holstein,Neumünster,54.0667,9.9833
 083.169.172.194@
 083.169.173.066@
-037.005.113.000=0 DE,Niedersachsen,Celle,52.6167,10.0833
-037.005.113.000!0 DE,Schleswig-Holstein,Bornhöved,54.0833,10.1833
+037.005.113.000=0 DE,Schleswig-Holstein,Bornhöved,54.0833,10.1833
 083.169.172.194@
 083.169.173.066@
-037.005.114.000=0 DE,Niedersachsen,Celle,52.6167,10.0833
-037.005.114.000!0 DE,Schleswig-Holstein,Neumünster,54.0667,9.9833
+037.005.114.000=0 DE,Schleswig-Holstein,Neumünster,54.0667,9.9833
 083.169.173.066@
 083.169.172.194@
-037.005.115.000=5 DE,Niedersachsen,Celle,52.6167,10.0833
+037.005.115.000=5 DE,Schleswig-Holstein,Neumünster,54.0667,9.9833
 083.169.172.194@
 083.169.173.066@
 088.134.192.161~88-134-192-161-dynip.superkabel.de

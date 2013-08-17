@@ -5,32 +5,392 @@
 	
 	$tobuilds = Array();
 
-	$isp = "de/kd";
-	array_push($tobuilds,"024.134.000.000-024.134.255.255");
-	array_push($tobuilds,"031.016.000.000-031.019.255.255");
-	array_push($tobuilds,"037.004.000.000-037.005.255.255");
-	array_push($tobuilds,"077.020.000.000-077.023.255.255");
-	array_push($tobuilds,"088.134.000.000-088.134.191.255");
-	array_push($tobuilds,"091.064.000.000-091.067.255.255");
-    array_push($tobuilds,"095.088.000.000-095.091.255.255");
-	array_push($tobuilds,"146.052.000.000-146.052.255.255");
-	array_push($tobuilds,"178.024.000.000-178.027.255.255");
-	array_push($tobuilds,"188.192.000.000-188.195.255.255");
+	if (false)
+	{
+		$isp = "de/kd";
+		array_push($tobuilds,"024.134.000.000-024.134.255.255");
+		array_push($tobuilds,"031.016.000.000-031.019.255.255");
+		array_push($tobuilds,"037.004.000.000-037.005.255.255");
+		array_push($tobuilds,"077.020.000.000-077.023.255.255");
+		array_push($tobuilds,"088.134.000.000-088.134.191.255");
+		array_push($tobuilds,"091.064.000.000-091.067.255.255");
+		array_push($tobuilds,"095.088.000.000-095.091.255.255");
+		array_push($tobuilds,"146.052.000.000-146.052.255.255");
+		array_push($tobuilds,"178.024.000.000-178.027.255.255");
+		array_push($tobuilds,"188.192.000.000-188.195.255.255");
+	}
+	else
+	{
+		$isp = "de/tk";
+		array_push($tobuilds,"046.080.000.000-046.095.255.255");
+		array_push($tobuilds,"079.192.000.000-079.255.255.255");
+		array_push($tobuilds,"080.128.000.000-080.159.255.255");
+		array_push($tobuilds,"084.128.000.000-084.191.255.255");
+		array_push($tobuilds,"087.128.000.000-087.159.255.255");
+		array_push($tobuilds,"087.160.000.000-087.191.255.255");
+		array_push($tobuilds,"091.000.000.000-091.063.255.255");
+		array_push($tobuilds,"093.192.000.000-093.255.255.255");
+		array_push($tobuilds,"217.000.000.000-217.007.255.255");
+		array_push($tobuilds,"217.080.000.000-217.095.255.255");
+		array_push($tobuilds,"217.224.000.000-217.255.255.255");
+	}
 	
-	/*
-	$isp = "de/tk";
-    array_push($tobuilds,"046.080.000.000-046.095.255.255");
-    array_push($tobuilds,"079.192.000.000-079.255.255.255");
-    array_push($tobuilds,"080.128.000.000-080.159.255.255");
-    array_push($tobuilds,"084.128.000.000-084.191.255.255");
-    array_push($tobuilds,"087.128.000.000-087.159.255.255");
-    array_push($tobuilds,"087.160.000.000-087.191.255.255");
-	array_push($tobuilds,"091.000.000.000-091.063.255.255");
-	array_push($tobuilds,"093.192.000.000-093.255.255.255");
-	array_push($tobuilds,"217.000.000.000-217.007.255.255");
-	array_push($tobuilds,"217.080.000.000-217.095.255.255");
-	array_push($tobuilds,"217.224.000.000-217.255.255.255");
-	*/
+function CheckGateways($isp,&$uplinks,&$olduplping)
+{
+	$gateways = $uplinks;
+	
+	$notraces = array();
+	
+	ksort($gateways);
+	
+	$numcities = array();
+	
+	foreach ($gateways as $routerip => $subnets)
+	{
+		$number = count(GetDifferentCities($subnets));
+		
+		foreach ($subnets as $subnetip => $dummy)
+		{
+			if ((! isset($numcities[ $subnetip ])) || ($numcities[ $subnetip ] > $number))
+			{
+				$numcities[ $subnetip ] = $number;
+			}
+		}
+	}
+	
+	foreach ($gateways as $routerip => $subnets)
+	{
+		ksort($gateways[ $routerip ]);
+		
+		if (count(GetDifferentCities($subnets)) == 1)
+		{
+			//
+			// Move good locations at end.
+			//
+			
+			unset($gateways[ $routerip ]);
+			$gateways[ $routerip ] = $subnets;
+		}
+		else
+		{
+			//
+			// Gateway with multiple locations. Check if each
+			// routed subnet has a single location gateway as well.
+			// If so, this is a backbone router and not a gateway.
+			//
+			
+			$allsingle = true;
+			
+			foreach ($subnets as $subnetip => $dummy)
+			{
+				if ($numcities[ $subnetip ] > 1) 
+				{
+					$gateways[ $routerip ][ $subnetip ] .= "!!!";
+					
+					$notraces[ $subnetip ] = true;
+					
+					$allsingle = false;
+				}
+			}
+			
+			if ($allsingle)
+			{
+				//
+				// All subnets have an individual gateway, so this is
+				// a backbone router and not a gateway.
+				//
+				
+				//unset($gateways[ $routerip ]);
+				//continue;
+			}
+		}
+	}
+	
+	foreach ($gateways as $routerip => $subnets)
+	{
+		if (substr($routerip,0,7) == "001.000")
+		{
+			//
+			// Move dummy locations at end.
+			//
+			
+			unset($gateways[ $routerip ]);
+			
+			$gateways[ $routerip ] = $subnets;
+		}
+		
+		$uplpingfile = "../var/$isp/uplping/$routerip.ping.json";
+		
+		if (isset($olduplping[ $uplpingfile ])) unset($olduplping[ $uplpingfile ]);
+	}
+
+	$uplinks = $gateways;
+		
+	ksort($notraces);
+
+	return $notraces;
+}
+
+function BuildBackbones($isp,&$endpoint,&$uplinks,&$allbones,$stage)
+{
+	//
+	// Reorganize endpoints array and build c-net reference.
+	//
+	
+	$endpoints = array();
+	$cnets     = array();
+	
+	foreach ($endpoint as $index => $subnet)
+	{
+		$endpoints[ $subnet[ "ip" ] ] = &$endpoint[ $index ];
+		
+		$netfrom = IP_Bin($subnet[ "ip" ]);
+		$nettoto = IP_Bin($subnet[ "bc" ]);
+			
+		while ($netfrom < $nettoto)
+		{
+			$cnets[ IPZero($netfrom) ] = &$endpoint[ $index ];
+			$netfrom += 256;
+		}
+	}
+	
+	//
+	// Read no traceroute routers from config if required
+	// and merge with existing network ranges.
+	//
+	
+	$notraces = array();
+	$notracesfile = "../var/$isp/configs/notraces.json";
+
+	if (file_exists($notracesfile))
+	{
+		$notracesdata = json_decdat(file_get_contents($notracesfile));
+		$notracesip   = IP_Bin("001.000.000.000");
+		
+		unset($notracesdata[ "255.255.255.255" ]);
+		
+		foreach ($notracesdata as $noip => $dummy)
+		{
+			$notracesdata[ $noip ] = IPZero(++$notracesip);
+		}
+
+		foreach ($notracesdata as $noip => $dummyip)
+		{
+			$ipbin = IP_Bin($noip);
+
+			if (! isset($endpoints[ $noip ]))
+			{
+				echo "UNRESOLVED: $noip\n";
+				exit();
+			}
+			
+			$netfrom = IP_Bin($endpoints[ $noip ][ "ip" ]);
+			$nettoto = IP_Bin($endpoints[ $noip ][ "bc" ]);
+			
+			while ($netfrom < $nettoto)
+			{
+				$notraces[ IPZero($netfrom) ] = $dummyip;
+				$netfrom += 128;
+			}
+		}
+	}
+
+	//
+	// Read and inspect all mtrlogs files.
+	//
+	
+	$backbones = array();
+
+	$dfd = opendir("../var/$isp/mtrlogs");
+	
+	while (($file = readdir($dfd)) !== false)
+	{
+		if (substr($file,0,1) == ".") continue;
+		
+		$mtrlog = json_decdat(file_get_contents("../var/$isp/mtrlogs/$file"));
+		
+		foreach ($mtrlog[ "paths" ] as $path)
+		{
+			if (count($path) < 3) continue;
+		
+			$cnetip = substr(IPZero(array_pop($path)),0,11) . ".000";
+			if (! isset($cnets[ $cnetip ])) continue;
+			
+			$subnetip = $cnets[ $cnetip ][ "ip" ];
+			
+			$lasthop = IPZero(array_pop($path));
+			
+			if ($lasthop == "000.000.000.000")
+			{
+				if (isset($notraces[ $cnetip ]))
+				{
+					//
+					// Gateway is a configured notraceroute router. 
+					//
+				
+					$lasthop = $notraces[ $cnetip ];
+				}
+				else
+				{
+					//
+					// Gateway is a spacko gateway. just pop another hop.
+					//
+					
+					$lasthop = IPZero(array_pop($path));
+				}
+			}
+			else
+			{
+				if (isset($notraces[ $cnetip ]))
+				{
+					//
+					// Gateway is a configured phantom router.
+					//
+
+					array_push($path,$lasthop);
+					
+					$lasthop = $notraces[ $cnetip ];
+				}
+			}
+
+			if ($lasthop == "000.000.000.000") continue;
+			if ((substr($lasthop,0,8) != "001.000.") && (ResolveISP($lasthop) != $isp)) continue;		
+
+			if ($stage == 0)
+			{
+				if (! isset($uplinks[ $lasthop ])) 
+				{
+					echo "New uplink $lasthop from $file\n";
+					
+					$uplinks[ $lasthop ] = array();
+				}
+				
+				$uplinks[ $lasthop ][ $subnetip ] = $cnets[ $cnetip ][ "loc" ];
+				
+				continue;
+			}
+
+			if ($stage == 1)
+			{
+				while (count($path))
+				{
+					$backbonesip = IPZero(array_pop($path));
+
+					if ($backbonesip == "000.000.000.000") break;
+					if (isset($uplinks[ $backbonesip ])) break;
+					if ($backbonesip == $lasthop) break;
+					if (ResolveISP($backbonesip) != $isp) break;		
+						
+					if (! isset($backbones[ $backbonesip ])) $backbones[ $backbonesip ] = array();
+					$backbones[ $backbonesip ][ $lasthop ] = $cnets[ $cnetip ][ "loc" ];
+				
+					break;
+				}
+				
+				continue;
+			}
+			
+			if ($stage == 2)
+			{
+				$lastbone = null;
+				$lastloc  = null;
+
+				while (count($path))
+				{
+					$backbonesip = IPZero(array_pop($path));
+
+					if (isset($uplinks[ $backbonesip ]))
+					{
+						foreach ($uplinks[ $backbonesip ] as $dummy => $rloc) 
+						{
+				 			$lastbone = $backbonesip;
+							$lastloc  = $rloc;
+							
+							break;
+						}
+						
+						continue;
+					}
+					
+				 	if (isset($allbones[ $backbonesip ]))
+				 	{
+						if ($lastbone != null)
+						{
+							$backbones[ $backbonesip ][ $lastbone ] = $lastloc;
+						}
+						
+				 		$lastbone = $backbonesip;
+						$lastloc  = $allbones[ $backbonesip ][ "loc" ];
+						
+						continue;
+				 	}
+				 	
+					if ($backbonesip == $lastbone) continue;		
+					if (ResolveISP($backbonesip) != $isp) break;		
+				
+					if ($lastbone != null)
+					{
+						if (! isset($backbones[ $backbonesip ])) $backbones[ $backbonesip ] = array();
+						$backbones[ $backbonesip ][ $lastbone ] = $lastloc;
+					}
+				
+					$lastbone = $backbonesip;
+					$lastloc  = isset($GLOBALS[ "locations" ][ $backbonesip ]) ? $GLOBALS[ "locations" ][ $backbonesip ] : "n.n.";
+				}
+				
+				continue;
+			}
+		}
+	}
+	
+	closedir($dfd);
+
+	ksort($backbones);
+	
+	foreach ($backbones as $bbip => $dummy)
+	{
+		ksort($backbones[ $bbip ]);
+	}
+	
+	if ($stage == 0) return $backbones;
+	
+	foreach ($backbones as $bbip => $bblist)
+	{
+		$thisloc = GetDifferentLocations($bblist);
+		$thisloc = (count($thisloc) != 1) ? "n.n." : $thisloc[ 0 ];
+
+		$backbone = array();
+		$backbone[ "typ"  ] = 1;
+		$backbone[ "loc"  ] = $thisloc;
+		$backbone[ "name" ] = gethostbyaddr(IP($bbip));
+		$backbone[ "upls" ] = array();
+		$backbone[ "bbls" ] = array();
+	
+		foreach ($bblist as $rip => $rloc)
+		{
+			if (isset($uplinks[ $rip ]))
+			{
+				$backbone[ "upls" ][ $rip ] = $rloc;
+			}
+			else
+			{
+				$backbone[ "bbls" ][ $rip ] = $rloc;
+			}
+		}
+	
+		if (count($backbone[ "bbls" ]) &&   count($backbone[ "upls" ])) $backbone[ "typ"  ] = 2;
+		if (count($backbone[ "bbls" ]) && ! count($backbone[ "upls" ])) $backbone[ "typ"  ] = 3;
+	
+		if (! count($backbone[ "upls" ])) unset($backbone[ "upls" ]);
+		if (! count($backbone[ "bbls" ])) unset($backbone[ "bbls" ]);
+	
+		$allbones[ $bbip ] = $backbone;
+	}
+			
+	ksort($backbones);
+
+	return $backbones;
+}
 
 	//
 	// Get a list of existent subnets.
@@ -100,7 +460,13 @@
 	
 	if (file_exists($locationsfile))
 	{
-		//$locations = json_decdat(file_get_contents($locationsfile));
+		$locations = json_decdat(file_get_contents($locationsfile));
+		
+		if ($locations === false)
+		{
+			echo "$locations fucked up, exit...\n";
+			exit();
+		}
 	}
 	
 	$endpoint = Array();
@@ -113,6 +479,12 @@
 	$bonusnailed = array();
 	
 	$bonusnailed[ "xxxxx"  				] =  "xxxxxxxxx";
+	$bonusnailed[ "xxxxx"  				] =  "xxxxxxxxx";
+	$bonusnailed[ "xxxxx"  				] =  "xxxxxxxxx";
+	$bonusnailed[ "xxxxx"  				] =  "xxxxxxxxx";
+	$bonusnailed[ "xxxxx"  				] =  "xxxxxxxxx";
+	$bonusnailed[ "xxxxx"  				] =  "xxxxxxxxx";
+	$bonusnailed[ "Jena"  				] =  "DE,Thüringen,Jena,50.9333,11.5833";
 	$bonusnailed[ "Günzburg"  			] =  "DE,Bayern,Günzburg,48.45,10.2667";
 	$bonusnailed[ "Amberg"  			] =  "DE,Bayern,Amberg,49.4502,11.848";
 	$bonusnailed[ "Weiden"  			] =  "DE,Bayern,Weiden,49.7,12.2333";
@@ -151,7 +523,7 @@
 	$bonusnailed[ "Freising"  			] =  "DE,Bayern,Freising,48.4,11.7333";
 	$bonusnailed[ "Hachenburg"  		] =  "DE,Rheinland-Pfalz,Hachenburg,50.65,7.8333";
 	$bonusnailed[ "Wittlich"  			] =  "DE,Rheinland-Pfalz,Wittlich,49.9833,6.8833";
-	$bonusnailed[ "Kaiserslautern" 		] =  "DE,Rheinland-Pfalz,Kaiserslautern,49.4467,7.7609";
+	$bonusnailed[ "Kaiserslautern" 		] =  "DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75";
 	$bonusnailed[ "Coburg"  			] =  "DE,Bayern,Coburg,50.25,10.9667";
 	$bonusnailed[ "Husum"  				] =  "DE,Schleswig-Holstein,Husum,54.4667,9.05";
 	$bonusnailed[ "Kaufbeuren" 			] =  "DE,Bayern,Kaufbeuren,47.8943,10.6319";
@@ -773,112 +1145,115 @@
 	 
 	$routerlocfile = "../var/$isp/mapdata/routerloc.json";
 	file_put_contents($routerlocfile,json_encdat($downlink) . "\n");
-
+	
 	//
-	// Dump all gateways and locations.
+	// Generate MTR router information.
 	//
 	
-	ksort($gateways);
+	$backbones = array();
 	
-	$numcities = array();
-	
-	foreach ($gateways as $routerip => $subnets)
+	BuildBackbones($isp,$endpoint,$gateways,$backbones,0);
+	$notraces = CheckGateways($isp,$gateways,$olduplping);
+		
+	if (true)
 	{
-		$number = count(GetDifferentGetCities($subnets));
+		BuildBackbones($isp,$endpoint,$gateways,$backbones,1);
+		BuildBackbones($isp,$endpoint,$gateways,$backbones,2);
 		
-		foreach ($subnets as $subnetip => $dummy)
+		//
+		// Relocated all simple locations recursivly.
+		//
+		
+		while (true)
 		{
-			if ((! isset($numcities[ $subnetip ])) || ($numcities[ $subnetip ] > $number))
+			$modified = false;
+			
+			foreach ($backbones as $bbip => $bbdata)
 			{
-				$numcities[ $subnetip ] = $number;
-			}
-		}
-	}
-	
-	$notracecandidates = array();
-	
-	foreach ($gateways as $routerip => $subnets)
-	{
-		if (isset($locations[ $routerip ]))
-		{
-			//
-			// Remove undesired gateways.
-			//
-			
-			unset($gateways[ $routerip ]);
-			continue;
-		}
-		
-		ksort($gateways[ $routerip ]);
-		
-		if (count(GetDifferentGetCities($subnets)) == 1)
-		{
-			//
-			// Move good locations at end.
-			//
-			
-			unset($gateways[ $routerip ]);
-			
-			$gateways[ $routerip ] = $subnets;
-		}
-		else
-		{
-			//
-			// Gateway with multiple locations. Check if each
-			// routed subnet has a single location gateway as well.
-			// If so, this is a backbone router and not a gateway.
-			//
-			
-			$allsingle = true;
-			
-			foreach ($subnets as $subnetip => $dummy)
-			{
-				if ($numcities[ $subnetip ] > 1) 
+				if (isset($bbdata[ "bbls" ]))
 				{
-					$gateways[ $routerip ][ $subnetip ] .= "!!!";
+					foreach ($bbdata[ "bbls" ] as $bbip2 => $dummy)
+					{
+						if ($backbones[ $bbip ][ "bbls" ][ $bbip2 ] != "n.n.") continue;
+						if ($backbones[ $bbip2 ][ "loc" ] == "n.n.") continue;
 					
-					$notracecandidates[ $subnetip ] = true;
-					
-					$allsingle = false;
+						$backbones[ $bbip ][ "bbls" ][ $bbip2 ] = $backbones[ $bbip2 ][ "loc" ];
+						$modified = true;
+					}
+				}
+				
+				if ($backbones[ $bbip ][ "loc" ] != "n.n.") continue;
+				
+				if (isset($bbdata[ "upls" ]))
+				{
+					$thisloc = GetDifferentLocations($bbdata[ "upls" ]);
+				
+					if (count($thisloc) == 1)
+					{
+						$backbones[ $bbip ][ "loc" ] = $thisloc[ 0 ];
+						$modified = true;
+						continue;
+					}
+				}
+
+				if (isset($bbdata[ "bbls" ]))
+				{
+					$thisloc = GetDifferentLocations($bbdata[ "bbls" ]);
+			
+					if (count($thisloc) == 1)
+					{
+						$backbones[ $bbip ][ "loc" ] = $thisloc[ 0 ];
+						$modified = true;
+						continue;
+					}
 				}
 			}
-			
-			if ($allsingle)
-			{
-				//
-				// All subnets have an individual gateway, so this is
-				// a backbone router and not a gateway.
-				//
-				
-				unset($gateways[ $routerip ]);
-				continue;
-			}
+		
+			if (! $modified) break;
 		}
-	}
-	
-	foreach ($gateways as $routerip => $subnets)
-	{
-		if (substr($routerip,0,7) == "001.000")
+		
+		//
+		// Relocate all unknown locations manually.
+		//
+		
+		while (true)
 		{
-			//
-			// Move dummy locations at end.
-			//
+			$modified = false;
 			
-			unset($gateways[ $routerip ]);
-			
-			$gateways[ $routerip ] = $subnets;
+			foreach ($backbones as $bbip => $bbdata)
+			{
+				if (isset($bbdata[ "bbls" ]))
+				{
+					foreach ($bbdata[ "bbls" ] as $bbip2 => $dummy)
+					{
+						if ($backbones[ $bbip ][ "bbls" ][ $bbip2 ] != "n.n.") continue;
+						if ($backbones[ $bbip2 ][ "loc" ] == "n.n.") continue;
+					
+						$backbones[ $bbip ][ "bbls" ][ $bbip2 ] = $backbones[ $bbip2 ][ "loc" ];
+						$modified = true;
+					}
+				}
+				
+				if ($backbones[ $bbip ][ "loc" ] != "n.n.") continue;
+				if (! isset($locations[ $bbip ])) continue;
+				
+				echo "\t\"$bbip\" : \"" . $locations[ $bbip ] . "\",\n";
+						
+				$backbones[ $bbip ][ "loc" ] = $locations[ $bbip ];
+				$modified = true;
+			}
+		
+			if (! $modified) break;
 		}
 		
-		$uplpingfile = "../var/$isp/uplping/$routerip.ping.json";
-		
-		if (isset($olduplping[ $uplpingfile ])) unset($olduplping[ $uplpingfile ]);
+		$backbonesfile = "../var/$isp/mapdata/backbones.json";
+		$backbonesjson = json_encdat($backbones) . "\n";
+		file_put_contents($backbonesfile,$backbonesjson);
 	}
 	
-	ksort($notracecandidates);
-	
-	$notracecandidatesfile = "../var/$isp/mapdata/notraces.json";
-	$notracecandidatesjson = json_encdat($notracecandidates) . "\n";
-	file_put_contents($notracecandidatesfile,$notracecandidatesjson);
+	$notracesfile = "../var/$isp/mapdata/notraces.json";
+	$notracesjson = json_encdat($notraces) . "\n";
+	file_put_contents($notracesfile,$notracesjson);
 
 	$gatewaysfile = "../var/$isp/mapdata/uplinks.json";
 	$gatewaysjson = json_encdat($gateways) . "\n";
@@ -888,7 +1263,7 @@
 	// Make nice uplinks locations map.
 	//
 	
-	$uplinks = array();
+	$uplinksmap = array();
 	
 	foreach ($gateways as $routerip => $subnets)
 	{
@@ -916,12 +1291,47 @@
 			$uplink[ "loc" ][ "lon"     ] = floatval($parts[ 4 ]);
 		}
 		
-		array_push($uplinks,$uplink);
+		array_push($uplinksmap,$uplink);
 	}
 	
-	$uplinksfile = "../www/$isp/uplinks.map.js";
-	$uplinksjson = "kappa.UplinksCallback(\n" . json_encdat($uplinks) . "\n);\n";
-	file_put_contents($uplinksfile,$uplinksjson);
+	$uplinksmapfile = "../www/$isp/uplinks.map.js";
+	$uplinksmapjson = "kappa.UplinksCallback(\n" . json_encdat($uplinksmap) . "\n);\n";
+	file_put_contents($uplinksmapfile,$uplinksmapjson);
+	
+	//
+	// Make nice backbones locations map.
+	//
+	
+	$bbdumps = array();
+	
+	foreach ($backbones as $bbip => $bbdata)
+	{
+		$bbdump = array();
+		
+		$bbdump[ "ip"   ] = $bbip;
+		$bbdump[ "typ"  ] = $bbdata[ "typ"  ];
+		$bbdump[ "loc"  ] = $bbdata[ "loc"  ];
+		$bbdump[ "name" ] = $bbdata[ "name" ];
+		
+		if (isset($bbdata[ "upls" ])) $bbdump[ "upls" ] = $bbdata[ "upls" ];
+		if (isset($bbdata[ "bbls" ])) $bbdump[ "bbls" ] = $bbdata[ "bbls" ];
+		
+		$parts = explode(",",$bbdump[ "loc" ]);
+		if (count($parts) != 5) continue;
+		
+		$bbdump[ "loc" ] = Array();
+		$bbdump[ "loc" ][ "country" ] = $parts[ 0 ];
+		$bbdump[ "loc" ][ "region"  ] = Fix_Region($parts[ 1 ]);
+		$bbdump[ "loc" ][ "city"    ] = Fix_City($parts[ 2 ]);
+		$bbdump[ "loc" ][ "lat"     ] = floatval($parts[ 3 ]);
+		$bbdump[ "loc" ][ "lon"     ] = floatval($parts[ 4 ]);
+		
+		array_push($bbdumps,$bbdump);
+	}
+	
+	$backbonesfile = "../www/$isp/backbones.map.js";
+	$backbonesjson = "kappa.BackbonesCallback(\n" . json_encdat($bbdumps) . "\n);\n";
+	file_put_contents($backbonesfile,$backbonesjson);
 	
 	//
 	// Dump endpoint links.
@@ -962,26 +1372,4 @@
 		echo "Obsolete: $file\n";
 		@unlink($file);
 	}
-
-	/*
-	$final = "../www/$isp/masters.map";
-	
-	$json = json_encdat($masters) . "\n";
-	file_put_contents($final . ".json",$json);
-	
-	$json = "kappa.MastersCallback(\n" . $json . ");\n";
-	file_put_contents($final . ".js",$json);
-	*/
-	
-	/*
-	ksort($routers);
-
-	$final = "../www/$isp/routers.map";
-		
-	$json = json_encdat($routers) . "\n";
-	file_put_contents($final . ".json",$json);
-	
-	$json = "kappa.RoutersCallback(\n" . $json . ");\n";
-	file_put_contents($final . ".js",$json);
-	*/
 ?>
