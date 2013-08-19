@@ -3353,7 +3353,7 @@
 088.134.192.247~88-134-192-247-dynip.superkabel.de
 083.169.128.117~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
 088.134.238.182~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
-088.134.234.118~88-134-234-118-dynip.superkabel.de
+088.134.234.118~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
 091.067.015.254=1+
 091.067.015.255=0*4
 =======16
@@ -3372,7 +3372,7 @@
 088.134.193.021@
 088.134.193.019@
 088.134.204.242~88-134-204-242-dynip.superkabel.de
-088.134.204.234~88-134-204-234-dynip.superkabel.de
+088.134.204.234~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
 091.067.018.254=5+
 091.067.018.255=0*1
 -------
@@ -3392,7 +3392,7 @@
 091.067.023.000=0 DE,Rheinland-Pfalz,Diez,50.3667,8.0167
 088.134.193.019@
 088.134.193.021@
-088.134.204.234~88-134-204-234-dynip.superkabel.de
+088.134.204.234~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
 088.134.204.242~88-134-204-242-dynip.superkabel.de
 091.067.023.254=5+
 091.067.023.255=0*4
@@ -3410,7 +3410,7 @@
 091.067.027.000=5 DE,Rheinland-Pfalz,Plaidt,50.4,7.4
 088.134.192.246@
 088.134.192.244@
-088.134.204.234~88-134-204-234-dynip.superkabel.de
+088.134.204.234~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
 088.134.204.242~88-134-204-242-dynip.superkabel.de
 091.067.027.254=5+
 091.067.027.255=0*4
@@ -3443,7 +3443,7 @@
 091.067.035.000=5 DE,Rheinland-Pfalz,Neuwied,50.4333,7.4667
 091.067.035.000!0 DE,Saarland,Marpingen,49.45,7.05
 088.134.238.182~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
-088.134.234.110~88-134-234-110-dynip.superkabel.de
+088.134.234.110~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
 083.169.128.117~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
 091.067.035.254=1+
 091.067.035.255=0*4
@@ -3489,7 +3489,7 @@
 091.067.045.000=5 DE,Rheinland-Pfalz,Bendorf,50.4333,7.5667
 083.169.177.233@
 088.134.204.242@
-088.134.234.118~88-134-234-118-dynip.superkabel.de
+088.134.234.118~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
 088.134.238.182~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
 088.134.192.247~88-134-192-247-dynip.superkabel.de
 083.169.128.117~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
@@ -3595,7 +3595,7 @@
 091.067.063.000=0 DE,Rheinland-Pfalz,Neuwied,50.4369,7.5452
 088.134.204.242@
 083.169.177.233@
-088.134.234.118~88-134-234-118-dynip.superkabel.de
+088.134.234.118~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
 088.134.192.247~88-134-192-247-dynip.superkabel.de
 083.169.128.117~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
 088.134.238.182~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
@@ -3631,8 +3631,8 @@
 091.067.069.000=0 DE,Rheinland-Pfalz,Mainz,50,8.2711
 088.134.221.017@
 088.134.221.025@
-088.134.193.042~88-134-193-42-dynip.superkabel.de
-088.134.193.044~88-134-193-44-dynip.superkabel.de
+088.134.193.042~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
+088.134.193.044~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
 091.067.069.254=1+
 091.067.069.255=0*2
 -------
@@ -3657,7 +3657,7 @@
 083.169.177.025@
 088.134.238.186~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
 088.134.192.253~88-134-192-253-dynip.superkabel.de
-088.134.234.110~88-134-234-110-dynip.superkabel.de
+088.134.234.110~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
 088.134.201.253~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
 091.067.072.254=1+
 091.067.072.255=0*1
@@ -3698,10 +3698,10 @@
 083.169.129.213@
 083.169.129.209@
 088.134.192.113~88-134-192-113-dynip.superkabel.de
-083.169.129.170~DE,Hamburg,Hamburg,53.55,10
-088.134.201.141~DE,Hamburg,Hamburg,53.55,10
-088.134.201.129~DE,Hamburg,Hamburg,53.55,10
-083.169.129.238~DE,,,53,9
+083.169.129.170~DE,Bayern,Nürnberg,49.4478,11.0683
+088.134.201.141~DE,Bayern,Nürnberg,49.4478,11.0683
+088.134.201.129~DE,Bayern,Nürnberg,49.4478,11.0683
+083.169.129.238~DE,Bayern,Nürnberg,49.4478,11.0683
 091.067.078.254=1+
 091.067.078.255=0*1
 -------
@@ -3735,7 +3735,7 @@
 083.169.175.049@
 091.067.083.000=0 DE,Niedersachsen,Werlte,52.8167,7.6167
 083.169.175.049@
-088.134.205.066~88-134-205-66-dynip.superkabel.de
+088.134.205.066~DE,Bremen,Bremen,53.0833,8.8
 091.067.083.254=1+
 091.067.083.255=0*2
 -------
@@ -3847,7 +3847,7 @@
 088.134.192.253~88-134-192-253-dynip.superkabel.de
 088.134.201.253~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
 088.134.238.186~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
-088.134.234.114~88-134-234-114-dynip.superkabel.de
+088.134.234.114~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
 091.067.107.254=5+
 091.067.107.255=0*4
 -------
@@ -3866,9 +3866,9 @@
 083.169.177.017@
 088.134.238.186~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
 088.134.201.253~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
-088.134.234.110~88-134-234-110-dynip.superkabel.de
+088.134.234.110~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
 088.134.192.253~88-134-192-253-dynip.superkabel.de
-088.134.234.114~88-134-234-114-dynip.superkabel.de
+088.134.234.114~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
 091.067.111.254=1+
 091.067.111.255=0*4
 =======16
@@ -3891,7 +3891,7 @@
 088.134.204.034@
 083.169.128.117~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
 088.134.238.182~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
-088.134.234.118~88-134-234-118-dynip.superkabel.de
+088.134.234.118~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
 091.067.119.254=5+
 091.067.119.255=0*8
 =======8
@@ -4005,7 +4005,7 @@
 091.067.151.000=0 DE,Rheinland-Pfalz,Lahnstein,50.3,7.6167
 088.134.192.248@
 088.134.192.250@
-088.134.204.234~88-134-204-234-dynip.superkabel.de
+088.134.204.234~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
 088.134.204.242~88-134-204-242-dynip.superkabel.de
 091.067.151.254=5+
 091.067.151.255=0*8
@@ -4034,7 +4034,7 @@
 088.134.192.250@
 088.134.192.248@
 088.134.204.242~88-134-204-242-dynip.superkabel.de
-088.134.204.234~88-134-204-234-dynip.superkabel.de
+088.134.204.234~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
 091.067.159.254=5+
 091.067.159.255=0*8
 =======32
@@ -4121,7 +4121,7 @@
 088.134.192.246@
 088.134.192.244@
 088.134.204.242~88-134-204-242-dynip.superkabel.de
-088.134.204.234~88-134-204-234-dynip.superkabel.de
+088.134.204.234~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
 091.067.183.254=5+
 091.067.183.255=0*8
 =======8
@@ -4150,7 +4150,7 @@
 088.134.192.246@
 088.134.192.244@
 088.134.204.242~88-134-204-242-dynip.superkabel.de
-088.134.204.234~88-134-204-234-dynip.superkabel.de
+088.134.204.234~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
 091.067.191.254=5+
 091.067.191.255=0*8
 =======64
@@ -4178,7 +4178,7 @@
 091.067.199.000=0 DE,Rheinland-Pfalz,Neuwied,50.4333,7.4667
 088.134.192.246@
 088.134.192.244@
-088.134.204.234~88-134-204-234-dynip.superkabel.de
+088.134.204.234~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
 088.134.204.242~88-134-204-242-dynip.superkabel.de
 091.067.199.254=5+
 091.067.199.255=0*8
@@ -4337,7 +4337,7 @@
 088.134.193.021@
 088.134.193.019@
 088.134.204.242~88-134-204-242-dynip.superkabel.de
-088.134.204.234~88-134-204-234-dynip.superkabel.de
+088.134.204.234~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
 091.067.243.254=5+
 091.067.243.255=0*4
 -------
@@ -4370,7 +4370,7 @@
 091.067.251.000=5 DE,Rheinland-Pfalz,Neuwied,50.4333,7.4667
 088.134.192.246@
 088.134.192.244@
-088.134.204.234~88-134-204-234-dynip.superkabel.de
+088.134.204.234~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
 088.134.204.242~88-134-204-242-dynip.superkabel.de
 091.067.251.254=5+
 091.067.251.255=0*4

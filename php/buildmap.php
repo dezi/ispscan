@@ -5,7 +5,7 @@
 	
 	$tobuilds = Array();
 
-	if (false)
+	if (true)
 	{
 		$isp = "de/kd";
 		array_push($tobuilds,"024.134.000.000-024.134.255.255");
@@ -100,10 +100,31 @@ function CheckGateways($isp,&$uplinks,&$olduplping)
 				// a backbone router and not a gateway.
 				//
 				
-				//unset($gateways[ $routerip ]);
-				//continue;
+				unset($gateways[ $routerip ]);
+				continue;
 			}
 		}
+	}
+	
+	//
+	// Rule based cleanup.
+	//
+	
+	foreach ($gateways as $routerip => $subnets)
+	{
+		$bb = false;
+		
+		$bb = $bb || (substr($routerip,0,11) == "083.169.128");
+		$bb = $bb || (substr($routerip,0,11) == "083.169.129");
+		$bb = $bb || (substr($routerip,0,11) == "088.134.237");
+		$bb = $bb || (substr($routerip,0,11) == "088.134.238");
+		$bb = $bb || (substr($routerip,0,11) == "088.134.201");
+		$bb = $bb || (substr($routerip,0,11) == "088.134.202");
+		$bb = $bb || (substr($routerip,0,11) == "088.134.203");
+		$bb = $bb || (substr($routerip,0,11) == "088.134.204");
+		$bb = $bb || (substr($routerip,0,11) == "088.134.205");
+		
+		if ($bb) unset($gateways[ $routerip ]);
 	}
 	
 	foreach ($gateways as $routerip => $subnets)
@@ -270,17 +291,25 @@ function BuildBackbones($isp,&$endpoint,&$uplinks,&$allbones,$stage)
 				continue;
 			}
 
+			$trace = ($lasthop == "088.134.220.049xxx");
+			
+			if ($trace) echo "TRACE: lasthop $lasthop\n";
+			
 			if ($stage == 1)
 			{
 				while (count($path))
 				{
 					$backbonesip = IPZero(array_pop($path));
+					
+					if ($trace) echo "TRACE: backboneip $backbonesip\n";
 
 					if ($backbonesip == "000.000.000.000") break;
 					if (isset($uplinks[ $backbonesip ])) break;
 					if ($backbonesip == $lasthop) break;
 					if (ResolveISP($backbonesip) != $isp) break;		
-						
+					
+					if ($trace) echo "TRACE: set $backbonesip => $lasthop\n";
+					
 					if (! isset($backbones[ $backbonesip ])) $backbones[ $backbonesip ] = array();
 					$backbones[ $backbonesip ][ $lasthop ] = $cnets[ $cnetip ][ "loc" ];
 				
@@ -359,13 +388,22 @@ function BuildBackbones($isp,&$endpoint,&$uplinks,&$allbones,$stage)
 		$thisloc = GetDifferentLocations($bblist);
 		$thisloc = (count($thisloc) != 1) ? "n.n." : $thisloc[ 0 ];
 
-		$backbone = array();
-		$backbone[ "typ"  ] = 1;
-		$backbone[ "loc"  ] = $thisloc;
-		$backbone[ "name" ] = gethostbyaddr(IP($bbip));
-		$backbone[ "upls" ] = array();
-		$backbone[ "bbls" ] = array();
-	
+		if (isset($allbones[ $bbip ]))
+		{
+			$backbone = $allbones[ $bbip ];
+		}
+		else
+		{
+			$backbone = array();
+			$backbone[ "lev"  ] = $stage;
+			$backbone[ "typ"  ] = 1;
+			$backbone[ "loc"  ] = $thisloc;
+			$backbone[ "name" ] = gethostbyaddr(IP($bbip));
+		}
+		
+		if (! isset($backbone[ "upls" ])) $backbone[ "upls" ] = array();
+		if (! isset($backbone[ "bbls" ])) $backbone[ "bbls" ] = array();
+		
 		foreach ($bblist as $rip => $rloc)
 		{
 			if (isset($uplinks[ $rip ]))
@@ -387,6 +425,7 @@ function BuildBackbones($isp,&$endpoint,&$uplinks,&$allbones,$stage)
 		$allbones[ $bbip ] = $backbone;
 	}
 			
+	ksort($allbones);
 	ksort($backbones);
 
 	return $backbones;
@@ -1184,6 +1223,13 @@ function BuildBackbones($isp,&$endpoint,&$uplinks,&$allbones,$stage)
 				
 				if ($backbones[ $bbip ][ "loc" ] != "n.n.") continue;
 				
+				if (isset($locations[ $bbip ]))
+				{
+					$backbones[ $bbip ][ "loc" ] = $locations[ $bbip ];
+					$modified = true;
+					continue;
+				}
+				
 				if (isset($bbdata[ "upls" ]))
 				{
 					$thisloc = GetDifferentLocations($bbdata[ "upls" ]);
@@ -1226,16 +1272,28 @@ function BuildBackbones($isp,&$endpoint,&$uplinks,&$allbones,$stage)
 				{
 					foreach ($bbdata[ "bbls" ] as $bbip2 => $dummy)
 					{
-						if ($backbones[ $bbip ][ "bbls" ][ $bbip2 ] != "n.n.") continue;
-						if ($backbones[ $bbip2 ][ "loc" ] == "n.n.") continue;
-					
-						$backbones[ $bbip ][ "bbls" ][ $bbip2 ] = $backbones[ $bbip2 ][ "loc" ];
-						$modified = true;
+						if ($backbones[ $bbip ][ "bbls" ][ $bbip2 ] != $backbones[ $bbip2 ][ "loc" ])
+						{
+							$backbones[ $bbip ][ "bbls" ][ $bbip2 ] = $backbones[ $bbip2 ][ "loc" ];
+							$modified = true;
+						}
 					}
 				}
-				
-				if ($backbones[ $bbip ][ "loc" ] != "n.n.") continue;
-				if (! isset($locations[ $bbip ])) continue;
+
+				if (! isset($locations[ $bbip ])) continue;	
+							
+				if ($backbones[ $bbip ][ "loc" ] != "n.n.") 
+				{
+					if ($backbones[ $bbip ][ "loc" ] != $locations[ $bbip ])
+					{
+						//echo "Conflict: $bbip " . $backbones[ $bbip ][ "loc" ] . " != " . $locations[ $bbip ] . "\n";
+						
+						$backbones[ $bbip ][ "loc" ] = $locations[ $bbip ];
+						$modified = true;
+					}
+					
+					continue;
+				}
 				
 				echo "\t\"$bbip\" : \"" . $locations[ $bbip ] . "\",\n";
 						
@@ -1327,6 +1385,11 @@ function BuildBackbones($isp,&$endpoint,&$uplinks,&$allbones,$stage)
 		$bbdump[ "loc" ][ "lon"     ] = floatval($parts[ 4 ]);
 		
 		array_push($bbdumps,$bbdump);
+		
+		if (substr($bbip,0,7) == "088.134") 
+		{
+			echo "\t\"$bbip\" : \"" . $bbdata[ "loc"  ] . "\",\n";
+		}
 	}
 	
 	$backbonesfile = "../www/$isp/backbones.map.js";

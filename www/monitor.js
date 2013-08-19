@@ -18,8 +18,37 @@ kappa.ISPList =
     			'095.088.000.000-095.091.255.255',
     			'146.052.000.000-146.052.255.255',
     			'178.024.000.000-178.027.255.255',
-    			'188.192.000.000-188.195.255.255',
-			]
+    			'188.192.000.000-188.195.255.255'
+			],
+			bbnoshow :
+			{
+				'Neumünster-Kiel'		  : true,
+				'Hamburg-Hannover'		  : true,
+				'Hamburg-Berlin'  		  : true,
+				'Hamburg-Leipzig' 		  : true,
+				'Hamburg-Bremen'  		  : true,
+				'Hamburg-Nürnberg' 		  : true,
+				'Hamburg-Kaiserslautern'  : true,
+				'Hannover-Bremen' 	 	  : true,
+				'Hannover-Berlin' 	 	  : true,
+				'Hannover-Leipzig'  	  : true,
+				'Leipzig-Berlin'  		  : true,
+				'Kaiserslautern-Bremen'   : true,
+				'Kaiserslautern-Hannover' : true,
+				'Kaiserslautern-Berlin'   : true,
+				'Kaiserslautern-Leipzig'  : true,
+				'Kaiserslautern-Nürnberg' : true,
+				'Kaiserslautern-München'  : true,
+				'Nürnberg-Leipzig'  	  : true,
+				'München-Leipzig'  		  : true,
+				'München-Nürnberg' 		  : true,
+			},
+			zoomstages :
+			[
+				-1,-1,-1,-1,-1,-1,-1,
+				0,0,0,
+				0,0,0,0,0,0,0,0,0,0
+			]			
 		},
 	
 		"tk" : 
@@ -38,8 +67,44 @@ kappa.ISPList =
     			'093.192.000.000-093.255.255.255',
     			'217.000.000.000-217.007.255.255',
     			'217.080.000.000-217.095.255.255',
-    			'217.224.000.000-217.255.255.255',
-			]
+    			'217.224.000.000-217.255.255.255'
+			],
+			bbnoshow :
+			{
+				'Hamburg-Hannover'		  	   : true,
+				'Hamburg-Berlin'  		 	   : true,
+				'Hamburg-Leipzig' 		 	   : true,
+				'Hamburg-Bremen'  		 	   : true,
+				'Hamburg-Nürnberg' 		 	   : true,
+				'Hamburg-Kaiserslautern' 	   : true,
+				'Hannover-Bremen' 	 	 	   : true,
+				'Hannover-Berlin' 	 	 	   : true,
+				'Hannover-Leipzig'  		   : true,
+				'Frankfurt Am Main-Hamburg'    : true,
+				'Frankfurt Am Main-Bremen'     : true,
+				'Frankfurt Am Main-Hannover'   : true,
+				'Frankfurt Am Main-Düsseldorf' : true,
+				'Frankfurt Am Main-Dortmund'   : true,
+				'Frankfurt Am Main-Köln' 	   : true,
+				'Frankfurt Am Main-Neuss'      : true,
+				'Frankfurt Am Main-Berlin'     : true,
+				'Frankfurt Am Main-Leipzig'    : true,
+				'Frankfurt Am Main-Ulm' 	   : true,
+				'Frankfurt Am Main-Nürnberg'   : true,
+				'Frankfurt Am Main-München'    : true,
+				'Frankfurt Am Main-Stuttgart'  : true,
+				'Frankfurt Am Main-Paderborn'  : true,
+				'Frankfurt Am Main-Regensburg' : true,
+				'Nürnberg-Leipzig'  	 	   : true,
+				'München-Leipzig'  		 	   : true,
+				'München-Nürnberg' 		 	   : true,
+			},
+			zoomstages :
+			[
+				-1,-1,-1,-1,-1,-1,-1,
+				8192,4096,2048,
+				0,0,0,0,0,0,0,0,0,0
+			]			
 		}
 	}
 }
@@ -504,19 +569,15 @@ kappa.ZoomChanged = function()
 	
 	if (kappa.Segpoints)
 	{
-		var minendcount = 9999999999;
-
-		if (zoom >=  7) minendcount = 8192;
-		if (zoom >=  8) minendcount = 4096;
-		if (zoom >=  9) minendcount = 2048;
-		if (zoom >= 10) minendcount = 0;
+		var zoomstages  = kappa.ISPList[ kappa.country ][ kappa.provider ].zoomstages;
+		var minendcount = zoomstages[ zoom ];
 		
 		for (var mkey in kappa.Segpoints)
 		{
 			var marker  = kappa.Segpoints[ mkey ];
-			var visible = (marker.endcount >= minendcount) || marker.ishome || ! marker.isalive;
+			var visible = ((minendcount >= 0) && (marker.endcount >= minendcount)) || marker.ishome || ! marker.isalive;
 			
-			visible = true;
+			//visible = true;
 			
 			if (marker.visible != visible)
 			{
@@ -1473,6 +1534,16 @@ kappa.BackbonesCallback = function(backbones)
 	}
 } 
 
+kappa.CheckNoShow = function(city1,city2)
+{
+	var bbnoshow = kappa.ISPList[ kappa.country ][ kappa.provider ].bbnoshow;
+	
+	if (bbnoshow[ city1 + '-' + city2 ]) return true;
+	if (bbnoshow[ city2 + '-' + city1 ]) return true;
+	
+	return false;
+}
+
 kappa.BackbonesDraw = function()
 {
 	kappa.Bbopoints = new Object();
@@ -1481,6 +1552,7 @@ kappa.BackbonesDraw = function()
 	{		
 		var backbone = kappa.Backbones[ binx ];
 
+		var bbocity = backbone.loc.city;
 		var bbolat  = kappa.Round(backbone.loc.lat);
 		var bbolon  = kappa.Round(backbone.loc.lon);
 		
@@ -1530,9 +1602,15 @@ kappa.BackbonesDraw = function()
 			var link  = backbone.upls[ lip ];
 			var parts = link.split(',');
 
-			var upllat = kappa.Round(parseFloat(parts[ 3 ])); 
-			var upllon = kappa.Round(parseFloat(parts[ 4 ]));
+			var uplcity = parts[ 2 ];
+			var upllat  = kappa.Round(parseFloat(parts[ 3 ])); 
+			var upllon  = kappa.Round(parseFloat(parts[ 4 ]));
 
+			if (kappa.CheckNoShow(bbocity,uplcity))
+			{ 
+				continue;
+			}
+			
 			var path = 
 			[
 				new google.maps.LatLng(bbolat,bbolon),
@@ -1555,9 +1633,15 @@ kappa.BackbonesDraw = function()
 			var link  = backbone.bbls[ lip ];
 			var parts = link.split(',');
 
+			var uplcity = parts[ 2 ];
 			var upllat = kappa.Round(parseFloat(parts[ 3 ])); 
 			var upllon = kappa.Round(parseFloat(parts[ 4 ]));
-
+			
+			if (kappa.CheckNoShow(bbocity,uplcity))
+			{ 
+				continue;
+			}
+			
 			var path = 
 			[
 				new google.maps.LatLng(bbolat,bbolon),
@@ -1605,6 +1689,8 @@ kappa.UplinksDraw = function()
 				title    : uplink.loc.city
 			});
 			
+			google.maps.event.addListener(uplmarker,'click',kappa.EndpointClick);
+	
 			kappa.Uplpoints[ markerkey ] = uplmarker;
 			
 			uplmarker.isalive  = isalive;
@@ -1758,7 +1844,7 @@ kappa.EndpointsDraw = function()
 			if ((Math.abs(seglat - fixlat) < 1.000) && 
 				(Math.abs(seglon - fixlon) < 1.000))
 			{
-				continue;
+				//continue;
 			}
 			
 			if ((Math.abs(seglat - fixlat) < 0.001) && 
