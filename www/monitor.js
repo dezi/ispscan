@@ -71,33 +71,75 @@ kappa.ISPList =
 			],
 			bbnoshow :
 			{
-				'Hamburg-Hannover'		  	   : true,
-				'Hamburg-Berlin'  		 	   : true,
-				'Hamburg-Leipzig' 		 	   : true,
-				'Hamburg-Bremen'  		 	   : true,
-				'Hamburg-Nürnberg' 		 	   : true,
-				'Hamburg-Kaiserslautern' 	   : true,
-				'Hannover-Bremen' 	 	 	   : true,
-				'Hannover-Berlin' 	 	 	   : true,
-				'Hannover-Leipzig'  		   : true,
-				'Frankfurt Am Main-Hamburg'    : true,
-				'Frankfurt Am Main-Bremen'     : true,
-				'Frankfurt Am Main-Hannover'   : true,
-				'Frankfurt Am Main-Düsseldorf' : true,
-				'Frankfurt Am Main-Dortmund'   : true,
-				'Frankfurt Am Main-Köln' 	   : true,
-				'Frankfurt Am Main-Neuss'      : true,
-				'Frankfurt Am Main-Berlin'     : true,
-				'Frankfurt Am Main-Leipzig'    : true,
-				'Frankfurt Am Main-Ulm' 	   : true,
-				'Frankfurt Am Main-Nürnberg'   : true,
-				'Frankfurt Am Main-München'    : true,
-				'Frankfurt Am Main-Stuttgart'  : true,
-				'Frankfurt Am Main-Paderborn'  : true,
-				'Frankfurt Am Main-Regensburg' : true,
-				'Nürnberg-Leipzig'  	 	   : true,
-				'München-Leipzig'  		 	   : true,
-				'München-Nürnberg' 		 	   : true,
+				'Hamburg-Hannover'		  	    	: true,
+				'Hamburg-Berlin'  		 	    	: true,
+				'Hamburg-Leipzig' 		 	    	: true,
+				'Hamburg-Bremen'  		 	    	: true,
+				'Hamburg-Nürnberg' 		 	    	: true,
+				'Hamburg-Kaiserslautern' 	    	: true,
+				'Hannover-Bremen' 	 	 	    	: true,
+				'Hannover-Berlin' 	 	 	    	: true,
+				'Hannover-Leipzig'  		    	: true,
+				'Nürnberg-Leipzig'  	 	    	: true,
+				'München-Leipzig'  		 	    	: true,
+				'München-Nürnberg' 		 	    	: true,
+				'Frankfurt Am Main-Flensburg'   	: true,
+				'Frankfurt Am Main-Kiel'        	: true,
+				'Frankfurt Am Main-Lübeck'      	: true,
+				'Frankfurt Am Main-Hamburg'     	: true,
+				'Frankfurt Am Main-Rostock'     	: true,
+				'Frankfurt Am Main-Schwerin'    	: true,
+				'Frankfurt Am Main-Bremen'      	: true,
+				'Frankfurt Am Main-Oldenburg'   	: true,
+				'Frankfurt Am Main-Bremerhaven' 	: true,
+				'Frankfurt Am Main-Leer'        	: true,
+				'Frankfurt Am Main-Bremen'      	: true,
+				'Frankfurt Am Main-Hannover'    	: true,
+				'Frankfurt Am Main-Braunschweig'    : true,
+				'Frankfurt Am Main-Göttingen'    	: true,
+				'Frankfurt Am Main-Kassel'   	 	: true,
+				'Frankfurt Am Main-Osnabrück'   	: true,
+				'Frankfurt Am Main-Bielefeld'    	: true,
+				'Frankfurt Am Main-Kassel'   	 	: true,
+				'Frankfurt Am Main-Meschede'   	 	: true,
+				'Frankfurt Am Main-Münster'   	 	: true,
+				'Frankfurt Am Main-Wesel'   	 	: true,
+				'Frankfurt Am Main-Düsseldorf'  	: true,
+				'Frankfurt Am Main-Dortmund'    	: true,
+				'Frankfurt Am Main-Essen'    		: true,
+				'Frankfurt Am Main-Lingen'   	 	: true,
+				'Frankfurt Am Main-Köln' 	    	: true,
+				'Frankfurt Am Main-Neuss'       	: true,
+				'Frankfurt Am Main-Neubrandenburg' 	: true,
+				'Frankfurt Am Main-Berlin'      	: true,
+				'Frankfurt Am Main-Leipzig'     	: true,
+				'Frankfurt Am Main-Halle'       	: true,
+				'Frankfurt Am Main-Cottbus'     	: true,
+				'Frankfurt Am Main-Bautzen'     	: true,
+				'Frankfurt Am Main-Dresden'     	: true,
+				'Frankfurt Am Main-Chemnitz'    	: true,
+				'Frankfurt Am Main-Erfurt'    		: true,
+				'Frankfurt Am Main-Magdeburg'    	: true,
+				'Frankfurt Am Main-Gera'    		: true,
+				'Frankfurt Am Main-Ulm' 	    	: true,
+				'Frankfurt Am Main-Würzburg'    	: true,
+				'Frankfurt Am Main-Nürnberg'    	: true,
+				'Frankfurt Am Main-Augsburg'    	: true,
+				'Frankfurt Am Main-Passau'   	  	: true,
+				'Frankfurt Am Main-Bayreuth'     	: true,
+				'Frankfurt Am Main-München'     	: true,
+				'Frankfurt Am Main-Traunstein'     	: true,
+				'Frankfurt Am Main-Kempten'     	: true,
+				'Frankfurt Am Main-Konstanz'   		: true,
+				'Frankfurt Am Main-Rottweil'   		: true,
+				'Frankfurt Am Main-Freiburg'   		: true,
+				'Frankfurt Am Main-Stuttgart'   	: true,
+				'Frankfurt Am Main-Heilbronn'   	: true,
+				'Frankfurt Am Main-Karlsruhe'   	: true,
+				'Frankfurt Am Main-Offenburg'   	: true,
+				'Frankfurt Am Main-Paderborn'   	: true,
+				'Frankfurt Am Main-Regensburg'  	: true,
+				'Frankfurt Am Main-Wuppertal'  		: true,
 			},
 			zoomstages :
 			[
@@ -1420,51 +1462,102 @@ kappa.ParseDate = function(ds)
 	return date;
 }
 
+kappa.FormatDatePad = function(number)
+{
+	return ((number < 10) ? '0' : '') + number.toString();
+}
+
+kappa.FormatDate = function(date)
+{
+	var dstr = kappa.FormatDatePad(date.getDate())
+			 + '.'
+			 + kappa.FormatDatePad(date.getMonth() + 1)
+			 + '.'
+			 + kappa.FormatDatePad(date.getFullYear())
+			 + ' '
+			 + kappa.FormatDatePad(date.getHours())
+			 + ':'
+			 + kappa.FormatDatePad(date.getMinutes())
+			 + ':'
+			 + kappa.FormatDatePad(date.getSeconds())
+			 ;
+			 
+	return dstr;
+}
+
 kappa.EventsCallback = function(events)
 {
 	kappa.EventsScript.parentNode.removeChild(kappa.EventsScript);
 	window.clearTimeout(kappa.EventsTimer);
 	
-	kappa.Events = new Object();
-
-	var stack = new Object();
-		
-	for (var key in events)
+	if (! kappa.EventsOpen)
 	{
-		var etime = key.substr(0,15);
-		var ipkey = key.substr(16,key.length - 16);
-		var event = events[ key ];
+		kappa.EventsOpen = new Object();
+		kappa.EventsHist = new Array();
+		kappa.EventsTime = 0;
+	}
+	
+	//
+	// Process in reversed order.
+	//
+	
+	var order = new Array();
+	for (var key in events) order.unshift(key);
+	
+	for (var inx in order)
+	{
+		var key    = order[ inx ];
+		var etime  = key.substr(0,15);
+		var etimed = kappa.ParseDate(etime);
+		
+		if (kappa.EventsTime > etimed) break;
+		
+		var ipkey  = key.substr(16,key.length - 16);
+		var event  = events[ key ];
 		
 		if (event == 'died')
 		{
-			if (! stack[ ipkey ])
+			if ((! kappa.EventsOpen[ ipkey ]) || (kappa.EventsOpen[ ipkey ].state != 'died'))
 			{
-				console.log(ipkey + ' down ' + etime);
+				kappa.EventsOpen[ ipkey ] = new Object();
+				
+				kappa.EventsOpen[ ipkey ].ipkey = ipkey;
+				kappa.EventsOpen[ ipkey ].state = 'died';
+				kappa.EventsOpen[ ipkey ].dtime = etimed;
+				
+				console.log(ipkey + ' down ' + kappa.FormatDate(etimed));
 			}
-			else
-			if (stack[ ipkey ].substr(0,4) == 'live')
+		}
+
+		if (event == 'live')
+		{
+			if (kappa.EventsOpen[ ipkey ] && (kappa.EventsOpen[ ipkey ].state == 'died'))
 			{
-				var ltime = stack[ ipkey ].substr(5);
+				kappa.EventsOpen[ ipkey ].state = 'live';
+				kappa.EventsOpen[ ipkey ].ltime = etimed;
 				
-				var dltime = kappa.ParseDate(ltime);
-				var detime = kappa.ParseDate(etime);
+				var dtimed  = kappa.EventsOpen[ ipkey ].dtime;
+				var minutes = Math.floor((etimed.getTime() - dtimed.getTime()) / 60000);
 				
-				var minutes = Math.floor((dltime.getTime() - detime.getTime()) / 60000);
+				console.log(ipkey + ' down ' + kappa.FormatDate(dtimed) + ' => ' + kappa.FormatDate(etimed) + ' (' + minutes.toString() + ')');
 				
-				console.log(ipkey + ' down ' + etime + ' => ' + ltime + ' (' + minutes.toString() + ')');
+				kappa.EventsHist.unshift(kappa.EventsOpen[ ipkey ]);
+				delete kappa.EventsOpen[ ipkey ];
 			}
 		}
 		
-		stack[ ipkey ] = event + '|' + etime;
+		kappa.EventsTime = etimed;
 	}
-	
-	//window.setTimeout('kappa.EventsRefresh()',2000);
+
+	window.setTimeout('kappa.EventsRefresh()',2000);
 }
 
 kappa.EventsRefresh = function()
 {
+	var which = kappa.EventsOpen ? "new" : "48h";
+	
 	kappa.EventsScript = document.createElement('script');
-	kappa.EventsScript.src = kappa.country + '/' + kappa.provider + '/events.48h.js?rnd=' + Math.random();
+	kappa.EventsScript.src = kappa.country + '/' + kappa.provider + '/events.' + which + '.js?rnd=' + Math.random();
 	document.body.appendChild(kappa.EventsScript);
 	
 	kappa.EventsTimer = window.setTimeout('kappa.EventsRefresh()',16000);

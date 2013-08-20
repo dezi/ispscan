@@ -704,6 +704,189 @@ function ConsumeEndpingTask($trans,$reply,$remote_host,$remote_port)
 	   . "\n");
 }
 
+function ScheduleBblpingTask($task,&$request)
+{
+	if (isset($request[ "what" ])) return;
+	if (! HasFeature($task,"bblping")) return;
+	if (! IsVersion($task,"1.03")) return;
+	
+	$isp = GetRandomISP("mapdata/backbones.json");
+	
+	if (! is_dir("../var/$isp/bblping")) mkdir("../var/$isp/bblping",0777);
+	
+	if ($request[ "isp" ] != $isp) return;
+	
+	//
+	// Organize todo lists.
+	//
+	
+	if (isset($GLOBALS[ $isp ][ "bblpingstime" ]) &&
+		((time() - $GLOBALS[ $isp ][ "bblpingstime" ]) > 600))
+	{
+		unset($GLOBALS[ $isp ][ "bblpings" ]);
+	}
+	
+	if ((! isset($GLOBALS[ $isp ][ "bblpings" ]) ||
+		  (count($GLOBALS[ $isp ][ "bblpings" ]) == 0)))
+	{			
+		$bblpingsfile = "../var/$isp/mapdata/backbones.json";
+		$bblpings = json_decdat(file_get_contents($bblpingsfile));
+		
+		foreach ($bblpings as $bblinkip => $bbdata)
+		{
+			if ($bbdata[ "loc" ] == "n.n.") continue;
+			
+			$bblpingfile = "../var/$isp/bblping/$bblinkip.ping.json";
+			
+			if (file_exists($bblpingfile))
+			{
+				$bblpings[ $bblinkip ] = filemtime($bblpingfile);
+			}
+			else
+			{
+				$bblpings[ $bblinkip ] = 0;
+			}
+		}
+		
+		asort($bblpings);
+		
+		$GLOBALS[ $isp ][ "bblpings"     ] = &$bblpings;
+		$GLOBALS[ $isp ][ "bblpingstime" ] = time();
+	}
+	
+	$bblpings = &$GLOBALS[ $isp ][ "bblpings" ];
+	
+	$pinglist = array();
+	
+	foreach ($bblpings as $bblinkip => $time)
+	{
+		if ((time() - $time) > 300)
+		{
+			array_push($pinglist,$bblinkip);
+			unset($bblpings[ $bblinkip ]);
+				
+			if (count($pinglist) < 64) continue;
+		}
+		
+		break;
+	}
+	
+	if (! count($pinglist)) return;
+			
+	$trans = &$GLOBALS[ "transactions" ][ $request[ "guid" ] ];
+
+	$request[ "what" ] = "bblping";
+	$request[ "list" ] = &$pinglist;
+
+	$trans[ "consume" ] = "bblping";
+	$trans[ "isp" 	  ] = $isp;
+	$trans[ "list"    ] = &$pinglist;
+}
+
+function ConsumeBblpingTask($trans,$reply,$remote_host,$remote_port)
+{
+	$isp = $trans[ "isp" ];
+	
+	if (count($trans[ "list" ]) != count($reply[ "list" ]))
+	{
+		//
+		// Requested pings count not replied pings count.
+		//
+		
+		Logdat("$remote_host:$remote_port"
+		   . " => " 
+		   . $trans[ "isp"  ]
+		   . " => " 
+		   . $trans[ "consume" ] 
+		   . " => "
+		   . count($trans[ "list" ])
+		   . " != "
+		   . count($reply[ "list" ]) 
+		   . "\n");
+		   
+		return;
+	}
+	
+	$dirty = false;
+	
+	foreach ($trans[ "list" ] as $bblinkip)
+	{		
+		$ms   = array_shift($reply[ "list" ]);
+		$myms = "n.a.";
+
+		$bblpingfile = "../var/$isp/bblping/$bblinkip.ping.json";
+		$bblpingdata = array();
+	
+		if (file_exists($bblpingfile))
+		{
+			$bblpingdata = json_decdat(file_get_contents($bblpingfile));
+			if ($bblpingdata === false) $bblpingdata = array();
+		}
+	
+		$stamp = date("Ymd.His");
+
+		if (! isset($bblpingdata[ $bblinkip ])) $bblpingdata[ $bblinkip ] = array();
+
+		$change = ManagePingresult($bblpingdata[ $bblinkip ],$stamp,$ms);
+		
+		if ($change !== false)
+		{
+			if ($change == "died")
+			{
+				$myms = Ping(IP($bblinkip),1000);
+				
+				if ($myms != -1)
+				{
+					CorrectPingresult($bblpingdata[ $bblinkip ],$stamp,$myms);
+					$change = "noop";
+				}
+				else
+				{
+					//
+					// Re-schedule right away.
+					//
+					
+					$GLOBALS[ $isp ][ "bblpings" ][ $bblinkip ] = 0;
+					asort($GLOBALS[ $isp ][ "bblpings" ]);
+					
+					$dirty = true;
+				}
+			}
+		
+			if ($change == "live")
+			{
+				$dirty = true;
+			}
+		
+			Logdat("$remote_host:$remote_port"
+			   . " => " 
+			   . $trans[ "isp"  ]
+			   . " => " 
+			   . $trans[ "consume" ] 
+			   . " => "
+			   . $bblinkip 
+			   . " => "
+			   . $change
+			   . " => "
+			   . $myms
+			   . " => "
+			   . $trans[ "host" ]
+			   . "\n");
+		}
+			
+		file_put_contents($bblpingfile,json_encdat($bblpingdata) . "\n");
+	}
+	
+	Logdat("$remote_host:$remote_port"
+	   . " => " 
+	   . $trans[ "isp"  ]
+	   . " => " 
+	   . $trans[ "consume" ] 
+	   . " => "
+	   . count($trans[ "list" ])
+	   . "\n");
+}
+
 function ScheduleUplpingTask($task,&$request)
 {
 	if (isset($request[ "what" ])) return;
@@ -1362,6 +1545,7 @@ function ScheduleTask($task,$remote_host,$remote_port)
 	if (! mt_rand(0,0)) ScheduleMtrLogsTask($task,$request);
 	if (! mt_rand(0,4)) ScheduleNetpingTask($task,$request);
 	if (! mt_rand(0,2)) ScheduleEndpingTask($task,$request);
+    if (! mt_rand(0,0)) ScheduleBBlpingTask($task,$request);
     if (! mt_rand(0,0)) ScheduleUplpingTask($task,$request);
     if (! mt_rand(0,0)) ScheduleEplpingTask($task,$request);
 	if (! mt_rand(0,0)) ScheduleNetpingTask($task,$request);
@@ -1418,6 +1602,7 @@ function ConsumeReply($reply,$remote_host,$remote_port)
 		case "mtrdoms" : ConsumeMtrDomsTask($trans,$reply,$remote_host,$remote_port); break;
 		case "netping" : ConsumeNetpingTask($trans,$reply,$remote_host,$remote_port); break;
 		case "endping" : ConsumeEndpingTask($trans,$reply,$remote_host,$remote_port); break;
+		case "bblping" : ConsumeBblpingTask($trans,$reply,$remote_host,$remote_port); break;
 		case "uplping" : ConsumeUplpingTask($trans,$reply,$remote_host,$remote_port); break;
 		case "eplping" : ConsumeEplpingTask($trans,$reply,$remote_host,$remote_port); break;
 		

@@ -479,16 +479,35 @@ function BuildBackbones($isp,&$endpoint,&$uplinks,&$allbones,$stage)
 	
 	$olduplping = array();
 	
-	$dfd = opendir("../var/$isp/uplping");
-	
-	while (($file = readdir($dfd)) !== false)
+	if (file_exists("../var/$isp/uplping"))
 	{
-		if (substr($file,0,1) == ".") continue;
+		$dfd = opendir("../var/$isp/uplping");
+	
+		while (($file = readdir($dfd)) !== false)
+		{
+			if (substr($file,0,1) == ".") continue;
 		
-		$olduplping[ "../var/$isp/uplping/$file" ] = true;
+			$olduplping[ "../var/$isp/uplping/$file" ] = true;
+		}
+	
+		closedir($dfd);
 	}
 	
-	closedir($dfd);
+	$oldbblping = array();
+	
+	if (file_exists("../var/$isp/bblping"))
+	{
+		$dfd = opendir("../var/$isp/bblping");
+	
+		while (($file = readdir($dfd)) !== false)
+		{
+			if (substr($file,0,1) == ".") continue;
+		
+			$oldbblping[ "../var/$isp/bblping/$file" ] = true;
+		}
+	
+		closedir($dfd);
+	}
 	
 	//
 	// Read manual router locations if required.
@@ -1390,6 +1409,10 @@ function BuildBackbones($isp,&$endpoint,&$uplinks,&$allbones,$stage)
 		{
 			echo "\t\"$bbip\" : \"" . $bbdata[ "loc"  ] . "\",\n";
 		}
+		
+		$bblpingfile = "../var/$isp/bblping/$bbip.ping.json";
+		
+		if (isset($oldbblping[ $bblpingfile ])) unset($oldbblping[ $bblpingfile ]);
 	}
 	
 	$backbonesfile = "../www/$isp/backbones.map.js";
@@ -1431,6 +1454,13 @@ function BuildBackbones($isp,&$endpoint,&$uplinks,&$allbones,$stage)
 
 	ksort($olduplping);
 	foreach ($olduplping as $file => $dummy)
+	{
+		echo "Obsolete: $file\n";
+		@unlink($file);
+	}
+
+	ksort($oldbblping);
+	foreach ($oldbblping as $file => $dummy)
 	{
 		echo "Obsolete: $file\n";
 		@unlink($file);
