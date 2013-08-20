@@ -395,20 +395,6 @@ kappa.InitializeLabel = function()
 	};
 }
 
-kappa.EventsCallback = function(events)
-{
-	kappa.Events = new Array();
-
-	for (var einx in events)
-	{
-		var event = events[ einx ];
-
-		if (! kappa.Events[ event.ip ]) kappa.Events[ event.ip ] = new Array();
-
-		kappa.Events[ event.ip ].push(event);
-	}
-}
-
 kappa.MyipCallback = function(myip)
 {
 	kappa.Mystuff = new Object();
@@ -750,9 +736,7 @@ kappa.Initialize = function()
     kappa.SignalDead.src = 'snd/sound.sirene.wav';
     kappa.SignalDead.preload = true;
 
-	kappa.EndpointsNopingsRefresh();
-	kappa.EplinksNopingsRefresh();
-	kappa.UplinksNopingsRefresh();
+	kappa.EventsRefresh();
 	
 	if (kappa.selector == 'ep') window.setTimeout('kappa.EndpointsRequest()',1000);
 	if (kappa.selector == 'bb') window.setTimeout('kappa.BackbonesRequest()',1000);
@@ -1419,73 +1403,71 @@ kappa.HomeDraw = function(snet,seg)
 }
 
 //
-// Nopings section.
+// Events section.
 //
 
-kappa.UplinksNopingsCallback = function(data)
+kappa.ParseDate = function(ds)
 {
-	kappa.UplinksScript.parentNode.removeChild(kappa.UplinksScript);
-	window.clearTimeout(kappa.UplinksNopingsTimer);
+	var date = new Date();
 
-	if ((! kappa.UplinksNopings) || (kappa.UplinksNopings.stamp != data.stamp))
-	{
-		kappa.UplinksNopings = data;
-	}
-		
-	window.setTimeout('kappa.UplinksNopingsRefresh()',2000);
-}
-
-kappa.UplinksNopingsRefresh = function()
-{
-	kappa.UplinksScript = document.createElement('script');
-	kappa.UplinksScript.src = kappa.country + '/' + kappa.provider + '/nopings.uplinks.js?rnd=' + Math.random();
-	document.body.appendChild(kappa.UplinksScript);
+	date.setUTCFullYear(parseInt(ds.substr( 0,4)));
+	date.setUTCMonth   (parseInt(ds.substr( 4,2)) - 1);
+	date.setUTCDate    (parseInt(ds.substr( 6,2)));
+	date.setUTCHours   (parseInt(ds.substr( 9,2)));
+	date.setUTCMinutes (parseInt(ds.substr(11,2)));
+	date.setUTCSeconds (parseInt(ds.substr(13,2)));
 	
-	kappa.UplinksNopingsTimer = window.setTimeout('kappa.UplinksNopingsRefresh()',16000);
+	return date;
 }
 
-kappa.EplinksNopingsCallback = function(data)
+kappa.EventsCallback = function(events)
 {
-	kappa.EplinksScript.parentNode.removeChild(kappa.EplinksScript);
-	window.clearTimeout(kappa.EplinksNopingsTimer);
-
-	if ((! kappa.EplinksNopings) || (kappa.EplinksNopings.stamp != data.stamp))
-	{
-		kappa.EplinksNopings = data;
-	}
-		
-	window.setTimeout('kappa.EplinksNopingsRefresh()',2000);
-}
-
-kappa.EplinksNopingsRefresh = function()
-{
-	kappa.EplinksScript = document.createElement('script');
-	kappa.EplinksScript.src = kappa.country + '/' + kappa.provider + '/nopings.eplinks.js?rnd=' + Math.random();
-	document.body.appendChild(kappa.EplinksScript);
+	kappa.EventsScript.parentNode.removeChild(kappa.EventsScript);
+	window.clearTimeout(kappa.EventsTimer);
 	
-	kappa.EplinksNopingsTimer = window.setTimeout('kappa.EplinksNopingsRefresh()',16000);
-}
+	kappa.Events = new Object();
 
-kappa.EndpointsNopingsCallback = function(data)
-{
-	kappa.EndpointsScript.parentNode.removeChild(kappa.EndpointsScript);
-	window.clearTimeout(kappa.EndpointsNopingsTimer);
-
-	if ((! kappa.EndpointsNopings) || (kappa.EndpointsNopings.stamp != data.stamp))
-	{
-		kappa.EndpointsNopings = data;
-	}
+	var stack = new Object();
 		
-	window.setTimeout('kappa.EndpointsNopingsRefresh()',2000);
+	for (var key in events)
+	{
+		var etime = key.substr(0,15);
+		var ipkey = key.substr(16,key.length - 16);
+		var event = events[ key ];
+		
+		if (event == 'died')
+		{
+			if (! stack[ ipkey ])
+			{
+				console.log(ipkey + ' down ' + etime);
+			}
+			else
+			if (stack[ ipkey ].substr(0,4) == 'live')
+			{
+				var ltime = stack[ ipkey ].substr(5);
+				
+				var dltime = kappa.ParseDate(ltime);
+				var detime = kappa.ParseDate(etime);
+				
+				var minutes = Math.floor((dltime.getTime() - detime.getTime()) / 60000);
+				
+				console.log(ipkey + ' down ' + etime + ' => ' + ltime + ' (' + minutes.toString() + ')');
+			}
+		}
+		
+		stack[ ipkey ] = event + '|' + etime;
+	}
+	
+	//window.setTimeout('kappa.EventsRefresh()',2000);
 }
 
-kappa.EndpointsNopingsRefresh = function()
+kappa.EventsRefresh = function()
 {
-	kappa.EndpointsScript = document.createElement('script');
-	kappa.EndpointsScript.src = kappa.country + '/' + kappa.provider + '/nopings.endpoints.js?rnd=' + Math.random();
-	document.body.appendChild(kappa.EndpointsScript);
+	kappa.EventsScript = document.createElement('script');
+	kappa.EventsScript.src = kappa.country + '/' + kappa.provider + '/events.48h.js?rnd=' + Math.random();
+	document.body.appendChild(kappa.EventsScript);
 	
-	kappa.EndpointsNopingsTimer = window.setTimeout('kappa.EndpointsNopingsRefresh()',16000);
+	kappa.EventsTimer = window.setTimeout('kappa.EventsRefresh()',16000);
 }
 
 //

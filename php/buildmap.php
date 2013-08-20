@@ -5,7 +5,7 @@
 	
 	$tobuilds = Array();
 
-	if (true)
+	if (false)
 	{
 		$isp = "de/kd";
 		array_push($tobuilds,"024.134.000.000-024.134.255.255");
