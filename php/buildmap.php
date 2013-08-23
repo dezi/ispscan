@@ -5,7 +5,7 @@
 	
 	$tobuilds = Array();
 
-	if (false)
+	if (true)
 	{
 		$isp = "de/kd";
 		array_push($tobuilds,"024.134.000.000-024.134.255.255");
@@ -77,11 +77,11 @@ function CheckGateways($isp,&$uplinks)
 	
 	$numcities = array();
 	
-	foreach ($gateways as $routerip => $subnets)
+	foreach ($gateways as $routerip => $gwdata)
 	{
-		$number = count(GetDifferentCities($subnets));
+		$number = count(GetDifferentCities($gwdata[ "epls" ]));
 		
-		foreach ($subnets as $subnetip => $dummy)
+		foreach ($gwdata[ "epls" ] as $subnetip => $dummy)
 		{
 			if ((! isset($numcities[ $subnetip ])) || ($numcities[ $subnetip ] > $number))
 			{
@@ -90,18 +90,16 @@ function CheckGateways($isp,&$uplinks)
 		}
 	}
 	
-	foreach ($gateways as $routerip => $subnets)
+	foreach ($gateways as $routerip => $gwdata)
 	{
-		ksort($gateways[ $routerip ]);
-		
-		if (count(GetDifferentCities($subnets)) == 1)
+		if (count(GetDifferentCities($gwdata[ "epls" ])) == 1)
 		{
 			//
 			// Move good locations at end.
 			//
 			
 			unset($gateways[ $routerip ]);
-			$gateways[ $routerip ] = $subnets;
+			$gateways[ $routerip ] = $gwdata;
 		}
 		else
 		{
@@ -113,11 +111,11 @@ function CheckGateways($isp,&$uplinks)
 			
 			$allsingle = true;
 			
-			foreach ($subnets as $subnetip => $dummy)
+			foreach ($gwdata[ "epls" ] as $subnetip => $dummy)
 			{
 				if ($numcities[ $subnetip ] > 1) 
 				{
-					$gateways[ $routerip ][ $subnetip ] .= "!!!";
+					$gateways[ $routerip ][ "epls" ][ $subnetip ] .= "!!!";
 					
 					$notraces[ $subnetip ] = true;
 					
@@ -142,7 +140,7 @@ function CheckGateways($isp,&$uplinks)
 	// Rule based cleanup.
 	//
 	
-	foreach ($gateways as $routerip => $subnets)
+	foreach ($gateways as $routerip => $gwdata)
 	{
 		$bb = false;
 		
@@ -159,7 +157,7 @@ function CheckGateways($isp,&$uplinks)
 		if ($bb) unset($gateways[ $routerip ]);
 	}
 	
-	foreach ($gateways as $routerip => $subnets)
+	foreach ($gateways as $routerip => $gwdata)
 	{
 		if (substr($routerip,0,7) == "001.000")
 		{
@@ -169,8 +167,13 @@ function CheckGateways($isp,&$uplinks)
 			
 			unset($gateways[ $routerip ]);
 			
-			$gateways[ $routerip ] = $subnets;
+			$gateways[ $routerip ] = $gwdata;
 		}
+	}
+	
+	foreach ($gateways as $routerip => $gwdata)
+	{
+		ksort($gateways[ $routerip ][ "epls" ]);
 	}
 
 	$uplinks = $gateways;
@@ -312,9 +315,10 @@ function BuildBackbones($isp,&$endpoint,&$uplinks,&$allbones,$stage)
 					echo "New uplink $lasthop from $file\n";
 					
 					$uplinks[ $lasthop ] = array();
+					$uplinks[ $lasthop ][ "epls" ] = array();
 				}
 				
-				$uplinks[ $lasthop ][ $subnetip ] = $cnets[ $cnetip ][ "loc" ];
+				$uplinks[ $lasthop ][ "epls" ][ $subnetip ] = $cnets[ $cnetip ][ "loc" ];
 				
 				continue;
 			}
@@ -332,15 +336,22 @@ function BuildBackbones($isp,&$endpoint,&$uplinks,&$allbones,$stage)
 					if ($trace) echo "TRACE: backboneip $backbonesip\n";
 
 					if ($backbonesip == "000.000.000.000") break;
-					if (isset($uplinks[ $backbonesip ])) break;
 					if ($backbonesip == $lasthop) break;
 					if (ResolveISP($backbonesip) != $isp) break;		
 					
 					if ($trace) echo "TRACE: set $backbonesip => $lasthop\n";
+
+					if (isset($uplinks[ $backbonesip ]))
+					{
+						if (! isset($uplinks[ $backbonesip ][ "upls" ])) $uplinks[ $backbonesip ][ "upls" ] = array();
+						$uplinks[ $backbonesip ][ "upls" ][ $lasthop ] = $cnets[ $cnetip ][ "loc" ];
+					}
+					else
+					{
+						if (! isset($backbones[ $backbonesip ])) $backbones[ $backbonesip ] = array();
+						$backbones[ $backbonesip ][ $lasthop ] = $cnets[ $cnetip ][ "loc" ];
+					}
 					
-					if (! isset($backbones[ $backbonesip ])) $backbones[ $backbonesip ] = array();
-					$backbones[ $backbonesip ][ $lasthop ] = $cnets[ $cnetip ][ "loc" ];
-				
 					break;
 				}
 				
@@ -358,7 +369,13 @@ function BuildBackbones($isp,&$endpoint,&$uplinks,&$allbones,$stage)
 
 					if (isset($uplinks[ $backbonesip ]))
 					{
-						foreach ($uplinks[ $backbonesip ] as $dummy => $rloc) 
+						if (($lastbone != null) && isset($uplinks[ $lastbone ]))
+						{
+							if (! isset($uplinks[ $backbonesip ][ "upls" ])) $uplinks[ $backbonesip ][ "upls" ] = array();
+							$uplinks[ $backbonesip ][ "upls" ][ $lastbone ] = $lastloc;
+						}
+						
+						foreach ($uplinks[ $backbonesip ][ "epls" ] as $dummy => $rloc) 
 						{
 				 			$lastbone = $backbonesip;
 							$lastloc  = $rloc;
@@ -947,8 +964,13 @@ function BuildBackbones($isp,&$endpoint,&$uplinks,&$allbones,$stage)
 
 						foreach ($subnet[ "dls" ] as $dl)
 						{
-							if (! isset($gateways[ $dl ])) $gateways[ $dl ] = array();
-							$gateways[ $dl ][ $subnet[ "ip" ] ] = $gateloc;
+							if (! isset($gateways[ $dl ])) 
+							{
+								$gateways[ $dl ] = array();
+								$gateways[ $dl ][ "epls" ] = array();
+							}
+							
+							$gateways[ $dl ][ "epls" ][ $subnet[ "ip" ] ] = $gateloc;
 						}
 				
 						//
@@ -1349,7 +1371,7 @@ function BuildBackbones($isp,&$endpoint,&$uplinks,&$allbones,$stage)
 					continue;
 				}
 				
-				echo "\t\"$bbip\" : \"" . $locations[ $bbip ] . "\",\n";
+				//echo "\t\"$bbip\" : \"" . $locations[ $bbip ] . "\",\n";
 						
 				$backbones[ $bbip ][ "loc" ] = $locations[ $bbip ];
 				$modified = true;
@@ -1361,6 +1383,40 @@ function BuildBackbones($isp,&$endpoint,&$uplinks,&$allbones,$stage)
 		$backbonesfile = "../var/$isp/mapdata/backbones.json";
 		$backbonesjson = json_encdat($backbones) . "\n";
 		file_put_contents($backbonesfile,$backbonesjson);
+		
+		//
+		// Make a consistency check if every uplink is
+		// routed by a backbone.
+		//
+		
+		$routedgw = array();
+		
+		foreach ($backbones as $bbip => $bbdata)
+		{
+			if (! isset($bbdata[ "upls" ])) continue;
+			
+			foreach ($bbdata[ "upls" ] as $upip => $dummy)
+			{
+				$routedgw[ $upip ] = true;
+			}
+		}
+		
+		foreach ($gateways as $upip => $gwdata)
+		{
+			if (! isset($gwdata[ "upls" ])) continue;
+			
+			foreach ($gwdata[ "upls" ] as $upip => $dummy)
+			{
+				$routedgw[ $upip ] = true;
+			}
+		}
+
+		foreach ($gateways as $upip => $dummy)
+		{
+			if (isset($routedgw[ $upip ])) continue;
+			
+			echo "Unrouted uplink $upip\n";
+		}
 	}
 	
 	$notracesfile = "../var/$isp/mapdata/notraces.json";
@@ -1379,7 +1435,7 @@ function BuildBackbones($isp,&$endpoint,&$uplinks,&$allbones,$stage)
 	
 	$uplinksmap = array();
 	
-	foreach ($gateways as $routerip => $subnets)
+	foreach ($gateways as $routerip => $gwdata)
 	{
 		//
 		// Remove from white-list.
@@ -1409,20 +1465,19 @@ function BuildBackbones($isp,&$endpoint,&$uplinks,&$allbones,$stage)
 		$uplink = array();
 		
 		$uplink[ "ip"   ] = $routerip;
-		$uplink[ "loc"  ] = null;
-		$uplink[ "png"  ] = $icmp;
 		$uplink[ "name" ] = GetHostByAddress($routerip,$isp,"buildmap");
-		$uplink[ "eps"  ] = array();
+		$uplink[ "png"  ] = $icmp;
+		$uplink[ "loc"  ] = null;
+		$uplink[ "epls" ] = array();
+		$uplink[ "upls" ] = array();
 		
-		echo "$routerip => " . $uplink[ "name" ] . "\n";
+		//echo "$routerip => " . $uplink[ "name" ] . "\n";
 		
-		GetHostByAddressSave($isp,"buildmap");
+		ksort($gwdata[ "epls" ]);
 		
-		ksort($subnets);
-		
-		foreach ($subnets as $subnetip => $location)
+		foreach ($gwdata[ "epls" ] as $subnetip => $location)
 		{
-			array_push($uplink[ "eps" ],$subnetip . ":" . $location);
+			array_push($uplink[ "epls" ],$subnetip . ":" . $location);
 			if ($uplink[ "loc" ] != null) continue;
 			
 			$parts = explode(",",$location);
@@ -1435,6 +1490,17 @@ function BuildBackbones($isp,&$endpoint,&$uplinks,&$allbones,$stage)
 			$uplink[ "loc" ][ "lat"     ] = floatval($parts[ 3 ]);
 			$uplink[ "loc" ][ "lon"     ] = floatval($parts[ 4 ]);
 		}
+		
+		if (isset($gwdata[ "upls" ]))
+		{
+			foreach ($gwdata[ "upls" ] as $subnetip => $location)
+			{
+				array_push($uplink[ "upls" ],$subnetip . ":" . $location);
+			}
+		}
+		
+		if (count($uplink[ "epls" ]) == 0) unset($uplink[ "epls" ]);
+		if (count($uplink[ "upls" ]) == 0) unset($uplink[ "upls" ]);
 		
 		array_push($uplinksmap,$uplink);
 	}
@@ -1472,7 +1538,7 @@ function BuildBackbones($isp,&$endpoint,&$uplinks,&$allbones,$stage)
 			
 			$pingdata = json_decdat(file_get_contents($bblpingfile));
 			
-			foreach ($pingdata[ $routerip ] as $stamp => $ms)
+			foreach ($pingdata[ $bbip ] as $stamp => $ms)
 			{
 				if ($ms != -1) $icmp = 2;
 			}
@@ -1481,10 +1547,10 @@ function BuildBackbones($isp,&$endpoint,&$uplinks,&$allbones,$stage)
 		$bbdump = array();
 		
 		$bbdump[ "ip"   ] = $bbip;
-		$bbdump[ "typ"  ] = $bbdata[ "typ"  ];
-		$bbdump[ "loc"  ] = $bbdata[ "loc"  ];
-		$bbdump[ "png"  ] = $icmp;
 		$bbdump[ "name" ] = $bbdata[ "name" ];
+		$bbdump[ "typ"  ] = $bbdata[ "typ"  ];
+		$bbdump[ "png"  ] = $icmp;
+		$bbdump[ "loc"  ] = $bbdata[ "loc"  ];
 		
 		if (isset($bbdata[ "upls" ])) $bbdump[ "upls" ] = $bbdata[ "upls" ];
 		if (isset($bbdata[ "bbls" ])) $bbdump[ "bbls" ] = $bbdata[ "bbls" ];
@@ -1503,7 +1569,7 @@ function BuildBackbones($isp,&$endpoint,&$uplinks,&$allbones,$stage)
 		
 		if (substr($bbip,0,7) == "088.134") 
 		{
-			echo "\t\"$bbip\" : \"" . $bbdata[ "loc"  ] . "\",\n";
+			//echo "\t\"$bbip\" : \"" . $bbdata[ "loc"  ] . "\",\n";
 		}
 	}
 	
@@ -1523,39 +1589,41 @@ function BuildBackbones($isp,&$endpoint,&$uplinks,&$allbones,$stage)
 	// Check for obsoleted subnet and endping files.
 	//
 	
+	$unlink = true;
+	
 	ksort($oldsubnets);
 	foreach ($oldsubnets as $file => $dummy)
 	{
 		echo "Obsolete: $file\n";
-		@unlink($file);
+		if ($unlink) @unlink($file);
 	}
 	
 	ksort($oldendping);
 	foreach ($oldendping as $file => $dummy)
 	{
 		echo "Obsolete: $file\n";
-		@unlink($file);
+		if ($unlink) @unlink($file);
 	}
 	
 	ksort($oldeplping);
 	foreach ($oldeplping as $file => $dummy)
 	{
 		echo "Obsolete: $file\n";
-		@unlink($file);
+		if ($unlink) @unlink($file);
 	}
 
 	ksort($olduplping);
 	foreach ($olduplping as $file => $dummy)
 	{
 		echo "Obsolete: $file\n";
-		@unlink($file);
+		if ($unlink) @unlink($file);
 	}
 
 	ksort($oldbblping);
 	foreach ($oldbblping as $file => $dummy)
 	{
 		echo "Obsolete: $file\n";
-		@unlink($file);
+		if ($unlink) @unlink($file);
 	}
 	
 	GetHostByAddressSave($isp,"buildmap");

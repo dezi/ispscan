@@ -39,6 +39,7 @@ kappa.ISPList =
 				'Kaiserslautern-Leipzig'  : true,
 				'Kaiserslautern-Nürnberg' : true,
 				'Kaiserslautern-München'  : true,
+				'Kaiserslautern-Dresden'  : true,
 				'Nürnberg-Leipzig'  	  : true,
 				'München-Leipzig'  		  : true,
 				'München-Nürnberg' 		  : true,
@@ -77,6 +78,9 @@ kappa.ISPList =
 				'Hamburg-Bremen'  		 	    	: true,
 				'Hamburg-Nürnberg' 		 	    	: true,
 				'Hamburg-Kaiserslautern' 	    	: true,
+				'Lübeck-Hannover' 	 	 	    	: true,
+				'Lübeck-Osnabrück' 	 	 	    	: true,
+				'Lübeck-Berlin' 	 	 	    	: true,
 				'Hannover-Bremen' 	 	 	    	: true,
 				'Hannover-Berlin' 	 	 	    	: true,
 				'Hannover-Leipzig'  		    	: true,
@@ -109,19 +113,23 @@ kappa.ISPList =
 				'Frankfurt Am Main-Dortmund'    	: true,
 				'Frankfurt Am Main-Essen'    		: true,
 				'Frankfurt Am Main-Bochum'   	 	: true,
+				'Frankfurt Am Main-Duisburg'   	 	: true,
+				'Frankfurt Am Main-Krefeld'   	 	: true,
 				'Frankfurt Am Main-Lingen'   	 	: true,
 				'Frankfurt Am Main-Neuss'       	: true,
 				'Frankfurt Am Main-Neubrandenburg' 	: true,
 				'Frankfurt Am Main-Berlin'      	: true,
 				'Frankfurt Am Main-Leipzig'     	: true,
+				'Frankfurt Am Main-Brandenburg'    	: true,
 				'Frankfurt Am Main-Halle'       	: true,
 				'Frankfurt Am Main-Cottbus'     	: true,
 				'Frankfurt Am Main-Bautzen'     	: true,
 				'Frankfurt Am Main-Dresden'     	: true,
 				'Frankfurt Am Main-Chemnitz'    	: true,
+				'Frankfurt Am Main-Gera'    		: true,
 				'Frankfurt Am Main-Erfurt'    		: true,
 				'Frankfurt Am Main-Magdeburg'    	: true,
-				'Frankfurt Am Main-Gera'    		: true,
+				'Frankfurt Am Main-Greifswald'    	: true,
 				'Frankfurt Am Main-Ulm' 	    	: true,
 				'Frankfurt Am Main-Würzburg'    	: true,
 				'Frankfurt Am Main-Nürnberg'    	: true,
@@ -141,6 +149,7 @@ kappa.ISPList =
 				'Frankfurt Am Main-Paderborn'   	: true,
 				'Frankfurt Am Main-Regensburg'  	: true,
 				'Frankfurt Am Main-Wuppertal'  		: true,
+				'Frankfurt Am Main-Frankfurt An Der Oder' : true,
 			},
 			zoomstages :
 			[
@@ -1659,7 +1668,8 @@ kappa.ShowInfo = function(marker,items,type)
 		var realip = item.gw ? item.gw : item.ip;
 		var itemip = item.from ? item.from : item.gw ? item.gw : item.ip;
 		var showip = itemip.replace(/^001.000./,'xxx.xxx.');
-		var noping = (showip != itemip);
+		var invisi = (showip != itemip);
+		var noping = item.png && (item.png == 1);
 
 		if (header.length == 0)
 		{
@@ -1682,7 +1692,7 @@ kappa.ShowInfo = function(marker,items,type)
 			header = '<div>' + header + '</div><hr style="clear:both"/>';
 		}
 		
-		var info = kappa.EventsOpen[ realip ] ? '' : (noping ? 'invisible' : 'ok');
+		var info = kappa.EventsOpen[ realip ] ? '' : (invisi ? 'invisible' : (noping ? 'noping' : 'ok'));
 		
 		if (item.pc && item.bc)
 		{
@@ -1699,7 +1709,6 @@ kappa.ShowInfo = function(marker,items,type)
 			
 			info += '<span style="float:right">' + fixnum + '</span>';
 		}
-
 
 		var entry = '<div style="font-weight:bold">'
 				  + showip
@@ -1973,6 +1982,37 @@ kappa.UplinksDraw = function()
 			uplmarker.setZIndex(kappa.UplPointzIndex + 10000);
 			uplmarker.setIcon(kappa.UplPointDead);
 			uplmarker.isdead = true;
+		}
+		
+		for (var lip in uplink.upls)
+		{
+			var link  = uplink.upls[ lip ];
+			var parts = link.split(',');
+
+			var nxtcity = parts[ 2 ];
+			var nxtlat  = kappa.Round(parseFloat(parts[ 3 ])); 
+			var nxtlon  = kappa.Round(parseFloat(parts[ 4 ]));
+
+			if (kappa.CheckNoShow(uplink.loc.city,nxtcity))
+			{ 
+				continue;
+			}
+			
+			var path = 
+			[
+				new google.maps.LatLng(upllat,upllon),
+				new google.maps.LatLng(nxtlat,nxtlon)
+			];
+	
+			line = new google.maps.Polyline
+			({
+				map      	  : kappa.map,
+				path          : path,
+				visible       : true,
+				strokeColor   : '#8888ff',
+				strokeWeight  : 2.0,
+				strokeOpacity : 1.0
+			});
 		}
 	}
 }

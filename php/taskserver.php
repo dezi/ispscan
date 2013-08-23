@@ -211,6 +211,8 @@ function ScheduleMtrLogsTask($task,&$request)
 	if (! HasFeature($task,"mtr")) return;
 
 	$isp = GetRandomISP("mtrlogs");
+	
+	if (($isp == "de/tk")
 	if ($request[ "isp" ] != $isp) return;
 	
 	if (isset($GLOBALS[ $isp ][ "mtrlogstime" ]) &&
