@@ -35,7 +35,39 @@
 		array_push($tobuilds,"217.224.000.000-217.255.255.255");
 	}
 	
-function CheckGateways($isp,&$uplinks,&$olduplping)
+function GetHostByAddress($ip,$isp = "xx",$cache = "global")
+{
+	$cachefile = "../var/$isp/tmpcach/hostsbyaddr.$cache.json";
+	
+	if (! isset($GLOBALS[ "gethostcache" ])) 
+	{
+		$GLOBALS[ "gethostcache" ] = array();
+		
+		if (file_exists($cachefile))
+		{
+			$GLOBALS[ "gethostcache" ] = json_decdat(file_get_contents($cachefile));
+		}
+	}
+	
+	if (! isset($GLOBALS[ "gethostcache" ][ IPZero($ip) ]))
+	{
+		$GLOBALS[ "gethostcache" ][ IPZero($ip) ] = gethostbyaddr(IP($ip));
+	}
+	
+	return $GLOBALS[ "gethostcache" ][ IPZero($ip) ];
+}
+
+function GetHostByAddressSave($isp = "xx",$cache = "global")
+{
+	$cachefile = "../var/$isp/tmpcach";
+	if (! is_dir($cachefile)) mkdir($cachefile,0777);
+	$cachefile .= "/hostsbyaddr.$cache.json";
+	
+	ksort($GLOBALS[ "gethostcache" ]);
+	file_put_contents($cachefile,json_encdat($GLOBALS[ "gethostcache" ]) . "\n");
+}
+
+function CheckGateways($isp,&$uplinks)
 {
 	$gateways = $uplinks;
 	
@@ -139,10 +171,6 @@ function CheckGateways($isp,&$uplinks,&$olduplping)
 			
 			$gateways[ $routerip ] = $subnets;
 		}
-		
-		$uplpingfile = "../var/$isp/uplping/$routerip.ping.json";
-		
-		if (isset($olduplping[ $uplpingfile ])) unset($olduplping[ $uplpingfile ]);
 	}
 
 	$uplinks = $gateways;
@@ -398,7 +426,7 @@ function BuildBackbones($isp,&$endpoint,&$uplinks,&$allbones,$stage)
 			$backbone[ "lev"  ] = $stage;
 			$backbone[ "typ"  ] = 1;
 			$backbone[ "loc"  ] = $thisloc;
-			$backbone[ "name" ] = gethostbyaddr(IP($bbip));
+			$backbone[ "name" ] = GetHostByAddress($bbip,$isp,"buildmap");
 		}
 		
 		if (! isset($backbone[ "upls" ])) $backbone[ "upls" ] = array();
@@ -1211,16 +1239,21 @@ function BuildBackbones($isp,&$endpoint,&$uplinks,&$allbones,$stage)
 	$backbones = array();
 	
 	BuildBackbones($isp,$endpoint,$gateways,$backbones,0);
-	$notraces = CheckGateways($isp,$gateways,$olduplping);
+	$notraces = CheckGateways($isp,$gateways);
 		
 	if (true)
 	{
+		echo "BuildBackbones stage 1\n";
 		BuildBackbones($isp,$endpoint,$gateways,$backbones,1);
+		
+		echo "BuildBackbones stage 2\n";
 		BuildBackbones($isp,$endpoint,$gateways,$backbones,2);
 		
 		//
 		// Relocated all simple locations recursivly.
 		//
+		
+		echo "Relocate locations stage=1\n";
 		
 		while (true)
 		{
@@ -1281,6 +1314,8 @@ function BuildBackbones($isp,&$endpoint,&$uplinks,&$allbones,$stage)
 		// Relocate all unknown locations manually.
 		//
 		
+		echo "Relocate locations stage=2\n";
+
 		while (true)
 		{
 			$modified = false;
@@ -1340,15 +1375,48 @@ function BuildBackbones($isp,&$endpoint,&$uplinks,&$allbones,$stage)
 	// Make nice uplinks locations map.
 	//
 	
+	echo "Build uplinks map\n";
+	
 	$uplinksmap = array();
 	
 	foreach ($gateways as $routerip => $subnets)
 	{
+		//
+		// Remove from white-list.
+		//
+		
+		$uplpingfile = "../var/$isp/uplping/$routerip.ping.json";
+		if (isset($olduplping[ $uplpingfile ])) unset($olduplping[ $uplpingfile ]);
+
+		//
+		// Aquire icmp status.
+		//
+		
+		$icmp = 0;
+		
+		if (file_exists($uplpingfile))
+		{
+			$icmp = 1;
+			
+			$pingdata = json_decdat(file_get_contents($uplpingfile));
+			
+			foreach ($pingdata[ $routerip ] as $stamp => $ms)
+			{
+				if ($ms != -1) $icmp = 2;
+			}
+		}
+		
 		$uplink = array();
 		
-		$uplink[ "ip"  ] = $routerip;
-		$uplink[ "loc" ] = null;
-		$uplink[ "eps" ] = array();
+		$uplink[ "ip"   ] = $routerip;
+		$uplink[ "loc"  ] = null;
+		$uplink[ "png"  ] = $icmp;
+		$uplink[ "name" ] = GetHostByAddress($routerip,$isp,"buildmap");
+		$uplink[ "eps"  ] = array();
+		
+		echo "$routerip => " . $uplink[ "name" ] . "\n";
+		
+		GetHostByAddressSave($isp,"buildmap");
 		
 		ksort($subnets);
 		
@@ -1379,15 +1447,43 @@ function BuildBackbones($isp,&$endpoint,&$uplinks,&$allbones,$stage)
 	// Make nice backbones locations map.
 	//
 	
+	echo "Build backbones map\n";
+	
 	$bbdumps = array();
 	
 	foreach ($backbones as $bbip => $bbdata)
-	{
+	{	
+		//
+		// Remove from white-list.
+		//
+		
+		$bblpingfile = "../var/$isp/bblping/$bbip.ping.json";
+		if (isset($oldbblping[ $bblpingfile ])) unset($oldbblping[ $bblpingfile ]);
+
+		//
+		// Aquire icmp status.
+		//
+		
+		$icmp = 0;
+		
+		if (file_exists($bblpingfile))
+		{
+			$icmp = 1;
+			
+			$pingdata = json_decdat(file_get_contents($bblpingfile));
+			
+			foreach ($pingdata[ $routerip ] as $stamp => $ms)
+			{
+				if ($ms != -1) $icmp = 2;
+			}
+		}
+		
 		$bbdump = array();
 		
 		$bbdump[ "ip"   ] = $bbip;
 		$bbdump[ "typ"  ] = $bbdata[ "typ"  ];
 		$bbdump[ "loc"  ] = $bbdata[ "loc"  ];
+		$bbdump[ "png"  ] = $icmp;
 		$bbdump[ "name" ] = $bbdata[ "name" ];
 		
 		if (isset($bbdata[ "upls" ])) $bbdump[ "upls" ] = $bbdata[ "upls" ];
@@ -1409,10 +1505,6 @@ function BuildBackbones($isp,&$endpoint,&$uplinks,&$allbones,$stage)
 		{
 			echo "\t\"$bbip\" : \"" . $bbdata[ "loc"  ] . "\",\n";
 		}
-		
-		$bblpingfile = "../var/$isp/bblping/$bbip.ping.json";
-		
-		if (isset($oldbblping[ $bblpingfile ])) unset($oldbblping[ $bblpingfile ]);
 	}
 	
 	$backbonesfile = "../www/$isp/backbones.map.js";
@@ -1465,4 +1557,6 @@ function BuildBackbones($isp,&$endpoint,&$uplinks,&$allbones,$stage)
 		echo "Obsolete: $file\n";
 		@unlink($file);
 	}
+	
+	GetHostByAddressSave($isp,"buildmap");
 ?>

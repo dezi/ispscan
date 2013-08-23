@@ -80,6 +80,7 @@ kappa.ISPList =
 				'Hannover-Bremen' 	 	 	    	: true,
 				'Hannover-Berlin' 	 	 	    	: true,
 				'Hannover-Leipzig'  		    	: true,
+				'Hannover-Nürnberg'  		    	: true,
 				'Nürnberg-Leipzig'  	 	    	: true,
 				'München-Leipzig'  		 	    	: true,
 				'München-Nürnberg' 		 	    	: true,
@@ -107,8 +108,8 @@ kappa.ISPList =
 				'Frankfurt Am Main-Düsseldorf'  	: true,
 				'Frankfurt Am Main-Dortmund'    	: true,
 				'Frankfurt Am Main-Essen'    		: true,
+				'Frankfurt Am Main-Bochum'   	 	: true,
 				'Frankfurt Am Main-Lingen'   	 	: true,
-				'Frankfurt Am Main-Köln' 	    	: true,
 				'Frankfurt Am Main-Neuss'       	: true,
 				'Frankfurt Am Main-Neubrandenburg' 	: true,
 				'Frankfurt Am Main-Berlin'      	: true,
@@ -558,10 +559,10 @@ kappa.IP2Bin = function(ip)
 	var parts = ip.split('.');
 	if (parts.length != 4) return 0;
 	
-	var bin = (parseInt(parts[ 0 ]) << 24)
-			+ (parseInt(parts[ 1 ]) << 16)
-		 	+ (parseInt(parts[ 2 ]) <<  8)
-		 	+ (parseInt(parts[ 3 ]) <<  0)
+	var bin = (parseInt(parts[ 0 ],10) << 24)
+			+ (parseInt(parts[ 1 ],10) << 16)
+		 	+ (parseInt(parts[ 2 ],10) <<  8)
+		 	+ (parseInt(parts[ 3 ],10) <<  0)
 		 	;
 		 
 	return bin;
@@ -603,7 +604,7 @@ kappa.ZoomChanged = function()
 		for (var mkey in kappa.Segpoints)
 		{
 			var marker  = kappa.Segpoints[ mkey ];
-			var visible = ((minendcount >= 0) && (marker.endcount >= minendcount)) || marker.ishome || ! marker.isalive;
+			var visible = ((minendcount >= 0) && (marker.endcount >= minendcount)) || marker.ishome || marker.isdead || marker.isevnt;
 			
 			//visible = true;
 			
@@ -677,7 +678,9 @@ kappa.Initialize = function()
 	
     google.maps.event.addListener(kappa.map,'zoom_changed',kappa.ZoomChanged);
     google.maps.event.addListener(kappa.map,'center_changed',kappa.CenterChanged);
-	
+				
+	kappa.info = new google.maps.InfoWindow({content:''});
+
 	kappa.InitializeMenu();
 	kappa.InitializeInfo();
 	kappa.InitializeLabel();
@@ -779,9 +782,6 @@ kappa.Initialize = function()
     kappa.SignalDead.preload = true;
 
 	kappa.EventsRefresh();
-	
-	if (kappa.selector == 'ep') window.setTimeout('kappa.EndpointsRequest()',1000);
-	if (kappa.selector == 'bb') window.setTimeout('kappa.BackbonesRequest()',1000);
 }
 
 kappa.setSignal = function(signal)
@@ -1350,7 +1350,7 @@ kappa.HomeDragend = function()
 	kappa.LocalStorageSet('home_lon',latlon.lng());
 }
 
-kappa.EndpointClick = function()
+kappa.CopyClick = function()
 {
 	var copyme = this.title.split('\n');
 	
@@ -1381,13 +1381,6 @@ kappa.NetworkClick = function()
 	var copyme = this.title.split(' ');
 	
 	copyme = copyme[ 0 ];
-	
-	window.prompt('Copy Me...',copyme);
-}
-
-kappa.RouterClick = function()
-{
-	var copyme = this.title;
 	
 	window.prompt('Copy Me...',copyme);
 }
@@ -1452,12 +1445,12 @@ kappa.ParseDate = function(ds)
 {
 	var date = new Date();
 
-	date.setUTCFullYear(parseInt(ds.substr( 0,4)));
-	date.setUTCMonth   (parseInt(ds.substr( 4,2)) - 1);
-	date.setUTCDate    (parseInt(ds.substr( 6,2)));
-	date.setUTCHours   (parseInt(ds.substr( 9,2)));
-	date.setUTCMinutes (parseInt(ds.substr(11,2)));
-	date.setUTCSeconds (parseInt(ds.substr(13,2)));
+	date.setUTCFullYear(parseInt(ds.substr( 0,4),10));
+	date.setUTCMonth   (parseInt(ds.substr( 4,2),10) - 1);
+	date.setUTCDate    (parseInt(ds.substr( 6,2),10));
+	date.setUTCHours   (parseInt(ds.substr( 9,2),10));
+	date.setUTCMinutes (parseInt(ds.substr(11,2),10));
+	date.setUTCSeconds (parseInt(ds.substr(13,2),10));
 	
 	return date;
 }
@@ -1485,6 +1478,23 @@ kappa.FormatDate = function(date)
 	return dstr;
 }
 
+kappa.FormatSmart = function(date)
+{
+	var dstr = kappa.FormatDate(date);
+	
+	var now,tdy,ytd;
+	
+	now = new Date();
+	tdy = kappa.FormatDate(now).substr(0,10);
+	now.setTime(now.getTime() - (86400 * 1000));
+	ytd = kappa.FormatDate(now).substr(0,10);
+
+	dstr = dstr.replace(tdy,"heute");
+	dstr = dstr.replace(ytd,"gestern");
+	
+	return dstr;
+}
+
 kappa.EventsCallback = function(events)
 {
 	kappa.EventsScript.parentNode.removeChild(kappa.EventsScript);
@@ -1493,8 +1503,15 @@ kappa.EventsCallback = function(events)
 	if (! kappa.EventsOpen)
 	{
 		kappa.EventsOpen = new Object();
-		kappa.EventsHist = new Array();
+		kappa.EventsHist = new Object();
 		kappa.EventsTime = 0;
+	
+		//
+		// First callback, request map data now.
+		//
+		
+		if (kappa.selector == 'ep') kappa.EndpointsRequest();
+		if (kappa.selector == 'bb') kappa.BackbonesRequest();
 	}
 	
 	//
@@ -1507,12 +1524,14 @@ kappa.EventsCallback = function(events)
 	for (var inx in order)
 	{
 		var key    = order[ inx ];
-		var etime  = key.substr(0,15);
+		var parts  = key.split('|');
+		var etime  = parts[ 0 ];
 		var etimed = kappa.ParseDate(etime);
 		
 		if (kappa.EventsTime > etimed) break;
 		
-		var ipkey  = key.substr(16,key.length - 16);
+		var funct  = parts[ 1 ];
+		var ipkey  = parts[ 2 ];
 		var event  = events[ key ];
 		
 		if (event == 'died')
@@ -1522,10 +1541,9 @@ kappa.EventsCallback = function(events)
 				kappa.EventsOpen[ ipkey ] = new Object();
 				
 				kappa.EventsOpen[ ipkey ].ipkey = ipkey;
+				kappa.EventsOpen[ ipkey ].funct = funct;
 				kappa.EventsOpen[ ipkey ].state = 'died';
 				kappa.EventsOpen[ ipkey ].dtime = etimed;
-				
-				console.log(ipkey + ' down ' + kappa.FormatDate(etimed));
 			}
 		}
 
@@ -1533,15 +1551,17 @@ kappa.EventsCallback = function(events)
 		{
 			if (kappa.EventsOpen[ ipkey ] && (kappa.EventsOpen[ ipkey ].state == 'died'))
 			{
-				kappa.EventsOpen[ ipkey ].state = 'live';
+				kappa.EventsOpen[ ipkey ].state = 'down';
 				kappa.EventsOpen[ ipkey ].ltime = etimed;
 				
+				var funct   = kappa.EventsOpen[ ipkey ].funct;
 				var dtimed  = kappa.EventsOpen[ ipkey ].dtime;
 				var minutes = Math.floor((etimed.getTime() - dtimed.getTime()) / 60000);
 				
-				console.log(ipkey + ' down ' + kappa.FormatDate(dtimed) + ' => ' + kappa.FormatDate(etimed) + ' (' + minutes.toString() + ')');
+				console.log(ipkey + ' ' + funct + ' down ' + kappa.FormatDate(dtimed) + ' => ' + kappa.FormatDate(etimed) + ' (' + minutes.toString() + ')');
 				
-				kappa.EventsHist.unshift(kappa.EventsOpen[ ipkey ]);
+				if (! kappa.EventsHist[ ipkey ]) kappa.EventsHist[ ipkey ] = new Array();
+				kappa.EventsHist[ ipkey ].unshift(kappa.EventsOpen[ ipkey ]);
 				delete kappa.EventsOpen[ ipkey ];
 			}
 		}
@@ -1549,7 +1569,16 @@ kappa.EventsCallback = function(events)
 		kappa.EventsTime = etimed;
 	}
 
-	window.setTimeout('kappa.EventsRefresh()',2000);
+	for (var ipkey in kappa.EventsOpen)
+	{
+		if (kappa.EventsOpen.logged) continue;
+		
+		kappa.EventsOpen[ ipkey ].logged = true;
+		
+		console.log(ipkey + ' died ' + kappa.FormatDate(kappa.EventsOpen[ ipkey ].dtime));
+	}
+	
+	//window.setTimeout('kappa.EventsRefresh()',2000);
 }
 
 kappa.EventsRefresh = function()
@@ -1589,8 +1618,8 @@ kappa.UplinksCallback = function(uplinks)
 	
 	if (++kappa.backbonesloaded == kappa.backbonestoload) 
 	{
-		kappa.UplinksDraw();
 		kappa.BackbonesDraw();
+		kappa.UplinksDraw();
 		kappa.ZoomChanged();
     	kappa.CenterChanged();
 	}
@@ -1602,8 +1631,8 @@ kappa.BackbonesCallback = function(backbones)
 	
 	if (++kappa.backbonesloaded == kappa.backbonestoload) 
 	{
-		kappa.UplinksDraw();
 		kappa.BackbonesDraw();
+		kappa.UplinksDraw();
 		kappa.ZoomChanged();
     	kappa.CenterChanged();
 	}
@@ -1619,6 +1648,135 @@ kappa.CheckNoShow = function(city1,city2)
 	return false;
 }
 
+kappa.ShowInfo = function(marker,items,type)
+{
+	var header  = '';
+	var content = '';
+	
+	for (var inx in items)
+	{
+		var item   = items[ inx ];
+		var realip = item.gw ? item.gw : item.ip;
+		var itemip = item.from ? item.from : item.gw ? item.gw : item.ip;
+		var showip = itemip.replace(/^001.000./,'xxx.xxx.');
+		var noping = (showip != itemip);
+
+		if (header.length == 0)
+		{
+			header = '<strong>'
+					+ item.loc.city
+					+ ' ('
+					+ type
+					+ ')'
+					+ '</strong>'
+					;
+					
+			if (marker.actcount && marker.endcount)
+			{
+				var fixips = marker.endcount;
+				var fixnum = kappa.NiceNumber(marker.actcount) + '/' + kappa.NiceNumber(fixips);
+			
+				header += '<span style="float:right">' + fixnum + ' User</span>';
+			}
+			
+			header = '<div>' + header + '</div><hr style="clear:both"/>';
+		}
+		
+		var info = kappa.EventsOpen[ realip ] ? '' : (noping ? 'invisible' : 'ok');
+		
+		if (item.pc && item.bc)
+		{
+			var fixips = kappa.IP2Bin(item.bc) - kappa.IP2Bin(item.ip) + 1;
+			var fixnum = kappa.NiceNumber(item.pc) + '/' + kappa.NiceNumber(fixips);
+			
+			info += '<span style="float:right">' + fixnum + '</span>';
+		}
+		
+		if (item.from && item.last)
+		{
+			var fixips = kappa.IP2Bin(item.last) - kappa.IP2Bin(item.from) + 1;
+			var fixnum = kappa.NiceNumber(item.pc) + '/' + kappa.NiceNumber(fixips);
+			
+			info += '<span style="float:right">' + fixnum + '</span>';
+		}
+
+
+		var entry = '<div style="font-weight:bold">'
+				  + showip
+				  + ' '
+				  + info
+				  + '</div>'
+				  ;
+		
+		var events = '';
+			
+		if (kappa.EventsOpen[ realip ])
+		{
+			var open = kappa.EventsOpen[ realip ];
+			
+			var minutes = Math.floor(((new Date().getTime()) - open.dtime.getTime()) / 60000);
+			
+			events = '<span style="color:red;font-weight:bold">'
+				   + open.state
+				   + ' ' 
+				   + kappa.FormatSmart(open.dtime)
+					+ ' => '
+					+ minutes.toString()
+					+ ' min.'
+				   + '</span><br/>'
+				   ;
+		}
+		
+		if (kappa.EventsHist[ realip ])
+		{
+			for (var hinx in kappa.EventsHist[ realip ])
+			{
+				var hist = kappa.EventsHist[ realip ][ hinx ];
+				
+				var minutes = Math.floor((hist.ltime.getTime() - hist.dtime.getTime()) / 60000);
+
+				events = events
+					   + hist.state
+					   + ' '
+					   + kappa.FormatSmart(hist.dtime)
+					   + ' => '
+					   + minutes.toString()
+					   + ' min.'
+					   + '<br/>'
+					   ;
+			}
+		}	
+		
+		if (events.length) 
+		{
+			content = entry 
+					+ '<div style="padding-left:16px">' 
+					+ events 
+					+ '</div>'
+					+ content
+					;
+		}
+		else
+		{
+			content += entry;
+		}
+	}
+		
+	content = '<div style="width:260px;max-height:300px">'
+			+ header
+			+ content
+			+ '</div>'
+			;
+			
+	kappa.info.setContent(content);
+	kappa.info.open(kappa.map,marker);
+}
+
+kappa.BackbonesClick = function()
+{
+	kappa.ShowInfo(this,this.backbones,'Backbones');
+}
+
 kappa.BackbonesDraw = function()
 {
 	kappa.Bbopoints = new Object();
@@ -1630,8 +1788,9 @@ kappa.BackbonesDraw = function()
 		var bbocity = backbone.loc.city;
 		var bbolat  = kappa.Round(backbone.loc.lat);
 		var bbolon  = kappa.Round(backbone.loc.lon);
-		
-		var isalive = ! (kappa.BackbonesNopings && kappa.BackbonesNopings.nopings[ backbone.ip ]);
+
+		var isdead = kappa.EventsOpen && kappa.EventsOpen[ backbone.ip ];
+		var isevnt = kappa.EventsHist && kappa.EventsHist[ backbone.ip ];
 		
 		var markerkey = bbolat + '/' + bbolon;
 		var bbomarker = kappa.Bbopoints[ markerkey ];
@@ -1642,34 +1801,43 @@ kappa.BackbonesDraw = function()
 			({
 				map      : kappa.map,
 				position : new google.maps.LatLng(bbolat,bbolon),
-				zIndex	 : kappa.BboPointzIndex + (isalive ? 0 : 10000),
-				icon	 : isalive ? kappa.BboPoint : kappa.BboPointDead,
+				zIndex	 : kappa.BboPointzIndex,
+				icon	 : kappa.BboPoint,
 				visible  : true,
 				title    : backbone.loc.city
 			});
 			
-			google.maps.event.addListener(bbomarker,'click',kappa.EndpointClick);
+			google.maps.event.addListener(bbomarker,'click',kappa.BackbonesClick);
 
 			kappa.Bbopoints[ markerkey ] = bbomarker;
 			
-			bbomarker.isalive  = isalive;
-			bbomarker.isrouter = true;
-			bbomarker.subnets  = 0;
+			bbomarker.isdead    = isdead;
+			bbomarker.isevnt    = isevnt;
+			bbomarker.isrouter  = true;
+			bbomarker.subnets   = 0;
+			bbomarker.backbones = new Array();
 		}
 		
 		var nl = (bbomarker.subnets % 3) ? '\n' : '\n';
-		var ac = isalive ? '+' : '-';
-		var ip = backbone.ip.replace(/^001.000./,'XXX.XXX.');
+		var ac = isdead ? '-' : '+';
+		var ip = backbone.ip.replace(/^001.000./,'xxx.xxx.');
 		
+		bbomarker.backbones.push(backbone);
 		bbomarker.setTitle(bbomarker.getTitle() + nl + ip + ac);
 		bbomarker.subnets++;
 		
-		if (! isalive) 
+		if (isevnt && ! bbomarker.isevnt) 
 		{	
-			bbomarker.isalive = false;
-
+			bbomarker.setZIndex(kappa.BboPointzIndex + 10000);
+			bbomarker.setIcon(kappa.BboPointEvent);
+			bbomarker.isevnt = true;
+		}
+	
+		if (isdead && ! bbomarker.isdead) 
+		{	
 			bbomarker.setZIndex(kappa.BboPointzIndex + 10000);
 			bbomarker.setIcon(kappa.BboPointDead);
+			bbomarker.isdead = true;
 		}
 		
 		for (var lip in backbone.upls)
@@ -1736,6 +1904,11 @@ kappa.BackbonesDraw = function()
 	}
 }
 
+kappa.UplinksClick = function()
+{
+	kappa.ShowInfo(this,this.uplinks,'Uplinks');
+}
+
 kappa.UplinksDraw = function()
 {
 	kappa.Uplpoints = new Object();
@@ -1747,45 +1920,59 @@ kappa.UplinksDraw = function()
 		var upllat  = kappa.Round(uplink.loc.lat);
 		var upllon  = kappa.Round(uplink.loc.lon);
 		
-		var isalive = ! (kappa.UplinksNopings && kappa.UplinksNopings.nopings[ uplink.ip ]);
+		var isdead = kappa.EventsOpen && kappa.EventsOpen[ uplink.ip ];
+		var isevnt = kappa.EventsHist && kappa.EventsHist[ uplink.ip ];
 		
 		var markerkey = upllat + '/' + upllon;
 		var uplmarker = kappa.Uplpoints[ markerkey ];
 				
 		if (! uplmarker)
 		{
+			if (kappa.Bbopoints[ markerkey ])
+			{
+				upllat += 0.00;
+				upllon += 0.03;
+			}
+			
 			uplmarker = new google.maps.Marker
 			({
 				map      : kappa.map,
 				position : new google.maps.LatLng(upllat,upllon),
-				zIndex	 : kappa.UplPointzIndex + (isalive ? 0 : 10000),
-				icon	 : isalive ? kappa.UplPoint : kappa.UplPointDead,
+				zIndex	 : kappa.UplPointzIndex,
+				icon	 : kappa.UplPoint,
 				visible  : true,
 				title    : uplink.loc.city
 			});
 			
-			google.maps.event.addListener(uplmarker,'click',kappa.EndpointClick);
+			google.maps.event.addListener(uplmarker,'click',kappa.UplinksClick);
 	
 			kappa.Uplpoints[ markerkey ] = uplmarker;
 			
-			uplmarker.isalive  = isalive;
 			uplmarker.isrouter = true;
 			uplmarker.subnets  = 0;
+			uplmarker.uplinks  = new Array();
 		}
 		
 		var nl = (uplmarker.subnets % 3) ? '\n' : '\n';
-		var ac = isalive ? '+' : '-';
-		var ip = uplink.ip.replace(/^001.000./,'XXX.XXX.');
+		var ac = isdead ? '-' : '+';
+		var ip = uplink.ip.replace(/^001.000./,'xxx.xxx.');
 		
+		uplmarker.uplinks.push(uplink);
 		uplmarker.setTitle(uplmarker.getTitle() + nl + ip + ac);
 		uplmarker.subnets++;
-		
-		if (! isalive) 
-		{	
-			uplmarker.isalive = false;
 
+		if (isevnt && ! uplmarker.isevnt) 
+		{	
+			uplmarker.setZIndex(kappa.UplPointzIndex + 10000);
+			uplmarker.setIcon(kappa.UplPointEvent);
+			uplmarker.isevnt = true;
+		}
+		
+		if (isdead && ! uplmarker.isdead) 
+		{	
 			uplmarker.setZIndex(kappa.UplPointzIndex + 10000);
 			uplmarker.setIcon(kappa.UplPointDead);
+			uplmarker.isdead = true;
 		}
 	}
 }
@@ -1833,6 +2020,16 @@ kappa.EndpointsCallback = function(endpoints)
 	}
 } 
 
+kappa.EndpointsClick = function()
+{
+	kappa.ShowInfo(this,this.endpoints,'Endpoints');
+}
+
+kappa.SegpointsClick = function()
+{
+	kappa.ShowInfo(this,this.segments,'Lastmile');
+}
+
 kappa.EndpointsDraw = function()
 {
 	kappa.Fixpoints = new Object();
@@ -1847,7 +2044,8 @@ kappa.EndpointsDraw = function()
 		var fixips  = kappa.IP2Bin(snet.bc) - kappa.IP2Bin(snet.ip) + 1;
 		var fixnum  = kappa.NiceNumber(snet.pc) + '/' + kappa.NiceNumber(fixips);
 
-		var isalive = (snet.pc < 15) || ! (kappa.EndpointsNopings && kappa.EndpointsNopings.nopings[ snet.ip ]);
+		var isdead  = snet.gw && kappa.EventsOpen && kappa.EventsOpen[ snet.gw ];
+		var isevnt  = snet.gw && kappa.EventsHist && kappa.EventsHist[ snet.gw ];
 		
 		var markerkey = fixlat + '/' + fixlon;
 		var snmarker  = kappa.Fixpoints[ markerkey ];
@@ -1864,57 +2062,57 @@ kappa.EndpointsDraw = function()
 			({
 				map      : kappa.map,
 				position : new google.maps.LatLng(fixlat,fixlon),
-				zIndex	 : kappa.EndPointzIndex + (isalive ? 0 : 10000),
-				icon	 : isalive ? kappa.EndPoint : kappa.EndPointDead,
+				zIndex	 : kappa.EndPointzIndex,
+				icon	 : kappa.EndPoint,
 				visible  : true,
-				title    : snet.loc.city + '=@@@'
+				title    : snet.loc.city + '=@@@ User'
 			});
 			
 			kappa.Fixpoints[ markerkey ] = snmarker;
     		
-    		google.maps.event.addListener(snmarker,'click',kappa.EndpointClick);
+    		google.maps.event.addListener(snmarker,'click',kappa.EndpointsClick);
 			
-			snmarker.netcount = 1;
-			snmarker.endcount = fixips;
-			snmarker.actcount = snet.pc;
-			
-			snmarker.isalive  = isalive;
-			snmarker.issubnet = true;
+			snmarker.netcount  = 1;
+			snmarker.endcount  = fixips;
+			snmarker.actcount  = snet.pc;
+
+			snmarker.issubnet  = true;
+			snmarker.endpoints = new Array();
 		}
 		
-		var ac = isalive ? '+' : '-';
+		var ac = isdead ? '-' : '+';
 		
-		snmarker.setTitle(snmarker.getTitle() + '\n' + snet.ip + '-' + snet.bc + '=' + fixnum + ac);
-				
-		if (! isalive) 
+		snmarker.endpoints.push(snet);
+		snmarker.setTitle(snmarker.getTitle() + '\n' + snet.ip + '-' + snet.bc + ac);
+		
+		if (isevnt && ! snmarker.isevnt) 
 		{	
-			snmarker.isalive = false;
-
+			snmarker.setZIndex(kappa.EndPointzIndex + 10000);
+			snmarker.setIcon(kappa.EndPointEvent);
+			snmarker.isevnt = true;
+		}
+		
+		if (isdead && ! snmarker.isdead) 
+		{	
 			snmarker.setZIndex(kappa.EndPointzIndex + 10000);
 			snmarker.setIcon(kappa.EndPointDead);
+			snmarker.isdead = true;
 		}
 		
+		var isdead = snet.ip && kappa.EventsOpen && kappa.EventsOpen[ snet.ip ];
+		var isevnt = snet.ip && kappa.EventsHist && kappa.EventsHist[ snet.ip ];
+
 		for (var ginx in snet.segs)
 		{
 			var seg = snet.segs[ ginx ];
-
+			seg.ip = snet.ip;
+			
 			var seglat  = kappa.Round(seg.loc.lat);
 			var seglon  = kappa.Round(seg.loc.lon);
 			var segips  = kappa.IP2Bin(seg.last) - kappa.IP2Bin(seg.from) + 1;
 			var segnum  = kappa.NiceNumber(seg.pc) + '/' + kappa.NiceNumber(segips);
 			
 			var ishome  = kappa.HomeDraw(snet,seg);
-			var isalive = true;
-			
-			var from = kappa.IP2Bin(seg.from);
-			var last = kappa.IP2Bin(seg.last);
-			
-			for (var iptest = from; iptest <= last; iptest += 256)
-			{
-				if ((seg.pc < 15) || ! (kappa.EndpointsNopings && kappa.EndpointsNopings.nopings[ kappa.IPZero(iptest) ])) continue;
-				
-				isalive = false;
-			}
 			
 			if ((Math.abs(seglat - fixlat) < 1.000) && 
 				(Math.abs(seglon - fixlon) < 1.000))
@@ -1963,39 +2161,44 @@ kappa.EndpointsDraw = function()
 				({
 					map      : kappa.map,
 					position : new google.maps.LatLng(seglat,seglon),
-					zIndex	 : kappa.SegPointzIndex + (isalive ? 0 : 10000),
-					icon	 : isalive ? kappa.SegPoint : kappa.SegPointDead,
+					zIndex	 : kappa.SegPointzIndex,
+					icon	 : kappa.SegPoint,
 					visible  : false,
-					title    : seg.loc.city + '=@@@'
+					title    : seg.loc.city + '=@@@ User'
 				});
 				
 				kappa.Segpoints[ markerkey ] = sgmarker;
 				
-				google.maps.event.addListener(sgmarker,'click',kappa.EndpointClick);
+				google.maps.event.addListener(sgmarker,'click',kappa.SegpointsClick);
 
 				sgmarker.netcount  = 1;
 				sgmarker.endcount  = segips;
 				sgmarker.actcount  = seg.pc;
 				
-				sgmarker.isalive   = isalive;
 				sgmarker.issegment = true;
+				sgmarker.segments  = new Array();
 			}
 			
-			var ac = isalive ? '+' : '-';
+			var ac = isdead ? '-' : '+';
 			
-			sgmarker.setTitle(sgmarker.getTitle() + '\n' + seg.from + '-' + seg.last + '=' + segnum + ac);
+			sgmarker.segments.push(seg);
+			
+			sgmarker.setTitle(sgmarker.getTitle() + '\n' + seg.from + '-' + seg.last + ac);
 				
 			if (ishome) sgmarker.ishome = true;
 			
-			if (! isalive) 
+			if (isevnt && ! sgmarker.isevnt) 
 			{	
-				sgmarker.isalive = false;
+				sgmarker.setZIndex(kappa.SegPointzIndex + 10000);
+				sgmarker.setIcon(kappa.SegPointEvent);
+				sgmarker.isevnt = true;
+			}
 
+			if (isdead && ! sgmarker.isdead) 
+			{	
 				sgmarker.setZIndex(kappa.SegPointzIndex + 10000);
 				sgmarker.setIcon(kappa.SegPointDead);
-				
-				snmarker.setZIndex(kappa.EndPointzIndex + 10000);
-				snmarker.setIcon(kappa.EndPointDead);
+				sgmarker.isdead = true;
 			}
 			
 			var path = 

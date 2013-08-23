@@ -95,8 +95,13 @@ function ScheduleMtrDomsTask($task,&$request)
 
 	if (isset($request[ "what" ])) return;
 	if (! HasFeature($task,"mtr")) return;
-	if (! is_dir("../var/$isp/domains")) return;
+
+	$isp = GetRandomISP("subnets");
 	
+	if (! is_dir("../var/$isp/domains")) mkdir("../var/$isp/domains",0777);
+
+	if ($request[ "isp" ] != $isp) return;
+
 	if ((! isset($GLOBALS[ $isp ][ "domains" ]) ||
 		  (count($GLOBALS[ $isp ][ "domains" ]) == 0)))
 	{
@@ -734,7 +739,11 @@ function ScheduleBblpingTask($task,&$request)
 		
 		foreach ($bblpings as $bblinkip => $bbdata)
 		{
-			if ($bbdata[ "loc" ] == "n.n.") continue;
+			if ($bbdata[ "loc" ] == "n.n.") 
+			{
+				unset($bblpings[ $bblinkip ]);
+				continue;
+			}
 			
 			$bblpingfile = "../var/$isp/bblping/$bblinkip.ping.json";
 			
@@ -1542,6 +1551,7 @@ function ScheduleTask($task,$remote_host,$remote_port)
 		
 	$GLOBALS[ "transactions" ][ $request[ "guid" ] ] = &$trans;
 	
+  	if (! mt_rand(0,2)) ScheduleMtrDomsTask($task,$request);
 	if (! mt_rand(0,0)) ScheduleMtrLogsTask($task,$request);
 	if (! mt_rand(0,4)) ScheduleNetpingTask($task,$request);
 	if (! mt_rand(0,2)) ScheduleEndpingTask($task,$request);
@@ -1549,8 +1559,6 @@ function ScheduleTask($task,$remote_host,$remote_port)
     if (! mt_rand(0,0)) ScheduleUplpingTask($task,$request);
     if (! mt_rand(0,0)) ScheduleEplpingTask($task,$request);
 	if (! mt_rand(0,0)) ScheduleNetpingTask($task,$request);
-	
-  //if (! mt_rand(0,0)) ScheduleMtrDomsTask($task,$request);
 	
 	if (! isset($request[ "what" ]))
 	{
