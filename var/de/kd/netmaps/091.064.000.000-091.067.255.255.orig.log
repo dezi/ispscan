@@ -3629,8 +3629,8 @@
 091.067.071.254=1+
 091.067.071.255=0*1
 =======8
-091.067.072.000=2 DE,Rheinland-Pfalz,Koblenz,50.35,7.6
-091.067.072.000=0 DE,Rheinland-Pfalz,Neuhäusel,50.3833,7.7167
+091.067.072.000=2 DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
+091.067.072.000!0 DE,Rheinland-Pfalz,Neuhäusel,50.3833,7.7167
 083.169.177.025@
 088.134.196.242@
 088.134.192.253~88-134-192-253-dynip.superkabel.de
@@ -3793,45 +3793,43 @@
 091.067.103.254=1+
 091.067.103.255=0*8
 =======8
-091.067.104.000=2 DE,Rheinland-Pfalz,Koblenz,50.35,7.6
-091.067.104.000=0 DE,Rheinland-Pfalz,Bad Ems,50.3333,7.7167
+091.067.104.000=2 DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
+091.067.104.000!0 DE,Rheinland-Pfalz,Bad Ems,50.3333,7.7167
 083.169.177.025@
 088.134.196.242@
 083.169.177.017@
-091.067.105.000=5 DE,Rheinland-Pfalz,Neuhäusel,50.3833,7.7167
+091.067.105.000=5 DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
 088.134.196.242@
 083.169.177.017@
 083.169.177.025@
-091.067.106.000=5 DE,Rheinland-Pfalz,Bad Ems,50.3333,7.7167
+091.067.106.000=5 DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
+091.067.106.000!0 DE,Rheinland-Pfalz,Bad Ems,50.3333,7.7167
 083.169.177.017@
-091.067.107.000=0 DE,Rheinland-Pfalz,Neuhäusel,50.3833,7.7167
+091.067.107.000=0 DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
+091.067.107.000!0 DE,Rheinland-Pfalz,Neuhäusel,50.3833,7.7167
 083.169.177.017@
 088.134.196.242@
 083.169.177.025@
+091.067.108.000=5 DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
+091.067.108.000!0 DE,Rheinland-Pfalz,Neuhäusel,50.3833,7.7167
+088.134.196.242@
+083.169.177.025@
+091.067.109.000=0 DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
+091.067.109.000!0 DE,Rheinland-Pfalz,Höhr-Grenzhausen,50.4333,7.6667
+088.134.196.242@
+083.169.177.017@
+091.067.110.000=0 DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
+088.134.196.242@
+083.169.177.025@
+091.067.111.000=0 DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
+091.067.111.000!0 DE,Rheinland-Pfalz,Höhr-Grenzhausen,50.4333,7.6667
+088.134.196.242@
+083.169.177.017@
 088.134.192.253~88-134-192-253-dynip.superkabel.de
 088.134.201.253~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
 088.134.238.186~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
-091.067.107.254=5+
-091.067.107.255=0*4
--------
-091.067.108.000=5 DE,Rheinland-Pfalz,Koblenz,50.35,7.6
-091.067.108.000=0 DE,Rheinland-Pfalz,Neuhäusel,50.3833,7.7167
-088.134.196.242@
-083.169.177.025@
-091.067.109.000=0 DE,Rheinland-Pfalz,Höhr-Grenzhausen,50.4333,7.6667
-088.134.196.242@
-083.169.177.017@
-091.067.110.000=0 DE,Rheinland-Pfalz,Dausenau,50.3333,7.7667
-088.134.196.242@
-083.169.177.025@
-091.067.111.000=0 DE,Rheinland-Pfalz,Höhr-Grenzhausen,50.4333,7.6667
-088.134.196.242@
-083.169.177.017@
-088.134.238.186~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
-088.134.192.253~88-134-192-253-dynip.superkabel.de
-088.134.201.253~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
 091.067.111.254=1+
-091.067.111.255=0*4
+091.067.111.255=0*8
 =======16
 091.067.112.000=0 DE,Rheinland-Pfalz,Koblenz,50.35,7.6
 091.067.112.000=0 DE,Rheinland-Pfalz,Oberwesel,50.1,7.7333

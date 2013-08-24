@@ -20,6 +20,9 @@ kappa.ISPList =
     			'178.024.000.000-178.027.255.255',
     			'188.192.000.000-188.195.255.255'
 			],
+			bbnoshowip :
+			{
+			},
 			bbnoshow :
 			{
 				'Neumünster-Kiel'		  : true,
@@ -70,6 +73,13 @@ kappa.ISPList =
     			'217.080.000.000-217.095.255.255',
     			'217.224.000.000-217.255.255.255'
 			],
+			bbnoshowip :
+			{
+				'217.000.116.099' : true, // My own endpoint link
+				'217.000.070.226' : true,
+				'217.000.070.230' : true,
+				'217.000.070.234' : true,
+			},
 			bbnoshow :
 			{
 				'Hamburg-Hannover'		  	    	: true,
@@ -88,68 +98,6 @@ kappa.ISPList =
 				'Nürnberg-Leipzig'  	 	    	: true,
 				'München-Leipzig'  		 	    	: true,
 				'München-Nürnberg' 		 	    	: true,
-				'Frankfurt Am Main-Flensburg'   	: true,
-				'Frankfurt Am Main-Kiel'        	: true,
-				'Frankfurt Am Main-Lübeck'      	: true,
-				'Frankfurt Am Main-Hamburg'     	: true,
-				'Frankfurt Am Main-Rostock'     	: true,
-				'Frankfurt Am Main-Schwerin'    	: true,
-				'Frankfurt Am Main-Bremen'      	: true,
-				'Frankfurt Am Main-Oldenburg'   	: true,
-				'Frankfurt Am Main-Bremerhaven' 	: true,
-				'Frankfurt Am Main-Leer'        	: true,
-				'Frankfurt Am Main-Bremen'      	: true,
-				'Frankfurt Am Main-Hannover'    	: true,
-				'Frankfurt Am Main-Braunschweig'    : true,
-				'Frankfurt Am Main-Göttingen'    	: true,
-				'Frankfurt Am Main-Kassel'   	 	: true,
-				'Frankfurt Am Main-Osnabrück'   	: true,
-				'Frankfurt Am Main-Bielefeld'    	: true,
-				'Frankfurt Am Main-Kassel'   	 	: true,
-				'Frankfurt Am Main-Meschede'   	 	: true,
-				'Frankfurt Am Main-Münster'   	 	: true,
-				'Frankfurt Am Main-Wesel'   	 	: true,
-				'Frankfurt Am Main-Düsseldorf'  	: true,
-				'Frankfurt Am Main-Dortmund'    	: true,
-				'Frankfurt Am Main-Essen'    		: true,
-				'Frankfurt Am Main-Bochum'   	 	: true,
-				'Frankfurt Am Main-Duisburg'   	 	: true,
-				'Frankfurt Am Main-Krefeld'   	 	: true,
-				'Frankfurt Am Main-Lingen'   	 	: true,
-				'Frankfurt Am Main-Neuss'       	: true,
-				'Frankfurt Am Main-Neubrandenburg' 	: true,
-				'Frankfurt Am Main-Berlin'      	: true,
-				'Frankfurt Am Main-Leipzig'     	: true,
-				'Frankfurt Am Main-Brandenburg'    	: true,
-				'Frankfurt Am Main-Halle'       	: true,
-				'Frankfurt Am Main-Cottbus'     	: true,
-				'Frankfurt Am Main-Bautzen'     	: true,
-				'Frankfurt Am Main-Dresden'     	: true,
-				'Frankfurt Am Main-Chemnitz'    	: true,
-				'Frankfurt Am Main-Gera'    		: true,
-				'Frankfurt Am Main-Erfurt'    		: true,
-				'Frankfurt Am Main-Magdeburg'    	: true,
-				'Frankfurt Am Main-Greifswald'    	: true,
-				'Frankfurt Am Main-Ulm' 	    	: true,
-				'Frankfurt Am Main-Würzburg'    	: true,
-				'Frankfurt Am Main-Nürnberg'    	: true,
-				'Frankfurt Am Main-Augsburg'    	: true,
-				'Frankfurt Am Main-Passau'   	  	: true,
-				'Frankfurt Am Main-Bayreuth'     	: true,
-				'Frankfurt Am Main-München'     	: true,
-				'Frankfurt Am Main-Traunstein'     	: true,
-				'Frankfurt Am Main-Kempten'     	: true,
-				'Frankfurt Am Main-Konstanz'   		: true,
-				'Frankfurt Am Main-Rottweil'   		: true,
-				'Frankfurt Am Main-Freiburg'   		: true,
-				'Frankfurt Am Main-Stuttgart'   	: true,
-				'Frankfurt Am Main-Heilbronn'   	: true,
-				'Frankfurt Am Main-Karlsruhe'   	: true,
-				'Frankfurt Am Main-Offenburg'   	: true,
-				'Frankfurt Am Main-Paderborn'   	: true,
-				'Frankfurt Am Main-Regensburg'  	: true,
-				'Frankfurt Am Main-Wuppertal'  		: true,
-				'Frankfurt Am Main-Frankfurt An Der Oder' : true,
 			},
 			zoomstages :
 			[
@@ -609,11 +557,18 @@ kappa.ZoomChanged = function()
 	{
 		var zoomstages  = kappa.ISPList[ kappa.country ][ kappa.provider ].zoomstages;
 		var minendcount = zoomstages[ zoom ];
-		
+			
+		console.log('zoom=' + zoom + ' min=' + minendcount);
+
 		for (var mkey in kappa.Segpoints)
 		{
 			var marker  = kappa.Segpoints[ mkey ];
-			var visible = ((minendcount >= 0) && (marker.endcount >= minendcount)) || marker.ishome || marker.isdead || marker.isevnt;
+			
+			var visible = ((minendcount >= 0) && (marker.endcount >= minendcount))
+				|| (marker.ishome == true) 
+				|| (marker.isdead == true)
+			 	|| (marker.isevnt == true)
+			 	;
 			
 			//visible = true;
 			
@@ -1647,12 +1602,16 @@ kappa.BackbonesCallback = function(backbones)
 	}
 } 
 
-kappa.CheckNoShow = function(city1,city2)
+kappa.CheckNoShow = function(ip,city1,city2)
 {
+	var bbnoshowip = kappa.ISPList[ kappa.country ][ kappa.provider ].bbnoshowip;
+	
+	if (bbnoshowip && bbnoshowip[ ip ]) return true;
+	
 	var bbnoshow = kappa.ISPList[ kappa.country ][ kappa.provider ].bbnoshow;
 	
-	if (bbnoshow[ city1 + '-' + city2 ]) return true;
-	if (bbnoshow[ city2 + '-' + city1 ]) return true;
+	if (bbnoshow && bbnoshow[ city1 + '-' + city2 ]) return true;
+	if (bbnoshow && bbnoshow[ city2 + '-' + city1 ]) return true;
 	
 	return false;
 }
@@ -1835,7 +1794,7 @@ kappa.BackbonesDraw = function()
 		bbomarker.setTitle(bbomarker.getTitle() + nl + ip + ac);
 		bbomarker.subnets++;
 		
-		if (isevnt && ! bbomarker.isevnt) 
+		if (isevnt && ! (bbomarker.isevnt || bbomarker.isdead)) 
 		{	
 			bbomarker.setZIndex(kappa.BboPointzIndex + 10000);
 			bbomarker.setIcon(kappa.BboPointEvent);
@@ -1858,7 +1817,7 @@ kappa.BackbonesDraw = function()
 			var upllat  = kappa.Round(parseFloat(parts[ 3 ])); 
 			var upllon  = kappa.Round(parseFloat(parts[ 4 ]));
 
-			if (kappa.CheckNoShow(bbocity,uplcity))
+			if (kappa.CheckNoShow(backbone.ip,bbocity,uplcity))
 			{ 
 				continue;
 			}
@@ -1889,7 +1848,7 @@ kappa.BackbonesDraw = function()
 			var upllat = kappa.Round(parseFloat(parts[ 3 ])); 
 			var upllon = kappa.Round(parseFloat(parts[ 4 ]));
 			
-			if (kappa.CheckNoShow(bbocity,uplcity))
+			if (kappa.CheckNoShow(backbone.ip,bbocity,uplcity))
 			{ 
 				continue;
 			}
@@ -1970,7 +1929,7 @@ kappa.UplinksDraw = function()
 		uplmarker.setTitle(uplmarker.getTitle() + nl + ip + ac);
 		uplmarker.subnets++;
 
-		if (isevnt && ! uplmarker.isevnt) 
+		if (isevnt && ! (uplmarker.isevnt || uplmarker.isdead)) 
 		{	
 			uplmarker.setZIndex(kappa.UplPointzIndex + 10000);
 			uplmarker.setIcon(kappa.UplPointEvent);
@@ -1993,7 +1952,7 @@ kappa.UplinksDraw = function()
 			var nxtlat  = kappa.Round(parseFloat(parts[ 3 ])); 
 			var nxtlon  = kappa.Round(parseFloat(parts[ 4 ]));
 
-			if (kappa.CheckNoShow(uplink.loc.city,nxtcity))
+			if (kappa.CheckNoShow(uplink.ip,uplink.loc.city,nxtcity))
 			{ 
 				continue;
 			}
@@ -2125,7 +2084,7 @@ kappa.EndpointsDraw = function()
 		snmarker.endpoints.push(snet);
 		snmarker.setTitle(snmarker.getTitle() + '\n' + snet.ip + '-' + snet.bc + ac);
 		
-		if (isevnt && ! snmarker.isevnt) 
+		if (isevnt && ! (snmarker.isevnt || snmarker.isdead)) 
 		{	
 			snmarker.setZIndex(kappa.EndPointzIndex + 10000);
 			snmarker.setIcon(kappa.EndPointEvent);
@@ -2227,7 +2186,7 @@ kappa.EndpointsDraw = function()
 				
 			if (ishome) sgmarker.ishome = true;
 			
-			if (isevnt && ! sgmarker.isevnt) 
+			if (isevnt && ! (sgmarker.isevnt || sgmarker.isdead)) 
 			{	
 				sgmarker.setZIndex(kappa.SegPointzIndex + 10000);
 				sgmarker.setIcon(kappa.SegPointEvent);

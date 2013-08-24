@@ -5,7 +5,7 @@
 	
 	$tobuilds = Array();
 
-	if (true)
+	if (false)
 	{
 		$isp = "de/kd";
 		array_push($tobuilds,"024.134.000.000-024.134.255.255");
@@ -1383,45 +1383,65 @@ function BuildBackbones($isp,&$endpoint,&$uplinks,&$allbones,$stage)
 		$backbonesfile = "../var/$isp/mapdata/backbones.json";
 		$backbonesjson = json_encdat($backbones) . "\n";
 		file_put_contents($backbonesfile,$backbonesjson);
-		
-		//
-		// Make a consistency check if every uplink is
-		// routed by a backbone.
-		//
-		
-		$routedgw = array();
-		
-		foreach ($backbones as $bbip => $bbdata)
-		{
-			if (! isset($bbdata[ "upls" ])) continue;
-			
-			foreach ($bbdata[ "upls" ] as $upip => $dummy)
-			{
-				$routedgw[ $upip ] = true;
-			}
-		}
-		
-		foreach ($gateways as $upip => $gwdata)
-		{
-			if (! isset($gwdata[ "upls" ])) continue;
-			
-			foreach ($gwdata[ "upls" ] as $upip => $dummy)
-			{
-				$routedgw[ $upip ] = true;
-			}
-		}
-
-		foreach ($gateways as $upip => $dummy)
-		{
-			if (isset($routedgw[ $upip ])) continue;
-			
-			echo "Unrouted uplink $upip\n";
-		}
 	}
 	
 	$notracesfile = "../var/$isp/mapdata/notraces.json";
 	$notracesjson = json_encdat($notraces) . "\n";
 	file_put_contents($notracesfile,$notracesjson);
+		
+	//
+	// Make a consistency check if every uplink is
+	// routed by a backbone.
+	//
+	
+	$routedgw = array();
+	
+	foreach ($backbones as $bbip => $bbdata)
+	{
+		if (! isset($bbdata[ "upls" ])) continue;
+		
+		foreach ($bbdata[ "upls" ] as $upip => $dummy)
+		{
+			$routedgw[ $upip ] = true;
+		}
+	}
+	
+	foreach ($gateways as $upip => $gwdata)
+	{
+		if (! isset($gwdata[ "upls" ])) continue;
+		
+		foreach ($gwdata[ "upls" ] as $upip => $dummy)
+		{
+			$routedgw[ $upip ] = true;
+		}
+	}
+
+	foreach ($gateways as $upip => $dummy)
+	{
+		if (ResolveISP($upip) != $isp)
+		{
+			unset($gateways[ $upip ]);
+			continue;
+		}
+	 
+		if (! isset($routedgw[ $upip ])) echo "Unrouted uplink $upip\n";
+
+		$gateways[ $upip ][ "name" ] = GetHostByAddress($upip,$isp,"buildmap");
+		
+		if (isset($gateways[ $upip ][ "epls" ]))
+		{
+			$temp = $gateways[ $upip ][ "epls" ];
+			unset($gateways[ $upip ][ "epls" ]);
+			$gateways[ $upip ][ "epls" ] = $temp;
+		}
+		
+		if (isset($gateways[ $upip ][ "upls" ]))
+		{
+			$temp = $gateways[ $upip ][ "upls" ];
+			unset($gateways[ $upip ][ "upls" ]);
+			$gateways[ $upip ][ "upls" ] = $temp;
+		}
+	}
 
 	$gatewaysfile = "../var/$isp/mapdata/uplinks.json";
 	$gatewaysjson = json_encdat($gateways) . "\n";
