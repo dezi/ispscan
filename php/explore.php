@@ -798,7 +798,7 @@ function Explore($isp,$minsize,$netbound)
 	}
 }
 
-	if (true)
+	if (false)
 	{  
 		//
 		// TK

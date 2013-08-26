@@ -283,6 +283,7 @@
 	"088.134.193.047" : "DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75",
 	"088.134.193.123" : "DE,Sachsen,Leipzig,51.3,12.3333",
 	"088.134.193.124" : "DE,Sachsen,Leipzig,51.3,12.3333",
+	"088.134.193.175" : "DE,Sachsen,Leipzig,51.3,12.3333",
 	"088.134.193.213" : "DE,Niedersachsen,Hannover,52.3667,9.7167",
 	"088.134.193.221" : "DE,Bayern,Nürnberg,49.4478,11.0683",
 	"088.134.193.236" : "DE,Bayern,Nürnberg,49.4478,11.0683",
@@ -507,6 +508,8 @@
 
 	"088.134.205.018" : "DE,Sachsen,Leipzig,51.3,12.3333",
 	"088.134.205.026" : "DE,Sachsen,Leipzig,51.3,12.3333",
+	"088.134.205.038" : "DE,Hamburg,Hamburg,53.55,10",
+	"088.134.205.046" : "DE,Hamburg,Hamburg,53.55,10",
 	"088.134.205.050" : "DE,Niedersachsen,Hannover,52.3667,9.7167",
 	"088.134.205.058" : "DE,Niedersachsen,Hannover,52.3667,9.7167",
 	"088.134.205.066" : "DE,Bremen,Bremen,53.0833,8.8",

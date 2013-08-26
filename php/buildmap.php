@@ -5,7 +5,7 @@
 	
 	$tobuilds = Array();
 
-	if (false)
+	if (true)
 	{
 		$isp = "de/kd";
 		array_push($tobuilds,"024.134.000.000-024.134.255.255");
@@ -1418,7 +1418,7 @@ function BuildBackbones($isp,&$endpoint,&$uplinks,&$allbones,$stage)
 
 	foreach ($gateways as $upip => $dummy)
 	{
-		if (ResolveISP($upip) != $isp)
+		if ((substr($upip,0,8) != "001.000.") && (ResolveISP($upip) != $isp))
 		{
 			unset($gateways[ $upip ]);
 			continue;
