@@ -794,19 +794,30 @@ function Explore($isp,$minsize,$netbound)
 		
 		if ($size < $minsize) continue;
 		
-		//InspectRange($from,$upto,$netbound);
+		InspectRange($from,$upto,$netbound);
 	}
 }
 
-	if (false)
+	if (count($_SERVER[ "argv" ]) < 2)
+	{
+		echo "Which ISP?\n";
+		exit();
+	}
+	
+	$isp = $_SERVER[ "argv" ][ 1 ];
+	echo "ISP=$isp\n";
+	
+	if ($isp == "de/tf")
+	{
+		Explore("de/tf",130000,8);
+	}
+	
+	if ($isp == "de/tk")
 	{  
 		//
 		// TK
 		//
 
-	  //InspectRange("084.144.000.000","084.144.255.255",8,true);
-	
-	
 		InspectRange("046.080.000.000","046.095.255.255",8);	
 		InspectRange("079.192.000.000","079.255.255.255",8);
 		InspectRange("084.128.000.000","084.191.255.255",8);
@@ -822,7 +833,8 @@ function Explore($isp,$minsize,$netbound)
 	
 		//Explore("de/tk",500000,8);
 	}
-	else
+	
+	if ($isp == "de/kd")
 	{
 		//
 		// KD

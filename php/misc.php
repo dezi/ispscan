@@ -195,6 +195,7 @@ $GLOBALS[ "knownisp" ] = array();
 $GLOBALS[ "knownisp" ][ "Kabel Deutschland Vertrieb und Service GmbH" ] = "de/kd";
 $GLOBALS[ "knownisp" ][ "Deutsche Telekom AG" 						  ] = "de/tk";
 $GLOBALS[ "knownisp" ][ "Telekom Deutschland GmbH" 					  ] = "de/tk";
+$GLOBALS[ "knownisp" ][ "Telefonica Germany GmbH & Co.OHG" 			  ] = "de/tf";
 
 function ResolveISP($ip)
 {

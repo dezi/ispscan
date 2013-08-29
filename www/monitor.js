@@ -164,7 +164,40 @@ kappa.ISPList =
 				8192,4096,2048,
 				0,0,0,0,0,0,0,0,0,0
 			]			
-		}
+		},
+		
+		"tf" : 
+		{
+			name : "Telefonica",
+			nets :
+			[
+				'002.240.000.000-002.247.255.255',
+    			'077.000.000.000-077.015.255.255',
+    			'077.176.000.000-077.191.255.255',
+    			'078.048.000.000-078.055.255.255',
+    			'085.176.000.000-085.183.255.255',
+    			'089.012.000.000-089.013.255.255',
+    			'089.014.000.000-089.015.255.255',
+    			'092.224.000.000-092.231.255.255',
+    			'093.128.000.000-093.135.255.255',
+    			'095.112.000.000-095.119.255.255',
+    			'217.048.000.000-217.051.255.255',
+				'217.184.000.000-217.191.255.255'
+
+			],
+			bbnoshowip :
+			{
+			},
+			bbnoshow :
+			{
+			},
+			zoomstages :
+			[
+				-1,-1,-1,-1,-1,-1,-1,
+				0,0,0,
+				0,0,0,0,0,0,0,0,0,0
+			]			
+		},
 	}
 }
 kappa.Domains =
@@ -879,6 +912,7 @@ kappa.Initialize = function()
     kappa.LocPointEvent	 = new google.maps.MarkerImage('img/map.point.blue-yellow.png',ps,or,an);
         
     kappa.GwyPointzIndex = 4000;
+    kappa.GwyPointzEvent = 8000;
     
     kappa.NixPoint 		 = new google.maps.MarkerImage('img/map.point.trans.png',ps,or,an);
     kappa.GwyPoint		 = new google.maps.MarkerImage('img/map.point.violett.png',ps,or,an);
@@ -1270,7 +1304,9 @@ kappa.EventsCallback = function(events)
 		
 		kappa.EventsOpen[ ipkey ].logged = true;
 		
-		console.log(ipkey + ' died ' + kappa.FormatDate(kappa.EventsOpen[ ipkey ].dtime));
+		var funct = kappa.EventsOpen[ ipkey ].funct;
+
+		console.log(ipkey + ' ' + funct + ' died ' + kappa.FormatDate(kappa.EventsOpen[ ipkey ].dtime));
 	}
 	
 	//window.setTimeout('kappa.EventsRefresh()',2000);
@@ -1488,8 +1524,8 @@ kappa.BackbonesDraw = function()
 		var bbolat  = kappa.Round(backbone.loc.lat);
 		var bbolon  = kappa.Round(backbone.loc.lon);
 
-		var isdead = kappa.EventsOpen && kappa.EventsOpen[ backbone.ip ];
-		var isevnt = kappa.EventsHist && kappa.EventsHist[ backbone.ip ];
+		var isdead = kappa.EventsOpen && kappa.EventsOpen[ backbone.ip ] && true;
+		var isevnt = kappa.EventsHist && kappa.EventsHist[ backbone.ip ] && true;
 		
 		var markerkey = bbolat + '/' + bbolon;
 		var bbomarker = kappa.Bbopoints[ markerkey ];
@@ -1617,8 +1653,8 @@ kappa.UplinksDraw = function()
 		var upllat  = kappa.Round(uplink.loc.lat);
 		var upllon  = kappa.Round(uplink.loc.lon);
 		
-		var isdead = kappa.EventsOpen && kappa.EventsOpen[ uplink.ip ];
-		var isevnt = kappa.EventsHist && kappa.EventsHist[ uplink.ip ];
+		var isdead = kappa.EventsOpen && kappa.EventsOpen[ uplink.ip ] && true;
+		var isevnt = kappa.EventsHist && kappa.EventsHist[ uplink.ip ] && true;
 		
 		var markerkey = upllat + '/' + upllon;
 		var uplmarker = kappa.Uplpoints[ markerkey ];
@@ -1716,13 +1752,17 @@ kappa.EndpointsRequest = function()
 	
 	for (var ninx in kappa.ISPList[ kappa.country ][ kappa.provider ].nets)
 	{
+		var netname = kappa.ISPList[ kappa.country ][ kappa.provider ].nets[ ninx ];
+		
+		if (netname.substr(0,1) == '-') continue;
+		
 		var endload = document.createElement('script');
 		
 		endload.src = kappa.country 
 					+ '/'
 					+ kappa.provider
 					+ '/'
-					+ kappa.ISPList[ kappa.country ][ kappa.provider ].nets[ ninx ]
+					+ netname
 					+ '.map.js'
 					+ '?rnd=' 
 					+ Math.random();
@@ -1772,10 +1812,10 @@ kappa.EndpointsDraw = function()
 		var fixips  = kappa.IP2Bin(snet.bc) - kappa.IP2Bin(snet.ip) + 1;
 		var fixnum  = kappa.NiceNumber(snet.pc) + '/' + kappa.NiceNumber(fixips);
 
-		var isdead  = (snet.gw && kappa.EventsOpen && kappa.EventsOpen[ snet.gw ])
-				   || (snet.ip && kappa.EventsOpen && kappa.EventsOpen[ snet.ip ]);
-		var isevnt  = (snet.gw && kappa.EventsHist && kappa.EventsHist[ snet.gw ])
-				   || (snet.ip && kappa.EventsHist && kappa.EventsHist[ snet.ip ]);
+		var isdead  = (snet.gw && kappa.EventsOpen && kappa.EventsOpen[ snet.gw ] && true)
+				   || (snet.ip && kappa.EventsOpen && kappa.EventsOpen[ snet.ip ] && true);
+		var isevnt  = (snet.gw && kappa.EventsHist && kappa.EventsHist[ snet.gw ] && true)
+				   || (snet.ip && kappa.EventsHist && kappa.EventsHist[ snet.ip ] && true);
 		
 		var markerkey = fixlat + '/' + fixlon;
 		var snmarker  = kappa.Fixpoints[ markerkey ];
@@ -1829,8 +1869,8 @@ kappa.EndpointsDraw = function()
 			snmarker.isdead = true;
 		}
 		
-		isdead = snet.ip && kappa.EventsOpen && kappa.EventsOpen[ snet.ip ];
-		isevnt = snet.ip && kappa.EventsHist && kappa.EventsHist[ snet.ip ];
+		isdead = snet.ip && kappa.EventsOpen && kappa.EventsOpen[ snet.ip ] && true;
+		isevnt = snet.ip && kappa.EventsHist && kappa.EventsHist[ snet.ip ] && true;
 
 		for (var ginx in snet.segs)
 		{
@@ -2117,16 +2157,24 @@ kappa.GatewaysDraw = function()
 		if (! extpoint.vcmp) extpoint.vcmp = '';
 		if (! extpoint.vcnt) extpoint.vcnt = 0;
 
+		var isdead = kappa.EventsOpen && kappa.EventsOpen[ gip ] && true;
+		var isevnt = kappa.EventsHist && kappa.EventsHist[ gip ] && true;
+
+		var hasstuff = isdead || isevnt;
+		
 		for (var dkey in extpoint.domains)
 		{
 			var domain = dkey;
 			var alexa  = extpoint.domains[ dkey ];
 			
-			var wanted = true; // kappa.Domains[ domain ] && (kappa.Domains[ domain ] == 2);
-			var isdead = kappa.GatewayPings && (kappa.GatewayPings.domain[ domain ] == -1);			
+			var wanted = (extpoint.vcnt < 7);
+			var isdead = kappa.EventsOpen && kappa.EventsOpen[ domain ] && true;			
+			var isevnt = kappa.EventsHist && kappa.EventsHist[ domain ] && true;			
 			var isslow = kappa.GatewayPings && (kappa.GatewayPings.domain[ domain ] > 500);			
 			
-			if ((wanted || isdead || isslow) && (extpoint.vcnt < 7))
+			if (isdead || isslow || isevnt) hasstuff = true;
+				
+			if (wanted || isdead || isslow || isevnt)
 			{
 				if (! extpoint.vips[ domain ])
 				{
@@ -2171,7 +2219,7 @@ kappa.GatewaysDraw = function()
 		// Find a new place for gateway on map.
 		//
 		
-		if ((location.gcnt[ 0 ] < 10) &&
+		if ((hasstuff || (location.gcnt[ 0 ] < 10)) &&
 			(location.vcnt[ 0 ] <= location.vcnt[ 1 ]))
 		{
 			location.gips[ 0 ][ gip ] = extpoint;
@@ -2181,7 +2229,7 @@ kappa.GatewaysDraw = function()
 			continue;
 		}
 		
-		if ((location.gcnt[ 1 ] < 10) &&
+		if ((hasstuff || (location.gcnt[ 1 ] < 10)) &&
 			(location.vcnt[ 1 ] <= location.vcnt[ 0 ]))
 		{
 			location.gips[ 1 ][ gip ] = extpoint;
@@ -2228,8 +2276,8 @@ kappa.GatewaysDraw = function()
 
 				startdg += degree;
 
-				var isdead = kappa.EventsOpen && kappa.EventsOpen[ gip ];
-				var isevnt = kappa.EventsHist && kappa.EventsHist[ gip ];
+				var isdead = kappa.EventsOpen && kappa.EventsOpen[ gip ] && true;
+				var isevnt = kappa.EventsHist && kappa.EventsHist[ gip ] && true;
 				var isslow = kappa.GatewayPings && (kappa.GatewayPings.gateway[ gip ] > 80);
 				var ping = kappa.GatewayPings &&  kappa.GatewayPings.gateway[ gip ];
 				
@@ -2270,7 +2318,7 @@ kappa.GatewaysDraw = function()
 				 		// Gateway status changed.
 				 		//
 				 		
-						extpoint.marker.setZIndex(kappa.GwyPointzIndex++);
+						extpoint.marker.setZIndex(kappa.GwyPointzEvent++);
 						extpoint.marker.setIcon(icon);
 						
 						extpoint.marker.setVisible(kappa.ExtDetails || isslow || isdead);
@@ -2306,7 +2354,7 @@ kappa.GatewaysDraw = function()
 						map      : kappa.map,
 						position : position,
 						visible  : kappa.ExtDetails || isslow || isdead,
-						zIndex	 : kappa.GwyPointzIndex++,
+						zIndex	 : kappa.GwyPointzIndex,
 						icon	 : icon,
 						title    : gip + ' ' + region
 					});
@@ -2381,13 +2429,13 @@ kappa.GatewaysDraw = function()
 				
 				startdg += degree;
 
-				var dead = kappa.GatewayPings && (kappa.GatewayPings.domain[ vip.domain ] != -1);
-				var slow = kappa.GatewayPings && (kappa.GatewayPings.domain[ vip.domain ] > 500);
+				var isdead = kappa.EventsOpen && kappa.EventsOpen[ vip.domain ] && true;
+				var isslow = kappa.GatewayPings && (kappa.GatewayPings.domain[ vip.domain ] > 500);
 				var ping = kappa.GatewayPings &&  kappa.GatewayPings.domain[ vip.domain ];
 				
 				var position = new google.maps.LatLng(vip.maplat,vip.maplon);
-				var bgColor	 = dead ? '#ff8888' : (slow ? '#ff8800' : '#ffffff');
-				var text	 = vip.domain + (slow ? (' > ' + ping + 'ms'): '');
+				var bgColor	 = isdead ? '#ff8888' : (isslow ? '#ff8800' : '#ffffff');
+				var text	 = vip.domain + (isslow ? (' > ' + ping + 'ms'): '');
 				
 				var path = 
 				[
@@ -2411,36 +2459,6 @@ kappa.GatewaysDraw = function()
 						vip.marker.setPosition(position);
 						vip.line.setPath(path);
 					}
-					
-					if ((vip.isdead != dead) || (vip.isslow != slow))
-				 	{	
-				 		//
-				 		// Domain status changed.
-				 		//
-				 		
-						vip.marker.setZIndex(kappa.GwyPointzIndex++);
-						
-						vip.label.setZIndex(kappa.GwyPointzIndex++);
-						vip.label.setBGColor(bgColor);
-						vip.label.setText(text);
-						
-						vip.marker.setVisible(kappa.ExtDetails || slow || dead);
-						vip.label.setVisible (kappa.ExtDetails || slow || dead);
-						vip.line.setVisible  (kappa.ExtDetails || slow || dead);
-
-						vip.label.draw();
-
-				 		var tag = dead ? 'Died' : 'Live';
-			
-						if (vip.isslow != slow)
-						{
-							tag  = slow ? 'Slow' : 'Fast';
-							text = vip.domain + (slow ? ' > ' : ' < ') + ping + 'ms';
-						}
-						
-				 		var itext = tag + ': ' + text;
-						kappa.Info.setText(itext,vip.domain);
-					}
 				}
 				else
 				{
@@ -2452,8 +2470,8 @@ kappa.GatewaysDraw = function()
 					({
 						map      : kappa.map,
 						position : position,
-						visible  : kappa.ExtDetails || slow || dead,
-						zIndex	 : kappa.GwyPointzIndex++,
+						visible  : kappa.ExtDetails || isslow || isdead,
+						zIndex	 : kappa.GwyPointzIndex,
 						icon	 : kappa.NixPoint,
 						title    : vip.domain + ' (alexa=' + vip.alexa + ')'
 					});
@@ -2461,8 +2479,8 @@ kappa.GatewaysDraw = function()
 					vip.label = new kappa.Label
 					({
 						map     : kappa.map,
-						visible : kappa.ExtDetails || slow || dead,
-						zIndex	: kappa.GwyPointzIndex++,
+						visible : kappa.ExtDetails || isslow || isdead,
+						zIndex	: kappa.GwyPointzIndex,
 						bgColor	: bgColor,
 						text    : text
 					});
@@ -2473,25 +2491,58 @@ kappa.GatewaysDraw = function()
 					({
 						map      	  : kappa.map,
 						path          : path,
-						visible       : kappa.ExtDetails || slow || dead,
+						visible       : kappa.ExtDetails || isslow || isdead,
 						zIndex        : 0,
 						strokeColor   : '#8888ff',
 						strokeWeight  : 2.0,
 						strokeOpacity : 1.0
 					});
 					
-					if (slow || dead)
+					if (isslow || isdead)
 					{
-				 		var itext = (dead ? 'Died' : 'Slow') + ': ' + text;
+				 		var itext = (isdead ? 'Died' : 'Slow') + ': ' + text;
 						kappa.Info.setText(itext,vip.domain);
 					}
+					
+					vip.isdead = isdead;
+					vip.isslow = isslow;
 				}
+									
+				if ((vip.isdead != isdead) || (vip.isslow != isslow))
+				{	
+					//
+					// Domain status changed.
+					//
 				
+					vip.marker.setZIndex(kappa.GwyPointzEvent++);
+				
+					vip.label.setZIndex(kappa.GwyPointzEvent++);
+					vip.label.setBGColor(bgColor);
+					vip.label.setText(text);
+				
+					vip.marker.setVisible(kappa.ExtDetails || isslow || isdead);
+					vip.label.setVisible (kappa.ExtDetails || isslow || isdead);
+					vip.line.setVisible  (kappa.ExtDetails || isslow || isdead);
+
+					vip.label.draw();
+
+					var tag = isdead ? 'Died' : 'Live';
+	
+					if (vip.isslow != isslow)
+					{
+						tag  = isslow ? 'Slow' : 'Fast';
+						text = vip.domain + (isslow ? ' > ' : ' < ') + ping + 'ms';
+					}
+				
+					var itext = tag + ': ' + text;
+					kappa.Info.setText(itext,vip.domain);
+							
+					vip.isdead = isdead;
+					vip.isslow = isslow;
+				}
+
 				vip.oldlat = vip.maplat;
 				vip.oldlon = vip.maplon;
-
-				vip.isdead = dead;
-				vip.isslow = slow;
 			}
 		}
 	}

@@ -3,11 +3,37 @@
 	include("../php/util.php");
 	include("../php/json.php");
 	
-	$tobuilds = Array();
-
-	if (true)
+	if (count($_SERVER[ "argv" ]) < 2)
 	{
-		$isp = "de/kd";
+		echo "Which ISP?\n";
+		exit();
+	}
+	
+	$isp = $_SERVER[ "argv" ][ 1 ];
+	echo "ISP=$isp\n";
+	
+	$tobuilds = Array();
+	
+	if ($isp == "de/tf")
+	{
+		array_push($tobuilds,"002.240.000.000-002.247.255.255");
+		array_push($tobuilds,"077.000.000.000-077.015.255.255");
+		array_push($tobuilds,"077.176.000.000-077.191.255.255");
+		array_push($tobuilds,"078.048.000.000-078.055.255.255"); // work
+		array_push($tobuilds,"085.176.000.000-085.183.255.255"); // work
+		array_push($tobuilds,"089.012.000.000-089.013.255.255");
+		array_push($tobuilds,"089.014.000.000-089.015.255.255");
+		array_push($tobuilds,"092.224.000.000-092.231.255.255"); // work
+		array_push($tobuilds,"093.128.000.000-093.135.255.255");
+		array_push($tobuilds,"095.112.000.000-095.119.255.255");
+		array_push($tobuilds,"217.048.000.000-217.051.255.255");
+		array_push($tobuilds,"217.184.000.000-217.191.255.255");
+		
+	}
+	
+	if ($isp == "de/kd")
+	{
+		
 		array_push($tobuilds,"024.134.000.000-024.134.255.255");
 		array_push($tobuilds,"031.016.000.000-031.019.255.255");
 		array_push($tobuilds,"037.004.000.000-037.005.255.255");
@@ -19,9 +45,9 @@
 		array_push($tobuilds,"178.024.000.000-178.027.255.255");
 		array_push($tobuilds,"188.192.000.000-188.195.255.255");
 	}
-	else
+
+	if ($isp == "de/tk")
 	{
-		$isp = "de/tk";
 		array_push($tobuilds,"046.080.000.000-046.095.255.255");
 		array_push($tobuilds,"079.192.000.000-079.255.255.255");
 		array_push($tobuilds,"080.128.000.000-080.159.255.255");
@@ -59,6 +85,8 @@ function GetHostByAddress($ip,$isp = "xx",$cache = "global")
 
 function GetHostByAddressSave($isp = "xx",$cache = "global")
 {
+	if (! isset($GLOBALS[ "gethostcache" ])) return;
+	
 	$cachefile = "../var/$isp/tmpcach";
 	if (! is_dir($cachefile)) mkdir($cachefile,0777);
 	$cachefile .= "/hostsbyaddr.$cache.json";
@@ -584,9 +612,8 @@ function BuildBackbones($isp,&$endpoint,&$uplinks,&$allbones,$stage)
 	$bonusnailed[ "xxxxx"  				] =  "xxxxxxxxx";
 	$bonusnailed[ "xxxxx"  				] =  "xxxxxxxxx";
 	$bonusnailed[ "xxxxx"  				] =  "xxxxxxxxx";
-	$bonusnailed[ "xxxxx"  				] =  "xxxxxxxxx";
-	$bonusnailed[ "xxxxx"  				] =  "xxxxxxxxx";
-	$bonusnailed[ "xxxxx"  				] =  "xxxxxxxxx";
+	$bonusnailed[ "Stuttgart"  			] =  "DE,Baden-Württemberg,Stuttgart,48.7667,9.1833";
+	$bonusnailed[ "Gütersloh"  			] =  "DE,Nordrhein-Westfalen,Gütersloh,51.9,8.3833";
 	$bonusnailed[ "Jena"  				] =  "DE,Thüringen,Jena,50.9333,11.5833";
 	$bonusnailed[ "Günzburg"  			] =  "DE,Bayern,Günzburg,48.45,10.2667";
 	$bonusnailed[ "Amberg"  			] =  "DE,Bayern,Amberg,49.4502,11.848";
@@ -1258,13 +1285,15 @@ function BuildBackbones($isp,&$endpoint,&$uplinks,&$allbones,$stage)
 	// Generate MTR router information.
 	//
 	
+	$notraces  = array();
 	$backbones = array();
+	$gateways  = array();
 	
 	BuildBackbones($isp,$endpoint,$gateways,$backbones,0);
 	$notraces = CheckGateways($isp,$gateways);
-		
-	if (true)
-	{
+	
+	if (false)
+	{	
 		echo "BuildBackbones stage 1\n";
 		BuildBackbones($isp,$endpoint,$gateways,$backbones,1);
 		

@@ -211,8 +211,7 @@ function ScheduleMtrLogsTask($task,&$request)
 	if (! HasFeature($task,"mtr")) return;
 
 	$isp = GetRandomISP("mtrlogs");
-	
-	if ($request[ "isp" ] != $isp) return;
+	if (! IsFriendISP($isp,"mtrlogs",$request[ "isp" ])) return;
 	
 	if (isset($GLOBALS[ $isp ][ "mtrlogstime" ]) &&
 		((time() - $GLOBALS[ $isp ][ "mtrlogstime" ]) > 600))
@@ -320,7 +319,7 @@ function ScheduleMtrLogsTask($task,&$request)
 	if ($subnetdata === false) return;
 	
 	$request[ "what" ] = "mtr";
-	
+	$request[ "test" ] = GetCheckISP($isp,"mtrlogs");
 	$request[ "ping" ]   = 1; // Ping before mtr.
 	$request[ "mtrc" ]   = 1; // One mtr round per IP.
 	$request[ "mtrd" ]   = 5; // Maximum different routes needed.
@@ -392,12 +391,6 @@ function ManagePingresult(&$list,$stamp,$ms)
 	if (count($list) > 0) list($oldstamp,$oldms) = each($list);
 	if (count($list) > 1) list($bfostamp,$bfoms) = each($list);
 	
-	if ($ms != -1)
-	{
-		$minms = floor($ms / 2);
-		$maxms = $ms + $minms;
-	}
-	
 	if ($oldms !== null)
 	{
 		if (($oldms == -1) && ($ms != -1))
@@ -413,18 +406,23 @@ function ManagePingresult(&$list,$stamp,$ms)
 		{
 			if ($bfoms != null)
 			{
-				if ((($oldms == -1) && ($bfoms == -1)) ||
-					(($oldms != -1) && ($bfoms != -1)))
+				if (($ms == -1) && ($oldms == -1) && ($bfoms == -1))
 				{
-					if (($ms != -1) && ($oldms != -1) && (($oldms < $minms) || ($oldms > $maxms)))
-					{
-						//
-						// Keep old ms because more than 50% different than current ms.
-						//
-					}
-					else
-					{
-						unset($list[ $oldstamp ]);
+					unset($list[ $oldstamp ]);
+				}
+				else
+				{
+					if (($ms != -1) && ($oldms != -1) && ($bfoms != -1))
+					{ 
+						$nowslow = ($ms    > 1000);
+						$oldslow = ($oldms > 1000);
+						$bfoslow = ($bfoms > 1000);
+					
+						if ((($nowslow ==  true) && ($oldslow ==  true) && ($bfoslow ==  true)) ||
+							(($nowslow == false) && ($oldslow == false) && ($bfoslow == false)))
+						{
+							unset($list[ $oldstamp ]);
+						}
 					}
 				}
 			}
@@ -1829,7 +1827,7 @@ function ConsumeAnypingTask($trans,$reply,$remote_host,$remote_port)
 		{
 			if ($change == "died")
 			{
-				$myms = Ping(IP($linkip),1000);
+				$myms = ($what == "webping") ? -1 : Ping(IP($linkip),1000);
 				
 				if ($myms != -1)
 				{
@@ -1919,6 +1917,7 @@ function ScheduleTask($task,$remote_host,$remote_port)
 		
 	$GLOBALS[ "transactions" ][ $request[ "guid" ] ] = &$trans;
 
+	if (! mt_rand(0,0)) ScheduleMtrLogsTask($task,$request);
 	if (! mt_rand(0,0)) ScheduleEndpingTask($task,$request);
 	if (! mt_rand(0,0)) ScheduleNetpingTask($task,$request);
     if (! mt_rand(0,0)) ScheduleWebpingTask($task,$request);

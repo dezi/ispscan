@@ -1,0 +1,26 @@
+{
+	"mtrlogs" :
+	{
+		"friends" :
+		{
+			"xx/xx" : true,
+			"de/tk" : true,
+			"de/kd" : true
+		},
+		"checks" :
+		[
+			"telefonica.de"
+		]
+	},
+	"netping" :
+	{
+		"friends" :
+		{
+			"*" : true
+		},
+		"checks" :
+		[
+			"telefonica.de"
+		]
+	}
+}
