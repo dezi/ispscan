@@ -3982,45 +3982,67 @@
 077.005.031.000=0 DE,,,51,9
 077.005.031.255=0*8
 =======32
-077.005.032.000=0 DE,Nordrhein-Westfalen,Unna,51.5333,7.6833
-077.005.033.000=0 DE,Nordrhein-Westfalen,Bönen,51.6,7.7667
+077.005.032.000=0 DE,Hamburg,Hamburg,53.55,10
+077.005.032.000!0 DE,Nordrhein-Westfalen,Unna,51.5333,7.6833
+077.005.033.000=0 DE,Hamburg,Hamburg,53.55,10
+077.005.033.000!0 DE,Nordrhein-Westfalen,Bönen,51.6,7.7667
 195.071.250.237@
-077.005.034.000=0 DE,Nordrhein-Westfalen,Bergkamen,51.6333,7.6333
+077.005.034.000=0 DE,Hamburg,Hamburg,53.55,10
+077.005.034.000!0 DE,Nordrhein-Westfalen,Bergkamen,51.6333,7.6333
 195.071.250.237@
 195.071.251.165@
-077.005.035.000=0 DE,Nordrhein-Westfalen,Bergkamen,51.6333,7.6333
-077.005.036.000=0 DE,Nordrhein-Westfalen,Kamen,51.6,7.6667
-213.020.094.085@
-213.020.094.081@
-077.005.037.000=0 DE,Nordrhein-Westfalen,Hamm,51.6833,7.8
-077.005.038.000=0 DE,Nordrhein-Westfalen,Unna,51.5333,7.6833
-077.005.039.000=0 DE,Nordrhein-Westfalen,Bönen,51.6,7.7667
-213.020.094.081@
+077.005.035.000=0 DE,Hamburg,Hamburg,53.55,10
+077.005.035.000!0 DE,Nordrhein-Westfalen,Bergkamen,51.6333,7.6333
 062.053.000.197~62.53.0.197
 062.053.000.207~62.53.0.207
 062.053.000.205~62.53.0.205
 062.053.000.195~62.53.0.195
-077.005.039.255=0*8
+077.005.035.255=0*4
+-------
+077.005.036.000=0 DE,Hamburg,Hamburg,53.55,10
+077.005.036.000!0 DE,Nordrhein-Westfalen,Kamen,51.6,7.6667
+213.020.094.085@
+213.020.094.081@
+077.005.037.000=0 DE,Hamburg,Hamburg,53.55,10
+077.005.037.000!0 DE,Nordrhein-Westfalen,Hamm,51.6833,7.8
+077.005.038.000=0 DE,Hamburg,Hamburg,53.55,10
+077.005.038.000!0 DE,Nordrhein-Westfalen,Unna,51.5333,7.6833
+077.005.039.000=0 DE,Hamburg,Hamburg,53.55,10
+077.005.039.000!0 DE,Nordrhein-Westfalen,Bönen,51.6,7.7667
+213.020.094.081@
+062.053.000.197~62.53.0.197
+062.053.000.207~62.53.0.207
+077.005.039.255=0*4
 =======8
-077.005.040.000=0 DE,Nordrhein-Westfalen,Hamm,51.6833,7.8
+077.005.040.000=0 DE,Schleswig-Holstein,Kiel,54.3333,10.1333
+077.005.040.000!0 DE,Nordrhein-Westfalen,Hamm,51.6833,7.8
 195.071.251.197@
-077.005.041.000=0 DE,Nordrhein-Westfalen,Lünen,51.6167,7.5167
+077.005.041.000=0 DE,Schleswig-Holstein,Kiel,54.3333,10.1333
+077.005.041.000!0 DE,Nordrhein-Westfalen,Lünen,51.6167,7.5167
 195.071.251.197@
-077.005.042.000=0 DE,Nordrhein-Westfalen,Bönen,51.6,7.7667
+062.053.002.073~xmws-kiel-de04-gigaet-1-1.nw.mediaways.net
+077.005.041.255=0*2
+-------
+077.005.042.000=0 DE,Mecklenburg-Vorpommern,Rostock,54.0833,12.1333
+077.005.042.000!0 DE,Nordrhein-Westfalen,Bönen,51.6,7.7667
 195.071.142.038@
 195.071.142.034@
-077.005.043.000=0 DE,Nordrhein-Westfalen,Bönen,51.6,7.7667
+213.020.091.046~DE,Mecklenburg-Vorpommern,Rostock,54.0833,12.1333
+195.071.142.030~DE,Mecklenburg-Vorpommern,Rostock,54.0833,12.1333
+077.005.042.255=0*1
+-------
+077.005.043.000=0 DE,Mecklenburg-Vorpommern,Schwerin,53.6333,11.3833
+077.005.043.000!0 DE,Nordrhein-Westfalen,Bönen,51.6,7.7667
 195.071.142.006@
 195.071.142.054@
+062.053.002.075~rmws-scwn-de02-so-2-0-0-0.nw.mediaways.net
+077.005.043.255=0*1
+-------
 077.005.044.000=0 DE,Nordrhein-Westfalen,Hamm,51.6833,7.8
 077.005.045.000=0 DE,Nordrhein-Westfalen,Wickede,51.4833,7.8667
 077.005.046.000=0 DE,Nordrhein-Westfalen,Soest,51.5833,8.1167
 077.005.047.000=0 DE,Nordrhein-Westfalen,Hamm,51.6833,7.8
-062.053.002.073~xmws-kiel-de04-gigaet-1-1.nw.mediaways.net
-213.020.091.046~xmws-rstk-de02-vlan-3.nw.mediaways.net
-195.071.142.030~xmws-rstk-de01-vlan-2.nw.mediaways.net
-062.053.002.075~rmws-scwn-de02-so-2-0-0-0.nw.mediaways.net
-077.005.047.255=0*8
+077.005.047.255=0*4
 =======16
 077.005.048.000=0 DE,Nordrhein-Westfalen,Duisburg,51.4333,6.75
 195.071.242.189@
@@ -4173,24 +4195,26 @@
 195.071.254.254~rmwc-hmbg-lab01-ge-0-0-0-0.nw.telefonica.de
 077.005.107.255=0*4
 -------
-077.005.108.000=0 DE,Schleswig-Holstein,Lübeck,53.8667,10.7
+077.005.108.000=0 DE,Nordrhein-Westfalen,Dortmund,51.5167,7.45
 062.053.134.150@
 062.053.134.146@
-077.005.109.000=0 DE,Schleswig-Holstein,Lübeck,53.8667,10.7
+077.005.109.000=0 DE,Nordrhein-Westfalen,Dortmund,51.5167,7.45
 062.053.134.138@
 062.053.134.142@
+062.053.134.164~xmwc-dtmd-de02-vlan-3.nw.mediaways.net
+062.053.134.078~xmwc-dtmd-de01-vlan-2.nw.mediaways.net
+077.005.109.255=0*2
+-------
 077.005.110.000=0 DE,Schleswig-Holstein,Lübeck,53.8667,10.7
 213.020.088.129@
 213.020.088.133@
 077.005.111.000=0 DE,Schleswig-Holstein,Lübeck,53.8667,10.7
 213.020.091.137@
 213.020.091.155@
-062.053.134.164~xmwc-dtmd-de02-vlan-3.nw.mediaways.net
-062.053.134.078~xmwc-dtmd-de01-vlan-2.nw.mediaways.net
 062.053.000.197~62.53.0.197
 062.053.000.207~62.53.0.207
 062.053.002.067~rmws-lbck-de01-so-2-0-0-0.nw.mediaways.net
-077.005.111.255=0*4
+077.005.111.255=0*2
 =======16
 077.005.112.000=0 DE,Bayern,Nürnberg,49.4478,11.0683
 077.005.113.000=0 DE,Bayern,Erlangen,49.5897,11.0039
@@ -4635,6 +4659,11 @@
 077.006.003.000=0 DE,Mecklenburg-Vorpommern,Schwerin,53.6333,11.3833
 213.020.094.073@
 213.020.094.077@
+195.071.142.051~xmws-scwn-de02-vlan-3.nw.mediaways.net
+195.071.142.003~xmws-scwn-de01-vlan-2.nw.mediaways.net
+213.020.094.077~rdsl-scwn-de01-chan-2.nw.mediaways.net
+077.006.003.255=0*4
+-------
 077.006.004.000=0 DE,Schleswig-Holstein,Lübeck,53.8667,10.7
 213.020.091.156@
 213.020.091.138@
@@ -4648,13 +4677,10 @@
 077.006.007.000=0 DE,Schleswig-Holstein,Lübeck,53.8667,10.7
 213.020.091.156@
 213.020.091.138@
-195.071.142.051~xmws-scwn-de02-vlan-3.nw.mediaways.net
-195.071.142.003~xmws-scwn-de01-vlan-2.nw.mediaways.net
-213.020.094.077~rdsl-scwn-de01-chan-2.nw.mediaways.net
 062.053.002.067~rmws-lbck-de01-so-2-0-0-0.nw.mediaways.net
 213.020.091.138~rdsl-lbck-de01-et-1-1.nw.mediaways.net
 213.020.091.156~rdsl-lbck-de01-et-2-1.nw.mediaways.net
-077.006.007.255=0*8
+077.006.007.255=0*4
 =======8
 077.006.008.000=0 DE,Hamburg,Hamburg,53.55,10
 077.006.009.000=0 DE,Hamburg,Hamburg,53.55,10
@@ -4689,8 +4715,8 @@
 077.006.023.000=0 DE,Mecklenburg-Vorpommern,Rostock,54.0833,12.1333
 195.071.142.113@
 195.071.250.141@
-213.020.091.046~xmws-rstk-de02-vlan-3.nw.mediaways.net
-195.071.142.030~xmws-rstk-de01-vlan-2.nw.mediaways.net
+213.020.091.046~DE,Mecklenburg-Vorpommern,Rostock,54.0833,12.1333
+195.071.142.030~DE,Mecklenburg-Vorpommern,Rostock,54.0833,12.1333
 =======8
 077.006.024.000=0 DE,Mecklenburg-Vorpommern,Rostock,54.0833,12.1333
 195.071.250.141@
@@ -4714,8 +4740,8 @@
 077.006.031.000=0 DE,Mecklenburg-Vorpommern,Rostock,54.0833,12.1333
 195.071.250.141@
 195.071.142.113@
-213.020.091.046~xmws-rstk-de02-vlan-3.nw.mediaways.net
-195.071.142.030~xmws-rstk-de01-vlan-2.nw.mediaways.net
+213.020.091.046~DE,Mecklenburg-Vorpommern,Rostock,54.0833,12.1333
+195.071.142.030~DE,Mecklenburg-Vorpommern,Rostock,54.0833,12.1333
 077.006.031.255=0*16
 =======32
 077.006.032.000=0 DE,,,51,9
@@ -4751,10 +4777,10 @@
 077.006.047.000=0 DE,Schleswig-Holstein,Flensburg,54.7833,9.4333
 062.053.174.226@
 195.071.142.134@
-062.053.002.079~62.53.2.79
+062.053.002.079~rmws-flnb-de02-ge-2-0-0-0.nw.mediaways.net
 062.053.002.081~rmws-flnb-de02-ge-2-0-1-0.nw.mediaways.net
-062.053.002.069~62.53.2.69
-062.053.002.071~62.53.2.71
+062.053.002.069~rmws-flnb-de01-ge-2-0-0-0.nw.mediaways.net
+062.053.002.071~rmws-flnb-de01-ge-2-0-1-0.nw.mediaways.net
 077.006.047.255=0*8
 =======16
 077.006.048.000=0 DE,Schleswig-Holstein,Lübeck,53.8667,10.7
@@ -6218,13 +6244,14 @@
 062.053.002.197~xmws-kssl-de04-xe-0-2-0-0.nw.mediaways.net
 077.008.079.255=0*16
 =======16
+077.008.080.000=0 DE,Nordrhein-Westfalen,Münster,51.9667,7.6333
 077.008.080.000=0 DE,Nordrhein-Westfalen,Ladbergen,52.1333,7.75
 195.071.227.081@
 077.008.081.000=0 DE,Nordrhein-Westfalen,Heek,52.1167,7.1
 195.071.227.081@
 195.071.227.061@
 062.053.002.191~xmws-mnsr-de04-xe-0-2-0-0.nw.mediaways.net
-062.053.002.169~xmws-mnsr-de03-xe-0-2-0-0.nw.mediaways.net
+062.053.002.169~DE,Nordrhein-Westfalen,Münster,51.9667,7.6333
 077.008.081.255=0*2
 -------
 077.008.082.000=0 DE,Niedersachsen,Osnabrück,52.2667,8.05
@@ -9098,8 +9125,8 @@
 195.071.188.097@
 062.053.000.133~xmwc-brln-de01-chan-4.nw.mediaways.net
 062.053.000.119~xmwc-brln-de02-chan-5.nw.mediaways.net
-062.053.000.131~xmwc-brln-de01-chan-2.nw.mediaways.net
-062.053.000.117~xmwc-brln-de02-chan-3.nw.mediaways.net
+062.053.000.131~DE,Berlin,Berlin,52.5167,13.4
+062.053.000.117~DE,Berlin,Berlin,52.5167,13.4
 =======8
 077.012.008.000=0 DE,Berlin,Berlin,52.5167,13.4
 195.071.188.101@
@@ -9126,9 +9153,9 @@
 195.071.188.101@
 195.071.188.097@
 062.053.000.133~xmwc-brln-de01-chan-4.nw.mediaways.net
-062.053.000.131~xmwc-brln-de01-chan-2.nw.mediaways.net
+062.053.000.131~DE,Berlin,Berlin,52.5167,13.4
 062.053.000.119~xmwc-brln-de02-chan-5.nw.mediaways.net
-062.053.000.117~xmwc-brln-de02-chan-3.nw.mediaways.net
+062.053.000.117~DE,Berlin,Berlin,52.5167,13.4
 =======16
 077.012.016.000=0 DE,Berlin,Berlin,52.5167,13.4
 195.071.188.101@
@@ -9153,8 +9180,8 @@
 195.071.188.101@
 077.012.023.000=0 DE,Berlin,Berlin,52.5167,13.4
 195.071.188.097@
-062.053.000.131~xmwc-brln-de01-chan-2.nw.mediaways.net
-062.053.000.117~xmwc-brln-de02-chan-3.nw.mediaways.net
+062.053.000.131~DE,Berlin,Berlin,52.5167,13.4
+062.053.000.117~DE,Berlin,Berlin,52.5167,13.4
 062.053.000.133~xmwc-brln-de01-chan-4.nw.mediaways.net
 062.053.000.119~xmwc-brln-de02-chan-5.nw.mediaways.net
 =======8
@@ -9183,8 +9210,8 @@
 195.071.188.101@
 062.053.000.119~xmwc-brln-de02-chan-5.nw.mediaways.net
 062.053.000.133~xmwc-brln-de01-chan-4.nw.mediaways.net
-062.053.000.117~xmwc-brln-de02-chan-3.nw.mediaways.net
-062.053.000.131~xmwc-brln-de01-chan-2.nw.mediaways.net
+062.053.000.117~DE,Berlin,Berlin,52.5167,13.4
+062.053.000.131~DE,Berlin,Berlin,52.5167,13.4
 =======32
 077.012.032.000=0 DE,Berlin,Berlin,52.5167,13.4
 195.071.188.101@
@@ -9210,8 +9237,8 @@
 195.071.188.101@
 195.071.188.097@
 062.053.000.119~xmwc-brln-de02-chan-5.nw.mediaways.net
-062.053.000.117~xmwc-brln-de02-chan-3.nw.mediaways.net
-062.053.000.131~xmwc-brln-de01-chan-2.nw.mediaways.net
+062.053.000.117~DE,Berlin,Berlin,52.5167,13.4
+062.053.000.131~DE,Berlin,Berlin,52.5167,13.4
 062.053.000.133~xmwc-brln-de01-chan-4.nw.mediaways.net
 =======8
 077.012.040.000=0 DE,Berlin,Berlin,52.5167,13.4
@@ -9240,8 +9267,8 @@
 195.071.188.101@
 062.053.000.133~xmwc-brln-de01-chan-4.nw.mediaways.net
 062.053.000.119~xmwc-brln-de02-chan-5.nw.mediaways.net
-062.053.000.117~xmwc-brln-de02-chan-3.nw.mediaways.net
-062.053.000.131~xmwc-brln-de01-chan-2.nw.mediaways.net
+062.053.000.117~DE,Berlin,Berlin,52.5167,13.4
+062.053.000.131~DE,Berlin,Berlin,52.5167,13.4
 =======16
 077.012.048.000=0 DE,Berlin,Berlin,52.5167,13.4
 195.071.188.097@
@@ -9269,8 +9296,8 @@
 195.071.188.101@
 062.053.000.119~xmwc-brln-de02-chan-5.nw.mediaways.net
 062.053.000.133~xmwc-brln-de01-chan-4.nw.mediaways.net
-062.053.000.117~xmwc-brln-de02-chan-3.nw.mediaways.net
-062.053.000.131~xmwc-brln-de01-chan-2.nw.mediaways.net
+062.053.000.117~DE,Berlin,Berlin,52.5167,13.4
+062.053.000.131~DE,Berlin,Berlin,52.5167,13.4
 =======8
 077.012.056.000=0 DE,Berlin,Berlin,52.5167,13.4
 195.071.188.101@
@@ -9297,8 +9324,8 @@
 195.071.188.101@
 062.053.000.119~xmwc-brln-de02-chan-5.nw.mediaways.net
 062.053.000.133~xmwc-brln-de01-chan-4.nw.mediaways.net
-062.053.000.131~xmwc-brln-de01-chan-2.nw.mediaways.net
-062.053.000.117~xmwc-brln-de02-chan-3.nw.mediaways.net
+062.053.000.131~DE,Berlin,Berlin,52.5167,13.4
+062.053.000.117~DE,Berlin,Berlin,52.5167,13.4
 077.012.063.255=0*64
 =======64
 077.012.064.000=0 DE,Berlin,Berlin,52.5167,13.4
@@ -9551,10 +9578,10 @@
 077.012.135.000=0 DE,Brandenburg,Bernau,52.6667,13.5833
 062.053.164.130@
 062.053.164.134@
-062.053.000.131~xmwc-brln-de01-chan-2.nw.mediaways.net
+062.053.000.131~DE,Berlin,Berlin,52.5167,13.4
 062.053.000.119~xmwc-brln-de02-chan-5.nw.mediaways.net
 062.053.000.133~xmwc-brln-de01-chan-4.nw.mediaways.net
-062.053.000.117~xmwc-brln-de02-chan-3.nw.mediaways.net
+062.053.000.117~DE,Berlin,Berlin,52.5167,13.4
 =======8
 077.012.136.000=0 DE,Berlin,Berlin,52.5167,13.4
 062.053.164.130@
@@ -9582,7 +9609,7 @@
 062.053.164.134@
 062.053.000.119~xmwc-brln-de02-chan-5.nw.mediaways.net
 062.053.000.133~xmwc-brln-de01-chan-4.nw.mediaways.net
-062.053.000.131~xmwc-brln-de01-chan-2.nw.mediaways.net
+062.053.000.131~DE,Berlin,Berlin,52.5167,13.4
 =======16
 077.012.144.000=0 DE,Brandenburg,Velten,52.6833,13.1833
 062.053.164.130@
@@ -9607,9 +9634,9 @@
 062.053.164.130@
 077.012.151.000=0 DE,Berlin,Berlin,52.5167,13.4
 062.053.164.134@
-062.053.000.117~xmwc-brln-de02-chan-3.nw.mediaways.net
+062.053.000.117~DE,Berlin,Berlin,52.5167,13.4
 062.053.000.133~xmwc-brln-de01-chan-4.nw.mediaways.net
-062.053.000.131~xmwc-brln-de01-chan-2.nw.mediaways.net
+062.053.000.131~DE,Berlin,Berlin,52.5167,13.4
 062.053.000.119~xmwc-brln-de02-chan-5.nw.mediaways.net
 =======8
 077.012.152.000=0 DE,Brandenburg,Bernau,52.6667,13.5833
@@ -9638,8 +9665,8 @@
 062.053.164.134@
 062.053.000.133~xmwc-brln-de01-chan-4.nw.mediaways.net
 062.053.000.119~xmwc-brln-de02-chan-5.nw.mediaways.net
-062.053.000.117~xmwc-brln-de02-chan-3.nw.mediaways.net
-062.053.000.131~xmwc-brln-de01-chan-2.nw.mediaways.net
+062.053.000.117~DE,Berlin,Berlin,52.5167,13.4
+062.053.000.131~DE,Berlin,Berlin,52.5167,13.4
 077.012.159.255=0*32
 =======32
 077.012.160.000=0 DE,Berlin,Berlin,52.5167,13.4

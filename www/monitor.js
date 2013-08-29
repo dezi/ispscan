@@ -190,6 +190,44 @@ kappa.ISPList =
 			},
 			bbnoshow :
 			{
+				'Hamburg-Hannover'		  		: true,
+				'Hamburg-Berlin'		  		: true,
+				'Hamburg-Bremen'		  		: true,
+				'Berlin-Dresden'		  		: true,
+				'Berlin-München'		  		: true,
+				'Berlin-Nürnberg'		  		: true,
+				'Berlin-Stuttgart'		  		: true,
+				'Berlin-Leipzig'		  		: true,
+				'Berlin-Oldenburg'		  		: true,
+				'Berlin-Bremerhaven'			: true,
+				'Gütersloh-Berlin'				: true,
+				'Gütersloh-Nürnberg'			: true,
+				'Gütersloh-Stuttgart'			: true,
+				'Gütersloh-Essen'				: true,
+				'Gütersloh-Düsseldorf'			: true,
+				'Düsseldorf-Hamburg'			: true,
+				'Düsseldorf-Berlin'				: true,
+				'Düsseldorf-München'			: true,
+				'Düsseldorf-Leipzig'			: true,
+				'Düsseldorf-Trier'				: true,
+				'Düsseldorf-Saarbrücken'		: true,
+				'Düsseldorf-Stuttgart'			: true,
+				'Frankfurt Am Main-Hamburg'		: true,
+				'Frankfurt Am Main-Bremerhaven'	: true,
+				'Frankfurt Am Main-Magdeburg'	: true,
+				'Frankfurt Am Main-Erfurt'		: true,
+				'Frankfurt Am Main-Hannover'	: true,
+				'Frankfurt Am Main-Oldenburg'	: true,
+				'Frankfurt Am Main-Leipzig'		: true,
+				'Frankfurt Am Main-Essen'		: true,
+				'Frankfurt Am Main-Berlin'		: true,
+				'Frankfurt Am Main-Halle'		: true,
+				'Frankfurt Am Main-Nürnberg'	: true,
+				'Frankfurt Am Main-Saarbrücken'	: true,
+				'Frankfurt Am Main-Gütersloh'	: true,
+				'Frankfurt Am Main-Düsseldorf'	: true,
+				'Frankfurt Am Main-Stuttgart'	: true,
+				'Frankfurt Am Main-München'		: true,
 			},
 			zoomstages :
 			[
@@ -1412,7 +1450,7 @@ kappa.ShowInfo = function(marker,items,type)
 				var fixips = marker.endcount;
 				var fixnum = kappa.NiceNumber(marker.actcount) + '/' + kappa.NiceNumber(fixips);
 			
-				header += '<span style="position:absolute;right:24px">&nbsp;' + fixnum + ' User</span>';
+				header += '<span style="float:right">&nbsp;' + fixnum + ' User</span>';
 			}
 			
 			header = '<div style="position:relative">' + header + '</div><hr style="clear:both"/>';
@@ -1606,6 +1644,8 @@ kappa.BackbonesDraw = function()
 
 		for (var lip in backbone.bbls)
 		{
+			if (! backbone.bbls[ lip ]) continue;
+
 			var link  = backbone.bbls[ lip ];
 			var parts = link.split(',');
 

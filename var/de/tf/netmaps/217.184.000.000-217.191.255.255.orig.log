@@ -648,8 +648,8 @@
 217.186.004.000=0 DE,Mecklenburg-Vorpommern,Pasewalk,53.4667,13.9833
 213.020.150.086@
 213.020.150.150@
-213.020.150.182~rmws-nbra-de01-ge-1-3-0-0.nw.mediaways.net
-213.020.150.202~rmws-nbra-de02-ge-1-3-0-0.nw.mediaways.net
+213.020.150.182~DE,Mecklenburg-Vorpommern,Neubrandenburg,53.5476,13.2555
+213.020.150.202~DE,Mecklenburg-Vorpommern,Neubrandenburg,53.5667,13.2667
 217.186.004.255=0*1
 -------
 217.186.005.000=0 DE,Berlin,Berlin,52.5167,13.4
@@ -807,8 +807,8 @@
 217.186.061.000=0 DE,Mecklenburg-Vorpommern,Neubrandenburg,53.5476,13.2555
 217.186.062.000=0 DE,Mecklenburg-Vorpommern,Neubrandenburg,53.5476,13.2555
 217.186.063.000=0 DE,Mecklenburg-Vorpommern,Neubrandenburg,53.5476,13.2555
-213.020.150.202~rmws-nbra-de02-ge-1-3-0-0.nw.mediaways.net
-213.020.150.182~rmws-nbra-de01-ge-1-3-0-0.nw.mediaways.net
+213.020.150.202~DE,Mecklenburg-Vorpommern,Neubrandenburg,53.5667,13.2667
+213.020.150.182~DE,Mecklenburg-Vorpommern,Neubrandenburg,53.5476,13.2555
 062.053.000.133~xmwc-brln-de01-chan-4.nw.mediaways.net
 062.053.000.119~xmwc-brln-de02-chan-5.nw.mediaways.net
 217.186.063.255=0*8
@@ -1048,6 +1048,7 @@
 062.053.183.082~rmws-btzn-de02-so-0-0-0-0.nw.mediaways.net
 217.186.171.255=0*4
 -------
+217.186.172.000=0 DE,Brandenburg,Cottbus,51.7667,14.3333
 217.186.172.000=0 DE,Brandenburg,Burg,51.8333,14.15
 213.020.189.135@
 213.020.189.003@
@@ -1792,11 +1793,11 @@
 217.188.033.000=0 DE,Nordrhein-Westfalen,Gütersloh,51.9,8.3833
 195.071.010.203@
 195.071.010.195@
-062.053.001.247~rmwc-gtso-de01-ge-0-0-0-0.nw.mediaways.net
-062.053.001.104~rmwc-frnk-de01-xe-7-0-3-0.nw.mediaways.net
-062.053.001.245~rmwc-gtso-de01-ge-1-3-0-0.nw.mediaways.net
-062.053.001.219~rmwc-gtso-de02-ge-4-2-0-0.nw.mediaways.net
-062.053.001.217~rmwc-gtso-de02-ge-1-3-0-0.nw.mediaways.net
+062.053.001.247~DE,Nordrhein-Westfalen,Gütersloh,51.9,8.3833
+062.053.001.104~DE,Hessen,Frankfurt Am Main,50.1167,8.6833
+062.053.001.245~DE,Nordrhein-Westfalen,Gütersloh,51.9,8.3833
+062.053.001.219~DE,Nordrhein-Westfalen,Gütersloh,51.9,8.3833
+062.053.001.217~DE,Nordrhein-Westfalen,Gütersloh,51.9,8.3833
 062.053.001.249~rmwc-gtso-de01-ge-4-2-0-0.nw.mediaways.net
 217.188.033.255=0*2
 -------
@@ -1831,13 +1832,13 @@
 217.188.047.000=0 DE,Nordrhein-Westfalen,Gütersloh,51.9,8.3833
 195.071.010.203@
 195.071.010.195@
-062.053.001.245~rmwc-gtso-de01-ge-1-3-0-0.nw.mediaways.net
+062.053.001.245~DE,Nordrhein-Westfalen,Gütersloh,51.9,8.3833
 195.071.010.195~xmws-gtso-de11-vlan-2.nw.mediaways.net
 195.071.010.203~xmws-gtso-de12-vlan-3.nw.mediaways.net
-062.053.001.215~rmwc-gtso-de02-ge-0-0-0-0.nw.mediaways.net
-062.053.001.219~rmwc-gtso-de02-ge-4-2-0-0.nw.mediaways.net
+062.053.001.215~DE,Nordrhein-Westfalen,Gütersloh,51.9,8.3833
+062.053.001.219~DE,Nordrhein-Westfalen,Gütersloh,51.9,8.3833
 062.053.001.249~rmwc-gtso-de01-ge-4-2-0-0.nw.mediaways.net
-062.053.001.247~rmwc-gtso-de01-ge-0-0-0-0.nw.mediaways.net
+062.053.001.247~DE,Nordrhein-Westfalen,Gütersloh,51.9,8.3833
 217.188.047.255=0*8
 =======16
 217.188.048.000=0 DE,,,51,9
@@ -1854,24 +1855,25 @@
 217.188.057.000=0 DE,,,51,9
 217.188.057.255=0*2
 -------
-217.188.058.000=0 DE,Bayern,Roßtal,49.4,10.8833
+217.188.058.000=0 DE,Nordrhein-Westfalen,Gütersloh,51.9,8.3833
+217.188.058.000!0 DE,Bayern,Roßtal,49.4,10.8833
 062.053.000.189@
 062.053.000.187@
 062.053.000.191@
 062.053.000.193@
-062.053.001.219~rmwc-gtso-de02-ge-4-2-0-0.nw.mediaways.net
-062.053.001.217~rmwc-gtso-de02-ge-1-3-0-0.nw.mediaways.net
-062.053.001.245~rmwc-gtso-de01-ge-1-3-0-0.nw.mediaways.net
+062.053.001.219~DE,Nordrhein-Westfalen,Gütersloh,51.9,8.3833
+062.053.001.217~DE,Nordrhein-Westfalen,Gütersloh,51.9,8.3833
+062.053.001.245~DE,Nordrhein-Westfalen,Gütersloh,51.9,8.3833
 217.188.058.255=0*1
 -------
 217.188.059.000=0 DE,Nordrhein-Westfalen,Gütersloh,51.9,8.3833
 195.071.010.195@
 062.053.001.249@
 195.071.010.203@
-062.053.001.215~rmwc-gtso-de02-ge-0-0-0-0.nw.mediaways.net
-062.053.001.098~rmwc-dsdf-de02-pchan-0-0.nw.mediaways.net
-062.053.001.219~rmwc-gtso-de02-ge-4-2-0-0.nw.mediaways.net
-062.053.001.217~rmwc-gtso-de02-ge-1-3-0-0.nw.mediaways.net
+062.053.001.215~DE,Nordrhein-Westfalen,Gütersloh,51.9,8.3833
+062.053.001.098~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
+062.053.001.219~DE,Nordrhein-Westfalen,Gütersloh,51.9,8.3833
+062.053.001.217~DE,Nordrhein-Westfalen,Gütersloh,51.9,8.3833
 217.188.059.255=0*1
 -------
 217.188.060.000=0 DE,Nordrhein-Westfalen,Gütersloh,51.9,8.3833
@@ -2382,6 +2384,7 @@
 217.189.135.000=0 DE,Bayern,Regensburg,49.015,12.0956
 217.189.135.255=0*8
 =======8
+217.189.136.000=0 DE,Bayern,Kempten,47.7167,10.3167
 217.189.136.000=0 DE,Bayern,Markt Wald,48.1333,10.5833
 195.071.232.157@
 217.189.137.000=0 DE,Bayern,Markt Wald,48.1333,10.5833
@@ -2395,6 +2398,7 @@
 195.071.164.243~xmws-kemp-de01-vlan-2.nw.mediaways.net
 217.189.139.255=0*4
 -------
+217.189.140.000=0 DE,Bayern,Regensburg,49.015,12.0956
 217.189.140.000=0 DE,Bayern,Maxhütte-Haidhof,49.2025,12.0981
 217.189.141.000=0 DE,Bayern,Bogen,48.9115,12.695
 195.071.233.137@
@@ -2450,7 +2454,7 @@
 217.189.158.000=0 DE,Bayern,München,48.1291,11.4895
 195.071.164.201@
 195.071.164.205@
-217.189.159.000=0 DE,Bayern,Regensburg,49.015,12.0956
+217.189.159.000=0 DE,Bayern,München,48.1291,11.4895
 195.071.164.205@
 195.071.164.201@
 062.053.207.163~xmwc-mnch-de02-vlan-7.nw.mediaways.net
@@ -3328,7 +3332,7 @@
 217.191.055.000=0 DE,Nordrhein-Westfalen,Steinfurt,52.15,7.35
 195.071.010.241@
 062.053.002.191~xmws-mnsr-de04-xe-0-2-0-0.nw.mediaways.net
-062.053.002.169~xmws-mnsr-de03-xe-0-2-0-0.nw.mediaways.net
+062.053.002.169~DE,Nordrhein-Westfalen,Münster,51.9667,7.6333
 =======8
 217.191.056.000=0 DE,Nordrhein-Westfalen,Gescher,51.95,7.0167
 195.071.010.241@
@@ -3349,7 +3353,7 @@
 195.071.010.241@
 217.191.063.000=0 DE,Nordrhein-Westfalen,Havixbeck,51.9833,7.4167
 195.071.010.241@
-062.053.002.169~xmws-mnsr-de03-xe-0-2-0-0.nw.mediaways.net
+062.053.002.169~DE,Nordrhein-Westfalen,Münster,51.9667,7.6333
 062.053.002.191~xmws-mnsr-de04-xe-0-2-0-0.nw.mediaways.net
 217.191.063.255=0*16
 =======64
@@ -3375,7 +3379,7 @@
 195.071.010.245@
 195.071.010.241@
 062.053.002.191~xmws-mnsr-de04-xe-0-2-0-0.nw.mediaways.net
-062.053.002.169~xmws-mnsr-de03-xe-0-2-0-0.nw.mediaways.net
+062.053.002.169~DE,Nordrhein-Westfalen,Münster,51.9667,7.6333
 =======8
 217.191.072.000=0 DE,Nordrhein-Westfalen,Münster,51.9667,7.6333
 195.071.010.241@
@@ -3393,7 +3397,7 @@
 195.071.010.245@
 217.191.079.000=0 DE,Nordrhein-Westfalen,Steinfurt,52.15,7.35
 195.071.010.245@
-062.053.002.169~xmws-mnsr-de03-xe-0-2-0-0.nw.mediaways.net
+062.053.002.169~DE,Nordrhein-Westfalen,Münster,51.9667,7.6333
 062.053.002.191~xmws-mnsr-de04-xe-0-2-0-0.nw.mediaways.net
 =======16
 217.191.080.000=0 DE,Nordrhein-Westfalen,Gescher,51.95,7.0167
@@ -3415,7 +3419,7 @@
 195.071.010.241@
 217.191.087.000=0 DE,Nordrhein-Westfalen,Münster,51.9667,7.6333
 195.071.010.245@
-062.053.002.169~xmws-mnsr-de03-xe-0-2-0-0.nw.mediaways.net
+062.053.002.169~DE,Nordrhein-Westfalen,Münster,51.9667,7.6333
 062.053.002.191~xmws-mnsr-de04-xe-0-2-0-0.nw.mediaways.net
 =======8
 217.191.088.000=0 DE,Nordrhein-Westfalen,Marl,51.65,7.0833
@@ -3436,7 +3440,7 @@
 195.071.010.245@
 217.191.095.000=0 DE,Nordrhein-Westfalen,Münster,51.9667,7.6333
 195.071.010.241@
-062.053.002.169~xmws-mnsr-de03-xe-0-2-0-0.nw.mediaways.net
+062.053.002.169~DE,Nordrhein-Westfalen,Münster,51.9667,7.6333
 062.053.002.191~xmws-mnsr-de04-xe-0-2-0-0.nw.mediaways.net
 217.191.095.255=0*32
 =======32
@@ -3576,9 +3580,9 @@
 062.053.174.226@
 195.071.142.134@
 062.053.002.081~rmws-flnb-de02-ge-2-0-1-0.nw.mediaways.net
-062.053.002.079~62.53.2.79
-062.053.002.071~62.53.2.71
-062.053.002.069~62.53.2.69
+062.053.002.079~rmws-flnb-de02-ge-2-0-0-0.nw.mediaways.net
+062.053.002.071~rmws-flnb-de01-ge-2-0-1-0.nw.mediaways.net
+062.053.002.069~rmws-flnb-de01-ge-2-0-0-0.nw.mediaways.net
 217.191.151.255=0*8
 =======8
 217.191.152.000=0 DE,Schleswig-Holstein,Stolk,54.6,9.55

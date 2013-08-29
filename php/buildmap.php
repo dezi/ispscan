@@ -611,7 +611,11 @@ function BuildBackbones($isp,&$endpoint,&$uplinks,&$allbones,$stage)
 	
 	$bonusnailed[ "xxxxx"  				] =  "xxxxxxxxx";
 	$bonusnailed[ "xxxxx"  				] =  "xxxxxxxxx";
-	$bonusnailed[ "xxxxx"  				] =  "xxxxxxxxx";
+	$bonusnailed[ "Bielefeld"  			] =  "DE,Nordrhein-Westfalen,Bielefeld,52.0333,8.5333";
+	$bonusnailed[ "Neubrandenburg"  	] =  "DE,Mecklenburg-Vorpommern,Neubrandenburg,53.5667,13.2667";
+	$bonusnailed[ "Magdeburg"  			] =  "DE,Sachsen-Anhalt,Magdeburg,52.1667,11.6667";
+	$bonusnailed[ "Chemnitz"  			] =  "DE,Sachsen,Chemnitz,50.8333,12.9167";
+	$bonusnailed[ "Frankfurt Am Main"  	] =  "DE,Hessen,Frankfurt Am Main,50.1167,8.6833";
 	$bonusnailed[ "Stuttgart"  			] =  "DE,Baden-Württemberg,Stuttgart,48.7667,9.1833";
 	$bonusnailed[ "Gütersloh"  			] =  "DE,Nordrhein-Westfalen,Gütersloh,51.9,8.3833";
 	$bonusnailed[ "Jena"  				] =  "DE,Thüringen,Jena,50.9333,11.5833";
@@ -1292,7 +1296,7 @@ function BuildBackbones($isp,&$endpoint,&$uplinks,&$allbones,$stage)
 	BuildBackbones($isp,$endpoint,$gateways,$backbones,0);
 	$notraces = CheckGateways($isp,$gateways);
 	
-	if (false)
+	if (true)
 	{	
 		echo "BuildBackbones stage 1\n";
 		BuildBackbones($isp,$endpoint,$gateways,$backbones,1);

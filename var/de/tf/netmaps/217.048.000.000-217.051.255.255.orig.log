@@ -694,6 +694,10 @@
 217.050.027.000=0 DE,Bayern,Ingolstadt,48.7667,11.4333
 062.053.251.041@
 062.053.251.045@
+062.053.251.045~rdsl-ings-de01-chan-2.nw.mediaways.net
+062.053.251.041~rdsl-ings-de01-chan-1.nw.mediaways.net
+217.050.027.255=0*4
+-------
 217.050.028.000=0 DE,Bayern,Sulzbach-Rosenberg,49.4983,11.7517
 195.071.240.203@
 195.071.240.217@
@@ -705,11 +709,10 @@
 217.050.031.000=0 DE,Bayern,Auerbach,49.6925,11.6325
 195.071.240.203@
 195.071.240.217@
-062.053.251.045~rdsl-ings-de01-chan-2.nw.mediaways.net
-062.053.251.041~rdsl-ings-de01-chan-1.nw.mediaways.net
 195.071.241.206~rmws-byrt-de02-ge-0-2-0-0.nw.mediaways.net
 195.071.027.098~rmws-byrt-de02-ge-0-0-0-0.nw.mediaways.net
 195.071.027.198~rmws-byrt-de01-ge-0-1-0-0.nw.mediaways.net
+217.050.031.255=0*4
 =======32
 217.050.032.000=0 DE,Bayern,Ingolstadt,48.7667,11.4333
 062.053.251.045@
@@ -737,7 +740,7 @@
 062.053.251.041@
 062.053.251.045~rdsl-ings-de01-chan-2.nw.mediaways.net
 062.053.251.041~rdsl-ings-de01-chan-1.nw.mediaways.net
-217.050.039.255=0?16
+217.050.039.255=0*8
 =======8
 217.050.040.000=0 DE,Bayern,Nürnberg,49.4478,11.0683
 217.050.041.000=0 DE,Bayern,Nürnberg,49.4478,11.0683
@@ -1125,7 +1128,7 @@
 217.050.221.000=0 DE,Nordrhein-Westfalen,Köln,50.9333,6.95
 217.050.222.000=0 DE,Nordrhein-Westfalen,Köln,50.9333,6.95
 217.050.223.000=0 DE,Nordrhein-Westfalen,Köln,50.9333,6.95
-062.053.002.207~rmws-bonn-de03-ge-0-2-0.nw.mediaways.net
+062.053.002.207~DE,Nordrhein-Westfalen,Bonn,50.7333,7.1
 062.053.002.213~rmws-bonn-de04-ge-0-2-0.nw.mediaways.net
 217.050.223.255=0*8
 =======32

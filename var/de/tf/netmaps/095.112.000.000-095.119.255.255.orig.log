@@ -4665,8 +4665,8 @@
 195.071.250.141@
 095.118.199.000=0 DE,Mecklenburg-Vorpommern,Rostock,54.0833,12.1333
 195.071.142.113@
-213.020.091.046~xmws-rstk-de02-vlan-3.nw.mediaways.net
-195.071.142.030~xmws-rstk-de01-vlan-2.nw.mediaways.net
+213.020.091.046~DE,Mecklenburg-Vorpommern,Rostock,54.0833,12.1333
+195.071.142.030~DE,Mecklenburg-Vorpommern,Rostock,54.0833,12.1333
 =======8
 095.118.200.000=0 DE,Mecklenburg-Vorpommern,Rostock,54.0833,12.1333
 195.071.250.141@
@@ -4689,8 +4689,8 @@
 095.118.207.000=0 DE,Mecklenburg-Vorpommern,Rostock,54.0833,12.1333
 195.071.142.113@
 195.071.250.141@
-213.020.091.046~xmws-rstk-de02-vlan-3.nw.mediaways.net
-195.071.142.030~xmws-rstk-de01-vlan-2.nw.mediaways.net
+213.020.091.046~DE,Mecklenburg-Vorpommern,Rostock,54.0833,12.1333
+195.071.142.030~DE,Mecklenburg-Vorpommern,Rostock,54.0833,12.1333
 095.118.207.255=0*16
 =======16
 095.118.208.000=0 DE,Schleswig-Holstein,Flensburg,54.7833,9.4333
@@ -4718,9 +4718,9 @@
 062.053.174.226@
 195.071.142.134@
 062.053.002.081~rmws-flnb-de02-ge-2-0-1-0.nw.mediaways.net
-062.053.002.069~62.53.2.69
-062.053.002.071~62.53.2.71
-062.053.002.079~62.53.2.79
+062.053.002.069~rmws-flnb-de01-ge-2-0-0-0.nw.mediaways.net
+062.053.002.071~rmws-flnb-de01-ge-2-0-1-0.nw.mediaways.net
+062.053.002.079~rmws-flnb-de02-ge-2-0-0-0.nw.mediaways.net
 =======8
 095.118.216.000=0 DE,Schleswig-Holstein,Flensburg,54.7833,9.4333
 195.071.142.134@
@@ -4745,9 +4745,9 @@
 195.071.142.134@
 095.118.223.000=0 DE,Schleswig-Holstein,Flensburg,54.7833,9.4333
 195.071.142.134@
-062.053.002.069~62.53.2.69
-062.053.002.071~62.53.2.71
-062.053.002.079~62.53.2.79
+062.053.002.069~rmws-flnb-de01-ge-2-0-0-0.nw.mediaways.net
+062.053.002.071~rmws-flnb-de01-ge-2-0-1-0.nw.mediaways.net
+062.053.002.079~rmws-flnb-de02-ge-2-0-0-0.nw.mediaways.net
 062.053.002.081~rmws-flnb-de02-ge-2-0-1-0.nw.mediaways.net
 095.118.223.255=0*16
 =======32
@@ -4793,8 +4793,8 @@
 195.071.250.141@
 095.118.247.000=0 DE,Mecklenburg-Vorpommern,Rostock,54.0833,12.1333
 195.071.250.141@
-195.071.142.030~xmws-rstk-de01-vlan-2.nw.mediaways.net
-213.020.091.046~xmws-rstk-de02-vlan-3.nw.mediaways.net
+195.071.142.030~DE,Mecklenburg-Vorpommern,Rostock,54.0833,12.1333
+213.020.091.046~DE,Mecklenburg-Vorpommern,Rostock,54.0833,12.1333
 =======8
 095.118.248.000=0 DE,Mecklenburg-Vorpommern,Rostock,54.0833,12.1333
 195.071.142.113@
@@ -4820,8 +4820,8 @@
 095.118.255.000=0 DE,Mecklenburg-Vorpommern,Rostock,54.0833,12.1333
 195.071.250.141@
 195.071.142.113@
-195.071.142.030~xmws-rstk-de01-vlan-2.nw.mediaways.net
-213.020.091.046~xmws-rstk-de02-vlan-3.nw.mediaways.net
+195.071.142.030~DE,Mecklenburg-Vorpommern,Rostock,54.0833,12.1333
+213.020.091.046~DE,Mecklenburg-Vorpommern,Rostock,54.0833,12.1333
 095.118.255.255=0*16
 =======256
 095.119.000.000=0 DE,Hamburg,Hamburg,53.55,10
@@ -4858,9 +4858,9 @@
 095.119.015.000=0 DE,Schleswig-Holstein,Flensburg,54.7833,9.4333
 195.071.142.134@
 062.053.174.226@
-062.053.002.069~62.53.2.69
-062.053.002.079~62.53.2.79
-062.053.002.071~62.53.2.71
+062.053.002.069~rmws-flnb-de01-ge-2-0-0-0.nw.mediaways.net
+062.053.002.079~rmws-flnb-de02-ge-2-0-0-0.nw.mediaways.net
+062.053.002.071~rmws-flnb-de01-ge-2-0-1-0.nw.mediaways.net
 062.053.002.081~rmws-flnb-de02-ge-2-0-1-0.nw.mediaways.net
 095.119.015.255=0*8
 =======16
@@ -4873,7 +4873,7 @@
 095.119.022.000=0 DE,Mecklenburg-Vorpommern,Rostock,54.1243,12.1243
 195.071.142.113@
 095.119.023.000=0 DE,Mecklenburg-Vorpommern,Wismar,53.9,11.4667
-195.071.142.030~xmws-rstk-de01-vlan-2.nw.mediaways.net
+195.071.142.030~DE,Mecklenburg-Vorpommern,Rostock,54.0833,12.1333
 =======8
 095.119.024.000=0 DE,Mecklenburg-Vorpommern,Rostock,54.1243,12.1243
 195.071.142.113@
@@ -4896,8 +4896,8 @@
 095.119.031.000=0 DE,Mecklenburg-Vorpommern,Rostock,54.0833,12.1333
 195.071.142.113@
 195.071.250.141@
-195.071.142.030~xmws-rstk-de01-vlan-2.nw.mediaways.net
-213.020.091.046~xmws-rstk-de02-vlan-3.nw.mediaways.net
+195.071.142.030~DE,Mecklenburg-Vorpommern,Rostock,54.0833,12.1333
+213.020.091.046~DE,Mecklenburg-Vorpommern,Rostock,54.0833,12.1333
 095.119.031.255=0*16
 =======32
 095.119.032.000=0 DE,Hamburg,Hamburg,53.55,10
