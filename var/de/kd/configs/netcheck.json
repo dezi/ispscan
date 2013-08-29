@@ -1,0 +1,59 @@
+{
+	"eplping" :
+	{
+		"friends" :
+		{
+			"xx/xx" : true,
+			"de/tk" : true
+		},
+		"checks" :
+		[
+			"kabeldeutschland.de"
+		]
+	},
+	"endping" :
+	{
+		"friends" :
+		{
+			"xx/xx" : true,
+			"de/tk" : true
+		},
+		"checks" :
+		[
+			"kabeldeutschland.de"
+		]
+	},
+	"uplping" :
+	{
+		"friends" :
+		{
+			"*" : true
+		},
+		"checks" :
+		[
+			"kabeldeutschland.de"
+		]
+	},
+	"bblping" :
+	{
+		"friends" :
+		{
+			"*" : true
+		},
+		"checks" :
+		[
+			"kabeldeutschland.de"
+		]
+	},
+	"netping" :
+	{
+		"friends" :
+		{
+			"*" : true
+		},
+		"checks" :
+		[
+			"kabeldeutschland.de"
+		]
+	}
+}

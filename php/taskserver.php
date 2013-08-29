@@ -921,8 +921,7 @@ function ScheduleUplpingTask($task,&$request)
 	if (! IsFriendISP($isp,"uplping",$request[ "isp" ])) return;
 
 	if (! is_dir("../var/$isp/uplping")) mkdir("../var/$isp/uplping",0777);
-	
-	if ($request[ "isp" ] != $isp) return;
+		
 	//
 	// Organize endpings todo lists.
 	//

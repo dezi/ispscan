@@ -1,54 +1,50 @@
 {
-	"endping" :
+	"eplping" :
 	{
 		"friends" :
 		{
-			"xx/xx" : true,
 			"de/tk" : true,
 			"de/kd" : true
 		},
 		"checks" :
 		[
-			"telefonica.de"
+			"t-online.de"
+		]
+	},
+	"endping" :
+	{
+		"friends" :
+		{
+			"xx/xx" : true,
+			"de/kd" : true
+		},
+		"checks" :
+		[
+			"t-online.de"
 		]
 	},
 	"uplping" :
 	{
 		"friends" :
 		{
-			"xx/xx" : true,
 			"de/tk" : true,
 			"de/kd" : true
 		},
 		"checks" :
 		[
-			"telefonica.de"
+			"t-online.de"
 		]
 	},
 	"bblping" :
 	{
 		"friends" :
 		{
-			"xx/xx" : true,
 			"de/tk" : true,
 			"de/kd" : true
 		},
 		"checks" :
 		[
-			"telefonica.de"
-		]
-	},
-	"mtrlogs" :
-	{
-		"friends" :
-		{
-			"xx/xx" : true,
-			"de/tk" : true,
-			"de/kd" : true
-		},
-		"checks" :
-		[
-			"telefonica.de"
+			"t-online.de"
 		]
 	},
 	"netping" :
@@ -59,7 +55,7 @@
 		},
 		"checks" :
 		[
-			"telefonica.de"
+			"t-online.de"
 		]
 	}
 }
