@@ -82,6 +82,8 @@ function ComputeEvents($isp,$what)
 
 	$targetdir = "../var/$isp/$what";
 	
+	if (! is_dir($targetdir)) return;
+	
 	$dfd  = opendir($targetdir);
 
 	while (($file = readdir($dfd)) !== false)
@@ -99,9 +101,66 @@ function ComputeEvents($isp,$what)
 		}
 		
 		$dirty = false;
+		$reorg = false;
 
 		if (isset($json[ "*" ])) unset($json[ "*" ]);
 		
+		//
+		// Cleanup stamps.
+		//
+		
+		foreach ($json as $ip => $val)
+		{
+			ksort($json[ $ip ]);
+
+			$bforstamp  = null;
+			$bfortime   = null;
+			$laststamp  = null;
+			$lasttime   = null;
+			
+			foreach ($json[ $ip ] as $stamp => $time)
+			{
+				if ($bforstamp && $laststamp)
+				{
+					if (($time == -1) && ($lasttime == -1) && ($bfortime == -1))
+					{
+						unset($json[ $ip ][ $laststamp ]);
+						$reorg = true;
+					}
+					else
+					{
+						if (($time != -1) && ($lasttime == -1) && ($bfortime != -1))
+						{
+							unset($json[ $ip ][ $laststamp ]);
+							$reorg = true;
+						}
+						else
+						{
+							if (($time != -1) && ($lasttime != -1) && ($bfortime != -1))
+							{ 
+								$nowslow = ($time     > 1000);
+								$lstslow = ($lasttime > 1000);
+								$bfoslow = ($bfortime > 1000);
+					
+								if (($nowslow == $lstslow) && ($lstslow == $bfoslow))
+								{
+									unset($json[ $ip ][ $laststamp ]);
+									$reorg = true;
+								}
+							}
+						}
+					}
+				}
+				
+				$bforstamp = $laststamp;
+				$bfortime  = $lasttime;	
+				$laststamp = $stamp;
+				$lasttime  = $time;	
+			}
+			
+			krsort($json[ $ip ]);
+		}
+				
 		$nc 	 = ($what == "endping") ? count($json) : 0;
 		$netip   = null;
 		$summary = array();
@@ -112,8 +171,8 @@ function ComputeEvents($isp,$what)
 			
 			ksort($val);
 		
-			$bforstamp = null;
-			$bfortime  = null;
+			$bforstamp  = null;
+			$bfortime   = null;
 			$laststamp  = null;
 			$lasttime   = null;
 			
@@ -312,25 +371,36 @@ function ComputeEvents($isp,$what)
 			}
 		}
 		
-		if ($dirty) file_put_contents($file,json_encdat($json) . "\n");
+		if ($dirty || $reorg) 
+		{
+			if ($reorg) echo "Reorg: $file\n";
+			file_put_contents($file,json_encdat($json) . "\n");
+		}
 	}
 
 	closedir($dfd);
 }
 	WriteEvent   ("de/kd");
-	ComputeEvents("de/kd","endping");
+	WriteEvent   ("de/tk");
+	WriteEvent   ("de/tf");
+	WriteEvent   ("de/vf");
+
 	ComputeEvents("de/kd","eplping");
 	ComputeEvents("de/kd","uplping");
 	ComputeEvents("de/kd","bblping");
 	ComputeEvents("de/kd","gwyping");
 	ComputeEvents("de/kd","webping");
+	ComputeEvents("de/kd","endping");
 	
-	WriteEvent   ("de/tk");
-	ComputeEvents("de/tk","endping");
 	ComputeEvents("de/tk","uplping");
 	ComputeEvents("de/tk","bblping");
 	ComputeEvents("de/tk","gwyping");
 	ComputeEvents("de/tk","webping");
+	ComputeEvents("de/tk","endping");
 	
-	WriteEvent   ("de/tf");
+	ComputeEvents("de/tf","uplping");
+	ComputeEvents("de/tf","bblping");
+	ComputeEvents("de/tf","gwyping");
+	ComputeEvents("de/tf","webping");
+	ComputeEvents("de/tf","endping");
 ?>

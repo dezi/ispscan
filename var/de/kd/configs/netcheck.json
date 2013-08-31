@@ -8,7 +8,7 @@
 		},
 		"checks" :
 		[
-			"kabeldeutschland.de"
+			"www.kabeldeutschland.de"
 		]
 	},
 	"endping" :
@@ -20,7 +20,7 @@
 		},
 		"checks" :
 		[
-			"kabeldeutschland.de"
+			"www.kabeldeutschland.de"
 		]
 	},
 	"uplping" :
@@ -31,7 +31,7 @@
 		},
 		"checks" :
 		[
-			"kabeldeutschland.de"
+			"www.kabeldeutschland.de"
 		]
 	},
 	"bblping" :
@@ -42,7 +42,7 @@
 		},
 		"checks" :
 		[
-			"kabeldeutschland.de"
+			"www.kabeldeutschland.de"
 		]
 	},
 	"netping" :
@@ -53,7 +53,7 @@
 		},
 		"checks" :
 		[
-			"kabeldeutschland.de"
+			"www.kabeldeutschland.de"
 		]
 	}
 }

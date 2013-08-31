@@ -1,5 +1,39 @@
 <?php
 
+function GetHostByAddress($ip,$isp = "xx",$cache = "global")
+{
+	$cachefile = "../var/$isp/tmpcach/hostsbyaddr.$cache.json";
+	
+	if (! isset($GLOBALS[ "gethostcache" ])) 
+	{
+		$GLOBALS[ "gethostcache" ] = array();
+		
+		if (file_exists($cachefile))
+		{
+			$GLOBALS[ "gethostcache" ] = json_decdat(file_get_contents($cachefile));
+		}
+	}
+	
+	if (! isset($GLOBALS[ "gethostcache" ][ IPZero($ip) ]))
+	{
+		$GLOBALS[ "gethostcache" ][ IPZero($ip) ] = gethostbyaddr(IP($ip));
+	}
+	
+	return $GLOBALS[ "gethostcache" ][ IPZero($ip) ];
+}
+
+function GetHostByAddressSave($isp = "xx",$cache = "global")
+{
+	if (! isset($GLOBALS[ "gethostcache" ])) return;
+	
+	$cachefile = "../var/$isp/tmpcach";
+	if (! is_dir($cachefile)) mkdir($cachefile,0777);
+	$cachefile .= "/hostsbyaddr.$cache.json";
+	
+	ksort($GLOBALS[ "gethostcache" ]);
+	file_put_contents($cachefile,json_encdat($GLOBALS[ "gethostcache" ]) . "\n");
+}
+
 function KappaRound($val)
 {
 	return floor($val * 1000) / 1000.0;
@@ -196,6 +230,7 @@ $GLOBALS[ "knownisp" ][ "Kabel Deutschland Vertrieb und Service GmbH" ] = "de/kd
 $GLOBALS[ "knownisp" ][ "Deutsche Telekom AG" 						  ] = "de/tk";
 $GLOBALS[ "knownisp" ][ "Telekom Deutschland GmbH" 					  ] = "de/tk";
 $GLOBALS[ "knownisp" ][ "Telefonica Germany GmbH & Co.OHG" 			  ] = "de/tf";
+$GLOBALS[ "knownisp" ][ "Vodafone D2 GmbH" 			  				  ] = "de/vf";
 
 function ResolveISP($ip)
 {

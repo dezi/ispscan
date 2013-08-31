@@ -14,21 +14,34 @@
 	
 	$tobuilds = Array();
 	
+	if ($isp == "de/vf")
+	{
+		array_push($tobuilds,"082.082.000.000-082.083.255.255");
+		array_push($tobuilds,"084.056.000.000-084.063.255.255");
+		array_push($tobuilds,"088.064.000.000-088.079.255.255");
+		array_push($tobuilds,"092.072.000.000-092.079.255.255");
+		array_push($tobuilds,"094.216.000.000-094.223.255.255");
+		array_push($tobuilds,"176.094.000.000-176.095.255.255");
+		array_push($tobuilds,"178.000.000.000-178.015.255.255");
+		array_push($tobuilds,"188.096.000.000-188.111.255.255");
+	}
+	
 	if ($isp == "de/tf")
 	{
 		array_push($tobuilds,"002.240.000.000-002.247.255.255");
 		array_push($tobuilds,"077.000.000.000-077.015.255.255");
 		array_push($tobuilds,"077.176.000.000-077.191.255.255");
-		array_push($tobuilds,"078.048.000.000-078.055.255.255"); // work
-		array_push($tobuilds,"085.176.000.000-085.183.255.255"); // work
+		array_push($tobuilds,"078.048.000.000-078.055.255.255");
+		array_push($tobuilds,"085.176.000.000-085.183.255.255");
 		array_push($tobuilds,"089.012.000.000-089.013.255.255");
 		array_push($tobuilds,"089.014.000.000-089.015.255.255");
-		array_push($tobuilds,"092.224.000.000-092.231.255.255"); // work
+		array_push($tobuilds,"092.224.000.000-092.231.255.255");
 		array_push($tobuilds,"093.128.000.000-093.135.255.255");
 		array_push($tobuilds,"095.112.000.000-095.119.255.255");
+	  //array_push($tobuilds,"195.071.000.000-195.071.255.255");
+	  //array_push($tobuilds,"213.039.128.000-213.039.255.255");
 		array_push($tobuilds,"217.048.000.000-217.051.255.255");
 		array_push($tobuilds,"217.184.000.000-217.191.255.255");
-		
 	}
 	
 	if ($isp == "de/kd")
@@ -51,6 +64,7 @@
 		array_push($tobuilds,"046.080.000.000-046.095.255.255");
 		array_push($tobuilds,"079.192.000.000-079.255.255.255");
 		array_push($tobuilds,"080.128.000.000-080.159.255.255");
+		array_push($tobuilds,"080.187.000.000-080.187.255.255");
 		array_push($tobuilds,"084.128.000.000-084.191.255.255");
 		array_push($tobuilds,"087.128.000.000-087.159.255.255");
 		array_push($tobuilds,"087.160.000.000-087.191.255.255");
@@ -127,6 +141,9 @@ function CheckGateways($isp,&$uplinks)
 			//
 			
 			unset($gateways[ $routerip ]);
+			
+			if ($isp == "de/vf") continue;
+			
 			$gateways[ $routerip ] = $gwdata;
 		}
 		else

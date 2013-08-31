@@ -3,12 +3,11 @@
 	{
 		"friends" :
 		{
-			"de/tk" : true,
-			"de/kd" : true
+			"de/tk" : true
 		},
 		"checks" :
 		[
-			"t-online.de"
+			"www.t-online.de"
 		]
 	},
 	"endping" :
@@ -16,35 +15,33 @@
 		"friends" :
 		{
 			"xx/xx" : true,
-			"de/kd" : true
+			"de/tk" : true
 		},
 		"checks" :
 		[
-			"t-online.de"
+			"www.t-online.de"
 		]
 	},
 	"uplping" :
 	{
 		"friends" :
 		{
-			"de/tk" : true,
-			"de/kd" : true
+			"de/tk" : true
 		},
 		"checks" :
 		[
-			"t-online.de"
+			"www.t-online.de"
 		]
 	},
 	"bblping" :
 	{
 		"friends" :
 		{
-			"de/tk" : true,
-			"de/kd" : true
+			"de/tk" : true
 		},
 		"checks" :
 		[
-			"t-online.de"
+			"www.t-online.de"
 		]
 	},
 	"netping" :
@@ -55,7 +52,7 @@
 		},
 		"checks" :
 		[
-			"t-online.de"
+			"www.t-online.de"
 		]
 	}
 }

@@ -175,7 +175,7 @@ function InspectRange($ipfrom,$iptoto,$netbound = 1,$nowrite = false)
 		$geofrombin = IP2Bin($geofrom);
 		$geototobin = IP2Bin($geototo);
 		
-		for ($dumpip = $geofrombin; $dumpip < $geototobin; $dumpip += 256)
+		for ($dumpip = $geofrombin; $dumpip < $geototobin; $dumpip += 128)
 		{
 			$geodata[ IPZero($dumpip) ] = $loc;
 			
@@ -223,6 +223,19 @@ function InspectRange($ipfrom,$iptoto,$netbound = 1,$nowrite = false)
 		{
 			$line = trim($line);
 			
+			if ($line == "<")
+			{
+				$ipzero = IPZero(IP2Bin($ipzero) + 255);
+				$netcnt = ((IP2Bin($ipzero) + 1) - IP2Bin($netfrom)) / 256;
+				$tunenet[ $ipzero  ] = "=0*" . $netcnt;
+				
+				$tuneips[ $netfrom ] = IPZero(IP2Bin($ipzero) + 1);
+				
+				$netfrom = IPZero(IP2Bin($ipzero) + 1);
+				
+				continue;
+			}
+			
 			if ((substr($line,17,1) == "^") || 
 				(substr($line,17,1) == "*") || 
 				(substr($line,17,1) == "?"))
@@ -232,8 +245,9 @@ function InspectRange($ipfrom,$iptoto,$netbound = 1,$nowrite = false)
 				//
 				
 				$ipzero = substr($line,0,15);
-				$rest   = substr($line,15);
-
+				$netcnt = ((IP2Bin($ipzero) + 1) - IP2Bin($netfrom)) / 256;
+				$rest   = substr($line,15,3) . $netcnt;
+				
 				$tunenet[ $ipzero  ] = $rest;
 				$tuneips[ $netfrom ] = $ipzero;
 				
@@ -704,6 +718,12 @@ function InspectRange($ipfrom,$iptoto,$netbound = 1,$nowrite = false)
 				
 				if (count($tuneups[ $ipzero ]) == 1)
 				{
+					if ((substr($tuneups[ $ipzero ][ 0 ],2) == "DE,,,51,9") &&
+						(substr($rest,2) != "DE,,,51,9"))
+					{
+						$tuneups[ $ipzero ][ 0 ] = $rest;
+					}
+					
 					echo "$ipzero=" . $tuneups[ $ipzero ][ 0 ] . "\n";
 					fputs($logfd,"$ipzero=" . $tuneups[ $ipzero ][ 0 ] . "\n");
 					
@@ -722,19 +742,23 @@ function InspectRange($ipfrom,$iptoto,$netbound = 1,$nowrite = false)
 			fputs($logfd,"$ipzero=$rest\n");
 		}
 		
-		if (($GLOBALS[ "isp" ] == "de/kd") && (count($tunenet) == 0))
+		if ((($GLOBALS[ "isp" ] == "de/vf") && (count($tunenet) == 0)) ||
+			(($GLOBALS[ "isp" ] == "de/kd") && (count($tunenet) == 0)))
 		{
 			if (isset($geodata[ IPZero($from + 128) ]))
 			{
 				$text2 = $geodata[ IPZero($from + 128) ];
 		
-				if ($text1 != $text2) 
+				if (($text1 != $text2) && ($text2 != "DE,,,51,9"))
 				{
 					$ipzero = IPZero($from + 128);
 					$rest   = "0 $text2";
 
-					echo "$ipzero=$rest\n";
-					fputs($logfd,"$ipzero=$rest\n");
+					if (! $tuneups[ $ipzero ])
+					{
+						echo "$ipzero=$rest\n";
+						fputs($logfd,"$ipzero=$rest\n");
+					}
 				}
 			}
 		}
@@ -807,9 +831,29 @@ function Explore($isp,$minsize,$netbound)
 	$isp = $_SERVER[ "argv" ][ 1 ];
 	echo "ISP=$isp\n";
 	
+	if ($isp == "de/vf")
+	{
+		Explore("de/vf",130000,8);
+	}
+
 	if ($isp == "de/tf")
 	{
-		Explore("de/tf",130000,8);
+		InspectRange("002.240.000.000","002.247.255.255",8);
+		InspectRange("077.000.000.000","077.015.255.255",8);
+		InspectRange("077.176.000.000","077.191.255.255",8);
+		InspectRange("078.048.000.000","078.055.255.255",8);
+		InspectRange("085.176.000.000","085.183.255.255",8);
+		InspectRange("089.012.000.000","089.013.255.255",8);
+		InspectRange("089.014.000.000","089.015.255.255",8);
+		InspectRange("092.224.000.000","092.231.255.255",8);
+		InspectRange("093.128.000.000","093.135.255.255",8);
+		InspectRange("095.112.000.000","095.119.255.255",8);
+		InspectRange("195.071.000.000","195.071.255.255",8);
+		InspectRange("213.039.128.000","213.039.255.255",8);
+		InspectRange("217.048.000.000","217.051.255.255",8);
+		InspectRange("217.184.000.000","217.191.255.255",8);
+		
+		//Explore("de/tf",130000,8);
 	}
 	
 	if ($isp == "de/tk")

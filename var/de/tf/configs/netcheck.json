@@ -9,7 +9,7 @@
 		},
 		"checks" :
 		[
-			"telefonica.de"
+			"www.telefonica.de"
 		]
 	},
 	"uplping" :
@@ -22,7 +22,7 @@
 		},
 		"checks" :
 		[
-			"telefonica.de"
+			"www.telefonica.de"
 		]
 	},
 	"bblping" :
@@ -35,7 +35,7 @@
 		},
 		"checks" :
 		[
-			"telefonica.de"
+			"www.telefonica.de"
 		]
 	},
 	"mtrlogs" :
@@ -48,7 +48,7 @@
 		},
 		"checks" :
 		[
-			"telefonica.de"
+			"www.telefonica.de"
 		]
 	},
 	"netping" :
@@ -59,7 +59,7 @@
 		},
 		"checks" :
 		[
-			"telefonica.de"
+			"www.telefonica.de"
 		]
 	}
 }

@@ -208,7 +208,7 @@ function ConsumeMtrDomsTask($trans,$reply,$remote_host,$remote_port)
 function ScheduleMtrLogsTask($task,&$request)
 {
 	if (isset($request[ "what" ])) return;
-	if (! HasFeature($task,"mtr")) return;
+	if (! HasFeature($task,"mtrlogs")) return;
 
 	$isp = GetRandomISP("mtrlogs");
 	if (! IsFriendISP($isp,"mtrlogs",$request[ "isp" ])) return;
@@ -318,7 +318,7 @@ function ScheduleMtrLogsTask($task,&$request)
 	
 	if ($subnetdata === false) return;
 	
-	$request[ "what" ] = "mtr";
+	$request[ "what" ] = "mtrlogs";
 	$request[ "test" ] = GetCheckISP($isp,"mtrlogs");
 	$request[ "ping" ]   = 1; // Ping before mtr.
 	$request[ "mtrc" ]   = 1; // One mtr round per IP.
@@ -368,12 +368,19 @@ function ConsumeMtrLogsTask($trans,$reply,$remote_host,$remote_port)
 
 function CorrectPingresult(&$list,$stamp,$ms)
 {
-	foreach($list as $oldstamp => $oldms) break;
+	//
+	// Remove -1 ping in any case.
+	//
+
+	reset($list);
+	list($oldstamp,$oldms) = each($list);
 	unset($list[ $oldstamp ]);
-	foreach($list as $oldstamp => $oldms) break;
-	unset($list[ $oldstamp ]);
-	$list[ $stamp ] = $ms;
-	krsort($list);
+
+	//
+	// Add corrected value now.
+	//
+	
+	ManagePingresult($list,$stamp,$ms);
 }
 
 function ManagePingresult(&$list,$stamp,$ms)
@@ -412,16 +419,23 @@ function ManagePingresult(&$list,$stamp,$ms)
 				}
 				else
 				{
-					if (($ms != -1) && ($oldms != -1) && ($bfoms != -1))
-					{ 
-						$nowslow = ($ms    > 1000);
-						$oldslow = ($oldms > 1000);
-						$bfoslow = ($bfoms > 1000);
+					if (($ms != -1) && ($oldms == -1) && ($bfoms != -1))
+					{
+						unset($list[ $oldstamp ]);
+					}
+					else
+					{
+						if (($ms != -1) && ($oldms != -1) && ($bfoms != -1))
+						{ 
+							$nowslow = ($ms    > 1000);
+							$oldslow = ($oldms > 1000);
+							$bfoslow = ($bfoms > 1000);
 					
-						if ((($nowslow ==  true) && ($oldslow ==  true) && ($bfoslow ==  true)) ||
-							(($nowslow == false) && ($oldslow == false) && ($bfoslow == false)))
-						{
-							unset($list[ $oldstamp ]);
+							if ((($nowslow ==  true) && ($oldslow ==  true) && ($bfoslow ==  true)) ||
+								(($nowslow == false) && ($oldslow == false) && ($bfoslow == false)))
+							{
+								unset($list[ $oldstamp ]);
+							}
 						}
 					}
 				}
@@ -465,31 +479,37 @@ function ScheduleEndpingTask($task,&$request)
 		// Read the dead nets first.
 		//
 		
-		$deadnetsjson = file_get_contents("../var/$isp/configs/deadnets.json");
-		$deadnetsdata = json_decdat($deadnetsjson);
+		$deadnets = array();
+		$deadnetsfile = "../var/$isp/configs/deadnets.json";
 		
-		if ($deadnetsdata)
+		if (file_exists($deadnetsfile))
 		{
-			$deadnets = array();
-			
-			foreach ($deadnetsdata as $iprange => $what)
+			$deadnetsjson = file_get_contents($deadnetsfile);
+			$deadnetsdata = json_decdat($deadnetsjson);
+		
+			if ($deadnetsdata)
 			{
-				if ($what != "noping") continue;
-				
-				$parts = explode("-",$iprange);
-				if (count($parts) != 2) continue;
-				
-				$from = IP2Bin($parts[ 0 ]);
-				$toto = IP2Bin($parts[ 1 ]);
-				
-				for ($actip = $from; $actip <= $toto; $actip += 256)
+				$deadnets = array();
+			
+				foreach ($deadnetsdata as $iprange => $what)
 				{
-					$deadnets[ IPZero($actip) ] = $what;
+					if ($what != "noping") continue;
+				
+					$parts = explode("-",$iprange);
+					if (count($parts) != 2) continue;
+				
+					$from = IP2Bin($parts[ 0 ]);
+					$toto = IP2Bin($parts[ 1 ]);
+				
+					for ($actip = $from; $actip <= $toto; $actip += 256)
+					{
+						$deadnets[ IPZero($actip) ] = $what;
+					}
 				}
 			}
-			
-			$GLOBALS[ $isp ][ "deadnets" ] = &$deadnets;
 		}
+			
+		$GLOBALS[ $isp ][ "deadnets" ] = &$deadnets;
 			
 		$dfd = opendir("../var/$isp/subnets");
 		if (! $dfd) return;
