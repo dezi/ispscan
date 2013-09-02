@@ -16,14 +16,14 @@
 	
 	if ($isp == "de/vf")
 	{
-		array_push($tobuilds,"082.082.000.000-082.083.255.255");
-		array_push($tobuilds,"084.056.000.000-084.063.255.255");
-		array_push($tobuilds,"088.064.000.000-088.079.255.255");
-		array_push($tobuilds,"092.072.000.000-092.079.255.255");
-		array_push($tobuilds,"094.216.000.000-094.223.255.255");
-		array_push($tobuilds,"176.094.000.000-176.095.255.255");
-		array_push($tobuilds,"178.000.000.000-178.015.255.255");
-		array_push($tobuilds,"188.096.000.000-188.111.255.255");
+	    array_push($tobuilds,"082.082.000.000-082.083.255.255");
+	    array_push($tobuilds,"084.056.000.000-084.063.255.255");
+	    array_push($tobuilds,"088.064.000.000-088.079.255.255");
+	  //array_push($tobuilds,"092.072.000.000-092.079.255.255");
+	  //array_push($tobuilds,"094.216.000.000-094.223.255.255");
+	  //array_push($tobuilds,"176.094.000.000-176.095.255.255");
+	  //array_push($tobuilds,"178.000.000.000-178.015.255.255");
+	  //array_push($tobuilds,"188.096.000.000-188.111.255.255");
 	}
 	
 	if ($isp == "de/tf")
@@ -142,7 +142,7 @@ function CheckGateways($isp,&$uplinks)
 			
 			unset($gateways[ $routerip ]);
 			
-			if ($isp == "de/vf") continue;
+			//if ($isp == "de/vf") continue;
 			
 			$gateways[ $routerip ] = $gwdata;
 		}
@@ -622,12 +622,19 @@ function BuildBackbones($isp,&$endpoint,&$uplinks,&$allbones,$stage)
 	$deadnets = Array();
 	$gateways = Array();
 	$eplinks  = Array();
+	$upllocs  = Array();
 	
 	$bonuscities = array();
 	$bonusnailed = array();
 	
 	$bonusnailed[ "xxxxx"  				] =  "xxxxxxxxx";
 	$bonusnailed[ "xxxxx"  				] =  "xxxxxxxxx";
+	$bonusnailed[ "xxxxx"  				] =  "xxxxxxxxx";
+	$bonusnailed[ "xxxxx"  				] =  "xxxxxxxxx";
+	$bonusnailed[ "xxxxx"  				] =  "xxxxxxxxx";
+	$bonusnailed[ "Kassel"  			] =  "DE,Hessen,Kassel,51.3167,9.5";
+	$bonusnailed[ "Dortmund"  			] =  "DE,Nordrhein-Westfalen,Dortmund,51.5167,7.45";
+	$bonusnailed[ "Köln"  				] =  "DE,Nordrhein-Westfalen,Köln,50.9333,6.95";
 	$bonusnailed[ "Bielefeld"  			] =  "DE,Nordrhein-Westfalen,Bielefeld,52.0333,8.5333";
 	$bonusnailed[ "Neubrandenburg"  	] =  "DE,Mecklenburg-Vorpommern,Neubrandenburg,53.5667,13.2667";
 	$bonusnailed[ "Magdeburg"  			] =  "DE,Sachsen-Anhalt,Magdeburg,52.1667,11.6667";
@@ -744,85 +751,88 @@ function BuildBackbones($isp,&$endpoint,&$uplinks,&$allbones,$stage)
 	$bonusnailed[ "Pfaffenhofen an der Ilm" 	] =  "DE,Bayern,Pfaffenhofen an der Ilm,48.525,11.491";
 	$bonusnailed[ "Neustadt An Der Weinstraße"	] =  "DE,Rheinland-Pfalz,Neustadt An Der Weinstraße,49.3567,8.1378";
 	
-	$bonuscities[ "xxxxxx" 			 	] = 20;
-	$bonuscities[ "xxxxxx" 			 	] = 20;
-	$bonuscities[ "xxxxxx" 			 	] = 20;
-	$bonuscities[ "xxxxxx" 			 	] = 20;
-	$bonuscities[ "xxxxxx" 			 	] = 20;
-	$bonuscities[ "xxxxxx" 			 	] = 20;
-	$bonuscities[ "Aachen" 			 	] = 20;
-	$bonuscities[ "Neuss" 			 	] = 20;
-	$bonuscities[ "Lingen" 			 	] = 20;
-	$bonuscities[ "Karlsruhe" 		 	] = 20;
-	$bonuscities[ "Meschede" 		 	] = 20;
-	$bonuscities[ "Halle" 			 	] = 20;
-	$bonuscities[ "Greifswald" 		 	] = 20;
-	$bonuscities[ "Rostock" 		 	] = 20;
-	$bonuscities[ "Bochum" 			 	] = 20;
-	$bonuscities[ "Göttingen" 		 	] = 20;
-	$bonuscities[ "Krefeld" 		 	] = 20;
-	$bonuscities[ "Duisburg" 		 	] = 20;
-	$bonuscities[ "Bonn" 		 	 	] = 20;
-	$bonuscities[ "Wesel" 		 	 	] = 20;
-	$bonuscities[ "Düsseldorf" 	 	 	] = 20;
-	$bonuscities[ "Koblenz" 	 	 	] = 99;
-	$bonuscities[ "Wuppertal" 	 	 	] = 20;
-	$bonuscities[ "Köln" 	 		 	] = 20;
-	$bonuscities[ "Trier" 	 		 	] = 20;
-	$bonuscities[ "Erfurt"  		 	] = 20;
-	$bonuscities[ "Cottbus"  		 	] = 20;
-	$bonuscities[ "Saarbrücken"  	 	] = 20;
-	$bonuscities[ "Paderborn"  	 		] = 20;
-	$bonuscities[ "Traunstein"  	 	] = 20;
-	$bonuscities[ "Kempten"  	 		] = 20;
-	$bonuscities[ "Rottweil"  	 		] = 20;
-	$bonuscities[ "Offenburg"  	 		] = 20;
-	$bonuscities[ "Konstanz"  	 		] = 20;
-	$bonuscities[ "Passau"  	 		] = 20;
-	$bonuscities[ "Oldenburg"   		] = 20;
-	$bonuscities[ "Fulda"   			] = 20;
-	$bonuscities[ "Schwerin"   			] = 20;
-	$bonuscities[ "Mannheim"   			] = 20;
-	$bonuscities[ "Regensburg"   		] = 20;
-	$bonuscities[ "Chemnitz"   			] = 20;
-	$bonuscities[ "Ulm"   				] = 20;
-	$bonuscities[ "Bautzen"   			] = 20;
-	$bonuscities[ "Leer"   				] = 20;
-	$bonuscities[ "Hamburg"   			] = 20;
-	$bonuscities[ "Osnabrück" 			] = 20;
-	$bonuscities[ "Stuttgart"    		] = 20;
-	$bonuscities[ "München"  	  		] = 20;
-	$bonuscities[ "Kiel"  	 	 		] = 20;
-	$bonuscities[ "Flensburg"  	  		] = 20;
-	$bonuscities[ "Berlin"  	  		] = 20;
-	$bonuscities[ "Dresden"  	  		] = 20;
-	$bonuscities[ "Lübeck"    			] = 20;
-	$bonuscities[ "Neubrandenburg"		] = 20;
-	$bonuscities[ "Brandenburg"			] = 20;
-	$bonuscities[ "Saabrücken"			] = 20;
-	$bonuscities[ "Siegen"				] = 20;
-	$bonuscities[ "Kaiserslautern"		] = 20;
-	$bonuscities[ "Essen"				] = 20;
-	$bonuscities[ "Dortmund"			] = 20;
-	$bonuscities[ "Bremen"				] = 20;
-	$bonuscities[ "Hannover"			] = 20;
-	$bonuscities[ "Freiburg"			] = 20;
-	$bonuscities[ "Nürnberg"			] = 20;
-	$bonuscities[ "Augsburg"			] = 20;
-	$bonuscities[ "Leipzig"				] = 20;
-	$bonuscities[ "Bayreuth"			] = 20;
-	$bonuscities[ "Erfurt"				] = 20;
-	$bonuscities[ "Bremerhaven"			] = 20;
-	$bonuscities[ "Bielefeld"			] = 20;
-	$bonuscities[ "Braunschweig"		] = 20;
-	$bonuscities[ "Magdeburg"			] = 20;
-	$bonuscities[ "Frankfurt Am Main"	] = 20;
-	$bonuscities[ "Darmstadt"			] = 20;
-	$bonuscities[ "Gießen"				] = 20;
-	$bonuscities[ "Mainz"				] = 20;
-	$bonuscities[ "Würzburg"			] = 20;
-	$bonuscities[ "Münster"				] = 20;
-	$bonuscities[ "Heilbronn"			] = 20;
+	$bonuscities[ "Router"   				] = 99;
+	
+	$bonuscities[ "Hamburg"   				] = 50;
+	$bonuscities[ "Berlin"  	  			] = 50;
+	$bonuscities[ "Frankfurt Am Main"		] = 50;
+	$bonuscities[ "Stuttgart"    			] = 50;
+	$bonuscities[ "München"  	  			] = 50;
+	$bonuscities[ "Nürnberg"				] = 50;
+	$bonuscities[ "Bremen"					] = 50;
+	$bonuscities[ "Hannover"				] = 50;
+	$bonuscities[ "Dortmund"				] = 50;
+	$bonuscities[ "Düsseldorf" 	 	 		] = 50;
+	$bonuscities[ "Köln" 	 		 		] = 50;
+	$bonuscities[ "Leipzig"					] = 50;
+
+	$bonuscities[ "xxxxxx" 			 		] = 20;
+	$bonuscities[ "xxxxxx" 			 		] = 20;
+	$bonuscities[ "xxxxxx" 			 		] = 20;
+	$bonuscities[ "xxxxxx" 			 		] = 20;
+	$bonuscities[ "xxxxxx" 			 		] = 20;
+	$bonuscities[ "xxxxxx" 			 		] = 20;
+	$bonuscities[ "Essen"					] = 20;
+	$bonuscities[ "Aachen" 			 		] = 20;
+	$bonuscities[ "Neuss" 			 		] = 20;
+	$bonuscities[ "Lingen" 			 		] = 20;
+	$bonuscities[ "Karlsruhe" 		 		] = 20;
+	$bonuscities[ "Meschede" 		 		] = 20;
+	$bonuscities[ "Halle" 			 		] = 20;
+	$bonuscities[ "Greifswald" 		 		] = 20;
+	$bonuscities[ "Rostock" 		 		] = 20;
+	$bonuscities[ "Bochum" 			 		] = 20;
+	$bonuscities[ "Göttingen" 		 		] = 20;
+	$bonuscities[ "Krefeld" 		 		] = 20;
+	$bonuscities[ "Duisburg" 		 		] = 20;
+	$bonuscities[ "Bonn" 		 	 		] = 20;
+	$bonuscities[ "Wesel" 		 	 		] = 20;
+	$bonuscities[ "Koblenz" 	 	 		] = 20;
+	$bonuscities[ "Wuppertal" 	 	 		] = 20;
+	$bonuscities[ "Trier" 	 		 		] = 20;
+	$bonuscities[ "Erfurt"  		 		] = 20;
+	$bonuscities[ "Cottbus"  		 		] = 20;
+	$bonuscities[ "Saarbrücken"  	 		] = 20;
+	$bonuscities[ "Paderborn"  	 			] = 20;
+	$bonuscities[ "Traunstein"  	 		] = 20;
+	$bonuscities[ "Kempten"  	 			] = 20;
+	$bonuscities[ "Rottweil"  	 			] = 20;
+	$bonuscities[ "Offenburg"  	 			] = 20;
+	$bonuscities[ "Konstanz"  	 			] = 20;
+	$bonuscities[ "Passau"  	 			] = 20;
+	$bonuscities[ "Oldenburg"   			] = 20;
+	$bonuscities[ "Fulda"   				] = 20;
+	$bonuscities[ "Schwerin"   				] = 20;
+	$bonuscities[ "Mannheim"   				] = 20;
+	$bonuscities[ "Regensburg"   			] = 20;
+	$bonuscities[ "Chemnitz"   				] = 20;
+	$bonuscities[ "Ulm"   					] = 20;
+	$bonuscities[ "Bautzen"   				] = 20;
+	$bonuscities[ "Leer"   					] = 20;
+	$bonuscities[ "Osnabrück" 				] = 20;
+	$bonuscities[ "Kiel"  	 	 			] = 20;
+	$bonuscities[ "Flensburg"  	  			] = 20;
+	$bonuscities[ "Dresden"  	  			] = 20;
+	$bonuscities[ "Lübeck"    				] = 20;
+	$bonuscities[ "Neubrandenburg"			] = 20;
+	$bonuscities[ "Brandenburg"				] = 20;
+	$bonuscities[ "Saabrücken"				] = 20;
+	$bonuscities[ "Siegen"					] = 20;
+	$bonuscities[ "Kaiserslautern"			] = 20;
+	$bonuscities[ "Freiburg"				] = 20;
+	$bonuscities[ "Augsburg"				] = 20;
+	$bonuscities[ "Bayreuth"				] = 20;
+	$bonuscities[ "Erfurt"					] = 20;
+	$bonuscities[ "Bremerhaven"				] = 20;
+	$bonuscities[ "Bielefeld"				] = 20;
+	$bonuscities[ "Braunschweig"			] = 20;
+	$bonuscities[ "Magdeburg"				] = 20;
+	$bonuscities[ "Darmstadt"				] = 20;
+	$bonuscities[ "Gießen"					] = 20;
+	$bonuscities[ "Mainz"					] = 20;
+	$bonuscities[ "Würzburg"				] = 20;
+	$bonuscities[ "Münster"					] = 20;
+	$bonuscities[ "Heilbronn"				] = 20;
 	$bonuscities[ "Frankfurt An Der Oder" 	] = 20;
 	
 	foreach ($tobuilds as $dummy => $tobuild)
@@ -1075,6 +1085,11 @@ function BuildBackbones($isp,&$endpoint,&$uplinks,&$allbones,$stage)
 			
 			if (substr($line,15,1) == "@") 
 			{
+				$dlsip = substr($line,0,-1);
+				
+				if (! isset($upllocs[ $dlsip ])) $upllocs[ $dlsip ] = array();
+				$upllocs[ $dlsip ][ IPZero($actip) ] = $lastloc;
+
 				$newdl = IP_Bin(substr($line,0,-1));
 			
 				foreach ($subnet[ "dls" ] as $dl)
@@ -1489,9 +1504,23 @@ function BuildBackbones($isp,&$endpoint,&$uplinks,&$allbones,$stage)
 		{
 			$temp = $gateways[ $upip ][ "upls" ];
 			unset($gateways[ $upip ][ "upls" ]);
+			
+			//if ($isp == "de/vf") continue;
+
 			$gateways[ $upip ][ "upls" ] = $temp;
 		}
 	}
+	
+	ksort($upllocs);
+	
+	foreach ($upllocs as $uplip => $dummy)
+	{
+		ksort($upllocs[ $uplip ]);
+	}
+	
+	$upllocsfile = "../var/$isp/mapdata/upllocs.json";
+	$upllocsjson = json_encdat($upllocs) . "\n";
+	file_put_contents($upllocsfile,$upllocsjson);
 
 	$gatewaysfile = "../var/$isp/mapdata/uplinks.json";
 	$gatewaysjson = json_encdat($gateways) . "\n";

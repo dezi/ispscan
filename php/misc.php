@@ -234,6 +234,10 @@ $GLOBALS[ "knownisp" ][ "Vodafone D2 GmbH" 			  				  ] = "de/vf";
 
 function ResolveISP($ip)
 {
+	//
+	// Normal processing.
+	//
+
 	if (isset($GLOBALS[ "ispcache" ]) &&
 		isset($GLOBALS[ "ispcache" ][ $ip ]))
 	{

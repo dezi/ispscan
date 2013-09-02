@@ -65,7 +65,7 @@
 077.176.021.000=0 DE,Nordrhein-Westfalen,Bünde,52.2,8.5833
 195.071.227.089@
 195.071.227.093@
-077.176.022.000=0 DE,Nordrhein-Westfalen,Bielefeld,52.0333,8.5333
+077.176.022.000=0 DE,Nordrhein-Westfalen,Bad Oeynhausen,52.2,8.8
 195.071.227.089@
 195.071.227.093@
 077.176.023.000=0 DE,Nordrhein-Westfalen,Bünde,52.2,8.5833
@@ -97,7 +97,7 @@
 195.071.227.089@
 195.071.227.093@
 =======32
-077.176.032.000=0 DE,Nordrhein-Westfalen,Bielefeld,52.0333,8.5333
+077.176.032.000=0 DE,Nordrhein-Westfalen,Herford,52.1333,8.6833
 195.071.227.093@
 195.071.227.089@
 077.176.033.000=0 DE,Nordrhein-Westfalen,Hiddenhausen,52.1667,8.6167
@@ -295,7 +295,7 @@
 077.176.093.000=0 DE,Nordrhein-Westfalen,Gütersloh,51.9,8.3833
 195.071.225.182@
 195.071.225.178@
-077.176.094.000=0 DE,Nordrhein-Westfalen,Gütersloh,51.9,8.3833
+077.176.094.000=0 DE,Nordrhein-Westfalen,Harsewinkel,51.9667,8.2333
 195.071.225.178@
 195.071.225.182@
 077.176.095.000=0 DE,Nordrhein-Westfalen,Harsewinkel,51.9667,8.2333
@@ -408,7 +408,7 @@
 077.176.128.000=0 DE,Nordrhein-Westfalen,Paderborn,51.7167,8.7667
 195.071.227.129@
 195.071.227.133@
-077.176.129.000=0 DE,Nordrhein-Westfalen,Paderborn,51.7167,8.7667
+077.176.129.000=0 DE,Nordrhein-Westfalen,Detmold,51.9333,8.8833
 195.071.227.129@
 195.071.227.133@
 077.176.130.000=0 DE,Nordrhein-Westfalen,Detmold,51.9333,8.8833
@@ -417,7 +417,7 @@
 077.176.131.000=0 DE,Nordrhein-Westfalen,Höxter,51.7667,9.3833
 195.071.227.129@
 195.071.227.133@
-077.176.132.000=0 DE,Nordrhein-Westfalen,Paderborn,51.7167,8.7667
+077.176.132.000=0 DE,Nordrhein-Westfalen,Detmold,51.9333,8.8833
 195.071.227.129@
 195.071.227.133@
 077.176.133.000=0 DE,Nordrhein-Westfalen,Paderborn,51.7167,8.7667
@@ -453,7 +453,7 @@
 077.176.142.000=0 DE,Nordrhein-Westfalen,Salzkotten,51.6667,8.6
 195.071.227.129@
 195.071.227.133@
-077.176.143.000=0 DE,Nordrhein-Westfalen,Paderborn,51.7167,8.7667
+077.176.143.000=0 DE,Nordrhein-Westfalen,Detmold,51.9333,8.8833
 195.071.227.129@
 195.071.096.213~xmws-pdbn-de01-vlan-2.nw.mediaways.net
 195.071.224.037~xmws-pdbn-de02-vlan-3.nw.mediaways.net
@@ -470,7 +470,7 @@
 077.176.147.000=0 DE,Hessen,Kassel,51.3167,9.5
 195.071.042.046@
 195.071.042.042@
-077.176.148.000=0 DE,Hessen,Kassel,51.3167,9.5
+077.176.148.000=0 DE,Niedersachsen,Münden,51.4167,9.6833
 195.071.042.042@
 195.071.042.046@
 077.176.149.000=0 DE,Hessen,Kassel,51.3167,9.5
@@ -519,7 +519,7 @@
 195.071.010.241@
 077.176.164.000=0 DE,Nordrhein-Westfalen,Münster,51.9667,7.6333
 195.071.010.241@
-077.176.165.000=0 DE,Nordrhein-Westfalen,Münster,51.9667,7.6333
+077.176.165.000=0 DE,Nordrhein-Westfalen,Coesfeld,51.9333,7.15
 195.071.010.241@
 195.071.010.245@
 077.176.166.000=0 DE,Nordrhein-Westfalen,Münster,51.9667,7.6333
@@ -625,7 +625,7 @@
 195.071.042.042@
 077.176.202.000=0 DE,Hessen,Kassel,51.3167,9.5
 195.071.042.046@
-077.176.203.000=0 DE,Hessen,Kassel,51.3167,9.5
+077.176.203.000=0 DE,Niedersachsen,Münden,51.4167,9.6833
 195.071.042.046@
 195.071.042.042@
 077.176.204.000=0 DE,Hessen,Kassel,51.3167,9.5
@@ -848,7 +848,7 @@
 077.177.018.000=0 DE,Nordrhein-Westfalen,Paderborn,51.7167,8.7667
 195.071.227.133@
 195.071.227.129@
-077.177.019.000=0 DE,Nordrhein-Westfalen,Paderborn,51.7167,8.7667
+077.177.019.000=0 DE,Nordrhein-Westfalen,Detmold,51.9333,8.8833
 195.071.227.133@
 195.071.227.129@
 077.177.020.000=0 DE,Nordrhein-Westfalen,Bad Salzuflen,52.0833,8.7667
@@ -857,7 +857,7 @@
 077.177.021.000=0 DE,Nordrhein-Westfalen,Paderborn,51.7167,8.7667
 195.071.227.129@
 195.071.227.133@
-077.177.022.000=0 DE,Nordrhein-Westfalen,Paderborn,51.7167,8.7667
+077.177.022.000=0 DE,Nordrhein-Westfalen,Detmold,51.9333,8.8833
 195.071.227.133@
 195.071.227.129@
 077.177.023.000=0 DE,Nordrhein-Westfalen,Lage,51.9833,8.8
@@ -872,7 +872,7 @@
 077.177.025.000=0 DE,Nordrhein-Westfalen,Salzkotten,51.6667,8.6
 195.071.227.129@
 195.071.227.133@
-077.177.026.000=0 DE,Nordrhein-Westfalen,Paderborn,51.7167,8.7667
+077.177.026.000=0 DE,Nordrhein-Westfalen,Detmold,51.9333,8.8833
 195.071.227.129@
 195.071.227.133@
 077.177.027.000=0 DE,Nordrhein-Westfalen,Bad Salzuflen,52.0833,8.7667
@@ -1029,7 +1029,7 @@
 195.071.224.145@
 077.177.077.000=0 DE,Niedersachsen,Osnabrück,52.2667,8.05
 195.071.224.149@
-077.177.078.000=0 DE,Niedersachsen,Osnabrück,52.2667,8.05
+077.177.078.000=0 DE,Nordrhein-Westfalen,Mettingen,52.3167,7.7833
 195.071.224.145@
 077.177.079.000=0 DE,Niedersachsen,Osnabrück,52.2667,8.05
 195.071.224.145@
@@ -1265,7 +1265,7 @@
 077.177.192.000=0 DE,Nordrhein-Westfalen,Münster,51.9667,7.6333
 195.071.010.241@
 195.071.010.245@
-077.177.193.000=0 DE,Nordrhein-Westfalen,Münster,51.9667,7.6333
+077.177.193.000=0 DE,Nordrhein-Westfalen,Vreden,52.0333,6.8333
 195.071.010.245@
 195.071.010.241@
 077.177.194.000=0 DE,Nordrhein-Westfalen,Gescher,51.95,7.0167
@@ -1274,7 +1274,7 @@
 195.071.010.241@
 077.177.196.000=0 DE,Nordrhein-Westfalen,Gronau,52.2,7.0333
 195.071.010.245@
-077.177.197.000=0 DE,Nordrhein-Westfalen,Münster,51.9667,7.6333
+077.177.197.000=0 DE,Nordrhein-Westfalen,Muenster,51.9667,7.6333
 195.071.010.245@
 077.177.198.000=0 DE,Nordrhein-Westfalen,Vreden,52.0333,6.8333
 195.071.010.241@
@@ -1381,7 +1381,7 @@
 195.071.010.241@
 077.177.234.000=0 DE,Nordrhein-Westfalen,Gescher,51.95,7.0167
 195.071.010.241@
-077.177.235.000=0 DE,Nordrhein-Westfalen,Münster,51.9667,7.6333
+077.177.235.000=0 DE,Nordrhein-Westfalen,Steinfurt,52.15,7.35
 195.071.010.241@
 077.177.236.000=0 DE,Nordrhein-Westfalen,Münster,51.9667,7.6333
 195.071.010.241@
@@ -1444,13 +1444,13 @@
 077.178.003.000=0 DE,Nordrhein-Westfalen,Hagen,51.35,7.4667
 077.178.004.000=0 DE,Nordrhein-Westfalen,Lüdenscheid,51.2167,7.6167
 077.178.005.000=0 DE,Nordrhein-Westfalen,Lüdenscheid,51.2167,7.6167
-077.178.006.000=0 DE,,,51,9
-077.178.007.000=0 DE,,,51,9
+077.178.006.000=0 DE,Nordrhein-Westfalen,Dortmund,51.5167,7.45
+077.178.007.000=0 DE,Nordrhein-Westfalen,Dortmund,51.5167,7.45
 077.178.007.255=0*8
 =======8
 077.178.008.000=0 DE,Nordrhein-Westfalen,Iserlohn,51.3667,7.7
 077.178.009.000=0 DE,Nordrhein-Westfalen,Iserlohn,51.3667,7.7
-077.178.010.000=0 DE,,,51,9
+077.178.010.000=0 DE,Nordrhein-Westfalen,Dortmund,51.5167,7.45
 077.178.011.000=0 DE,Nordrhein-Westfalen,Schwerte,51.45,7.5667
 077.178.012.000=0 DE,Nordrhein-Westfalen,Schwerte,51.45,7.5667
 077.178.013.000=0 DE,Nordrhein-Westfalen,Schwerte,51.45,7.5667
@@ -1460,11 +1460,11 @@
 =======16
 077.178.016.000=0 DE,Nordrhein-Westfalen,Dortmund,51.5167,7.45
 077.178.017.000=0 DE,Nordrhein-Westfalen,Iserlohn,51.3667,7.7
-077.178.018.000=0 DE,,,51,9
+077.178.018.000=0 DE,Nordrhein-Westfalen,Dortmund,51.5167,7.45
 077.178.019.000=0 DE,Nordrhein-Westfalen,Luedenscheid,51.2167,7.6167
 077.178.020.000=0 DE,Nordrhein-Westfalen,Luedenscheid,51.2167,7.6167
 077.178.021.000=0 DE,Nordrhein-Westfalen,Schwerte,51.45,7.5667
-077.178.022.000=0 DE,,,51,9
+077.178.022.000=0 DE,Nordrhein-Westfalen,Dortmund,51.5167,7.45
 077.178.023.000=0 DE,Nordrhein-Westfalen,Dortmund,51.5167,7.45
 077.178.023.255=0*8
 =======8
@@ -1472,7 +1472,7 @@
 077.178.025.000=0 DE,Nordrhein-Westfalen,Dortmund,51.5167,7.45
 077.178.026.000=0 DE,Nordrhein-Westfalen,Iserlohn,51.3667,7.7
 077.178.027.000=0 DE,Nordrhein-Westfalen,Menden,51.4333,7.8
-077.178.028.000=0 DE,,,51,9
+077.178.028.000=0 DE,Nordrhein-Westfalen,Dortmund,51.5167,7.45
 077.178.029.000=0 DE,Nordrhein-Westfalen,Menden,51.4333,7.8
 077.178.030.000=0 DE,Nordrhein-Westfalen,Dortmund,51.5167,7.45
 077.178.031.000=0 DE,Nordrhein-Westfalen,Holzwickede,51.5,7.6333
@@ -1509,7 +1509,7 @@
 077.178.055.255=0*8
 =======8
 077.178.056.000=0 DE,Nordrhein-Westfalen,Arnsberg,51.3833,8.0833
-077.178.057.000=0 DE,,,51,9
+077.178.057.000=0 DE,Nordrhein-Westfalen,Hamm,51.6833,7.8
 077.178.058.000=0 DE,Nordrhein-Westfalen,Soest,51.5833,8.1167
 077.178.059.000=0 DE,Nordrhein-Westfalen,Bönen,51.6,7.7667
 077.178.060.000=0 DE,Nordrhein-Westfalen,Hamm,51.6833,7.8
@@ -1532,9 +1532,9 @@
 077.178.073.000=0 DE,Nordrhein-Westfalen,Dortmund,51.5167,7.45
 077.178.074.000=0 DE,Nordrhein-Westfalen,Dortmund,51.5167,7.45
 077.178.075.000=0 DE,Nordrhein-Westfalen,Hagen,51.35,7.4667
-077.178.076.000=0 DE,,,51,9
+077.178.076.000=0 DE,Nordrhein-Westfalen,Dortmund,51.5167,7.45
 077.178.077.000=0 DE,Nordrhein-Westfalen,Iserlohn,51.3667,7.7
-077.178.078.000=0 DE,,,51,9
+077.178.078.000=0 DE,Nordrhein-Westfalen,Dortmund,51.5167,7.45
 077.178.079.000=0 DE,Nordrhein-Westfalen,Iserlohn,51.3667,7.7
 077.178.079.255=0*8
 =======16
@@ -1549,11 +1549,11 @@
 077.178.087.255=0*8
 =======8
 077.178.088.000=0 DE,Nordrhein-Westfalen,Iserlohn,51.3667,7.7
-077.178.089.000=0 DE,,,51,9
-077.178.090.000=0 DE,,,51,9
-077.178.091.000=0 DE,,,51,9
-077.178.092.000=0 DE,,,51,9
-077.178.093.000=0 DE,,,51,9
+077.178.089.000=0 DE,Nordrhein-Westfalen,Dortmund,51.5167,7.45
+077.178.090.000=0 DE,Nordrhein-Westfalen,Dortmund,51.5167,7.45
+077.178.091.000=0 DE,Nordrhein-Westfalen,Dortmund,51.5167,7.45
+077.178.092.000=0 DE,Nordrhein-Westfalen,Dortmund,51.5167,7.45
+077.178.093.000=0 DE,Nordrhein-Westfalen,Dortmund,51.5167,7.45
 077.178.094.000=0 DE,Nordrhein-Westfalen,Iserlohn,51.3667,7.7
 077.178.095.000=0 DE,Nordrhein-Westfalen,Hagen,51.35,7.4667
 077.178.095.255=0*8
@@ -1573,13 +1573,13 @@
 077.178.106.000=0 DE,Nordrhein-Westfalen,Unna,51.5333,7.6833
 077.178.107.000=0 DE,Nordrhein-Westfalen,Bergkamen,51.6333,7.6333
 077.178.108.000=0 DE,Nordrhein-Westfalen,Kamen,51.6,7.6667
-077.178.109.000=0 DE,,,51,9
+077.178.109.000=0 DE,Nordrhein-Westfalen,Arnsberg,51.3833,8.0833
 077.178.110.000=0 DE,Nordrhein-Westfalen,Bergkamen,51.6333,7.6333
 077.178.111.000=0 DE,Nordrhein-Westfalen,Sundern,51.3333,8
 077.178.111.255=0*8
 =======16
-077.178.112.000=0 DE,,,51,9
-077.178.113.000=0 DE,,,51,9
+077.178.112.000=0 DE,Nordrhein-Westfalen,Bergkamen,51.6333,7.6333
+077.178.113.000=0 DE,Nordrhein-Westfalen,Bergkamen,51.6333,7.6333
 077.178.114.000=0 DE,Nordrhein-Westfalen,Soest,51.5833,8.1167
 077.178.115.000=0 DE,Nordrhein-Westfalen,Hamm,51.6833,7.8
 077.178.116.000=0 DE,Nordrhein-Westfalen,Hamm,51.6833,7.8
@@ -1599,19 +1599,19 @@
 077.178.127.255=0*8
 =======128
 077.178.128.000=0 DE,Nordrhein-Westfalen,Waltrop,51.6333,7.4
-077.178.129.000=0 DE,,,51,9
+077.178.129.000=0 DE,Nordrhein-Westfalen,Hagen,51.35,7.4667
 077.178.130.000=0 DE,Nordrhein-Westfalen,Dortmund,51.5167,7.45
 077.178.131.000=0 DE,Nordrhein-Westfalen,Dortmund,51.5167,7.45
 077.178.132.000=0 DE,Nordrhein-Westfalen,Hagen,51.35,7.4667
 077.178.133.000=0 DE,Nordrhein-Westfalen,Hagen,51.35,7.4667
-077.178.134.000=0 DE,,,51,9
-077.178.135.000=0 DE,,,51,9
+077.178.134.000=0 DE,Nordrhein-Westfalen,Dortmund,51.5167,7.45
+077.178.135.000=0 DE,Nordrhein-Westfalen,Dortmund,51.5167,7.45
 077.178.135.255=0*8
 =======8
 077.178.136.000=0 DE,Nordrhein-Westfalen,Iserlohn,51.3667,7.7
-077.178.137.000=0 DE,,,51,9
+077.178.137.000=0 DE,Nordrhein-Westfalen,Dortmund,51.5167,7.45
 077.178.138.000=0 DE,Nordrhein-Westfalen,Hagen,51.35,7.4667
-077.178.139.000=0 DE,,,51,9
+077.178.139.000=0 DE,Nordrhein-Westfalen,Dortmund,51.5167,7.45
 077.178.140.000=0 DE,Nordrhein-Westfalen,Hagen,51.35,7.4667
 077.178.141.000=0 DE,Nordrhein-Westfalen,Schwerte,51.45,7.5667
 077.178.142.000=0 DE,Nordrhein-Westfalen,Dortmund,51.5167,7.45
@@ -1628,12 +1628,12 @@
 077.178.151.000=0 DE,Nordrhein-Westfalen,Iserlohn,51.3667,7.7
 077.178.151.255=0*8
 =======8
-077.178.152.000=0 DE,,,51,9
+077.178.152.000=0 DE,Nordrhein-Westfalen,Dortmund,51.5167,7.45
 077.178.153.000=0 DE,Nordrhein-Westfalen,Iserlohn,51.3667,7.7
 077.178.154.000=0 DE,Nordrhein-Westfalen,Hagen,51.35,7.4667
-077.178.155.000=0 DE,,,51,9
-077.178.156.000=0 DE,,,51,9
-077.178.157.000=0 DE,,,51,9
+077.178.155.000=0 DE,Nordrhein-Westfalen,Dortmund,51.5167,7.45
+077.178.156.000=0 DE,Nordrhein-Westfalen,Dortmund,51.5167,7.45
+077.178.157.000=0 DE,Nordrhein-Westfalen,Iserlohn,51.3667,7.7
 077.178.158.000=0 DE,Nordrhein-Westfalen,Dortmund,51.5167,7.45
 077.178.159.000=0 DE,Nordrhein-Westfalen,Luedenscheid,51.2167,7.6167
 077.178.159.255=0*8
@@ -1653,7 +1653,7 @@
 077.178.170.000=0 DE,Nordrhein-Westfalen,Hamm,51.6833,7.8
 077.178.171.000=0 DE,Nordrhein-Westfalen,Hamm,51.6833,7.8
 077.178.172.000=0 DE,Nordrhein-Westfalen,Beckum,51.75,8.0333
-077.178.173.000=0 DE,,,51,9
+077.178.173.000=0 DE,Nordrhein-Westfalen,Bergkamen,51.6333,7.6333
 077.178.174.000=0 DE,Nordrhein-Westfalen,Bönen,51.6,7.7667
 077.178.175.000=0 DE,Nordrhein-Westfalen,Hamm,51.6833,7.8
 077.178.175.255=0*8
@@ -1664,7 +1664,7 @@
 077.178.179.000=0 DE,Nordrhein-Westfalen,Sundern,51.3333,8
 077.178.180.000=0 DE,Nordrhein-Westfalen,Hamm,51.6833,7.8
 077.178.181.000=0 DE,Nordrhein-Westfalen,Kamen,51.6,7.6667
-077.178.182.000=0 DE,,,51,9
+077.178.182.000=0 DE,Nordrhein-Westfalen,Soest,51.5833,8.1167
 077.178.183.000=0 DE,Nordrhein-Westfalen,Unna,51.5333,7.6833
 077.178.183.255=0*8
 =======8
@@ -1703,7 +1703,7 @@
 077.178.210.000=0 DE,Nordrhein-Westfalen,Kamen,51.6,7.6667
 077.178.211.000=0 DE,Nordrhein-Westfalen,Lünen,51.6167,7.5167
 077.178.212.000=0 DE,Nordrhein-Westfalen,Sundern,51.3333,8
-077.178.213.000=0 DE,,,51,9
+077.178.213.000=0 DE,Nordrhein-Westfalen,Datteln,51.6667,7.3833
 077.178.214.000=0 DE,Nordrhein-Westfalen,Bergkamen,51.6333,7.6333
 077.178.215.000=0 DE,Nordrhein-Westfalen,Unna,51.5333,7.6833
 077.178.215.255=0*8
@@ -1712,7 +1712,7 @@
 077.178.217.000=0 DE,,,51,9
 077.178.218.000=0 DE,Nordrhein-Westfalen,Arnsberg,51.3833,8.0833
 077.178.219.000=0 DE,Nordrhein-Westfalen,Lünen,51.6167,7.5167
-077.178.220.000=0 DE,,,51,9
+077.178.220.000=0 DE,Nordrhein-Westfalen,Arnsberg,51.3833,8.0833
 077.178.221.000=0 DE,Nordrhein-Westfalen,Unna,51.5333,7.6833
 077.178.222.000=0 DE,Nordrhein-Westfalen,Kamen,51.6,7.6667
 077.178.223.000=0 DE,Nordrhein-Westfalen,Hamm,51.6833,7.8
@@ -2068,7 +2068,7 @@
 195.071.246.078@
 077.179.107.000=0 DE,Sachsen,Chemnitz,50.8333,12.9167
 195.071.246.078@
-077.179.108.000=0 DE,Sachsen,Chemnitz,50.8333,12.9167
+077.179.108.000=0 DE,Sachsen,Gornsdorf,50.7,12.8833
 195.071.247.210@
 195.071.246.078@
 077.179.109.000=0 DE,Sachsen,Chemnitz,50.8333,12.9167
@@ -2119,7 +2119,7 @@
 077.179.122.000=0 DE,Sachsen,Chemnitz,50.8333,12.9167
 195.071.246.078@
 195.071.247.210@
-077.179.123.000=0 DE,Sachsen,Chemnitz,50.8333,12.9167
+077.179.123.000=0 DE,Sachsen,Gornsdorf,50.7,12.8833
 195.071.246.078@
 195.071.247.210@
 077.179.124.000=0 DE,Sachsen,Chemnitz,50.8333,12.9167
@@ -2762,6 +2762,7 @@
 062.053.198.067~xmwc-koln-de01-vlan-2.nw.mediaways.net
 077.180.063.255=0*64
 =======64
+077.180.064.000=0 DE,Nordrhein-Westfalen,Köln,50.9333,6.95
 077.180.064.000=0 DE,Nordrhein-Westfalen,Kerpen,50.8667,6.7
 213.020.016.249@
 213.020.016.225@
@@ -2777,13 +2778,13 @@
 077.180.068.000=0 DE,Nordrhein-Westfalen,Brühl,50.8333,6.9
 213.020.016.225@
 213.020.016.249@
-077.180.069.000=0 DE,Nordrhein-Westfalen,Köln,50.9333,6.95
+077.180.069.000=0 DE,Nordrhein-Westfalen,Kerpen,50.8667,6.7
 213.020.016.225@
 213.020.016.249@
 077.180.070.000=0 DE,Nordrhein-Westfalen,Elsdorf,50.9333,6.5667
 213.020.016.249@
 213.020.016.225@
-077.180.071.000=0 DE,Nordrhein-Westfalen,Köln,50.9333,6.95
+077.180.071.000=0 DE,Nordrhein-Westfalen,Erftstadt,50.8167,6.7667
 213.020.016.225@
 213.020.016.249@
 062.053.198.163~xmwc-koln-de02-vlan-5.nw.mediaways.net
@@ -2936,7 +2937,7 @@
 077.180.112.000=0 DE,Nordrhein-Westfalen,Elsdorf,50.9333,6.5667
 213.020.016.225@
 213.020.016.249@
-077.180.113.000=0 DE,Nordrhein-Westfalen,Köln,50.9333,6.95
+077.180.113.000=0 DE,Nordrhein-Westfalen,Kerpen,50.8667,6.7
 213.020.016.225@
 077.180.114.000=0 DE,Nordrhein-Westfalen,Erftstadt,50.8167,6.7667
 213.020.016.225@
@@ -3002,7 +3003,7 @@
 062.053.198.117@
 077.180.131.000=0 DE,Nordrhein-Westfalen,Leverkusen,51.0167,6.9833
 062.053.198.148@
-077.180.132.000=0 DE,Nordrhein-Westfalen,Leverkusen,51.0167,6.9833
+077.180.132.000=0 DE,Nordrhein-Westfalen,Burscheid,51.1,7.1167
 062.053.198.117@
 062.053.198.148@
 077.180.133.000=0 DE,Nordrhein-Westfalen,Leverkusen,51.0167,6.9833
@@ -3026,7 +3027,7 @@
 077.180.138.000=0 DE,Nordrhein-Westfalen,Leverkusen,51.0167,6.9833
 062.053.198.148@
 062.053.198.117@
-077.180.139.000=0 DE,Nordrhein-Westfalen,Leverkusen,51.0167,6.9833
+077.180.139.000=0 DE,Nordrhein-Westfalen,Leverkusen,51.0509,7.0633
 062.053.198.117@
 062.053.198.148@
 077.180.140.000=0 DE,Nordrhein-Westfalen,Monheim,51.0833,6.8833
@@ -3047,7 +3048,7 @@
 077.180.144.000=0 DE,Nordrhein-Westfalen,Burscheid,51.1,7.1167
 062.053.198.148@
 062.053.198.117@
-077.180.145.000=0 DE,Nordrhein-Westfalen,Leverkusen,51.0167,6.9833
+077.180.145.000=0 DE,Nordrhein-Westfalen,Monheim,51.0833,6.8833
 062.053.198.148@
 062.053.198.117@
 077.180.146.000=0 DE,Nordrhein-Westfalen,Leverkusen,51.0167,6.9833
@@ -3077,7 +3078,7 @@
 077.180.153.000=0 DE,Nordrhein-Westfalen,Burscheid,51.1,7.1167
 062.053.198.148@
 062.053.198.117@
-077.180.154.000=0 DE,Nordrhein-Westfalen,Leverkusen,51.0167,6.9833
+077.180.154.000=0 DE,Nordrhein-Westfalen,Monheim,51.0833,6.8833
 062.053.198.117@
 062.053.198.148@
 077.180.155.000=0 DE,Nordrhein-Westfalen,Leverkusen,51.0167,6.9833
@@ -3154,13 +3155,13 @@
 062.053.198.067~xmwc-koln-de01-vlan-2.nw.mediaways.net
 062.053.198.163~xmwc-koln-de02-vlan-5.nw.mediaways.net
 =======16
-077.180.176.000=0 DE,Nordrhein-Westfalen,Köln,50.9333,6.95
+077.180.176.000=0 DE,Nordrhein-Westfalen,Aachen,50.7708,6.1053
 195.071.204.081@
 195.071.204.085@
 077.180.177.000=0 DE,Nordrhein-Westfalen,Leverkusen,51.0167,6.9833
 195.071.204.085@
 195.071.204.081@
-077.180.178.000=0 DE,Nordrhein-Westfalen,Köln,50.9333,6.95
+077.180.178.000=0 DE,Nordrhein-Westfalen,Aachen,50.7708,6.1053
 195.071.204.081@
 195.071.204.085@
 077.180.179.000=0 DE,Nordrhein-Westfalen,Merzenich,50.8333,6.5333
@@ -3190,7 +3191,7 @@
 077.180.186.000=0 DE,Nordrhein-Westfalen,Herzogenrath,50.8667,6.1
 195.071.204.081@
 195.071.204.085@
-077.180.187.000=0 DE,Nordrhein-Westfalen,Köln,50.9333,6.95
+077.180.187.000=0 DE,Nordrhein-Westfalen,Düren,50.8,6.4833
 195.071.204.085@
 195.071.204.081@
 077.180.188.000=0 DE,Nordrhein-Westfalen,Eschweiler,50.8167,6.2833
@@ -3220,7 +3221,7 @@
 195.071.204.081@
 077.180.194.000=0 DE,Nordrhein-Westfalen,Aachen,50.7708,6.1053
 195.071.204.085@
-077.180.195.000=0 DE,Nordrhein-Westfalen,Köln,50.9333,6.95
+077.180.195.000=0 DE,Nordrhein-Westfalen,Eschweiler,50.8167,6.2833
 195.071.204.085@
 195.071.204.081@
 077.180.196.000=0 DE,Nordrhein-Westfalen,Aachen,50.7708,6.1053
@@ -3891,7 +3892,7 @@
 077.181.141.000=0 DE,Nordrhein-Westfalen,Duisburg,51.4333,6.75
 195.071.242.189@
 195.071.242.185@
-077.181.142.000=0 DE,Nordrhein-Westfalen,Duisburg,51.4333,6.75
+077.181.142.000=0 DE,Nordrhein-Westfalen,Moers,51.45,6.65
 195.071.242.189@
 195.071.242.185@
 077.181.143.000=0 DE,Nordrhein-Westfalen,Duisburg,51.4333,6.75
@@ -3912,7 +3913,7 @@
 077.181.147.000=0 DE,Nordrhein-Westfalen,Duisburg,51.4333,6.75
 195.071.242.185@
 195.071.242.189@
-077.181.148.000=0 DE,Nordrhein-Westfalen,Duisburg,51.4333,6.75
+077.181.148.000=0 DE,Nordrhein-Westfalen,Moers,51.45,6.65
 195.071.242.185@
 195.071.242.189@
 077.181.149.000=0 DE,Nordrhein-Westfalen,Duisburg,51.4333,6.75
@@ -3942,7 +3943,7 @@
 077.181.156.000=0 DE,Nordrhein-Westfalen,Duisburg,51.4333,6.75
 195.071.242.189@
 195.071.242.185@
-077.181.157.000=0 DE,Nordrhein-Westfalen,Duisburg,51.4333,6.75
+077.181.157.000=0 DE,Nordrhein-Westfalen,Moers,51.45,6.65
 195.071.242.189@
 195.071.242.185@
 077.181.158.000=0 DE,Nordrhein-Westfalen,Duisburg,51.4333,6.75
@@ -4042,7 +4043,7 @@
 077.181.186.000=0 DE,Nordrhein-Westfalen,Duisburg,51.4333,6.75
 195.071.242.185@
 195.071.242.189@
-077.181.187.000=0 DE,Nordrhein-Westfalen,Duisburg,51.4333,6.75
+077.181.187.000=0 DE,Nordrhein-Westfalen,Moers,51.45,6.65
 195.071.242.185@
 195.071.242.189@
 077.181.188.000=0 DE,Nordrhein-Westfalen,Duisburg,51.4333,6.75
@@ -4448,7 +4449,7 @@
 077.182.059.000=0 DE,Nordrhein-Westfalen,Bochum,51.4833,7.2167
 195.071.252.077@
 195.071.252.073@
-077.182.060.000=0 DE,Nordrhein-Westfalen,Bochum,51.4833,7.2167
+077.182.060.000=0 DE,Nordrhein-Westfalen,Herne,51.55,7.2167
 195.071.252.073@
 195.071.252.077@
 077.182.061.000=0 DE,Nordrhein-Westfalen,Bochum,51.4833,7.2167
@@ -4465,7 +4466,7 @@
 077.182.064.000=0 DE,Nordrhein-Westfalen,Essen,51.45,7.0167
 062.053.159.229@
 062.053.159.225@
-077.182.065.000=0 DE,Nordrhein-Westfalen,Essen,51.45,7.0167
+077.182.065.000=0 DE,Nordrhein-Westfalen,Oberhausen,51.4667,6.85
 062.053.159.225@
 062.053.159.229@
 077.182.066.000=0 DE,Nordrhein-Westfalen,Xanten,51.6667,6.45
@@ -4623,10 +4624,10 @@
 195.071.252.166@
 077.182.115.000=0 DE,Nordrhein-Westfalen,Bottrop,51.5167,6.9167
 195.071.252.162@
-077.182.116.000=0 DE,Nordrhein-Westfalen,Gelsenkirchen,51.4967,7.1136
+077.182.116.000=0 DE,Nordrhein-Westfalen,Gelsenkirchen,51.5167,7.05
 195.071.252.166@
 195.071.252.162@
-077.182.117.000=0 DE,Nordrhein-Westfalen,Gelsenkirchen,51.4967,7.1136
+077.182.117.000=0 DE,Nordrhein-Westfalen,Gelsenkirchen,51.5167,7.05
 195.071.252.162@
 195.071.252.166@
 077.182.118.000=0 DE,Nordrhein-Westfalen,Gladbeck,51.5667,6.9833
@@ -4702,7 +4703,7 @@
 077.182.138.000=0 DE,Nordrhein-Westfalen,Krefeld,51.3333,6.5667
 195.071.252.101@
 195.071.252.057@
-077.182.139.000=0 DE,Nordrhein-Westfalen,Krefeld,51.3333,6.5667
+077.182.139.000=0 DE,Nordrhein-Westfalen,Kempen,51.3667,6.4167
 195.071.252.101@
 195.071.252.057@
 077.182.140.000=0 DE,Nordrhein-Westfalen,Krefeld,51.3333,6.5667
@@ -4784,7 +4785,7 @@
 077.182.162.000=0 DE,Nordrhein-Westfalen,Siegen,50.8734,8.0104
 195.071.253.145@
 195.071.253.229@
-077.182.163.000=0 DE,Nordrhein-Westfalen,Siegen,50.8734,8.0104
+077.182.163.000=0 DE,Nordrhein-Westfalen,Siegen,50.8667,8.0333
 195.071.253.229@
 195.071.253.145@
 077.182.164.000=0 DE,Nordrhein-Westfalen,Siegen,50.8667,8.0333
@@ -4808,10 +4809,10 @@
 077.182.169.000=0 DE,Nordrhein-Westfalen,Waldbröl,50.8833,7.6167
 195.071.253.229@
 195.071.253.145@
-077.182.170.000=0 DE,Nordrhein-Westfalen,Siegen,50.8734,8.0104
+077.182.170.000=0 DE,Nordrhein-Westfalen,Siegen,50.8667,8.0333
 195.071.253.229@
 195.071.253.145@
-077.182.171.000=0 DE,Nordrhein-Westfalen,Siegen,50.8734,8.0104
+077.182.171.000=0 DE,Nordrhein-Westfalen,Siegen,50.8667,8.0333
 195.071.253.229@
 195.071.253.145@
 077.182.172.000=0 DE,Nordrhein-Westfalen,Kreuztal,50.9667,7.9833
@@ -4861,21 +4862,21 @@
 077.182.185.000=0 DE,Nordrhein-Westfalen,Netphen,50.9167,8.1
 195.071.253.145@
 195.071.253.229@
-077.182.186.000=0 DE,Nordrhein-Westfalen,Siegen,50.8734,8.0104
+077.182.186.000=0 DE,Nordrhein-Westfalen,Siegen,50.8667,8.0333
 195.071.253.229@
-077.182.187.000=0 DE,Nordrhein-Westfalen,Siegen,50.8734,8.0104
+077.182.187.000=0 DE,Nordrhein-Westfalen,Siegen,50.8667,8.0333
 195.071.253.145@
 195.071.253.229@
-077.182.188.000=0 DE,Nordrhein-Westfalen,Siegen,50.8734,8.0104
+077.182.188.000=0 DE,Nordrhein-Westfalen,Siegen,50.8667,8.0333
 195.071.253.229@
 195.071.253.145@
 077.182.189.000=0 DE,Nordrhein-Westfalen,Waldbröl,50.8833,7.6167
 195.071.253.145@
 195.071.253.229@
-077.182.190.000=0 DE,Nordrhein-Westfalen,Siegen,50.8734,8.0104
+077.182.190.000=0 DE,Nordrhein-Westfalen,Siegen,50.8667,8.0333
 195.071.253.145@
 195.071.253.229@
-077.182.191.000=0 DE,Nordrhein-Westfalen,Siegen,50.8734,8.0104
+077.182.191.000=0 DE,Nordrhein-Westfalen,Siegen,50.8667,8.0333
 195.071.253.229@
 195.071.253.145@
 213.020.052.195~xmws-sign-de01-vlan-2.nw.mediaways.net
@@ -4979,7 +4980,7 @@
 077.182.226.000=0 DE,Nordrhein-Westfalen,Wuppertal,51.2667,7.1833
 062.053.159.245@
 062.053.159.241@
-077.182.227.000=0 DE,Nordrhein-Westfalen,Wuppertal,51.2667,7.1833
+077.182.227.000=0 DE,Nordrhein-Westfalen,Solingen,51.1833,7.0833
 062.053.159.245@
 077.182.228.000=0 DE,Nordrhein-Westfalen,Solingen,51.1833,7.0833
 062.053.159.245@
@@ -5168,8 +5169,8 @@
 077.183.034.000=0 DE,Niedersachsen,Oldenburg,53.1667,8.2
 077.183.035.000=0 DE,Niedersachsen,Wilhelmshaven,53.5167,8.1333
 077.183.036.000=0 DE,Niedersachsen,Wilhelmshaven,53.5167,8.1333
-077.183.037.000=0 DE,,,51,9
-077.183.038.000=0 DE,,,51,9
+077.183.037.000=0 DE,Niedersachsen,Oldenburg,53.1667,8.2
+077.183.038.000=0 DE,Niedersachsen,Oldenburg,53.1667,8.2
 077.183.039.000=0 DE,Niedersachsen,Wilhelmshaven,53.5167,8.1333
 077.183.039.255=0*8
 =======8
@@ -5178,9 +5179,9 @@
 077.183.042.000=0 DE,Niedersachsen,Wilhelmshaven,53.5167,8.1333
 077.183.043.000=0 DE,Niedersachsen,Oldenburg,53.1667,8.2
 077.183.044.000=0 DE,Niedersachsen,Wilhelmshaven,53.5167,8.1333
-077.183.045.000=0 DE,,,51,9
-077.183.046.000=0 DE,,,51,9
-077.183.047.000=0 DE,,,51,9
+077.183.045.000=0 DE,Niedersachsen,Oldenburg,53.1667,8.2
+077.183.046.000=0 DE,Niedersachsen,Oldenburg,53.1667,8.2
+077.183.047.000=0 DE,Niedersachsen,Oldenburg,53.1667,8.2
 077.183.047.255=0*8
 =======16
 077.183.048.000=0 DE,Niedersachsen,Leer,53.2333,7.4333
@@ -5295,7 +5296,7 @@
 077.183.083.000=0 DE,Niedersachsen,Oldenburg,53.1667,8.2
 077.183.084.000=0 DE,Niedersachsen,Wilhelmshaven,53.5167,8.1333
 077.183.085.000=0 DE,Niedersachsen,Wilhelmshaven,53.5167,8.1333
-077.183.086.000=0 DE,,,51,9
+077.183.086.000=0 DE,Niedersachsen,Oldenburg,53.1667,8.2
 077.183.087.000=0 DE,Niedersachsen,Schortens,53.5333,7.95
 077.183.087.255=0*8
 =======8
@@ -5306,7 +5307,7 @@
 077.183.092.000=0 DE,Niedersachsen,Oldenburg,53.1667,8.2
 077.183.093.000=0 DE,Niedersachsen,Varel,53.4,8.1333
 077.183.094.000=0 DE,Niedersachsen,Jever,53.5833,7.9
-077.183.095.000=0 DE,,,51,9
+077.183.095.000=0 DE,Niedersachsen,Oldenburg,53.1667,8.2
 077.183.095.255=0*8
 =======32
 077.183.096.000=0 DE,Bremen,Bremen,53.0833,8.8
@@ -5422,7 +5423,7 @@
 077.183.130.000=0 DE,Nordrhein-Westfalen,Dortmund,51.5167,7.45
 077.183.131.000=0 DE,Nordrhein-Westfalen,Dortmund,51.5167,7.45
 077.183.132.000=0 DE,Nordrhein-Westfalen,Hagen,51.35,7.4667
-077.183.133.000=0 DE,,,51,9
+077.183.133.000=0 DE,Nordrhein-Westfalen,Iserlohn,51.3667,7.7
 077.183.134.000=0 DE,Nordrhein-Westfalen,Meinerzhagen,51.1167,7.65
 077.183.135.000=0 DE,Nordrhein-Westfalen,Dortmund,51.5167,7.45
 077.183.135.255=0*8
@@ -5439,31 +5440,31 @@
 =======16
 077.183.144.000=0 DE,Nordrhein-Westfalen,Dortmund,51.5167,7.45
 077.183.145.000=0 DE,Nordrhein-Westfalen,Hagen,51.35,7.4667
-077.183.146.000=0 DE,,,51,9
+077.183.146.000=0 DE,Nordrhein-Westfalen,Dortmund,51.5167,7.45
 077.183.147.000=0 DE,Nordrhein-Westfalen,Hagen,51.35,7.4667
 077.183.148.000=0 DE,Nordrhein-Westfalen,Lüdenscheid,51.2167,7.6167
 077.183.149.000=0 DE,Nordrhein-Westfalen,Hagen,51.35,7.4667
-077.183.150.000=0 DE,,,51,9
-077.183.151.000=0 DE,,,51,9
+077.183.150.000=0 DE,Nordrhein-Westfalen,Dortmund,51.5167,7.45
+077.183.151.000=0 DE,Nordrhein-Westfalen,Dortmund,51.5167,7.45
 077.183.151.255=0*8
 =======8
-077.183.152.000=0 DE,,,51,9
-077.183.153.000=0 DE,,,51,9
-077.183.154.000=0 DE,,,51,9
+077.183.152.000=0 DE,Nordrhein-Westfalen,Schwerte,51.45,7.5667
+077.183.153.000=0 DE,Nordrhein-Westfalen,Dortmund,51.5167,7.45
+077.183.154.000=0 DE,Nordrhein-Westfalen,Dortmund,51.5167,7.45
 077.183.155.000=0 DE,Nordrhein-Westfalen,Luedenscheid,51.2167,7.6167
-077.183.156.000=0 DE,,,51,9
+077.183.156.000=0 DE,Nordrhein-Westfalen,Hagen,51.35,7.4667
 077.183.157.000=0 DE,Nordrhein-Westfalen,Iserlohn,51.3667,7.7
 077.183.158.000=0 DE,Nordrhein-Westfalen,Menden,51.4333,7.8
-077.183.159.000=0 DE,,,51,9
+077.183.159.000=0 DE,Nordrhein-Westfalen,Hagen,51.35,7.4667
 077.183.159.255=0*8
 =======32
 077.183.160.000=0 DE,Nordrhein-Westfalen,Iserlohn,51.3667,7.7
 077.183.161.000=0 DE,Nordrhein-Westfalen,Lüdenscheid,51.2167,7.6167
 077.183.162.000=0 DE,Nordrhein-Westfalen,Herdecke,51.4,7.4333
-077.183.163.000=0 DE,,,51,9
+077.183.163.000=0 DE,Nordrhein-Westfalen,Dortmund,51.5167,7.45
 077.183.164.000=0 DE,Nordrhein-Westfalen,Dortmund,51.5167,7.45
-077.183.165.000=0 DE,,,51,9
-077.183.166.000=0 DE,,,51,9
+077.183.165.000=0 DE,Nordrhein-Westfalen,Iserlohn,51.3667,7.7
+077.183.166.000=0 DE,Nordrhein-Westfalen,Dortmund,51.5167,7.45
 077.183.167.000=0 DE,Nordrhein-Westfalen,Hagen,51.35,7.4667
 077.183.167.255=0*8
 =======8
@@ -5484,7 +5485,7 @@
 077.183.180.000=0 DE,Nordrhein-Westfalen,Dortmund,51.5167,7.45
 077.183.181.000=0 DE,Nordrhein-Westfalen,Schwerte,51.45,7.5667
 077.183.182.000=0 DE,Nordrhein-Westfalen,Hagen,51.35,7.4667
-077.183.183.000=0 DE,,,51,9
+077.183.183.000=0 DE,Nordrhein-Westfalen,Dortmund,51.5167,7.45
 077.183.183.255=0*8
 =======8
 077.183.184.000=0 DE,Nordrhein-Westfalen,Dortmund,51.5167,7.45
@@ -5538,7 +5539,7 @@
 077.183.204.000=0 DE,Thüringen,Erfurt,50.9833,11.0333
 062.053.242.245@
 062.053.242.241@
-077.183.205.000=0 DE,Thüringen,Erfurt,50.9833,11.0333
+077.183.205.000=0 DE,Thüringen,Apolda,51.0167,11.5
 062.053.242.241@
 062.053.242.245@
 077.183.206.000=0 DE,Thüringen,Erfurt,50.9833,11.0333
@@ -5830,8 +5831,8 @@
 077.184.032.000=0 DE,Sachsen-Anhalt,Halle,51.5,12
 077.184.033.000=0 DE,Sachsen-Anhalt,Halle,51.5,12
 077.184.034.000=0 DE,Sachsen-Anhalt,Dessau,51.8333,12.25
-077.184.035.000=0 DE,,,51,9
-077.184.036.000=0 DE,,,51,9
+077.184.035.000=0 DE,Sachsen-Anhalt,Halle,51.5,12
+077.184.036.000=0 DE,Sachsen-Anhalt,Halle,51.5,12
 077.184.037.000=0 DE,Sachsen-Anhalt,Halle,51.5,12
 077.184.038.000=0 DE,Sachsen-Anhalt,Halle,51.5,12
 077.184.039.000=0 DE,Sachsen-Anhalt,Halle,51.5,12
@@ -5852,16 +5853,16 @@
 077.184.050.000=0 DE,Sachsen-Anhalt,Halle,51.5,12
 077.184.051.000=0 DE,Sachsen-Anhalt,Halle,51.5,12
 077.184.052.000=0 DE,Sachsen-Anhalt,Merseburg,51.3667,12
-077.184.053.000=0 DE,,,51,9
+077.184.053.000=0 DE,Sachsen-Anhalt,Halle,51.5,12
 077.184.054.000=0 DE,Sachsen-Anhalt,Halle,51.5,12
-077.184.055.000=0 DE,,,51,9
+077.184.055.000=0 DE,Sachsen-Anhalt,Dessau,51.8333,12.25
 077.184.055.255=0*8
 =======8
 077.184.056.000=0 DE,Sachsen-Anhalt,Halle,51.5,12
 077.184.057.000=0 DE,Sachsen-Anhalt,Halle,51.5,12
 077.184.058.000=0 DE,Sachsen-Anhalt,Halle,51.5,12
 077.184.059.000=0 DE,Sachsen-Anhalt,Dessau,51.8333,12.25
-077.184.060.000=0 DE,,,51,9
+077.184.060.000=0 DE,Sachsen-Anhalt,Halle,51.5,12
 077.184.061.000=0 DE,Sachsen-Anhalt,Dessau,51.8333,12.25
 077.184.062.000=0 DE,Sachsen-Anhalt,Dessau,51.8333,12.25
 077.184.063.000=0 DE,Sachsen-Anhalt,Dessau,51.8333,12.25
@@ -5886,10 +5887,10 @@
 077.184.069.000=0 DE,Brandenburg,Rathenow,52.6,12.3333
 062.053.164.130@
 062.053.164.134@
-077.184.070.000=0 DE,Berlin,Berlin,52.5167,13.4
+077.184.070.000=0 DE,Brandenburg,Potsdam,52.4,13.0667
 062.053.164.130@
 062.053.164.134@
-077.184.071.000=0 DE,Berlin,Berlin,52.5167,13.4
+077.184.071.000=0 DE,Brandenburg,Potsdam,52.4,13.0667
 062.053.164.130@
 062.053.164.134@
 062.053.000.131~DE,Berlin,Berlin,52.5167,13.4
@@ -5926,12 +5927,12 @@
 062.053.000.117~DE,Berlin,Berlin,52.5167,13.4
 062.053.000.131~DE,Berlin,Berlin,52.5167,13.4
 =======16
-077.184.080.000=0 DE,Berlin,Berlin,52.5167,13.4
+077.184.080.000=0 DE,Brandenburg,Potsdam,52.4,13.0667
 062.053.164.134@
 062.053.164.130@
 077.184.081.000=0 DE,Brandenburg,Hennigsdorf,52.6333,13.2
 062.053.164.130@
-077.184.082.000=0 DE,Berlin,Berlin,52.5167,13.4
+077.184.082.000=0 DE,Brandenburg,Potsdam,52.4,13.0667
 062.053.164.134@
 077.184.083.000=0 DE,Brandenburg,Hennigsdorf,52.6333,13.2
 062.053.164.130@
@@ -5939,7 +5940,7 @@
 077.184.084.000=0 DE,Brandenburg,Brandenburg,52.4167,12.55
 062.053.164.130@
 062.053.164.134@
-077.184.085.000=0 DE,Berlin,Berlin,52.5167,13.4
+077.184.085.000=0 DE,Brandenburg,Potsdam,52.4,13.0667
 062.053.164.130@
 077.184.086.000=0 DE,Brandenburg,Hennigsdorf,52.6333,13.2
 062.053.164.134@
@@ -5967,7 +5968,7 @@
 077.184.092.000=0 DE,Brandenburg,Hennigsdorf,52.6333,13.2
 062.053.164.134@
 062.053.164.130@
-077.184.093.000=0 DE,Berlin,Berlin,52.5167,13.4
+077.184.093.000=0 DE,Brandenburg,Potsdam,52.4,13.0667
 062.053.164.134@
 062.053.164.130@
 077.184.094.000=0 DE,Berlin,Berlin,52.5167,13.4
@@ -6055,10 +6056,10 @@
 077.184.117.000=0 DE,Brandenburg,Velten,52.6833,13.1833
 062.053.164.130@
 062.053.164.134@
-077.184.118.000=0 DE,Berlin,Berlin,52.5167,13.4
+077.184.118.000=0 DE,Brandenburg,Potsdam,52.4,13.0667
 062.053.164.134@
 062.053.164.130@
-077.184.119.000=0 DE,Berlin,Berlin,52.5167,13.4
+077.184.119.000=0 DE,Brandenburg,Potsdam,52.4,13.0667
 062.053.164.134@
 062.053.164.130@
 062.053.000.133~xmwc-brln-de01-chan-4.nw.mediaways.net
@@ -6101,27 +6102,27 @@
 077.184.130.000=0 DE,Sachsen-Anhalt,Halle,51.5,12
 077.184.131.000=0 DE,Sachsen-Anhalt,Halle,51.5,12
 077.184.132.000=0 DE,Sachsen-Anhalt,Dessau,51.8333,12.25
-077.184.133.000=0 DE,,,51,9
+077.184.133.000=0 DE,Sachsen-Anhalt,Halle,51.5,12
 077.184.134.000=0 DE,Sachsen-Anhalt,Merseburg,51.3667,12
-077.184.135.000=0 DE,,,51,9
+077.184.135.000=0 DE,Sachsen-Anhalt,Halle,51.5,12
 077.184.135.255=0*8
 =======8
-077.184.136.000=0 DE,,,51,9
-077.184.137.000=0 DE,,,51,9
-077.184.138.000=0 DE,,,51,9
-077.184.139.000=0 DE,,,51,9
-077.184.140.000=0 DE,,,51,9
-077.184.141.000=0 DE,,,51,9
-077.184.142.000=0 DE,,,51,9
+077.184.136.000=0 DE,Sachsen-Anhalt,Halle,51.5,12
+077.184.137.000=0 DE,Sachsen-Anhalt,Halle,51.5,12
+077.184.138.000=0 DE,Sachsen-Anhalt,Halle,51.5,12
+077.184.139.000=0 DE,Sachsen-Anhalt,Halle,51.5,12
+077.184.140.000=0 DE,Sachsen-Anhalt,Dessau,51.8333,12.25
+077.184.141.000=0 DE,Sachsen-Anhalt,Halle,51.5,12
+077.184.142.000=0 DE,Sachsen-Anhalt,Halle,51.5,12
 077.184.143.000=0 DE,Sachsen-Anhalt,Dessau,51.8333,12.25
 077.184.143.255=0*8
 =======16
-077.184.144.000=0 DE,,,51,9
+077.184.144.000=0 DE,Sachsen-Anhalt,Halle,51.5,12
 077.184.145.000=0 DE,Sachsen-Anhalt,Halle,51.5,12
 077.184.146.000=0 DE,Sachsen-Anhalt,Halle,51.5,12
 077.184.147.000=0 DE,Sachsen-Anhalt,Dessau,51.8333,12.25
 077.184.148.000=0 DE,Sachsen-Anhalt,Dessau,51.8333,12.25
-077.184.149.000=0 DE,,,51,9
+077.184.149.000=0 DE,Sachsen-Anhalt,Halle,51.5,12
 077.184.150.000=0 DE,Sachsen-Anhalt,Halle,51.5,12
 077.184.151.000=0 DE,Sachsen-Anhalt,Halle,51.5,12
 077.184.151.255=0*8
@@ -6131,24 +6132,24 @@
 077.184.154.000=0 DE,Sachsen-Anhalt,Halle,51.5,12
 077.184.155.000=0 DE,Sachsen-Anhalt,Halle,51.5,12
 077.184.156.000=0 DE,Sachsen-Anhalt,Dessau,51.8333,12.25
-077.184.157.000=0 DE,,,51,9
-077.184.158.000=0 DE,,,51,9
-077.184.159.000=0 DE,,,51,9
+077.184.157.000=0 DE,Sachsen-Anhalt,Halle,51.5,12
+077.184.158.000=0 DE,Sachsen-Anhalt,Halle,51.5,12
+077.184.159.000=0 DE,Sachsen-Anhalt,Halle,51.5,12
 077.184.159.255=0*8
 =======32
-077.184.160.000=0 DE,,,51,9
-077.184.161.000=0 DE,,,51,9
+077.184.160.000=0 DE,Sachsen-Anhalt,Halle,51.5,12
+077.184.161.000=0 DE,Sachsen-Anhalt,Halle,51.5,12
 077.184.162.000=0 DE,Sachsen-Anhalt,Halle,51.5,12
 077.184.163.000=0 DE,Sachsen-Anhalt,Halle,51.5,12
 077.184.164.000=0 DE,Sachsen-Anhalt,Dessau,51.8333,12.25
 077.184.165.000=0 DE,Sachsen-Anhalt,Dessau,51.8333,12.25
 077.184.166.000=0 DE,Sachsen-Anhalt,Dessau,51.8333,12.25
-077.184.167.000=0 DE,,,51,9
+077.184.167.000=0 DE,Sachsen-Anhalt,Halle,51.5,12
 077.184.167.255=0*8
 =======8
-077.184.168.000=0 DE,,,51,9
-077.184.169.000=0 DE,,,51,9
-077.184.170.000=0 DE,,,51,9
+077.184.168.000=0 DE,Sachsen-Anhalt,Halle,51.5,12
+077.184.169.000=0 DE,Sachsen-Anhalt,Halle,51.5,12
+077.184.170.000=0 DE,Sachsen-Anhalt,Halle,51.5,12
 077.184.171.000=0 DE,Sachsen-Anhalt,Dessau,51.8333,12.25
 077.184.172.000=0 DE,Sachsen-Anhalt,Halle,51.5,12
 077.184.173.000=0 DE,Sachsen-Anhalt,Halle,51.5,12
@@ -6169,9 +6170,9 @@
 077.184.184.000=0 DE,Sachsen-Anhalt,Halle,51.5,12
 077.184.185.000=0 DE,Sachsen-Anhalt,Halle,51.5,12
 077.184.186.000=0 DE,Sachsen-Anhalt,Dessau,51.8333,12.25
-077.184.187.000=0 DE,,,51,9
-077.184.188.000=0 DE,,,51,9
-077.184.189.000=0 DE,,,51,9
+077.184.187.000=0 DE,Sachsen-Anhalt,Halle,51.5,12
+077.184.188.000=0 DE,Sachsen-Anhalt,Halle,51.5,12
+077.184.189.000=0 DE,Sachsen-Anhalt,Halle,51.5,12
 077.184.190.000=0 DE,Sachsen-Anhalt,Halle,51.5,12
 077.184.191.000=0 DE,Sachsen-Anhalt,Halle,51.5,12
 077.184.191.255=0*8
@@ -6305,15 +6306,15 @@
 =======8
 077.184.232.000=0 DE,Mecklenburg-Vorpommern,Neubrandenburg,53.5476,13.2555
 213.020.150.087@
-077.184.233.000=0 DE,Mecklenburg-Vorpommern,Neubrandenburg,53.5476,13.2555
+077.184.233.000=0 DE,Mecklenburg-Vorpommern,Neubrandenburg,53.5667,13.2667
 213.020.150.087@
-077.184.234.000=0 DE,Mecklenburg-Vorpommern,Neubrandenburg,53.5476,13.2555
+077.184.234.000=0 DE,Mecklenburg-Vorpommern,Neubrandenburg,53.5667,13.2667
 213.020.150.087@
-077.184.235.000=0 DE,Mecklenburg-Vorpommern,Neubrandenburg,53.5476,13.2555
+077.184.235.000=0 DE,Mecklenburg-Vorpommern,Neubrandenburg,53.5667,13.2667
 213.020.150.087@
-077.184.236.000=0 DE,Mecklenburg-Vorpommern,Neubrandenburg,53.5476,13.2555
+077.184.236.000=0 DE,Mecklenburg-Vorpommern,Neubrandenburg,53.5667,13.2667
 213.020.150.087@
-077.184.237.000=0 DE,Mecklenburg-Vorpommern,Neubrandenburg,53.5476,13.2555
+077.184.237.000=0 DE,Mecklenburg-Vorpommern,Neubrandenburg,53.5667,13.2667
 213.020.150.087@
 077.184.238.000=0 DE,Mecklenburg-Vorpommern,Neubrandenburg,53.5761,13.2797
 213.020.150.087@
@@ -6587,6 +6588,7 @@
 062.053.167.062~62.53.167.62
 077.185.063.255=0*64
 =======64
+077.185.064.000=0 DE,Berlin,Berlin,52.5167,13.4
 077.185.064.000=0 DE,Brandenburg,Potsdam,52.4,13.0667
 062.053.164.134@
 062.053.164.130@
@@ -6607,7 +6609,7 @@
 077.185.070.000=0 DE,Brandenburg,Potsdam,52.4,13.0667
 062.053.164.134@
 062.053.164.130@
-077.185.071.000=0 DE,Berlin,Berlin,52.5167,13.4
+077.185.071.000=0 DE,Brandenburg,Brandenburg,52.4167,12.55
 062.053.164.134@
 062.053.164.130@
 062.053.000.133~xmwc-brln-de01-chan-4.nw.mediaways.net
@@ -6624,7 +6626,7 @@
 077.185.074.000=0 DE,Brandenburg,Potsdam,52.4,13.0667
 062.053.164.130@
 062.053.164.134@
-077.185.075.000=0 DE,Berlin,Berlin,52.5167,13.4
+077.185.075.000=0 DE,Brandenburg,Brandenburg,52.4167,12.55
 062.053.164.130@
 062.053.164.134@
 077.185.076.000=0 DE,Brandenburg,Falkensee,52.5667,13.0833
@@ -6647,10 +6649,10 @@
 077.185.080.000=0 DE,Brandenburg,Eberswalde,52.8333,13.8333
 062.053.164.134@
 062.053.164.130@
-077.185.081.000=0 DE,Berlin,Berlin,52.5167,13.4
+077.185.081.000=0 DE,Brandenburg,Potsdam,52.4,13.0667
 062.053.164.130@
 062.053.164.134@
-077.185.082.000=0 DE,Berlin,Berlin,52.5167,13.4
+077.185.082.000=0 DE,Brandenburg,Potsdam,52.4,13.0667
 062.053.164.134@
 062.053.164.130@
 077.185.083.000=0 DE,Brandenburg,Hohen Neuendorf,52.6667,13.2833
@@ -6665,7 +6667,7 @@
 077.185.086.000=0 DE,Brandenburg,Hennigsdorf,52.6333,13.2
 062.053.164.130@
 062.053.164.134@
-077.185.087.000=0 DE,Berlin,Berlin,52.5167,13.4
+077.185.087.000=0 DE,Brandenburg,Potsdam,52.4,13.0667
 062.053.164.130@
 062.053.164.134@
 062.053.000.133~xmwc-brln-de01-chan-4.nw.mediaways.net
@@ -6688,10 +6690,10 @@
 077.185.092.000=0 DE,Brandenburg,Hennigsdorf,52.6333,13.2
 062.053.164.130@
 062.053.164.134@
-077.185.093.000=0 DE,Berlin,Berlin,52.5167,13.4
+077.185.093.000=0 DE,Brandenburg,Potsdam,52.4,13.0667
 062.053.164.130@
 062.053.164.134@
-077.185.094.000=0 DE,Berlin,Berlin,52.5167,13.4
+077.185.094.000=0 DE,Brandenburg,Velten,52.6833,13.1833
 062.053.164.130@
 062.053.164.134@
 077.185.095.000=0 DE,Brandenburg,Falkensee,52.5667,13.0833
@@ -6733,7 +6735,7 @@
 077.185.104.000=0 DE,Brandenburg,Hennigsdorf,52.6333,13.2
 062.053.164.130@
 062.053.164.134@
-077.185.105.000=0 DE,Berlin,Berlin,52.5167,13.4
+077.185.105.000=0 DE,Brandenburg,Potsdam,52.4,13.0667
 062.053.164.130@
 062.053.164.134@
 077.185.106.000=0 DE,Brandenburg,Brandenburg,52.4167,12.55
@@ -6792,7 +6794,7 @@
 077.185.121.000=0 DE,Brandenburg,Velten,52.6833,13.1833
 062.053.164.130@
 062.053.164.134@
-077.185.122.000=0 DE,Berlin,Berlin,52.5167,13.4
+077.185.122.000=0 DE,Brandenburg,Potsdam,52.4,13.0667
 062.053.164.134@
 062.053.164.130@
 077.185.123.000=0 DE,Brandenburg,Potsdam,52.4,13.0667
@@ -8624,7 +8626,7 @@
 195.071.244.125@
 077.187.163.000=0 DE,Niedersachsen,Gifhorn,52.4833,10.55
 195.071.244.125@
-077.187.164.000=0 DE,Niedersachsen,Braunschweig,52.2667,10.5333
+077.187.164.000=0 DE,Niedersachsen,Wolfenbüttel,52.1667,10.55
 195.071.244.125@
 195.071.244.121@
 077.187.165.000=0 DE,Niedersachsen,Wolfenbüttel,52.1667,10.55
@@ -8703,7 +8705,7 @@
 077.187.188.000=0 DE,Sachsen-Anhalt,Wernigerode,51.8333,10.7833
 195.071.244.125@
 195.071.244.121@
-077.187.189.000=0 DE,Niedersachsen,Braunschweig,52.2667,10.5333
+077.187.189.000=0 DE,Niedersachsen,Wolfenbüttel,52.1667,10.55
 195.071.244.121@
 195.071.244.125@
 077.187.190.000=0 DE,Niedersachsen,Salzgitter,52.0833,10.3333
@@ -8840,7 +8842,7 @@
 077.187.229.000=0 DE,Niedersachsen,Braunschweig,52.2667,10.5333
 195.071.244.121@
 195.071.244.125@
-077.187.230.000=0 DE,Niedersachsen,Braunschweig,52.2667,10.5333
+077.187.230.000=0 DE,Niedersachsen,Wolfenbüttel,52.1667,10.55
 195.071.244.125@
 195.071.244.121@
 077.187.231.000=0 DE,Niedersachsen,Braunschweig,52.2667,10.5333
@@ -9550,9 +9552,9 @@
 077.188.175.255=0*16
 =======16
 077.188.176.000=0 DE,Niedersachsen,Oldenburg,53.1667,8.2
-077.188.177.000=0 DE,,,51,9
+077.188.177.000=0 DE,Niedersachsen,Wilhelmshaven,53.5167,8.1333
 077.188.178.000=0 DE,Niedersachsen,Oldenburg,53.1667,8.2
-077.188.179.000=0 DE,,,51,9
+077.188.179.000=0 DE,Niedersachsen,Wilhelmshaven,53.5167,8.1333
 077.188.180.000=0 DE,Niedersachsen,Wilhelmshaven,53.5167,8.1333
 077.188.181.000=0 DE,Niedersachsen,Wilhelmshaven,53.5167,8.1333
 077.188.182.000=0 DE,Niedersachsen,Wilhelmshaven,53.5167,8.1333
@@ -9561,11 +9563,11 @@
 =======8
 077.188.184.000=0 DE,Niedersachsen,Wilhelmshaven,53.5167,8.1333
 077.188.185.000=0 DE,Niedersachsen,Wilhelmshaven,53.5167,8.1333
-077.188.186.000=0 DE,,,51,9
-077.188.187.000=0 DE,,,51,9
+077.188.186.000=0 DE,Niedersachsen,Oldenburg,53.1667,8.2
+077.188.187.000=0 DE,Niedersachsen,Oldenburg,53.1667,8.2
 077.188.188.000=0 DE,Niedersachsen,Oldenburg,53.1667,8.2
 077.188.189.000=0 DE,Niedersachsen,Wilhelmshaven,53.5167,8.1333
-077.188.190.000=0 DE,,,51,9
+077.188.190.000=0 DE,Niedersachsen,Oldenburg,53.1667,8.2
 077.188.191.000=0 DE,Niedersachsen,Wilhelmshaven,53.5167,8.1333
 077.188.191.255=0*8
 =======64
@@ -9680,17 +9682,17 @@
 077.188.224.000=0 DE,Niedersachsen,Wilhelmshaven,53.5167,8.1333
 077.188.225.000=0 DE,Niedersachsen,Oldenburg,53.1667,8.2
 077.188.226.000=0 DE,Niedersachsen,Oldenburg,53.1667,8.2
-077.188.227.000=0 DE,,,51,9
+077.188.227.000=0 DE,Niedersachsen,Wilhelmshaven,53.5167,8.1333
 077.188.228.000=0 DE,Niedersachsen,Oldenburg,53.1667,8.2
-077.188.229.000=0 DE,,,51,9
+077.188.229.000=0 DE,Niedersachsen,Wilhelmshaven,53.5167,8.1333
 077.188.230.000=0 DE,Niedersachsen,Wilhelmshaven,53.5167,8.1333
 077.188.231.000=0 DE,Niedersachsen,Wilhelmshaven,53.5167,8.1333
 077.188.231.255=0*8
 =======8
 077.188.232.000=0 DE,Niedersachsen,Wilhelmshaven,53.5167,8.1333
-077.188.233.000=0 DE,,,51,9
+077.188.233.000=0 DE,Niedersachsen,Oldenburg,53.1667,8.2
 077.188.234.000=0 DE,Niedersachsen,Oldenburg,53.1667,8.2
-077.188.235.000=0 DE,,,51,9
+077.188.235.000=0 DE,Niedersachsen,Wilhelmshaven,53.5167,8.1333
 077.188.236.000=0 DE,Niedersachsen,Oldenburg,53.1667,8.2
 077.188.237.000=0 DE,Niedersachsen,Wilhelmshaven,53.5167,8.1333
 077.188.238.000=0 DE,Niedersachsen,Oldenburg,53.1667,8.2
@@ -9698,8 +9700,8 @@
 077.188.239.255=0*8
 =======16
 077.188.240.000=0 DE,Niedersachsen,Wilhelmshaven,53.5167,8.1333
-077.188.241.000=0 DE,,,51,9
-077.188.242.000=0 DE,,,51,9
+077.188.241.000=0 DE,Niedersachsen,Oldenburg,53.1667,8.2
+077.188.242.000=0 DE,Niedersachsen,Oldenburg,53.1667,8.2
 077.188.243.000=0 DE,Niedersachsen,Oldenburg,53.1667,8.2
 077.188.244.000=0 DE,Niedersachsen,Wilhelmshaven,53.5167,8.1333
 077.188.245.000=0 DE,Niedersachsen,Oldenburg,53.1667,8.2
@@ -9708,7 +9710,7 @@
 077.188.247.255=0*8
 =======8
 077.188.248.000=0 DE,Niedersachsen,Oldenburg,53.1667,8.2
-077.188.249.000=0 DE,,,51,9
+077.188.249.000=0 DE,Niedersachsen,Wilhelmshaven,53.5167,8.1333
 077.188.250.000=0 DE,Niedersachsen,Oldenburg,53.1667,8.2
 077.188.251.000=0 DE,Niedersachsen,Wilhelmshaven,53.5167,8.1333
 077.188.252.000=0 DE,Niedersachsen,Oldenburg,53.1667,8.2
@@ -9719,7 +9721,7 @@
 =======256
 077.189.000.000=0 DE,Niedersachsen,Hannover,52.3667,9.7167
 077.189.001.000=0 DE,Niedersachsen,Hildesheim,52.15,9.9667
-077.189.002.000=0 DE,,,51,9
+077.189.002.000=0 DE,Niedersachsen,Hannover,52.3667,9.7167
 077.189.003.000=0 DE,Niedersachsen,Nordstemmen,52.1667,9.7833
 077.189.004.000=0 DE,Niedersachsen,Hannover,52.3667,9.7167
 077.189.005.000=0 DE,Niedersachsen,Burgdorf,52.45,10.0167
@@ -9729,7 +9731,7 @@
 =======8
 077.189.008.000=0 DE,Niedersachsen,Hannover,52.3667,9.7167
 077.189.009.000=0 DE,Niedersachsen,Hildesheim,52.15,9.9667
-077.189.010.000=0 DE,,,51,9
+077.189.010.000=0 DE,Niedersachsen,Hannover,52.3667,9.7167
 077.189.011.000=0 DE,Niedersachsen,Neustadt,52.4991,9.4743
 077.189.012.000=0 DE,Niedersachsen,Lehrte,52.3833,9.9667
 077.189.013.000=0 DE,Niedersachsen,Celle,52.6167,10.0833
@@ -9748,9 +9750,9 @@
 077.189.023.255=0*8
 =======8
 077.189.024.000=0 DE,Niedersachsen,Peine,52.3167,10.2333
-077.189.025.000=0 DE,,,51,9
-077.189.026.000=0 DE,,,51,9
-077.189.027.000=0 DE,,,51,9
+077.189.025.000=0 DE,Niedersachsen,Hannover,52.3667,9.7167
+077.189.026.000=0 DE,Niedersachsen,Hannover,52.3667,9.7167
+077.189.027.000=0 DE,Niedersachsen,Hannover,52.3667,9.7167
 077.189.028.000=0 DE,Niedersachsen,Hildesheim,52.15,9.9667
 077.189.029.000=0 DE,Niedersachsen,Hannover,52.3667,9.7167
 077.189.030.000=0 DE,Niedersachsen,Hannover,52.3667,9.7167
@@ -10768,7 +10770,7 @@
 195.071.027.109~rdsl-nrbg-de01-chan-2.nw.mediaways.net
 195.071.027.105~rdsl-nrbg-de01-chan-1.nw.mediaways.net
 =======8
-077.190.104.000=0 DE,Bayern,Nürnberg,49.4478,11.0683
+077.190.104.000=0 DE,Bayern,Erlangen,49.5897,11.0039
 195.071.027.105@
 195.071.027.109@
 077.190.105.000=0 DE,Bayern,Nürnberg,49.4478,11.0683
@@ -10978,29 +10980,29 @@
 077.190.201.000=0 DE,Schleswig-Holstein,Kiel,54.3333,10.1333
 077.190.202.000=0 DE,Schleswig-Holstein,Kiel,54.3333,10.1333
 077.190.203.000=0 DE,Niedersachsen,Vechta,52.7167,8.2833
-077.190.204.000=0 DE,,,51,9
-077.190.205.000=0 DE,,,51,9
-077.190.206.000=0 DE,,,51,9
-077.190.207.000=0 DE,,,51,9
+077.190.204.000=0 DE,Schleswig-Holstein,Kiel,54.3333,10.1333
+077.190.205.000=0 DE,Schleswig-Holstein,Kiel,54.3333,10.1333
+077.190.206.000=0 DE,Schleswig-Holstein,Kiel,54.3333,10.1333
+077.190.207.000=0 DE,Schleswig-Holstein,Kiel,54.3333,10.1333
 077.190.207.255=0*8
 =======16
-077.190.208.000=0 DE,,,51,9
-077.190.209.000=0 DE,,,51,9
-077.190.210.000=0 DE,,,51,9
-077.190.211.000=0 DE,,,51,9
-077.190.212.000=0 DE,,,51,9
-077.190.213.000=0 DE,,,51,9
-077.190.214.000=0 DE,,,51,9
-077.190.215.000=0 DE,,,51,9
+077.190.208.000=0 DE,Schleswig-Holstein,Kiel,54.3333,10.1333
+077.190.209.000=0 DE,Schleswig-Holstein,Kiel,54.3333,10.1333
+077.190.210.000=0 DE,Schleswig-Holstein,Kiel,54.3333,10.1333
+077.190.211.000=0 DE,Schleswig-Holstein,Kiel,54.3333,10.1333
+077.190.212.000=0 DE,Schleswig-Holstein,Kiel,54.3333,10.1333
+077.190.213.000=0 DE,Schleswig-Holstein,Kiel,54.3333,10.1333
+077.190.214.000=0 DE,Schleswig-Holstein,Kiel,54.3333,10.1333
+077.190.215.000=0 DE,Schleswig-Holstein,Kiel,54.3333,10.1333
 077.190.215.255=0*8
 =======8
-077.190.216.000=0 DE,,,51,9
-077.190.217.000=0 DE,,,51,9
-077.190.218.000=0 DE,,,51,9
-077.190.219.000=0 DE,,,51,9
-077.190.220.000=0 DE,,,51,9
-077.190.221.000=0 DE,,,51,9
-077.190.222.000=0 DE,,,51,9
+077.190.216.000=0 DE,Schleswig-Holstein,Kiel,54.3333,10.1333
+077.190.217.000=0 DE,Schleswig-Holstein,Kiel,54.3333,10.1333
+077.190.218.000=0 DE,Schleswig-Holstein,Kiel,54.3333,10.1333
+077.190.219.000=0 DE,Schleswig-Holstein,Kiel,54.3333,10.1333
+077.190.220.000=0 DE,Schleswig-Holstein,Kiel,54.3333,10.1333
+077.190.221.000=0 DE,Schleswig-Holstein,Kiel,54.3333,10.1333
+077.190.222.000=0 DE,Schleswig-Holstein,Kiel,54.3333,10.1333
 077.190.223.000=0 DE,Niedersachsen,Oldenburg,53.1667,8.2
 077.190.223.255=0*8
 =======32
@@ -11058,13 +11060,13 @@
 077.191.009.000=0 DE,Bayern,Nürnberg,49.4478,11.0683
 077.191.010.000=0 DE,Bayern,Nürnberg,49.4478,11.0683
 077.191.011.000=0 DE,Bayern,Nürnberg,49.4478,11.0683
-077.191.012.000=0 DE,,,51,9
+077.191.012.000=0 DE,Bayern,Erlangen,49.5897,11.0039
 077.191.013.000=0 DE,Bayern,Nürnberg,49.4478,11.0683
 077.191.014.000=0 DE,Bayern,Nürnberg,49.4478,11.0683
 077.191.015.000=0 DE,Bayern,Nürnberg,49.4478,11.0683
 077.191.015.255=0*8
 =======16
-077.191.016.000=0 DE,,,51,9
+077.191.016.000=0 DE,Bayern,Erlangen,49.5897,11.0039
 077.191.017.000=0 DE,Bayern,Erlangen,49.5897,11.0039
 077.191.018.000=0 DE,Bayern,Heroldsberg,49.5339,11.1556
 077.191.019.000=0 DE,Bayern,Nürnberg,49.4478,11.0683
@@ -11078,10 +11080,10 @@
 077.191.025.000=0 DE,Bayern,Heroldsberg,49.5339,11.1556
 077.191.026.000=0 DE,Bayern,Erlangen,49.5897,11.0039
 077.191.027.000=0 DE,Bayern,Marloffstein,49.6167,11.0667
-077.191.028.000=0 DE,,,51,9
-077.191.029.000=0 DE,,,51,9
+077.191.028.000=0 DE,Bayern,Nürnberg,49.4478,11.0683
+077.191.029.000=0 DE,Bayern,Nürnberg,49.4478,11.0683
 077.191.030.000=0 DE,Bayern,Erlangen,49.5897,11.0039
-077.191.031.000=0 DE,,,51,9
+077.191.031.000=0 DE,Bayern,Nürnberg,49.4478,11.0683
 077.191.031.255=0*8
 =======32
 077.191.032.000=0 DE,Bayern,Nürnberg,49.4478,11.0683
@@ -11111,7 +11113,7 @@
 195.071.240.001~rdsl-nrbg-de02-chan-1.nw.mediaways.net
 195.071.240.005~rdsl-nrbg-de02-chan-2.nw.mediaways.net
 =======8
-077.191.040.000=0 DE,Bayern,Nürnberg,49.4478,11.0683
+077.191.040.000=0 DE,Bayern,Fürth,49.4667,10.9667
 195.071.240.001@
 195.071.240.005@
 077.191.041.000=0 DE,Bayern,Nürnberg,49.4478,11.0683
@@ -11201,10 +11203,10 @@
 077.191.066.000=0 DE,Bayern,Nürnberg,49.4478,11.0683
 195.071.027.109@
 195.071.027.105@
-077.191.067.000=0 DE,Bayern,Nürnberg,49.4478,11.0683
+077.191.067.000=0 DE,Bayern,Erlangen,49.5897,11.0039
 195.071.027.105@
 195.071.027.109@
-077.191.068.000=0 DE,Bayern,Nürnberg,49.4478,11.0683
+077.191.068.000=0 DE,Bayern,Erlangen,49.5897,11.0039
 195.071.027.105@
 195.071.027.109@
 077.191.069.000=0 DE,Bayern,Erlangen,49.5897,11.0039
@@ -11234,7 +11236,7 @@
 077.191.076.000=0 DE,Bayern,Nürnberg,49.4478,11.0683
 195.071.027.109@
 195.071.027.105@
-077.191.077.000=0 DE,Bayern,Nürnberg,49.4478,11.0683
+077.191.077.000=0 DE,Bayern,Erlangen,49.5897,11.0039
 195.071.027.109@
 195.071.027.105@
 077.191.078.000=0 DE,Bayern,Nürnberg,49.4478,11.0683
@@ -11524,7 +11526,7 @@
 077.191.181.000=0 DE,Bayern,Erlangen,49.5897,11.0039
 195.071.027.109@
 195.071.027.105@
-077.191.182.000=0 DE,Bayern,Nürnberg,49.4478,11.0683
+077.191.182.000=0 DE,Bayern,Bamberg,49.8667,10.8667
 195.071.027.109@
 195.071.027.105@
 077.191.183.000=0 DE,Bayern,Bamberg,49.8667,10.8667
@@ -11542,7 +11544,7 @@
 077.191.186.000=0 DE,Bayern,Ansbach,49.3,10.5833
 195.071.027.109@
 195.071.027.105@
-077.191.187.000=0 DE,Bayern,Nürnberg,49.4478,11.0683
+077.191.187.000=0 DE,Bayern,Erlangen,49.5897,11.0039
 195.071.027.105@
 195.071.027.109@
 077.191.188.000=0 DE,Bayern,Nürnberg,49.4478,11.0683
@@ -11668,7 +11670,7 @@
 077.191.224.000=0 DE,Bayern,Bayreuth,49.9481,11.5783
 062.053.250.118@
 062.053.250.114@
-077.191.225.000=0 DE,Bayern,Bayreuth,49.9481,11.5783
+077.191.225.000=0 DE,Bayern,Hof,50.3167,11.9167
 062.053.250.114@
 062.053.250.118@
 077.191.226.000=0 DE,Bayern,Kulmbach,50.1,11.45

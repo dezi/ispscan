@@ -320,18 +320,17 @@ function ScheduleMtrLogsTask($task,&$request)
 	
 	$request[ "what" ] = "mtrlogs";
 	$request[ "test" ] = GetCheckISP($isp,"mtrlogs");
-	$request[ "ping" ]   = 1; // Ping before mtr.
-	$request[ "mtrc" ]   = 1; // One mtr round per IP.
-	$request[ "mtrd" ]   = 5; // Maximum different routes needed.
+	$request[ "ping" ] = 1; // Ping before mtr.
+	$request[ "mtrc" ] = 1; // One mtr round per IP.
+	$request[ "mtrd" ] = 5; // Maximum different routes needed.
+	$request[ "from" ] = Bin2IP(IP2Bin($subnetdata[ "ip" ]) +   3);
+	$request[ "upto" ] = Bin2IP(IP2Bin($subnetdata[ "ip" ]) + 250);
 	
 	if (isset($subnetdata[ "gw" ]))
 	{
 		$request[ "mtrd" ]   = 5; // Maximum different routes needed.
 		$request[ "list" ][] = Bin2IP(IP2Bin($subnetdata[ "gw" ]) +  0);
 	}
-	
-	$request[ "from" ]   = Bin2IP(IP2Bin($subnetdata[ "ip" ]) +   1);
-	$request[ "upto" ]   = Bin2IP(IP2Bin($subnetdata[ "ip" ]) + 128);
 	
 	$trans = &$GLOBALS[ "transactions" ][ $request[ "guid" ] ];
 	

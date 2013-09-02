@@ -591,11 +591,11 @@
 062.053.001.143~rmwc-mnch-de01-so-3-1-0-0.nw.mediaways.net
 062.053.001.141~rmwc-mnch-de01-so-1-1-0-0.nw.mediaways.net
 062.053.001.139~rmwc-mnch-de01-so-0-1-0-0.nw.mediaways.net
-062.053.003.161~62.53.3.161
+062.053.003.161~rmws-rgnb-de01-pos-0-1-1.nw.mediaways.net
 213.020.173.167~xmwc-mnch-de01-vlan-2.nw.mediaways.net
 062.053.002.221~rmws-agsb-de01-pos-0-1-0.nw.mediaways.net
 062.053.002.217~62.53.2.217
-062.053.003.159~62.53.3.159
+062.053.003.159~rmws-rgnb-de01-pos-0-1-0.nw.mediaways.net
 062.053.002.219~62.53.2.219
 195.071.233.251~xmws-mnch-de01-vlan-2.nw.mediaways.net
 213.020.155.206~rbms-mnch-de01-gigaet-0-1.nw.mediaways.net
@@ -906,7 +906,7 @@
 062.053.002.219~62.53.2.219
 062.053.002.217~62.53.2.217
 062.053.001.141~rmwc-mnch-de01-so-1-1-0-0.nw.mediaways.net
-062.053.003.157~62.53.3.157
+062.053.003.157~rmws-kemp-de02-chan-2-0.nw.mediaways.net
 062.053.001.139~rmwc-mnch-de01-so-0-1-0-0.nw.mediaways.net
 062.053.001.155~rmws-mgdb-de01-pos-0-1-0.nw.mediaways.net
 213.020.150.193~DE,Berlin,Berlin,52.5167,13.4

@@ -290,6 +290,21 @@ function InspectRange($ipfrom,$iptoto,$netbound = 1,$nowrite = false)
 		fclose($oldfd);
 	}
 
+	if ($isp == "de/vfxxxxx")
+	{
+		//
+		// Experimental force exactly 4 cnets.
+		//
+		
+		$tunenet  = array();
+		$manbound = 4;
+		
+		for ($ip = $from; $ip < $toto; $ip += ($manbound * 256))
+		{
+			$tunenet[ IPZero($ip + ($manbound * 256) - 1) ] = "=0*" . $manbound;
+		}
+	}
+	
 	//
 	// Read no traceroute routers from config if required
 	// and merge with existing network ranges.
@@ -626,6 +641,7 @@ function InspectRange($ipfrom,$iptoto,$netbound = 1,$nowrite = false)
 					
 				echo IPZero($from - 1) . $tunenet[ IPZero($from - 1) ]. "\n";
 				fputs($logfd,IPZero($from - 1) . $tunenet[ IPZero($from - 1) ]. "\n");
+				$wantline = true;
 			}
 		}
 				
@@ -676,7 +692,6 @@ function InspectRange($ipfrom,$iptoto,$netbound = 1,$nowrite = false)
 		// Replace similar geo positions.
 		//
 		
-		/*
 		if (isset($tuneups[ $ipzero ]) &&
 			(count($tuneups[ $ipzero ]) == 1) &&
 			(substr($tuneups[ $ipzero ][ 0 ],2) != substr($rest,2)))
@@ -695,7 +710,6 @@ function InspectRange($ipfrom,$iptoto,$netbound = 1,$nowrite = false)
 				$tuneups[ $ipzero ][ 0 ] = $rest;
 			}
 		}
-		*/
 		
 		if (isset($tuneups[ $ipzero ]))
 		{
@@ -833,7 +847,22 @@ function Explore($isp,$minsize,$netbound)
 	
 	if ($isp == "de/vf")
 	{
-		Explore("de/vf",130000,8);
+	  //InspectRange("002.200.000.000","002.207.255.255",8);
+	  //InspectRange("077.024.000.000","077.025.255.255",8);
+	  //InspectRange("082.082.000.000","082.083.255.255",8);
+	  //InspectRange("084.056.000.000","084.063.255.255",8);
+	  
+	  InspectRange("088.064.000.000","088.079.255.255",8);
+	  InspectRange("090.186.000.000","090.187.255.255",8);
+	  InspectRange("092.072.000.000","092.079.255.255",8);
+	  InspectRange("094.216.000.000","094.223.255.255",8);
+	  InspectRange("109.040.000.000","109.047.255.255",8);
+	  InspectRange("109.084.000.000","109.085.255.255",8);
+	  InspectRange("176.094.000.000","176.095.255.255",8);
+	  InspectRange("178.000.000.000","178.015.255.255",8);
+	  InspectRange("188.096.000.000","188.111.255.255",8);
+
+		//Explore("de/vf",130000,8);
 	}
 
 	if ($isp == "de/tf")

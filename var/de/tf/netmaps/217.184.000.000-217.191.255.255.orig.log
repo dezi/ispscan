@@ -706,7 +706,7 @@
 217.186.025.000=0 DE,Sachsen-Anhalt,Halle,51.5,12
 062.053.164.181@
 062.053.164.177@
-217.186.026.000=0 DE,Sachsen-Anhalt,Halle,51.5,12
+217.186.026.000=0 DE,Sachsen-Anhalt,Dessau,51.8333,12.25
 062.053.164.177@
 062.053.164.181@
 217.186.027.000=0 DE,Sachsen-Anhalt,Halle,51.5,12
@@ -971,17 +971,17 @@
 217.186.128.000=0 DE,Sachsen,Dresden,51.05,13.75
 217.186.129.000=0 DE,Sachsen,Heidenau,50.9833,13.8667
 217.186.130.000=0 DE,Sachsen,Dresden,51.05,13.75
-217.186.131.000=0 DE,,,51,9
+217.186.131.000=0 DE,Sachsen,Heidenau,50.9833,13.8667
 217.186.132.000=0 DE,,,51,9
 217.186.133.000=0 DE,Sachsen,Dresden,51.05,13.75
 217.186.134.000=0 DE,Sachsen,Dohna,50.95,13.8667
-217.186.135.000=0 DE,,,51,9
+217.186.135.000=0 DE,Sachsen,Dresden,51.05,13.75
 217.186.135.255=0*8
 =======8
-217.186.136.000=0 DE,,,51,9
-217.186.137.000=0 DE,,,51,9
-217.186.138.000=0 DE,,,51,9
-217.186.139.000=0 DE,,,51,9
+217.186.136.000=0 DE,Sachsen,Dresden,51.05,13.75
+217.186.137.000=0 DE,Sachsen,Dresden,51.05,13.75
+217.186.138.000=0 DE,Sachsen,Dresden,51.05,13.75
+217.186.139.000=0 DE,Sachsen,Dresden,51.05,13.75
 217.186.140.000=0 DE,Sachsen,Dresden,51.05,13.75
 217.186.141.000=0 DE,Sachsen,Dresden,51.05,13.75
 217.186.142.000=0 DE,Sachsen,Heidenau,50.9833,13.8667
@@ -1031,6 +1031,7 @@
 195.071.246.234@
 195.071.246.238@
 217.186.165.000=0 DE,Sachsen,Dresden,51.05,13.75
+217.186.165.000!0 DE,Sachsen,Rothenburg,51.3333,14.9667
 217.186.166.000=0 DE,Sachsen,Thiendorf,51.3,13.75
 195.071.246.234@
 217.186.167.000=0 DE,Sachsen,Dresden,51.05,13.75
@@ -1045,7 +1046,7 @@
 217.186.170.000=0 DE,Sachsen,Bautzen,51.1833,14.4333
 217.186.171.000=0 DE,Sachsen,Bautzen,51.1833,14.4333
 062.053.183.250~rmws-btzn-de01-so-0-0-0-0.nw.mediaways.net
-062.053.183.082~rmws-btzn-de02.nw.mediaways.net
+062.053.183.082~rmws-btzn-de02-so-0-0-0-0.nw.mediaways.net
 217.186.171.255=0*4
 -------
 217.186.172.000=0 DE,Brandenburg,Cottbus,51.7667,14.3333
@@ -1422,7 +1423,7 @@
 217.187.081.000=0 DE,Nordrhein-Westfalen,Siegen,50.8667,8.0333
 217.187.082.000=0 DE,Nordrhein-Westfalen,Wenden,50.9667,7.8667
 213.020.052.205@
-217.187.083.000=0 DE,Nordrhein-Westfalen,Siegen,50.8667,8.0333
+217.187.083.000=0 DE,Nordrhein-Westfalen,Wenden,50.988,7.845
 213.020.052.205@
 213.020.052.136@
 062.053.002.123~rmws-sign-de02-ge-0-1-0-0.nw.mediaways.net
@@ -1443,7 +1444,7 @@
 217.187.091.000=0 DE,Nordrhein-Westfalen,Essen,51.45,7.0167
 217.187.092.000=0 DE,Nordrhein-Westfalen,Bocholt,51.8333,6.6
 217.187.093.000=0 DE,Nordrhein-Westfalen,Castrop-Rauxel,51.55,7.3167
-217.187.094.000=0 DE,,,51,9
+217.187.094.000=0 DE,Nordrhein-Westfalen,Essen,51.45,7.0167
 217.187.095.000=0 DE,Nordrhein-Westfalen,Oberhausen,51.4667,6.85
 217.187.095.255=0*8
 =======32
@@ -1524,7 +1525,7 @@
 195.071.252.073@
 217.187.137.000=0 DE,Nordrhein-Westfalen,Bochum,51.4833,7.2167
 195.071.252.073@
-217.187.138.000=0 DE,Nordrhein-Westfalen,Bochum,51.4833,7.2167
+217.187.138.000=0 DE,Nordrhein-Westfalen,Witten,51.4333,7.3333
 195.071.252.073@
 217.187.139.000=0 DE,Nordrhein-Westfalen,Herne,51.55,7.2167
 195.071.252.073@
@@ -1555,7 +1556,7 @@
 217.187.148.000=0 DE,Nordrhein-Westfalen,Wetter,51.3833,7.4
 195.071.252.077@
 195.071.252.073@
-217.187.149.000=0 DE,Nordrhein-Westfalen,Bochum,51.4833,7.2167
+217.187.149.000=0 DE,Nordrhein-Westfalen,Herne,51.55,7.2167
 195.071.252.073@
 217.187.150.000=0 DE,Nordrhein-Westfalen,Herne,51.55,7.2167
 195.071.252.077@
@@ -1710,10 +1711,10 @@
 217.187.232.000=0 DE,Niedersachsen,Oldenburg,53.1667,8.2
 217.187.233.000=0 DE,Niedersachsen,Oldenburg,53.1667,8.2
 217.187.234.000=0 DE,,,51,9
-217.187.235.000=0 DE,,,51,9
+217.187.235.000=0 DE,Niedersachsen,Oldenburg,53.1667,8.2
 217.187.236.000=0 DE,Niedersachsen,Wilhelmshaven,53.5167,8.1333
-217.187.237.000=0 DE,,,51,9
-217.187.238.000=0 DE,,,51,9
+217.187.237.000=0 DE,Niedersachsen,Oldenburg,53.1667,8.2
+217.187.238.000=0 DE,Niedersachsen,Oldenburg,53.1667,8.2
 217.187.239.000=0 DE,Niedersachsen,Wilhelmshaven,53.5167,8.1333
 217.187.239.255=0*8
 =======16
@@ -1883,7 +1884,7 @@
 217.188.063.000=0 DE,Nordrhein-Westfalen,Gütersloh,51.9,8.3833
 195.071.226.030~xmws-gtso-de02-chan-102.nw.mediaways.net
 195.071.226.026~xmws-gtso-de01-chan-101.nw.mediaways.net
-217.188.063.255=0*8
+217.188.063.255=0*4
 =======64
 217.188.064.000=0 DE,,,51,9
 217.188.065.000=0 DE,,,51,9
@@ -2188,7 +2189,7 @@
 062.053.000.240~xmwc-frnk-de01-chan-4.nw.mediaways.net
 062.053.001.108~rmwc-brln-de02-chan-2-0.nw.mediaways.net
 195.071.188.125~rmwc-brln-de02-ge-4-0-0-0.nw.mediaways.net
-217.188.247.255=0*4
+217.188.247.255=0*2
 =======8
 217.188.248.000=0 DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
 217.188.249.000=0 DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
@@ -2297,7 +2298,7 @@
 217.189.070.000=0 DE,Baden-Württemberg,Sulzfeld,49.1047,8.8558
 062.052.051.225@
 062.052.051.229@
-217.189.071.000=0 DE,Baden-Württemberg,Mannheim,49.4883,8.4647
+217.189.071.000=0 DE,Rheinland-Pfalz,Carlsberg,49.5039,8.0417
 062.052.051.229@
 062.052.051.225@
 213.020.250.123~xmws-mnhm-de02-vlan-3.nw.mediaways.net
@@ -2509,8 +2510,7 @@
 213.020.172.242@
 217.189.173.000=0 DE,Bayern,Augsburg,48.3667,10.8833
 213.020.172.242@
-217.189.174.000=0 DE,Bayern,Augsburg,48.3667,10.8833
-217.189.174.000!0 DE,Bayern,Höchstadt,49.7,10.8
+217.189.174.000=0 DE,Bayern,Höchstadt,49.7,10.8
 213.020.172.242@
 217.189.175.000=0 DE,Bayern,Sielenbach,48.4,11.1667
 213.020.172.242@
@@ -2626,7 +2626,7 @@
 217.189.236.000=0 DE,Bayern,München,48.15,11.5833
 213.020.153.078@
 213.020.153.074@
-217.189.237.000=0 DE,Bayern,München,48.15,11.5833
+217.189.237.000=0 DE,Bayern,Dachau,48.2667,11.4333
 213.020.153.074@
 213.020.153.078@
 217.189.238.000=0 DE,Bayern,München,48.15,11.5833
@@ -2700,7 +2700,7 @@
 217.190.028.000=0 DE,Baden-Württemberg,Eigeltingen,47.8667,8.9
 213.020.221.052@
 213.020.221.042@
-217.190.029.000=0 DE,Baden-Württemberg,Konstanz,47.6667,9.1833
+217.190.029.000=0 DE,Baden-Württemberg,Meersburg,47.7,9.2667
 213.020.221.042@
 217.190.030.000=0 DE,Baden-Württemberg,Stockach,47.85,9.0167
 217.190.031.000=0 DE,Baden-Württemberg,Stockach,47.85,9.0167
@@ -3258,7 +3258,7 @@
 217.191.026.000=0 DE,Nordrhein-Westfalen,Rödinghausen,52.25,8.4833
 195.071.043.154@
 195.071.043.158@
-217.191.027.000=0 DE,Nordrhein-Westfalen,Bielefeld,52.0333,8.5333
+217.191.027.000=0 DE,Nordrhein-Westfalen,Herzebrock,51.8833,8.25
 195.071.043.158@
 195.071.043.154@
 217.191.028.000=0 DE,Nordrhein-Westfalen,Bünde,52.2,8.5833
@@ -3278,7 +3278,7 @@
 217.191.031.255=0*8
 =======32
 217.191.032.000=0 DE,Niedersachsen,Osnabrück,52.2667,8.05
-217.191.033.000=0 DE,,,51,9
+217.191.033.000=0 DE,Niedersachsen,Belm,52.3,8.1333
 217.191.034.000=0 DE,Niedersachsen,Meppen,52.6986,7.2933
 217.191.035.000=0 DE,Niedersachsen,Osnabrück,52.2667,8.05
 217.191.036.000=0 DE,Niedersachsen,Belm,52.3,8.1333
@@ -3287,6 +3287,7 @@
 217.191.039.000=0 DE,Niedersachsen,Osnabrück,52.244,8.0613
 217.191.039.255=0*8
 =======8
+217.191.040.000=0 DE,Nordrhein-Westfalen,Bielefeld,52.0333,8.5333
 217.191.040.000=0 DE,Nordrhein-Westfalen,Hiddenhausen,52.1667,8.6167
 195.071.227.093@
 217.191.041.000=0 DE,Nordrhein-Westfalen,Minden,52.2833,8.9167
@@ -3294,7 +3295,7 @@
 195.071.227.089@
 217.191.042.000=0 DE,Nordrhein-Westfalen,Minden,52.2833,8.9167
 195.071.227.093@
-217.191.043.000=0 DE,Nordrhein-Westfalen,Bielefeld,52.0333,8.5333
+217.191.043.000=0 DE,Nordrhein-Westfalen,Kirchlengern,52.2,8.6333
 195.071.227.089@
 195.071.227.093@
 195.071.086.058~xmws-blfd-de04-vlan-4.nw.mediaways.net
@@ -3305,12 +3306,12 @@
 195.071.096.206@
 217.191.045.000=0 DE,Hessen,Calden,51.4167,9.4
 195.071.096.206@
-217.191.046.000=0 DE,Hessen,Kassel,51.3167,9.5
-217.191.047.000=0 DE,Hessen,Kassel,51.3167,9.5
+217.191.046.000=0 DE,Hessen,Volkmarsen,51.4,9.1167
+217.191.047.000=0 DE,Hessen,Volkmarsen,51.4,9.1167
 195.071.096.206@
 062.053.002.175~xmws-kssl-de03-xe-0-2-0-0.nw.mediaways.net
 062.053.002.197~xmws-kssl-de04-xe-0-2-0-0.nw.mediaways.net
-217.191.047.255=0*8
+217.191.047.255=0*4
 =======16
 217.191.048.000=0 DE,Nordrhein-Westfalen,Münster,51.9667,7.6333
 195.071.010.245@
@@ -3539,7 +3540,7 @@
 217.191.132.000=0 DE,Schleswig-Holstein,Hohn,54.3,9.5
 217.191.133.000=0 DE,Schleswig-Holstein,Nortorf,54.1667,9.8667
 217.191.134.000=0 DE,Niedersachsen,Hammah,53.6167,9.3667
-217.191.135.000=0 DE,,,51,9
+217.191.135.000=0 DE,Niedersachsen,Salzhausen,53.2333,10.1667
 217.191.135.255=0*8
 =======8
 217.191.136.000=0 DE,Hamburg,Hamburg,53.55,10
@@ -3599,18 +3600,18 @@
 217.191.160.000=0 DE,Hamburg,Hamburg,53.55,10
 217.191.161.000=0 DE,Hamburg,Hamburg,53.55,10
 217.191.162.000=0 DE,Schleswig-Holstein,Bimöhlen,53.9333,9.95
-217.191.163.000=0 DE,,,51,9
-217.191.164.000=0 DE,,,51,9
+217.191.163.000=0 DE,Hamburg,Hamburg,53.55,10
+217.191.164.000=0 DE,Hamburg,Hamburg,53.55,10
 217.191.165.000=0 DE,Schleswig-Holstein,Pinneberg,53.6591,9.8009
 217.191.166.000=0 DE,Schleswig-Holstein,Tornesch,53.7,9.7167
-217.191.167.000=0 DE,,,51,9
+217.191.167.000=0 DE,Hamburg,Hamburg,53.55,10
 217.191.167.255=0*8
 =======8
 217.191.168.000=0 DE,Hamburg,Hamburg,53.55,10
 217.191.169.000=0 DE,Schleswig-Holstein,Ahrensburg,53.6833,10.25
-217.191.170.000=0 DE,,,51,9
-217.191.171.000=0 DE,,,51,9
-217.191.172.000=0 DE,,,51,9
+217.191.170.000=0 DE,Hamburg,Hamburg,53.55,10
+217.191.171.000=0 DE,Hamburg,Hamburg,53.55,10
+217.191.172.000=0 DE,Schleswig-Holstein,Pinneberg,53.65,9.8
 217.191.173.000=0 DE,Schleswig-Holstein,Elmshorn,53.75,9.65
 217.191.174.000=0 DE,Hamburg,Hamburg,53.55,10
 217.191.175.000=0 DE,Hamburg,Hamburg,53.55,10

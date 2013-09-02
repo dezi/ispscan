@@ -34,7 +34,7 @@
 093.128.009.000=0 DE,Rheinland-Pfalz,Kaiserslautern,49.436,7.7503
 062.052.012.132@
 062.053.254.117@
-093.128.010.000=0 DE,Rheinland-Pfalz,Kaiserslautern,49.436,7.7503
+093.128.010.000=0 DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
 062.052.012.132@
 062.053.254.117@
 093.128.011.000=0 DE,Rheinland-Pfalz,Kaiserslautern,49.436,7.7503
@@ -819,7 +819,7 @@
 093.129.006.000=0 DE,Nordrhein-Westfalen,Wegberg,51.15,6.2667
 195.071.204.081@
 195.071.204.085@
-093.129.007.000=0 DE,Nordrhein-Westfalen,Köln,50.9333,6.95
+093.129.007.000=0 DE,Nordrhein-Westfalen,Stolberg,50.7667,6.2333
 195.071.204.085@
 195.071.204.081@
 195.071.204.081~rdsl-koln-de03-chan-1.nw.mediaways.net
@@ -846,7 +846,7 @@
 195.071.204.081@
 093.129.014.000=0 DE,Nordrhein-Westfalen,Stolberg,50.7667,6.2333
 195.071.204.081@
-093.129.015.000=0 DE,Nordrhein-Westfalen,Köln,50.9333,6.95
+093.129.015.000=0 DE,Nordrhein-Westfalen,Herzogenrath,50.8667,6.1
 195.071.204.085@
 195.071.204.081@
 195.071.204.081~rdsl-koln-de03-chan-1.nw.mediaways.net
@@ -967,7 +967,7 @@
 062.053.198.163~xmwc-koln-de02-vlan-5.nw.mediaways.net
 062.053.198.067~xmwc-koln-de01-vlan-2.nw.mediaways.net
 =======16
-093.129.048.000=0 DE,Nordrhein-Westfalen,Köln,50.9333,6.95
+093.129.048.000=0 DE,Nordrhein-Westfalen,Düren,50.8,6.4833
 195.071.204.085@
 195.071.204.081@
 093.129.049.000=0 DE,Nordrhein-Westfalen,Aachen,50.7708,6.1053
@@ -982,7 +982,7 @@
 093.129.052.000=0 DE,Nordrhein-Westfalen,Merzenich,50.8333,6.5333
 195.071.204.085@
 195.071.204.081@
-093.129.053.000=0 DE,Nordrhein-Westfalen,Köln,50.9333,6.95
+093.129.053.000=0 DE,Nordrhein-Westfalen,Aachen,50.7708,6.1053
 195.071.204.081@
 195.071.204.085@
 093.129.054.000=0 DE,Nordrhein-Westfalen,Übach-Palenberg,50.9333,6.1167
@@ -1068,13 +1068,13 @@
 093.129.075.000=0 DE,Nordrhein-Westfalen,Rheinbach,50.6333,6.95
 195.071.204.073@
 195.071.204.077@
-093.129.076.000=0 DE,Nordrhein-Westfalen,Köln,50.9333,6.95
+093.129.076.000=0 DE,Nordrhein-Westfalen,Bonn,50.7333,7.1
 195.071.204.077@
 195.071.204.073@
-093.129.077.000=0 DE,Nordrhein-Westfalen,Köln,50.9333,6.95
+093.129.077.000=0 DE,Nordrhein-Westfalen,Bonn,50.7333,7.1
 195.071.204.073@
 195.071.204.077@
-093.129.078.000=0 DE,Nordrhein-Westfalen,Köln,50.9333,6.95
+093.129.078.000=0 DE,Nordrhein-Westfalen,Bonn,50.7333,7.1
 195.071.204.077@
 195.071.204.073@
 093.129.079.000=0 DE,Nordrhein-Westfalen,Meckenheim,50.6333,7.0167
@@ -1084,7 +1084,7 @@
 062.053.198.067~xmwc-koln-de01-vlan-2.nw.mediaways.net
 195.071.204.077~rdsl-koln-de02-chan-2.nw.mediaways.net
 =======16
-093.129.080.000=0 DE,Nordrhein-Westfalen,Köln,50.9333,6.95
+093.129.080.000=0 DE,Nordrhein-Westfalen,Bonn,50.7333,7.1
 195.071.204.073@
 195.071.204.077@
 093.129.081.000=0 DE,Nordrhein-Westfalen,Lohmar,50.8333,7.2167
@@ -1179,7 +1179,7 @@
 093.129.107.000=0 DE,Nordrhein-Westfalen,Köln,50.9333,6.95
 195.071.204.073@
 195.071.204.077@
-093.129.108.000=0 DE,Nordrhein-Westfalen,Köln,50.9333,6.95
+093.129.108.000=0 DE,Nordrhein-Westfalen,Bonn,50.7333,7.1
 195.071.204.077@
 195.071.204.073@
 093.129.109.000=0 DE,Nordrhein-Westfalen,Troisdorf,50.8167,7.1667
@@ -1207,7 +1207,7 @@
 093.129.115.000=0 DE,Nordrhein-Westfalen,Köln,50.9333,6.95
 195.071.204.073@
 195.071.204.077@
-093.129.116.000=0 DE,Nordrhein-Westfalen,Köln,50.9333,6.95
+093.129.116.000=0 DE,Nordrhein-Westfalen,Bonn,50.7333,7.1
 195.071.204.077@
 195.071.204.073@
 093.129.117.000=0 DE,Nordrhein-Westfalen,Köln,50.9333,6.95
@@ -1216,7 +1216,7 @@
 093.129.118.000=0 DE,Nordrhein-Westfalen,Köln,50.9333,6.95
 195.071.204.077@
 195.071.204.073@
-093.129.119.000=0 DE,Nordrhein-Westfalen,Köln,50.9333,6.95
+093.129.119.000=0 DE,Nordrhein-Westfalen,Bonn,50.7333,7.1
 195.071.204.077@
 195.071.204.073@
 062.053.198.067~xmwc-koln-de01-vlan-2.nw.mediaways.net
@@ -1224,10 +1224,10 @@
 195.071.204.077~rdsl-koln-de02-chan-2.nw.mediaways.net
 195.071.204.073~rdsl-koln-de02-chan-1.nw.mediaways.net
 =======8
-093.129.120.000=0 DE,Nordrhein-Westfalen,Köln,50.9333,6.95
+093.129.120.000=0 DE,Nordrhein-Westfalen,Bonn,50.7333,7.1
 195.071.204.073@
 195.071.204.077@
-093.129.121.000=0 DE,Nordrhein-Westfalen,Köln,50.9333,6.95
+093.129.121.000=0 DE,Nordrhein-Westfalen,Bonn,50.7333,7.1
 195.071.204.077@
 195.071.204.073@
 093.129.122.000=0 DE,Nordrhein-Westfalen,Bonn,50.7333,7.1
@@ -1253,15 +1253,16 @@
 093.129.127.255=0*64
 =======128
 093.129.128.000=0 DE,Nordrhein-Westfalen,Köln,50.9333,6.95
+093.129.128.000=0 DE,Nordrhein-Westfalen,Bonn,50.7333,7.1
 195.071.204.077@
 195.071.204.073@
-093.129.129.000=0 DE,Nordrhein-Westfalen,Köln,50.9333,6.95
+093.129.129.000=0 DE,Nordrhein-Westfalen,Bonn,50.7333,7.1
 195.071.204.073@
 195.071.204.077@
-093.129.130.000=0 DE,Nordrhein-Westfalen,Köln,50.9333,6.95
+093.129.130.000=0 DE,Nordrhein-Westfalen,Bonn,50.7333,7.1
 195.071.204.077@
 195.071.204.073@
-093.129.131.000=0 DE,Nordrhein-Westfalen,Köln,50.9333,6.95
+093.129.131.000=0 DE,Nordrhein-Westfalen,Bonn,50.7333,7.1
 195.071.204.077@
 195.071.204.073@
 093.129.132.000=0 DE,Nordrhein-Westfalen,Köln,50.9333,6.95
@@ -1279,10 +1280,10 @@
 062.053.198.163~xmwc-koln-de02-vlan-5.nw.mediaways.net
 195.071.204.073~rdsl-koln-de02-chan-1.nw.mediaways.net
 =======8
-093.129.136.000=0 DE,Nordrhein-Westfalen,Köln,50.9333,6.95
+093.129.136.000=0 DE,Nordrhein-Westfalen,Bonn,50.7333,7.1
 195.071.204.077@
 195.071.204.073@
-093.129.137.000=0 DE,Nordrhein-Westfalen,Köln,50.9333,6.95
+093.129.137.000=0 DE,Nordrhein-Westfalen,Bonn,50.7333,7.1
 195.071.204.077@
 195.071.204.073@
 093.129.138.000=0 DE,Nordrhein-Westfalen,Troisdorf,50.8167,7.1667
@@ -1313,10 +1314,10 @@
 093.129.145.000=0 DE,Nordrhein-Westfalen,Hennef,50.7833,7.2833
 195.071.204.077@
 195.071.204.073@
-093.129.146.000=0 DE,Nordrhein-Westfalen,Köln,50.9333,6.95
+093.129.146.000=0 DE,Nordrhein-Westfalen,Bonn,50.7333,7.1
 195.071.204.073@
 195.071.204.077@
-093.129.147.000=0 DE,Nordrhein-Westfalen,Köln,50.9333,6.95
+093.129.147.000=0 DE,Nordrhein-Westfalen,Bonn,50.7333,7.1
 195.071.204.077@
 195.071.204.073@
 093.129.148.000=0 DE,Nordrhein-Westfalen,Bonn,50.7333,7.1
@@ -1344,7 +1345,7 @@
 093.129.154.000=0 DE,Nordrhein-Westfalen,Sankt Augustin,50.7667,7.1833
 195.071.204.077@
 195.071.204.073@
-093.129.155.000=0 DE,Nordrhein-Westfalen,Köln,50.9333,6.95
+093.129.155.000=0 DE,Nordrhein-Westfalen,Bonn,50.7333,7.1
 195.071.204.073@
 195.071.204.077@
 093.129.156.000=0 DE,Nordrhein-Westfalen,Köln,50.9333,6.95
@@ -1410,10 +1411,10 @@
 093.129.173.000=0 DE,Nordrhein-Westfalen,Lohmar,50.8333,7.2167
 195.071.204.073@
 195.071.204.077@
-093.129.174.000=0 DE,Nordrhein-Westfalen,Köln,50.9333,6.95
+093.129.174.000=0 DE,Nordrhein-Westfalen,Bonn,50.7333,7.1
 195.071.204.073@
 195.071.204.077@
-093.129.175.000=0 DE,Nordrhein-Westfalen,Köln,50.9333,6.95
+093.129.175.000=0 DE,Nordrhein-Westfalen,Bonn,50.7333,7.1
 195.071.204.077@
 195.071.204.073@
 195.071.204.077~rdsl-koln-de02-chan-2.nw.mediaways.net
@@ -1421,7 +1422,7 @@
 195.071.204.073~rdsl-koln-de02-chan-1.nw.mediaways.net
 062.053.198.067~xmwc-koln-de01-vlan-2.nw.mediaways.net
 =======16
-093.129.176.000=0 DE,Nordrhein-Westfalen,Köln,50.9333,6.95
+093.129.176.000=0 DE,Nordrhein-Westfalen,Bonn,50.7333,7.1
 195.071.204.077@
 195.071.204.073@
 093.129.177.000=0 DE,Nordrhein-Westfalen,Bonn,50.7333,7.1
@@ -1439,7 +1440,7 @@
 093.129.181.000=0 DE,Nordrhein-Westfalen,Bonn,50.7333,7.1
 195.071.204.073@
 195.071.204.077@
-093.129.182.000=0 DE,Nordrhein-Westfalen,Köln,50.9333,6.95
+093.129.182.000=0 DE,Nordrhein-Westfalen,Troisdorf,50.8167,7.1667
 195.071.204.073@
 195.071.204.077@
 093.129.183.000=0 DE,Nordrhein-Westfalen,Köln,50.9333,6.95
@@ -1456,10 +1457,10 @@
 093.129.185.000=0 DE,Nordrhein-Westfalen,Königswinter,50.6833,7.1833
 195.071.204.073@
 195.071.204.077@
-093.129.186.000=0 DE,Nordrhein-Westfalen,Köln,50.9333,6.95
+093.129.186.000=0 DE,Nordrhein-Westfalen,Bonn,50.7333,7.1
 195.071.204.073@
 195.071.204.077@
-093.129.187.000=0 DE,Nordrhein-Westfalen,Köln,50.9333,6.95
+093.129.187.000=0 DE,Nordrhein-Westfalen,Bonn,50.7333,7.1
 195.071.204.077@
 195.071.204.073@
 093.129.188.000=0 DE,Nordrhein-Westfalen,Bonn,50.7333,7.1
@@ -1468,10 +1469,10 @@
 093.129.189.000=0 DE,Nordrhein-Westfalen,Köln,50.9333,6.95
 195.071.204.073@
 195.071.204.077@
-093.129.190.000=0 DE,Nordrhein-Westfalen,Köln,50.9333,6.95
+093.129.190.000=0 DE,Nordrhein-Westfalen,Siegburg,50.8,7.2
 195.071.204.077@
 195.071.204.073@
-093.129.191.000=0 DE,Nordrhein-Westfalen,Köln,50.9333,6.95
+093.129.191.000=0 DE,Nordrhein-Westfalen,Bonn,50.7333,7.1
 195.071.204.073@
 195.071.204.077@
 062.053.198.163~xmwc-koln-de02-vlan-5.nw.mediaways.net
@@ -1760,25 +1761,25 @@
 195.071.086.042~xmws-blfd-de03-vlan-3.nw.mediaways.net
 195.071.086.058~xmws-blfd-de04-vlan-4.nw.mediaways.net
 =======16
-093.130.016.000=0 DE,Nordrhein-Westfalen,Bielefeld,51.9745,8.4686
+093.130.016.000=0 DE,Nordrhein-Westfalen,Bielefeld,52.0333,8.5333
 195.071.043.146@
 195.071.043.150@
 093.130.017.000=0 DE,Nordrhein-Westfalen,Rheda-Wiedenbrück,51.8333,8.3167
 195.071.043.150@
 195.071.043.146@
-093.130.018.000=0 DE,Nordrhein-Westfalen,Bielefeld,51.9745,8.4686
+093.130.018.000=0 DE,Nordrhein-Westfalen,Bielefeld,52.0333,8.5333
 195.071.043.146@
 195.071.043.150@
-093.130.019.000=0 DE,Nordrhein-Westfalen,Bielefeld,51.9745,8.4686
+093.130.019.000=0 DE,Nordrhein-Westfalen,Bielefeld,52.0333,8.5333
 195.071.043.146@
 195.071.043.150@
-093.130.020.000=0 DE,Nordrhein-Westfalen,Bielefeld,51.9745,8.4686
+093.130.020.000=0 DE,Nordrhein-Westfalen,Bielefeld,52.0333,8.5333
 195.071.043.150@
 195.071.043.146@
-093.130.021.000=0 DE,Nordrhein-Westfalen,Bielefeld,51.9745,8.4686
+093.130.021.000=0 DE,Nordrhein-Westfalen,Bielefeld,52.0333,8.5333
 195.071.043.150@
 195.071.043.146@
-093.130.022.000=0 DE,Nordrhein-Westfalen,Bielefeld,51.9745,8.4686
+093.130.022.000=0 DE,Nordrhein-Westfalen,Bielefeld,52.0333,8.5333
 195.071.043.150@
 093.130.023.000=0 DE,Nordrhein-Westfalen,Steinhagen,52,8.4
 195.071.043.150@
@@ -1850,16 +1851,16 @@
 093.130.043.000=0 DE,Nordrhein-Westfalen,Steinhagen,52,8.4
 195.071.043.146@
 195.071.043.150@
-093.130.044.000=0 DE,Nordrhein-Westfalen,Bielefeld,51.9745,8.4686
+093.130.044.000=0 DE,Nordrhein-Westfalen,Bielefeld,52.0333,8.5333
 195.071.043.150@
 195.071.043.146@
-093.130.045.000=0 DE,Nordrhein-Westfalen,Bielefeld,51.9745,8.4686
+093.130.045.000=0 DE,Nordrhein-Westfalen,Bielefeld,52.0333,8.5333
 195.071.043.146@
 195.071.043.150@
 093.130.046.000=0 DE,Nordrhein-Westfalen,Versmold,52.05,8.15
 195.071.043.146@
 195.071.043.150@
-093.130.047.000=0 DE,Nordrhein-Westfalen,Bielefeld,51.9745,8.4686
+093.130.047.000=0 DE,Nordrhein-Westfalen,Bielefeld,52.0333,8.5333
 195.071.043.150@
 195.071.043.146@
 195.071.086.058~xmws-blfd-de04-vlan-4.nw.mediaways.net
@@ -1867,10 +1868,10 @@
 =======16
 093.130.048.000=0 DE,Nordrhein-Westfalen,Steinhagen,52,8.4
 195.071.043.146@
-093.130.049.000=0 DE,Nordrhein-Westfalen,Bielefeld,51.9745,8.4686
+093.130.049.000=0 DE,Nordrhein-Westfalen,Bielefeld,52.0333,8.5333
 195.071.043.146@
 195.071.043.150@
-093.130.050.000=0 DE,Nordrhein-Westfalen,Bielefeld,51.9745,8.4686
+093.130.050.000=0 DE,Nordrhein-Westfalen,Bielefeld,52.0333,8.5333
 195.071.043.146@
 195.071.043.150@
 093.130.051.000=0 DE,Nordrhein-Westfalen,Rheda-Wiedenbrück,51.8333,8.3167
@@ -1906,7 +1907,7 @@
 195.071.043.146@
 093.130.061.000=0 DE,Nordrhein-Westfalen,Lippstadt,51.6667,8.35
 195.071.043.150@
-093.130.062.000=0 DE,Nordrhein-Westfalen,Bielefeld,51.9745,8.4686
+093.130.062.000=0 DE,Nordrhein-Westfalen,Bielefeld,52.0333,8.5333
 195.071.043.150@
 195.071.043.146@
 093.130.063.000=0 DE,Nordrhein-Westfalen,Gütersloh,51.9,8.3833
@@ -1922,10 +1923,10 @@
 093.130.065.000=0 DE,Nordrhein-Westfalen,Paderborn,51.7167,8.7667
 195.071.227.129@
 195.071.227.133@
-093.130.066.000=0 DE,Nordrhein-Westfalen,Paderborn,51.7167,8.7667
+093.130.066.000=0 DE,Nordrhein-Westfalen,Detmold,51.9333,8.8833
 195.071.227.133@
 195.071.227.129@
-093.130.067.000=0 DE,Nordrhein-Westfalen,Paderborn,51.7167,8.7667
+093.130.067.000=0 DE,Nordrhein-Westfalen,Detmold,51.9333,8.8833
 195.071.227.133@
 195.071.227.129@
 093.130.068.000=0 DE,Nordrhein-Westfalen,Bad Lippspringe,51.7833,8.8167
@@ -2024,7 +2025,7 @@
 093.130.096.000=0 DE,Nordrhein-Westfalen,Paderborn,51.7167,8.7667
 195.071.227.133@
 195.071.227.129@
-093.130.097.000=0 DE,Nordrhein-Westfalen,Paderborn,51.7167,8.7667
+093.130.097.000=0 DE,Nordrhein-Westfalen,Detmold,51.9333,8.8833
 195.071.227.129@
 195.071.227.133@
 093.130.098.000=0 DE,Nordrhein-Westfalen,Paderborn,51.7167,8.7667
@@ -2084,7 +2085,7 @@
 093.130.114.000=0 DE,Nordrhein-Westfalen,Paderborn,51.7167,8.7667
 195.071.227.129@
 195.071.227.133@
-093.130.115.000=0 DE,Nordrhein-Westfalen,Paderborn,51.7167,8.7667
+093.130.115.000=0 DE,Nordrhein-Westfalen,Detmold,51.9333,8.8833
 195.071.227.133@
 093.130.116.000=0 DE,Nordrhein-Westfalen,Detmold,51.9333,8.8833
 195.071.227.129@
@@ -2161,7 +2162,7 @@
 093.130.137.000=0 DE,Nordrhein-Westfalen,Neuss,51.2,6.6833
 195.071.242.125@
 195.071.242.121@
-093.130.138.000=0 DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
+093.130.138.000=0 DE,Nordrhein-Westfalen,Mönchengladbach,51.2,6.4333
 195.071.242.125@
 195.071.242.121@
 093.130.139.000=0 DE,Nordrhein-Westfalen,Neuss,51.2,6.6833
@@ -2170,7 +2171,7 @@
 093.130.140.000=0 DE,Nordrhein-Westfalen,Mönchengladbach,51.2,6.4333
 195.071.242.121@
 195.071.242.125@
-093.130.141.000=0 DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
+093.130.141.000=0 DE,Nordrhein-Westfalen,Neuss,51.2,6.6833
 195.071.242.121@
 093.130.142.000=0 DE,Nordrhein-Westfalen,Mönchengladbach,51.2,6.4333
 195.071.242.121@
@@ -2211,10 +2212,10 @@
 195.071.242.125@
 093.130.153.000=0 DE,Nordrhein-Westfalen,Erkelenz,51.0833,6.3167
 195.071.242.121@
-093.130.154.000=0 DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
+093.130.154.000=0 DE,Nordrhein-Westfalen,Mönchengladbach,51.2,6.4333
 195.071.242.125@
 195.071.242.121@
-093.130.155.000=0 DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
+093.130.155.000=0 DE,Nordrhein-Westfalen,Mönchengladbach,51.2,6.4333
 195.071.242.121@
 195.071.242.125@
 093.130.156.000=0 DE,Nordrhein-Westfalen,Willich,51.2667,6.55
@@ -2353,7 +2354,7 @@
 093.130.195.000=0 DE,Nordrhein-Westfalen,Neuss,51.2,6.6833
 195.071.242.125@
 195.071.242.121@
-093.130.196.000=0 DE,Nordrhein-Westfalen,Duisburg,51.4333,6.75
+093.130.196.000=0 DE,Nordrhein-Westfalen,Mönchengladbach,51.2,6.4333
 195.071.242.125@
 195.071.242.121@
 093.130.197.000=0 DE,Nordrhein-Westfalen,Willich,51.2667,6.55
@@ -2379,9 +2380,9 @@
 195.071.242.121@
 093.130.204.000=0 DE,Nordrhein-Westfalen,Korschenbroich,51.1833,6.5167
 195.071.242.121@
-093.130.205.000=0 DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
+093.130.205.000=0 DE,Nordrhein-Westfalen,Mönchengladbach,51.2,6.4333
 195.071.242.125@
-093.130.206.000=0 DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
+093.130.206.000=0 DE,Nordrhein-Westfalen,Mönchengladbach,51.2,6.4333
 195.071.242.121@
 093.130.207.000=0 DE,Nordrhein-Westfalen,Neuss,51.2,6.6833
 195.071.242.125@
@@ -2419,7 +2420,7 @@
 093.130.217.000=0 DE,Nordrhein-Westfalen,Willich,51.2667,6.55
 195.071.242.125@
 195.071.242.121@
-093.130.218.000=0 DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
+093.130.218.000=0 DE,Nordrhein-Westfalen,Neuss,51.2,6.6833
 195.071.242.121@
 093.130.219.000=0 DE,Nordrhein-Westfalen,Leverkusen,51.0167,6.9833
 195.071.242.125@
@@ -2965,7 +2966,7 @@
 093.131.137.000=0 DE,Nordrhein-Westfalen,Essen,51.45,7.0167
 062.053.159.229@
 062.053.159.225@
-093.131.138.000=0 DE,Nordrhein-Westfalen,Essen,51.45,7.0167
+093.131.138.000=0 DE,Nordrhein-Westfalen,Oberhausen,51.4667,6.85
 062.053.159.225@
 062.053.159.229@
 093.131.139.000=0 DE,Nordrhein-Westfalen,Essen,51.45,7.0167
@@ -3057,7 +3058,7 @@
 093.131.166.000=0 DE,Nordrhein-Westfalen,Bocholt,51.8333,6.6
 062.053.159.225@
 062.053.159.229@
-093.131.167.000=0 DE,Nordrhein-Westfalen,Essen,51.45,7.0167
+093.131.167.000=0 DE,Nordrhein-Westfalen,Mülheim,51.4333,6.8833
 062.053.159.225@
 062.053.158.099~xmwc-essn-de02-vlan-3.nw.mediaways.net
 213.020.053.163~xmwc-essn-de01-vlan-2.nw.mediaways.net
@@ -3239,7 +3240,7 @@
 093.131.221.000=0 DE,Nordrhein-Westfalen,Gelsenkirchen,51.5167,7.05
 195.071.252.166@
 195.071.252.162@
-093.131.222.000=0 DE,Nordrhein-Westfalen,Gelsenkirchen,51.5167,7.05
+093.131.222.000=0 DE,Nordrhein-Westfalen,Bottrop,51.5167,6.9167
 195.071.252.162@
 195.071.252.166@
 093.131.223.000=0 DE,Nordrhein-Westfalen,Gelsenkirchen,51.5167,7.05
@@ -3260,7 +3261,7 @@
 093.131.228.000=0 DE,Nordrhein-Westfalen,Bochum,51.4833,7.2167
 195.071.252.073@
 195.071.252.077@
-093.131.229.000=0 DE,Nordrhein-Westfalen,Bochum,51.4833,7.2167
+093.131.229.000=0 DE,Nordrhein-Westfalen,Witten,51.4333,7.3333
 195.071.252.073@
 093.131.230.000=0 DE,Nordrhein-Westfalen,Herne,51.55,7.2167
 195.071.252.073@
@@ -3270,10 +3271,10 @@
 062.053.002.139~xmws-bchm-de03-xe-0-0-0-0.nw.mediaways.net
 062.053.002.143~xmws-bchm-de04-xe-0-0-0-0.nw.mediaways.net
 =======8
-093.131.232.000=0 DE,Nordrhein-Westfalen,Bochum,51.4833,7.2167
+093.131.232.000=0 DE,Nordrhein-Westfalen,Witten,51.4333,7.3333
 195.071.252.077@
 195.071.252.073@
-093.131.233.000=0 DE,Nordrhein-Westfalen,Bochum,51.4833,7.2167
+093.131.233.000=0 DE,Nordrhein-Westfalen,Herne,51.55,7.2167
 195.071.252.073@
 195.071.252.077@
 093.131.234.000=0 DE,Nordrhein-Westfalen,Herne,51.55,7.2167
@@ -3281,7 +3282,7 @@
 195.071.252.073@
 093.131.235.000=0 DE,Nordrhein-Westfalen,Bochum,51.4833,7.2167
 195.071.252.077@
-093.131.236.000=0 DE,Nordrhein-Westfalen,Bochum,51.4833,7.2167
+093.131.236.000=0 DE,Nordrhein-Westfalen,Herne,51.55,7.2167
 195.071.252.073@
 195.071.252.077@
 093.131.237.000=0 DE,Nordrhein-Westfalen,Bochum,51.4833,7.2167
@@ -3312,7 +3313,7 @@
 062.053.002.139~xmws-bchm-de03-xe-0-0-0-0.nw.mediaways.net
 062.053.002.143~xmws-bchm-de04-xe-0-0-0-0.nw.mediaways.net
 =======8
-093.131.248.000=0 DE,Nordrhein-Westfalen,Bochum,51.4833,7.2167
+093.131.248.000=0 DE,Nordrhein-Westfalen,Herne,51.55,7.2167
 195.071.252.073@
 093.131.249.000=0 DE,Nordrhein-Westfalen,Herne,51.55,7.2167
 195.071.252.077@
@@ -3322,7 +3323,7 @@
 195.071.252.073@
 093.131.252.000=0 DE,Nordrhein-Westfalen,Herne,51.55,7.2167
 195.071.252.073@
-093.131.253.000=0 DE,Nordrhein-Westfalen,Bochum,51.4833,7.2167
+093.131.253.000=0 DE,Nordrhein-Westfalen,Witten,51.4333,7.3333
 195.071.252.073@
 093.131.254.000=0 DE,Nordrhein-Westfalen,Bochum,51.4833,7.2167
 195.071.252.073@
@@ -4000,12 +4001,12 @@
 093.132.199.000=0 DE,Bayern,Wangen,47.6333,10.5
 093.132.199.255=0*8
 =======8
-093.132.200.000=0 DE,Baden-Württemberg,Ulm,48.4015,9.9927
+093.132.200.000=0 DE,Baden-Württemberg,Ulm,48.4171,9.9635
 093.132.201.000=0 DE,Baden-Württemberg,Ulm,48.4015,9.9927
 195.071.151.181@
 093.132.202.000=0 DE,Bayern,Neu-Ulm,48.4,10.0167
 093.132.203.000=0 DE,Baden-Württemberg,Ulm,48.4,10
-093.132.204.000=0 DE,Baden-Württemberg,Ulm,48.4015,9.9927
+093.132.204.000=0 DE,Baden-Württemberg,Ulm,48.4171,9.9635
 093.132.205.000=0 DE,Baden-Württemberg,Ulm,48.4171,9.9635
 195.071.151.177@
 195.071.151.181@
@@ -4018,7 +4019,7 @@
 213.020.221.115~xmws-ulmg-de02-vlan-3.nw.mediaways.net
 213.020.221.107~xmws-ulmg-de01-vlan-2.nw.mediaways.net
 =======16
-093.132.208.000=0 DE,Baden-Württemberg,Ulm,48.4015,9.9927
+093.132.208.000=0 DE,Baden-Württemberg,Ulm,48.4,10
 195.071.151.177@
 195.071.151.181@
 093.132.209.000=0 DE,Bayern,Neu-Ulm,48.4,10.0167
@@ -4459,7 +4460,7 @@
 213.020.173.167~xmwc-mnch-de01-vlan-2.nw.mediaways.net
 062.053.207.163~xmwc-mnch-de02-vlan-7.nw.mediaways.net
 =======32
-093.133.096.000=0 DE,Bayern,München,48.15,11.5833
+093.133.096.000=0 DE,Bayern,Puchheim,48.15,11.35
 195.071.164.053@
 195.071.164.049@
 093.133.097.000=0 DE,Bayern,München,48.15,11.5833
@@ -4551,20 +4552,20 @@
 093.133.124.000=0 DE,Bayern,Germering,48.1333,11.3667
 195.071.164.049@
 195.071.164.053@
-093.133.125.000=0 DE,Bayern,München,48.15,11.5833
+093.133.125.000=0 DE,Bayern,Puchheim,48.15,11.35
 195.071.164.053@
 195.071.164.049@
 093.133.126.000=0 DE,Bayern,Olching,48.2,11.3333
 195.071.164.049@
 195.071.164.053@
-093.133.127.000=0 DE,Bayern,München,48.15,11.5833
+093.133.127.000=0 DE,Bayern,Germering,48.1333,11.3667
 195.071.164.049@
 195.071.164.053@
 213.020.173.167~xmwc-mnch-de01-vlan-2.nw.mediaways.net
 062.053.207.163~xmwc-mnch-de02-vlan-7.nw.mediaways.net
 093.133.127.255=0*64
 =======128
-093.133.128.000=0 DE,Bayern,München,48.15,11.5833
+093.133.128.000=0 DE,Bayern,Germering,48.1333,11.3667
 195.071.164.049@
 195.071.164.053@
 093.133.129.000=0 DE,Bayern,Unterhaching,48.05,11.6333
@@ -4660,7 +4661,7 @@
 093.133.158.000=0 DE,Bayern,München,48.15,11.5833
 195.071.164.053@
 195.071.164.049@
-093.133.159.000=0 DE,Bayern,München,48.15,11.5833
+093.133.159.000=0 DE,Bayern,Germering,48.1333,11.3667
 195.071.164.049@
 195.071.164.053@
 062.053.207.163~xmwc-mnch-de02-vlan-7.nw.mediaways.net
@@ -4723,7 +4724,7 @@
 093.133.176.000=0 DE,Bayern,München,48.15,11.5833
 195.071.164.053@
 195.071.164.049@
-093.133.177.000=0 DE,Bayern,München,48.15,11.5833
+093.133.177.000=0 DE,Bayern,Puchheim,48.15,11.35
 195.071.164.053@
 195.071.164.049@
 093.133.178.000=0 DE,Bayern,München,48.15,11.5833
@@ -5109,8 +5110,7 @@
 062.052.029.206@
 093.134.033.000=0 DE,Bayern,Regensburg,49.015,12.0956
 062.052.029.206@
-093.134.034.000=0 DE,Bayern,Regensburg,49.015,12.0956
-093.134.034.000!0 DE,Bayern,Parsberg,47.7833,11.8667
+093.134.034.000=0 DE,Bayern,Parsberg,47.7833,11.8667
 062.052.029.202@
 062.052.029.206@
 093.134.035.000=0 DE,Bayern,Regensburg,49.015,12.0956
@@ -5225,11 +5225,11 @@
 093.134.068.000=0 DE,Bayern,Traunstein,47.87,12.6388
 213.020.174.211@
 195.071.233.099@
-093.134.069.000=0 DE,Bayern,Traunstein,47.87,12.6388
+093.134.069.000=0 DE,Bayern,Traunreut,47.9552,12.5924
 195.071.233.099@
 213.020.174.211@
 093.134.070.000=0 DE,Bayern,Kraiburg,48.1833,12.4333
-093.134.071.000=0 DE,Bayern,Traunstein,47.87,12.6388
+093.134.071.000=0 DE,Bayern,Traunreut,47.9552,12.5924
 195.071.232.094~rmws-trns-de02-so-0-2-0-0.nw.mediaways.net
 093.134.071.255=0*8
 =======8
@@ -5405,7 +5405,7 @@
 093.134.124.000=0 DE,Bayern,München,48.15,11.5833
 213.020.153.078@
 213.020.153.074@
-093.134.125.000=0 DE,Bayern,München,48.15,11.5833
+093.134.125.000=0 DE,Bayern,Dachau,48.2667,11.4333
 213.020.153.078@
 213.020.153.074@
 093.134.126.000=0 DE,Bayern,München,48.15,11.5833

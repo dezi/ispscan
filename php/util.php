@@ -9,12 +9,16 @@ $GLOBALS[ "knownisp" ][ "Vodafone D2 GmbH" 			  				  ] = "de/vf";
 
 function ResolveISP($ip)
 {
+	//
+	// Normal processing.
+	//
+	
 	if (isset($GLOBALS[ "ispcache" ]) &&
 		isset($GLOBALS[ "ispcache" ][ $ip ]))
 	{
 		return $GLOBALS[ "ispcache" ][ $ip ];
 	}
-		
+	
 	if (! isset($GLOBALS[ "isplist" ]))
 	{
 		$lines = file("../lib/Nirsoft.ISP.de.csv");

@@ -17,12 +17,12 @@ include("../php/json.php");
 	array_push($toping,"088.134.099.000");
 	*/
 
-function Ping_Block($from,$toto)
+function Ping_Block($from,$toto,$incr = 1)
 {
 	$total = $toto - $from;
 	$alive = 0;
 	
-	for ($host = $from; $host <= $toto; $host++)
+	for ($host = $from; $host <= $toto; $host += $incr)
 	{
 		$time = Ping($host);
 		
@@ -39,6 +39,8 @@ function Ping_Block($from,$toto)
 		foreach ($toping as $dummy => $ping)
 		{
 			Ping_Block(IP_Bin($ping),IP_Bin($ping) + 255);
+			
+			//Ping_Block(IP_Bin($ping),IP_Bin($ping) + (256 * 64),256);
 		}
 		
 		break;
