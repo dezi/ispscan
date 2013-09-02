@@ -1,0 +1,65 @@
+{
+	"endping" :
+	{
+		"friends" :
+		{
+			"xx/xx" : true,
+			"de/tk" : true,
+			"de/kd" : true
+		},
+		"checks" :
+		[
+			"www.vodafone.de"
+		]
+	},
+	"uplping" :
+	{
+		"friends" :
+		{
+			"xx/xx" : true,
+			"de/tk" : true,
+			"de/kd" : true
+		},
+		"checks" :
+		[
+			"www.vodafone.de"
+		]
+	},
+	"bblping" :
+	{
+		"friends" :
+		{
+			"xx/xx" : true,
+			"de/tk" : true,
+			"de/kd" : true
+		},
+		"checks" :
+		[
+			"www.vodafone.de"
+		]
+	},
+	"mtrlogs" :
+	{
+		"friends" :
+		{
+			"xx/xx" : true,
+			"de/tk" : true,
+			"de/kd" : true
+		},
+		"checks" :
+		[
+			"www.vodafone.de"
+		]
+	},
+	"netping" :
+	{
+		"friends" :
+		{
+			"*" : true
+		},
+		"checks" :
+		[
+			"www.vodafone.de"
+		]
+	}
+}
