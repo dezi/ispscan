@@ -113,49 +113,56 @@ function ComputeEvents($isp,$what)
 		{
 			ksort($json[ $ip ]);
 
-			$bforstamp  = null;
-			$bfortime   = null;
-			$laststamp  = null;
-			$lasttime   = null;
-			
-			foreach ($json[ $ip ] as $stamp => $time)
+			while (true)
 			{
-				if ($bforstamp && $laststamp)
+				$changed = false;
+				
+				$bforstamp  = null;
+				$bfortime   = null;
+				$laststamp  = null;
+				$lasttime   = null;
+				
+				foreach ($json[ $ip ] as $stamp => $time)
 				{
-					if (($time == -1) && ($lasttime == -1) && ($bfortime == -1))
+					if ($bforstamp && $laststamp)
 					{
-						unset($json[ $ip ][ $laststamp ]);
-						$reorg = true;
-					}
-					else
-					{
-						if (($time != -1) && ($lasttime == -1) && ($bfortime != -1))
+						if (($time == -1) && ($lasttime == -1) && ($bfortime == -1))
 						{
 							unset($json[ $ip ][ $laststamp ]);
-							$reorg = true;
+							$changed = $reorg = true;
 						}
 						else
 						{
-							if (($time != -1) && ($lasttime != -1) && ($bfortime != -1))
-							{ 
-								$nowslow = ($time     > 1000);
-								$lstslow = ($lasttime > 1000);
-								$bfoslow = ($bfortime > 1000);
-					
-								if (($nowslow == $lstslow) && ($lstslow == $bfoslow))
-								{
-									unset($json[ $ip ][ $laststamp ]);
-									$reorg = true;
+							if (($time != -1) && ($lasttime == -1) && ($bfortime != -1))
+							{
+								unset($json[ $ip ][ $laststamp ]);
+								$changed = $reorg = true;
+							}
+							else
+							{
+								if (($time != -1) && ($lasttime != -1) && ($bfortime != -1))
+								{ 
+									$nowslow = ($time     > 1000);
+									$lstslow = ($lasttime > 1000);
+									$bfoslow = ($bfortime > 1000);
+						
+									if (($nowslow == $lstslow) && ($lstslow == $bfoslow))
+									{
+										unset($json[ $ip ][ $laststamp ]);
+										$changed = $reorg = true;
+									}
 								}
 							}
 						}
 					}
+					
+					$bforstamp = $laststamp;
+					$bfortime  = $lasttime;	
+					$laststamp = $stamp;
+					$lasttime  = $time;	
 				}
-				
-				$bforstamp = $laststamp;
-				$bfortime  = $lasttime;	
-				$laststamp = $stamp;
-				$lasttime  = $time;	
+			
+				if (! $changed) breaK;
 			}
 			
 			krsort($json[ $ip ]);
@@ -380,6 +387,7 @@ function ComputeEvents($isp,$what)
 
 	closedir($dfd);
 }
+
 	WriteEvent   ("de/kd");
 	WriteEvent   ("de/tk");
 	WriteEvent   ("de/tf");
@@ -403,4 +411,10 @@ function ComputeEvents($isp,$what)
 	ComputeEvents("de/tf","gwyping");
 	ComputeEvents("de/tf","webping");
 	ComputeEvents("de/tf","endping");
+	
+	ComputeEvents("de/vf","uplping");
+	ComputeEvents("de/vf","bblping");
+	ComputeEvents("de/vf","gwyping");
+	ComputeEvents("de/vf","webping");
+	ComputeEvents("de/vf","endping");
 ?>

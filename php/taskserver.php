@@ -1934,16 +1934,16 @@ function ScheduleTask($task,$remote_host,$remote_port)
 	$trans[ "request" ] = &$request;
 		
 	$GLOBALS[ "transactions" ][ $request[ "guid" ] ] = &$trans;
-
-	if (! mt_rand(0,0)) ScheduleMtrLogsTask($task,$request);
-	if (! mt_rand(0,0)) ScheduleEndpingTask($task,$request);
-	if (! mt_rand(0,0)) ScheduleNetpingTask($task,$request);
-    if (! mt_rand(0,0)) ScheduleWebpingTask($task,$request);
+    
+	if (! mt_rand(0,0)) ScheduleWebpingTask($task,$request);
     if (! mt_rand(0,0)) ScheduleGwypingTask($task,$request);
     if (! mt_rand(0,0)) ScheduleBblpingTask($task,$request);
     if (! mt_rand(0,0)) ScheduleUplpingTask($task,$request);
     if (! mt_rand(0,0)) ScheduleEplpingTask($task,$request);
-  	
+
+	if (! mt_rand(0,0)) ScheduleEndpingTask($task,$request);
+	if (! mt_rand(0,0)) ScheduleNetpingTask($task,$request);
+
   	if (! mt_rand(0,0)) ScheduleMtrDomsTask($task,$request);
 	if (! mt_rand(0,0)) ScheduleMtrLogsTask($task,$request);
 	

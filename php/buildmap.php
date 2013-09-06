@@ -19,11 +19,11 @@
 	    array_push($tobuilds,"082.082.000.000-082.083.255.255");
 	    array_push($tobuilds,"084.056.000.000-084.063.255.255");
 	    array_push($tobuilds,"088.064.000.000-088.079.255.255");
-	  //array_push($tobuilds,"092.072.000.000-092.079.255.255");
-	  //array_push($tobuilds,"094.216.000.000-094.223.255.255");
+	    array_push($tobuilds,"092.072.000.000-092.079.255.255");
+	    array_push($tobuilds,"094.216.000.000-094.223.255.255");
 	  //array_push($tobuilds,"176.094.000.000-176.095.255.255");
-	  //array_push($tobuilds,"178.000.000.000-178.015.255.255");
-	  //array_push($tobuilds,"188.096.000.000-188.111.255.255");
+	    array_push($tobuilds,"178.000.000.000-178.015.255.255");
+	    array_push($tobuilds,"188.096.000.000-188.111.255.255");
 	}
 	
 	if ($isp == "de/tf")
@@ -630,8 +630,7 @@ function BuildBackbones($isp,&$endpoint,&$uplinks,&$allbones,$stage)
 	$bonusnailed[ "xxxxx"  				] =  "xxxxxxxxx";
 	$bonusnailed[ "xxxxx"  				] =  "xxxxxxxxx";
 	$bonusnailed[ "xxxxx"  				] =  "xxxxxxxxx";
-	$bonusnailed[ "xxxxx"  				] =  "xxxxxxxxx";
-	$bonusnailed[ "xxxxx"  				] =  "xxxxxxxxx";
+	$bonusnailed[ "Duisburg"  			] =  "DE,Nordrhein-Westfalen,Duisburg,51.4333,6.75";
 	$bonusnailed[ "Kassel"  			] =  "DE,Hessen,Kassel,51.3167,9.5";
 	$bonusnailed[ "Dortmund"  			] =  "DE,Nordrhein-Westfalen,Dortmund,51.5167,7.45";
 	$bonusnailed[ "Köln"  				] =  "DE,Nordrhein-Westfalen,Köln,50.9333,6.95";
@@ -820,7 +819,7 @@ function BuildBackbones($isp,&$endpoint,&$uplinks,&$allbones,$stage)
 	$bonuscities[ "Siegen"					] = 20;
 	$bonuscities[ "Kaiserslautern"			] = 20;
 	$bonuscities[ "Freiburg"				] = 20;
-	$bonuscities[ "Augsburg"				] = 20;
+	$bonuscities[ "Augsburg"				] = 10;
 	$bonuscities[ "Bayreuth"				] = 20;
 	$bonuscities[ "Erfurt"					] = 20;
 	$bonuscities[ "Bremerhaven"				] = 20;
@@ -1002,7 +1001,27 @@ function BuildBackbones($isp,&$endpoint,&$uplinks,&$allbones,$stage)
 					//
 					
 					if ($subnet[ "gw" ] == null) unset($subnet[ "gw" ]);
+					
+					if ($bogus)
+					{
+						//
+						// Remove bogus networks from upl locations list again.
+						//
 						
+						$bfrom = IP_Bin($subnet[ "ip" ]);
+						$btoto = IP_Bin($subnet[ "bc" ]) + 1;
+						
+						for ($bact = $bfrom; $bact < $btoto; $bact += 256)
+						{
+							foreach ($upllocs as $dlsip => $dummy)
+							{
+								unset($upllocs[ $dlsip ][ IPZero($bact) ]);
+								
+								if (count($upllocs[ $dlsip ]) == 0) unset($upllocs[ $dlsip ]);
+							}
+						}
+					}
+					
 					if (count($subnet[ "dls" ]) && ! $bogus) 
 					{
 						//
