@@ -392,6 +392,13 @@ function ComputeEvents($isp,$what)
 	WriteEvent   ("de/tk");
 	WriteEvent   ("de/tf");
 	WriteEvent   ("de/vf");
+	
+	ComputeEvents("de/vf","eplping");
+	ComputeEvents("de/vf","uplping");
+	ComputeEvents("de/vf","bblping");
+	ComputeEvents("de/vf","gwyping");
+	ComputeEvents("de/vf","webping");
+	ComputeEvents("de/vf","endping");
 
 	ComputeEvents("de/kd","eplping");
 	ComputeEvents("de/kd","uplping");
@@ -411,10 +418,4 @@ function ComputeEvents($isp,$what)
 	ComputeEvents("de/tf","gwyping");
 	ComputeEvents("de/tf","webping");
 	ComputeEvents("de/tf","endping");
-	
-	ComputeEvents("de/vf","uplping");
-	ComputeEvents("de/vf","bblping");
-	ComputeEvents("de/vf","gwyping");
-	ComputeEvents("de/vf","webping");
-	ComputeEvents("de/vf","endping");
 ?>

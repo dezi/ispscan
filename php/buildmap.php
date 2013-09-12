@@ -1072,6 +1072,11 @@ function BuildBackbones($isp,&$endpoint,&$uplinks,&$allbones,$stage)
 							$subnet[ "pc" ] += $subnet[ "segs" ][ $sinx ][ "pc" ];							
 						}
 						
+						if ($isp == "de/vf")
+						{
+							$subnet[ "gw" ] = IPZero(IP_Bin($subnet[ "ip" ]) + 1);
+						}
+						
 						if (isset($subnet[ "gw" ])) $eplinks[ $subnet[ "gw" ] ] = true;
 						
 						//

@@ -12,6 +12,19 @@
 			"www.vodafone.de"
 		]
 	},
+	"eplping" :
+	{
+		"friends" :
+		{
+			"xx/xx" : true,
+			"de/tk" : true,
+			"de/kd" : true
+		},
+		"checks" :
+		[
+			"www.vodafone.de"
+		]
+	},
 	"uplping" :
 	{
 		"friends" :

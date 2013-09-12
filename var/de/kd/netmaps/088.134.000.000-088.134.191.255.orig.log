@@ -1,11 +1,14 @@
-088.134.000.000=0 DE,Saarland,Bexbach,49.3333,7.2667
-088.134.001.000=0 DE,Saarland,Bexbach,49.3333,7.2667
-088.134.002.000=0 DE,Saarland,Bexbach,49.3333,7.2667
-088.134.003.000=0 DE,Saarland,Bexbach,49.3333,7.2667
-088.134.004.000=0 DE,Saarland,Bexbach,49.3333,7.2667
-088.134.005.000=0 DE,Saarland,Homburg,49.3167,7.3333
-088.134.006.000=0 DE,Saarland,Bexbach,49.36,7.2674
-088.134.007.000=0 DE,Saarland,Bexbach,49.3333,7.2667
+088.134.000.000=0 DE,Rheinland-Pfalz,Worms,49.6356,8.3338
+088.134.001.000=0 DE,Rheinland-Pfalz,Worms,49.6356,8.3338
+088.134.002.000=0 DE,Rheinland-Pfalz,Worms,49.6356,8.3338
+083.169.178.034@
+088.134.003.000=0 DE,Rheinland-Pfalz,Worms,49.6356,8.3338
+088.134.004.000=0 DE,Rheinland-Pfalz,Worms,49.6356,8.3338
+088.134.005.000=0 DE,Rheinland-Pfalz,Worms,49.6356,8.3338
+088.134.006.000=0 DE,Rheinland-Pfalz,Worms,49.6356,8.3338
+088.134.007.000=0 DE,Rheinland-Pfalz,Worms,49.6356,8.3338
+088.134.193.047~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
+088.134.193.045~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
 088.134.007.254=0+
 088.134.007.255=0*8
 =======8
@@ -45,8 +48,8 @@
 083.169.176.171@
 083.169.176.163@
 088.134.018.000=5 DE,Saarland,Saarbrücken,49.2333,7
-083.169.176.163@
 083.169.176.171@
+083.169.176.163@
 088.134.019.000=0 DE,Saarland,Saarbrücken,49.2333,7
 083.169.176.171@
 083.169.176.163@
@@ -60,8 +63,8 @@
 083.169.176.163@
 083.169.176.171@
 088.134.023.000=0 DE,Saarland,Saarbrücken,49.2333,7
-083.169.176.171@
 083.169.176.163@
+083.169.176.171@
 088.134.192.109~88-134-192-109-dynip.superkabel.de
 088.134.192.111~88-134-192-111-dynip.superkabel.de
 088.134.023.254=1+
@@ -90,7 +93,6 @@
 088.134.031.000=0 DE,Saarland,Saarbrücken,49.2333,7
 088.134.031.000!0 DE,Rheinland-Pfalz,Heuchelheim,49.1458,8.0547
 083.169.176.164@
-083.169.176.172@
 088.134.192.111~88-134-192-111-dynip.superkabel.de
 088.134.192.109~88-134-192-109-dynip.superkabel.de
 088.134.031.254=1+
@@ -104,8 +106,8 @@
 088.134.192.120@
 088.134.192.119@
 088.134.034.000=0 DE,Saarland,Sankt Ingbert,49.2833,7.1167
-088.134.192.120@
 088.134.192.119@
+088.134.192.120@
 088.134.035.000=0 DE,Saarland,Sulzbach,49.3,7.0667
 088.134.192.120@
 088.134.192.119@
@@ -125,6 +127,8 @@
 083.169.129.201~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
 083.169.129.209~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
 083.169.129.197~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
+088.134.205.170~88-134-205-170-dynip.superkabel.de
+088.134.204.026~88-134-204-26-dynip.superkabel.de
 088.134.039.254=5+
 088.134.039.255=0*8
 =======8
@@ -140,22 +144,19 @@
 088.134.041.255=0*2
 -------
 088.134.042.000=0 DE,Rheinland-Pfalz,Mainz,50,8.2711
-088.134.221.025@
 088.134.221.017@
-088.134.193.042~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
+088.134.221.025@
 088.134.193.044~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
+088.134.193.042~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
 088.134.042.254=1+
 088.134.042.255=0*1
 -------
 088.134.043.000=2 DE,Saarland,Neunkirchen,49.35,7.1833
 088.134.043.000=2 DE,Saarland,Freisen,49.55,7.25
-083.169.129.201@
-083.169.178.162@
-083.169.129.197@
-088.134.237.113~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
+083.169.178.170@
+088.134.204.026@
 088.134.192.117~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
-083.169.128.081~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
-088.134.237.125~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
+083.169.129.213~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
 088.134.043.254=1+
 088.134.043.255=0*1
 -------
@@ -217,6 +218,7 @@
 =======8
 088.134.056.000=0 DE,Rheinland-Pfalz,Waldsee,49.3953,8.4403
 088.134.057.000=5 DE,Rheinland-Pfalz,Ludwigshafen,49.4811,8.4353+
+088.134.057.000!0 DE,Rheinland-Pfalz,Ludwigshafen,49.4811,8.4353
 088.134.193.170@
 088.134.193.171@
 088.134.193.169~88-134-193-169-dynip.superkabel.de
@@ -244,8 +246,8 @@
 083.169.176.163@
 083.169.176.171@
 088.134.061.000=5 DE,Saarland,Saarbrücken,49.2333,7
-083.169.176.163@
 083.169.176.171@
+083.169.176.163@
 088.134.062.000=5 DE,Saarland,Saarbrücken,49.2333,7
 083.169.176.171@
 083.169.176.163@
@@ -267,9 +269,11 @@
 083.169.177.065@
 083.169.177.073@
 088.134.067.000=5 DE,Rheinland-Pfalz,Ingelheim am Rhein,49.9806,8.0736
+088.134.067.000!0 DE,Rheinland-Pfalz,Ingelheim,49.974,8.051
 083.169.177.065@
 083.169.177.073@
 088.134.068.000=5 DE,Rheinland-Pfalz,Ingelheim am Rhein,49.9806,8.0736
+088.134.068.000!0 DE,Rheinland-Pfalz,Ingelheim,49.974,8.051
 083.169.177.065@
 083.169.177.073@
 088.134.069.000=0 DE,Rheinland-Pfalz,Ingelheim,49.9806,8.0736
@@ -293,8 +297,8 @@
 083.169.176.164@
 083.169.176.172@
 088.134.074.000=0 DE,Saarland,Saarbrücken,49.2333,7
-083.169.176.172@
 083.169.176.164@
+083.169.176.172@
 088.134.075.000=5 DE,Saarland,Saarbrücken,49.2333,7
 083.169.176.164@
 083.169.176.172@
@@ -322,6 +326,7 @@
 083.169.176.193@
 083.169.176.201@
 088.134.082.000=5 DE,Rheinland-Pfalz,Mayen,50.3333,7.2167+
+088.134.082.000!0 DE,Rheinland-Pfalz,Mayen,50.3333,7.2167
 083.169.176.193@
 083.169.176.201@
 088.134.083.000=0 DE,Rheinland-Pfalz,Mayen,50.3333,7.2167
@@ -370,10 +375,16 @@
 088.134.095.254=1+
 088.134.095.255=0*8
 =======32
-088.134.096.000=0 DE,Saarland,Oberthal,49.5167,7.1
-088.134.097.000=0 DE,Saarland,Saarbrücken,49.2333,7
-088.134.098.000=0 DE,Saarland,Sulzbach,49.3,7.0667
-088.134.099.000=0 DE,Saarland,Sulzbach,49.3,7.0667
+088.134.096.000=0 DE,Rheinland-Pfalz,Worms,49.6356,8.3338
+088.134.097.000=0 DE,Rheinland-Pfalz,Worms,49.6356,8.3338
+088.134.097.000!0 DE,Saarland,Marpingen,49.45,7.05
+088.134.098.000=0 DE,Rheinland-Pfalz,Worms,49.6356,8.3338
+088.134.098.000!0 DE,Saarland,Marpingen,49.45,7.05
+088.134.099.000=0 DE,Rheinland-Pfalz,Worms,49.6356,8.3338
+088.134.099.000!0 DE,Saarland,Marpingen,49.45,7.05
+083.169.178.034@
+088.134.193.045~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
+088.134.193.047~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
 088.134.099.254=0+
 088.134.099.255=0*4
 -------
@@ -426,20 +437,22 @@
 -------
 088.134.106.000=0 DE,Rheinland-Pfalz,Ludwigshafen,49.4811,8.4353
 088.134.106.000=0 DE,Rheinland-Pfalz,Frankenthal,49.5386,8.354
+088.134.192.239@
 083.169.178.129@
-088.134.192.238@
-083.169.178.137~83-169-178-137-isp.superkabel.de
+083.169.178.137@
+088.134.192.240~DE,Rheinland-Pfalz,Ludwigshafen,49.4811,8.4353
 088.134.192.237~88-134-192-237-dynip.superkabel.de
+088.134.192.239~88-134-192-239-dynip.superkabel.de
 088.134.106.254=1+
 088.134.106.255=0*1
 -------
 088.134.107.000=0 DE,Rheinland-Pfalz,Neustadt An Der Weinstraße,49.3567,8.1378
 083.169.178.186@
 083.169.178.178@
-088.134.192.226~88-134-192-226-dynip.superkabel.de
-088.134.192.225~DE,Rheinland-Pfalz,Ludwigshafen,49.4811,8.4353
+088.134.192.228~DE,Rheinland-Pfalz,Ludwigshafen,49.4811,8.4353
 088.134.192.227~88-134-192-227-dynip.superkabel.de
-083.169.178.186~83-169-178-186-isp.superkabel.de
+088.134.192.225~DE,Rheinland-Pfalz,Ludwigshafen,49.4811,8.4353
+083.169.178.178~83-169-178-178-isp.superkabel.de
 088.134.107.254=1+
 088.134.107.255=0*1
 -------
@@ -468,8 +481,8 @@
 083.169.177.009@
 083.169.177.107@
 088.134.114.000=0 DE,Saarland,Merzig,49.4471,6.6312
-083.169.177.009@
 083.169.177.107@
+083.169.177.009@
 088.134.115.000=0 DE,Saarland,Merzig,49.4471,6.6312
 083.169.177.009@
 083.169.177.107@
@@ -492,27 +505,30 @@
 =======8
 088.134.120.000=0 DE,Rheinland-Pfalz,Ludwigshafen,49.4811,8.4353
 088.134.120.000=0 DE,Rheinland-Pfalz,Limburgerhof,49.4244,8.3919
-088.134.193.171@
 088.134.193.170@
 088.134.121.000=0 DE,Rheinland-Pfalz,Limburgerhof,49.4244,8.3919
 088.134.193.170@
 088.134.122.000=5 DE,Rheinland-Pfalz,Limburgerhof,49.4244,8.3919
 088.134.193.171@
+088.134.193.169@
+088.134.193.172@
 088.134.123.000=5 DE,Rheinland-Pfalz,Limburgerhof,49.4244,8.3919
-088.134.193.170@
+088.134.193.171@
 088.134.124.000=5 DE,Rheinland-Pfalz,Limburgerhof,49.4244,8.3919
 088.134.124.000!0 DE,Saarland,Neunkirchen,49.35,7.1833
 088.134.193.169@
 088.134.193.171@
+088.134.193.170@
 088.134.125.000=0 DE,Rheinland-Pfalz,Limburgerhof,49.4244,8.3919
 088.134.125.000!0 DE,Saarland,Homburg,49.3248,7.3357
 088.134.126.000=0 DE,Rheinland-Pfalz,Limburgerhof,49.4244,8.3919
 088.134.126.000!0 DE,Saarland,Homburg,49.3167,7.3333
 088.134.127.000=0 DE,Rheinland-Pfalz,Limburgerhof,49.4244,8.3919
 088.134.127.000!0 DE,Saarland,Homburg,49.3167,7.3333
-088.134.193.172~88-134-193-172-dynip.superkabel.de
 088.134.193.169~88-134-193-169-dynip.superkabel.de
-088.134.204.050~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
+088.134.193.172~88-134-193-172-dynip.superkabel.de
+088.134.205.154~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
+088.134.205.162~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
 088.134.127.254=5+
 088.134.127.255=0*8
 =======128
@@ -528,8 +544,9 @@
 083.169.129.201@
 083.169.129.197@
 088.134.131.000=0 DE,Saarland,Bexbach,49.36,7.2674
+088.134.205.170@
+083.169.178.169@
 083.169.178.161@
-083.169.129.201@
 088.134.132.000=0 DE,Saarland,Ottweiler,49.4048,7.1658
 083.169.178.161@
 083.169.129.197@
@@ -550,6 +567,7 @@
 083.169.128.110~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
 083.169.129.118~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
 088.134.237.117~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
+083.169.129.197~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
 088.134.237.113~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
 088.134.237.125~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
 088.134.237.109~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
@@ -574,9 +592,8 @@
 083.169.129.197@
 083.169.178.162@
 088.134.141.000=0 DE,Saarland,Homburg,49.3167,7.3333
-083.169.129.201@
-083.169.129.197@
-083.169.178.162@
+083.169.178.170@
+088.134.204.026@
 088.134.142.000=0 DE,Saarland,Freisen,49.55,7.25
 083.169.129.201@
 083.169.178.162@
@@ -590,8 +607,8 @@
 088.134.201.113~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
 088.134.237.125~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
 088.134.237.113~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
-088.134.237.109~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
-083.169.129.118~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
+083.169.129.213~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
+083.169.129.209~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
 083.169.129.234~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
 088.134.143.254=1+
 088.134.143.255=0*8
@@ -607,6 +624,7 @@
 088.134.192.123@
 088.134.192.124@
 088.134.147.000=0 DE,Saarland,Eppelborn,49.4,6.9667
+088.134.147.000!0 DE,Saarland,Schmelz,49.4333,6.85
 088.134.192.124@
 088.134.192.123@
 088.134.148.000=0 DE,Saarland,Schmelz,49.4333,6.85
@@ -625,11 +643,14 @@
 083.169.129.197~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
 083.169.129.213~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
 083.169.129.201~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
+088.134.204.026~88-134-204-26-dynip.superkabel.de
+088.134.205.170~88-134-205-170-dynip.superkabel.de
 088.134.151.254=5+
 088.134.151.255=0*8
 =======8
 088.134.152.000=2 DE,Saarland,Saarbrücken,49.2333,7
 088.134.152.000=2 DE,Saarland,Eppelborn,49.4,6.9667
+088.134.152.000!0 DE,Saarland,Eppelborn,49.4022,6.9706
 083.169.176.173@
 083.169.176.165@
 088.134.192.111~88-134-192-111-dynip.superkabel.de
@@ -723,6 +744,7 @@
 088.134.192.120@
 088.134.166.000=0 DE,Saarland,Sulzbach,49.3,7.0667
 088.134.192.119@
+088.134.192.120@
 088.134.167.000=0 DE,Saarland,Sulzbach,49.3,7.0667
 088.134.192.119@
 088.134.192.120@
@@ -730,6 +752,8 @@
 083.169.129.197~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
 083.169.129.213~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
 083.169.129.201~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
+088.134.205.170~88-134-205-170-dynip.superkabel.de
+088.134.204.026~88-134-204-26-dynip.superkabel.de
 088.134.167.254=5+
 088.134.167.255=0*4
 =======8
@@ -738,8 +762,8 @@
 088.134.192.124@
 088.134.192.123@
 088.134.169.000=0 DE,Saarland,Schmelz,49.4333,6.85
-088.134.192.123@
 088.134.192.124@
+088.134.192.123@
 088.134.170.000=5 DE,Saarland,Schmelz,49.4333,6.85
 088.134.192.124@
 088.134.192.123@
@@ -750,6 +774,8 @@
 083.169.129.201~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
 083.169.129.209~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
 083.169.129.197~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
+088.134.204.026~88-134-204-26-dynip.superkabel.de
+088.134.205.170~88-134-205-170-dynip.superkabel.de
 088.134.171.254=5+
 088.134.171.255=0*4
 -------
@@ -783,8 +809,8 @@
 088.134.175.000=0 DE,Rheinland-Pfalz,Pirmasens,49.2,7.6
 088.134.175.000=0 DE,Rheinland-Pfalz,Zweibrücken,49.249,7.3649
 088.134.204.218@
-083.169.129.193~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
 083.169.129.189~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
+083.169.129.193~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
 088.134.175.254=5+
 088.134.175.255=0*1
 =======16
@@ -793,12 +819,13 @@
 083.169.178.196@
 083.169.178.204@
 088.134.177.000=5 DE,Rheinland-Pfalz,Kirschweiler,49.75,7.25
-083.169.178.204@
 083.169.178.196@
+083.169.178.204@
 088.134.178.000=0 DE,Rheinland-Pfalz,Hahnenbach,49.8167,7.4167
 083.169.178.196@
 083.169.178.204@
 088.134.179.000=0 DE,Rheinland-Pfalz,Herborn,49.7667,7.3
+088.134.179.000!0 DE,Saarland,Völklingen,49.2398,6.8417
 088.134.193.040~88-134-193-40-dynip.superkabel.de
 088.134.193.038~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
 088.134.179.254=1+
@@ -807,56 +834,55 @@
 088.134.180.000=0 DE,Saarland,Neunkirchen,49.35,7.1833
 088.134.180.000=0 DE,Saarland,Bexbach,49.3333,7.2667
 083.169.178.161@
-083.169.129.197@
+088.134.205.170@
 088.134.181.000=0 DE,Saarland,Bexbach,49.3333,7.2667
 083.169.129.197@
 083.169.129.201@
 083.169.178.161@
 088.134.182.000=0 DE,Saarland,Bexbach,49.3333,7.2667
-083.169.129.201@
+088.134.205.170@
 083.169.178.161@
 088.134.183.000=0 DE,Saarland,Homburg,49.3167,7.3333
+088.134.205.170@
 083.169.178.161@
-083.169.129.197@
-083.169.129.201@
 088.134.192.117~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
-083.169.128.081~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
+083.169.129.197~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
+083.169.129.201~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
 088.134.237.121~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
 088.134.237.113~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
 088.134.237.117~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
-083.169.129.234~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
-083.169.129.118~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
 088.134.183.254=1+
 088.134.183.255=0*4
 =======8
 088.134.184.000=0 DE,Saarland,Neunkirchen,49.35,7.1833
-083.169.178.161@
-083.169.129.201@
+083.169.178.169@
+088.134.204.026@
 088.134.185.000=0 DE,Saarland,Neunkirchen,49.35,7.1833
 083.169.178.161@
 083.169.129.201@
 083.169.129.197@
 088.134.186.000=5 DE,Saarland,Marpingen,49.45,7.05
+088.134.186.000!0 DE,Saarland,Bexbach,49.3333,7.2667
 083.169.178.161@
 083.169.129.197@
 088.134.187.000=0 DE,Saarland,Bexbach,49.3333,7.2667
+088.134.205.170@
 083.169.178.161@
-083.169.129.197@
 088.134.192.117~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
-088.134.201.113~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
+083.169.129.213~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
 088.134.237.109~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
 083.169.128.081~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
 088.134.237.125~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
-083.169.129.234~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
+083.169.129.201~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
 088.134.187.254=1+
 088.134.187.255=0*4
 -------
 088.134.188.000=2 DE,Rheinland-Pfalz,Rennerod,50.6167,8.0667
 088.134.188.000=2 DE,Rheinland-Pfalz,Waigandshain,50.65,8.0833
-083.169.176.097@
 083.169.176.105@
-088.134.193.014~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
+083.169.176.097@
 088.134.193.012~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
+088.134.193.014~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
 088.134.188.254=1+
 088.134.188.255=0*1
 -------

@@ -32,6 +32,7 @@ kappa.ISPList =
 				'Hamburg-Bremen'  		  : true,
 				'Hamburg-Nürnberg' 		  : true,
 				'Hamburg-Kaiserslautern'  : true,
+				'Hamburg-München'  		  : true,
 				'Hannover-Bremen' 	 	  : true,
 				'Hannover-Berlin' 	 	  : true,
 				'Hannover-Leipzig'  	  : true,

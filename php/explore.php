@@ -692,6 +692,7 @@ function InspectRange($ipfrom,$iptoto,$netbound = 1,$nowrite = false)
 		// Replace similar geo positions.
 		//
 		
+		/*
 		if (isset($tuneups[ $ipzero ]) &&
 			(count($tuneups[ $ipzero ]) == 1) &&
 			(substr($tuneups[ $ipzero ][ 0 ],2) != substr($rest,2)))
@@ -710,6 +711,7 @@ function InspectRange($ipfrom,$iptoto,$netbound = 1,$nowrite = false)
 				$tuneups[ $ipzero ][ 0 ] = $rest;
 			}
 		}
+		*/
 		
 		if (isset($tuneups[ $ipzero ]))
 		{
@@ -832,7 +834,7 @@ function Explore($isp,$minsize,$netbound)
 		
 		if ($size < $minsize) continue;
 		
-		InspectRange($from,$upto,$netbound);
+		//InspectRange($from,$upto,$netbound);
 	}
 }
 
@@ -903,8 +905,8 @@ function Explore($isp,$minsize,$netbound)
 		InspectRange("217.000.000.000","217.007.255.255",8);
 		InspectRange("217.080.000.000","217.095.255.255",8);
 		InspectRange("217.224.000.000","217.255.255.255",8);	
-	
-		//Explore("de/tk",500000,8);
+		
+		Explore("de/tk",500000,8);
 	}
 	
 	if ($isp == "de/kd")
