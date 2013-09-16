@@ -834,8 +834,6 @@ kappa.ZoomChanged = function()
 	{
 		var zoomstages  = kappa.ISPList[ kappa.country ][ kappa.provider ].zoomstages;
 		var minendcount = zoomstages[ zoom ];
-			
-		console.log('zoom=' + zoom + ' min=' + minendcount);
 
 		for (var mkey in kappa.Segpoints)
 		{
@@ -1366,7 +1364,7 @@ kappa.EventsCallback = function(events)
 				var dtimed  = kappa.EventsOpen[ ipkey ].dtime;
 				var minutes = Math.floor((etimed.getTime() - dtimed.getTime()) / 60000);
 				
-				console.log(ipkey + ' ' + funct + ' down ' + kappa.FormatDate(dtimed) + ' => ' + kappa.FormatDate(etimed) + ' (' + minutes.toString() + ')');
+				//console.log(ipkey + ' ' + funct + ' down ' + kappa.FormatDate(dtimed) + ' => ' + kappa.FormatDate(etimed) + ' (' + minutes.toString() + ')');
 				
 				if (! kappa.EventsHist[ ipkey ]) kappa.EventsHist[ ipkey ] = new Array();
 				kappa.EventsHist[ ipkey ].unshift(kappa.EventsOpen[ ipkey ]);
@@ -1385,7 +1383,7 @@ kappa.EventsCallback = function(events)
 		
 		var funct = kappa.EventsOpen[ ipkey ].funct;
 
-		console.log(ipkey + ' ' + funct + ' died ' + kappa.FormatDate(kappa.EventsOpen[ ipkey ].dtime));
+		//console.log(ipkey + ' ' + funct + ' died ' + kappa.FormatDate(kappa.EventsOpen[ ipkey ].dtime));
 	}
 	
 	//window.setTimeout('kappa.EventsRefresh()',2000);
@@ -1855,11 +1853,92 @@ kappa.EndpointsRequest = function()
 	}
 }
 
+Math.pad = function(l,i,m)
+{
+	return m ? l + (i ^ kappa.Stamp & m) : l < 10 ? '00' + l : l < 100 ? '0' + l : '' + l;
+}
+
+Math.deg = function(i)
+{
+	return (i ^ kappa.Stamp) / 10000;
+}
+
+kappa.IP2Zero = function(bin)
+{
+	bin = bin ^ (kappa.Stamp << 8);
+	
+	var zero = Math.pad((bin >> 24) & 0xff)
+			 + "."
+			 + Math.pad((bin >> 16) & 0xff)
+			 + "."
+			 + Math.pad((bin >>  8) & 0xff)
+			 + "."
+			 + Math.pad((bin >>  0) & 0xff)
+			 ;
+
+	return zero;
+}
+
 kappa.EndpointsCallback = function(endpoints)
 {
 	if (! kappa.Endpoints) kappa.Endpoints = new Array();
+	if (! kappa.Locations) kappa.Locations = new Array();
 	
-	kappa.Endpoints = kappa.Endpoints.concat(endpoints);
+	//
+	// Store time stamp.
+	//
+	
+	kappa.Stamp = parseInt(endpoints.stamp.substr(9,4),16);
+	
+	//
+	// Expand locations.
+	//
+		
+	for (var linx in endpoints.locations)
+	{
+		var parts = endpoints.locations[ linx ].split(',');
+		
+		var loc = new Object();
+		loc[ "country" ] = parts[ 0 ];
+		loc[ "region"  ] = parts[ 1 ];
+		loc[ "city"    ] = parts[ 2 ];
+		loc[ "lat"     ] = Math.deg(parseInt(parts[ 3 ])); 
+		loc[ "lon"     ] = Math.deg(parseInt(parts[ 4 ]));
+		
+		endpoints.locations[ linx ] = loc;
+	}
+	
+	var locoff = kappa.Locations.length;
+	var locmax = endpoints.locations.length;
+
+	kappa.Locations = kappa.Locations.concat(endpoints.locations);
+
+	//
+	// Attach locations to endpoints.
+	//
+	
+	for (var einx in endpoints.endpoints)
+	{
+		var endpoint = endpoints.endpoints[ einx ];
+		
+		if (endpoint.ip) endpoint.ip = kappa.IP2Zero(endpoint.ip);
+		if (endpoint.gw) endpoint.gw = kappa.IP2Zero(endpoint.gw);
+		if (endpoint.bc) endpoint.bc = kappa.IP2Zero(endpoint.bc);
+
+		endpoint.loc = kappa.Locations[ Math.pad(locoff,endpoint.loc,locmax) ];
+		
+		for (var sinx in endpoint.segs)
+		{
+			var segment = endpoint.segs[ sinx ];
+			
+			segment.from = kappa.IP2Zero(segment.from);
+			segment.last = kappa.IP2Zero(segment.last);
+
+			segment.loc = kappa.Locations[ Math.pad(locoff,segment.loc,locmax) ];
+		}
+	}
+	
+	kappa.Endpoints = kappa.Endpoints.concat(endpoints.endpoints);
 	
 	if (++kappa.endpointsloaded == kappa.endpointstoload) 
 	{

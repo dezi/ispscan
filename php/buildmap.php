@@ -2,6 +2,7 @@
 
 	include("../php/util.php");
 	include("../php/json.php");
+	include("../php/xore.php");
 	
 	if (count($_SERVER[ "argv" ]) < 2)
 	{
@@ -1310,9 +1311,9 @@ function BuildBackbones($isp,&$endpoint,&$uplinks,&$allbones,$stage)
 		
 		$final = "../www/$isp/$tobuild.map";
 	
+		$map = EncodeEndpoints($map);
+		
 		$json = json_encdat($map) . "\n";
-		//file_put_contents($final . ".json",$json);
-	
 		$json = "kappa.EndpointsCallback(\n" . $json . ");\n";
 		file_put_contents($final . ".js",$json);
 	}
