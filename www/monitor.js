@@ -25,20 +25,25 @@ kappa.ISPList =
 			},
 			bbnoshow :
 			{
+				'Lübeck-Osnabrück'		  : true,
 				'Neumünster-Kiel'		  : true,
 				'Hamburg-Hannover'		  : true,
+				'Hamburg-Gera'  		  : true,
+				'Hamburg-Dresden'  		  : true,
 				'Hamburg-Berlin'  		  : true,
 				'Hamburg-Leipzig' 		  : true,
 				'Hamburg-Bremen'  		  : true,
 				'Hamburg-Nürnberg' 		  : true,
 				'Hamburg-Kaiserslautern'  : true,
 				'Hamburg-München'  		  : true,
+				'Hamburg-Osnabrück'  	  : true,
 				'Hannover-Bremen' 	 	  : true,
 				'Hannover-Berlin' 	 	  : true,
 				'Hannover-Leipzig'  	  : true,
 				'Leipzig-Berlin'  		  : true,
 				'Kaiserslautern-Bremen'   : true,
 				'Kaiserslautern-Hannover' : true,
+				'Kaiserslautern-Gera'	  : true,
 				'Kaiserslautern-Berlin'   : true,
 				'Kaiserslautern-Leipzig'  : true,
 				'Kaiserslautern-Nürnberg' : true,
@@ -229,6 +234,14 @@ kappa.ISPList =
 				'Frankfurt Am Main-Düsseldorf'	: true,
 				'Frankfurt Am Main-Stuttgart'	: true,
 				'Frankfurt Am Main-München'		: true,
+			},
+			gatewaylocs :
+			{
+				'GB' : 'GB,,Worldwide,51.1,10.1',
+				'NL' : 'NL,,Worldwide,51.1,10.1',
+				
+				'DE,Nordrhein-Westfalen,Düsseldorf' : 'DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.2',
+				'DE,Nordrhein-Westfalen,Gütersloh' 	: 'DE,Nordrhein-Westfalen,Gütersloh,52.3,8.3833'
 			},
 			zoomstages :
 			[
@@ -1179,15 +1192,15 @@ kappa.NetworkClick = function()
 	window.prompt('Copy Me...',copyme);
 }
 
-kappa.HomeDraw = function(snet,seg)
+kappa.HomeDraw = function(snet,seg,seglat,seglon)
 {
 	if ((kappa.Mystuff.myip < seg.from) || (kappa.Mystuff.myip > seg.last))
 	{
 		return false;
 	}
 
-	var homelat = kappa.Round(seg.loc.lat);
-	var homelon = kappa.Round(seg.loc.lon);
+	var homelat = seglat;
+	var homelon = seglon;
 	
 	if (kappa.LocalStorageGet('home_lat')) homelat = kappa.LocalStorageGet('home_lat');
 	if (kappa.LocalStorageGet('home_lon')) homelon = kappa.LocalStorageGet('home_lon');
@@ -1208,7 +1221,7 @@ kappa.HomeDraw = function(snet,seg)
 	
 	var path = 
 	[
-		new google.maps.LatLng(seg.loc.lat,seg.loc.lon),
+		new google.maps.LatLng(seglat,seglon),
 		new google.maps.LatLng(homelat,homelon)
 	];
 
@@ -1950,14 +1963,6 @@ kappa.EndpointsDraw = function()
 			var segips  = kappa.IP2Bin(seg.last) - kappa.IP2Bin(seg.from) + 1;
 			var segnum  = kappa.NiceNumber(seg.pc) + '/' + kappa.NiceNumber(segips);
 			
-			var ishome  = kappa.HomeDraw(snet,seg);
-			
-			if ((Math.abs(seglat - fixlat) < 1.000) && 
-				(Math.abs(seglon - fixlon) < 1.000))
-			{
-				//continue;
-			}
-			
 			if ((Math.abs(seglat - fixlat) < 0.001) && 
 				(Math.abs(seglon - fixlon) < 0.001))
 			{
@@ -1975,14 +1980,8 @@ kappa.EndpointsDraw = function()
 				seglat = kappa.Round(((seglat * (weight - 1)) + fixlat) / weight);
 				seglon = kappa.Round(((seglon * (weight - 1)) + fixlon) / weight);
 			}
-			
-			/*
-			if ((Math.abs(seglat - fixlat) < 3.001) && 
-				(Math.abs(seglon - fixlon) < 3.001))
-			{
-				continue;
-			}
-			*/
+						
+			var ishome = kappa.HomeDraw(snet,seg,seglat,seglon);
 			
 			var markerkey = seglat + '/' + seglon;
 			var sgmarker  = kappa.Segpoints[ markerkey ];

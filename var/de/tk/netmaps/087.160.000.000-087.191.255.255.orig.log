@@ -28976,7 +28976,7 @@
 087.190.238.000=0 DE,Nordrhein-Westfalen,Bonn,50.7333,7.1
 087.190.239.000=0 DE,Nordrhein-Westfalen,Bonn,50.7333,7.1
 062.154.016.226~DE,Hessen,Frankfurt Am Main,50.1167,8.6833
-087.190.239.255=0*8
+087.190.239.255=0^8
 =======16
 087.190.240.000=0 DE,Nordrhein-Westfalen,Bonn,50.7333,7.1
 087.190.241.000=0 DE,Nordrhein-Westfalen,Bonn,50.7333,7.1
@@ -28990,7 +28990,7 @@
 087.190.247.000=0 DE,Nordrhein-Westfalen,Bonn,50.7333,7.1
 062.156.130.081~0171112-1-1-gw.F.DE.NET.DTAG.DE
 062.154.016.226~DE,Hessen,Frankfurt Am Main,50.1167,8.6833
-087.190.247.255=0*8
+087.190.247.255=0^8
 =======8
 087.190.248.000=0 DE,Nordrhein-Westfalen,Bonn,50.7333,7.1
 087.190.249.000=0 DE,Nordrhein-Westfalen,Bonn,50.7333,7.1
@@ -29014,7 +29014,7 @@
 087.191.007.000=0 DE,Nordrhein-Westfalen,Bonn,50.7333,7.1
 062.154.016.226~DE,Hessen,Frankfurt Am Main,50.1167,8.6833
 062.156.130.081~0171112-1-1-gw.F.DE.NET.DTAG.DE
-087.191.007.255=0*8
+087.191.007.255=0^8
 =======8
 087.191.008.000=0 DE,Nordrhein-Westfalen,Bonn,50.7333,7.1
 087.191.009.000=0 DE,Nordrhein-Westfalen,Bonn,50.7333,7.1

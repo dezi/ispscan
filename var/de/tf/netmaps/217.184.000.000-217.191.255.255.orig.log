@@ -650,14 +650,14 @@
 213.020.150.150@
 213.020.150.182~DE,Mecklenburg-Vorpommern,Neubrandenburg,53.5476,13.2555
 213.020.150.202~DE,Mecklenburg-Vorpommern,Neubrandenburg,53.5667,13.2667
-217.186.004.255=0*1
+217.186.004.255=0^1
 -------
 217.186.005.000=0 DE,Berlin,Berlin,52.5167,13.4
 217.186.005.000=0 DE,Brandenburg,Brandenburg,52.4167,12.55
 213.020.150.206@
 213.020.150.222@
 062.053.000.119~xmwc-brln-de02-chan-5.nw.mediaways.net
-217.186.005.255=0*1
+217.186.005.255=0^1
 -------
 217.186.006.000=0 DE,,,51,9
 217.186.007.000=0 DE,,,51,9
@@ -1379,7 +1379,7 @@
 217.187.063.000=0 DE,Nordrhein-Westfalen,Duisburg,51.4333,6.75
 195.071.242.085~xmws-dsbg-de02-vlan-3.nw.mediaways.net
 062.053.190.037~xmws-dsbg-de01-vlan-2.nw.mediaways.net
-217.187.063.255=0*8
+217.187.063.255=0^8
 =======64
 217.187.064.000=0 DE,Nordrhein-Westfalen,Essen,51.45,7.0167
 217.187.065.000=0 DE,Nordrhein-Westfalen,Recklinghausen,51.5794,7.2158
@@ -1428,7 +1428,7 @@
 213.020.052.136@
 062.053.002.123~rmws-sign-de02-ge-0-1-0-0.nw.mediaways.net
 062.053.002.121~rmws-sign-de02-ge-0-2-0-0.nw.mediaways.net
-217.187.083.255=0*4
+217.187.083.255=0^4
 -------
 217.187.084.000=0 DE,Nordrhein-Westfalen,Velbert,51.3333,7.05
 195.071.252.017@
@@ -1436,7 +1436,7 @@
 217.187.086.000=0 DE,Nordrhein-Westfalen,Wuppertal,51.2667,7.1833
 217.187.087.000=0 DE,Nordrhein-Westfalen,Wuppertal,51.2667,7.1833
 062.053.002.137~xmws-wprt-de01-gigaet-1-4.nw.mediaways.net
-217.187.087.255=0*4
+217.187.087.255=0^4
 =======8
 217.187.088.000=0 DE,Nordrhein-Westfalen,Essen,51.45,7.0167
 217.187.089.000=0 DE,Nordrhein-Westfalen,Essen,51.45,7.0167
@@ -1655,7 +1655,7 @@
 217.187.202.000=0 DE,Niedersachsen,Lingen,52.5167,7.3167
 217.187.203.000=0 DE,Niedersachsen,Lingen,52.5167,7.3167
 195.071.181.190~rmws-lnge-de03-ge-1-3-0-0.nw.mediaways.net
-217.187.203.255=0*4
+217.187.203.255=0^4
 -------
 217.187.204.000=0 DE,Bremen,Bremerhaven,53.55,8.5833
 217.187.204.000=0 DE,Niedersachsen,Nordenham,53.5,8.4833
@@ -3555,7 +3555,7 @@
 217.191.142.000=0 DE,Hamburg,Hamburg,53.55,10
 217.191.143.000=0 DE,Hamburg,Hamburg,53.55,10
 062.053.000.197~62.53.0.197
-217.191.143.255=0*8
+217.191.143.255=0^8
 =======16
 217.191.144.000=0 DE,Schleswig-Holstein,Flensburg,54.7833,9.4333
 195.071.142.134@

@@ -789,7 +789,7 @@
 092.072.198.000=0 DE,Nordrhein-Westfalen,Langenfeld,51.1,6.95
 092.072.199.000=0 DE,Nordrhein-Westfalen,Krefeld,51.3333,6.5667
 080.239.193.218~vodafone-ic-144552-ffm-b11.c.telia.net
-092.072.199.255=0*4
+092.072.199.255=0^4
 =======8
 092.072.200.000=0 DE,Nordrhein-Westfalen,Krefeld,51.3333,6.5667
 092.072.201.000=0 DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
@@ -2287,7 +2287,7 @@
 092.074.055.000=0 DE,Bayern,München,48.15,11.5833
 145.254.013.206@
 080.239.193.218~vodafone-ic-144552-ffm-b11.c.telia.net
-092.074.055.255=0*4
+092.074.055.255=0^4
 =======8
 092.074.056.000=0 DE,Bayern,München,48.15,11.5833
 092.074.057.000=0 DE,Bayern,München,48.15,11.5833

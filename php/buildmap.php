@@ -1091,7 +1091,7 @@ function BuildBackbones($isp,&$endpoint,&$uplinks,&$allbones,$stage)
 						// Push into unrouted networks.
 						//
 						
-						$deadnets[ $subnet[ "ip" ] . "-" . $subnet[ "bc" ] ] = "unrouted";
+						$deadnets[ $subnet[ "ip" ] . "-" . $subnet[ "bc" ] ] = $bogus ? "disabled" : "unrouted";
 					}
 					
 					$subnet  = Array();

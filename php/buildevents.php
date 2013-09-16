@@ -102,7 +102,8 @@ function ComputeEvents($isp,$what)
 		
 		$dirty = false;
 		$reorg = false;
-
+		$maxst = date("Ymd.His",time() - (8 * 86400));
+		
 		if (isset($json[ "*" ])) unset($json[ "*" ]);
 		
 		//
@@ -124,6 +125,13 @@ function ComputeEvents($isp,$what)
 				
 				foreach ($json[ $ip ] as $stamp => $time)
 				{
+					if ($bforstamp && ($stamp < $maxst))
+					{
+						unset($json[ $ip ][ $stamp ]);
+						$changed = $reorg = true;
+						continue;
+					}
+					
 					if ($bforstamp && $laststamp)
 					{
 						if (($time == -1) && ($lasttime == -1) && ($bfortime == -1))
@@ -380,7 +388,11 @@ function ComputeEvents($isp,$what)
 		
 		if ($dirty || $reorg) 
 		{
-			if ($reorg) echo "Reorg: $file\n";
+			if ($reorg) 
+			{
+				echo "Reorg: $file\n";
+			}
+			
 			file_put_contents($file,json_encdat($json) . "\n");
 		}
 	}

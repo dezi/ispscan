@@ -155,7 +155,7 @@ function ScheduleMtrDomsTask($task,&$request)
 	
 	if ($selected === false) return;
 	
-	$request[ "what" ] = "mtr";
+	$request[ "what" ] = "mtrlogs";
 	
 	$request[ "ping" ]   = 0; // Ping before mtr.
 	$request[ "mtrc" ]   = 5; // Five mtr rounds per IP.
@@ -1607,6 +1607,7 @@ function ConsumeNetpingTask($trans,$reply,$remote_host,$remote_port)
 		   . $trans[ "consume" ] 
 		   . " => "
 		   . $netpingfile 
+		   . (($nodes == 0) ? (" dead=" . $trans[ "host" ]) : "")
 		   . "\n");
 		
 		$from += 256;
@@ -1619,7 +1620,7 @@ function ScheduleWebpingTask($task,&$request)
 	if (isset($request[ "what" ])) return;
 	if (! HasFeature($task,"webping")) return;
 	if (! IsVersion($task,"1.03")) return;
-	
+
 	$isp = GetRandomISP("mapdata/gateways.json");
 	if ($request[ "isp" ] != $isp) return;
 
@@ -1927,6 +1928,8 @@ function ScheduleTask($task,$remote_host,$remote_port)
 	
 	$request[ "isp"  ] = $isp;
 	$request[ "guid" ] = CreateGuid();
+	$request[ "host" ] = $remote_host;
+	$request[ "port" ] = $remote_port;
 
 	$trans = array();
 	$trans[ "host"    ] = $task[ "host" ];
@@ -1934,18 +1937,17 @@ function ScheduleTask($task,$remote_host,$remote_port)
 	$trans[ "request" ] = &$request;
 		
 	$GLOBALS[ "transactions" ][ $request[ "guid" ] ] = &$trans;
-    
+  
+  	if (! mt_rand(0,4)) ScheduleMtrDomsTask($task,$request);
+	if (! mt_rand(0,4)) ScheduleMtrLogsTask($task,$request);
+	if (! mt_rand(0,2)) ScheduleNetpingTask($task,$request);
+	
 	if (! mt_rand(0,0)) ScheduleWebpingTask($task,$request);
     if (! mt_rand(0,0)) ScheduleGwypingTask($task,$request);
     if (! mt_rand(0,0)) ScheduleBblpingTask($task,$request);
     if (! mt_rand(0,0)) ScheduleUplpingTask($task,$request);
     if (! mt_rand(0,0)) ScheduleEplpingTask($task,$request);
-
 	if (! mt_rand(0,0)) ScheduleEndpingTask($task,$request);
-	if (! mt_rand(0,0)) ScheduleNetpingTask($task,$request);
-
-  	if (! mt_rand(0,0)) ScheduleMtrDomsTask($task,$request);
-	if (! mt_rand(0,0)) ScheduleMtrLogsTask($task,$request);
 	
 	if (! isset($request[ "what" ]))
 	{

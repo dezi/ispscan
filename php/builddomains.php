@@ -61,38 +61,6 @@ function MaxMindSearchGeo($ip)
 	return $geo;
 }
 
-function GetHostByAddress($ip,$isp = "xx",$cache = "global")
-{
-	$cachefile = "../var/$isp/tmpcach/hostsbyaddr.$cache.json";
-	
-	if (! isset($GLOBALS[ "gethostcache" ])) 
-	{
-		$GLOBALS[ "gethostcache" ] = array();
-		
-		if (file_exists($cachefile))
-		{
-			$GLOBALS[ "gethostcache" ] = json_decdat(file_get_contents($cachefile));
-		}
-	}
-	
-	if (! isset($GLOBALS[ "gethostcache" ][ IPZero($ip) ]))
-	{
-		$GLOBALS[ "gethostcache" ][ IPZero($ip) ] = gethostbyaddr(IP($ip));
-	}
-	
-	return $GLOBALS[ "gethostcache" ][ IPZero($ip) ];
-}
-
-function GetHostByAddressSave($isp = "xx",$cache = "global")
-{
-	$cachefile = "../var/$isp/tmpcach";
-	if (! is_dir($cachefile)) mkdir($cachefile,0777);
-	$cachefile .= "/hostsbyaddr.$cache.json";
-	
-	ksort($GLOBALS[ "gethostcache" ]);
-	file_put_contents($cachefile,json_encdat($GLOBALS[ "gethostcache" ]) . "\n");
-}
-
 function BuildDomains($isp)
 {
 	$locations = array();
@@ -193,7 +161,9 @@ function BuildDomains($isp)
 		$domainsfile = "../var/$isp/domains/$domain.json";
 		if (isset($olddomains[ $domainsfile ])) unset($olddomains[ $domainsfile ]);
 		
-		$domdata = json_decdat(file_get_contents($domainsfile));
+		$domjson = @file_get_contents($domainsfile);
+		if ($domjson === false) continue;
+		$domdata = json_decdat($domjson);
 		
 		if (! isset($domdata[ "paths" ])) continue;
 		
@@ -454,8 +424,9 @@ function BuildDomains($isp)
 	GetHostByAddressSave($isp,"builddomains");
 }
 
-BuildDomains("de/tk");
-BuildDomains("de/kd");
+//BuildDomains("de/tk");
+//BuildDomains("de/kd");
+BuildDomains("de/tf");
 
 
 ?>
