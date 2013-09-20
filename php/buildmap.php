@@ -681,6 +681,9 @@ function BuildBackbones($isp,&$endpoint,&$uplinks,&$allbones,$stage)
 	$bonusnailed[ "xxxxx"  				] =  "xxxxxxxxx";
 	$bonusnailed[ "xxxxx"  				] =  "xxxxxxxxx";
 	$bonusnailed[ "xxxxx"  				] =  "xxxxxxxxx";
+	$bonusnailed[ "xxxxx"  				] =  "xxxxxxxxx";
+	$bonusnailed[ "xxxxx"  				] =  "xxxxxxxxx";
+	$bonusnailed[ "Aachen"  			] =  "DE,Nordrhein-Westfalen,Aachen,50.7708,6.1053";
 	$bonusnailed[ "Herne"  				] =  "DE,Nordrhein-Westfalen,Herne,51.55,7.2167";
 	$bonusnailed[ "Bochum"  			] =  "DE,Nordrhein-Westfalen,Bochum,51.4833,7.2167";
 	$bonusnailed[ "Lünen"  				] =  "DE,Nordrhein-Westfalen,Lünen,51.6189,7.5222";
