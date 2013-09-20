@@ -125,41 +125,36 @@ function ComputeEvents($isp,$what)
 				
 				foreach ($json[ $ip ] as $stamp => $time)
 				{
-					if ($bforstamp && ($stamp < $maxst))
-					{
-						unset($json[ $ip ][ $stamp ]);
-						$changed = $reorg = true;
-						continue;
-					}
-					
 					if ($bforstamp && $laststamp)
 					{
 						if (($time == -1) && ($lasttime == -1) && ($bfortime == -1))
 						{
 							unset($json[ $ip ][ $laststamp ]);
-							$changed = $reorg = true;
+							$changed = $reorg = 2;
 						}
-						else
+
+						if (($time != -1) && ($lasttime == -1) && ($bfortime != -1))
 						{
-							if (($time != -1) && ($lasttime == -1) && ($bfortime != -1))
+							unset($json[ $ip ][ $laststamp ]);
+							$changed = $reorg = 3;
+						}
+
+						if (($time == -1) && ($lasttime != -1) && ($bfortime == -1))
+						{
+							unset($json[ $ip ][ $laststamp ]);
+							$changed = $reorg = 4;
+						}
+
+						if (($time != -1) && ($lasttime != -1) && ($bfortime != -1))
+						{ 
+							$nowslow = ($time     > 1000);
+							$lstslow = ($lasttime > 1000);
+							$bfoslow = ($bfortime > 1000);
+				
+							if (($nowslow == $lstslow) && ($lstslow == $bfoslow))
 							{
 								unset($json[ $ip ][ $laststamp ]);
-								$changed = $reorg = true;
-							}
-							else
-							{
-								if (($time != -1) && ($lasttime != -1) && ($bfortime != -1))
-								{ 
-									$nowslow = ($time     > 1000);
-									$lstslow = ($lasttime > 1000);
-									$bfoslow = ($bfortime > 1000);
-						
-									if (($nowslow == $lstslow) && ($lstslow == $bfoslow))
-									{
-										unset($json[ $ip ][ $laststamp ]);
-										$changed = $reorg = true;
-									}
-								}
+								$changed = $reorg = 5;
 							}
 						}
 					}
@@ -388,9 +383,9 @@ function ComputeEvents($isp,$what)
 		
 		if ($dirty || $reorg) 
 		{
-			if ($reorg) 
+			if ($reorg > 1) 
 			{
-				echo "Reorg: $file\n";
+				echo "Reorg: $reorg $file\n";
 			}
 			
 			file_put_contents($file,json_encdat($json) . "\n");
@@ -400,6 +395,7 @@ function ComputeEvents($isp,$what)
 	closedir($dfd);
 }
 
+	WriteEvent   ("de/um");
 	WriteEvent   ("de/kd");
 	WriteEvent   ("de/tk");
 	WriteEvent   ("de/tf");

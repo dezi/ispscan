@@ -34,6 +34,17 @@ function GetHostByAddressSave($isp = "xx",$cache = "global")
 	file_put_contents($cachefile,json_encdat($GLOBALS[ "gethostcache" ]) . "\n");
 }
 
+function GetHostByAddressNuke($isp = "xx",$cache = "global")
+{
+	if (! isset($GLOBALS[ "gethostcache" ])) return;
+	
+	$cachefile = "../var/$isp/tmpcach";
+	if (! is_dir($cachefile)) mkdir($cachefile,0777);
+	$cachefile .= "/hostsbyaddr.$cache.json";
+
+	@unlink($cachefile);
+}
+
 function KappaRound($val)
 {
 	return floor($val * 1000) / 1000.0;
@@ -213,6 +224,8 @@ function IPZero($ip)
 {	
 	$bin = strpos($ip,".") ? IP2Bin($ip) : $ip;
 	
+	if (($bin == 0) && ($ip != "???")) return $ip;
+	
 	$ip = str_pad((($bin >> 24) & 0xff),3,"0",STR_PAD_LEFT)
 		. "."
 		. str_pad((($bin >> 16) & 0xff),3,"0",STR_PAD_LEFT)
@@ -226,6 +239,10 @@ function IPZero($ip)
 }
 
 $GLOBALS[ "knownisp" ] = array();
+$GLOBALS[ "knownisp" ][ "1&1 Internet AG" 							  ] = "de/ee";
+$GLOBALS[ "knownisp" ][ "freenet Datenkommunikations GmbH" 			  ] = "de/ee";
+$GLOBALS[ "knownisp" ][ "Unitymedia NRW GmbH" 			  			  ] = "de/um";
+$GLOBALS[ "knownisp" ][ "Kabel BW GmbH" 			  				  ] = "de/kb";
 $GLOBALS[ "knownisp" ][ "Kabel Deutschland Vertrieb und Service GmbH" ] = "de/kd";
 $GLOBALS[ "knownisp" ][ "Deutsche Telekom AG" 						  ] = "de/tk";
 $GLOBALS[ "knownisp" ][ "Telekom Deutschland GmbH" 					  ] = "de/tk";

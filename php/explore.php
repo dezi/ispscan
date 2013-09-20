@@ -522,13 +522,11 @@ function InspectRange($ipfrom,$iptoto,$netbound = 1,$nowrite = false)
 						{
 							if (! isset($hostnames[ $usedgate ]))
 							{
+								$hostnames[ $usedgate ] = gethostbyaddr(IP($usedgate));
+								
 								if (isset($locations[ $usedgate ]))
 								{
-									$hostnames[ $usedgate ] = $locations[ $usedgate ];
-								}
-								else
-								{
-									$hostnames[ $usedgate ] = gethostbyaddr(IP($usedgate));
+									$hostnames[ $usedgate ] .= "~" . $locations[ $usedgate ];
 								}
 							}
 			
@@ -834,7 +832,7 @@ function Explore($isp,$minsize,$netbound)
 		
 		if ($size < $minsize) continue;
 		
-		//InspectRange($from,$upto,$netbound);
+		InspectRange($from,$upto,$netbound);
 	}
 }
 
@@ -846,6 +844,21 @@ function Explore($isp,$minsize,$netbound)
 	
 	$isp = $_SERVER[ "argv" ][ 1 ];
 	echo "ISP=$isp\n";
+	
+	if ($isp == "de/kb")
+	{
+		Explore("de/kb",16000,8);
+	}
+	
+	if ($isp == "de/um")
+	{
+		Explore("de/um",16000,8);
+	}
+	
+	if ($isp == "de/ee")
+	{
+		Explore("de/ee",16000,8);
+	}
 	
 	if ($isp == "de/vf")
 	{

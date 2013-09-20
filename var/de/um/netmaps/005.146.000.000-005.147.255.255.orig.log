@@ -1,0 +1,1297 @@
+005.146.000.000=0 DE,,,51,9
+080.069.102.138@
+080.069.107.026@
+080.069.107.026~13NOC-MX960-01-ae8.krp.unity-media.net
+081.210.129.234~7111A-MX960-01-ae1.fra.unity-media.net
+005.146.000.255=0^1
+-------
+005.146.001.000=0 DE,Nordrhein-Westfalen,Pulheim,51,6.8
+080.069.102.114@
+080.069.107.201~13NOC-MX960-01-ae0.krp.unity-media.net
+005.146.001.255=0*1
+-------
+005.146.002.000=0 DE,Nordrhein-Westfalen,Wuppertal,51.2667,7.1833
+081.210.131.102@
+005.146.003.000=0 DE,Nordrhein-Westfalen,Wuppertal,51.2667,7.1833
+081.210.131.102@
+080.069.107.074~1214A-MX80-01-ae1.wup.unity-media.net
+005.146.003.255=0*2
+-------
+005.146.004.000=0 DE,Nordrhein-Westfalen,Köln,50.9333,6.95
+080.069.105.078@
+005.146.005.000=0 DE,Nordrhein-Westfalen,Köln,50.9333,6.95
+080.069.105.078@
+005.146.006.000=0 DE,Nordrhein-Westfalen,Köln,50.9333,6.95
+080.069.105.078@
+005.146.007.000=0 DE,Nordrhein-Westfalen,Köln,50.8842,6.9894
+080.069.105.078@
+080.069.107.045~1311G-MX960-02-ae9.hue.unity-media.net
+080.069.107.218~1311G-MX960-02-ae0.hue.unity-media.net
+005.146.007.255=0*4
+=======8
+005.146.008.000=0 DE,Nordrhein-Westfalen,Engelskirchen,50.9833,7.4
+081.210.131.026@
+005.146.009.000=0 DE,Nordrhein-Westfalen,Wilnsdorf,50.8167,8.1
+081.210.131.026@
+005.146.010.000=0 DE,Nordrhein-Westfalen,Wilnsdorf,50.8167,8.1
+081.210.131.026@
+005.146.011.000=0 DE,Nordrhein-Westfalen,Wilnsdorf,50.8167,8.1
+081.210.131.026@
+080.069.106.226~7111A-MX960-02-ae4.fra.unity-media.net
+080.069.107.174~1212A-MX960-02-ae0.sge.unity-media.net
+005.146.011.255=0*4
+-------
+005.146.012.000=0 DE,Nordrhein-Westfalen,Bünde,52.2,8.5833
+080.069.102.006@
+005.146.013.000=0 DE,Nordrhein-Westfalen,Bad Oeynhausen,52.2,8.8
+080.069.102.006@
+005.146.014.000=0 DE,Nordrhein-Westfalen,Kirchlengern,52.2,8.6333
+080.069.102.006@
+005.146.015.000=0 DE,Nordrhein-Westfalen,Bünde,52.2,8.5833
+080.069.102.006@
+080.069.106.173~1611A-MX960-02-ae2.bfe.unity-media.net
+005.146.015.255=0*4
+=======16
+005.146.016.000=0 DE,Nordrhein-Westfalen,Hamm,51.6833,7.8
+081.210.131.210@
+005.146.017.000=0 DE,Nordrhein-Westfalen,Hamm,51.691,7.8704
+081.210.131.210@
+005.146.018.000=0 DE,Nordrhein-Westfalen,Hamm,51.6833,7.8
+081.210.131.210@
+005.146.019.000=0 DE,Nordrhein-Westfalen,Hamm,51.6833,7.8
+081.210.131.210@
+080.069.107.210~1211F-MX960-02-ae0.dtm.unity-media.net
+080.069.107.021~1211F-MX960-02-ae9.dtm.unity-media.net
+005.146.019.255=0*4
+-------
+005.146.020.000=0 DE,Nordrhein-Westfalen,Soest,51.5602,8.0885
+005.146.020.000=0 DE,Nordrhein-Westfalen,Arnsberg,51.5133,7.9494
+081.210.130.078@
+005.146.021.000=0 DE,Nordrhein-Westfalen,Werl,51.55,7.9167
+081.210.130.078@
+005.146.022.000=0 DE,Nordrhein-Westfalen,Werl,51.55,7.9167
+081.210.130.078@
+005.146.023.000=0 DE,Nordrhein-Westfalen,Werl,51.55,7.9167
+080.069.107.161~1711A-MX960-02-ae0.soe.unity-media.net
+080.069.107.158~1711A-MX960-02-ae1.soe.unity-media.net
+005.146.023.255=0*4
+=======8
+005.146.024.000=0 DE,Nordrhein-Westfalen,Köln,50.9333,6.95
+081.210.131.090@
+005.146.025.000=0 DE,Nordrhein-Westfalen,Köln,50.9333,6.95
+081.210.131.090@
+005.146.026.000=0 DE,Nordrhein-Westfalen,Köln,50.9333,6.95
+081.210.131.090@
+005.146.027.000=0 DE,Nordrhein-Westfalen,Köln,50.9333,6.95
+081.210.131.090@
+080.069.107.093~1311A-MX960-02-ae2.cgn.unity-media.net
+080.069.106.134~1311A-MX960-02-ae0.cgn.unity-media.net
+005.146.027.255=0*4
+-------
+005.146.028.000=0 DE,Hessen,Kassel,51.3167,9.5
+081.210.131.050@
+005.146.029.000=0 DE,Hessen,Kassel,51.3167,9.5
+081.210.131.050@
+005.146.030.000=0 DE,Hessen,Kassel,51.3167,9.5
+081.210.131.050@
+005.146.031.000=0 DE,Hessen,Eschwege,51.1833,10.0667
+081.210.131.050@
+080.069.107.137~7311A-MX960-02-ae1.kas.unity-media.net
+005.146.031.255=0*4
+=======32
+005.146.032.000=0 DE,Nordrhein-Westfalen,Köln,50.9333,6.95
+081.210.131.090@
+005.146.033.000=0 DE,Nordrhein-Westfalen,Köln,50.9333,6.95
+081.210.131.090@
+005.146.034.000=0 DE,Nordrhein-Westfalen,Köln,50.9333,6.95
+081.210.131.090@
+005.146.035.000=0 DE,Nordrhein-Westfalen,Köln,50.9333,6.95
+081.210.131.090@
+005.146.036.000=0 DE,Nordrhein-Westfalen,Köln,50.9333,6.95
+081.210.131.090@
+005.146.037.000=0 DE,Nordrhein-Westfalen,Köln,50.9326,6.941
+081.210.131.090@
+005.146.038.000=0 DE,Nordrhein-Westfalen,Köln,50.9326,6.941
+005.146.039.000=0 DE,Nordrhein-Westfalen,Köln,50.9326,6.941
+080.069.106.134~1311A-MX960-02-ae0.cgn.unity-media.net
+080.069.107.093~1311A-MX960-02-ae2.cgn.unity-media.net
+005.146.039.255=0*8
+=======8
+005.146.040.000=0 DE,Hessen,Grünberg,50.6,8.95
+080.069.105.114@
+005.146.041.000=0 DE,Hessen,Wetzlar,50.55,8.5
+080.069.105.114@
+005.146.042.000=0 DE,Hessen,Dillenburg,50.7333,8.2833
+080.069.105.114@
+005.146.043.000=0 DE,Hessen,Wetzlar,50.55,8.5
+080.069.105.114@
+080.069.107.181~7211A-MX960-01-ae0.gie.unity-media.net
+080.069.107.185~7211A-MX960-01-ae1.gie.unity-media.net
+005.146.043.255=0*4
+-------
+005.146.044.000=0 DE,Nordrhein-Westfalen,Herne,51.55,7.2167
+080.069.105.102@
+005.146.045.000=0 DE,Nordrhein-Westfalen,Herne,51.55,7.2167
+080.069.105.102@
+080.069.107.058~1211F-MX960-02-ae5.dtm.unity-media.net
+080.069.107.061~1511G-MX960-01-ae0.bom.unity-media.net
+005.146.045.255=0*2
+-------
+005.146.046.000=0 DE,Hessen,Rodgau,50.0167,8.8333
+081.210.129.182@
+005.146.047.000=0 DE,Hessen,Rodgau,50.0167,8.8333
+081.210.129.182@
+080.069.107.117~7113A-MX960-02-ae1.dar.unity-media.net
+005.146.047.255=0*2
+=======16
+005.146.048.000=0 DE,Hessen,Dreieich,50,8.7
+080.069.105.094@
+005.146.049.000=0 DE,Hessen,Dreieich,50,8.7
+080.069.105.094@
+005.146.050.000=0 DE,Hessen,Darmstadt,49.8706,8.6494
+080.069.105.094@
+005.146.051.000=0 DE,Hessen,Darmstadt,49.8706,8.6494
+080.069.105.094@
+005.146.052.000=0 DE,Hessen,Darmstadt,49.8706,8.6494
+080.069.105.094@
+005.146.053.000=0 DE,Hessen,Mörfelden-Walldorf,49.9947,8.5836
+080.069.105.094@
+005.146.054.000=0 DE,Hessen,Mörfelden-Walldorf,49.9947,8.5836
+080.069.105.094@
+005.146.055.000=0 DE,Hessen,Dreieich,50,8.7
+080.069.105.094@
+080.069.107.117~7113A-MX960-02-ae1.dar.unity-media.net
+080.069.107.114~7113A-MX960-02-ae0.dar.unity-media.net
+005.146.055.255=0*8
+=======8
+005.146.056.000=0 DE,Hessen,Marburg,50.8167,8.7667
+081.210.131.002@
+005.146.057.000=0 DE,Hessen,Marburg,50.8167,8.7667
+081.210.131.002@
+080.069.107.182~7211A-MX960-02-ae0.gie.unity-media.net
+005.146.057.255=0*2
+-------
+005.146.058.000=0 DE,Hessen,Dietzenbach,50.0167,8.7833
+081.210.129.182@
+005.146.059.000=0 DE,Hessen,Rodgau,50.0167,8.8333
+081.210.129.182@
+080.069.107.114~7113A-MX960-02-ae0.dar.unity-media.net
+005.146.059.255=0*2
+-------
+005.146.060.000=0 DE,Hessen,Bensheim,49.6803,8.6161
+081.210.130.062@
+005.146.061.000=0 DE,Hessen,Lampertheim,49.6019,8.4719
+081.210.130.062@
+005.146.062.000=0 DE,Hessen,Viernheim,49.5417,8.5786
+081.210.130.062@
+005.146.063.000=0 DE,Hessen,Viernheim,49.5417,8.5786
+080.069.107.117~7113A-MX960-02-ae1.dar.unity-media.net
+005.146.063.255=0*4
+=======64
+005.146.064.000=0 DE,Hessen,Wiesbaden,50.0833,8.25
+081.210.131.190@
+005.146.065.000=0 DE,Hessen,Niedernhausen,50.15,8.3167
+081.210.131.190@
+005.146.066.000=0 DE,Hessen,Wiesbaden,50.0833,8.25
+005.146.066.000!0 DE,Hessen,Flieden,50.4167,9.5667
+081.210.131.190@
+005.146.067.000=0 DE,Hessen,Idstein,50.2333,8.2667
+081.210.131.190@
+080.069.107.106~7114A-MX960-01-ae0.wib.unity-media.net
+080.069.106.130~7114A-MX960-01-ae2.wib.unity-media.net
+005.146.067.255=0*4
+-------
+005.146.068.000=0 DE,Hessen,Kassel,51.3167,9.5
+080.069.103.090@
+005.146.069.000=0 DE,Hessen,Kassel,51.3167,9.5
+080.069.103.090@
+005.146.070.000=0 DE,Hessen,Kassel,51.3167,9.5
+005.146.071.000=0 DE,Hessen,Kassel,51.3167,9.5
+080.069.107.133~7311A-MX960-01-ae0.kas.unity-media.net
+005.146.071.255=0*4
+=======8
+005.146.072.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
+081.210.128.070@
+005.146.073.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
+081.210.128.070@
+005.146.074.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
+081.210.128.070@
+005.146.075.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
+081.210.128.070@
+005.146.076.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
+081.210.128.070@
+005.146.077.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
+081.210.128.070@
+005.146.078.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
+081.210.128.070@
+005.146.079.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
+081.210.128.070@
+080.069.107.022~7111A-MX960-02-ae9.fra.unity-media.net
+080.069.107.214~7111A-MX960-02-ae0.fra.unity-media.net
+005.146.079.255=0*8
+=======16
+005.146.080.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
+081.210.128.094@
+005.146.081.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
+081.210.128.094@
+005.146.082.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
+081.210.128.094@
+005.146.083.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
+081.210.128.094@
+005.146.084.000=0 DE,Hessen,Frankfurt Am Main,50.1235,8.6646
+081.210.128.094@
+005.146.085.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
+081.210.128.094@
+005.146.086.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
+081.210.128.094@
+005.146.087.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
+081.210.128.094@
+080.069.107.214~7111A-MX960-02-ae0.fra.unity-media.net
+080.069.107.022~7111A-MX960-02-ae9.fra.unity-media.net
+005.146.087.255=0*8
+=======8
+005.146.088.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
+081.210.129.106@
+005.146.089.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
+081.210.129.106@
+005.146.090.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
+081.210.129.106@
+005.146.091.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
+081.210.129.106@
+005.146.092.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
+081.210.129.106@
+005.146.093.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
+081.210.129.106@
+005.146.094.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
+081.210.129.106@
+005.146.095.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
+081.210.129.106@
+081.210.129.226~de-fra04a-ra1-ae1.fra.unity-media.net
+005.146.095.255=0*8
+=======32
+005.146.096.000=0 DE,Nordrhein-Westfalen,Dortmund,51.5167,7.45
+080.069.106.110@
+005.146.097.000=0 DE,Nordrhein-Westfalen,Dortmund,51.5167,7.45
+080.069.106.110@
+005.146.098.000=0 DE,Nordrhein-Westfalen,Dortmund,51.5167,7.45
+080.069.106.110@
+005.146.099.000=0 DE,Nordrhein-Westfalen,Dortmund,51.5167,7.45
+080.069.106.110@
+080.069.107.210~1211F-MX960-02-ae0.dtm.unity-media.net
+080.069.107.021~1211F-MX960-02-ae9.dtm.unity-media.net
+005.146.099.255=0*4
+-------
+005.146.100.000=0 DE,Nordrhein-Westfalen,Lippstadt,51.6667,8.35
+080.069.103.214@
+005.146.101.000=0 DE,Nordrhein-Westfalen,Lippstadt,51.6667,8.35
+080.069.103.214@
+005.146.102.000=0 DE,Nordrhein-Westfalen,Lippstadt,51.6667,8.35
+080.069.103.214@
+005.146.103.000=0 DE,Nordrhein-Westfalen,Lippstadt,51.6667,8.35
+080.069.103.214@
+080.069.107.158~1711A-MX960-02-ae1.soe.unity-media.net
+005.146.103.255=0*4
+=======8
+005.146.104.000=0 DE,Nordrhein-Westfalen,Oberhausen,51.4667,6.85
+081.210.131.150@
+005.146.105.000=0 DE,Nordrhein-Westfalen,Oberhausen,51.4667,6.85
+081.210.131.150@
+005.146.106.000=0 DE,Nordrhein-Westfalen,Oberhausen,51.4667,6.85
+081.210.131.150@
+005.146.107.000=0 DE,Nordrhein-Westfalen,Oberhausen,51.4667,6.85
+081.210.131.150@
+080.069.107.229~1413G-MX960-01-ae1.dui.unity-media.net
+005.146.107.255=0*4
+-------
+005.146.108.000=0 DE,Nordrhein-Westfalen,Dortmund,51.5167,7.45
+005.146.108.000!0 DE,Hessen,Wiesbaden,50.0833,8.25
+080.069.103.070@
+005.146.109.000=0 DE,Nordrhein-Westfalen,Dortmund,51.5167,7.45
+005.146.109.000!0 DE,Hessen,Wiesbaden,50.0833,8.25
+080.069.103.070@
+005.146.110.000=0 DE,Nordrhein-Westfalen,Schwerte,51.45,7.5667
+080.069.103.070@
+005.146.111.000=0 DE,Nordrhein-Westfalen,Dortmund,51.5167,7.45
+005.146.111.000!0 DE,Hessen,Wiesbaden,50.0794,8.2157
+080.069.103.070@
+080.069.107.021~1211F-MX960-02-ae9.dtm.unity-media.net
+005.146.111.255=0*4
+=======16
+005.146.112.000=0 DE,Hessen,Eschborn,50.1333,8.55
+081.210.129.170@
+005.146.113.000=0 DE,Hessen,Oberursel,50.2,8.5833
+081.210.129.170@
+005.146.114.000=0 DE,Hessen,Eschborn,50.1333,8.55
+081.210.129.170@
+005.146.115.000=0 DE,Hessen,Eschborn,50.1333,8.55
+081.210.129.170@
+081.210.129.226~de-fra04a-ra1-ae1.fra.unity-media.net
+005.146.115.255=0*4
+-------
+005.146.116.000=0 DE,Nordrhein-Westfalen,Kamen,51.6,7.6667
+005.146.116.000=0 DE,Nordrhein-Westfalen,Unna,51.5333,7.6833
+080.069.105.086@
+005.146.117.000=0 DE,Nordrhein-Westfalen,Bergkamen,51.6333,7.6333
+080.069.105.086@
+005.146.118.000=0 DE,Nordrhein-Westfalen,Unna,51.5333,7.6833
+080.069.105.086@
+005.146.119.000=0 DE,Nordrhein-Westfalen,Unna,51.5392,7.7283
+080.069.105.086@
+080.069.107.021~1211F-MX960-02-ae9.dtm.unity-media.net
+080.069.107.210~1211F-MX960-02-ae0.dtm.unity-media.net
+005.146.119.255=0*4
+=======8
+005.146.120.000=0 DE,Hessen,Ehringshausen,50.6,8.3833
+080.069.105.114@
+005.146.121.000=0 DE,Hessen,Dillenburg,50.7369,8.2873
+080.069.105.114@
+005.146.122.000=0 DE,Hessen,Dillenburg,50.7333,8.2833
+080.069.105.114@
+005.146.123.000=0 DE,Hessen,Wetzlar,50.55,8.5
+080.069.105.114@
+080.069.107.181~7211A-MX960-01-ae0.gie.unity-media.net
+080.069.107.185~7211A-MX960-01-ae1.gie.unity-media.net
+005.146.123.255=0*4
+-------
+005.146.124.000=0 DE,Hessen,Usingen,50.349,8.5322
+080.069.105.146@
+005.146.125.000=0 DE,Hessen,Eschborn,50.1333,8.55
+080.069.105.146@
+005.146.126.000=0 DE,Hessen,Neu-Anspach,50.3167,8.5
+080.069.105.146@
+005.146.127.000=0 DE,Hessen,Neu-Anspach,50.3167,8.5
+080.069.105.146@
+081.210.129.226~de-fra04a-ra1-ae1.fra.unity-media.net
+005.146.127.255=0*4
+=======128
+005.146.128.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
+081.210.128.094@
+005.146.129.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
+081.210.128.094@
+005.146.130.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
+081.210.128.094@
+005.146.131.000=0 DE,Hessen,Frankfurt Am Main,50.1454,8.676
+081.210.128.094@
+080.069.107.214~7111A-MX960-02-ae0.fra.unity-media.net
+080.069.107.022~7111A-MX960-02-ae9.fra.unity-media.net
+005.146.131.255=0*4
+-------
+005.146.132.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
+081.210.128.070@
+005.146.133.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
+081.210.128.070@
+005.146.134.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
+081.210.128.070@
+005.146.135.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
+081.210.128.070@
+080.069.107.214~7111A-MX960-02-ae0.fra.unity-media.net
+080.069.107.022~7111A-MX960-02-ae9.fra.unity-media.net
+005.146.135.255=0*4
+=======8
+005.146.136.000=0 DE,Hessen,Kassel,51.3167,9.5
+081.210.131.050@
+005.146.137.000=0 DE,Hessen,Kassel,51.3167,9.5
+081.210.131.050@
+005.146.138.000=0 DE,Hessen,Kassel,51.3167,9.5
+081.210.131.050@
+005.146.139.000=0 DE,Hessen,Kassel,51.3167,9.5
+081.210.131.050@
+080.069.107.137~7311A-MX960-02-ae1.kas.unity-media.net
+005.146.139.255=0*4
+-------
+005.146.140.000=0 DE,Hessen,Mörfelden-Walldorf,49.9947,8.5836
+080.069.105.094@
+005.146.141.000=0 DE,Hessen,Mörfelden-Walldorf,49.9947,8.5836
+080.069.105.094@
+005.146.142.000=0 DE,Hessen,Darmstadt,49.8706,8.6494
+080.069.105.094@
+005.146.143.000=0 DE,Hessen,Darmstadt,49.8706,8.6494
+080.069.105.094@
+080.069.107.114~7113A-MX960-02-ae0.dar.unity-media.net
+080.069.107.117~7113A-MX960-02-ae1.dar.unity-media.net
+005.146.143.255=0*4
+=======16
+005.146.144.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
+081.210.129.106@
+005.146.145.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
+081.210.129.106@
+005.146.146.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
+081.210.129.106@
+005.146.147.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
+081.210.129.106@
+081.210.129.226~de-fra04a-ra1-ae1.fra.unity-media.net
+005.146.147.255=0*4
+-------
+005.146.148.000=0 DE,Nordrhein-Westfalen,Witten,51.4333,7.3333
+005.146.149.000=0 DE,Nordrhein-Westfalen,Witten,51.4315,7.334
+005.146.150.000=0 DE,Nordrhein-Westfalen,Witten,51.4315,7.334
+005.146.151.000=0 DE,Nordrhein-Westfalen,Witten,51.4315,7.334
+005.146.151.255=0*4
+=======8
+005.146.152.000=0 DE,Nordrhein-Westfalen,Minden,52.2833,8.9167
+081.210.130.102@
+005.146.153.000=0 DE,Nordrhein-Westfalen,Minden,52.2833,8.9167
+081.210.130.102@
+005.146.154.000=0 DE,Nordrhein-Westfalen,Minden,52.2873,8.9243
+081.210.130.102@
+005.146.155.000=0 DE,Nordrhein-Westfalen,Minden,52.2833,8.9167
+081.210.130.102@
+005.146.156.000=0 DE,Nordrhein-Westfalen,Minden,52.2833,8.9167
+081.210.130.102@
+005.146.157.000=0 DE,Nordrhein-Westfalen,Minden,52.2833,8.9167
+081.210.130.102@
+005.146.158.000=0 DE,Nordrhein-Westfalen,Minden,52.2833,8.9167
+081.210.130.102@
+005.146.159.000=0 DE,Nordrhein-Westfalen,Minden,52.2833,8.9167
+081.210.130.102@
+080.069.106.173~1611A-MX960-02-ae2.bfe.unity-media.net
+005.146.159.255=0*8
+=======32
+005.146.160.000=0 DE,Nordrhein-Westfalen,Köln,50.9333,6.95
+080.069.105.078@
+005.146.161.000=0 DE,Nordrhein-Westfalen,Köln,50.9333,6.95
+080.069.105.078@
+005.146.162.000=0 DE,Nordrhein-Westfalen,Köln,50.9108,6.9616
+080.069.105.078@
+005.146.163.000=0 DE,Nordrhein-Westfalen,Köln,50.9333,6.95
+080.069.105.078@
+005.146.164.000=0 DE,Nordrhein-Westfalen,Köln,50.9333,6.95
+080.069.105.078@
+005.146.165.000=0 DE,Nordrhein-Westfalen,Köln,50.9333,6.95
+080.069.105.078@
+005.146.166.000=0 DE,Nordrhein-Westfalen,Frechen,50.9133,6.8152
+080.069.105.078@
+005.146.167.000=0 DE,Nordrhein-Westfalen,Köln,50.9333,6.95
+080.069.105.078@
+080.069.107.045~1311G-MX960-02-ae9.hue.unity-media.net
+080.069.107.218~1311G-MX960-02-ae0.hue.unity-media.net
+005.146.167.255=0*8
+=======8
+005.146.168.000=0 DE,Nordrhein-Westfalen,Köln,50.9333,6.95
+080.069.105.078@
+005.146.169.000=0 DE,Nordrhein-Westfalen,Köln,50.9333,6.95
+080.069.105.078@
+005.146.170.000=0 DE,Nordrhein-Westfalen,Köln,50.9333,6.95
+080.069.105.078@
+005.146.171.000=0 DE,Nordrhein-Westfalen,Köln,50.9333,6.95
+080.069.105.078@
+080.069.107.218~1311G-MX960-02-ae0.hue.unity-media.net
+080.069.107.045~1311G-MX960-02-ae9.hue.unity-media.net
+005.146.171.255=0*4
+-------
+005.146.172.000=0 DE,,,51,9
+005.146.173.000=0 DE,,,51,9
+005.146.174.000=0 DE,,,51,9
+005.146.175.000=0 DE,,,51,9
+005.146.175.255=0*4
+=======16
+005.146.176.000=0 DE,Nordrhein-Westfalen,Hürth,50.8667,6.8667
+081.210.131.162@
+005.146.177.000=0 DE,Nordrhein-Westfalen,Wesseling,50.8333,6.9833
+081.210.131.162@
+005.146.178.000=0 DE,Nordrhein-Westfalen,Köln,50.9333,6.95
+081.210.131.162@
+005.146.179.000=0 DE,Nordrhein-Westfalen,Brühl,50.8333,6.9
+081.210.131.162@
+005.146.180.000=0 DE,Nordrhein-Westfalen,Brühl,50.8333,6.9
+081.210.131.162@
+005.146.181.000=0 DE,Nordrhein-Westfalen,Frechen,50.9167,6.8167
+081.210.131.162@
+005.146.182.000=0 DE,Nordrhein-Westfalen,Wesseling,50.8333,6.9833
+081.210.131.162@
+005.146.183.000=0 DE,Nordrhein-Westfalen,Köln,50.9333,6.95
+081.210.131.162@
+080.069.107.045~1311G-MX960-02-ae9.hue.unity-media.net
+080.069.107.218~1311G-MX960-02-ae0.hue.unity-media.net
+=======8
+005.146.184.000=0 DE,Nordrhein-Westfalen,Wesseling,50.8333,6.9833
+081.210.131.162@
+005.146.185.000=0 DE,Nordrhein-Westfalen,Brühl,50.8333,6.9
+081.210.131.162@
+005.146.186.000=0 DE,Nordrhein-Westfalen,Brühl,50.8333,6.9
+081.210.131.162@
+005.146.187.000=0 DE,Nordrhein-Westfalen,Frechen,50.9167,6.8167
+081.210.131.162@
+005.146.188.000=0 DE,Nordrhein-Westfalen,Brühl,50.8333,6.9
+081.210.131.162@
+005.146.189.000=0 DE,Nordrhein-Westfalen,Köln,50.9326,6.941
+081.210.131.162@
+005.146.190.000=0 DE,Nordrhein-Westfalen,Köln,50.9326,6.941
+005.146.191.000=0 DE,Nordrhein-Westfalen,Köln,50.9326,6.941
+080.069.107.218~1311G-MX960-02-ae0.hue.unity-media.net
+080.069.107.045~1311G-MX960-02-ae9.hue.unity-media.net
+005.146.191.255=0*16
+=======64
+005.146.192.000=0 DE,Nordrhein-Westfalen,Minden,52.2833,8.9167
+081.210.130.102@
+005.146.193.000=0 DE,Nordrhein-Westfalen,Minden,52.2833,8.9167
+081.210.130.102@
+005.146.194.000=0 DE,Nordrhein-Westfalen,Minden,52.2833,8.9167
+081.210.130.102@
+005.146.195.000=0 DE,Nordrhein-Westfalen,Minden,52.2833,8.9167
+081.210.130.102@
+005.146.196.000=0 DE,Nordrhein-Westfalen,Minden,52.2833,8.9167
+081.210.130.102@
+005.146.197.000=0 DE,Nordrhein-Westfalen,Minden,52.2833,8.9167
+081.210.130.102@
+005.146.198.000=0 DE,Nordrhein-Westfalen,Minden,52.2873,8.9243
+005.146.199.000=0 DE,Nordrhein-Westfalen,Minden,52.2873,8.9243
+080.069.106.173~1611A-MX960-02-ae2.bfe.unity-media.net
+=======8
+005.146.200.000=0 DE,Nordrhein-Westfalen,Minden,52.2833,8.9167
+081.210.130.102@
+005.146.201.000=0 DE,Nordrhein-Westfalen,Minden,52.2833,8.9167
+081.210.130.102@
+005.146.202.000=0 DE,Nordrhein-Westfalen,Minden,52.2833,8.9167
+081.210.130.102@
+005.146.203.000=0 DE,Nordrhein-Westfalen,Minden,52.2833,8.9167
+081.210.130.102@
+005.146.204.000=0 DE,Nordrhein-Westfalen,Minden,52.2833,8.9167
+081.210.130.102@
+005.146.205.000=0 DE,Nordrhein-Westfalen,Minden,52.2833,8.9167
+081.210.130.102@
+005.146.206.000=0 DE,Nordrhein-Westfalen,Minden,52.2833,8.9167
+005.146.207.000=0 DE,Nordrhein-Westfalen,Minden,52.2833,8.9167
+080.069.106.173~1611A-MX960-02-ae2.bfe.unity-media.net
+005.146.207.255=0*16
+=======16
+005.146.208.000=0 DE,Nordrhein-Westfalen,Beckum,51.75,8.0333
+080.069.102.178@
+005.146.209.000=0 DE,Nordrhein-Westfalen,Dortmund,51.5167,7.45
+080.069.102.178@
+005.146.210.000=0 DE,Nordrhein-Westfalen,Dortmund,51.5167,7.45
+080.069.102.178@
+005.146.211.000=0 DE,Nordrhein-Westfalen,Dortmund,51.5167,7.45
+080.069.102.178@
+080.069.107.209~1211F-MX960-01-ae0.dtm.unity-media.net
+005.146.211.255=0*4
+-------
+005.146.212.000=0 DE,Nordrhein-Westfalen,Greven,52.1,7.6167
+005.146.213.000=0 DE,Nordrhein-Westfalen,Greven,52.1,7.6167
+005.146.214.000=0 DE,Nordrhein-Westfalen,Dülmen,51.8433,7.2948
+005.146.215.000=0 DE,Nordrhein-Westfalen,Ibbenbüren,52.2667,7.7333
+005.146.215.255=0*4
+=======8
+005.146.216.000=0 DE,Nordrhein-Westfalen,Soest,51.5602,8.0885
+080.069.103.222@
+005.146.217.000=0 DE,Nordrhein-Westfalen,Soest,51.5833,8.1167
+080.069.103.222@
+005.146.218.000=0 DE,Nordrhein-Westfalen,Soest,51.5602,8.0885
+080.069.103.222@
+005.146.219.000=0 DE,Nordrhein-Westfalen,Soest,51.5602,8.0885
+080.069.107.161~1711A-MX960-02-ae0.soe.unity-media.net
+080.069.107.158~1711A-MX960-02-ae1.soe.unity-media.net
+005.146.219.255=0*4
+-------
+005.146.220.000=0 DE,Hessen,Gießen,50.5833,8.65
+080.069.105.154@
+005.146.221.000=0 DE,Hessen,Butzbach,50.4333,8.6833
+080.069.105.154@
+005.146.222.000=0 DE,Hessen,Heuchelheim,50.5833,8.6333
+080.069.105.154@
+005.146.223.000=0 DE,Hessen,Gießen,50.5833,8.65
+080.069.107.185~7211A-MX960-01-ae1.gie.unity-media.net
+080.069.107.181~7211A-MX960-01-ae0.gie.unity-media.net
+005.146.223.255=0*4
+=======32
+005.146.224.000=0 DE,Nordrhein-Westfalen,Mülheim An Der Ruhr,51.4333,6.8833
+080.069.106.042@
+005.146.225.000=0 DE,Nordrhein-Westfalen,Mülheim,51.4333,6.8833
+080.069.106.042@
+005.146.226.000=0 DE,Nordrhein-Westfalen,Mülheim,51.4333,6.8833
+080.069.106.042@
+005.146.227.000=0 DE,Nordrhein-Westfalen,Mülheim An Der Ruhr,51.4333,6.8833
+080.069.106.042@
+080.069.107.229~1413G-MX960-01-ae1.dui.unity-media.net
+005.146.227.255=0*4
+-------
+005.146.228.000=0 DE,Nordrhein-Westfalen,Krefeld,51.3333,6.5667
+081.210.131.230@
+005.146.229.000=0 DE,Nordrhein-Westfalen,Krefeld,51.3333,6.5667
+081.210.131.230@
+080.069.106.178~1412A-MX960-01-ae1.kre.unity-media.net
+005.146.229.255=0*2
+-------
+005.146.230.000=0 DE,Nordrhein-Westfalen,Kerpen,50.8667,6.7
+005.146.230.000=0 DE,Nordrhein-Westfalen,Pulheim,51,6.8
+080.069.102.114@
+005.146.231.000=0 DE,Nordrhein-Westfalen,Grevenbroich,51.0833,6.5833
+080.069.102.114@
+080.069.107.026~13NOC-MX960-01-ae8.krp.unity-media.net
+080.069.107.201~13NOC-MX960-01-ae0.krp.unity-media.net
+005.146.231.255=0*2
+=======8
+005.146.232.000=0 DE,Nordrhein-Westfalen,Bochum,51.4833,7.2167
+081.210.131.178@
+005.146.233.000=0 DE,Nordrhein-Westfalen,Bochum,51.4833,7.2167
+081.210.131.178@
+005.146.234.000=0 DE,Nordrhein-Westfalen,Bochum,51.4833,7.2167
+005.146.235.000=0 DE,Nordrhein-Westfalen,Bochum,51.4833,7.2167
+080.069.107.062~1511G-MX960-02-ae0.bom.unity-media.net
+005.146.235.255=0*4
+-------
+005.146.236.000=0 DE,Nordrhein-Westfalen,Bochum,51.4833,7.2167
+080.069.106.054@
+005.146.237.000=0 DE,Nordrhein-Westfalen,Bochum,51.4833,7.2167
+080.069.106.054@
+005.146.238.000=0 DE,Nordrhein-Westfalen,Bochum,51.4658,7.1572
+080.069.106.054@
+005.146.239.000=0 DE,Nordrhein-Westfalen,Hattingen,51.4,7.1667
+080.069.106.054@
+080.069.107.065~1511G-MX960-02-ae1.bom.unity-media.net
+080.069.107.062~1511G-MX960-02-ae0.bom.unity-media.net
+005.146.239.255=0*4
+=======16
+005.146.240.000=0 DE,Nordrhein-Westfalen,Recklinghausen,51.6167,7.2
+080.069.106.070@
+005.146.241.000=0 DE,Nordrhein-Westfalen,Recklinghausen,51.6167,7.2
+080.069.106.070@
+005.146.242.000=0 DE,Nordrhein-Westfalen,Recklinghausen,51.6167,7.2
+005.146.243.000=0 DE,Nordrhein-Westfalen,Recklinghausen,51.6167,7.2
+080.069.107.065~1511G-MX960-02-ae1.bom.unity-media.net
+080.069.107.062~1511G-MX960-02-ae0.bom.unity-media.net
+005.146.243.255=0*4
+-------
+005.146.244.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
+080.069.106.062@
+005.146.245.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
+080.069.106.062@
+005.146.246.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
+080.069.106.062@
+005.146.247.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
+080.069.107.214~7111A-MX960-02-ae0.fra.unity-media.net
+005.146.247.255=0*4
+=======8
+005.146.248.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
+081.210.130.054@
+005.146.249.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
+081.210.130.054@
+005.146.250.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
+005.146.251.000=0 DE,Hessen,Dreieich,50,8.7
+080.069.107.022~7111A-MX960-02-ae9.fra.unity-media.net
+080.069.107.214~7111A-MX960-02-ae0.fra.unity-media.net
+005.146.251.255=0*4
+-------
+005.146.252.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
+081.210.129.134@
+005.146.253.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
+081.210.129.134@
+005.146.254.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
+081.210.129.134@
+005.146.255.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
+081.210.129.134@
+081.210.129.226~de-fra04a-ra1-ae1.fra.unity-media.net
+005.146.255.255=0*4
+=======256
+005.147.000.000=0 DE,Nordrhein-Westfalen,Lüdenscheid,51.2167,7.6167
+081.210.131.018@
+005.147.001.000=0 DE,Nordrhein-Westfalen,Lüdenscheid,51.2167,7.6167
+081.210.131.018@
+080.069.106.226~7111A-MX960-02-ae4.fra.unity-media.net
+005.147.001.255=0*2
+-------
+005.147.002.000=0 DE,Nordrhein-Westfalen,Wuppertal,51.2667,7.1833
+081.210.131.102@
+005.147.003.000=0 DE,Nordrhein-Westfalen,Wuppertal,51.2667,7.1833
+081.210.131.102@
+080.069.107.074~1214A-MX80-01-ae1.wup.unity-media.net
+005.147.003.255=0*2
+-------
+005.147.004.000=0 DE,Nordrhein-Westfalen,Grevenbroich,51.0833,6.5833
+080.069.102.114@
+005.147.005.000=0 DE,Nordrhein-Westfalen,Pulheim,51,6.8
+080.069.102.114@
+080.069.107.201~13NOC-MX960-01-ae0.krp.unity-media.net
+080.069.107.026~13NOC-MX960-01-ae8.krp.unity-media.net
+005.147.005.255=0*2
+-------
+005.147.006.000=0 DE,Nordrhein-Westfalen,Euskirchen,50.6667,6.7833
+080.069.102.122@
+005.147.007.000=0 DE,Nordrhein-Westfalen,Meckenheim,50.6333,7.0167
+080.069.102.122@
+080.069.107.026~13NOC-MX960-01-ae8.krp.unity-media.net
+080.069.107.201~13NOC-MX960-01-ae0.krp.unity-media.net
+005.147.007.255=0*2
+=======8
+005.147.008.000=0 DE,Nordrhein-Westfalen,Sankt Augustin,50.7794,7.1868
+081.210.130.222@
+005.147.009.000=0 DE,Nordrhein-Westfalen,Sankt Augustin,50.7667,7.1833
+081.210.130.222@
+080.069.106.138~1312A-MX960-02-ae2.bon.unity-media.net
+005.147.009.255=0*2
+-------
+005.147.010.000=0 DE,Nordrhein-Westfalen,Bochum,51.4808,7.1486
+080.069.106.054@
+005.147.011.000=0 DE,Nordrhein-Westfalen,Hattingen,51.4,7.1667
+080.069.106.054@
+080.069.107.062~1511G-MX960-02-ae0.bom.unity-media.net
+005.147.011.255=0*2
+-------
+005.147.012.000=0 DE,Nordrhein-Westfalen,Lünen,51.6167,7.5167
+080.069.105.142@
+005.147.013.000=0 DE,Nordrhein-Westfalen,Lünen,51.6189,7.5222
+080.069.105.142@
+080.069.107.210~1211F-MX960-02-ae0.dtm.unity-media.net
+080.069.107.021~1211F-MX960-02-ae9.dtm.unity-media.net
+005.147.013.255=0*2
+-------
+005.147.014.000=0 DE,Nordrhein-Westfalen,Honnef,50.6333,7.2333
+080.069.105.058@
+005.147.015.000=0 DE,Nordrhein-Westfalen,Königswinter,50.6833,7.1833
+080.069.105.058@
+080.069.106.138~1312A-MX960-02-ae2.bon.unity-media.net
+005.147.015.255=0*2
+=======16
+005.147.016.000=0 DE,Nordrhein-Westfalen,Gelsenkirchen,51.5167,7.05
+081.210.131.138@
+005.147.017.000=0 DE,Nordrhein-Westfalen,Gelsenkirchen,51.5167,7.05
+081.210.131.138@
+005.147.018.000=0 DE,Nordrhein-Westfalen,Gelsenkirchen,51.5167,7.05
+081.210.131.138@
+005.147.019.000=0 DE,Nordrhein-Westfalen,Gelsenkirchen,51.5167,7.05
+081.210.131.138@
+005.147.020.000=0 DE,Nordrhein-Westfalen,Gelsenkirchen,51.5167,7.05
+081.210.131.138@
+005.147.021.000=0 DE,Nordrhein-Westfalen,Gelsenkirchen,51.5167,7.05
+081.210.131.138@
+005.147.022.000=0 DE,Nordrhein-Westfalen,Gelsenkirchen,51.5167,7.05
+081.210.131.138@
+005.147.023.000=0 DE,Nordrhein-Westfalen,Herten,51.6,7.1333
+081.210.131.138@
+080.069.107.197~1512A-MX80-02-ae1.gek.unity-media.net
+080.069.107.190~1512A-MX80-02-ae0.gek.unity-media.net
+=======8
+005.147.024.000=0 DE,Nordrhein-Westfalen,Gelsenkirchen,51.5167,7.05
+081.210.131.138@
+005.147.025.000=0 DE,Nordrhein-Westfalen,Gelsenkirchen,51.5167,7.05
+081.210.131.138@
+005.147.026.000=0 DE,Nordrhein-Westfalen,Gelsenkirchen,51.6072,7.0488
+081.210.131.138@
+005.147.027.000=0 DE,Nordrhein-Westfalen,Gelsenkirchen,51.5167,7.05
+081.210.131.138@
+005.147.028.000=0 DE,Nordrhein-Westfalen,Gelsenkirchen,51.5167,7.05
+081.210.131.138@
+005.147.029.000=0 DE,Nordrhein-Westfalen,Gelsenkirchen,51.5167,7.05
+081.210.131.138@
+005.147.030.000=0 DE,Nordrhein-Westfalen,Gelsenkirchen,51.6072,7.0488
+081.210.131.138@
+005.147.031.000=0 DE,Nordrhein-Westfalen,Gelsenkirchen,51.5167,7.05
+081.210.131.138@
+080.069.107.190~1512A-MX80-02-ae0.gek.unity-media.net
+080.069.107.197~1512A-MX80-02-ae1.gek.unity-media.net
+005.147.031.255=0*16
+=======32
+005.147.032.000=0 DE,Nordrhein-Westfalen,Gelsenkirchen,51.5167,7.05
+081.210.131.130@
+005.147.033.000=0 DE,Nordrhein-Westfalen,Gelsenkirchen,51.5167,7.05
+081.210.131.130@
+005.147.034.000=0 DE,Nordrhein-Westfalen,Gelsenkirchen,51.5167,7.05
+081.210.131.130@
+005.147.035.000=0 DE,Nordrhein-Westfalen,Gelsenkirchen,51.5167,7.05
+081.210.131.130@
+005.147.036.000=0 DE,Nordrhein-Westfalen,Gelsenkirchen,51.5167,7.05
+081.210.131.130@
+005.147.037.000=0 DE,Nordrhein-Westfalen,Gelsenkirchen,51.5167,7.05
+081.210.131.130@
+005.147.038.000=0 DE,Nordrhein-Westfalen,Gelsenkirchen,51.5167,7.05
+081.210.131.130@
+005.147.039.000=0 DE,Nordrhein-Westfalen,Gelsenkirchen,51.5167,7.05
+081.210.131.130@
+080.069.107.197~1512A-MX80-02-ae1.gek.unity-media.net
+080.069.107.190~1512A-MX80-02-ae0.gek.unity-media.net
+=======8
+005.147.040.000=0 DE,Nordrhein-Westfalen,Gelsenkirchen,51.5167,7.05
+081.210.131.130@
+005.147.041.000=0 DE,Nordrhein-Westfalen,Gelsenkirchen,51.5167,7.05
+081.210.131.130@
+005.147.042.000=0 DE,Nordrhein-Westfalen,Gelsenkirchen,51.5167,7.05
+081.210.131.130@
+005.147.043.000=0 DE,Nordrhein-Westfalen,Gelsenkirchen,51.5592,7.0841
+081.210.131.130@
+005.147.044.000=0 DE,Nordrhein-Westfalen,Gelsenkirchen,51.5167,7.05
+081.210.131.130@
+005.147.045.000=0 DE,Nordrhein-Westfalen,Gelsenkirchen,51.5167,7.05
+081.210.131.130@
+005.147.046.000=0 DE,Nordrhein-Westfalen,Gelsenkirchen,51.5167,7.05
+081.210.131.130@
+005.147.047.000=0 DE,Nordrhein-Westfalen,Gelsenkirchen,51.4967,7.1136
+081.210.131.130@
+080.069.107.190~1512A-MX80-02-ae0.gek.unity-media.net
+080.069.107.197~1512A-MX80-02-ae1.gek.unity-media.net
+005.147.047.255=0*16
+=======16
+005.147.048.000=0 DE,Nordrhein-Westfalen,Aachen,50.7708,6.1053
+080.069.106.078@
+005.147.049.000=0 DE,Nordrhein-Westfalen,Aachen,50.7708,6.1053
+080.069.106.078@
+080.069.106.201~1313A-MX960-02-ae1.aah.unity-media.net
+005.147.049.255=0*2
+-------
+005.147.050.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
+081.210.130.054@
+005.147.051.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
+081.210.130.054@
+080.069.107.214~7111A-MX960-02-ae0.fra.unity-media.net
+005.147.051.255=0*2
+-------
+005.147.052.000=0 DE,Nordrhein-Westfalen,Münster,51.9667,7.6333
+080.069.105.170@
+005.147.053.000=0 DE,Nordrhein-Westfalen,Münster,51.9667,7.6333
+080.069.105.170@
+080.069.107.149~1111A-MX960-01-ae1.msr.unity-media.net
+005.147.053.255=0*2
+-------
+005.147.054.000=0 DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
+080.069.103.234@
+005.147.055.000=0 DE,Nordrhein-Westfalen,Hilden,51.1667,6.9333
+080.069.103.234@
+080.069.107.082~1411C-MX960-01-ae1.mhm.unity-media.net
+005.147.055.255=0*2
+=======8
+005.147.056.000=0 DE,Hessen,Darmstadt,49.8706,8.6494
+080.069.105.094@
+005.147.057.000=0 DE,Hessen,Dreieich,50,8.7
+080.069.105.094@
+005.147.058.000=0 DE,Hessen,Darmstadt,49.8719,8.6484
+080.069.105.094@
+005.147.059.000=0 DE,Hessen,Dreieich,50,8.7
+080.069.105.094@
+005.147.060.000=0 DE,Hessen,Darmstadt,49.8972,8.6809
+080.069.105.094@
+005.147.061.000=0 DE,Hessen,Darmstadt,49.8972,8.6809
+005.147.062.000=0 DE,Hessen,Darmstadt,49.8972,8.6809
+005.147.063.000=0 DE,Hessen,Darmstadt,49.8972,8.6809
+080.069.107.117~7113A-MX960-02-ae1.dar.unity-media.net
+080.069.107.114~7113A-MX960-02-ae0.dar.unity-media.net
+005.147.063.255=0*8
+=======64
+005.147.064.000=0 DE,Hessen,Dreieich,50,8.7
+080.069.105.094@
+005.147.065.000=0 DE,Hessen,Dreieich,50,8.7
+080.069.105.094@
+005.147.066.000=0 DE,Hessen,Darmstadt,49.8972,8.6809
+080.069.105.094@
+005.147.067.000=0 DE,Hessen,Darmstadt,49.8972,8.6809
+080.069.105.094@
+080.069.107.117~7113A-MX960-02-ae1.dar.unity-media.net
+080.069.107.114~7113A-MX960-02-ae0.dar.unity-media.net
+005.147.067.255=0*4
+-------
+005.147.068.000=0 DE,Nordrhein-Westfalen,Dorsten,51.6667,6.9667
+080.069.106.026@
+005.147.069.000=0 DE,Nordrhein-Westfalen,Dorsten,51.6667,6.9667
+080.069.106.026@
+005.147.070.000=0 DE,Nordrhein-Westfalen,Dorsten,51.6566,6.9656
+080.069.106.026@
+005.147.071.000=0 DE,Nordrhein-Westfalen,Dorsten,51.7376,7.0067
+080.069.106.026@
+080.069.107.229~1413G-MX960-01-ae1.dui.unity-media.net
+005.147.071.255=0*4
+=======8
+005.147.072.000=0 DE,Nordrhein-Westfalen,Köln,50.9333,6.95
+081.210.131.250@
+005.147.073.000=0 DE,Nordrhein-Westfalen,Köln,50.9333,6.95
+081.210.131.250@
+005.147.074.000=0 DE,Nordrhein-Westfalen,Köln,50.9333,6.95
+081.210.131.250@
+005.147.075.000=0 DE,Nordrhein-Westfalen,Köln,50.9333,6.95
+081.210.131.250@
+080.069.106.134~1311A-MX960-02-ae0.cgn.unity-media.net
+080.069.107.093~1311A-MX960-02-ae2.cgn.unity-media.net
+005.147.075.255=0*4
+-------
+005.147.076.000=0 DE,Nordrhein-Westfalen,Essen,51.45,7.0167
+081.210.130.246@
+005.147.077.000=0 DE,Nordrhein-Westfalen,Essen,51.45,7.0167
+081.210.130.246@
+080.069.107.033~80.69.107.33
+005.147.077.255=0*2
+-------
+005.147.078.000=0 DE,Nordrhein-Westfalen,Herne,51.55,7.2167
+080.069.105.102@
+005.147.079.000=0 DE,Nordrhein-Westfalen,Herne,51.55,7.2167
+080.069.105.102@
+080.069.107.061~1511G-MX960-01-ae0.bom.unity-media.net
+080.069.107.058~1211F-MX960-02-ae5.dtm.unity-media.net
+005.147.079.255=0*2
+=======16
+005.147.080.000=0 DE,Nordrhein-Westfalen,Dorsten,51.6667,6.9667
+080.069.106.026@
+005.147.081.000=0 DE,Nordrhein-Westfalen,Dorsten,51.6667,6.9667
+080.069.106.026@
+005.147.082.000=0 DE,Nordrhein-Westfalen,Dorsten,51.6812,6.963
+080.069.106.026@
+005.147.083.000=0 DE,Nordrhein-Westfalen,Dorsten,51.6667,6.9667
+080.069.106.026@
+005.147.084.000=0 DE,Nordrhein-Westfalen,Dorsten,51.6812,6.963
+080.069.106.026@
+005.147.085.000=0 DE,Nordrhein-Westfalen,Dorsten,51.7376,7.0067
+080.069.106.026@
+005.147.086.000=0 DE,Nordrhein-Westfalen,Dorsten,51.7376,7.0067
+080.069.106.026@
+005.147.087.000=0 DE,Nordrhein-Westfalen,Dorsten,51.6667,6.9667
+080.069.106.026@
+080.069.107.229~1413G-MX960-01-ae1.dui.unity-media.net
+005.147.087.255=0*8
+=======8
+005.147.088.000=0 DE,Nordrhein-Westfalen,Mülheim,51.4333,6.8833
+080.069.106.042@
+005.147.089.000=0 DE,Nordrhein-Westfalen,Mülheim An Der Ruhr,51.4333,6.8833
+080.069.106.042@
+005.147.090.000=0 DE,Nordrhein-Westfalen,Mülheim An Der Ruhr,51.4333,6.8833
+080.069.106.042@
+005.147.091.000=0 DE,Nordrhein-Westfalen,Mülheim,51.4333,6.8833
+080.069.106.042@
+005.147.092.000=0 DE,Nordrhein-Westfalen,Mülheim,51.4333,6.8833
+080.069.106.042@
+005.147.093.000=0 DE,Nordrhein-Westfalen,Mülheim,51.4194,6.8937
+080.069.106.042@
+005.147.094.000=0 DE,Nordrhein-Westfalen,Mülheim An Der Ruhr,51.4333,6.8833
+080.069.106.042@
+005.147.095.000=0 DE,Nordrhein-Westfalen,Mülheim,51.4333,6.8833
+080.069.106.042@
+080.069.107.229~1413G-MX960-01-ae1.dui.unity-media.net
+005.147.095.255=0*8
+=======32
+005.147.096.000=0 DE,Hessen,Fulda,50.55,9.6667
+081.210.130.094@
+005.147.097.000=0 DE,Hessen,Fulda,50.55,9.6667
+081.210.130.094@
+080.069.107.122~7411A-MX960-02-ae1.ful.unity-media.net
+005.147.097.255=0*2
+-------
+005.147.098.000=0 DE,Hessen,Bad Vilbel,50.1833,8.75
+080.069.105.038@
+005.147.099.000=0 DE,Hessen,Bad Vilbel,50.1833,8.75
+080.069.105.038@
+080.069.107.214~7111A-MX960-02-ae0.fra.unity-media.net
+080.069.107.022~7111A-MX960-02-ae9.fra.unity-media.net
+005.147.099.255=0*2
+-------
+005.147.100.000=0 DE,Nordrhein-Westfalen,Gelsenkirchen,51.5167,7.05
+081.210.131.138@
+005.147.101.000=0 DE,Nordrhein-Westfalen,Herten,51.6,7.1333
+081.210.131.138@
+005.147.102.000=0 DE,Nordrhein-Westfalen,Gelsenkirchen,51.5167,7.05
+081.210.131.138@
+005.147.103.000=0 DE,Nordrhein-Westfalen,Gelsenkirchen,51.5167,7.05
+081.210.131.138@
+080.069.107.190~1512A-MX80-02-ae0.gek.unity-media.net
+080.069.107.197~1512A-MX80-02-ae1.gek.unity-media.net
+005.147.103.255=0*4
+=======8
+005.147.104.000=0 DE,Nordrhein-Westfalen,Gelsenkirchen,51.5167,7.05
+081.210.131.138@
+005.147.105.000=0 DE,Nordrhein-Westfalen,Gelsenkirchen,51.5167,7.05
+081.210.131.138@
+005.147.106.000=0 DE,Nordrhein-Westfalen,Gelsenkirchen,51.5167,7.05
+081.210.131.138@
+005.147.107.000=0 DE,Nordrhein-Westfalen,Gelsenkirchen,51.5167,7.05
+081.210.131.138@
+005.147.108.000=0 DE,Nordrhein-Westfalen,Gelsenkirchen,51.5167,7.05
+081.210.131.138@
+005.147.109.000=0 DE,Nordrhein-Westfalen,Gelsenkirchen,51.5167,7.05
+081.210.131.138@
+005.147.110.000=0 DE,Nordrhein-Westfalen,Gelsenkirchen,51.5167,7.05
+081.210.131.138@
+005.147.111.000=0 DE,Nordrhein-Westfalen,Gelsenkirchen,51.5167,7.05
+081.210.131.138@
+080.069.107.197~1512A-MX80-02-ae1.gek.unity-media.net
+080.069.107.190~1512A-MX80-02-ae0.gek.unity-media.net
+005.147.111.255=0*8
+=======16
+005.147.112.000=0 DE,Nordrhein-Westfalen,Bielefeld,52.0333,8.5333
+080.069.102.030@
+005.147.113.000=0 DE,Nordrhein-Westfalen,Bielefeld,52.0333,8.5333
+080.069.102.030@
+005.147.114.000=0 DE,Nordrhein-Westfalen,Bielefeld,52.0333,8.5333
+080.069.102.030@
+005.147.115.000=0 DE,Nordrhein-Westfalen,Bielefeld,52.0333,8.5333
+080.069.102.030@
+005.147.116.000=0 DE,Nordrhein-Westfalen,Bielefeld,52.0333,8.5333
+080.069.102.030@
+005.147.117.000=0 DE,Nordrhein-Westfalen,Bielefeld,52.0333,8.5333
+080.069.102.030@
+005.147.118.000=0 DE,Nordrhein-Westfalen,Bielefeld,52.0333,8.5333
+080.069.102.030@
+005.147.119.000=0 DE,Nordrhein-Westfalen,Bielefeld,52.0333,8.5333
+080.069.102.030@
+080.069.106.173~1611A-MX960-02-ae2.bfe.unity-media.net
+=======8
+005.147.120.000=0 DE,Nordrhein-Westfalen,Bielefeld,52.0333,8.5333
+080.069.102.030@
+005.147.121.000=0 DE,Nordrhein-Westfalen,Bielefeld,52.0333,8.5333
+080.069.102.030@
+005.147.122.000=0 DE,Nordrhein-Westfalen,Bielefeld,52.0333,8.5333
+080.069.102.030@
+005.147.123.000=0 DE,Nordrhein-Westfalen,Bielefeld,52.0333,8.5333
+080.069.102.030@
+005.147.124.000=0 DE,Nordrhein-Westfalen,Bielefeld,52.0333,8.5333
+080.069.102.030@
+005.147.125.000=0 DE,Nordrhein-Westfalen,Bielefeld,52.0333,8.5333
+080.069.102.030@
+005.147.126.000=0 DE,Nordrhein-Westfalen,Bielefeld,52.0333,8.5333
+005.147.127.000=0 DE,Nordrhein-Westfalen,Bielefeld,52.0333,8.5333
+080.069.106.173~1611A-MX960-02-ae2.bfe.unity-media.net
+005.147.127.255=0*16
+=======128
+005.147.128.000=0 DE,Hessen,Rüsselsheim,49.9925,8.435
+080.069.105.022@
+005.147.129.000=0 DE,Hessen,Raunheim,50.0167,8.45
+080.069.105.022@
+005.147.130.000=0 DE,Hessen,Eppstein,50.1333,8.4
+080.069.105.022@
+005.147.131.000=0 DE,Hessen,Bischofsheim,49.9939,8.3672
+080.069.105.022@
+005.147.132.000=0 DE,Hessen,Rüsselsheim,49.9925,8.435
+080.069.105.022@
+005.147.133.000=0 DE,Hessen,Rüsselsheim,49.9925,8.435
+080.069.105.022@
+005.147.134.000=0 DE,Hessen,Rüsselsheim,49.9925,8.435
+080.069.105.022@
+005.147.135.000=0 DE,Hessen,Heusenstamm,50.0667,8.8
+080.069.105.022@
+081.210.129.226~de-fra04a-ra1-ae1.fra.unity-media.net
+=======8
+005.147.136.000=0 DE,Hessen,Obertshausen,50.0833,8.85
+080.069.105.022@
+005.147.137.000=0 DE,Hessen,Ginsheim-Gustavsburg,49.9858,8.3425
+080.069.105.022@
+005.147.138.000=0 DE,Hessen,Bischofsheim,49.9939,8.3672
+080.069.105.022@
+005.147.139.000=0 DE,Hessen,Bischofsheim,49.9939,8.3672
+080.069.105.022@
+005.147.140.000=0 DE,Hessen,Rüsselsheim,49.9925,8.435
+080.069.105.022@
+005.147.141.000=0 DE,Hessen,Kelkheim,50.1333,8.45
+080.069.105.022@
+005.147.142.000=0 DE,Hessen,Kelkheim,50.1333,8.45
+080.069.105.022@
+005.147.143.000=0 DE,Hessen,Heusenstamm,50.0667,8.8
+080.069.105.022@
+081.210.129.226~de-fra04a-ra1-ae1.fra.unity-media.net
+005.147.143.255=0*16
+=======16
+005.147.144.000=0 DE,Hessen,Eppstein,50.1333,8.4
+080.069.105.022@
+005.147.145.000=0 DE,Hessen,Eppstein,50.1333,8.4
+080.069.105.022@
+005.147.146.000=0 DE,Hessen,Eppstein,50.1333,8.4
+080.069.105.022@
+005.147.147.000=0 DE,Hessen,Eppstein,50.1333,8.4
+005.147.147.000!0 DE,Nordrhein-Westfalen,Viersen,51.25,6.3833
+080.069.105.022@
+005.147.148.000=0 DE,Hessen,Ginsheim,49.9742,8.3567
+080.069.105.022@
+005.147.149.000=0 DE,Hessen,Eppstein,50.1333,8.4
+080.069.105.022@
+005.147.150.000=0 DE,Hessen,Eppstein,50.1333,8.4
+005.147.150.000!0 DE,Nordrhein-Westfalen,Mönchengladbach,51.2,6.4333
+005.147.151.000=0 DE,Hessen,Eppstein,50.1333,8.4
+081.210.129.226~de-fra04a-ra1-ae1.fra.unity-media.net
+005.147.151.255=0*8
+=======8
+005.147.152.000=0 DE,,,51,9
+005.147.153.000=0 DE,,,51,9
+005.147.154.000=0 DE,,,51,9
+005.147.155.000=0 DE,,,51,9
+005.147.155.255=0*4
+-------
+005.147.156.000=0 DE,Hessen,Rüsselsheim,49.9925,8.435
+080.069.105.022@
+005.147.157.000=0 DE,Hessen,Rüsselsheim,49.9925,8.435
+005.147.158.000=0 DE,Hessen,Rüsselsheim,49.9925,8.435
+005.147.159.000=0 DE,Hessen,Rüsselsheim,49.9925,8.435
+081.210.129.226~de-fra04a-ra1-ae1.fra.unity-media.net
+005.147.159.255=0^4
+=======32
+005.147.160.000=0 DE,Nordrhein-Westfalen,Meerbusch,51.2833,6.6667
+080.069.106.114@
+005.147.161.000=0 DE,Nordrhein-Westfalen,Krefeld,51.3333,6.5667
+080.069.106.114@
+005.147.162.000=0 DE,Nordrhein-Westfalen,Krefeld,51.3333,6.5667
+080.069.106.114@
+005.147.163.000=0 DE,Nordrhein-Westfalen,Krefeld,51.3333,6.5667
+080.069.106.114@
+005.147.164.000=0 DE,Nordrhein-Westfalen,Kleve,51.7866,6.1375
+080.069.106.114@
+005.147.165.000=0 DE,Nordrhein-Westfalen,Krefeld,51.3333,6.5667
+080.069.106.114@
+005.147.166.000=0 DE,Nordrhein-Westfalen,Kleve,51.7833,6.15
+080.069.106.114@
+005.147.167.000=0 DE,Nordrhein-Westfalen,Krefeld,51.3333,6.5667
+080.069.106.114@
+080.069.106.178~1412A-MX960-01-ae1.kre.unity-media.net
+=======8
+005.147.168.000=0 DE,Nordrhein-Westfalen,Krefeld,51.3333,6.5667
+080.069.106.114@
+005.147.169.000=0 DE,Nordrhein-Westfalen,Krefeld,51.3333,6.5667
+080.069.106.114@
+005.147.170.000=0 DE,Nordrhein-Westfalen,Krefeld,51.3333,6.5667
+080.069.106.114@
+005.147.171.000=0 DE,Nordrhein-Westfalen,Krefeld,51.3311,6.5616
+080.069.106.114@
+005.147.172.000=0 DE,Nordrhein-Westfalen,Krefeld,51.3333,6.5667
+080.069.106.114@
+005.147.173.000=0 DE,Nordrhein-Westfalen,Krefeld,51.3333,6.5667
+080.069.106.114@
+005.147.174.000=0 DE,Nordrhein-Westfalen,Meerbusch,51.2734,6.6484
+080.069.106.114@
+005.147.175.000=0 DE,Nordrhein-Westfalen,Krefeld,51.3333,6.5667
+080.069.106.114@
+080.069.106.178~1412A-MX960-01-ae1.kre.unity-media.net
+=======16
+005.147.176.000=0 DE,Nordrhein-Westfalen,Krefeld,51.3333,6.5667
+080.069.106.114@
+005.147.177.000=0 DE,Nordrhein-Westfalen,Krefeld,51.3333,6.5667
+080.069.106.114@
+005.147.178.000=0 DE,Nordrhein-Westfalen,Krefeld,51.3333,6.5667
+080.069.106.114@
+005.147.179.000=0 DE,Nordrhein-Westfalen,Krefeld,51.3333,6.5667
+080.069.106.114@
+005.147.180.000=0 DE,Nordrhein-Westfalen,Krefeld,51.3333,6.5667
+080.069.106.114@
+005.147.181.000=0 DE,Nordrhein-Westfalen,Willich,51.2592,6.5156
+080.069.106.114@
+005.147.182.000=0 DE,Nordrhein-Westfalen,Willich,51.2592,6.5156
+080.069.106.114@
+005.147.183.000=0 DE,Nordrhein-Westfalen,Willich,51.2592,6.5156
+080.069.106.114@
+080.069.106.178~1412A-MX960-01-ae1.kre.unity-media.net
+=======8
+005.147.184.000=0 DE,Nordrhein-Westfalen,Krefeld,51.3333,6.5667
+080.069.106.114@
+005.147.185.000=0 DE,Nordrhein-Westfalen,Willich,51.2667,6.55
+080.069.106.114@
+005.147.186.000=0 DE,Nordrhein-Westfalen,Meerbusch,51.2833,6.6667
+080.069.106.114@
+005.147.187.000=0 DE,Nordrhein-Westfalen,Krefeld,51.3333,6.5667
+080.069.106.114@
+005.147.188.000=0 DE,Nordrhein-Westfalen,Krefeld,51.3333,6.5667
+080.069.106.114@
+005.147.189.000=0 DE,Nordrhein-Westfalen,Krefeld,51.3333,6.5667
+080.069.106.114@
+005.147.190.000=0 DE,Nordrhein-Westfalen,Kleve,51.7833,6.15
+080.069.106.114@
+005.147.191.000=0 DE,Nordrhein-Westfalen,Krefeld,51.3333,6.5667
+080.069.106.178~1412A-MX960-01-ae1.kre.unity-media.net
+005.147.191.255=0*32
+=======64
+005.147.192.000=0 DE,Nordrhein-Westfalen,Münster,51.9667,7.6333
+080.069.105.002@
+005.147.193.000=0 DE,Nordrhein-Westfalen,Münster,51.9667,7.6333
+080.069.105.002@
+005.147.194.000=0 DE,Nordrhein-Westfalen,Münster,51.9667,7.6333
+080.069.105.002@
+005.147.195.000=0 DE,Nordrhein-Westfalen,Münster,51.9667,7.6333
+080.069.105.002@
+005.147.196.000=0 DE,Nordrhein-Westfalen,Münster,51.9667,7.6333
+080.069.105.002@
+005.147.197.000=0 DE,Nordrhein-Westfalen,Münster,51.9667,7.6333
+080.069.105.002@
+005.147.198.000=0 DE,Nordrhein-Westfalen,Münster,51.9667,7.6333
+080.069.105.002@
+005.147.199.000=0 DE,Nordrhein-Westfalen,Münster,51.9667,7.6333
+080.069.105.002@
+080.069.107.149~1111A-MX960-01-ae1.msr.unity-media.net
+080.069.107.146~1111A-MX960-01-ae0.msr.unity-media.net
+=======8
+005.147.200.000=0 DE,Nordrhein-Westfalen,Münster,51.9667,7.6333
+080.069.105.002@
+005.147.201.000=0 DE,Nordrhein-Westfalen,Münster,51.9716,7.6068
+080.069.105.002@
+005.147.202.000=0 DE,Nordrhein-Westfalen,Münster,51.9667,7.6333
+080.069.105.002@
+005.147.203.000=0 DE,Nordrhein-Westfalen,Münster,51.9667,7.6333
+080.069.105.002@
+005.147.204.000=0 DE,Nordrhein-Westfalen,Münster,51.9667,7.6333
+080.069.105.002@
+005.147.205.000=0 DE,Nordrhein-Westfalen,Münster,51.9667,7.6333
+080.069.105.002@
+005.147.206.000=0 DE,Nordrhein-Westfalen,Münster,51.9667,7.6333
+080.069.105.002@
+005.147.207.000=0 DE,Nordrhein-Westfalen,Münster,51.9667,7.6333
+080.069.105.002@
+080.069.107.149~1111A-MX960-01-ae1.msr.unity-media.net
+080.069.107.146~1111A-MX960-01-ae0.msr.unity-media.net
+=======16
+005.147.208.000=0 DE,Nordrhein-Westfalen,Münster,51.9667,7.6333
+080.069.105.002@
+005.147.209.000=0 DE,Nordrhein-Westfalen,Münster,51.9667,7.6333
+080.069.105.002@
+005.147.210.000=0 DE,Nordrhein-Westfalen,Münster,51.9667,7.6333
+080.069.105.002@
+005.147.211.000=0 DE,Nordrhein-Westfalen,Münster,51.9667,7.6333
+080.069.105.002@
+005.147.212.000=0 DE,Nordrhein-Westfalen,Münster,51.9667,7.6333
+080.069.105.002@
+005.147.213.000=0 DE,Nordrhein-Westfalen,Münster,51.9667,7.6333
+080.069.105.002@
+005.147.214.000=0 DE,Nordrhein-Westfalen,Münster,51.9667,7.6333
+080.069.105.002@
+005.147.215.000=0 DE,Nordrhein-Westfalen,Münster,51.9667,7.6333
+080.069.107.149~1111A-MX960-01-ae1.msr.unity-media.net
+080.069.107.146~1111A-MX960-01-ae0.msr.unity-media.net
+=======8
+005.147.216.000=0 DE,Nordrhein-Westfalen,Münster,51.9667,7.6333
+005.147.217.000=0 DE,Nordrhein-Westfalen,Münster,51.9667,7.6333
+005.147.218.000=0 DE,Nordrhein-Westfalen,Münster,51.9667,7.6333
+005.147.219.000=0 DE,Nordrhein-Westfalen,Münster,51.9667,7.6333
+005.147.220.000=0 DE,Nordrhein-Westfalen,Münster,51.9667,7.6333
+005.147.221.000=0 DE,Nordrhein-Westfalen,Münster,51.9667,7.6333
+005.147.222.000=0 DE,Nordrhein-Westfalen,Münster,51.9667,7.6333
+005.147.223.000=0 DE,Nordrhein-Westfalen,Münster,51.9667,7.6333
+005.147.223.255=0*32
+=======32
+005.147.224.000=0 DE,Hessen,Friedberg,50.35,8.7667
+005.147.225.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
+005.147.226.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
+005.147.227.000=0 DE,Hessen,Friedberg,50.3303,8.7621
+005.147.227.255=0*4
+-------
+005.147.228.000=0 DE,Hessen,Hofheim,50.0833,8.45
+005.147.229.000=0 DE,Hessen,Hochheim,50.0167,8.35
+005.147.230.000=0 DE,Hessen,Friedberg,50.35,8.7667
+005.147.231.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
+005.147.231.255=0*4
+=======8
+005.147.232.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
+005.147.233.000=0 DE,Hessen,Frankfurt Am Main,50.1172,8.7281
+005.147.234.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
+005.147.235.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
+005.147.235.255=0*4
+-------
+005.147.236.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
+005.147.237.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
+005.147.238.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
+005.147.239.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
+005.147.239.255=0*4
+=======16
+005.147.240.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
+005.147.241.000=0 DE,Hessen,Kriftel,50.0833,8.4833
+005.147.242.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
+005.147.243.000=0 DE,Hessen,Kriftel,50.0833,8.4833
+005.147.243.255=0*4
+-------
+005.147.244.000=0 DE,Hessen,Wiesbaden,50.0833,8.25
+005.147.245.000=0 DE,,,51,9
+005.147.246.000=0 DE,,,51,9
+005.147.247.000=0 DE,,,51,9
+005.147.247.255=0*4
+=======8
+005.147.248.000=0 DE,,,51,9
+005.147.249.000=0 DE,,,51,9
+005.147.250.000=0 DE,,,51,9
+005.147.251.000=0 DE,,,51,9
+005.147.251.255=0*4
+-------
+005.147.252.000=0 DE,,,51,9
+080.069.107.202@
+080.069.107.006@
+005.147.253.000=0 DE,,,51,9
+005.147.254.000=0 DE,,,51,9
+005.147.255.000=0 DE,,,51,9
+080.069.107.026~13NOC-MX960-01-ae8.krp.unity-media.net
+080.069.107.202~13NOC-MX960-02-ae0.krp.unity-media.net
+005.147.255.255=0^4
+=======256

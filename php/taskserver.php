@@ -408,33 +408,30 @@ function ManagePingresult(&$list,$stamp,$ms)
 		{
 			$change = "died";
 		}
-		else
+
+		if ($bfoms != null)
 		{
-			if ($bfoms != null)
+			if (($ms == -1) && ($oldms == -1) && ($bfoms == -1))
 			{
-				if (($ms == -1) && ($oldms == -1) && ($bfoms == -1))
+				unset($list[ $oldstamp ]);
+			}
+			else
+			{
+				if (($ms != -1) && ($oldms == -1) && ($bfoms != -1))
 				{
 					unset($list[ $oldstamp ]);
 				}
 				else
 				{
-					if (($ms != -1) && ($oldms == -1) && ($bfoms != -1))
-					{
-						unset($list[ $oldstamp ]);
-					}
-					else
-					{
-						if (($ms != -1) && ($oldms != -1) && ($bfoms != -1))
-						{ 
-							$nowslow = ($ms    > 1000);
-							$oldslow = ($oldms > 1000);
-							$bfoslow = ($bfoms > 1000);
-					
-							if ((($nowslow ==  true) && ($oldslow ==  true) && ($bfoslow ==  true)) ||
-								(($nowslow == false) && ($oldslow == false) && ($bfoslow == false)))
-							{
-								unset($list[ $oldstamp ]);
-							}
+					if (($ms != -1) && ($oldms != -1) && ($bfoms != -1))
+					{ 
+						$nowslow = ($ms    > 1000);
+						$oldslow = ($oldms > 1000);
+						$bfoslow = ($bfoms > 1000);
+				
+						if (($nowslow == $oldslow) && ($oldslow == $bfoslow))
+						{
+							unset($list[ $oldstamp ]);
 						}
 					}
 				}
@@ -1937,11 +1934,11 @@ function ScheduleTask($task,$remote_host,$remote_port)
 	$trans[ "request" ] = &$request;
 		
 	$GLOBALS[ "transactions" ][ $request[ "guid" ] ] = &$trans;
-  
+
+	if (! mt_rand(0,0)) ScheduleMtrLogsTask($task,$request);
   	if (! mt_rand(0,4)) ScheduleMtrDomsTask($task,$request);
-	if (! mt_rand(0,4)) ScheduleMtrLogsTask($task,$request);
 	if (! mt_rand(0,2)) ScheduleNetpingTask($task,$request);
-	
+
 	if (! mt_rand(0,0)) ScheduleWebpingTask($task,$request);
     if (! mt_rand(0,0)) ScheduleGwypingTask($task,$request);
     if (! mt_rand(0,0)) ScheduleBblpingTask($task,$request);

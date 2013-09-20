@@ -15,6 +15,24 @@
 	
 	$tobuilds = Array();
 	
+	if ($isp == "de/um")
+	{
+	    array_push($tobuilds,"005.146.000.000-005.147.255.255");
+	    array_push($tobuilds,"037.024.000.000-037.024.255.255");
+	    array_push($tobuilds,"037.201.000.000-037.201.255.255");
+	    array_push($tobuilds,"062.143.000.000-062.143.255.255");
+	    array_push($tobuilds,"078.094.000.000-078.094.255.255");
+	    array_push($tobuilds,"081.210.128.000-081.210.255.255");
+	    array_push($tobuilds,"088.152.000.000-088.153.255.255");
+	    array_push($tobuilds,"092.050.064.000-092.050.127.255");
+	    array_push($tobuilds,"094.079.128.000-094.079.191.255");
+	    array_push($tobuilds,"095.222.000.000-095.223.255.255");
+	    array_push($tobuilds,"109.090.000.000-109.091.255.255");
+	    array_push($tobuilds,"130.180.000.000-130.180.127.255");
+	    array_push($tobuilds,"176.198.000.000-176.199.255.255");
+	    array_push($tobuilds,"178.200.000.000-178.203.255.255");
+	}
+	
 	if ($isp == "de/vf")
 	{
 	    array_push($tobuilds,"082.082.000.000-082.083.255.255");
@@ -611,10 +629,42 @@ function BuildBackbones($isp,&$endpoint,&$uplinks,&$allbones,$stage)
 	{
 		$locations = json_decdat(file_get_contents($locationsfile));
 		
-		if ($locations === false)
+		if ($locations === null)
 		{
-			echo "$locations fucked up, exit...\n";
+			echo "$locationsfile fucked up, exit...\n";
 			exit();
+		}
+	}
+	
+	//
+	// Read via cities if required.
+	//
+	
+	$viacities = array();
+	$viacitiesfile = "../var/$isp/configs/viacity.json";
+	
+	if (file_exists($viacitiesfile))
+	{
+		$viatemp = json_decdat(file_get_contents($viacitiesfile));
+		
+		if ($viatemp === null)
+		{
+			echo "$viacitiesfile fucked up, exit...\n";
+			exit();
+		}
+
+		foreach ($viatemp as $city => $via)
+		{
+			foreach ($via as $viacity)
+			{
+				if (($viacity != "xxxx") && isset($viacities[ $viacity ]))
+				{
+					echo "viacity $viacity duplicate, exit...\n";
+					exit();
+				}
+				
+				$viacities[ $viacity ] = $city;
+			}
 		}
 	}
 	
@@ -631,6 +681,19 @@ function BuildBackbones($isp,&$endpoint,&$uplinks,&$allbones,$stage)
 	$bonusnailed[ "xxxxx"  				] =  "xxxxxxxxx";
 	$bonusnailed[ "xxxxx"  				] =  "xxxxxxxxx";
 	$bonusnailed[ "xxxxx"  				] =  "xxxxxxxxx";
+	$bonusnailed[ "Herne"  				] =  "DE,Nordrhein-Westfalen,Herne,51.55,7.2167";
+	$bonusnailed[ "Bochum"  			] =  "DE,Nordrhein-Westfalen,Bochum,51.4833,7.2167";
+	$bonusnailed[ "Lünen"  				] =  "DE,Nordrhein-Westfalen,Lünen,51.6189,7.5222";
+	$bonusnailed[ "Mannheim"  			] =  "DE,Nordrhein-Westfalen,Mannheim,51.0833,6.8833";
+	$bonusnailed[ "Wuppertal"  			] =  "DE,Nordrhein-Westfalen,Wuppertal,51.2667,7.1833";
+	$bonusnailed[ "Ratingen"  			] =  "DE,Nordrhein-Westfalen,Ratingen,51.3,6.85";
+	$bonusnailed[ "Neuss"  				] =  "DE,Nordrhein-Westfalen,Neuss,51.2,6.6833";
+	$bonusnailed[ "Düsseldorf"  		] =  "DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667";
+	$bonusnailed[ "Wiesbaden"  			] =  "DE,Hessen,Wiesbaden,50.0833,8.25";
+	$bonusnailed[ "Darmstadt"  			] =  "DE,Hessen,Darmstadt,49.8706,8.6494";
+	$bonusnailed[ "Hanau"  				] =  "DE,Hessen,Hanau,50.1333,8.9167";
+	$bonusnailed[ "Minden"  			] =  "DE,Nordrhein-Westfalen,Minden,52.2833,8.9167";
+	$bonusnailed[ "Soest"  				] =  "DE,Nordrhein-Westfalen,Soest,51.5602,8.0885";
 	$bonusnailed[ "Duisburg"  			] =  "DE,Nordrhein-Westfalen,Duisburg,51.4333,6.75";
 	$bonusnailed[ "Kassel"  			] =  "DE,Hessen,Kassel,51.3167,9.5";
 	$bonusnailed[ "Dortmund"  			] =  "DE,Nordrhein-Westfalen,Dortmund,51.5167,7.45";
@@ -763,8 +826,9 @@ function BuildBackbones($isp,&$endpoint,&$uplinks,&$allbones,$stage)
 	$bonuscities[ "Hannover"				] = 50;
 	$bonuscities[ "Dortmund"				] = 50;
 	$bonuscities[ "Düsseldorf" 	 	 		] = 50;
-	$bonuscities[ "Köln" 	 		 		] = 50;
+	$bonuscities[ "Köln" 	 		 		] = 99;
 	$bonuscities[ "Leipzig"					] = 50;
+	$bonuscities[ "Koblenz" 	 	 		] = 25;
 
 	$bonuscities[ "xxxxxx" 			 		] = 20;
 	$bonuscities[ "xxxxxx" 			 		] = 20;
@@ -787,7 +851,6 @@ function BuildBackbones($isp,&$endpoint,&$uplinks,&$allbones,$stage)
 	$bonuscities[ "Duisburg" 		 		] = 20;
 	$bonuscities[ "Bonn" 		 	 		] = 20;
 	$bonuscities[ "Wesel" 		 	 		] = 20;
-	$bonuscities[ "Koblenz" 	 	 		] = 20;
 	$bonuscities[ "Wuppertal" 	 	 		] = 20;
 	$bonuscities[ "Trier" 	 		 		] = 20;
 	$bonuscities[ "Erfurt"  		 		] = 20;
@@ -990,7 +1053,29 @@ function BuildBackbones($isp,&$endpoint,&$uplinks,&$allbones,$stage)
 								$bestloc[ "lat"     ] = floatval($parts[ 3 ]);
 								$bestloc[ "lon"     ] = floatval($parts[ 4 ]);
 							}
-						
+							
+							//
+							// Re-check for via cities.
+							//
+														 	
+							$segcrc = $bestloc[ "country" ]
+								 	. ","
+								 	. $bestloc[ "region" ]
+								 	. ","
+								 	. $bestloc[ "city" ]
+								 	;
+	
+							if (isset($viacities[ $segcrc ]))
+							{
+								$parts = explode(",",$viacities[ $segcrc ]);
+		
+								$bestloc[ "country" ] = $parts[ 0 ];
+								$bestloc[ "region"  ] = $parts[ 1 ];
+								$bestloc[ "city"    ] = $parts[ 2 ];
+								$bestloc[ "lat"     ] = floatval($parts[ 3 ]);
+								$bestloc[ "lon"     ] = floatval($parts[ 4 ]);
+							}
+
 							$subnet[ "loc" ] = $bestloc;
 						
 							break;
@@ -1073,7 +1158,7 @@ function BuildBackbones($isp,&$endpoint,&$uplinks,&$allbones,$stage)
 							$subnet[ "pc" ] += $subnet[ "segs" ][ $sinx ][ "pc" ];							
 						}
 						
-						if ($isp == "de/vf")
+						if (($isp == "de/vf") || ($isp == "de/um"))
 						{
 							$subnet[ "gw" ] = IPZero(IP_Bin($subnet[ "ip" ]) + 1);
 						}
@@ -1176,7 +1261,7 @@ function BuildBackbones($isp,&$endpoint,&$uplinks,&$allbones,$stage)
 			
 				if ($lastip != null)
 				{	
-					if ($rest != $lastloc)
+					//if ($rest != $lastloc)
 					{
 						$seg = Array();
 		
@@ -1203,7 +1288,7 @@ function BuildBackbones($isp,&$endpoint,&$uplinks,&$allbones,$stage)
 								$lastvia = null;
 							}
 
-							array_push($subnet[ "segs" ],$seg);
+							if ($rest != $lastloc) array_push($subnet[ "segs" ],$seg);
 						}
 					}
 				}

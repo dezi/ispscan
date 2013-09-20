@@ -1,60 +1,57 @@
 088.134.192.000=0 DE,,,51,9
 083.169.128.170@
 088.134.192.003@
+088.134.237.238@
 088.134.193.025@
-088.134.205.142@
-088.134.193.033@
 088.134.193.000=0 DE,,,51,9
 088.134.238.182@
-088.134.234.110@
-088.134.193.004@
+088.134.238.186@
 088.134.234.114@
-088.134.193.008@
+088.134.201.125@
+088.134.237.113@
 088.134.194.000=0 DE,,,51,9
+088.134.194.001@
+088.134.194.006@
 088.134.194.003@
 088.134.194.008@
 088.134.194.005@
-088.134.194.010@
-088.134.194.007@
 088.134.195.000=0 DE,,,51,9
 088.134.196.000=0 DE,,,51,9
-088.134.203.157@
+088.134.237.121@
 083.169.129.118@
 088.134.193.025@
 088.134.197.000=0 DE,,,51,9
 088.134.197.197@
-088.134.203.033@
+083.169.128.170@
+088.134.237.238@
+088.134.203.045@
 088.134.198.000=0 DE,,,51,9
-088.134.203.037@
-088.134.234.049@
-083.169.129.118@
-088.134.201.129@
+088.134.234.114@
+083.169.128.117@
 088.134.199.000=0 DE,,,51,9
 083.169.128.153@
 083.169.128.174@
-088.134.203.009@
-088.134.203.142@
-088.134.203.037~DE,Hamburg,Hamburg,53.55,10
-088.134.202.202~DE,Berlin,Berlin,52.5167,13.4
-083.169.172.238~DE,Hamburg,Hamburg,53.55,10
-088.134.193.022~DE,Hamburg,Hamburg,53.55,10
-088.134.193.031~DE,Hamburg,Hamburg,53.55,10
-088.134.201.125~DE,Bayern,Nürnberg,49.4478,11.0683
-083.169.129.118~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
-088.134.238.182~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
+088.134.237.242@
+088.134.203.005@
+083.169.128.137~83-169-128-137.static.superkabel.de~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
+083.169.128.178~83-169-128-178.static.superkabel.de~DE,Berlin,Berlin,52.5167,13.4
+088.134.234.041~88-134-234-41-dynip.superkabel.de~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
+083.169.172.238~83-169-172-238-isp.superkabel.de~DE,Hamburg,Hamburg,53.55,10
+083.169.129.166~83-169-129-166.static.superkabel.de~DE,Bayern,Nürnberg,49.4478,11.0683
+083.169.129.118~83-169-129-118.static.superkabel.de~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
+088.134.234.053~88-134-234-53-dynip.superkabel.de~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
+083.169.129.062~83-169-129-62.static.superkabel.de~DE,Bayern,München,48.15,11.5833
+088.134.194.008~88-134-194-8-dynip.superkabel.de
 088.134.194.001~88-134-194-1-dynip.superkabel.de
-088.134.194.010~DE,Bayern,München,48.15,11.5833
+088.134.194.010~88-134-194-10-dynip.superkabel.de~DE,Bayern,München,48.15,11.5833
 088.134.194.003~88-134-194-3-dynip.superkabel.de
-088.134.237.130~DE,Bayern,München,48.15,11.5833
-088.134.194.005~88-134-194-5-dynip.superkabel.de
-088.134.203.041~DE,Hamburg,Hamburg,53.55,10
-088.134.237.230~DE,Berlin,Berlin,52.5167,13.4
-088.134.205.150~88-134-205-150-dynip.superkabel.de
-088.134.205.142~88-134-205-142-dynip.superkabel.de
-088.134.203.085~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
-083.169.128.113~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
-088.134.234.049~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
-088.134.203.073~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
+088.134.203.045~88-134-203-45-dynip.superkabel.de~DE,Hamburg,Hamburg,53.55,10
+088.134.203.013~88-134-203-13-dynip.superkabel.de~DE,Berlin,Berlin,52.5167,13.4
+088.134.203.037~88-134-203-37-dynip.superkabel.de~DE,Hamburg,Hamburg,53.55,10
+088.134.203.077~88-134-203-77-dynip.superkabel.de~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
+088.134.193.035~88-134-193-35-dynip.superkabel.de~DE,Hamburg,Hamburg,53.55,10
+088.134.203.145~88-134-203-145-dynip.superkabel.de~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
+083.169.128.009~83-169-128-9.static.superkabel.de~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
 088.134.199.254=0+
 088.134.199.255=0*8
 =======8
@@ -62,45 +59,45 @@
 083.169.153.233@
 083.169.128.033@
 088.134.201.000=0 DE,,,51,9
-088.134.234.049@
-088.134.205.142@
+088.134.234.045@
+088.134.193.022@
+088.134.234.041@
 088.134.201.030@
-088.134.234.045@
 088.134.202.000=0 DE,,,51,9
-088.134.201.125@
-088.134.234.053@
+088.134.234.049@
 088.134.201.074@
-088.134.234.049@
-083.169.128.153@
+088.134.234.041@
+083.169.128.137@
+088.134.193.035@
 088.134.203.000=0 DE,,,51,9
-088.134.234.053@
-088.134.205.142@
-088.134.234.049@
 088.134.234.045@
-088.134.201.089@
+088.134.193.022@
+088.134.234.053@
+088.134.203.153@
 088.134.204.000=0 DE,,,51,9
 088.134.193.025@
 083.169.172.166@
-088.134.237.125@
+088.134.203.145@
 083.169.129.234@
 088.134.205.000=0 DE,,,51,9
-088.134.193.025@
+088.134.203.037@
 083.169.172.166@
 088.134.206.000=0 DE,,,51,9
 088.134.207.000=0 DE,,,51,9
-083.169.128.033~DE,,,53,9
-083.169.128.133~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
-083.169.128.113~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
-088.134.205.142~88-134-205-142-dynip.superkabel.de
-088.134.193.022~DE,Hamburg,Hamburg,53.55,10
-088.134.234.053~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
-088.134.203.081~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
-088.134.234.041~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
-088.134.205.150~88-134-205-150-dynip.superkabel.de
-083.169.172.238~DE,Hamburg,Hamburg,53.55,10
+083.169.128.033~83-169-128-33.static.superkabel.de~DE,,,53,9
+083.169.128.133~83-169-128-133.static.superkabel.de~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
+083.169.128.113~83-169-128-113.static.superkabel.de~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
+088.134.193.022~88-134-193-22-dynip.superkabel.de~DE,Hamburg,Hamburg,53.55,10
+088.134.193.025~88-134-193-25-dynip.superkabel.de~DE,Hamburg,Hamburg,53.55,10
+088.134.234.041~88-134-234-41-dynip.superkabel.de~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
+083.169.172.166~83-169-172-166-isp.superkabel.de~DE,Hamburg,Hamburg,53.55,10
+088.134.234.053~88-134-234-53-dynip.superkabel.de~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
+088.134.193.035~88-134-193-35-dynip.superkabel.de~DE,Hamburg,Hamburg,53.55,10
+088.134.193.033~88-134-193-33-dynip.superkabel.de~DE,Hamburg,Hamburg,53.55,10
+088.134.203.033~88-134-203-33-dynip.superkabel.de~DE,Hamburg,Hamburg,53.55,10
+083.169.172.238~83-169-172-238-isp.superkabel.de~DE,Hamburg,Hamburg,53.55,10
 083.169.160.086~83-169-160-86-isp.superkabel.de
-088.134.203.045~DE,Hamburg,Hamburg,53.55,10
-088.134.203.033~DE,Hamburg,Hamburg,53.55,10
+088.134.203.041~88-134-203-41-dynip.superkabel.de~DE,Hamburg,Hamburg,53.55,10
 088.134.207.254=0+
 088.134.207.255=0*8
 =======16
@@ -123,99 +120,95 @@
 088.134.193.070@
 088.134.193.069@
 088.134.214.000=0 DE,,,51,9
-088.134.237.162@
-088.134.237.174@
-088.134.192.245@
 088.134.192.230@
+088.134.237.166@
 088.134.215.000=0 DE,,,51,9
 088.134.237.190@
 088.134.237.206@
 088.134.193.099@
-088.134.201.225~DE,Bayern,München,48.15,11.5833
-083.169.128.009~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
-088.134.234.082~DE,Bayern,Nürnberg,49.4478,11.0683
-083.169.129.094~DE,Bayern,München,48.15,11.5833
-088.134.237.134~DE,Bayern,München,48.15,11.5833
-088.134.237.230~DE,Berlin,Berlin,52.5167,13.4
+088.134.237.142~88-134-237-142-dynip.superkabel.de~DE,Bayern,München,48.15,11.5833
+088.134.201.141~88-134-201-141-dynip.superkabel.de~DE,Bayern,Nürnberg,49.4478,11.0683
+088.134.237.117~88-134-237-117-dynip.superkabel.de~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
+083.169.129.094~83-169-129-94.static.superkabel.de~DE,Bayern,München,48.15,11.5833
+088.134.237.134~88-134-237-134-dynip.superkabel.de~DE,Bayern,München,48.15,11.5833
+088.134.237.230~88-134-237-230-dynip.superkabel.de~DE,Berlin,Berlin,52.5167,13.4
 088.134.192.003~88-134-192-3-dynip.superkabel.de
-088.134.237.238~DE,Berlin,Berlin,52.5167,13.4
+088.134.237.238~88-134-237-238-dynip.superkabel.de~DE,Berlin,Berlin,52.5167,13.4
 088.134.192.001~88-134-192-1-dynip.superkabel.de
 088.134.193.216~88-134-193-216-dynip.superkabel.de
-088.134.238.070~DE,Niedersachsen,Hannover,52.3667,9.7167
-088.134.205.150~88-134-205-150-dynip.superkabel.de
+088.134.238.074~88-134-238-74-dynip.superkabel.de~DE,Niedersachsen,Hannover,52.3667,9.7167
+088.134.193.035~88-134-193-35-dynip.superkabel.de~DE,Hamburg,Hamburg,53.55,10
 088.134.193.072~88-134-193-72-dynip.superkabel.de
 088.134.193.067~88-134-193-67-dynip.superkabel.de
-088.134.234.154~88-134-234-154-dynip.superkabel.de
-088.134.238.178~88-134-238-178-dynip.superkabel.de
-083.169.128.117~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
 088.134.192.229~88-134-192-229-dynip.superkabel.de
-088.134.234.041~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
-083.169.128.133~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
-083.169.128.113~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
+088.134.234.154~88-134-234-154-dynip.superkabel.de
+088.134.234.041~88-134-234-41-dynip.superkabel.de~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
+083.169.128.113~83-169-128-113.static.superkabel.de~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
+083.169.128.137~83-169-128-137.static.superkabel.de~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
 088.134.237.190~88-134-237-190-dynip.superkabel.de
-088.134.234.049~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
+088.134.234.045~88-134-234-45-dynip.superkabel.de~DE,Sachsen,Leipzig,51.3,12.3333
 088.134.215.254=0+
 088.134.215.255=0*8
 =======8
 088.134.216.000=0 DE,,,51,9
 083.169.129.201@
-088.134.192.124@
 088.134.192.123@
 088.134.192.120@
+088.134.192.119@
+083.169.129.197@
 088.134.217.000=0 DE,,,51,9
 088.134.192.166@
 088.134.192.171@
-088.134.192.168@
 088.134.192.173@
+088.134.192.168@
 088.134.218.000=0 DE,,,51,9
 088.134.237.202@
-088.134.193.087@
+088.134.237.190@
 088.134.237.186@
+088.134.193.087@
 088.134.219.000=0 DE,,,51,9
 088.134.192.202@
-088.134.205.142@
-088.134.192.201@
-088.134.192.207@
 088.134.192.179@
+088.134.192.192@
 088.134.220.000=0 DE,,,51,9
 088.134.193.191@
-083.169.129.094@
 088.134.193.192@
+088.134.193.190@
 088.134.221.000=0 DE,,,51,9
 083.169.128.049@
 088.134.193.037@
+088.134.193.042@
 088.134.222.000=0 DE,,,51,9
 088.134.194.008@
 088.134.194.005@
+088.134.194.010@
 088.134.194.006@
 088.134.223.000=0 DE,,,51,9
-088.134.201.113~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
-083.169.129.209~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
-083.169.129.201~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
-088.134.237.109~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
-083.169.129.213~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
+088.134.201.113~88-134-201-113-dynip.superkabel.de~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
+083.169.129.201~83-169-129-201.static.superkabel.de~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
+083.169.129.213~83-169-129-213.static.superkabel.de~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
+083.169.129.197~83-169-129-197.static.superkabel.de~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
 088.134.192.173~88-134-192-173-dynip.superkabel.de
-083.169.129.193~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
-088.134.192.171~88-134-192-171-dynip.superkabel.de
+083.169.129.193~83-169-129-193.static.superkabel.de~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
 088.134.192.174~88-134-192-174-dynip.superkabel.de
-083.169.128.113~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
+088.134.192.171~88-134-192-171-dynip.superkabel.de
+083.169.128.113~83-169-128-113.static.superkabel.de~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
+088.134.234.041~88-134-234-41-dynip.superkabel.de~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
+088.134.234.045~88-134-234-45-dynip.superkabel.de~DE,Sachsen,Leipzig,51.3,12.3333
 088.134.237.202~88-134-237-202-dynip.superkabel.de
-083.169.128.153~DE,Hamburg,Hamburg,53.55,10
-088.134.234.049~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
-088.134.192.201~DE,Schleswig-Holstein,Neumünster,54.0667,9.9833
-088.134.193.022~DE,Hamburg,Hamburg,53.55,10
-088.134.192.198~88-134-192-198-dynip.superkabel.de
-088.134.205.142~88-134-205-142-dynip.superkabel.de
+088.134.192.201~88-134-192-201-dynip.superkabel.de~DE,Schleswig-Holstein,Neumünster,54.0667,9.9833
 088.134.192.180~88-134-192-180-dynip.superkabel.de
+088.134.192.194~88-134-192-194-dynip.superkabel.de~DE,Schleswig-Holstein,Neumünster,54.0667,9.9833
 088.134.193.192~88-134-193-192-dynip.superkabel.de
-083.169.129.170~DE,Bayern,Nürnberg,49.4478,11.0683
-088.134.237.130~DE,Bayern,München,48.15,11.5833
-088.134.237.134~DE,Bayern,München,48.15,11.5833
-083.169.128.133~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
-083.169.128.049~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
-083.169.128.137~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
-088.134.194.010~DE,Bayern,München,48.15,11.5833
+088.134.237.134~88-134-237-134-dynip.superkabel.de~DE,Bayern,München,48.15,11.5833
+088.134.193.189~88-134-193-189-dynip.superkabel.de
+083.169.128.137~83-169-128-137.static.superkabel.de~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
+083.169.128.133~83-169-128-133.static.superkabel.de~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
+083.169.128.049~83-169-128-49.static.superkabel.de~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
+088.134.193.041~88-134-193-41-dynip.superkabel.de~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
+088.134.194.010~88-134-194-10-dynip.superkabel.de~DE,Bayern,München,48.15,11.5833
 088.134.194.003~88-134-194-3-dynip.superkabel.de
+088.134.237.138~88-134-237-138-dynip.superkabel.de~DE,Bayern,München,48.15,11.5833
 088.134.194.008~88-134-194-8-dynip.superkabel.de
 088.134.223.254=0+
 088.134.223.255=0*8
@@ -232,41 +225,42 @@
 088.134.231.255=0*8
 =======8
 088.134.232.000=0 DE,,,51,9
-088.134.237.109@
 088.134.201.125@
 088.134.233.000=0 DE,,,51,9
 088.134.234.000=0 DE,,,51,9
-088.134.205.142@
-083.169.128.153@
+088.134.193.022@
+088.134.193.035@
+088.134.234.041@
+083.169.128.137@
 088.134.235.000=0 DE,,,51,9
 088.134.236.000=0 DE,,,51,9
 088.134.237.000=0 DE,,,51,9
-088.134.203.033@
-088.134.237.117@
-088.134.205.150@
-083.169.128.133@
-088.134.238.000=0 DE,,,51,9
-088.134.205.150@
-088.134.203.041@
 083.169.128.153@
+088.134.237.117@
+083.169.128.137@
+088.134.193.035@
+088.134.238.000=0 DE,,,51,9
+088.134.193.035@
+088.134.203.029@
+083.169.128.133@
 088.134.234.102@
-088.134.203.045@
+088.134.203.025@
 088.134.239.000=0 DE,,,51,9
-083.169.128.030@
-088.134.202.113@
-083.169.129.086@
-088.134.238.117@
-088.134.203.037~DE,Hamburg,Hamburg,53.55,10
-088.134.234.049~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
-088.134.193.022~DE,Hamburg,Hamburg,53.55,10
-088.134.205.150~88-134-205-150-dynip.superkabel.de
-088.134.203.041~DE,Hamburg,Hamburg,53.55,10
-088.134.193.035~DE,Hamburg,Hamburg,53.55,10
-088.134.237.138~DE,Bayern,München,48.15,11.5833
-088.134.201.034~DE,Bayern,München,48.15,11.5833
-088.134.201.125~DE,Bayern,Nürnberg,49.4478,11.0683
-083.169.128.249~DE,Bayern,Nürnberg,49.4478,11.0683
-088.134.238.222~DE,Bayern,Nürnberg,49.4478,11.0683
+088.134.238.121@
+088.134.237.097@
+088.134.193.183@
+088.134.203.085~88-134-203-85-dynip.superkabel.de~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
+083.169.172.166~83-169-172-166-isp.superkabel.de~DE,Hamburg,Hamburg,53.55,10
+088.134.193.025~88-134-193-25-dynip.superkabel.de~DE,Hamburg,Hamburg,53.55,10
+088.134.193.033~88-134-193-33-dynip.superkabel.de~DE,Hamburg,Hamburg,53.55,10
+088.134.193.022~88-134-193-22-dynip.superkabel.de~DE,Hamburg,Hamburg,53.55,10
+088.134.193.035~88-134-193-35-dynip.superkabel.de~DE,Hamburg,Hamburg,53.55,10
+083.169.128.137~83-169-128-137.static.superkabel.de~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
+088.134.203.041~88-134-203-41-dynip.superkabel.de~DE,Hamburg,Hamburg,53.55,10
+088.134.238.222~88-134-238-222-dynip.superkabel.de~DE,Bayern,Nürnberg,49.4478,11.0683
+088.134.238.154~88-134-238-154-dynip.superkabel.de~DE,Bayern,Nürnberg,49.4478,11.0683
+083.169.129.217~83-169-129-217.static.superkabel.de~DE,Bayern,Nürnberg,49.4478,11.0683
+083.169.129.062~83-169-129-62.static.superkabel.de~DE,Bayern,München,48.15,11.5833
 088.134.239.254=0+
 088.134.239.255=0*8
 =======16
@@ -289,15 +283,15 @@
 088.134.251.000=0 DE,,,51,9
 088.134.252.000=0 DE,,,51,9
 083.169.128.033@
-083.169.128.153@
+083.169.128.137@
 088.134.253.000=0 DE,,,51,9
 088.134.254.000=0 DE,,,51,9
 088.134.255.000=0 DE,,,51,9
-083.169.128.033~DE,,,53,9
+083.169.128.033~83-169-128-33.static.superkabel.de~DE,,,53,9
 088.134.201.082~88-134-201-82-dynip.superkabel.de
-083.169.128.133~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
-083.169.128.137~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
-088.134.205.150~88-134-205-150-dynip.superkabel.de
+083.169.128.137~83-169-128-137.static.superkabel.de~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
+083.169.128.113~83-169-128-113.static.superkabel.de~DE,Rheinland-Pfalz,Kaiserslautern,49.45,7.75
+088.134.193.035~88-134-193-35-dynip.superkabel.de~DE,Hamburg,Hamburg,53.55,10
 088.134.255.254=0+
 088.134.255.255=0*8
 =======256

@@ -9,7 +9,7 @@
 		},
 		"checks" :
 		[
-			"www.telefonica.de"
+			"www.o2.de"
 		]
 	},
 	"uplping" :
@@ -22,7 +22,7 @@
 		},
 		"checks" :
 		[
-			"www.telefonica.de"
+			"www.o2.de"
 		]
 	},
 	"bblping" :
@@ -35,7 +35,7 @@
 		},
 		"checks" :
 		[
-			"www.telefonica.de"
+			"www.o2.de"
 		]
 	},
 	"mtrlogs" :
@@ -48,7 +48,7 @@
 		},
 		"checks" :
 		[
-			"www.telefonica.de"
+			"www.o2.de"
 		]
 	},
 	"netping" :
@@ -59,7 +59,7 @@
 		},
 		"checks" :
 		[
-			"www.telefonica.de"
+			"www.o2.de"
 		]
 	}
 }

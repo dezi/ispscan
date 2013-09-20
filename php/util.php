@@ -1,6 +1,10 @@
 <?php
 
 $GLOBALS[ "knownisp" ] = array();
+$GLOBALS[ "knownisp" ][ "1&1 Internet AG" 							  ] = "de/ee";
+$GLOBALS[ "knownisp" ][ "freenet Datenkommunikations GmbH" 			  ] = "de/ee";
+$GLOBALS[ "knownisp" ][ "Unitymedia NRW GmbH" 			  			  ] = "de/um";
+$GLOBALS[ "knownisp" ][ "Kabel BW GmbH" 			  				  ] = "de/kb";
 $GLOBALS[ "knownisp" ][ "Kabel Deutschland Vertrieb und Service GmbH" ] = "de/kd";
 $GLOBALS[ "knownisp" ][ "Deutsche Telekom AG" 						  ] = "de/tk";
 $GLOBALS[ "knownisp" ][ "Telekom Deutschland GmbH" 					  ] = "de/tk";

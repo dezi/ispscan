@@ -1,0 +1,378 @@
+{
+	"xxx" :
+	[
+		"xxxx",
+		"xxxx",
+		"xxxx",
+		"xxxx",
+		"xxxx",
+		"xxxx",
+		"xxxx"
+	],
+	
+	"DE,Nordrhein-Westfalen,Köln,50.9333,6.95" :
+	[
+		"xxxx",
+		"xxxx",
+		"xxxx",
+		"xxxx",
+		"xxxx",
+		"xxxx",
+		"DE,Nordrhein-Westfalen,Leverkusen"
+	],
+	
+	"DE,Nordrhein-Westfalen,Krefeld,51.3333,6.5667" :
+	[
+		"xxxx",
+		"xxxx",
+		"xxxx",
+		"xxxx",
+		"xxxx",
+		"DE,Nordrhein-Westfalen,Kevelaer",
+		"DE,Nordrhein-Westfalen,Geldern"
+	],
+	
+	"DE,Hessen,Wiesbaden,50.0833,8.25" :
+	[
+		"xxxx",
+		"xxxx",
+		"xxxx",
+		"DE,Hessen,Bad Camberg",
+		"DE,Hessen,Niedernhausen",
+		"DE,Hessen,Taunusstein",
+		"DE,Hessen,Idstein"
+	],
+	
+	"DE,Nordrhein-Westfalen,Bonn,50.7333,7.1" :
+	[
+		"xxxx",
+		"xxxx",
+		"DE,Nordrhein-Westfalen,Königswinter",
+		"DE,Nordrhein-Westfalen,Lohmar",
+		"DE,Nordrhein-Westfalen,Troisdorf",
+		"DE,Nordrhein-Westfalen,Hennef",
+		"DE,Nordrhein-Westfalen,Sankt Augustin"
+	],
+
+	"DE,Nordrhein-Westfalen,Mönchengladbach,51.2,6.4333" :
+	[
+		"xxxx",
+		"xxxx",
+		"xxxx",
+		"xxxx",
+		"xxxx",
+		"xxxx",
+		"DE,Nordrhein-Westfalen,Viersen"
+	],
+	
+	"DE,Hessen,Bensheim,49.6803,8.6161" :
+	[
+		"xxxx",
+		"xxxx",
+		"xxxx",
+		"DE,Hessen,Alsbach-Hähnlein",
+		"DE,Hessen,Zwingenberg",
+		"DE,Hessen,Heppenheim",
+		"DE,Hessen,Viernheim"
+	],
+	
+	"DE,Nordrhein-Westfalen,Aachen,50.7708,6.1053" :
+	[
+		"xxxx",
+		"xxxx",
+		"xxxx",
+		"xxxx",
+		"DE,Nordrhein-Westfalen,Eschweiler",
+		"DE,Nordrhein-Westfalen,Übach-Palenberg",
+		"DE,Nordrhein-Westfalen,Stolberg"
+	],
+	
+	"DE,Hessen,Darmstadt,49.8706,8.6494" :
+	[
+		"xxxx",
+		"xxxx",
+		"xxxx",
+		"xxxx",
+		"DE,Hessen,Langen",
+		"DE,Hessen,Rodgau",
+		"DE,Hessen,Griesheim"
+	],
+	
+	"DE,Hessen,Bad Wildungen,51.1167,9.1167" :
+	[
+		"xxxx",
+		"xxxx",
+		"xxxx",
+		"xxxx",
+		"xxxx",
+		"DE,Hessen,Frankenberg",
+		"DE,Hessen,Korbach"
+	],
+	
+	"DE,Hessen,Fulda,50.55,9.6667" :
+	[
+		"xxxx",
+		"xxxx",
+		"DE,Hessen,Alheim",
+		"DE,Hessen,Bad Hersfeld",
+		"DE,Hessen,Bebra",
+		"DE,Hessen,Rotenburg",
+		"DE,Hessen,Petersberg"
+	],
+
+	"DE,Nordrhein-Westfalen,Hagen,51.35,7.4667" :
+	[
+		"xxxx",
+		"xxxx",
+		"xxxx",
+		"xxxx",
+		"xxxx",
+		"xxxx",
+		"DE,Nordrhein-Westfalen,Gevelsberg"
+	],
+	
+	"DE,Nordrhein-Westfalen,Recklinghausen,51.6167,7.2" :
+	[
+		"xxxx",
+		"xxxx",
+		"xxxx",
+		"xxxx",
+		"xxxx",
+		"DE,Nordrhein-Westfalen,Haltern",
+		"DE,Nordrhein-Westfalen,Herten"
+	],
+	
+	"DE,Nordrhein-Westfalen,Münster,51.9667,7.6333" :
+	[
+		"xxxx",
+		"xxxx",
+		"DE,Nordrhein-Westfalen,Greven",
+		"DE,Nordrhein-Westfalen,Coesfeld",
+		"DE,Nordrhein-Westfalen,Ibbenbüren",
+		"DE,Nordrhein-Westfalen,Emsdetten",
+		"DE,Nordrhein-Westfalen,Rheine"
+	],
+
+	"DE,Hessen,Bad Homburg,50.2167,8.6167" :
+	[
+		"xxxx",
+		"xxxx",
+		"xxxx",
+		"xxxx",
+		"xxxx",
+		"DE,Hessen,Steinbach",
+		"DE,Hessen,Oberursel",
+		"DE,Hessen,Eschborn",
+		"DE,Hessen,Usingen",
+		"DE,Hessen,Bad Soden",
+		"DE,Hessen,Waldems",
+		"DE,Hessen,Liederbach",
+		"DE,Hessen,Friedrichsdorf",
+		"DE,Hessen,Wehrheim",
+		"DE,Hessen,Neu-Anspach"
+	],
+	
+	"DE,Hessen,Gießen,50.5833,8.65" :
+	[
+		"xxxx",
+		"xxxx",
+		"xxxx",
+		"xxxx",
+		"DE,Hessen,Dillenburg",
+		"DE,Hessen,Ehringshausen",
+		"DE,Hessen,Aßlar",
+		"DE,Hessen,Haiger",
+		"DE,Hessen,Herborn",
+		"DE,Hessen,Wetzlar",
+		"DE,Hessen,Marburg"
+	],
+	
+	"DE,Nordrhein-Westfalen,Duisburg,51.4333,6.75" :
+	[
+		"xxxx",
+		"DE,Nordrhein-Westfalen,Rheinberg",
+		"DE,Nordrhein-Westfalen,Borken",
+		"DE,Nordrhein-Westfalen,Hünxe",
+		"DE,Nordrhein-Westfalen,Wesel",
+		"DE,Nordrhein-Westfalen,Dinslaken",
+		"DE,Nordrhein-Westfalen,Bocholt",
+		"DE,Nordrhein-Westfalen,Oberhausen",
+		"DE,Nordrhein-Westfalen,Voerde",
+		"DE,Nordrhein-Westfalen,Mülheim",
+		"DE,Nordrhein-Westfalen,Mülheim An Der Ruhr",
+		"DE,Nordrhein-Westfalen,Kamp-Lintfort",
+		"DE,Nordrhein-Westfalen,Dorsten"
+	],
+	
+	"DE,Hessen,Hanau,50.1333,8.9167" :
+	[
+		"xxxx",
+		"xxxx",
+		"xxxx",
+		"DE,Hessen,Dietzenbach",
+		"DE,Hessen,Langenselbold",
+		"DE,Hessen,Rodenbach",
+		"DE,Hessen,Bruchköbel",
+		"DE,Hessen,Maintal",
+		"DE,Hessen,Seligenstadt",
+		"DE,Hessen,Rothenbergen",
+		"DE,Hessen,Erlensee"
+	],
+	
+	"DE,Nordrhein-Westfalen,Bottrop,51.5167,6.9167" :
+	[
+		"xxxx",
+		"xxxx",
+		"xxxx",
+		"xxxx",
+		"xxxx",
+		"DE,Nordrhein-Westfalen,Gladbeck",
+		"DE,Nordrhein-Westfalen,Werl"
+	],
+	
+	"DE,Hessen,Groß-Gerau,49.9239,8.4936" :
+	[
+		"xxxx",
+		"xxxx",
+		"xxxx",
+		"xxxx",
+		"xxxx",
+		"DE,Hessen,Kelkheim",
+		"DE,Hessen,Büttelborn"
+	],
+	
+	"DE,Nordrhein-Westfalen,Siegen,50.8667,8.0333" :
+	[
+		"xxxx",
+		"xxxx",
+		"DE,Nordrhein-Westfalen,Engelskirchen",
+		"DE,Nordrhein-Westfalen,Burbach",
+		"DE,Nordrhein-Westfalen,Wilnsdorf",
+		"DE,Nordrhein-Westfalen,Olpe",
+		"DE,Nordrhein-Westfalen,Attendorn",
+		"DE,Nordrhein-Westfalen,Plettenberg",
+		"DE,Nordrhein-Westfalen,Lennestadt"
+	],
+	
+	"DE,Nordrhein-Westfalen,Mannheim,51.0833,6.8833" :
+	[
+		"xxxx",
+		"xxxx",
+		"xxxx",
+		"DE,Nordrhein-Westfalen,Langenfeld",
+		"DE,Nordrhein-Westfalen,Wülfrath",
+		"DE,Nordrhein-Westfalen,Datteln",
+		"DE,Nordrhein-Westfalen,Velbert"
+	],
+	
+	"DE,Nordrhein-Westfalen,Dortmund,51.5167,7.45" :
+	[
+		"xxxx",
+		"DE,Nordrhein-Westfalen,Hemer",
+		"DE,Nordrhein-Westfalen,Moers",
+		"DE,Nordrhein-Westfalen,Iserlohn",
+		"DE,Nordrhein-Westfalen,Hamm"
+	],
+	
+	"DE,Nordrhein-Westfalen,Kerpen,50.8667,6.7" :
+	[
+		"xxxx",
+		"xxxx",
+		"DE,Nordrhein-Westfalen,Jülich",
+		"DE,Nordrhein-Westfalen,Düren",
+		"DE,Nordrhein-Westfalen,Kleve",
+		"DE,Nordrhein-Westfalen,Euskirchen",
+		"DE,Nordrhein-Westfalen,Meckenheim",
+		"DE,Nordrhein-Westfalen,Pulheim",
+		"DE,Nordrhein-Westfalen,Bergheim"
+	],
+	
+	"DE,Nordrhein-Westfalen,Neuss,51.2,6.6833" :
+	[
+		"xxxx",
+		"xxxx",
+		"xxxx",
+		"xxxx",
+		"xxxx",
+		"DE,Nordrhein-Westfalen,Meerbusch",
+		"DE,Nordrhein-Westfalen,Dormagen"
+	],
+	
+	"DE,Nordrhein-Westfalen,Bielefeld,52.0333,8.5333" :
+	[
+		"xxxx",
+		"xxxx",
+		"xxxx",
+		"xxxx",
+		"DE,Nordrhein-Westfalen,Lübbecke",
+		"DE,Nordrhein-Westfalen,Höxter",
+		"DE,Nordrhein-Westfalen,Bad Salzuflen",
+		"DE,Nordrhein-Westfalen,Lemgo",
+		"DE,Nordrhein-Westfalen,Herford",
+		"DE,Nordrhein-Westfalen,Bad Oeynhausen",
+		"DE,Nordrhein-Westfalen,Löhne",
+		"DE,Nordrhein-Westfalen,Bünde",
+		"DE,Nordrhein-Westfalen,Paderborn",
+		"DE,Nordrhein-Westfalen,Ahlen"
+	],
+		
+	"DE,Hessen,Kassel,51.3167,9.5" :
+	[
+		"xxxx",
+		"DE,Hessen,Grebenstein"
+	],
+	
+	"DE,Nordrhein-Westfalen,Soest,51.5602,8.0885" :
+	[
+		"xxxx",
+		"xxxx",
+		"xxxx",
+		"DE,Nordrhein-Westfalen,Marsberg",
+		"DE,Nordrhein-Westfalen,Olsberg",
+		"DE,Nordrhein-Westfalen,Brilon",
+		"DE,Nordrhein-Westfalen,Bad Berleburg",
+		"DE,Nordrhein-Westfalen,Bad Laasphe",
+		"DE,Nordrhein-Westfalen,Winterberg",
+		"DE,Nordrhein-Westfalen,Waltrop",
+		"DE,Nordrhein-Westfalen,Sundern",
+		"DE,Nordrhein-Westfalen,Warstein",
+		"DE,Nordrhein-Westfalen,Arnsberg",
+		"DE,Nordrhein-Westfalen,Meschede",
+		"DE,Nordrhein-Westfalen,Menden",
+		"DE,Nordrhein-Westfalen,Bad Sassendorf",
+		"DE,Nordrhein-Westfalen,Lippstadt"
+	],
+
+	"DE,Hessen,Frankfurt Am Main,50.1167,8.6833" :
+	[
+		"xxxx",
+		"DE,Hessen,Heusenstamm",
+		"DE,Hessen,Eppstein",
+		"DE,Hessen,Rüsselsheim",
+		"DE,Hessen,Karben",
+		"DE,Hessen,Bad Vilbel",
+		"DE,Hessen,Kriftel",
+		"DE,Hessen,Hofheim",
+		"DE,Hessen,Hattersheim"
+	]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
