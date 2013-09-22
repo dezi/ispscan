@@ -395,6 +395,7 @@ function ComputeEvents($isp,$what)
 	closedir($dfd);
 }
 
+	WriteEvent   ("de/kb");
 	WriteEvent   ("de/um");
 	WriteEvent   ("de/kd");
 	WriteEvent   ("de/tk");

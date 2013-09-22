@@ -15,6 +15,25 @@
 	
 	$tobuilds = Array();
 	
+	if ($isp == "de/kb")
+	{
+	    array_push($tobuilds,"005.056.192.000-005.056.255.255");
+	    array_push($tobuilds,"005.158.128.000-005.158.191.255");
+	    array_push($tobuilds,"037.049.000.000-037.049.127.255");
+	    array_push($tobuilds,"037.209.000.000-037.209.127.255");
+	    array_push($tobuilds,"046.005.000.000-046.005.255.255");
+	    array_push($tobuilds,"046.223.000.000-046.223.255.255");
+	    array_push($tobuilds,"046.237.192.000-046.237.255.255");
+	    array_push($tobuilds,"078.042.000.000-078.043.255.255");
+	    array_push($tobuilds,"082.212.000.000-082.212.063.255");
+	    array_push($tobuilds,"085.216.000.000-085.216.127.255");
+	    array_push($tobuilds,"091.089.000.000-091.089.255.255");
+	    array_push($tobuilds,"095.208.000.000-095.208.255.255");
+	    array_push($tobuilds,"109.192.000.000-109.193.255.255");
+	    array_push($tobuilds,"134.003.000.000-134.003.255.255");
+	    array_push($tobuilds,"149.172.000.000-149.172.255.255");
+	}
+	
 	if ($isp == "de/um")
 	{
 	    array_push($tobuilds,"005.146.000.000-005.147.255.255");
@@ -297,7 +316,7 @@ function BuildBackbones($isp,&$endpoint,&$uplinks,&$allbones,$stage)
 			if (! isset($endpoints[ $noip ]))
 			{
 				echo "UNRESOLVED: $noip\n";
-				exit();
+				continue;
 			}
 			
 			$netfrom = IP_Bin($endpoints[ $noip ][ "ip" ]);
@@ -371,7 +390,7 @@ function BuildBackbones($isp,&$endpoint,&$uplinks,&$allbones,$stage)
 
 			if ($lasthop == "000.000.000.000") continue;
 			if ((substr($lasthop,0,8) != "001.000.") && (ResolveISP($lasthop) != $isp)) continue;		
-
+			
 			if ($stage == 0)
 			{
 				if (! isset($uplinks[ $lasthop ])) 
@@ -681,13 +700,16 @@ function BuildBackbones($isp,&$endpoint,&$uplinks,&$allbones,$stage)
 	$bonusnailed[ "xxxxx"  				] =  "xxxxxxxxx";
 	$bonusnailed[ "xxxxx"  				] =  "xxxxxxxxx";
 	$bonusnailed[ "xxxxx"  				] =  "xxxxxxxxx";
-	$bonusnailed[ "xxxxx"  				] =  "xxxxxxxxx";
-	$bonusnailed[ "xxxxx"  				] =  "xxxxxxxxx";
+	$bonusnailed[ "Ludwigsburg"  		] =  "DE,Baden-Württemberg,Ludwigsburg,48.9,9.1833";
+	$bonusnailed[ "Mannheim"  			] =  "DE,Baden-Württemberg,Mannheim,49.4883,8.4647";
+	$bonusnailed[ "Freiburg"  			] =  "DE,Baden-Württemberg,Freiburg,48,7.85";
+	$bonusnailed[ "Karlsruhe"  			] =  "DE,Baden-Württemberg,Karlsruhe,49.0047,8.3858";
+	$bonusnailed[ "Ravensburg"  		] =  "DE,Baden-Württemberg,Ravensburg,47.7833,9.6167";
 	$bonusnailed[ "Aachen"  			] =  "DE,Nordrhein-Westfalen,Aachen,50.7708,6.1053";
 	$bonusnailed[ "Herne"  				] =  "DE,Nordrhein-Westfalen,Herne,51.55,7.2167";
 	$bonusnailed[ "Bochum"  			] =  "DE,Nordrhein-Westfalen,Bochum,51.4833,7.2167";
 	$bonusnailed[ "Lünen"  				] =  "DE,Nordrhein-Westfalen,Lünen,51.6189,7.5222";
-	$bonusnailed[ "Mannheim"  			] =  "DE,Nordrhein-Westfalen,Mannheim,51.0833,6.8833";
+	$bonusnailed[ "Monheim"  			] =  "DE,Nordrhein-Westfalen,Monheim,51.0833,6.8833";
 	$bonusnailed[ "Wuppertal"  			] =  "DE,Nordrhein-Westfalen,Wuppertal,51.2667,7.1833";
 	$bonusnailed[ "Ratingen"  			] =  "DE,Nordrhein-Westfalen,Ratingen,51.3,6.85";
 	$bonusnailed[ "Neuss"  				] =  "DE,Nordrhein-Westfalen,Neuss,51.2,6.6833";
@@ -1161,7 +1183,7 @@ function BuildBackbones($isp,&$endpoint,&$uplinks,&$allbones,$stage)
 							$subnet[ "pc" ] += $subnet[ "segs" ][ $sinx ][ "pc" ];							
 						}
 						
-						if (($isp == "de/vf") || ($isp == "de/um"))
+						if (($isp == "de/vf") || ($isp == "de/um") || ($isp == "de/kb"))
 						{
 							$subnet[ "gw" ] = IPZero(IP_Bin($subnet[ "ip" ]) + 1);
 						}
@@ -1617,9 +1639,6 @@ function BuildBackbones($isp,&$endpoint,&$uplinks,&$allbones,$stage)
 		{
 			$temp = $gateways[ $upip ][ "upls" ];
 			unset($gateways[ $upip ][ "upls" ]);
-			
-			//if ($isp == "de/vf") continue;
-
 			$gateways[ $upip ][ "upls" ] = $temp;
 		}
 	}

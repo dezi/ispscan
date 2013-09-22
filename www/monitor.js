@@ -4,6 +4,41 @@ kappa.ISPList =
 {
 	"de" :
 	{
+		"kb" : 
+		{
+			name : "Kabel Baden Württemberg",
+			nets :
+			[
+	    		'005.056.192.000-005.056.255.255',
+	    		'005.158.128.000-005.158.191.255',
+	    		'037.049.000.000-037.049.127.255',
+	    		'037.209.000.000-037.209.127.255',
+	    		'046.005.000.000-046.005.255.255',
+	    		'046.223.000.000-046.223.255.255',
+	    		'046.237.192.000-046.237.255.255',
+	    		'078.042.000.000-078.043.255.255',
+	    		'082.212.000.000-082.212.063.255',
+	    		'085.216.000.000-085.216.127.255',
+	    		'091.089.000.000-091.089.255.255',
+	    		'095.208.000.000-095.208.255.255',
+	    		'109.192.000.000-109.193.255.255',
+	    		'134.003.000.000-134.003.255.255',
+	    		'149.172.000.000-149.172.255.255'
+			],
+			bbnoshowip :
+			{
+			},
+			bbnoshow :
+			{
+			},
+			zoomstages :
+			[
+				-1,-1,-1,-1,-1,-1,-1,
+				0,0,0,
+				0,0,0,0,0,0,0,0,0,0
+			]			
+		},
+
 		"um" : 
 		{
 			name : "Unitymedia",
@@ -511,7 +546,7 @@ kappa.InitializeMenu = function()
 	{
 		var ce = document.createElement('span');
 		ce.style.display	 	 = 'inline-block'
-		ce.style.width  	 	 = '52px';
+		ce.style.width  	 	 = '41px';
 		ce.style.height		 	 = '15px';
 		ce.style.textAlign   	 = 'center';
 		ce.style.borderRight 	 = '1px solid grey';
@@ -530,7 +565,7 @@ kappa.InitializeMenu = function()
 	{
 		var pe = document.createElement('span');
 		pe.style.display	 	 = 'inline-block'
-		pe.style.width  	 	 = '52px';
+		pe.style.width  	 	 = '41px';
 		pe.style.height 	 	 = '15px';
 		pe.style.textAlign   	 = 'center';
 		pe.style.borderRight 	 = '1px solid grey';
@@ -549,7 +584,7 @@ kappa.InitializeMenu = function()
 	{
 		var ep = document.createElement('span');
 		ep.style.display	 	 = 'inline-block'
-		ep.style.width  	 	 = '52px';
+		ep.style.width  	 	 = '41px';
 		ep.style.height 	 	 = '15px';
 		ep.style.textAlign   	 = 'center';
 		ep.style.borderRight 	 = '1px solid grey';
@@ -2092,6 +2127,12 @@ kappa.EndpointsDraw = function()
 			
 				seglat = kappa.Round(((seglat * (weight - 1)) + fixlat) / weight);
 				seglon = kappa.Round(((seglon * (weight - 1)) + fixlon) / weight);
+			}
+			
+			if ((Math.abs(seglat - fixlat) < 0.401) && 
+				(Math.abs(seglon - fixlon) < 0.401))
+			{
+				//continue;
 			}
 						
 			var ishome = kappa.HomeDraw(snet,seg,seglat,seglon);

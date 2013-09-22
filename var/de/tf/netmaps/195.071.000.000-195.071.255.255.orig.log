@@ -4,13 +4,14 @@
 195.071.225.082@
 195.071.001.000=0 DE,,,51,9
 195.071.040.222@
-195.071.010.203@
 195.071.010.195@
+195.071.010.203@
 195.071.002.000=0 DE,,,51,9
 195.071.097.069@
-195.071.096.213@
-062.053.002.191@
+062.053.002.197@
+195.071.224.037@
 195.071.225.007@
+195.071.086.042@
 195.071.003.000=0 DE,,,51,9
 195.071.004.000=0 DE,,,51,9
 195.071.005.000=0 DE,,,51,9
@@ -19,62 +20,58 @@
 195.071.132.003~195.71.132.3
 195.071.132.004~195.71.132.4
 062.053.002.195~rmws-blfd-de01-ge-2-0-0-0.nw.mediaways.net
-062.053.002.167~rmws-blfd-de02-ge-2-0-0-0.nw.mediaways.net
 195.071.086.043~rmws-blfd-de05-ge-0-3-0-0.nw.mediaways.net
 062.053.001.249~rmwc-gtso-de01-ge-4-2-0-0.nw.mediaways.net
-062.053.001.245~rmwc-gtso-de01-ge-1-3-0-0.nw.mediaways.net
 062.053.001.247~rmwc-gtso-de01-ge-0-0-0-0.nw.mediaways.net
+062.053.001.219~rmwc-gtso-de02-ge-4-2-0-0.nw.mediaways.net
 062.053.002.189~rmws-pdbn-de01-so-2-1-0-0.nw.mediaways.net
-062.053.001.217~rmwc-gtso-de02-ge-1-3-0-0.nw.mediaways.net
 195.071.007.255=0*8
 =======8
 195.071.008.000=0 DE,,,51,9
 195.071.225.007@
 195.071.097.069@
 195.071.009.000=0 DE,,,51,9
-195.071.097.069@
+195.071.225.007@
 195.071.009.018@
+062.053.001.217@
 062.053.001.215@
-062.053.001.219@
 195.071.010.000=0 DE,,,51,9
 217.188.059.246@
 195.071.011.000=0 DE,,,51,9
 195.071.010.203@
+062.053.001.219@
 195.071.010.195@
 195.071.012.000=0 DE,,,51,9
-195.071.097.069@
 195.071.225.007@
-195.071.010.195@
+062.053.001.217@
+195.071.010.203@
 195.071.013.000=0 DE,,,51,9
-062.053.001.219@
+062.053.001.247@
 062.053.002.175@
 195.071.086.059@
 195.071.014.000=0 DE,,,51,9
 195.071.015.000=0 DE,,,51,9
-062.053.001.104@
-195.071.010.195@
-062.053.002.175@
-062.053.002.197@
-062.053.002.157@
-062.053.001.245~rmwc-gtso-de01-ge-1-3-0-0.nw.mediaways.net
-062.053.001.249~rmwc-gtso-de01-ge-4-2-0-0.nw.mediaways.net
-062.053.001.247~rmwc-gtso-de01-ge-0-0-0-0.nw.mediaways.net
+062.053.001.219@
+062.053.002.193@
+062.053.001.245@
+195.071.010.203@
 062.053.001.217~rmwc-gtso-de02-ge-1-3-0-0.nw.mediaways.net
+062.053.001.219~rmwc-gtso-de02-ge-4-2-0-0.nw.mediaways.net
+062.053.001.215~rmwc-gtso-de02-ge-0-0-0-0.nw.mediaways.net
 195.071.097.069~xmwc-gtso-de02-vlan-3.nw.mediaways.net
 062.053.001.098~rmwc-dsdf-de02-pchan-0-0.nw.mediaways.net
 195.071.010.203~xmws-gtso-de12-vlan-3.nw.mediaways.net~DE,Nordrhein-Westfalen,Gütersloh,51.9,8.3833
 195.071.010.195~xmws-gtso-de11-vlan-2.nw.mediaways.net~DE,Nordrhein-Westfalen,Gütersloh,51.9,8.3833
-062.053.001.215~rmwc-gtso-de02-ge-0-0-0-0.nw.mediaways.net
-062.053.001.219~rmwc-gtso-de02-ge-4-2-0-0.nw.mediaways.net
-062.053.002.156~rmwc-gtso-de01-ge-0-1-0-0.nw.mediaways.net
-062.053.002.195~rmws-blfd-de01-ge-2-0-0-0.nw.mediaways.net
-062.053.001.108~rmwc-brln-de02-chan-2-0.nw.mediaways.net~DE,Berlin,Berlin,52.5167,13.4
-062.053.002.157~rmwc-gtso-de02-ge-0-1-0-0.nw.mediaways.net
+062.053.001.102~rmwc-frnk-de01-xe-2-0-2-0.nw.mediaways.net
+062.053.001.245~rmwc-gtso-de01-ge-1-3-0-0.nw.mediaways.net
+062.053.001.247~rmwc-gtso-de01-ge-0-0-0-0.nw.mediaways.net
+062.053.002.167~rmws-blfd-de02-ge-2-0-0-0.nw.mediaways.net
+062.053.001.100~rmwc-frnk-de01-xe-2-0-0-0.nw.mediaways.net
 195.071.015.255=0*8
 =======16
 195.071.016.000=0 DE,Bayern,Ingolstadt,48.7667,11.4333
-062.053.251.045@
 062.053.251.041@
+062.053.251.045@
 195.071.017.000=0 DE,Bayern,Ingolstadt,48.776,11.4459
 062.053.251.045@
 062.053.251.041@
@@ -85,8 +82,8 @@
 062.053.251.045@
 062.053.251.041@
 195.071.020.000=0 DE,Bayern,Ingolstadt,48.7667,11.4333
-062.053.251.041@
 062.053.251.045@
+062.053.251.041@
 195.071.021.000=0 DE,Bayern,Ingolstadt,48.7667,11.4333
 062.053.251.045@
 062.053.251.041@
@@ -96,8 +93,8 @@
 195.071.023.000=0 DE,Bayern,Ingolstadt,48.776,11.4459
 062.053.251.041@
 062.053.251.045@
-062.053.251.045~rdsl-ings-de01-chan-2.nw.mediaways.net
 062.053.251.041~rdsl-ings-de01-chan-1.nw.mediaways.net
+062.053.251.045~rdsl-ings-de01-chan-2.nw.mediaways.net
 195.071.023.255=0*8
 =======8
 195.071.024.000=0 DE,,,51,9
@@ -105,28 +102,30 @@
 195.071.026.000=0 DE,,,51,9
 195.071.027.000=0 DE,,,51,9
 062.053.250.170@
+062.053.001.253@
+062.053.001.104@
 062.053.001.251@
-062.053.001.100@
 062.053.250.166@
 195.071.028.000=0 DE,,,51,9
 195.071.029.000=0 DE,,,51,9
-062.053.001.253@
 062.053.001.251@
+062.053.001.253@
 195.071.030.000=0 DE,,,51,9
 195.071.179.131@
 195.071.027.067@
-062.053.001.251@
+062.053.001.253@
 195.071.031.000=0 DE,,,51,9
 062.053.001.253@
 062.053.001.251@
 062.053.250.170~xmws-nrbg-de10-chan-16.nw.mediaways.net
 062.053.001.104~rmwc-frnk-de01-xe-7-0-3-0.nw.mediaways.net
 062.052.050.161~rmwc-frnk-de02-chan-2-0.nw.mediaways.net
-062.053.001.114~rmwc-frnk-de01-xe-2-0-4-0.nw.mediaways.net
-062.053.250.166~xmws-nrbg-de10-chan-17.nw.mediaways.net
 062.053.001.102~rmwc-frnk-de01-xe-2-0-2-0.nw.mediaways.net
+062.053.250.166~xmws-nrbg-de10-chan-17.nw.mediaways.net
 062.053.001.100~rmwc-frnk-de01-xe-2-0-0-0.nw.mediaways.net
 062.053.001.106~rmwc-frnk-de01-xe-7-1-0-0.nw.mediaways.net
+062.053.001.114~rmwc-frnk-de01-xe-2-0-4-0.nw.mediaways.net
+062.053.001.251~rmwc-nrbg-de03-gigaet-2-0-0.nw.mediaways.net
 062.053.001.253~rmwc-nrbg-de03-gigaet-3-0-0.nw.mediaways.net
 195.071.031.255=0*8
 =======32
@@ -134,72 +133,74 @@
 195.071.033.000=0 DE,,,51,9
 195.071.034.000=0 DE,,,51,9
 195.071.035.000=0 DE,,,51,9
-195.071.037.190@
+062.053.001.237@
 195.071.037.173@
 195.071.036.000=0 DE,,,51,9
 195.071.037.000=0 DE,,,51,9
 062.053.001.239@
-062.053.002.045@
 195.071.038.000=0 DE,,,51,9
-062.052.012.100@
+062.052.012.228@
 195.071.037.254@
+062.052.012.100@
 195.071.039.000=0 DE,,,51,9
 062.053.001.239@
 062.053.002.045@
-062.052.012.097@
+062.052.012.226@
+062.053.001.161@
 062.052.012.228@
-062.052.012.100@
-062.053.001.239~rmws-trir-de04-pos-2-0.nw.mediaways.net
 062.053.002.045~rmwc-srbk-de02-gigaet-2-0-0.nw.mediaways.net
-062.052.050.161~rmwc-frnk-de02-chan-2-0.nw.mediaways.net
-062.052.012.100~rmws-srbk-de01-gigaet-0-1.nw.mediaways.net
+062.053.001.239~rmws-trir-de04-pos-2-0.nw.mediaways.net
 062.052.012.228~rmws-srbk-de01-gigaet-0-2.nw.mediaways.net
+062.052.012.100~rmws-srbk-de01-gigaet-0-1.nw.mediaways.net
 062.053.001.108~rmwc-brln-de02-chan-2-0.nw.mediaways.net~DE,Berlin,Berlin,52.5167,13.4
+062.052.012.097~rmwc-srbk-de01-gigaet-0-0-0.nw.mediaways.net
 195.071.039.255=0*8
 =======8
 195.071.040.000=0 DE,,,51,9
-062.053.001.249@
+062.053.001.217@
 062.053.001.245@
-062.053.001.215@
-062.053.001.219@
-195.071.010.195@
+195.071.010.203@
 195.071.041.000=0 DE,,,51,9
 195.071.042.000=0 DE,,,51,9
-062.053.002.193@
+062.053.002.157@
 195.071.042.003@
-062.053.002.156@
-062.053.002.165@
+062.053.002.171@
+062.053.002.163@
 217.188.059.036@
 195.071.043.000=0 DE,,,51,9
-195.071.010.195@
 062.053.001.247@
-062.053.001.249@
 195.071.010.203@
+062.053.001.215@
+195.071.097.069@
 195.071.044.000=0 DE,,,51,9
 195.071.236.222@
 062.052.050.161@
+062.052.049.171@
 195.071.045.000=0 DE,,,51,9
 062.053.237.234@
-062.052.050.161@
 062.053.237.238@
+062.052.050.161@
 195.071.046.000=0 DE,,,51,9
 062.053.001.092@
 062.053.001.114@
 195.071.212.142@
 195.071.047.000=0 DE,,,51,9
 062.053.002.047@
-062.052.050.161@
+062.053.001.108@
 062.053.001.098~rmwc-dsdf-de02-pchan-0-0.nw.mediaways.net
-062.053.001.102~rmwc-frnk-de01-xe-2-0-2-0.nw.mediaways.net
-062.053.001.217~rmwc-gtso-de02-ge-1-3-0-0.nw.mediaways.net
-195.071.042.003~tmgw-osbk-de81-gigaet-0-0.voip.telefonica.de
-062.053.001.249~rmwc-gtso-de01-ge-4-2-0-0.nw.mediaways.net
-062.053.002.183~rmws-gtng-de01-ge-2-1-0-0.nw.mediaways.net
 062.053.001.245~rmwc-gtso-de01-ge-1-3-0-0.nw.mediaways.net
+062.053.001.219~rmwc-gtso-de02-ge-4-2-0-0.nw.mediaways.net
+195.071.042.003~tmgw-osbk-de81-gigaet-0-0.voip.telefonica.de
+062.053.002.171~xmws-osbk-de03-xe-0-2-0-0.nw.mediaways.net
+062.053.001.217~rmwc-gtso-de02-ge-1-3-0-0.nw.mediaways.net
+062.053.002.179~rmws-gtng-de01-ge-2-1-2.nw.mediaways.net
+062.053.001.114~rmwc-frnk-de01-xe-2-0-4-0.nw.mediaways.net
+062.053.001.215~rmwc-gtso-de02-ge-0-0-0-0.nw.mediaways.net
 062.052.050.161~rmwc-frnk-de02-chan-2-0.nw.mediaways.net
 080.081.193.089~xmws-frnk-de16.nw.telefonica.de
 062.053.001.108~rmwc-brln-de02-chan-2-0.nw.mediaways.net~DE,Berlin,Berlin,52.5167,13.4
-062.053.001.100~rmwc-frnk-de01-xe-2-0-0-0.nw.mediaways.net
+062.053.001.102~rmwc-frnk-de01-xe-2-0-2-0.nw.mediaways.net
+062.053.001.111~rmwc-brln-de02-xe-0-1-0-0.nw.mediaways.net~DE,Berlin,Berlin,52.5167,13.4
 195.071.047.255=0*8
 =======16
 195.071.048.000=0 DE,,,51,9
@@ -225,26 +226,27 @@
 195.071.064.000=0 DE,,,51,9
 195.071.225.007@
 195.071.097.069@
+062.053.002.171@
 062.053.002.193@
 195.071.096.213@
-195.071.224.037@
 195.071.065.000=0 DE,,,51,9
 195.071.122.046@
 195.071.066.000=0 DE,,,51,9
 195.071.067.000=0 DE,,,51,9
 062.053.001.249@
 195.071.068.000=0 DE,Nordrhein-Westfalen,Bielefeld,52.0333,8.5333
+195.071.226.026@
 195.071.226.030@
 195.071.069.000=0 DE,,,51,9
 195.071.070.000=0 DE,,,51,9
 195.071.071.000=0 DE,,,51,9
 062.053.001.245~rmwc-gtso-de01-ge-1-3-0-0.nw.mediaways.net
-062.053.001.219~rmwc-gtso-de02-ge-4-2-0-0.nw.mediaways.net
+062.053.001.247~rmwc-gtso-de01-ge-0-0-0-0.nw.mediaways.net
+062.053.002.193~xmws-osbk-de04-xe-0-2-0-0.nw.mediaways.net
 062.053.002.173~rmws-pdbn-de02-ge-2-0-0-0.nw.mediaways.net
-062.053.002.189~rmws-pdbn-de01-so-2-1-0-0.nw.mediaways.net
 195.071.226.026~xmws-gtso-de01-chan-101.nw.mediaways.net
 195.071.226.030~xmws-gtso-de02-chan-102.nw.mediaways.net~DE,Nordrhein-Westfalen,Gütersloh,51.9,8.3833
-062.053.001.098~rmwc-dsdf-de02-pchan-0-0.nw.mediaways.net
+062.053.001.100~rmwc-frnk-de01-xe-2-0-0-0.nw.mediaways.net
 195.071.010.203~xmws-gtso-de12-vlan-3.nw.mediaways.net~DE,Nordrhein-Westfalen,Gütersloh,51.9,8.3833
 195.071.010.195~xmws-gtso-de11-vlan-2.nw.mediaways.net~DE,Nordrhein-Westfalen,Gütersloh,51.9,8.3833
 195.071.071.255=0*8
@@ -265,11 +267,11 @@
 195.071.078.000=0 DE,,,51,9
 195.071.079.000=0 DE,,,51,9
 195.071.224.018~rdnw-gtng-de01-gigaet-0-1-101.nw.mediaways.net
-195.071.010.195~xmws-gtso-de11-vlan-2.nw.mediaways.net~DE,Nordrhein-Westfalen,Gütersloh,51.9,8.3833
-195.071.226.026~xmws-gtso-de01-chan-101.nw.mediaways.net
+195.071.010.203~xmws-gtso-de12-vlan-3.nw.mediaways.net~DE,Nordrhein-Westfalen,Gütersloh,51.9,8.3833
 195.071.226.030~xmws-gtso-de02-chan-102.nw.mediaways.net~DE,Nordrhein-Westfalen,Gütersloh,51.9,8.3833
 195.071.097.069~xmwc-gtso-de02-vlan-3.nw.mediaways.net
 195.071.225.052~rmws-gtso-de30-fastet-0-0.nw.mediaways.net
+195.071.225.007~xmwc-gtso-de01-vlan-2.nw.mediaways.net
 195.071.079.255=0*8
 =======16
 195.071.080.000=0 DE,,,51,9
@@ -281,28 +283,26 @@
 195.071.226.026@
 195.071.085.000=0 DE,,,51,9
 195.071.086.000=0 DE,,,51,9
-062.053.001.219@
 062.053.002.167@
-062.053.002.195@
+062.053.001.245@
 195.071.087.000=0 DE,,,51,9
 195.071.225.007@
-062.053.001.219@
+062.053.001.249@
 195.071.097.069@
-062.053.001.215@
-062.053.002.156@
-195.071.010.195~xmws-gtso-de11-vlan-2.nw.mediaways.net~DE,Nordrhein-Westfalen,Gütersloh,51.9,8.3833
+062.053.001.245@
+062.053.002.175@
 195.071.010.203~xmws-gtso-de12-vlan-3.nw.mediaways.net~DE,Nordrhein-Westfalen,Gütersloh,51.9,8.3833
-062.053.001.098~rmwc-dsdf-de02-pchan-0-0.nw.mediaways.net
+195.071.010.195~xmws-gtso-de11-vlan-2.nw.mediaways.net~DE,Nordrhein-Westfalen,Gütersloh,51.9,8.3833
 062.053.001.247~rmwc-gtso-de01-ge-0-0-0-0.nw.mediaways.net
-062.053.001.217~rmwc-gtso-de02-ge-1-3-0-0.nw.mediaways.net
-062.053.001.215~rmwc-gtso-de02-ge-0-0-0-0.nw.mediaways.net
-062.053.001.245~rmwc-gtso-de01-ge-1-3-0-0.nw.mediaways.net
 062.053.001.102~rmwc-frnk-de01-xe-2-0-2-0.nw.mediaways.net
+062.053.001.249~rmwc-gtso-de01-ge-4-2-0-0.nw.mediaways.net
+062.053.001.245~rmwc-gtso-de01-ge-1-3-0-0.nw.mediaways.net
+062.053.001.100~rmwc-frnk-de01-xe-2-0-0-0.nw.mediaways.net
 195.071.087.255=0*8
 =======8
 195.071.088.000=0 DE,,,51,9
-195.071.010.203@
 195.071.010.195@
+195.071.010.203@
 195.071.089.000=0 DE,,,51,9
 195.071.225.036@
 195.071.090.000=0 DE,Nordrhein-Westfalen,Gütersloh,51.9,8.3833
@@ -312,31 +312,26 @@
 195.071.010.195@
 195.071.010.203@
 195.071.092.000=0 DE,,,51,9
-062.053.001.215@
-062.053.001.217@
+195.071.010.195@
 195.071.010.203@
 195.071.093.000=0 DE,,,51,9
+062.053.002.169@
 195.071.009.054@
-195.071.009.050@
+062.053.002.191@
 195.071.226.026@
-195.071.010.195@
 195.071.094.000=0 DE,,,51,9
 195.071.095.000=0 DE,,,51,9
-195.071.093.214@
-062.053.001.219~rmwc-gtso-de02-ge-4-2-0-0.nw.mediaways.net
-062.053.001.247~rmwc-gtso-de01-ge-0-0-0-0.nw.mediaways.net
-062.053.001.217~rmwc-gtso-de02-ge-1-3-0-0.nw.mediaways.net
-195.071.225.007~xmwc-gtso-de01-vlan-2.nw.mediaways.net
-195.071.097.069~xmwc-gtso-de02-vlan-3.nw.mediaways.net
-195.071.010.203~xmws-gtso-de12-vlan-3.nw.mediaways.net~DE,Nordrhein-Westfalen,Gütersloh,51.9,8.3833
-195.071.109.220~195.71.109.220
-195.071.010.195~xmws-gtso-de11-vlan-2.nw.mediaways.net~DE,Nordrhein-Westfalen,Gütersloh,51.9,8.3833
-062.053.001.215~rmwc-gtso-de02-ge-0-0-0-0.nw.mediaways.net
 062.053.001.245~rmwc-gtso-de01-ge-1-3-0-0.nw.mediaways.net
-062.053.001.102~rmwc-frnk-de01-xe-2-0-2-0.nw.mediaways.net
-062.053.001.098~rmwc-dsdf-de02-pchan-0-0.nw.mediaways.net
+062.053.001.215~rmwc-gtso-de02-ge-0-0-0-0.nw.mediaways.net
+062.053.001.219~rmwc-gtso-de02-ge-4-2-0-0.nw.mediaways.net
+195.071.097.069~xmwc-gtso-de02-vlan-3.nw.mediaways.net
+195.071.225.007~xmwc-gtso-de01-vlan-2.nw.mediaways.net
+195.071.010.203~xmws-gtso-de12-vlan-3.nw.mediaways.net~DE,Nordrhein-Westfalen,Gütersloh,51.9,8.3833
+195.071.010.195~xmws-gtso-de11-vlan-2.nw.mediaways.net~DE,Nordrhein-Westfalen,Gütersloh,51.9,8.3833
+195.071.109.220~195.71.109.220
+062.053.001.249~rmwc-gtso-de01-ge-4-2-0-0.nw.mediaways.net
+062.053.001.217~rmwc-gtso-de02-ge-1-3-0-0.nw.mediaways.net
 062.053.002.191~xmws-mnsr-de04-xe-0-2-0-0.nw.mediaways.net
-195.071.226.030~xmws-gtso-de02-chan-102.nw.mediaways.net~DE,Nordrhein-Westfalen,Gütersloh,51.9,8.3833
 195.071.095.255=0*8
 =======32
 195.071.096.000=0 DE,,,51,9
@@ -344,13 +339,16 @@
 195.071.225.007@
 062.053.001.245@
 195.071.097.069@
+062.053.001.247@
 195.071.097.000=0 DE,,,51,9
-195.071.010.195@
-062.053.001.215@
+062.053.001.219@
+062.053.001.217@
+062.053.001.247@
 195.071.010.203@
+062.053.001.215@
 195.071.098.000=0 DE,,,51,9
 195.071.099.000=0 DE,,,51,9
-062.053.001.247@
+062.053.001.249@
 195.071.010.203@
 195.071.010.195@
 195.071.100.000=0 DE,,,51,9
@@ -362,25 +360,25 @@
 195.071.010.195@
 195.071.010.203@
 062.053.001.114~rmwc-frnk-de01-xe-2-0-4-0.nw.mediaways.net
+062.053.001.245~rmwc-gtso-de01-ge-1-3-0-0.nw.mediaways.net
 062.053.001.215~rmwc-gtso-de02-ge-0-0-0-0.nw.mediaways.net
 062.053.001.098~rmwc-dsdf-de02-pchan-0-0.nw.mediaways.net
-062.053.001.102~rmwc-frnk-de01-xe-2-0-2-0.nw.mediaways.net
-062.053.001.247~rmwc-gtso-de01-ge-0-0-0-0.nw.mediaways.net
-062.053.001.217~rmwc-gtso-de02-ge-1-3-0-0.nw.mediaways.net
+062.053.001.104~rmwc-frnk-de01-xe-7-0-3-0.nw.mediaways.net
 062.053.001.219~rmwc-gtso-de02-ge-4-2-0-0.nw.mediaways.net
-062.053.001.249~rmwc-gtso-de01-ge-4-2-0-0.nw.mediaways.net
-062.053.001.245~rmwc-gtso-de01-ge-1-3-0-0.nw.mediaways.net
-195.071.010.203~xmws-gtso-de12-vlan-3.nw.mediaways.net~DE,Nordrhein-Westfalen,Gütersloh,51.9,8.3833
+062.053.001.217~rmwc-gtso-de02-ge-1-3-0-0.nw.mediaways.net
+062.053.001.247~rmwc-gtso-de01-ge-0-0-0-0.nw.mediaways.net
 195.071.010.195~xmws-gtso-de11-vlan-2.nw.mediaways.net~DE,Nordrhein-Westfalen,Gütersloh,51.9,8.3833
+195.071.010.203~xmws-gtso-de12-vlan-3.nw.mediaways.net~DE,Nordrhein-Westfalen,Gütersloh,51.9,8.3833
+062.053.001.249~rmwc-gtso-de01-ge-4-2-0-0.nw.mediaways.net
 195.071.103.255=0*8
 =======8
 195.071.104.000=0 DE,,,51,9
-195.071.226.026@
 195.071.226.030@
+195.071.226.026@
 195.071.105.000=0 DE,,,51,9
 062.053.002.171@
 195.071.010.203@
-195.071.226.030@
+195.071.226.026@
 195.071.106.000=0 DE,,,51,9
 195.071.106.042@
 195.071.109.220@
@@ -388,85 +386,99 @@
 195.071.108.000=0 DE,,,51,9
 195.071.010.195@
 195.071.109.000=0 DE,,,51,9
-195.071.010.195@
 195.071.010.203@
+195.071.010.195@
 195.071.110.000=0 DE,,,51,9
 195.071.226.026@
-195.071.226.030@
+195.071.010.195@
 195.071.111.000=0 DE,,,51,9
-195.071.010.203~xmws-gtso-de12-vlan-3.nw.mediaways.net~DE,Nordrhein-Westfalen,Gütersloh,51.9,8.3833
 195.071.010.195~xmws-gtso-de11-vlan-2.nw.mediaways.net~DE,Nordrhein-Westfalen,Gütersloh,51.9,8.3833
+195.071.010.203~xmws-gtso-de12-vlan-3.nw.mediaways.net~DE,Nordrhein-Westfalen,Gütersloh,51.9,8.3833
 062.053.002.171~xmws-osbk-de03-xe-0-2-0-0.nw.mediaways.net
-062.053.001.215~rmwc-gtso-de02-ge-0-0-0-0.nw.mediaways.net
-195.071.109.220~195.71.109.220
-062.053.001.249~rmwc-gtso-de01-ge-4-2-0-0.nw.mediaways.net
 062.053.001.247~rmwc-gtso-de01-ge-0-0-0-0.nw.mediaways.net
+195.071.109.220~195.71.109.220
+062.053.001.219~rmwc-gtso-de02-ge-4-2-0-0.nw.mediaways.net
+062.053.001.217~rmwc-gtso-de02-ge-1-3-0-0.nw.mediaways.net
+062.053.001.245~rmwc-gtso-de01-ge-1-3-0-0.nw.mediaways.net
 195.071.111.255=0*8
 =======16
 195.071.112.000=0 DE,,,51,9
 195.071.113.000=0 DE,Nordrhein-Westfalen,Bad Lippspringe,51.7833,8.8167
 195.071.104.230@
-195.071.010.203@
+195.071.010.195@
 195.071.114.000=0 DE,,,51,9
+195.071.010.195@
 195.071.010.203@
 195.071.115.000=0 DE,,,51,9
-195.071.226.030@
 195.071.226.026@
+195.071.226.030@
 195.071.122.046@
 195.071.116.000=0 DE,,,51,9
 195.071.010.195@
+195.071.010.203@
 195.071.117.000=0 DE,,,51,9
 195.071.118.000=0 DE,,,51,9
-195.071.010.203@
 195.071.010.195@
+195.071.010.203@
+217.188.059.036@
 195.071.119.000=0 DE,,,51,9
-195.071.097.066@
-195.071.010.195~xmws-gtso-de11-vlan-2.nw.mediaways.net~DE,Nordrhein-Westfalen,Gütersloh,51.9,8.3833
+195.071.225.002@
 195.071.010.203~xmws-gtso-de12-vlan-3.nw.mediaways.net~DE,Nordrhein-Westfalen,Gütersloh,51.9,8.3833
-062.053.001.217~rmwc-gtso-de02-ge-1-3-0-0.nw.mediaways.net
-062.053.001.219~rmwc-gtso-de02-ge-4-2-0-0.nw.mediaways.net
-062.053.001.215~rmwc-gtso-de02-ge-0-0-0-0.nw.mediaways.net
+062.053.001.247~rmwc-gtso-de01-ge-0-0-0-0.nw.mediaways.net
+195.071.010.195~xmws-gtso-de11-vlan-2.nw.mediaways.net~DE,Nordrhein-Westfalen,Gütersloh,51.9,8.3833
+062.053.001.249~rmwc-gtso-de01-ge-4-2-0-0.nw.mediaways.net
+062.053.001.245~rmwc-gtso-de01-ge-1-3-0-0.nw.mediaways.net
 195.071.226.026~xmws-gtso-de01-chan-101.nw.mediaways.net
+062.053.001.215~rmwc-gtso-de02-ge-0-0-0-0.nw.mediaways.net
+062.053.001.219~rmwc-gtso-de02-ge-4-2-0-0.nw.mediaways.net
+062.053.002.183~rmws-gtng-de01-ge-2-1-0-0.nw.mediaways.net
 195.071.119.255=0*8
 =======8
 195.071.120.000=0 DE,,,51,9
 195.071.121.000=0 DE,,,51,9
 195.071.122.000=0 DE,,,51,9
-195.071.010.203@
 195.071.010.195@
+195.071.010.203@
 195.071.123.000=0 DE,,,51,9
 062.053.001.245@
 195.071.010.195@
 195.071.010.203@
-062.053.001.215@
+062.053.001.247@
 195.071.124.000=0 DE,,,51,9
 195.071.125.000=0 DE,,,51,9
-062.053.001.247@
+062.053.001.249@
 195.071.010.195@
-195.071.226.026@
+195.071.226.030@
 195.071.122.046@
 195.071.126.000=0 DE,,,51,9
 195.071.122.046@
 195.071.010.195@
 195.071.010.203@
+062.053.001.217@
 195.071.127.000=0 DE,,,51,9
-195.071.010.195@
 195.071.010.203@
-062.053.001.217~rmwc-gtso-de02-ge-1-3-0-0.nw.mediaways.net
-062.053.001.098~rmwc-dsdf-de02-pchan-0-0.nw.mediaways.net
-062.053.001.245~rmwc-gtso-de01-ge-1-3-0-0.nw.mediaways.net
-062.053.001.215~rmwc-gtso-de02-ge-0-0-0-0.nw.mediaways.net
-062.053.001.114~rmwc-frnk-de01-xe-2-0-4-0.nw.mediaways.net
+195.071.226.030@
+195.071.226.026@
+195.071.010.195@
 062.053.001.247~rmwc-gtso-de01-ge-0-0-0-0.nw.mediaways.net
+062.053.001.249~rmwc-gtso-de01-ge-4-2-0-0.nw.mediaways.net
+062.053.001.245~rmwc-gtso-de01-ge-1-3-0-0.nw.mediaways.net
+062.053.001.114~rmwc-frnk-de01-xe-2-0-4-0.nw.mediaways.net
+062.053.001.106~rmwc-frnk-de01-xe-7-1-0-0.nw.mediaways.net
+062.053.001.102~rmwc-frnk-de01-xe-2-0-2-0.nw.mediaways.net
 195.071.010.195~xmws-gtso-de11-vlan-2.nw.mediaways.net~DE,Nordrhein-Westfalen,Gütersloh,51.9,8.3833
 195.071.226.026~xmws-gtso-de01-chan-101.nw.mediaways.net
 195.071.226.030~xmws-gtso-de02-chan-102.nw.mediaways.net~DE,Nordrhein-Westfalen,Gütersloh,51.9,8.3833
-062.053.001.249~rmwc-gtso-de01-ge-4-2-0-0.nw.mediaways.net
+062.053.001.219~rmwc-gtso-de02-ge-4-2-0-0.nw.mediaways.net
+062.053.001.215~rmwc-gtso-de02-ge-0-0-0-0.nw.mediaways.net
+062.053.001.098~rmwc-dsdf-de02-pchan-0-0.nw.mediaways.net
+062.053.001.217~rmwc-gtso-de02-ge-1-3-0-0.nw.mediaways.net
+195.071.010.203~xmws-gtso-de12-vlan-3.nw.mediaways.net~DE,Nordrhein-Westfalen,Gütersloh,51.9,8.3833
 195.071.127.255=0*8
 =======128
 195.071.128.000=0 DE,,,51,9
-195.071.010.203@
-062.053.001.245@
+062.053.001.215@
+062.053.001.219@
 195.071.010.195@
 195.071.129.000=0 DE,,,51,9
 195.071.130.000=0 DE,,,51,9
@@ -475,184 +487,166 @@
 195.071.131.000=0 DE,,,51,9
 195.071.132.000=0 DE,,,51,9
 062.053.000.187@
-062.053.000.189@
 062.053.001.245@
 062.053.001.247@
 195.071.133.000=0 DE,Hessen,Wiesbaden,50.0833,8.25
-213.020.252.130@
 213.020.253.209@
+213.020.252.134@
+213.020.253.210@
+213.020.252.130@
 195.071.134.000=0 DE,,,51,9
 062.052.050.161@
 062.052.049.171@
 062.053.237.234@
 062.053.000.240@
 195.071.135.000=0 DE,,,51,9
-062.053.000.240@
 062.053.001.010@
+062.053.000.240@
 062.052.049.116@
 195.071.135.253@
-062.053.001.247~rmwc-gtso-de01-ge-0-0-0-0.nw.mediaways.net
-062.053.001.114~rmwc-frnk-de01-xe-2-0-4-0.nw.mediaways.net
-062.053.001.249~rmwc-gtso-de01-ge-4-2-0-0.nw.mediaways.net
+062.053.001.098~rmwc-dsdf-de02-pchan-0-0.nw.mediaways.net
 062.053.001.219~rmwc-gtso-de02-ge-4-2-0-0.nw.mediaways.net
-062.053.001.217~rmwc-gtso-de02-ge-1-3-0-0.nw.mediaways.net
+062.053.001.247~rmwc-gtso-de01-ge-0-0-0-0.nw.mediaways.net
 062.053.001.245~rmwc-gtso-de01-ge-1-3-0-0.nw.mediaways.net
-062.053.001.100~rmwc-frnk-de01-xe-2-0-0-0.nw.mediaways.net
+062.053.001.104~rmwc-frnk-de01-xe-7-0-3-0.nw.mediaways.net
 062.053.001.106~rmwc-frnk-de01-xe-7-1-0-0.nw.mediaways.net
-062.053.237.234~xmwc-frnk-de03-gigaet-1-2.nw.mediaways.net
-213.020.252.142~rvhg-frnk-de04-gigaet-0-2.nw.mediaways.net
-213.020.252.138~rvhg-frnk-de04-gigaet-0-1.nw.mediaways.net
+062.053.001.114~rmwc-frnk-de01-xe-2-0-4-0.nw.mediaways.net
+213.020.252.134~rvhg-frnk-de03-gigaet-0-2.nw.mediaways.net
+062.053.237.238~xmwc-frnk-de04-gigaet-1-2.nw.mediaways.net
 080.081.193.089~xmws-frnk-de16.nw.telefonica.de
 062.052.050.161~rmwc-frnk-de02-chan-2-0.nw.mediaways.net
+062.053.001.108~rmwc-brln-de02-chan-2-0.nw.mediaways.net~DE,Berlin,Berlin,52.5167,13.4
 062.053.002.049~rmws-kobz-de06-so-2-0-0-0.nw.mediaways.net
 062.052.049.116~xmws-kobz-de02-vlan-3.nw.mediaways.net
 195.071.135.255=0*8
 =======8
 195.071.136.000=0 DE,,,51,9
-062.053.002.053@
-213.020.091.046@
-213.020.088.214@
-062.053.174.230@
+195.071.142.131@
 195.071.250.178@
+195.071.142.042@
 195.071.137.000=0 DE,,,51,9
 062.053.000.197@
 213.020.089.234@
-213.020.091.132@
+213.020.091.148@
 195.071.138.000=0 DE,,,51,9
 062.053.000.195@
 195.071.139.000=0 DE,,,51,9
 195.071.140.000=0 DE,,,51,9
-062.053.000.195@
+062.053.000.207@
 195.071.141.000=0 DE,Hamburg,Hamburg,53.555,10.0333
 213.020.252.142@
+213.020.253.210@
+213.020.252.130@
 213.020.252.138@
-213.020.252.134@
-213.020.253.209@
 195.071.142.000=0 DE,,,51,9
 062.053.002.075@
 195.071.143.000=0 DE,,,51,9
 062.053.001.133@
 062.053.000.207@
 062.053.000.197@
-062.053.001.189~rmwc-hmbg-de03-xe-1-1-1-0.nw.mediaways.net
-062.053.002.065~62.53.2.65
-213.020.091.036~rmws-rstk-de04-ge-0-1-0-0.nw.mediaways.net
-062.053.002.071~rmws-flnb-de01-ge-2-0-1-0.nw.mediaways.net
+062.053.002.079~rmws-flnb-de02-ge-2-0-0-0.nw.mediaways.net
 195.071.142.020~rmws-rstk-de04-ge-1-3-0-0.nw.mediaways.net
+213.020.091.036~rmws-rstk-de04-ge-0-1-0-0.nw.mediaways.net
 062.053.001.135~rmwc-hmbg-de04-xe-0-1-3-0.nw.mediaways.net
-213.020.091.132~rmws-lbck-de03-gigaet-0-1.nw.mediaways.net
-213.020.091.148~rmws-lbck-de03-gigaet-0-2.nw.mediaways.net
-062.053.002.067~rmws-lbck-de01-so-2-0-0-0.nw.mediaways.net
-062.053.001.187~rmwc-hmbg-de03-xe-1-1-0-0.nw.mediaways.net
 062.053.001.133~rmwc-hmbg-de04-xe-0-1-2-0.nw.mediaways.net
+213.020.091.148~rmws-lbck-de03-gigaet-0-2.nw.mediaways.net
+213.020.091.132~rmws-lbck-de03-gigaet-0-1.nw.mediaways.net
+062.053.002.067~rmws-lbck-de01-so-2-0-0-0.nw.mediaways.net
+062.053.001.189~rmwc-hmbg-de03-xe-1-1-1-0.nw.mediaways.net
 062.053.237.238~xmwc-frnk-de04-gigaet-1-2.nw.mediaways.net
-062.053.237.234~xmwc-frnk-de03-gigaet-1-2.nw.mediaways.net
 213.020.252.138~rvhg-frnk-de04-gigaet-0-1.nw.mediaways.net
+062.053.237.234~xmwc-frnk-de03-gigaet-1-2.nw.mediaways.net
 062.053.001.110~rmwc-brln-de01-xe-0-1-0-0.nw.mediaways.net
 195.071.143.255=0*8
 =======16
 195.071.144.000=0 DE,,,51,9
-195.071.229.194@
 195.071.229.190@
 195.071.228.210@
-062.053.001.040@
+062.053.001.070@
 195.071.231.071@
 195.071.145.000=0 DE,,,51,9
 195.071.146.000=0 DE,,,51,9
 195.071.147.000=0 DE,,,51,9
-195.071.231.071@
-213.020.221.058@
-062.053.223.150@
 213.020.220.163@
+062.053.223.150@
+195.071.230.030@
 195.071.148.000=0 DE,Baden-Württemberg,Freiburg,48,7.85
 213.020.253.209@
 195.071.148.005@
-213.020.252.130@
-169.254.254.253@
-195.071.149.000=0 DE,Baden-Württemberg,Stuttgart,48.7667,9.1833
-213.020.252.142@
-169.254.254.253@
-213.020.253.209@
 213.020.253.210@
+213.020.252.130@
+195.071.149.000=0 DE,Baden-Württemberg,Stuttgart,48.7667,9.1833
+213.020.253.210@
+213.020.253.209@
+213.020.252.138@
 195.071.150.000=0 DE,,,51,9
-062.053.001.059@
 062.053.223.134@
-062.053.001.042@
-195.071.231.071@
+062.053.223.150@
+213.020.220.163@
 195.071.151.000=0 DE,,,51,9
 213.020.220.163@
 195.071.231.071@
-062.053.001.063~62.53.1.63
-062.053.001.065~62.53.1.65
-195.071.229.194~xmws-stgt-de10-gigaet-1-5.nw.mediaways.net
-195.071.188.129~rmwc-brln-de02-ge-4-1-0-0.nw.mediaways.net
-062.053.001.042~rmwc-stgt-de01-xe-0-0-8.nw.mediaways.net
-062.053.001.044~rmwc-stgt-de01-xe-1-0-6.nw.mediaways.net
-062.053.001.055~rmws-kons-de04-pos-3-0.nw.mediaways.net
-062.053.001.059~rmws-hbrn-de01-so-1-0-0-0.nw.mediaways.net
+062.053.002.083~62.53.2.83
+195.071.229.190~xmws-stgt-de10-gigaet-1-4.nw.mediaways.net
+062.053.001.106~rmwc-frnk-de01-xe-7-1-0-0.nw.mediaways.net
+062.053.001.068~rmwc-stgt-de02-so-3-0-0.nw.mediaways.net
 062.053.001.040~rmwc-stgt-de01-xe-0-0-6.nw.mediaways.net
+062.053.001.059~rmws-hbrn-de01-so-1-0-0-0.nw.mediaways.net
+195.071.151.110~195.71.151.110
+062.053.001.042~rmwc-stgt-de01-xe-0-0-8.nw.mediaways.net
 213.020.252.142~rvhg-frnk-de04-gigaet-0-2.nw.mediaways.net
 213.020.253.209~rvhg-frnk-de03-gigaet-0-3.nw.mediaways.net
-062.053.237.238~xmwc-frnk-de04-gigaet-1-2.nw.mediaways.net
-213.020.253.210~rvhg-frnk-de04-gigaet-0-3.nw.mediaways.net
-213.020.252.130~rvhg-frnk-de03-gigaet-0-1.nw.mediaways.net
-213.020.252.138~rvhg-frnk-de04-gigaet-0-1.nw.mediaways.net
-062.053.237.234~xmwc-frnk-de03-gigaet-1-2.nw.mediaways.net
 213.020.252.134~rvhg-frnk-de03-gigaet-0-2.nw.mediaways.net
-062.053.001.111~rmwc-brln-de02-xe-0-1-0-0.nw.mediaways.net~DE,Berlin,Berlin,52.5167,13.4
-062.053.001.070~rmwc-stgt-de02-so-3-1-0.nw.mediaways.net
-062.053.001.072~rmwc-stgt-de02-xe-0-0-6.nw.mediaways.net
-062.053.001.074~rmwc-stgt-de02-xe-0-0-8.nw.mediaways.net
+062.053.237.234~xmwc-frnk-de03-gigaet-1-2.nw.mediaways.net
+062.053.001.089~rmws-hbrn-de02-so-1-0-0.nw.mediaways.net
+062.053.001.044~rmwc-stgt-de01-xe-1-0-6.nw.mediaways.net
 195.071.151.255=0*8
 =======8
 195.071.152.000=0 DE,,,51,9
 217.188.197.237@
-195.071.236.222@
-062.053.001.104@
-195.071.236.218@
+062.138.113.169@
+062.053.001.100@
 195.071.153.000=0 DE,,,51,9
 195.071.236.222@
 195.071.154.000=0 DE,,,51,9
-062.052.050.161@
+062.052.049.171@
 195.071.154.014@
 062.052.049.172@
-062.052.049.171@
 195.071.155.000=0 DE,,,51,9
 217.188.197.201@
 195.071.156.000=0 DE,,,51,9
 195.071.157.000=0 DE,,,51,9
-062.053.001.102@
+062.053.001.104@
 195.071.236.218@
 195.071.158.000=0 DE,,,51,9
 062.053.002.043@
+213.020.253.189@
 213.020.250.100@
 062.053.002.027@
-062.053.000.240@
+062.053.001.108@
 195.071.159.000=0 DE,Bayern,Güntersleben,49.8697,9.905
 062.053.001.010@
 062.053.001.108@
 195.071.212.218@
-062.053.001.100@
+062.053.001.102@
 062.052.049.099@
-062.053.000.240~xmwc-frnk-de01-chan-4.nw.mediaways.net~DE,Hessen,Frankfurt Am Main,50.1167,8.6833
-062.053.001.108~rmwc-brln-de02-chan-2-0.nw.mediaways.net~DE,Berlin,Berlin,52.5167,13.4
-062.053.001.102~rmwc-frnk-de01-xe-2-0-2-0.nw.mediaways.net
-080.081.193.089~xmws-frnk-de16.nw.telefonica.de
-195.071.154.014~195.71.154.14
-062.052.050.161~rmwc-frnk-de02-chan-2-0.nw.mediaways.net
 062.053.001.010~xmwc-frnk-de02-chan-5.nw.mediaways.net
-062.053.001.114~rmwc-frnk-de01-xe-2-0-4-0.nw.mediaways.net
-062.053.002.027~rmws-mnhm-de02-gigaet-3-0-0.nw.mediaways.net
-062.053.001.113~rmwc-brln-de02-xe-0-1-1-0.nw.mediaways.net~DE,Berlin,Berlin,52.5167,13.4
+195.071.236.222~xmws-frnk-de12-gigaet-9-1.nw.mediaways.net~DE,Hessen,Frankfurt Am Main,50.1167,8.6833
+062.053.001.108~rmwc-brln-de02-chan-2-0.nw.mediaways.net~DE,Berlin,Berlin,52.5167,13.4
+062.052.050.161~rmwc-frnk-de02-chan-2-0.nw.mediaways.net
+195.071.154.014~195.71.154.14
 062.053.001.104~rmwc-frnk-de01-xe-7-0-3-0.nw.mediaways.net
+062.053.002.043~rmws-drms-de02-ge-2-0-0-0.nw.mediaways.net
+062.053.002.025~rmws-mnhm-de02-gigaet-2-0-0.nw.mediaways.net
+194.025.208.214~194.25.208.214
+062.053.001.100~rmwc-frnk-de01-xe-2-0-0-0.nw.mediaways.net
 062.053.002.049~rmws-kobz-de06-so-2-0-0-0.nw.mediaways.net
 195.071.159.255=0*8
 =======32
 195.071.160.000=0 DE,Bayern,München,48.15,11.5833
-062.053.002.019@
-195.071.233.251@
+062.053.001.141@
 195.071.233.252@
-062.053.002.015@
+195.071.233.251@
 195.071.161.000=0 DE,,,51,9
 195.071.162.000=0 DE,,,51,9
 195.071.163.000=0 DE,,,51,9
@@ -662,55 +656,60 @@
 213.020.152.222@
 213.020.174.036@
 195.071.164.000=0 DE,Bayern,Bergkirchen,48.25,11.3667
-062.053.207.163@
+062.053.002.219@
 213.020.173.167@
-062.053.002.233@
-195.071.164.030@
+062.053.002.217@
+195.071.164.026@
 195.071.165.000=0 DE,Bayern,München,48.15,11.5833
 195.071.165.197@
-195.071.233.251@
+213.020.155.206@
 195.071.166.000=0 DE,,,51,9
 062.052.028.046@
 213.020.174.142@
 195.071.167.000=0 DE,,,51,9
-062.053.002.233@
-062.052.050.161~rmwc-frnk-de02-chan-2-0.nw.mediaways.net
-062.053.002.019~rmwc-mnch-de02-ge-1-3-0-0.nw.mediaways.net
-062.053.003.159~rmws-rgnb-de01-pos-0-1-0.nw.mediaways.net
+062.053.002.231@
+062.052.028.002@
+062.053.001.112~rmwc-brln-de01-xe-0-1-1-0.nw.mediaways.net
 062.053.001.141~rmwc-mnch-de01-so-1-1-0-0.nw.mediaways.net
-062.053.002.219~62.53.2.219
+062.053.001.143~rmwc-mnch-de01-so-3-1-0-0.nw.mediaways.net
+062.053.003.163~rmws-rgnb-de01-pos-1-1-0.nw.mediaways.net
+062.053.002.216~rmwc-mnch-de01-chan-3-0.nw.mediaways.net
+062.053.002.231~62.53.2.231
 213.020.173.167~xmwc-mnch-de01-vlan-2.nw.mediaways.net
 062.053.002.225~rmws-agsb-de01-pos-1-1-0.nw.mediaways.net
-062.053.002.231~62.53.2.231
-062.053.002.233~62.53.2.233
-062.053.002.017~rmwc-mnch-de02-ge-1-1-0-0.nw.mediaways.net
+062.053.001.139~rmwc-mnch-de01-so-0-1-0-0.nw.mediaways.net
+062.053.002.217~62.53.2.217
+062.053.002.219~62.53.2.219
 213.020.155.206~rbms-mnch-de01-gigaet-0-1.nw.mediaways.net
-213.020.174.142~rvhg-mnch-de42-gigaet-0-1.nw.mediaways.net
+195.071.233.251~xmws-mnch-de01-vlan-2.nw.mediaways.net
 213.020.174.138~rvhg-mnch-de42-gigaet-0-0.nw.mediaways.net
+213.020.174.142~rvhg-mnch-de42-gigaet-0-1.nw.mediaways.net
+062.053.002.015~rmwc-mnch-de02-ge-0-1-0-0.nw.mediaways.net
 195.071.167.255=0*8
 =======8
 195.071.168.000=0 DE,,,51,9
 195.071.169.000=0 DE,,,51,9
 195.071.170.000=0 DE,Sachsen,Chemnitz,50.8056,12.9067
-213.020.252.130@
-213.020.253.209@
+213.020.252.142@
+213.020.252.134@
 213.020.253.210@
 195.071.171.000=0 DE,,,51,9
-213.020.188.133@
+213.020.188.196@
 195.071.172.000=0 DE,,,51,9
 195.071.173.000=0 DE,,,51,9
-213.020.252.134@
-213.020.252.142@
+213.020.253.209@
 213.020.253.210@
+213.020.252.138@
+195.071.173.013@
 195.071.174.000=0 DE,,,51,9
 195.071.175.000=0 DE,,,51,9
-062.053.142.114@
+062.053.142.081@
 062.053.237.238~xmwc-frnk-de04-gigaet-1-2.nw.mediaways.net
-213.020.252.130~rvhg-frnk-de03-gigaet-0-1.nw.mediaways.net
+062.053.237.234~xmwc-frnk-de03-gigaet-1-2.nw.mediaways.net
 213.020.252.138~rvhg-frnk-de04-gigaet-0-1.nw.mediaways.net
 062.053.001.137~rmwc-drsd-de01-ge-0-2-0-0.nw.mediaways.net
-062.053.237.234~xmwc-frnk-de03-gigaet-1-2.nw.mediaways.net
 213.020.252.134~rvhg-frnk-de03-gigaet-0-2.nw.mediaways.net
+213.020.252.142~rvhg-frnk-de04-gigaet-0-2.nw.mediaways.net
 062.053.001.165~rmwc-hnvr-de03-ge-0-2-0-0.nw.mediaways.net
 195.071.175.255=0*8
 =======16
@@ -720,48 +719,48 @@
 195.071.178.000=0 DE,Bayern,Bamberg,49.8667,10.8667
 213.020.253.210@
 213.020.252.134@
-213.020.252.142@
+213.020.252.130@
+213.020.253.209@
 195.071.179.000=0 DE,,,51,9
 195.071.027.067@
-062.053.001.151@
 062.053.001.153@
 195.071.180.000=0 DE,Niedersachsen,Rastede,53.25,8.2
 213.020.108.100@
-213.020.108.131@
 213.020.108.102@
+213.020.108.131@
 213.020.110.210@
 195.071.181.000=0 DE,,,51,9
 213.020.108.100@
-062.053.001.179@
+062.053.001.173@
 213.020.108.134@
-062.053.001.167@
+062.053.001.179@
 195.071.182.000=0 DE,Niedersachsen,Leer,53.2333,7.4333
 195.071.181.190@
 062.053.002.091@
-213.020.110.250@
+062.053.002.089@
 213.020.108.100@
 195.071.183.000=0 DE,,,51,9
-062.053.001.179@
-062.053.002.089@
 062.053.001.173@
-062.053.001.171@
-062.053.001.151~rmwc-nrbg-de04-gigaet-2-0-0.nw.mediaways.net
-213.020.252.130~rvhg-frnk-de03-gigaet-0-1.nw.mediaways.net
-062.053.237.234~xmwc-frnk-de03-gigaet-1-2.nw.mediaways.net
+062.053.002.089@
+062.053.001.167@
+062.053.001.251~rmwc-nrbg-de03-gigaet-2-0-0.nw.mediaways.net
+213.020.252.134~rvhg-frnk-de03-gigaet-0-2.nw.mediaways.net
 062.053.237.238~xmwc-frnk-de04-gigaet-1-2.nw.mediaways.net
+213.020.252.130~rvhg-frnk-de03-gigaet-0-1.nw.mediaways.net
+062.053.001.151~rmwc-nrbg-de04-gigaet-2-0-0.nw.mediaways.net
 213.020.150.189~rmwc-brln-de01-xe-5-1-4-0.nw.mediaways.net
 062.053.001.110~rmwc-brln-de01-xe-0-1-0-0.nw.mediaways.net
 213.020.150.193~rmwc-brln-de01-xe-5-1-6-0.nw.mediaways.net
 062.053.001.171~rmwc-brmn-de02-pos-2-0.nw.mediaways.net
-062.053.001.181~rmwc-brmn-de02-pos-3-0.nw.mediaways.net
-062.053.001.179~rmwc-brmn-de02-pos-2-3.nw.mediaways.net
 062.053.001.167~rmwc-brmn-de02-gigaet-1-1-0.nw.mediaways.net
+062.053.001.173~rmwc-brmn-de02-pos-2-2.nw.mediaways.net
 213.020.108.131~rmws-brmn-de06-gigaet-0-2.nw.mediaways.net
 062.053.001.113~rmwc-brln-de02-xe-0-1-1-0.nw.mediaways.net~DE,Berlin,Berlin,52.5167,13.4
+195.071.188.125~rmwc-brln-de02-ge-4-0-0-0.nw.mediaways.net
 213.020.108.097~rmwc-brmn-de01-gigaet-0-0-0.nw.mediaways.net
-213.020.108.102~rmws-brmn-de06-gigaet-0-1.nw.mediaways.net
+062.053.001.181~rmwc-brmn-de02-pos-3-0.nw.mediaways.net
+062.053.001.179~rmwc-brmn-de02-pos-2-3.nw.mediaways.net
 062.053.001.109~62.53.1.109
-062.053.001.173~rmwc-brmn-de02-pos-2-2.nw.mediaways.net
 195.071.183.255=0*8
 =======8
 195.071.184.000=0 DE,,,51,9
@@ -770,47 +769,51 @@
 217.188.197.201@
 195.071.184.049@
 195.071.185.000=0 DE,Berlin,Berlin,52.5167,13.4
-062.053.000.131@
 195.071.188.242@
 062.053.000.133@
-062.053.000.119@
-062.053.000.139@
+195.071.185.054@
 195.071.186.000=0 DE,Berlin,Berlin,52.5167,13.4
 213.020.253.210@
-213.020.253.209@
+169.254.254.253@
+213.020.252.134@
 195.071.187.000=0 DE,Berlin,Berlin,52.5167,13.4
-213.020.252.138@
-213.020.253.209@
-213.020.252.130@
+213.020.252.142@
+169.254.254.253@
 213.020.253.210@
+213.020.253.209@
+213.020.252.138@
 195.071.188.000=0 DE,,,51,9
-062.053.001.109@
-062.053.000.119@
 062.053.000.133@
-195.071.189.000=0 DE,,,51,9
+213.020.150.193@
+062.053.000.131@
 062.053.000.117@
+195.071.189.000=0 DE,,,51,9
 062.053.164.246@
 062.053.000.119@
 195.071.190.000=0 DE,,,51,9
 195.071.191.000=0 DE,,,51,9
-062.053.000.131@
+062.053.000.133@
 062.053.164.190@
 062.053.000.125@
-062.053.000.133@
-062.053.000.117@
-195.071.188.129~rmwc-brln-de02-ge-4-1-0-0.nw.mediaways.net
-062.053.000.131~xmwc-brln-de01-chan-2.nw.mediaways.net
-062.053.000.240~xmwc-frnk-de01-chan-4.nw.mediaways.net~DE,Hessen,Frankfurt Am Main,50.1167,8.6833
-217.188.197.201~rvhg-frnk-de99-gigaet-0-1.nw.mediaways.net
-213.020.150.193~rmwc-brln-de01-xe-5-1-6-0.nw.mediaways.net
-195.071.188.125~rmwc-brln-de02-ge-4-0-0-0.nw.mediaways.net
+062.053.000.119@
+062.053.001.109~62.53.1.109
 062.053.000.119~xmwc-brln-de02-chan-5.nw.mediaways.net
-213.020.252.130~rvhg-frnk-de03-gigaet-0-1.nw.mediaways.net
+062.053.001.010~xmwc-frnk-de02-chan-5.nw.mediaways.net
+217.188.197.237~rvhg-frnk-de99-gigaet-0-3.nw.mediaways.net
+062.053.000.131~xmwc-brln-de01-chan-2.nw.mediaways.net
+195.071.188.125~rmwc-brln-de02-ge-4-0-0-0.nw.mediaways.net
+062.053.000.139~rmws-brln-de11-ge-1-3-0-0.nw.mediaways.net
 213.020.252.134~rvhg-frnk-de03-gigaet-0-2.nw.mediaways.net
+213.020.253.210~rvhg-frnk-de04-gigaet-0-3.nw.mediaways.net
 062.053.237.238~xmwc-frnk-de04-gigaet-1-2.nw.mediaways.net
 213.020.252.138~rvhg-frnk-de04-gigaet-0-1.nw.mediaways.net
-062.052.050.161~rmwc-frnk-de02-chan-2-0.nw.mediaways.net
-062.053.001.109~62.53.1.109
+062.053.237.234~xmwc-frnk-de03-gigaet-1-2.nw.mediaways.net
+213.020.252.142~rvhg-frnk-de04-gigaet-0-2.nw.mediaways.net
+194.009.117.054~mediaways.ber.ecix.net
+213.020.150.193~rmwc-brln-de01-xe-5-1-6-0.nw.mediaways.net
+213.020.150.189~rmwc-brln-de01-xe-5-1-4-0.nw.mediaways.net
+195.071.188.129~rmwc-brln-de02-ge-4-1-0-0.nw.mediaways.net
+194.025.208.214~194.25.208.214
 062.053.000.133~xmwc-brln-de01-chan-4.nw.mediaways.net
 195.071.191.255=0*8
 =======64
@@ -819,6 +822,7 @@
 195.071.239.134@
 195.071.193.000=0 DE,,,51,9
 062.053.001.229@
+195.071.238.234@
 195.071.194.000=0 DE,,,51,9
 195.071.195.000=0 DE,,,51,9
 195.071.196.000=0 DE,,,51,9
@@ -827,32 +831,35 @@
 195.071.199.000=0 DE,Nordrhein-Westfalen,Witten,51.4333,7.3333
 213.020.253.209@
 213.020.253.210@
-169.254.254.253@
+213.020.252.142@
 195.071.199.029@
 062.053.134.078~xmwc-dtmd-de01-vlan-2.nw.mediaways.net
 195.071.239.234~xmws-dtmd-de10-gigaet-1-2.nw.mediaways.net
 195.071.239.130~xmws-dtmd-de10-gigaet-1-1.nw.mediaways.net
 062.053.001.098~rmwc-dsdf-de02-pchan-0-0.nw.mediaways.net
-213.020.252.142~rvhg-frnk-de04-gigaet-0-2.nw.mediaways.net
+062.053.001.229~rmwc-dtmd-de01-gigaet-3-0-0.nw.mediaways.net
 213.020.252.138~rvhg-frnk-de04-gigaet-0-1.nw.mediaways.net
-213.020.253.210~rvhg-frnk-de04-gigaet-0-3.nw.mediaways.net
+213.020.252.134~rvhg-frnk-de03-gigaet-0-2.nw.mediaways.net
+062.053.237.234~xmwc-frnk-de03-gigaet-1-2.nw.mediaways.net
+213.020.252.142~rvhg-frnk-de04-gigaet-0-2.nw.mediaways.net
 195.071.199.255=0*8
 =======8
 195.071.200.000=0 DE,Nordrhein-Westfalen,Troisdorf,50.8152,7.172
-213.020.252.142@
-169.254.254.253@
-213.020.252.130@
+213.020.252.138@
 213.020.253.209@
+213.020.252.142@
 213.020.253.210@
 195.071.201.000=0 DE,,,51,9
-062.053.198.069@
+062.053.198.164@
 062.053.002.023@
 062.053.198.067@
 195.071.202.000=0 DE,,,51,9
 195.071.203.000=0 DE,,,51,9
 195.071.204.000=0 DE,,,51,9
-062.053.002.213@
+062.053.002.021@
+213.020.017.196@
 062.053.198.067@
+062.053.002.023@
 195.071.205.000=0 DE,,,51,9
 062.053.002.023@
 062.053.002.021@
@@ -861,163 +868,156 @@
 213.020.017.195@
 195.071.207.000=0 DE,,,51,9
 062.053.237.234~xmwc-frnk-de03-gigaet-1-2.nw.mediaways.net
-169.254.254.253~169.254.254.253
-213.020.252.138~rvhg-frnk-de04-gigaet-0-1.nw.mediaways.net
 213.020.252.134~rvhg-frnk-de03-gigaet-0-2.nw.mediaways.net
-062.053.001.225~rmwc-koln-de02-gigaet-3-0-0.nw.mediaways.net
-062.053.001.108~rmwc-brln-de02-chan-2-0.nw.mediaways.net~DE,Berlin,Berlin,52.5167,13.4
-062.053.001.227~rmwc-koln-de02-gigaet-4-0-0.nw.mediaways.net
-062.052.050.161~rmwc-frnk-de02-chan-2-0.nw.mediaways.net
+213.020.252.130~rvhg-frnk-de03-gigaet-0-1.nw.mediaways.net
 062.053.002.023~rmwc-koln-de01-gigaet-3-0-0.nw.mediaways.net
+062.052.050.161~rmwc-frnk-de02-chan-2-0.nw.mediaways.net
+062.053.001.108~rmwc-brln-de02-chan-2-0.nw.mediaways.net~DE,Berlin,Berlin,52.5167,13.4
+062.053.002.021~rmwc-koln-de01-gigaet-2-0-0.nw.mediaways.net
 195.071.207.255=0*8
 =======16
 195.071.208.000=0 DE,,,51,9
 195.071.209.000=0 DE,,,51,9
 195.071.210.000=0 DE,,,51,9
-062.053.002.149@
+213.020.052.131@
 213.020.052.195@
-062.053.002.003@
+062.053.001.221@
 195.071.211.000=0 DE,,,51,9
 195.071.212.000=0 DE,,,51,9
-062.053.001.109@
-062.053.000.119@
-062.053.001.093@
-062.053.001.096@
+213.020.150.193@
+062.053.000.117@
+062.053.001.098@
+062.053.000.151@
 195.071.213.000=0 DE,,,51,9
 195.071.214.000=0 DE,,,51,9
 195.071.215.000=0 DE,,,51,9
-062.053.001.223~rmwc-essn-de02-gigaet-6-0-0.nw.mediaways.net
-062.053.002.149~rmws-sign-de01-ge-1-3-0-0.nw.mediaways.net
+062.053.002.123~rmws-sign-de02-ge-0-1-0-0.nw.mediaways.net
 062.053.002.121~rmws-sign-de02-ge-0-2-0-0.nw.mediaways.net
 062.053.002.147~rmws-sign-de01-ge-0-3-0-0.nw.mediaways.net
+062.053.001.100~rmwc-frnk-de01-xe-2-0-0-0.nw.mediaways.net
+194.009.117.054~mediaways.ber.ecix.net
+213.020.150.189~rmwc-brln-de01-xe-5-1-4-0.nw.mediaways.net
 062.053.001.098~rmwc-dsdf-de02-pchan-0-0.nw.mediaways.net
-062.052.050.161~rmwc-frnk-de02-chan-2-0.nw.mediaways.net
-062.053.001.109~62.53.1.109
-062.053.001.096~rmwc-dsdf-de01-chan-2-0.nw.mediaways.net
-062.053.001.106~rmwc-frnk-de01-xe-7-1-0-0.nw.mediaways.net
+213.020.150.193~rmwc-brln-de01-xe-5-1-6-0.nw.mediaways.net
 195.071.215.255=0*8
 =======8
 195.071.216.000=0 DE,,,51,9
 195.071.217.000=0 DE,Nordrhein-Westfalen,Arnsberg,51.3833,8.0833
+062.053.000.161@
 062.053.000.151@
 195.071.218.000=0 DE,Nordrhein-Westfalen,Mönchengladbach,51.2,6.4333
-213.020.252.134@
 213.020.253.210@
+195.071.218.049@
 213.020.252.142@
 195.071.219.000=0 DE,,,51,9
 195.071.220.000=0 DE,,,51,9
 195.071.221.000=0 DE,,,51,9
 195.071.222.000=0 DE,,,51,9
-062.053.001.093@
 062.053.000.151@
-062.053.000.159@
+062.053.000.161@
 195.071.223.000=0 DE,,,51,9
 062.053.001.098@
 062.052.018.026@
 062.053.000.151@
 062.053.001.098~rmwc-dsdf-de02-pchan-0-0.nw.mediaways.net
-062.053.237.238~xmwc-frnk-de04-gigaet-1-2.nw.mediaways.net
-213.020.252.134~rvhg-frnk-de03-gigaet-0-2.nw.mediaways.net
+213.020.252.142~rvhg-frnk-de04-gigaet-0-2.nw.mediaways.net
 213.020.252.130~rvhg-frnk-de03-gigaet-0-1.nw.mediaways.net
-062.053.001.096~rmwc-dsdf-de01-chan-2-0.nw.mediaways.net
-062.053.001.093~rmwc-dsdf-de02-chan-6-0.nw.mediaways.net
-062.053.000.159~xmwc-dsdf-de02-chan-3.nw.mediaways.net
+213.020.252.134~rvhg-frnk-de03-gigaet-0-2.nw.mediaways.net
+213.020.253.210~rvhg-frnk-de04-gigaet-0-3.nw.mediaways.net
+062.053.237.238~xmwc-frnk-de04-gigaet-1-2.nw.mediaways.net
+062.053.001.110~rmwc-brln-de01-xe-0-1-0-0.nw.mediaways.net
 062.053.001.112~rmwc-brln-de01-xe-0-1-1-0.nw.mediaways.net
-213.020.150.193~rmwc-brln-de01-xe-5-1-6-0.nw.mediaways.net
 195.071.223.255=0*8
 =======32
 195.071.224.000=0 DE,,,51,9
 062.053.002.171@
-062.053.001.219@
+062.053.002.156@
 217.188.059.036@
 062.053.002.179@
 195.071.225.000=0 DE,,,51,9
-062.053.001.098@
-062.053.001.215@
-062.053.001.219@
 062.053.001.247@
+062.053.001.245@
+062.053.001.249@
 195.071.226.000=0 DE,,,51,9
 062.053.001.219@
 062.053.002.197@
-062.053.001.215@
+195.071.097.069@
+062.053.001.217@
 195.071.227.000=0 DE,Nordrhein-Westfalen,Bielefeld,52.0333,8.5333
 062.053.002.195@
-195.071.086.060@
-062.053.002.169@
-062.053.002.156@
-062.053.002.157@
+195.071.086.044@
+062.053.005.009@
+062.053.001.217@
 195.071.228.000=0 DE,,,51,9
-062.053.001.169@
+062.053.001.063@
 195.071.229.078@
-062.053.002.083@
-062.053.001.070@
-062.053.001.089@
+062.053.001.065@
+062.053.001.044@
+062.053.001.059@
 195.071.229.000=0 DE,,,51,9
-062.053.001.042@
+062.053.001.040@
 062.053.001.065@
 062.053.001.044@
 062.053.001.063@
 195.071.230.000=0 DE,,,51,9
 062.053.001.063@
+195.071.151.106@
 195.071.151.110@
 213.020.221.250@
 195.071.231.000=0 DE,,,51,9
-195.071.188.125@
-062.053.001.042@
-062.053.001.040@
-062.053.001.044@
-213.020.220.163@
-062.053.001.217~rmwc-gtso-de02-ge-1-3-0-0.nw.mediaways.net
-062.053.001.106~rmwc-frnk-de01-xe-7-1-0-0.nw.mediaways.net
-062.053.002.163~rmws-gtng-de02-ge-2-0-0-0.nw.mediaways.net
-213.020.150.189~rmwc-brln-de01-xe-5-1-4-0.nw.mediaways.net
-062.053.001.098~rmwc-dsdf-de02-pchan-0-0.nw.mediaways.net
+062.053.001.070@
+062.053.001.100@
+062.053.001.074@
+062.053.001.072@
+062.053.002.171~xmws-osbk-de03-xe-0-2-0-0.nw.mediaways.net
 062.053.001.215~rmwc-gtso-de02-ge-0-0-0-0.nw.mediaways.net
-062.053.001.102~rmwc-frnk-de01-xe-2-0-2-0.nw.mediaways.net
+062.053.002.179~rmws-gtng-de01-ge-2-1-2.nw.mediaways.net
 062.053.001.219~rmwc-gtso-de02-ge-4-2-0-0.nw.mediaways.net
-062.053.002.195~rmws-blfd-de01-ge-2-0-0-0.nw.mediaways.net
-062.053.001.070~rmwc-stgt-de02-so-3-1-0.nw.mediaways.net
-062.053.001.169~62.53.1.169
-062.053.001.072~rmwc-stgt-de02-xe-0-0-6.nw.mediaways.net
+062.053.001.217~rmwc-gtso-de02-ge-1-3-0-0.nw.mediaways.net
 062.053.001.114~rmwc-frnk-de01-xe-2-0-4-0.nw.mediaways.net
+062.053.001.104~rmwc-frnk-de01-xe-7-0-3-0.nw.mediaways.net
+062.053.001.102~rmwc-frnk-de01-xe-2-0-2-0.nw.mediaways.net
+062.053.001.247~rmwc-gtso-de01-ge-0-0-0-0.nw.mediaways.net
+062.053.001.098~rmwc-dsdf-de02-pchan-0-0.nw.mediaways.net
+062.053.002.195~rmws-blfd-de01-ge-2-0-0-0.nw.mediaways.net
+062.053.002.156~rmwc-gtso-de01-ge-0-1-0-0.nw.mediaways.net
+062.053.001.040~rmwc-stgt-de01-xe-0-0-6.nw.mediaways.net
+062.053.001.065~62.53.1.65
+062.053.001.044~rmwc-stgt-de01-xe-1-0-6.nw.mediaways.net
+195.071.188.129~rmwc-brln-de02-ge-4-1-0-0.nw.mediaways.net
 194.025.208.214~194.25.208.214
 062.053.001.042~rmwc-stgt-de01-xe-0-0-8.nw.mediaways.net
-062.053.001.044~rmwc-stgt-de01-xe-1-0-6.nw.mediaways.net
 062.053.001.063~62.53.1.63
-195.071.151.110~195.71.151.110
 195.071.151.106~rmws-stgt-de01-ge-1-3-0-0.nw.mediaways.net
-194.009.117.054~mediaways.ber.ecix.net
-195.071.188.125~rmwc-brln-de02-ge-4-0-0-0.nw.mediaways.net
-062.053.001.040~rmwc-stgt-de01-xe-0-0-6.nw.mediaways.net
+195.071.151.110~195.71.151.110
+062.053.001.106~rmwc-frnk-de01-xe-7-1-0-0.nw.mediaways.net
+062.052.050.161~rmwc-frnk-de02-chan-2-0.nw.mediaways.net
+062.053.001.100~rmwc-frnk-de01-xe-2-0-0-0.nw.mediaways.net
 195.071.231.255=0*8
 =======8
 195.071.232.000=0 DE,,,51,9
-213.020.174.118@
 195.071.232.035@
-062.053.002.019@
+195.071.232.069@
+195.071.164.194@
 195.071.233.000=0 DE,,,51,9
-195.071.164.026@
-062.053.002.231@
 195.071.164.030@
-062.053.002.233@
+062.053.002.231@
+195.071.164.026@
 062.053.003.157@
 195.071.234.000=0 DE,,,51,9
-062.053.000.117@
-062.053.000.133@
-062.053.001.157@
+213.020.150.202@
+062.053.000.131@
+213.020.150.182@
+062.053.001.159@
 213.020.150.069@
 195.071.235.000=0 DE,,,51,9
-062.053.001.155@
 213.020.150.021@
 213.020.150.035@
 195.071.236.000=0 DE,,,51,9
+062.053.002.027@
 213.020.250.100@
 213.020.250.123@
-062.053.002.027@
-062.053.002.025@
 195.071.237.000=0 DE,,,51,9
-213.020.250.123@
-062.053.002.027@
 062.053.002.025@
 213.020.250.100@
 195.071.238.000=0 DE,,,51,9
@@ -1025,142 +1025,141 @@
 062.053.001.229@
 195.071.239.130@
 195.071.239.000=0 DE,,,51,9
-062.053.001.211@
+062.053.001.229@
 062.053.134.078@
-062.053.134.164@
 195.071.239.130@
-062.053.134.168@
-062.053.002.017~rmwc-mnch-de02-ge-1-1-0-0.nw.mediaways.net
-213.020.174.118~rmws-pass-de02-ge-1-3-0-0.nw.mediaways.net
-062.053.002.015~rmwc-mnch-de02-ge-0-1-0-0.nw.mediaways.net
-062.052.050.161~rmwc-frnk-de02-chan-2-0.nw.mediaways.net
+195.071.164.194~rmws-pass-de01-ge-0-1-0-0.nw.mediaways.net
+062.053.001.139~rmwc-mnch-de01-so-0-1-0-0.nw.mediaways.net
+062.053.001.143~rmwc-mnch-de01-so-3-1-0-0.nw.mediaways.net
 062.053.002.231~62.53.2.231
-062.053.002.233~62.53.2.233
-062.053.002.019~rmwc-mnch-de02-ge-1-3-0-0.nw.mediaways.net
+062.053.002.015~rmwc-mnch-de02-ge-0-1-0-0.nw.mediaways.net
+062.053.002.218~rmwc-mnch-de01-chan-4-0.nw.mediaways.net
 062.053.002.216~rmwc-mnch-de01-chan-3-0.nw.mediaways.net
-213.020.150.193~rmwc-brln-de01-xe-5-1-6-0.nw.mediaways.net
+062.053.000.117~xmwc-brln-de02-chan-3.nw.mediaways.net
 213.020.150.189~rmwc-brln-de01-xe-5-1-4-0.nw.mediaways.net
-195.071.188.125~rmwc-brln-de02-ge-4-0-0-0.nw.mediaways.net
-062.053.001.175~rmws-hlle-de05-pos-0-1-1.nw.mediaways.net
+062.053.000.119~xmwc-brln-de02-chan-5.nw.mediaways.net
+213.020.150.193~rmwc-brln-de01-xe-5-1-6-0.nw.mediaways.net
+062.053.001.177~rmws-hlle-de05-pos-0-1-0.nw.mediaways.net
 062.053.001.155~rmws-mgdb-de01-pos-0-1-0.nw.mediaways.net
+062.053.001.183~rmws-mgdb-de02-pos-0-1-0.nw.mediaways.net
+062.053.001.108~rmwc-brln-de02-chan-2-0.nw.mediaways.net~DE,Berlin,Berlin,52.5167,13.4
+062.053.002.027~rmws-mnhm-de02-gigaet-3-0-0.nw.mediaways.net
 062.053.002.025~rmws-mnhm-de02-gigaet-2-0-0.nw.mediaways.net
 195.071.239.234~xmws-dtmd-de10-gigaet-1-2.nw.mediaways.net
 062.053.001.098~rmwc-dsdf-de02-pchan-0-0.nw.mediaways.net
 195.071.239.130~xmws-dtmd-de10-gigaet-1-1.nw.mediaways.net
-062.053.001.096~rmwc-dsdf-de01-chan-2-0.nw.mediaways.net
-062.053.001.211~rmwc-dtmd-de02-gigaet-1-0-0.nw.mediaways.net
-062.053.134.078~xmwc-dtmd-de01-vlan-2.nw.mediaways.net
+062.053.001.229~rmwc-dtmd-de01-gigaet-3-0-0.nw.mediaways.net
 195.071.239.255=0*8
 =======16
 195.071.240.000=0 DE,,,51,9
 195.071.027.067@
-062.053.001.153@
+062.053.001.251@
+062.053.001.253@
 195.071.179.131@
-062.053.001.151@
 195.071.241.000=0 DE,,,51,9
 195.071.240.213@
 195.071.240.196@
 195.071.242.000=0 DE,,,51,9
-062.053.001.098@
-062.053.000.161@
-062.053.004.213@
+062.053.001.096@
+062.053.001.093@
+062.053.001.209@
 195.071.243.000=0 DE,,,51,9
 062.053.000.151@
 062.053.001.098@
 195.071.244.000=0 DE,,,51,9
-062.053.002.201@
+062.053.002.199@
 213.020.124.115@
-062.053.002.009@
+062.053.001.165@
 062.053.142.113@
+062.053.142.085@
 195.071.245.000=0 DE,,,51,9
-062.053.002.201@
+062.053.002.199@
 213.020.124.132@
+062.053.001.165@
+062.053.142.112@
 195.071.246.000=0 DE,,,51,9
 062.053.002.108@
 213.020.188.195@
 213.020.188.132@
 195.071.247.000=0 DE,,,51,9
 062.053.002.108@
-213.020.188.195@
 062.053.001.137@
+213.020.188.195@
 213.020.188.123@
-062.053.001.151~rmwc-nrbg-de04-gigaet-2-0-0.nw.mediaways.net
-062.053.001.110~rmwc-brln-de01-xe-0-1-0-0.nw.mediaways.net
-062.053.001.112~rmwc-brln-de01-xe-0-1-1-0.nw.mediaways.net
+062.053.001.251~rmwc-nrbg-de03-gigaet-2-0-0.nw.mediaways.net
+062.053.001.106~rmwc-frnk-de01-xe-7-1-0-0.nw.mediaways.net
+062.053.001.253~rmwc-nrbg-de03-gigaet-3-0-0.nw.mediaways.net
 062.053.001.153~rmwc-nrbg-de04-gigaet-4-0-0.nw.mediaways.net
-062.053.001.098~rmwc-dsdf-de02-pchan-0-0.nw.mediaways.net
-213.020.150.189~rmwc-brln-de01-xe-5-1-4-0.nw.mediaways.net
-062.053.002.009~rmwc-hnvr-de04-ge-1-0-0-0.nw.mediaways.net
-062.053.002.201~rmws-brsg-de02-ge-2-0-0-0.nw.mediaways.net
-062.053.001.102~rmwc-frnk-de01-xe-2-0-2-0.nw.mediaways.net
+062.053.001.151~rmwc-nrbg-de04-gigaet-2-0-0.nw.mediaways.net
 062.053.001.114~rmwc-frnk-de01-xe-2-0-4-0.nw.mediaways.net
-062.053.002.011~rmwc-hnvr-de04-ge-0-2-0-0.nw.mediaways.net
-213.020.188.107~rmwc-lpzg-de02-ge-0-0-0-0.nw.mediaways.net
-062.053.002.108~rmwc-drsd-de02-ge-0-2-0-0.nw.mediaways.net
+062.053.001.096~rmwc-dsdf-de01-chan-2-0.nw.mediaways.net
+062.053.001.104~rmwc-frnk-de01-xe-7-0-3-0.nw.mediaways.net
+062.053.001.098~rmwc-dsdf-de02-pchan-0-0.nw.mediaways.net
+062.053.001.112~rmwc-brln-de01-xe-0-1-1-0.nw.mediaways.net
+062.053.001.110~rmwc-brln-de01-xe-0-1-0-0.nw.mediaways.net
+062.053.001.165~rmwc-hnvr-de03-ge-0-2-0-0.nw.mediaways.net
+062.053.002.199~rmws-brsg-de01-ge-2-0-0-0.nw.mediaways.net
+194.025.208.214~194.25.208.214
+062.053.001.111~rmwc-brln-de02-xe-0-1-0-0.nw.mediaways.net~DE,Berlin,Berlin,52.5167,13.4
 213.020.188.119~rmwc-lpzg-de02-ge-0-1-0-0.nw.mediaways.net
+062.053.002.108~rmwc-drsd-de02-ge-0-2-0-0.nw.mediaways.net
 062.053.001.185~rmwc-lpzg-de02-ge-0-3-0-0.nw.mediaways.net
-062.053.001.137~rmwc-drsd-de01-ge-0-2-0-0.nw.mediaways.net
 213.020.150.193~rmwc-brln-de01-xe-5-1-6-0.nw.mediaways.net
+062.053.001.137~rmwc-drsd-de01-ge-0-2-0-0.nw.mediaways.net
 062.053.002.109~rmwc-lpzg-de02-ge-0-2-0-0.nw.mediaways.net
 195.071.247.255=0*8
 =======8
 195.071.248.000=0 DE,,,51,9
-062.053.002.023@
+062.053.002.021@
 062.053.198.163@
 195.071.249.000=0 DE,,,51,9
-062.053.002.023@
-062.053.198.067@
 062.053.001.225@
 062.053.198.163@
 062.053.002.021@
+062.053.198.067@
 195.071.250.000=0 DE,,,51,9
-062.053.000.195@
-062.053.000.201@
-062.053.000.205@
-062.053.001.135@
 062.053.000.207@
+062.053.000.201@
+062.053.000.197@
 195.071.251.000=0 DE,,,51,9
 195.071.250.178@
 062.053.000.207@
+062.053.001.135@
 062.053.000.197@
 195.071.252.000=0 DE,,,51,9
 062.053.002.137@
-062.053.002.005@
-062.053.002.141@
+062.053.002.130@
 062.053.158.098@
-062.053.002.003@
+062.053.001.223@
+062.053.002.141@
 195.071.253.000=0 DE,,,51,9
 062.053.158.099@
 213.020.053.163@
 195.071.254.000=0 DE,,,51,9
-213.020.150.189@
-062.053.001.098@
-195.071.188.125@
-062.053.001.133@
+062.053.001.096@
+062.053.001.093@
+080.081.193.089@
+062.052.050.161@
+195.071.254.110@
 195.071.255.000=0 DE,,,51,9
-062.052.050.161~rmwc-frnk-de02-chan-2-0.nw.mediaways.net
-062.053.002.023~rmwc-koln-de01-gigaet-3-0-0.nw.mediaways.net
-062.053.002.021~rmwc-koln-de01-gigaet-2-0-0.nw.mediaways.net
 062.053.001.108~rmwc-brln-de02-chan-2-0.nw.mediaways.net~DE,Berlin,Berlin,52.5167,13.4
+062.053.002.023~rmwc-koln-de01-gigaet-3-0-0.nw.mediaways.net
+062.053.001.225~rmwc-koln-de02-gigaet-3-0-0.nw.mediaways.net
 062.053.001.227~rmwc-koln-de02-gigaet-4-0-0.nw.mediaways.net
 062.053.001.098~rmwc-dsdf-de02-pchan-0-0.nw.mediaways.net
-062.053.001.225~rmwc-koln-de02-gigaet-3-0-0.nw.mediaways.net
-062.053.001.187~rmwc-hmbg-de03-xe-1-1-0-0.nw.mediaways.net
+062.053.001.133~rmwc-hmbg-de04-xe-0-1-2-0.nw.mediaways.net
 062.053.000.207~62.53.0.207
-062.053.001.189~rmwc-hmbg-de03-xe-1-1-1-0.nw.mediaways.net
-062.053.001.096~rmwc-dsdf-de01-chan-2-0.nw.mediaways.net
 213.020.091.036~rmws-rstk-de04-ge-0-1-0-0.nw.mediaways.net
 062.053.001.135~rmwc-hmbg-de04-xe-0-1-3-0.nw.mediaways.net
-062.053.001.133~rmwc-hmbg-de04-xe-0-1-2-0.nw.mediaways.net
-062.053.002.005~rmwc-essn-de01-gigaet-6-0-0.nw.mediaways.net
-062.053.001.104~rmwc-frnk-de01-xe-7-0-3-0.nw.mediaways.net
-062.053.158.098~rmwc-essn-de02-gigaet-12-0-0.nw.mediaways.net
+062.053.001.110~rmwc-brln-de01-xe-0-1-0-0.nw.mediaways.net
+062.053.002.130~rmwc-essn-de01-pos-9-0.nw.mediaways.net
 062.053.002.003~rmwc-essn-de01-gigaet-2-0-0.nw.mediaways.net
-062.053.001.100~rmwc-frnk-de01-xe-2-0-0-0.nw.mediaways.net
 062.053.001.221~rmwc-essn-de02-gigaet-10-0-0.nw.mediaways.net
 062.053.001.223~rmwc-essn-de02-gigaet-6-0-0.nw.mediaways.net
-194.009.117.054~mediaways.ber.ecix.net
-062.053.001.110~rmwc-brln-de01-xe-0-1-0-0.nw.mediaways.net
-213.020.150.193~rmwc-brln-de01-xe-5-1-6-0.nw.mediaways.net
+062.053.001.104~rmwc-frnk-de01-xe-7-0-3-0.nw.mediaways.net
+062.053.001.096~rmwc-dsdf-de01-chan-2-0.nw.mediaways.net
+213.239.245.001~juniper4.ffm.hetzner.de
+080.081.193.089~xmws-frnk-de16.nw.telefonica.de
+062.052.050.161~rmwc-frnk-de02-chan-2-0.nw.mediaways.net
 195.071.255.255=0*8
 =======256

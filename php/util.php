@@ -11,6 +11,11 @@ $GLOBALS[ "knownisp" ][ "Telekom Deutschland GmbH" 					  ] = "de/tk";
 $GLOBALS[ "knownisp" ][ "Telefonica Germany GmbH & Co.OHG" 			  ] = "de/tf";
 $GLOBALS[ "knownisp" ][ "Vodafone D2 GmbH" 			  				  ] = "de/vf";
 
+function ResolveISPSort($a,$b)
+{
+	return $a[ "from" ] - $b[ "from" ];
+}
+
 function ResolveISP($ip)
 {
 	//
@@ -42,6 +47,18 @@ function ResolveISP($ip)
 			
 			array_push($isplist,$entry);
 		}
+		
+		//
+		// Add small networks not in list.
+		//
+		
+		$entry = array();
+		$entry[ "from" ] = IP_Bin("172.30.0.0");
+		$entry[ "upto" ] = IP_Bin("172.30.32.0");
+		$entry[ "name" ] = "Kabel BW GmbH";
+		array_push($isplist,$entry);
+		
+		uasort($isplist,"ResolveISPSort");
 		
 		$GLOBALS[ "isplist" ] = $isplist;
 	}

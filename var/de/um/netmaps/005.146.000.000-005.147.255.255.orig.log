@@ -558,10 +558,13 @@
 005.146.208.000=0 DE,Nordrhein-Westfalen,Beckum,51.75,8.0333
 080.069.102.178@
 005.146.209.000=0 DE,Nordrhein-Westfalen,Dortmund,51.5167,7.45
+005.146.209.000!0 DE,Nordrhein-Westfalen,Detmold,51.9333,8.8833
 080.069.102.178@
 005.146.210.000=0 DE,Nordrhein-Westfalen,Dortmund,51.5167,7.45
+005.146.210.000!0 DE,Nordrhein-Westfalen,Detmold,51.9333,8.8833
 080.069.102.178@
 005.146.211.000=0 DE,Nordrhein-Westfalen,Dortmund,51.5167,7.45
+005.146.211.000!0 DE,Nordrhein-Westfalen,Detmold,51.9333,8.8833
 080.069.102.178@
 080.069.107.209~1211F-MX960-01-ae0.dtm.unity-media.net
 005.146.211.255=0*4
@@ -608,6 +611,7 @@
 005.146.228.000=0 DE,Nordrhein-Westfalen,Krefeld,51.3333,6.5667
 081.210.131.230@
 005.146.229.000=0 DE,Nordrhein-Westfalen,Krefeld,51.3333,6.5667
+005.146.229.000!0 DE,Nordrhein-Westfalen,Gelsenkirchen,51.5167,7.05
 081.210.131.230@
 080.069.106.178~1412A-MX960-01-ae1.kre.unity-media.net
 005.146.229.255=0*2

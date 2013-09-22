@@ -408,6 +408,7 @@
 176.198.138.000=0 DE,Nordrhein-Westfalen,Paderborn,51.7167,8.7667
 081.210.130.038@
 176.198.139.000=0 DE,Nordrhein-Westfalen,Paderborn,51.7167,8.7667
+176.198.139.000!0 DE,Nordrhein-Westfalen,Olsberg,51.35,8.5
 081.210.130.038@
 080.069.106.173~1611A-MX960-02-ae2.bfe.unity-media.net
 176.198.139.255=0*4
@@ -691,6 +692,7 @@
 176.198.237.000=0 DE,Hessen,Gießen,50.5833,8.65
 081.210.129.154@
 176.198.238.000=0 DE,Hessen,Gießen,50.5833,8.65
+176.198.238.000!0 DE,Hessen,Steinbach,50.1667,8.5667
 081.210.129.154@
 176.198.239.000=0 DE,Hessen,Gießen,50.5833,8.65
 081.210.129.154@
@@ -1206,6 +1208,7 @@
 176.199.164.000=0 DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
 080.069.102.066@
 176.199.165.000=0 DE,Nordrhein-Westfalen,Mannheim,51.0833,6.8833
+176.199.165.000!0 DE,Nordrhein-Westfalen,Monheim,51.0833,6.8833
 080.069.102.066@
 176.199.166.000=0 DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
 080.069.102.066@

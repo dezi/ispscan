@@ -400,19 +400,27 @@
 =======8
 031.016.088.000=0 DE,Schleswig-Holstein,Flensburg,54.7833,9.4333
 031.016.088.000!0 DE,Mecklenburg-Vorpommern,Waren,53.5167,12.6833
+088.134.193.072@
 031.016.089.000=5 DE,Schleswig-Holstein,Flensburg,54.7833,9.4333
 031.016.089.000!0 DE,Mecklenburg-Vorpommern,Röbel,53.3833,12.6
+088.134.193.072@
 031.016.090.000=0 DE,Schleswig-Holstein,Flensburg,54.7833,9.4333
 031.016.090.000!0 DE,Mecklenburg-Vorpommern,Rostock,54.0833,12.1333
+088.134.193.072@
 031.016.091.000=0 DE,Schleswig-Holstein,Flensburg,54.7833,9.4333
 031.016.091.000!0 DE,Mecklenburg-Vorpommern,Rostock,54.0833,12.1333
+088.134.193.072@
+088.134.205.150~88-134-205-150-dynip.superkabel.de
 031.016.091.254=5+
 031.016.091.255=0*4
 -------
 031.016.092.000=0 DE,Schleswig-Holstein,Flensburg,54.7833,9.4333
 031.016.092.000!0 DE,Mecklenburg-Vorpommern,Waren,53.5167,12.6833
+088.134.193.072@
 031.016.093.000=5 DE,Schleswig-Holstein,Flensburg,54.7833,9.4333
 031.016.093.000!0 DE,Mecklenburg-Vorpommern,Röbel,53.3833,12.6
+088.134.193.072@
+088.134.205.150~88-134-205-150-dynip.superkabel.de
 031.016.093.254=5+
 031.016.093.255=0*2
 -------
@@ -1627,38 +1635,42 @@
 031.017.079.254=5+
 031.017.079.255=0*4
 =======16
-031.017.080.000=0 DE,Schleswig-Holstein,Kiel,54.3333,10.1333
-031.017.080.000=0 DE,Schleswig-Holstein,Altenholz,54.4,10.1333
+031.017.080.000=0 DE,Mecklenburg-Vorpommern,Rostock,54.0833,12.1333
+031.017.080.000!0 DE,Schleswig-Holstein,Altenholz,54.4,10.1333
 088.134.193.030@
 088.134.193.029@
-031.017.081.000=0 DE,Schleswig-Holstein,Altenholz,54.3734,10.1278
-031.017.082.000=0 DE,Schleswig-Holstein,Altenholz,54.3734,10.1278
+031.017.081.000=0 DE,Mecklenburg-Vorpommern,Rostock,54.0833,12.1333
+031.017.081.000!0 DE,Schleswig-Holstein,Altenholz,54.3734,10.1278
 088.134.193.030@
 088.134.193.029@
-031.017.083.000=0 DE,Schleswig-Holstein,Altenholz,54.3734,10.1278
+031.017.082.000=0 DE,Mecklenburg-Vorpommern,Rostock,54.0833,12.1333
+031.017.082.000!0 DE,Schleswig-Holstein,Altenholz,54.3734,10.1278
 088.134.193.030@
 088.134.193.029@
+031.017.083.000=0 DE,Mecklenburg-Vorpommern,Rostock,54.0833,12.1333
+031.017.083.000!0 DE,Schleswig-Holstein,Altenholz,54.3734,10.1278
+088.134.193.030@
+088.134.193.029@
+031.017.084.000=0 DE,Mecklenburg-Vorpommern,Rostock,54.0833,12.1333
+031.017.084.000!0 DE,Schleswig-Holstein,Kiel,54.3973,10.1505
+088.134.193.029@
+088.134.193.030@
+031.017.085.000=0 DE,Mecklenburg-Vorpommern,Rostock,54.0833,12.1333
+031.017.085.000!0 DE,Schleswig-Holstein,Kiel,54.3973,10.1505
+088.134.193.029@
+088.134.193.030@
+031.017.086.000=0 DE,Mecklenburg-Vorpommern,Rostock,54.0833,12.1333
+031.017.086.000!0 DE,Schleswig-Holstein,Kiel,54.3973,10.1505
+088.134.193.029@
+088.134.193.030@
+031.017.087.000=0 DE,Mecklenburg-Vorpommern,Rostock,54.0833,12.1333
+031.017.087.000!0 DE,Schleswig-Holstein,Kiel,54.3973,10.1505
+088.134.193.029@
+088.134.193.030@
 088.134.193.032~88-134-193-32-dynip.superkabel.de
-088.134.193.175~DE,Sachsen,Leipzig,51.3,12.3333
-031.017.083.254=1+
-031.017.083.255=0^4
--------
-031.017.084.000=0 DE,Schleswig-Holstein,Kiel,54.3973,10.1505
-088.134.193.029@
-088.134.193.030@
-031.017.085.000=0 DE,Schleswig-Holstein,Kiel,54.3973,10.1505
-088.134.193.029@
-088.134.193.030@
-031.017.086.000=0 DE,Schleswig-Holstein,Kiel,54.3973,10.1505
-088.134.193.029@
-088.134.193.030@
-031.017.087.000=0 DE,Schleswig-Holstein,Kiel,54.3973,10.1505
-088.134.193.029@
-088.134.193.030@
-088.134.193.175~DE,Sachsen,Leipzig,51.3,12.3333
-088.134.193.032~88-134-193-32-dynip.superkabel.de
+088.134.193.175~88-134-193-175-dynip.superkabel.de~DE,Sachsen,Leipzig,51.3,12.3333
 031.017.087.254=1+
-031.017.087.255=0^4
+031.017.087.255=0*8
 =======8
 031.017.088.000=0 DE,Schleswig-Holstein,Mölln,53.6202,10.6773
 031.017.088.000=0 DE,Schleswig-Holstein,Ratzeburg,53.7,10.7667
@@ -2104,8 +2116,8 @@
 088.134.192.157@
 088.134.192.149@
 031.017.178.000=5 DE,Schleswig-Holstein,Lübeck,53.8667,10.7
-088.134.192.149@
 088.134.192.157@
+088.134.192.149@
 031.017.179.000=0 DE,Schleswig-Holstein,Lübeck,53.8667,10.7
 088.134.192.149@
 088.134.192.157@
@@ -2123,8 +2135,8 @@
 088.134.192.149@
 088.134.193.035~88-134-193-35-dynip.superkabel.de~DE,Hamburg,Hamburg,53.55,10
 088.134.193.022~88-134-193-22-dynip.superkabel.de~DE,Hamburg,Hamburg,53.55,10
-088.134.205.150~88-134-205-150-dynip.superkabel.de
 088.134.205.142~88-134-205-142-dynip.superkabel.de
+088.134.205.150~88-134-205-150-dynip.superkabel.de
 031.017.183.254=5+
 031.017.183.255=0*8
 =======8
@@ -2675,8 +2687,11 @@
 -------
 031.018.046.000=0 DE,Schleswig-Holstein,Flensburg,54.7833,9.4333
 031.018.046.000!0 DE,Mecklenburg-Vorpommern,Waren,53.5,12.75
+088.134.193.072@
 031.018.047.000=5 DE,Schleswig-Holstein,Flensburg,54.7833,9.4333
 031.018.047.000!0 DE,Mecklenburg-Vorpommern,Waren,53.5,12.75
+088.134.193.072@
+088.134.205.150~88-134-205-150-dynip.superkabel.de
 031.018.047.254=5+
 031.018.047.255=0*2
 =======16
@@ -3332,8 +3347,6 @@
 088.134.192.139@
 031.018.210.000=0 DE,Hamburg,Hamburg,53.55,10
 088.134.192.138@
-088.134.192.137@
-088.134.192.139@
 031.018.211.000=5 DE,Hamburg,Hamburg,53.55,10
 088.134.192.138@
 031.018.212.000=5 DE,Hamburg,Hamburg,53.55,10
@@ -3347,7 +3360,6 @@
 088.134.192.138@
 088.134.192.137~88-134-192-137-dynip.superkabel.de
 088.134.192.135~88-134-192-135-dynip.superkabel.de
-088.134.205.150~88-134-205-150-dynip.superkabel.de
 031.018.215.254=1+
 031.018.215.255=0*8
 =======8
@@ -3630,10 +3642,10 @@
 001.000.000.019@
 031.019.013.000=0 DE,Niedersachsen,Munster,52.9833,10.0833
 001.000.000.019@
-083.169.129.141~DE,Hamburg,Hamburg,53.55,10
 083.169.129.137~DE,Hamburg,Hamburg,53.55,10
 083.169.129.161~DE,Hamburg,Hamburg,53.55,10
 083.169.129.157~DE,Hamburg,Hamburg,53.55,10
+083.169.129.141~DE,Hamburg,Hamburg,53.55,10
 031.019.013.254=5+
 031.019.013.255=0*2
 -------
@@ -3727,7 +3739,7 @@
 031.019.031.000=0 DE,Mecklenburg-Vorpommern,Greifswald,54.0902,13.4464
 088.134.193.029@
 088.134.193.030@
-088.134.193.175~DE,Sachsen,Leipzig,51.3,12.3333
+088.134.193.175~88-134-193-175-dynip.superkabel.de~DE,Sachsen,Leipzig,51.3,12.3333
 088.134.193.032~88-134-193-32-dynip.superkabel.de
 031.019.031.254=5+
 031.019.031.255=0*4
@@ -3807,7 +3819,7 @@
 031.019.048.000=0 DE,Mecklenburg-Vorpommern,Greifswald,54.0881,13.3876
 088.134.193.029@
 088.134.193.030@
-088.134.193.175~DE,Sachsen,Leipzig,51.3,12.3333
+088.134.193.175~88-134-193-175-dynip.superkabel.de~DE,Sachsen,Leipzig,51.3,12.3333
 088.134.193.032~88-134-193-32-dynip.superkabel.de
 031.019.048.254=5+
 031.019.048.255=0*1
@@ -3926,7 +3938,7 @@
 031.019.071.000=5 DE,Mecklenburg-Vorpommern,Greifswald,54.1,13.3833
 088.134.193.029@
 088.134.193.030@
-088.134.193.175~DE,Sachsen,Leipzig,51.3,12.3333
+088.134.193.175~88-134-193-175-dynip.superkabel.de~DE,Sachsen,Leipzig,51.3,12.3333
 088.134.193.032~88-134-193-32-dynip.superkabel.de
 031.019.071.254=5+
 031.019.071.255=0*4
@@ -3977,13 +3989,13 @@
 088.134.192.132@
 083.169.172.121@
 031.019.079.000=0 DE,Hamburg,Hamburg,53.55,10
-083.169.172.121@
-088.134.192.132@
 083.169.172.113@
+088.134.192.133@
+083.169.172.121@
 088.134.192.129~DE,Hamburg,Hamburg,53.55,10
 088.134.192.131~DE,Hamburg,Hamburg,53.55,10
 088.134.192.133~88-134-192-133-dynip.superkabel.de
-083.169.172.113~83-169-172-113-isp.superkabel.de
+088.134.192.132~88-134-192-132-dynip.superkabel.de
 031.019.079.254=1+
 031.019.079.255=0*2
 =======16
@@ -4019,7 +4031,7 @@
 031.019.087.000=0 DE,Mecklenburg-Vorpommern,Greifswald,54.1,13.3833
 088.134.193.030@
 088.134.193.029@
-088.134.193.175~DE,Sachsen,Leipzig,51.3,12.3333
+088.134.193.175~88-134-193-175-dynip.superkabel.de~DE,Sachsen,Leipzig,51.3,12.3333
 088.134.193.032~88-134-193-32-dynip.superkabel.de
 031.019.087.254=5+
 031.019.087.255=0*4
@@ -4147,7 +4159,7 @@ NOVISIBLE:031.019.103.000
 088.134.193.030@
 088.134.193.029@
 088.134.193.032~88-134-193-32-dynip.superkabel.de
-088.134.193.175~DE,Sachsen,Leipzig,51.3,12.3333
+088.134.193.175~88-134-193-175-dynip.superkabel.de~DE,Sachsen,Leipzig,51.3,12.3333
 031.019.115.254=5+
 031.019.115.255=0*1
 -------
@@ -4258,21 +4270,27 @@ NOVISIBLE:031.019.103.000
 031.019.137.000!0 DE,Niedersachsen,Celle,52.6167,10.0833
 083.169.173.066@
 083.169.172.194@
-031.019.138.000=5 DE,Schleswig-Holstein,Neumünster,54.0667,9.9833
+088.134.192.161~88-134-192-161-dynip.superkabel.de~DE,Schleswig-Holstein,Neumünster,54.0667,9.9833
+088.134.192.181~88-134-192-181-dynip.superkabel.de~DE,Schleswig-Holstein,Neumünster,54.0667,9.9833
+031.019.137.254=5+
+031.019.137.255=0*2
+-------
+031.019.138.000=5 DE,Niedersachsen,Hannover,52.3667,9.7167
 031.019.138.000!0 DE,Niedersachsen,Celle,52.6167,10.0833
 088.134.196.026@
+088.134.234.154~88-134-234-154-dynip.superkabel.de
+088.134.234.150~DE,Bremen,Bremen,53.0833,8.8
+031.019.138.254=5+
+031.019.138.255=0*1
+-------
 031.019.139.000=5 DE,Schleswig-Holstein,Neumünster,54.0667,9.9833
 031.019.139.000!0 DE,Niedersachsen,Celle,52.6167,10.0833
 088.134.192.214@
 088.134.192.216@
-088.134.192.161~88-134-192-161-dynip.superkabel.de~DE,Schleswig-Holstein,Neumünster,54.0667,9.9833
-088.134.192.181~88-134-192-181-dynip.superkabel.de~DE,Schleswig-Holstein,Neumünster,54.0667,9.9833
-088.134.234.154~88-134-234-154-dynip.superkabel.de
-088.134.234.150~DE,Bremen,Bremen,53.0833,8.8
 088.134.192.213~DE,Schleswig-Holstein,Lübeck,53.8667,10.7
 088.134.192.219~88-134-192-219-dynip.superkabel.de~DE,Schleswig-Holstein,Lübeck,53.8667,10.7
 031.019.139.254=5+
-031.019.139.255=0*4
+031.019.139.255=0*1
 -------
 031.019.140.000=0 DE,Niedersachsen,Soltau,52.9833,9.8333
 031.019.140.000=0 DE,Niedersachsen,Schneverdingen,53.1167,9.8
@@ -4356,8 +4374,8 @@ NOVISIBLE:031.019.103.000
 083.169.157.028@
 031.019.156.000=5 DE,Niedersachsen,Lüneburg,53.25,10.4
 031.019.156.000!0 DE,Niedersachsen,Lüneburg,53.2558,10.4398
-083.169.157.028@
 083.169.156.028@
+083.169.157.028@
 031.019.157.000=5 DE,Niedersachsen,Lüneburg,53.25,10.4
 083.169.157.028@
 083.169.156.028@
@@ -4434,9 +4452,9 @@ NOVISIBLE:031.019.103.000
 001.000.000.023@
 031.019.183.000=0 DE,Niedersachsen,Uelzen,52.9675,10.5615
 001.000.000.023@
-083.169.129.141~DE,Hamburg,Hamburg,53.55,10
-083.169.129.137~DE,Hamburg,Hamburg,53.55,10
 083.169.129.161~DE,Hamburg,Hamburg,53.55,10
+083.169.129.137~DE,Hamburg,Hamburg,53.55,10
+083.169.129.141~DE,Hamburg,Hamburg,53.55,10
 083.169.129.157~DE,Hamburg,Hamburg,53.55,10
 031.019.183.254=5+
 031.019.183.255=0*8

@@ -185,18 +185,25 @@
 037.201.063.255=0*4
 =======64
 037.201.064.000=0 DE,Hessen,Wiesbaden,50.0833,8.25
+037.201.064.000!0 DE,Nordrhein-Westfalen,Marl,51.65,7.0833
 081.210.129.110@
 037.201.065.000=0 DE,Hessen,Wiesbaden,50.0833,8.25
+037.201.065.000!0 DE,Nordrhein-Westfalen,Marl,51.65,7.0833
 081.210.129.110@
 037.201.066.000=0 DE,Hessen,Wiesbaden,50.0833,8.25
+037.201.066.000!0 DE,Nordrhein-Westfalen,Marl,51.65,7.0833
 081.210.129.110@
 037.201.067.000=0 DE,Hessen,Wiesbaden,50.0833,8.25
+037.201.067.000!0 DE,Nordrhein-Westfalen,Marl,51.65,7.0833
 081.210.129.110@
 037.201.068.000=0 DE,Hessen,Wiesbaden,50.0833,8.25
+037.201.068.000!0 DE,Nordrhein-Westfalen,Marl,51.65,7.0833
 081.210.129.110@
 037.201.069.000=0 DE,Hessen,Wiesbaden,50.0833,8.25
+037.201.069.000!0 DE,Nordrhein-Westfalen,Essen,51.45,7.0167
 081.210.129.110@
 037.201.070.000=0 DE,Hessen,Wiesbaden,50.0833,8.25
+037.201.070.000!0 DE,Nordrhein-Westfalen,Essen,51.45,7.0167
 081.210.129.110@
 037.201.071.000=0 DE,Hessen,Wiesbaden,50.0833,8.25
 081.210.129.110@
@@ -436,14 +443,17 @@
 037.201.159.255=0*4
 =======32
 037.201.160.000=0 DE,Nordrhein-Westfalen,Mannheim,51.0833,6.8833
+037.201.160.000!0 DE,Nordrhein-Westfalen,Monheim,51.0833,6.8833
 080.069.102.234@
 037.201.161.000=0 DE,Nordrhein-Westfalen,Mannheim,51.0833,6.8833
+037.201.161.000!0 DE,Nordrhein-Westfalen,Monheim,51.0833,6.8833
 080.069.102.234@
 037.201.162.000=0 DE,Nordrhein-Westfalen,Velbert,51.3333,7.05
 080.069.102.234@
 037.201.163.000=0 DE,Nordrhein-Westfalen,Wülfrath,51.2833,7.05
 080.069.102.234@
 037.201.164.000=0 DE,Nordrhein-Westfalen,Mannheim,51.1,6.8917
+037.201.164.000!0 DE,Nordrhein-Westfalen,Monheim,51.1,6.8917
 080.069.102.234@
 037.201.165.000=0 DE,Nordrhein-Westfalen,Mannheim,51.0833,6.8833
 080.069.102.234@

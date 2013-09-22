@@ -49,20 +49,28 @@
 037.024.015.255=0*8
 =======16
 037.024.016.000=0 DE,Nordrhein-Westfalen,Dortmund,51.5167,7.45
+037.024.016.000!0 DE,Nordrhein-Westfalen,Detmold,51.9333,8.8833
 080.069.102.178@
 037.024.017.000=0 DE,Nordrhein-Westfalen,Dortmund,51.5167,7.45
+037.024.017.000!0 DE,Nordrhein-Westfalen,Detmold,51.9333,8.8833
 080.069.102.178@
 037.024.018.000=0 DE,Nordrhein-Westfalen,Dortmund,51.5167,7.45
+037.024.018.000!0 DE,Nordrhein-Westfalen,Detmold,51.9333,8.8833
 080.069.102.178@
 037.024.019.000=0 DE,Nordrhein-Westfalen,Dortmund,51.5167,7.45
+037.024.019.000!0 DE,Nordrhein-Westfalen,Detmold,51.9333,8.8833
 080.069.102.178@
 037.024.020.000=0 DE,Nordrhein-Westfalen,Dortmund,51.5167,7.45
+037.024.020.000!0 DE,Nordrhein-Westfalen,Detmold,51.9333,8.8833
 080.069.102.178@
 037.024.021.000=0 DE,Nordrhein-Westfalen,Dortmund,51.5167,7.45
+037.024.021.000!0 DE,Nordrhein-Westfalen,Detmold,51.9333,8.8833
 080.069.102.178@
 037.024.022.000=0 DE,Nordrhein-Westfalen,Dortmund,51.5167,7.45
+037.024.022.000!0 DE,Nordrhein-Westfalen,Detmold,51.9333,8.8833
 080.069.102.178@
 037.024.023.000=0 DE,Nordrhein-Westfalen,Dortmund,51.5167,7.45
+037.024.023.000!0 DE,Nordrhein-Westfalen,Detmold,51.9333,8.8833
 080.069.102.178@
 080.069.107.209~1211F-MX960-01-ae0.dtm.unity-media.net
 037.024.023.255=0*8
@@ -356,12 +364,16 @@
 037.024.123.255=0*4
 -------
 037.024.124.000=0 DE,Nordrhein-Westfalen,Köln,50.9333,6.95
+037.024.124.000!0 DE,Nordrhein-Westfalen,Essen,51.45,7.0167
 081.210.131.250@
 037.024.125.000=0 DE,Nordrhein-Westfalen,Köln,50.9333,6.95
+037.024.125.000!0 DE,Nordrhein-Westfalen,Marl,51.65,7.0833
 081.210.131.250@
 037.024.126.000=0 DE,Nordrhein-Westfalen,Köln,50.9333,6.95
+037.024.126.000!0 DE,Nordrhein-Westfalen,Marl,51.65,7.0833
 081.210.131.250@
 037.024.127.000=0 DE,Nordrhein-Westfalen,Köln,50.9333,6.95
+037.024.127.000!0 DE,Nordrhein-Westfalen,Marl,51.65,7.0833
 081.210.131.250@
 080.069.106.134~1311A-MX960-02-ae0.cgn.unity-media.net
 080.069.107.093~1311A-MX960-02-ae2.cgn.unity-media.net
@@ -538,6 +550,8 @@
 081.210.131.054@
 037.024.197.000=0 DE,Nordrhein-Westfalen,Bottrop,51.5167,6.9167
 081.210.131.054@
+080.069.107.033~80.69.107.33
+080.069.107.233~1415A-MX960-01-ae0.ess.unity-media.net
 037.024.197.255=0*2
 -------
 037.024.198.000=0 DE,Nordrhein-Westfalen,Soest,51.5602,8.0885
@@ -545,8 +559,6 @@
 081.210.130.078@
 037.024.199.000=0 DE,Nordrhein-Westfalen,Werl,51.55,7.9167
 081.210.130.078@
-080.069.107.033~80.69.107.33
-080.069.107.233~1415A-MX960-01-ae0.ess.unity-media.net
 080.069.107.161~1711A-MX960-02-ae0.soe.unity-media.net
 080.069.107.158~1711A-MX960-02-ae1.soe.unity-media.net
 037.024.199.255=0*2
@@ -570,12 +582,12 @@
 081.210.131.138@
 037.024.205.000=0 DE,Nordrhein-Westfalen,Gelsenkirchen,51.5167,7.05
 081.210.131.138@
+080.069.107.190~1512A-MX80-02-ae0.gek.unity-media.net
+080.069.107.197~1512A-MX80-02-ae1.gek.unity-media.net
 037.024.205.255=0*2
 -------
 037.024.206.000=0 DE,Nordrhein-Westfalen,Hamm,51.6833,7.8
 037.024.207.000=0 DE,Nordrhein-Westfalen,Hamm,51.6833,7.8
-080.069.107.190~1512A-MX80-02-ae0.gek.unity-media.net
-080.069.107.197~1512A-MX80-02-ae1.gek.unity-media.net
 037.024.207.255=0*2
 =======16
 037.024.208.000=0 DE,Nordrhein-Westfalen,Bünde,52.2,8.5833

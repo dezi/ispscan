@@ -61,15 +61,17 @@
 095.222.023.255=0*8
 =======8
 095.222.024.000=0 DE,Nordrhein-Westfalen,Dortmund,51.5167,7.45
+095.222.024.000!0 DE,Nordrhein-Westfalen,Moers,51.45,6.65
 080.069.102.178@
 095.222.025.000=0 DE,Nordrhein-Westfalen,Dortmund,51.5167,7.45
+095.222.025.000!0 DE,Nordrhein-Westfalen,Moers,51.45,6.65
 080.069.102.178@
+080.069.107.209~1211F-MX960-01-ae0.dtm.unity-media.net
 095.222.025.255=0*2
 -------
 095.222.026.000=0 DE,Nordrhein-Westfalen,Moers,51.45,6.65
 095.222.027.000=0 DE,Nordrhein-Westfalen,Moers,51.45,6.65
-080.069.107.209~1211F-MX960-01-ae0.dtm.unity-media.net
-095.222.027.255=0*4
+095.222.027.255=0*2
 -------
 095.222.028.000=0 DE,Nordrhein-Westfalen,Moers,51.45,6.65
 095.222.029.000=0 DE,Nordrhein-Westfalen,Moers,51.45,6.65
@@ -484,12 +486,15 @@
 095.222.175.255=0*4
 =======16
 095.222.176.000=0 DE,Nordrhein-Westfalen,Essen,51.45,7.0167
+095.222.176.000!0 DE,Nordrhein-Westfalen,Grevenbroich,51.0833,6.5833
 081.210.130.246@
 095.222.177.000=0 DE,Nordrhein-Westfalen,Essen,51.45,7.0167
 081.210.130.246@
 095.222.178.000=0 DE,Nordrhein-Westfalen,Essen,51.45,7.0167
+095.222.178.000!0 DE,Nordrhein-Westfalen,Grevenbroich,51.0833,6.5833
 081.210.130.246@
 095.222.179.000=0 DE,Nordrhein-Westfalen,Essen,51.45,7.0167
+095.222.179.000!0 DE,Nordrhein-Westfalen,Grevenbroich,51.0833,6.5833
 080.069.107.233~1415A-MX960-01-ae0.ess.unity-media.net
 080.069.107.033~80.69.107.33
 095.222.179.255=0*4

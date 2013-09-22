@@ -13,10 +13,10 @@
 213.191.090.002@
 213.191.090.000@
 078.048.003.000=0 DE,Nordrhein-Westfalen,Herdecke,51.4,7.4333
-213.191.090.000@
 213.191.090.002@
 213.191.091.000@
 213.191.091.002@
+213.191.090.000@
 078.048.004.000=0 DE,Nordrhein-Westfalen,Witten,51.4333,7.3333
 213.191.090.002@
 213.191.091.000@
@@ -31,8 +31,7 @@
 213.191.091.002@
 078.048.007.000=0 DE,Nordrhein-Westfalen,Köln,50.9333,6.95
 213.191.091.000@
-213.191.091.002@
-213.191.090.000@
+213.191.090.002@
 =======8
 078.048.008.000=0 DE,Nordrhein-Westfalen,Hagen,51.35,7.4667
 213.191.091.000@
@@ -64,12 +63,12 @@
 213.191.087.145~so-7-1-0-0.cr01.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
 213.191.087.250~so-7-0-0-0.cr01.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
 213.191.066.010~so-1-1-0-0.cr02.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
-213.191.066.006~so-1-1-0-0.cr01.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
+213.191.066.033~so-1-0-0-0.cr02.dus.de.hansenet.net
+213.191.087.246~so-6-0-0-0.cr01.dus.de.hansenet.net
 213.191.087.169~so-6-1-0-0.cr02.dus.de.hansenet.net
 213.191.087.222~so-6-0-0-0.cr02.dus.de.hansenet.net
-213.191.087.246~so-6-0-0-0.cr01.dus.de.hansenet.net
 213.191.066.029~so-1-0-0-0.cr01.dus.de.hansenet.net
-213.191.066.033~so-1-0-0-0.cr02.dus.de.hansenet.net
+213.191.066.006~so-1-1-0-0.cr01.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
 213.191.087.157~so-6-1-0-0.cr01.dus.de.hansenet.net
 078.048.015.255=0*16
 =======16
@@ -93,18 +92,14 @@
 062.109.067.242@
 062.109.067.250@
 078.048.026.000=0 DE,Hamburg,Hamburg,53.55,10
-062.109.067.242@
-062.109.067.254@
 062.109.067.250@
+062.109.067.246@
 078.048.027.000=0 DE,Hamburg,Hamburg,53.55,10
 062.109.067.246@
 062.109.067.242@
-062.109.067.254@
 078.048.028.000=0 DE,Hamburg,Hamburg,53.55,10
-062.109.067.250@
-062.109.067.246@
-062.109.067.242@
 062.109.067.254@
+062.109.067.250@
 078.048.029.000=0 DE,Hamburg,Hamburg,53.55,10
 062.109.067.246@
 062.109.067.242@
@@ -137,16 +132,17 @@
 213.191.091.000@
 213.191.090.000@
 078.048.035.000=0 DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
+213.191.090.000@
+213.191.091.002@
+213.191.090.002@
+078.048.036.000=0 DE,Nordrhein-Westfalen,Ennepetal,51.3,7.35
+213.191.090.002@
 213.191.091.000@
 213.191.090.000@
 213.191.091.002@
-078.048.036.000=0 DE,Nordrhein-Westfalen,Ennepetal,51.3,7.35
-213.191.090.002@
-213.191.090.000@
 078.048.037.000=0 DE,Nordrhein-Westfalen,Langenfeld,51.1,6.95
-213.191.090.000@
-213.191.090.002@
 213.191.091.000@
+213.191.090.000@
 078.048.038.000=0 DE,Nordrhein-Westfalen,Bonn,50.7333,7.1
 213.191.091.000@
 213.191.090.000@
@@ -155,7 +151,9 @@
 213.191.090.000@
 =======8
 078.048.040.000=0 DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
+213.191.090.002@
 213.191.090.000@
+213.191.091.002@
 213.191.091.000@
 078.048.041.000=0 DE,Nordrhein-Westfalen,Dortmund,51.5167,7.45
 213.191.091.000@
@@ -163,14 +161,16 @@
 213.191.091.002@
 213.191.090.000@
 078.048.042.000=0 DE,Nordrhein-Westfalen,Köln,50.9333,6.95
-213.191.091.000@
 213.191.090.000@
+213.191.091.000@
 078.048.043.000=0 DE,Nordrhein-Westfalen,Velbert,51.3333,7.05
 213.191.090.000@
 213.191.091.000@
 078.048.044.000=0 DE,Nordrhein-Westfalen,Leverkusen,51.0167,6.9833
-213.191.091.000@
 213.191.090.000@
+213.191.090.002@
+213.191.091.002@
+213.191.091.000@
 078.048.045.000=0 DE,Nordrhein-Westfalen,Ennepetal,51.3,7.35
 213.191.090.000@
 213.191.091.000@
@@ -179,11 +179,13 @@
 213.191.066.006~so-1-1-0-0.cr01.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
 213.191.087.250~so-7-0-0-0.cr01.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
 213.191.087.145~so-7-1-0-0.cr01.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
-213.191.066.029~so-1-0-0-0.cr01.dus.de.hansenet.net
-213.191.087.157~so-6-1-0-0.cr01.dus.de.hansenet.net
-213.191.087.222~so-6-0-0-0.cr02.dus.de.hansenet.net
-213.191.066.010~so-1-1-0-0.cr02.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
 213.191.087.246~so-6-0-0-0.cr01.dus.de.hansenet.net
+213.191.066.029~so-1-0-0-0.cr01.dus.de.hansenet.net
+213.191.087.222~so-6-0-0-0.cr02.dus.de.hansenet.net
+213.191.087.169~so-6-1-0-0.cr02.dus.de.hansenet.net
+213.191.066.033~so-1-0-0-0.cr02.dus.de.hansenet.net
+213.191.087.157~so-6-1-0-0.cr01.dus.de.hansenet.net
+213.191.066.010~so-1-1-0-0.cr02.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
 213.191.087.149~so-7-1-0-0.cr02.dus.de.hansenet.net
 078.048.047.255=0*16
 =======16
@@ -207,10 +209,8 @@
 062.109.067.242@
 062.109.067.246@
 078.048.058.000=0 DE,Hamburg,Hamburg,53.55,10
-062.109.067.242@
-062.109.067.254@
-062.109.067.246@
 062.109.067.250@
+062.109.067.254@
 078.048.059.000=0 DE,Hamburg,Hamburg,53.55,10
 062.109.067.242@
 062.109.067.254@
@@ -218,17 +218,14 @@
 078.048.060.000=0 DE,Hamburg,Hamburg,53.55,10
 213.191.066.174@
 078.048.061.000=0 DE,Hamburg,Hamburg,53.55,10
-062.109.067.254@
-062.109.067.250@
-062.109.067.242@
+213.191.066.182@
+213.191.066.174@
 078.048.062.000=0 DE,Hamburg,Hamburg,53.55,10
-062.109.067.254@
-062.109.067.246@
-062.109.067.242@
 062.109.067.250@
+062.109.067.246@
 078.048.063.000=0 DE,Hamburg,Hamburg,53.55,10
 078.048.063.000!0 DE,Berlin,Berlin,52.5167,13.4
-062.109.067.242@
+062.109.067.250@
 062.109.067.246@
 213.191.087.129~so-0-2-0-0.cr01.weham.de.hansenet.net
 213.191.087.137~so-0-2-0-0.cr01.asham.de.hansenet.net
@@ -236,8 +233,8 @@
 213.191.066.013~so-0-0-0-0.cr01.weham.de.hansenet.net
 213.191.066.074~ae2-0.cr01.weham.de.hansenet.net
 213.191.066.078~ae2-0.cr01.asham.de.hansenet.net
-213.191.066.017~so-0-0-0-0.cr01.asham.de.hansenet.net
 213.191.087.217~so-0-1-0-0.cr01.weham.de.hansenet.net
+213.191.066.017~so-0-0-0-0.cr01.asham.de.hansenet.net
 084.016.007.234~HANSENET-0-0-grtdusix1.red.telefonica-wholesale.net
 078.048.063.255=0*8
 =======64
@@ -291,12 +288,12 @@
 213.191.091.000@
 213.191.090.000@
 078.048.075.000=0 DE,Nordrhein-Westfalen,Köln,50.9333,6.95
-213.191.091.000@
 213.191.090.000@
+213.191.091.002@
+213.191.091.000@
 078.048.076.000=0 DE,Nordrhein-Westfalen,Köln,50.9333,6.95
-213.191.091.000@
 213.191.090.000@
-213.191.090.002@
+213.191.091.000@
 078.048.077.000=0 DE,Nordrhein-Westfalen,Leverkusen,51.0167,6.9833
 213.191.091.000@
 213.191.090.000@
@@ -309,7 +306,7 @@
 213.191.087.250~so-7-0-0-0.cr01.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
 213.191.066.006~so-1-1-0-0.cr01.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
 213.191.087.145~so-7-1-0-0.cr01.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
-213.191.087.246~so-6-0-0-0.cr01.dus.de.hansenet.net
+213.191.066.033~so-1-0-0-0.cr02.dus.de.hansenet.net
 078.048.079.255=0*16
 =======16
 078.048.080.000=0 DE,,,51,9
@@ -352,10 +349,8 @@
 213.191.066.182@
 213.191.066.174@
 078.048.095.000=0 DE,Hamburg,Hamburg,53.55,10
-062.109.067.242@
 062.109.067.246@
 062.109.067.254@
-062.109.067.250@
 213.191.066.074~ae2-0.cr01.weham.de.hansenet.net
 213.191.066.078~ae2-0.cr01.asham.de.hansenet.net
 084.016.007.234~HANSENET-0-0-grtdusix1.red.telefonica-wholesale.net
@@ -381,9 +376,8 @@
 213.191.091.002@
 213.191.090.000@
 078.048.099.000=0 DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
-213.191.091.000@
-213.191.091.002@
 213.191.090.000@
+213.191.090.002@
 078.048.100.000=0 DE,Nordrhein-Westfalen,Remscheid,51.1833,7.2
 213.191.091.002@
 213.191.091.000@
@@ -393,9 +387,9 @@
 213.191.091.002@
 213.191.090.000@
 078.048.102.000=0 DE,Nordrhein-Westfalen,Herdecke,51.4,7.4333
-213.191.090.002@
-213.191.091.000@
 213.191.091.002@
+213.191.091.000@
+213.191.090.000@
 078.048.103.000=0 DE,Nordrhein-Westfalen,Köln,50.9333,6.95
 213.191.090.002@
 213.191.090.000@
@@ -412,21 +406,23 @@
 213.191.087.222~so-6-0-0-0.cr02.dus.de.hansenet.net
 =======8
 078.048.104.000=0 DE,Nordrhein-Westfalen,Solingen,51.1833,7.0833
-213.191.091.002@
 213.191.090.002@
-213.191.091.000@
 213.191.090.000@
+213.191.091.002@
 078.048.105.000=0 DE,Nordrhein-Westfalen,Wuppertal,51.2667,7.1833
 213.191.090.002@
 213.191.090.000@
 213.191.091.002@
+213.191.091.000@
 078.048.106.000=0 DE,Nordrhein-Westfalen,Essen,51.45,7.0167
 213.191.090.000@
 213.191.090.002@
 213.191.091.000@
 078.048.107.000=0 DE,Nordrhein-Westfalen,Ennepetal,51.3,7.35
-213.191.090.002@
+213.191.091.000@
 213.191.090.000@
+213.191.090.002@
+213.191.091.002@
 078.048.108.000=0 DE,Nordrhein-Westfalen,Wuppertal,51.2667,7.1833
 213.191.091.000@
 213.191.091.002@
@@ -435,18 +431,18 @@
 213.191.091.002@
 078.048.110.000=0 DE,Nordrhein-Westfalen,Köln,50.9333,6.95
 078.048.111.000=0 DE,Nordrhein-Westfalen,Köln,50.9333,6.95
-213.191.087.222~so-6-0-0-0.cr02.dus.de.hansenet.net
-213.191.066.033~so-1-0-0-0.cr02.dus.de.hansenet.net
-213.191.087.246~so-6-0-0-0.cr01.dus.de.hansenet.net
-213.191.066.010~so-1-1-0-0.cr02.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
-213.191.087.145~so-7-1-0-0.cr01.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
-213.191.087.149~so-7-1-0-0.cr02.dus.de.hansenet.net
-213.191.087.154~so-7-0-0-0.cr02.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
-213.191.066.006~so-1-1-0-0.cr01.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
-213.191.087.250~so-7-0-0-0.cr01.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
-213.191.066.029~so-1-0-0-0.cr01.dus.de.hansenet.net
 213.191.087.169~so-6-1-0-0.cr02.dus.de.hansenet.net
+213.191.087.246~so-6-0-0-0.cr01.dus.de.hansenet.net
+213.191.066.033~so-1-0-0-0.cr02.dus.de.hansenet.net
+213.191.066.029~so-1-0-0-0.cr01.dus.de.hansenet.net
+213.191.087.149~so-7-1-0-0.cr02.dus.de.hansenet.net
+213.191.087.250~so-7-0-0-0.cr01.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
+213.191.066.006~so-1-1-0-0.cr01.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
+213.191.087.154~so-7-0-0-0.cr02.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
+213.191.087.145~so-7-1-0-0.cr01.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
+213.191.066.010~so-1-1-0-0.cr02.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
 213.191.087.157~so-6-1-0-0.cr01.dus.de.hansenet.net
+213.191.087.222~so-6-0-0-0.cr02.dus.de.hansenet.net
 078.048.111.255=0*16
 =======16
 078.048.112.000=0 DE,,,51,9
@@ -460,9 +456,9 @@
 078.048.119.255=0*8
 =======8
 078.048.120.000=0 DE,Hamburg,Hamburg,53.55,10
-062.109.067.246@
-062.109.067.254@
 062.109.067.242@
+062.109.067.254@
+062.109.067.246@
 078.048.121.000=0 DE,Hamburg,Hamburg,53.55,10
 062.109.067.250@
 062.109.067.254@
@@ -492,12 +488,12 @@
 062.109.067.246@
 062.109.067.242@
 062.109.067.254@
+213.191.087.129~so-0-2-0-0.cr01.weham.de.hansenet.net
 213.191.066.017~so-0-0-0-0.cr01.asham.de.hansenet.net
-213.191.087.137~so-0-2-0-0.cr01.asham.de.hansenet.net
-213.191.087.217~so-0-1-0-0.cr01.weham.de.hansenet.net
 213.191.087.237~so-0-1-0-0.cr01.asham.de.hansenet.net
 213.191.066.013~so-0-0-0-0.cr01.weham.de.hansenet.net
-213.191.087.129~so-0-2-0-0.cr01.weham.de.hansenet.net
+213.191.087.217~so-0-1-0-0.cr01.weham.de.hansenet.net
+213.191.087.137~so-0-2-0-0.cr01.asham.de.hansenet.net
 213.191.066.078~ae2-0.cr01.asham.de.hansenet.net
 213.191.066.074~ae2-0.cr01.weham.de.hansenet.net
 078.048.127.255=0*8
@@ -505,12 +501,12 @@
 078.048.128.000=0 DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
 078.048.128.000=0 DE,Nordrhein-Westfalen,Ennepetal,51.3,7.35
 213.191.091.000@
-213.191.091.002@
-213.191.090.000@
-078.048.129.000=0 DE,Nordrhein-Westfalen,Köln,50.9333,6.95
 213.191.090.000@
 213.191.090.002@
-213.191.091.002@
+078.048.129.000=0 DE,Nordrhein-Westfalen,Köln,50.9333,6.95
+213.191.090.002@
+213.191.091.000@
+213.191.090.000@
 078.048.130.000=0 DE,Nordrhein-Westfalen,Köln,50.9333,6.95
 213.191.090.002@
 213.191.091.000@
@@ -522,36 +518,33 @@
 213.191.091.002@
 213.191.090.000@
 078.048.133.000=0 DE,Nordrhein-Westfalen,Ennepetal,51.3,7.35
-213.191.091.002@
-213.191.090.002@
-213.191.090.000@
 213.191.091.000@
+213.191.091.002@
+213.191.090.000@
 078.048.134.000=0 DE,Nordrhein-Westfalen,Dortmund,51.5167,7.45
 213.191.091.002@
 213.191.090.002@
 213.191.091.000@
 078.048.135.000=0 DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
+213.191.090.002@
+213.191.091.002@
 213.191.091.000@
+213.191.090.000@
+213.191.066.029~so-1-0-0-0.cr01.dus.de.hansenet.net
+213.191.087.246~so-6-0-0-0.cr01.dus.de.hansenet.net
+213.191.066.033~so-1-0-0-0.cr02.dus.de.hansenet.net
+213.191.066.010~so-1-1-0-0.cr02.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
+213.191.087.145~so-7-1-0-0.cr01.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
+213.191.066.006~so-1-1-0-0.cr01.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
+213.191.087.154~so-7-0-0-0.cr02.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
+213.191.087.149~so-7-1-0-0.cr02.dus.de.hansenet.net
+213.191.087.250~so-7-0-0-0.cr01.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
+213.191.087.169~so-6-1-0-0.cr02.dus.de.hansenet.net
+=======8
+078.048.136.000=0 DE,Nordrhein-Westfalen,Werdohl,51.2667,7.7667
 213.191.090.002@
 213.191.090.000@
 213.191.091.002@
-213.191.066.029~so-1-0-0-0.cr01.dus.de.hansenet.net
-213.191.087.246~so-6-0-0-0.cr01.dus.de.hansenet.net
-213.191.087.222~so-6-0-0-0.cr02.dus.de.hansenet.net
-213.191.087.157~so-6-1-0-0.cr01.dus.de.hansenet.net
-213.191.066.033~so-1-0-0-0.cr02.dus.de.hansenet.net
-213.191.087.149~so-7-1-0-0.cr02.dus.de.hansenet.net
-213.191.066.006~so-1-1-0-0.cr01.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
-213.191.087.154~so-7-0-0-0.cr02.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
-213.191.066.010~so-1-1-0-0.cr02.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
-213.191.087.169~so-6-1-0-0.cr02.dus.de.hansenet.net
-213.191.087.250~so-7-0-0-0.cr01.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
-213.191.087.145~so-7-1-0-0.cr01.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
-=======8
-078.048.136.000=0 DE,Nordrhein-Westfalen,Werdohl,51.2667,7.7667
-213.191.090.000@
-213.191.091.002@
-213.191.091.000@
 078.048.137.000=0 DE,Nordrhein-Westfalen,Köln,50.9333,6.95
 213.191.090.002@
 213.191.091.002@
@@ -569,20 +562,21 @@
 213.191.090.002@
 078.048.141.000=0 DE,Nordrhein-Westfalen,Velbert,51.3333,7.05
 213.191.090.002@
-213.191.091.000@
 213.191.090.000@
-213.191.091.002@
 078.048.142.000=0 DE,Nordrhein-Westfalen,Köln,50.9333,6.95
 078.048.143.000=0 DE,Nordrhein-Westfalen,Köln,50.9333,6.95
+213.191.066.033~so-1-0-0-0.cr02.dus.de.hansenet.net
+213.191.087.246~so-6-0-0-0.cr01.dus.de.hansenet.net
+213.191.066.029~so-1-0-0-0.cr01.dus.de.hansenet.net
+213.191.087.222~so-6-0-0-0.cr02.dus.de.hansenet.net
+213.191.087.169~so-6-1-0-0.cr02.dus.de.hansenet.net
+213.191.087.157~so-6-1-0-0.cr01.dus.de.hansenet.net
 213.191.087.250~so-7-0-0-0.cr01.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
+213.191.066.010~so-1-1-0-0.cr02.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
+213.191.087.149~so-7-1-0-0.cr02.dus.de.hansenet.net
 213.191.066.006~so-1-1-0-0.cr01.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
 213.191.087.154~so-7-0-0-0.cr02.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
-213.191.066.010~so-1-1-0-0.cr02.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
-213.191.066.033~so-1-0-0-0.cr02.dus.de.hansenet.net
-213.191.087.169~so-6-1-0-0.cr02.dus.de.hansenet.net
-213.191.087.222~so-6-0-0-0.cr02.dus.de.hansenet.net
-213.191.087.157~so-6-1-0-0.cr01.dus.de.hansenet.net
-213.191.087.149~so-7-1-0-0.cr02.dus.de.hansenet.net
+213.191.087.145~so-7-1-0-0.cr01.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
 078.048.143.255=0*16
 =======16
 078.048.144.000=0 DE,,,51,9
@@ -598,8 +592,6 @@
 078.048.152.000=0 DE,Hamburg,Hamburg,53.55,10
 062.109.067.254@
 062.109.067.250@
-062.109.067.246@
-062.109.067.242@
 078.048.153.000=0 DE,Hamburg,Hamburg,53.55,10
 213.191.066.182@
 213.191.066.174@
@@ -611,8 +603,7 @@
 062.109.067.250@
 062.109.067.246@
 078.048.156.000=0 DE,Hamburg,Hamburg,53.55,10
-062.109.067.246@
-062.109.067.250@
+062.109.067.242@
 062.109.067.254@
 078.048.157.000=0 DE,Hamburg,Hamburg,53.55,10
 062.109.067.242@
@@ -625,15 +616,15 @@
 062.109.067.242@
 078.048.159.000=0 DE,Hamburg,Hamburg,53.55,10
 213.191.066.182@
-213.191.087.137~so-0-2-0-0.cr01.asham.de.hansenet.net
-213.191.066.013~so-0-0-0-0.cr01.weham.de.hansenet.net
-213.191.066.017~so-0-0-0-0.cr01.asham.de.hansenet.net
+213.191.087.237~so-0-1-0-0.cr01.asham.de.hansenet.net
 213.191.087.129~so-0-2-0-0.cr01.weham.de.hansenet.net
 084.016.007.234~HANSENET-0-0-grtdusix1.red.telefonica-wholesale.net
 213.191.066.074~ae2-0.cr01.weham.de.hansenet.net
 213.191.066.078~ae2-0.cr01.asham.de.hansenet.net
 213.191.087.217~so-0-1-0-0.cr01.weham.de.hansenet.net
-213.191.087.237~so-0-1-0-0.cr01.asham.de.hansenet.net
+213.191.066.017~so-0-0-0-0.cr01.asham.de.hansenet.net
+213.191.066.013~so-0-0-0-0.cr01.weham.de.hansenet.net
+213.191.087.137~so-0-2-0-0.cr01.asham.de.hansenet.net
 078.048.159.255=0*8
 =======32
 078.048.160.000=0 DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
@@ -661,6 +652,8 @@
 213.191.090.002@
 213.191.091.002@
 078.048.167.000=0 DE,Nordrhein-Westfalen,Oer-Erkenschwick,51.6333,7.25
+213.191.091.000@
+213.191.091.002@
 213.191.090.002@
 213.191.066.010~so-1-1-0-0.cr02.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
 213.191.087.149~so-7-1-0-0.cr02.dus.de.hansenet.net
@@ -670,6 +663,8 @@
 213.191.066.033~so-1-0-0-0.cr02.dus.de.hansenet.net
 213.191.087.169~so-6-1-0-0.cr02.dus.de.hansenet.net
 213.191.087.157~so-6-1-0-0.cr01.dus.de.hansenet.net
+213.191.066.029~so-1-0-0-0.cr01.dus.de.hansenet.net
+213.191.087.222~so-6-0-0-0.cr02.dus.de.hansenet.net
 =======8
 078.048.168.000=0 DE,Nordrhein-Westfalen,Köln,50.9333,6.95
 213.191.090.002@
@@ -678,14 +673,14 @@
 213.191.090.000@
 213.191.090.002@
 078.048.170.000=0 DE,Nordrhein-Westfalen,Wipperfürth,51.1167,7.4
-213.191.090.000@
 213.191.091.000@
+213.191.090.000@
 213.191.090.002@
 078.048.171.000=0 DE,Nordrhein-Westfalen,Solingen,51.1833,7.0833
+213.191.091.000@
+213.191.090.002@
 213.191.090.000@
 213.191.091.002@
-213.191.090.002@
-213.191.091.000@
 078.048.172.000=0 DE,Nordrhein-Westfalen,Ennepetal,51.3,7.35
 213.191.091.002@
 213.191.090.002@
@@ -700,12 +695,12 @@
 213.191.066.010~so-1-1-0-0.cr02.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
 213.191.087.154~so-7-0-0-0.cr02.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
 213.191.087.145~so-7-1-0-0.cr01.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
+213.191.066.029~so-1-0-0-0.cr01.dus.de.hansenet.net
+213.191.087.246~so-6-0-0-0.cr01.dus.de.hansenet.net
+213.191.066.033~so-1-0-0-0.cr02.dus.de.hansenet.net
 213.191.087.157~so-6-1-0-0.cr01.dus.de.hansenet.net
 213.191.087.169~so-6-1-0-0.cr02.dus.de.hansenet.net
-213.191.066.029~so-1-0-0-0.cr01.dus.de.hansenet.net
 213.191.087.222~so-6-0-0-0.cr02.dus.de.hansenet.net
-213.191.066.033~so-1-0-0-0.cr02.dus.de.hansenet.net
-213.191.087.246~so-6-0-0-0.cr01.dus.de.hansenet.net
 078.048.175.255=0*16
 =======16
 078.048.176.000=0 DE,,,51,9
@@ -742,19 +737,16 @@
 078.048.192.000=0 DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
 078.048.192.000=0 DE,Nordrhein-Westfalen,Köln,50.9333,6.95
 213.191.090.002@
-213.191.091.002@
+213.191.090.000@
+213.191.091.000@
 078.048.193.000=0 DE,Nordrhein-Westfalen,Langenfeld,51.1,6.95
 213.191.091.000@
 213.191.090.000@
 213.191.090.002@
 078.048.194.000=0 DE,Nordrhein-Westfalen,Köln,50.9333,6.95
 213.191.090.002@
-213.191.090.000@
-213.191.091.002@
 078.048.195.000=0 DE,Nordrhein-Westfalen,Schalksmühle,51.2333,7.5333
 213.191.090.002@
-213.191.090.000@
-213.191.091.002@
 078.048.196.000=0 DE,Nordrhein-Westfalen,Langenfeld,51.1,6.95
 213.191.091.002@
 213.191.090.002@
@@ -767,13 +759,12 @@
 078.048.199.000=0 DE,Nordrhein-Westfalen,Ennepetal,51.3,7.35
 213.191.091.002@
 213.191.090.002@
-213.191.087.149~so-7-1-0-0.cr02.dus.de.hansenet.net
-213.191.087.154~so-7-0-0-0.cr02.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
-213.191.066.029~so-1-0-0-0.cr01.dus.de.hansenet.net
 213.191.087.222~so-6-0-0-0.cr02.dus.de.hansenet.net
+213.191.087.246~so-6-0-0-0.cr01.dus.de.hansenet.net
+213.191.066.029~so-1-0-0-0.cr01.dus.de.hansenet.net
 213.191.087.157~so-6-1-0-0.cr01.dus.de.hansenet.net
-213.191.087.169~so-6-1-0-0.cr02.dus.de.hansenet.net
-213.191.066.033~so-1-0-0-0.cr02.dus.de.hansenet.net
+213.191.087.154~so-7-0-0-0.cr02.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
+213.191.087.149~so-7-1-0-0.cr02.dus.de.hansenet.net
 213.191.066.010~so-1-1-0-0.cr02.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
 213.191.066.006~so-1-1-0-0.cr01.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
 213.191.087.145~so-7-1-0-0.cr01.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
@@ -782,15 +773,15 @@
 213.191.090.002@
 213.191.091.002@
 078.048.201.000=0 DE,Nordrhein-Westfalen,Köln,50.9333,6.95
-213.191.091.002@
 213.191.090.002@
+213.191.091.002@
 078.048.202.000=0 DE,Nordrhein-Westfalen,Neuss,51.2,6.6833
 213.191.090.000@
 213.191.091.000@
 213.191.091.002@
 078.048.203.000=0 DE,Nordrhein-Westfalen,Bonn,50.7333,7.1
-213.191.090.002@
-213.191.091.002@
+213.191.091.000@
+213.191.090.000@
 078.048.204.000=0 DE,Nordrhein-Westfalen,Ennepetal,51.3,7.35
 213.191.090.002@
 213.191.091.002@
@@ -830,16 +821,17 @@
 =======32
 078.048.224.000=0 DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
 078.048.224.000=0 DE,Nordrhein-Westfalen,Köln,50.9333,6.95
+213.191.090.000@
 213.191.090.002@
-213.191.091.002@
+213.191.091.000@
 078.048.225.000=0 DE,Nordrhein-Westfalen,Ennepetal,51.3,7.35
 213.191.091.002@
 213.191.090.002@
 078.048.226.000=0 DE,Nordrhein-Westfalen,Herdecke,51.4,7.4333
-213.191.091.002@
-213.191.091.000@
-213.191.090.000@
 213.191.090.002@
+213.191.090.000@
+213.191.091.000@
+213.191.091.002@
 078.048.227.000=0 DE,Nordrhein-Westfalen,Ennepetal,51.3,7.35
 213.191.090.002@
 213.191.091.000@
@@ -853,40 +845,37 @@
 213.191.091.000@
 213.191.090.002@
 078.048.230.000=0 DE,Nordrhein-Westfalen,Neuenrade,51.2833,7.7833
-213.191.091.002@
-213.191.090.002@
-078.048.231.000=0 DE,Nordrhein-Westfalen,Herne,51.55,7.2167
 213.191.090.002@
 213.191.090.000@
 213.191.091.002@
-213.191.087.149~so-7-1-0-0.cr02.dus.de.hansenet.net
-213.191.066.010~so-1-1-0-0.cr02.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
-213.191.087.154~so-7-0-0-0.cr02.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
-213.191.087.169~so-6-1-0-0.cr02.dus.de.hansenet.net
-213.191.087.157~so-6-1-0-0.cr01.dus.de.hansenet.net
-213.191.066.033~so-1-0-0-0.cr02.dus.de.hansenet.net
+078.048.231.000=0 DE,Nordrhein-Westfalen,Herne,51.55,7.2167
+213.191.090.000@
+213.191.090.002@
+213.191.091.000@
+213.191.091.002@
 213.191.087.250~so-7-0-0-0.cr01.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
-213.191.066.006~so-1-1-0-0.cr01.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
-213.191.087.222~so-6-0-0-0.cr02.dus.de.hansenet.net
-213.191.087.246~so-6-0-0-0.cr01.dus.de.hansenet.net
-213.191.066.029~so-1-0-0-0.cr01.dus.de.hansenet.net
 213.191.087.145~so-7-1-0-0.cr01.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
+213.191.087.154~so-7-0-0-0.cr02.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
+213.191.087.149~so-7-1-0-0.cr02.dus.de.hansenet.net
+213.191.087.222~so-6-0-0-0.cr02.dus.de.hansenet.net
+213.191.087.157~so-6-1-0-0.cr01.dus.de.hansenet.net
+213.191.066.029~so-1-0-0-0.cr01.dus.de.hansenet.net
+213.191.087.169~so-6-1-0-0.cr02.dus.de.hansenet.net
+213.191.066.006~so-1-1-0-0.cr01.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
+213.191.087.246~so-6-0-0-0.cr01.dus.de.hansenet.net
 =======8
 078.048.232.000=0 DE,Nordrhein-Westfalen,Bonn,50.7333,7.1
 213.191.091.000@
 213.191.091.002@
 213.191.090.002@
 078.048.233.000=0 DE,Nordrhein-Westfalen,Wuppertal,51.2667,7.1833
-213.191.091.000@
-213.191.090.002@
 213.191.091.002@
+213.191.090.002@
 078.048.234.000=0 DE,Nordrhein-Westfalen,Solingen,51.1833,7.0833
 213.191.091.002@
-213.191.091.000@
 213.191.090.002@
 078.048.235.000=0 DE,Nordrhein-Westfalen,Köln,50.9333,6.95
-213.191.090.002@
-213.191.091.002@
+213.191.090.000@
 078.048.236.000=0 DE,Nordrhein-Westfalen,Köln,50.9333,6.95
 213.191.090.002@
 213.191.091.002@
@@ -899,10 +888,8 @@
 213.191.087.154~so-7-0-0-0.cr02.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
 213.191.087.149~so-7-1-0-0.cr02.dus.de.hansenet.net
 213.191.066.010~so-1-1-0-0.cr02.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
-213.191.087.157~so-6-1-0-0.cr01.dus.de.hansenet.net
-213.191.087.169~so-6-1-0-0.cr02.dus.de.hansenet.net
-213.191.087.246~so-6-0-0-0.cr01.dus.de.hansenet.net
-213.191.087.222~so-6-0-0-0.cr02.dus.de.hansenet.net
+213.191.087.250~so-7-0-0-0.cr01.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
+213.191.066.006~so-1-1-0-0.cr01.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
 078.048.239.255=0*16
 =======16
 078.048.240.000=0 DE,Niedersachsen,Osnabrück,52.2667,8.05
@@ -933,13 +920,12 @@
 213.191.091.002@
 213.191.090.002@
 078.049.002.000=0 DE,Nordrhein-Westfalen,Ennepetal,51.3,7.35
-213.191.090.000@
 213.191.091.002@
 213.191.090.002@
 078.049.003.000=0 DE,Nordrhein-Westfalen,Mettmann,51.25,6.9667
-213.191.090.000@
-213.191.091.002@
 213.191.091.000@
+213.191.090.000@
+213.191.090.002@
 078.049.004.000=0 DE,Nordrhein-Westfalen,Solingen,51.1833,7.0833
 213.191.091.002@
 213.191.090.002@
@@ -959,18 +945,18 @@
 213.191.066.010~so-1-1-0-0.cr02.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
 213.191.087.154~so-7-0-0-0.cr02.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
 213.191.087.149~so-7-1-0-0.cr02.dus.de.hansenet.net
-213.191.066.033~so-1-0-0-0.cr02.dus.de.hansenet.net
-213.191.087.169~so-6-1-0-0.cr02.dus.de.hansenet.net
-213.191.066.006~so-1-1-0-0.cr01.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
 213.191.087.250~so-7-0-0-0.cr01.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
+213.191.087.145~so-7-1-0-0.cr01.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
+213.191.066.006~so-1-1-0-0.cr01.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
+213.191.087.169~so-6-1-0-0.cr02.dus.de.hansenet.net
 213.191.087.222~so-6-0-0-0.cr02.dus.de.hansenet.net
 =======8
 078.049.008.000=0 DE,Nordrhein-Westfalen,Köln,50.9333,6.95
 213.191.090.002@
 213.191.091.002@
 078.049.009.000=0 DE,Nordrhein-Westfalen,Iserlohn,51.3667,7.7
-213.191.091.002@
 213.191.090.002@
+213.191.091.002@
 078.049.010.000=0 DE,Nordrhein-Westfalen,Ennepetal,51.3,7.35
 213.191.091.002@
 213.191.090.002@
@@ -983,18 +969,22 @@
 213.191.091.002@
 213.191.090.002@
 078.049.013.000=0 DE,Nordrhein-Westfalen,Ennepetal,51.3,7.35
-213.191.090.002@
+213.191.090.000@
 213.191.091.002@
+213.191.090.002@
 078.049.014.000=0 DE,Nordrhein-Westfalen,Köln,50.9333,6.95
 078.049.015.000=0 DE,Nordrhein-Westfalen,Köln,50.9525,6.9571
-213.191.087.149~so-7-1-0-0.cr02.dus.de.hansenet.net
 213.191.087.154~so-7-0-0-0.cr02.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
+213.191.087.149~so-7-1-0-0.cr02.dus.de.hansenet.net
 213.191.066.010~so-1-1-0-0.cr02.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
 213.191.087.157~so-6-1-0-0.cr01.dus.de.hansenet.net
 213.191.087.169~so-6-1-0-0.cr02.dus.de.hansenet.net
 213.191.087.246~so-6-0-0-0.cr01.dus.de.hansenet.net
 213.191.087.222~so-6-0-0-0.cr02.dus.de.hansenet.net
 213.191.066.033~so-1-0-0-0.cr02.dus.de.hansenet.net
+213.191.087.250~so-7-0-0-0.cr01.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
+213.191.087.145~so-7-1-0-0.cr01.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
+213.191.066.006~so-1-1-0-0.cr01.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
 078.049.015.255=0*16
 =======16
 078.049.016.000=0 DE,,,51,9
@@ -1015,21 +1005,18 @@
 062.109.067.242@
 062.109.067.250@
 078.049.029.000=0 DE,Hamburg,Hamburg,53.55,10
-062.109.067.250@
 062.109.067.242@
+062.109.067.250@
 078.049.030.000=0 DE,Hamburg,Hamburg,53.55,10
 062.109.067.250@
 062.109.067.242@
 078.049.031.000=0 DE,Hamburg,Hamburg,53.55,10
-062.109.067.246@
-062.109.067.250@
-062.109.067.254@
-062.109.067.242@
+213.191.066.182@
+213.191.066.174@
 213.191.087.129~so-0-2-0-0.cr01.weham.de.hansenet.net
 213.191.066.013~so-0-0-0-0.cr01.weham.de.hansenet.net
 213.191.087.217~so-0-1-0-0.cr01.weham.de.hansenet.net
-213.191.066.078~ae2-0.cr01.asham.de.hansenet.net
-213.191.066.074~ae2-0.cr01.weham.de.hansenet.net
+084.016.007.234~HANSENET-0-0-grtdusix1.red.telefonica-wholesale.net
 078.049.031.255=0*8
 =======32
 078.049.032.000=0 DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
@@ -1044,16 +1031,15 @@
 213.191.091.000@
 213.191.090.000@
 078.049.035.000=0 DE,Nordrhein-Westfalen,Mettmann,51.25,6.9667
+213.191.091.000@
+213.191.090.000@
+078.049.036.000=0 DE,Nordrhein-Westfalen,Herne,51.55,7.2167
 213.191.090.000@
 213.191.091.000@
-078.049.036.000=0 DE,Nordrhein-Westfalen,Herne,51.55,7.2167
+078.049.037.000=0 DE,Nordrhein-Westfalen,Witten,51.4333,7.3333
 213.191.090.000@
 213.191.091.002@
 213.191.090.002@
-078.049.037.000=0 DE,Nordrhein-Westfalen,Witten,51.4333,7.3333
-213.191.090.000@
-213.191.090.002@
-213.191.091.000@
 078.049.038.000=0 DE,Nordrhein-Westfalen,Köln,50.9333,6.95
 213.191.091.002@
 213.191.091.000@
@@ -1066,12 +1052,11 @@
 213.191.087.145~so-7-1-0-0.cr01.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
 213.191.066.006~so-1-1-0-0.cr01.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
 213.191.066.010~so-1-1-0-0.cr02.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
-213.191.066.029~so-1-0-0-0.cr01.dus.de.hansenet.net
-213.191.087.169~so-6-1-0-0.cr02.dus.de.hansenet.net
 213.191.087.157~so-6-1-0-0.cr01.dus.de.hansenet.net
 213.191.087.246~so-6-0-0-0.cr01.dus.de.hansenet.net
 213.191.066.033~so-1-0-0-0.cr02.dus.de.hansenet.net
 213.191.087.222~so-6-0-0-0.cr02.dus.de.hansenet.net
+213.191.087.169~so-6-1-0-0.cr02.dus.de.hansenet.net
 =======8
 078.049.040.000=0 DE,Nordrhein-Westfalen,Hagen,51.35,7.4667
 213.191.091.000@
@@ -1080,8 +1065,8 @@
 213.191.090.000@
 213.191.091.000@
 078.049.042.000=0 DE,Nordrhein-Westfalen,Dortmund,51.5167,7.45
-213.191.090.000@
 213.191.091.000@
+213.191.090.000@
 078.049.043.000=0 DE,Nordrhein-Westfalen,Köln,50.9333,6.95
 213.191.090.000@
 213.191.091.000@
@@ -1111,17 +1096,19 @@
 078.049.055.255=0*8
 =======8
 078.049.056.000=0 DE,Hamburg,Hamburg,53.55,10
-213.191.066.174@
-213.191.066.182@
-078.049.057.000=0 DE,Hamburg,Hamburg,53.55,10
-062.109.067.246@
-062.109.067.242@
-078.049.058.000=0 DE,Hamburg,Hamburg,53.55,10
 062.109.067.250@
 062.109.067.242@
-078.049.059.000=0 DE,Hamburg,Hamburg,53.55,10
+062.109.067.254@
+078.049.057.000=0 DE,Hamburg,Hamburg,53.55,10
 062.109.067.242@
+062.109.067.250@
+078.049.058.000=0 DE,Hamburg,Hamburg,53.55,10
+062.109.067.242@
+062.109.067.250@
+078.049.059.000=0 DE,Hamburg,Hamburg,53.55,10
 062.109.067.246@
+062.109.067.250@
+062.109.067.254@
 078.049.060.000=0 DE,Hamburg,Hamburg,53.55,10
 062.109.067.250@
 062.109.067.254@
@@ -1130,23 +1117,22 @@
 062.109.067.250@
 062.109.067.242@
 078.049.062.000=0 DE,Hamburg,Hamburg,53.55,10
-213.191.066.174@
-213.191.066.182@
+062.109.067.250@
+062.109.067.242@
 078.049.063.000=0 DE,Hamburg,Hamburg,53.55,10
 062.109.067.250@
 062.109.067.242@
-084.016.007.234~HANSENET-0-0-grtdusix1.red.telefonica-wholesale.net
-213.191.066.078~ae2-0.cr01.asham.de.hansenet.net
 213.191.066.074~ae2-0.cr01.weham.de.hansenet.net
-213.191.087.129~so-0-2-0-0.cr01.weham.de.hansenet.net
-213.191.087.217~so-0-1-0-0.cr01.weham.de.hansenet.net
+213.191.066.078~ae2-0.cr01.asham.de.hansenet.net
 213.191.066.013~so-0-0-0-0.cr01.weham.de.hansenet.net
+213.191.087.217~so-0-1-0-0.cr01.weham.de.hansenet.net
+213.191.087.129~so-0-2-0-0.cr01.weham.de.hansenet.net
 078.049.063.255=0*8
 =======64
 078.049.064.000=0 DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
 078.049.064.000=0 DE,Nordrhein-Westfalen,Ennepetal,51.3,7.35
-213.191.090.000@
 213.191.091.000@
+213.191.090.000@
 078.049.065.000=0 DE,Nordrhein-Westfalen,Witten,51.4333,7.3333
 213.191.090.000@
 213.191.091.000@
@@ -1162,24 +1148,25 @@
 213.191.091.002@
 078.049.069.000=0 DE,Nordrhein-Westfalen,Köln,50.9333,6.95
 213.191.090.000@
-213.191.090.002@
+213.191.091.000@
+213.191.091.002@
 078.049.070.000=0 DE,Nordrhein-Westfalen,Gladbeck,51.5667,6.9833
 213.191.090.000@
 213.191.091.002@
 213.191.091.000@
 078.049.071.000=0 DE,Nordrhein-Westfalen,Essen,51.45,7.0167
-213.191.091.000@
-213.191.090.002@
 213.191.091.002@
+213.191.090.000@
+213.191.091.000@
+213.191.087.246~so-6-0-0-0.cr01.dus.de.hansenet.net
 213.191.066.029~so-1-0-0-0.cr01.dus.de.hansenet.net
 213.191.087.157~so-6-1-0-0.cr01.dus.de.hansenet.net
-213.191.087.246~so-6-0-0-0.cr01.dus.de.hansenet.net
 213.191.087.145~so-7-1-0-0.cr01.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
 213.191.066.006~so-1-1-0-0.cr01.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
 213.191.087.250~so-7-0-0-0.cr01.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
 213.191.087.222~so-6-0-0-0.cr02.dus.de.hansenet.net
-213.191.066.033~so-1-0-0-0.cr02.dus.de.hansenet.net
 213.191.087.169~so-6-1-0-0.cr02.dus.de.hansenet.net
+213.191.087.149~so-7-1-0-0.cr02.dus.de.hansenet.net
 =======8
 078.049.072.000=0 DE,Nordrhein-Westfalen,Essen,51.45,7.0167
 213.191.090.000@
@@ -1191,14 +1178,15 @@
 213.191.090.000@
 213.191.091.000@
 078.049.075.000=0 DE,Nordrhein-Westfalen,Ennepetal,51.3,7.35
-213.191.090.000@
+213.191.090.002@
+213.191.091.002@
 213.191.091.000@
 078.049.076.000=0 DE,Nordrhein-Westfalen,Köln,50.9333,6.95
 213.191.090.000@
 213.191.091.000@
 078.049.077.000=0 DE,Nordrhein-Westfalen,Velbert,51.3333,7.05
-213.191.091.000@
 213.191.090.000@
+213.191.091.000@
 078.049.078.000=0 DE,Nordrhein-Westfalen,Köln,50.9333,6.95
 078.049.079.000=0 DE,Nordrhein-Westfalen,Köln,50.9333,6.95
 213.191.087.250~so-7-0-0-0.cr01.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
@@ -1206,9 +1194,7 @@
 213.191.087.149~so-7-1-0-0.cr02.dus.de.hansenet.net
 213.191.066.010~so-1-1-0-0.cr02.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
 213.191.066.006~so-1-1-0-0.cr01.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
-213.191.087.157~so-6-1-0-0.cr01.dus.de.hansenet.net
-213.191.087.246~so-6-0-0-0.cr01.dus.de.hansenet.net
-213.191.066.029~so-1-0-0-0.cr01.dus.de.hansenet.net
+213.191.087.154~so-7-0-0-0.cr02.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
 078.049.079.255=0*16
 =======16
 078.049.080.000=0 DE,Nordrhein-Westfalen,Marienheide,51.0833,7.5333
@@ -1230,33 +1216,31 @@
 062.109.067.242@
 062.109.067.254@
 078.049.090.000=0 DE,Hamburg,Hamburg,53.55,10
+062.109.067.250@
+062.109.067.242@
+078.049.091.000=0 DE,Hamburg,Hamburg,53.55,10
 062.109.067.254@
 062.109.067.242@
 062.109.067.250@
-062.109.067.246@
-078.049.091.000=0 DE,Hamburg,Hamburg,53.55,10
+078.049.092.000=0 DE,Hamburg,Hamburg,53.55,10
 062.109.067.250@
 062.109.067.242@
-078.049.092.000=0 DE,Hamburg,Hamburg,53.55,10
-213.191.066.182@
-213.191.066.174@
 078.049.093.000=0 DE,Hamburg,Hamburg,53.55,10
 062.109.067.246@
 062.109.067.254@
-062.109.067.250@
+062.109.067.242@
 078.049.094.000=0 DE,Hamburg,Hamburg,53.55,10
 062.109.067.250@
 062.109.067.242@
 078.049.095.000=0 DE,Hamburg,Hamburg,53.55,10
 062.109.067.246@
+062.109.067.250@
 062.109.067.254@
-062.109.067.242@
 213.191.066.013~so-0-0-0-0.cr01.weham.de.hansenet.net
 213.191.087.217~so-0-1-0-0.cr01.weham.de.hansenet.net
 213.191.087.129~so-0-2-0-0.cr01.weham.de.hansenet.net
 213.191.066.078~ae2-0.cr01.asham.de.hansenet.net
 213.191.066.074~ae2-0.cr01.weham.de.hansenet.net
-084.016.007.234~HANSENET-0-0-grtdusix1.red.telefonica-wholesale.net
 078.049.095.255=0*8
 =======32
 078.049.096.000=0 DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
@@ -1273,11 +1257,13 @@
 213.191.091.002@
 213.191.090.002@
 078.049.101.000=0 DE,Nordrhein-Westfalen,Witten,51.4333,7.3333
+213.191.090.002@
+213.191.091.002@
+078.049.102.000=0 DE,Nordrhein-Westfalen,Köln,50.9333,6.95
+213.191.090.000@
+213.191.091.000@
 213.191.091.002@
 213.191.090.002@
-078.049.102.000=0 DE,Nordrhein-Westfalen,Köln,50.9333,6.95
-213.191.091.000@
-213.191.090.000@
 078.049.103.000=0 DE,Nordrhein-Westfalen,Hagen,51.35,7.4667
 213.191.091.000@
 213.191.091.002@
@@ -1287,10 +1273,9 @@
 213.191.087.246~so-6-0-0-0.cr01.dus.de.hansenet.net
 213.191.087.157~so-6-1-0-0.cr01.dus.de.hansenet.net
 213.191.087.222~so-6-0-0-0.cr02.dus.de.hansenet.net
-213.191.087.169~so-6-1-0-0.cr02.dus.de.hansenet.net
+213.191.087.154~so-7-0-0-0.cr02.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
 213.191.087.145~so-7-1-0-0.cr01.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
 213.191.087.250~so-7-0-0-0.cr01.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
-213.191.066.006~so-1-1-0-0.cr01.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
 =======8
 078.049.104.000=0 DE,Nordrhein-Westfalen,Velbert,51.3333,7.05
 213.191.091.002@
@@ -1300,18 +1285,16 @@
 213.191.090.000@
 213.191.090.002@
 078.049.106.000=0 DE,Nordrhein-Westfalen,Witten,51.4333,7.3333
-213.191.090.000@
-213.191.091.002@
-213.191.091.000@
-078.049.107.000=0 DE,Nordrhein-Westfalen,Langenfeld,51.1,6.95
-213.191.091.000@
 213.191.090.002@
-213.191.090.000@
+213.191.091.002@
+078.049.107.000=0 DE,Nordrhein-Westfalen,Langenfeld,51.1,6.95
+213.191.091.002@
+213.191.090.002@
+213.191.091.000@
 078.049.108.000=0 DE,Nordrhein-Westfalen,Hagen,51.35,7.4667
 213.191.091.000@
-213.191.090.002@
-213.191.090.000@
 213.191.091.002@
+213.191.090.002@
 078.049.109.000=0 DE,Nordrhein-Westfalen,Köln,50.9333,6.95
 213.191.091.000@
 213.191.090.002@
@@ -1320,18 +1303,16 @@
 213.191.090.002@
 078.049.111.000=0 DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
 213.191.090.002@
-213.191.091.002@
+213.191.091.000@
 213.191.087.154~so-7-0-0-0.cr02.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
 213.191.087.149~so-7-1-0-0.cr02.dus.de.hansenet.net
 213.191.066.010~so-1-1-0-0.cr02.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
 213.191.087.250~so-7-0-0-0.cr01.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
+213.191.087.145~so-7-1-0-0.cr01.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
+213.191.066.006~so-1-1-0-0.cr01.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
 213.191.087.157~so-6-1-0-0.cr01.dus.de.hansenet.net
 213.191.087.222~so-6-0-0-0.cr02.dus.de.hansenet.net
 213.191.066.033~so-1-0-0-0.cr02.dus.de.hansenet.net
-213.191.087.145~so-7-1-0-0.cr01.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
-213.191.087.169~so-6-1-0-0.cr02.dus.de.hansenet.net
-213.191.066.029~so-1-0-0-0.cr01.dus.de.hansenet.net
-213.191.066.006~so-1-1-0-0.cr01.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
 078.049.111.255=0*16
 =======16
 078.049.112.000=0 DE,Nordrhein-Westfalen,Iserlohn,51.3667,7.7
@@ -1359,9 +1340,8 @@
 062.109.067.250@
 078.049.123.000=0 DE,Hamburg,Hamburg,53.55,10
 078.049.123.000!0 DE,Sachsen,Leipzig,51.3,12.3333
-062.109.067.254@
-062.109.067.242@
-062.109.067.246@
+213.191.066.182@
+213.191.066.174@
 078.049.124.000=0 DE,Hamburg,Hamburg,53.55,10
 062.109.067.242@
 062.109.067.250@
@@ -1380,6 +1360,7 @@
 213.191.066.009~so-1-0-0-0.cr01.asham.de.hansenet.net
 213.191.087.146~so-1-2-0-0.cr01.weham.de.hansenet.net
 213.191.087.153~so-1-1-0-0.cr01.asham.de.hansenet.net
+084.016.007.234~HANSENET-0-0-grtdusix1.red.telefonica-wholesale.net
 213.191.087.129~so-0-2-0-0.cr01.weham.de.hansenet.net
 213.191.066.013~so-0-0-0-0.cr01.weham.de.hansenet.net
 213.191.087.217~so-0-1-0-0.cr01.weham.de.hansenet.net
@@ -1396,25 +1377,25 @@
 213.191.090.000@
 213.191.091.002@
 078.049.130.000=0 DE,Nordrhein-Westfalen,Köln,50.9333,6.95
-213.191.091.000@
+213.191.091.002@
 213.191.090.000@
-213.191.090.002@
+213.191.091.000@
 078.049.131.000=0 DE,Nordrhein-Westfalen,Köln,50.9333,6.95
 213.191.090.002@
 213.191.091.000@
 078.049.132.000=0 DE,Nordrhein-Westfalen,Leichlingen,51.1167,7.0167
-213.191.090.000@
-213.191.091.002@
+213.191.091.000@
 213.191.090.002@
+213.191.090.000@
 078.049.133.000=0 DE,Nordrhein-Westfalen,Köln,50.9333,6.95
 213.191.090.002@
 213.191.090.000@
 213.191.091.002@
-213.191.091.000@
 078.049.134.000=0 DE,Nordrhein-Westfalen,Velbert,51.3333,7.05
 213.191.090.000@
-213.191.091.002@
+213.191.090.002@
 213.191.091.000@
+213.191.091.002@
 078.049.135.000=0 DE,Nordrhein-Westfalen,Langenfeld,51.1,6.95
 213.191.090.000@
 213.191.091.000@
@@ -1424,12 +1405,6 @@
 213.191.087.149~so-7-1-0-0.cr02.dus.de.hansenet.net
 213.191.087.250~so-7-0-0-0.cr01.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
 213.191.087.154~so-7-0-0-0.cr02.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
-213.191.087.157~so-6-1-0-0.cr01.dus.de.hansenet.net
-213.191.066.029~so-1-0-0-0.cr01.dus.de.hansenet.net
-213.191.087.222~so-6-0-0-0.cr02.dus.de.hansenet.net
-213.191.087.246~so-6-0-0-0.cr01.dus.de.hansenet.net
-213.191.066.033~so-1-0-0-0.cr02.dus.de.hansenet.net
-213.191.087.169~so-6-1-0-0.cr02.dus.de.hansenet.net
 213.191.066.010~so-1-1-0-0.cr02.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
 =======8
 078.049.136.000=0 DE,Nordrhein-Westfalen,Wuppertal,51.2667,7.1833
@@ -1438,7 +1413,7 @@
 213.191.091.002@
 213.191.090.002@
 078.049.137.000=0 DE,Nordrhein-Westfalen,Ennepetal,51.3,7.35
-213.191.090.002@
+213.191.090.000@
 213.191.091.002@
 078.049.138.000=0 DE,Nordrhein-Westfalen,Hilden,51.1667,6.9333
 213.191.090.000@
@@ -1446,9 +1421,9 @@
 213.191.091.000@
 213.191.090.002@
 078.049.139.000=0 DE,Nordrhein-Westfalen,Velbert,51.3333,7.05
-213.191.091.002@
-213.191.091.000@
 213.191.090.000@
+213.191.091.000@
+213.191.090.002@
 078.049.140.000=0 DE,Nordrhein-Westfalen,Ennepetal,51.3,7.35
 213.191.090.000@
 213.191.091.002@
@@ -1461,14 +1436,15 @@
 213.191.087.145~so-7-1-0-0.cr01.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
 213.191.066.006~so-1-1-0-0.cr01.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
 213.191.087.149~so-7-1-0-0.cr02.dus.de.hansenet.net
+213.191.066.029~so-1-0-0-0.cr01.dus.de.hansenet.net
+213.191.087.222~so-6-0-0-0.cr02.dus.de.hansenet.net
+213.191.087.246~so-6-0-0-0.cr01.dus.de.hansenet.net
 213.191.066.010~so-1-1-0-0.cr02.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
 213.191.087.154~so-7-0-0-0.cr02.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
 213.191.087.250~so-7-0-0-0.cr01.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
-213.191.087.246~so-6-0-0-0.cr01.dus.de.hansenet.net
 213.191.087.157~so-6-1-0-0.cr01.dus.de.hansenet.net
 213.191.066.033~so-1-0-0-0.cr02.dus.de.hansenet.net
 213.191.087.169~so-6-1-0-0.cr02.dus.de.hansenet.net
-213.191.087.222~so-6-0-0-0.cr02.dus.de.hansenet.net
 078.049.143.255=0*16
 =======16
 078.049.144.000=0 DE,,,51,9
@@ -1482,35 +1458,35 @@
 078.049.151.255=0*8
 =======8
 078.049.152.000=0 DE,Hamburg,Hamburg,53.55,10
-062.109.067.254@
-062.109.067.246@
+062.109.067.250@
+062.109.067.242@
 078.049.153.000=0 DE,Hamburg,Hamburg,53.55,10
 213.191.066.182@
 213.191.066.174@
 078.049.154.000=0 DE,Hamburg,Hamburg,53.55,10
 213.191.066.174@
 078.049.155.000=0 DE,Hamburg,Hamburg,53.55,10
+062.109.067.242@
+062.109.067.250@
+078.049.156.000=0 DE,Hamburg,Hamburg,53.55,10
+062.109.067.242@
+078.049.157.000=0 DE,Hamburg,Hamburg,53.55,10
 062.109.067.246@
 062.109.067.254@
 062.109.067.242@
-078.049.156.000=0 DE,Hamburg,Hamburg,53.55,10
-062.109.067.242@
-062.109.067.250@
-078.049.157.000=0 DE,Hamburg,Hamburg,53.55,10
 062.109.067.250@
 078.049.158.000=0 DE,Hamburg,Hamburg,53.55,10
-062.109.067.250@
-062.109.067.242@
-062.109.067.246@
+213.191.066.182@
+213.191.066.174@
 078.049.159.000=0 DE,Hamburg,Hamburg,53.55,10
 062.109.067.242@
 062.109.067.250@
-213.191.066.078~ae2-0.cr01.asham.de.hansenet.net
-084.016.007.234~HANSENET-0-0-grtdusix1.red.telefonica-wholesale.net
-213.191.066.074~ae2-0.cr01.weham.de.hansenet.net
-213.191.066.013~so-0-0-0-0.cr01.weham.de.hansenet.net
-213.191.087.129~so-0-2-0-0.cr01.weham.de.hansenet.net
 213.191.087.217~so-0-1-0-0.cr01.weham.de.hansenet.net
+213.191.066.013~so-0-0-0-0.cr01.weham.de.hansenet.net
+084.016.007.234~HANSENET-0-0-grtdusix1.red.telefonica-wholesale.net
+213.191.087.129~so-0-2-0-0.cr01.weham.de.hansenet.net
+213.191.066.078~ae2-0.cr01.asham.de.hansenet.net
+213.191.066.074~ae2-0.cr01.weham.de.hansenet.net
 078.049.159.255=0*8
 =======32
 078.049.160.000=0 DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
@@ -1522,8 +1498,9 @@
 213.191.091.000@
 213.191.090.002@
 078.049.162.000=0 DE,Nordrhein-Westfalen,Haan,51.2,7
-213.191.091.000@
 213.191.090.000@
+213.191.091.000@
+213.191.091.002@
 078.049.163.000=0 DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
 213.191.090.000@
 213.191.091.000@
@@ -1541,8 +1518,8 @@
 213.191.091.002@
 213.191.090.002@
 078.049.167.000=0 DE,Nordrhein-Westfalen,Odenthal,51.0333,7.1167
-213.191.091.002@
 213.191.090.002@
+213.191.091.002@
 213.191.091.000@
 213.191.087.145~so-7-1-0-0.cr01.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
 213.191.087.250~so-7-0-0-0.cr01.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
@@ -1551,6 +1528,8 @@
 213.191.087.157~so-6-1-0-0.cr01.dus.de.hansenet.net
 213.191.066.033~so-1-0-0-0.cr02.dus.de.hansenet.net
 213.191.087.246~so-6-0-0-0.cr01.dus.de.hansenet.net
+213.191.087.154~so-7-0-0-0.cr02.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
+213.191.087.149~so-7-1-0-0.cr02.dus.de.hansenet.net
 213.191.087.222~so-6-0-0-0.cr02.dus.de.hansenet.net
 078.049.167.255=0*8
 =======8
@@ -1574,17 +1553,15 @@
 213.191.090.000@
 078.049.178.000=0 DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
 078.049.178.000!0 DE,Nordrhein-Westfalen,Köln,50.9333,6.95
-213.191.090.002@
-213.191.091.002@
+213.191.091.000@
 213.191.090.000@
 078.049.179.000=0 DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
 078.049.179.000!0 DE,Nordrhein-Westfalen,Köln,50.9333,6.95
 213.191.091.000@
 213.191.090.000@
 078.049.180.000=0 DE,Nordrhein-Westfalen,Werne,51.4833,7.3
-213.191.090.000@
-213.191.091.002@
 213.191.091.000@
+213.191.090.000@
 078.049.181.000=0 DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
 213.191.091.002@
 213.191.090.002@
@@ -1594,14 +1571,9 @@
 213.191.087.250~so-7-0-0-0.cr01.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
 213.191.066.006~so-1-1-0-0.cr01.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
 213.191.087.154~so-7-0-0-0.cr02.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
-213.191.087.169~so-6-1-0-0.cr02.dus.de.hansenet.net
-213.191.087.222~so-6-0-0-0.cr02.dus.de.hansenet.net
-213.191.066.033~so-1-0-0-0.cr02.dus.de.hansenet.net
-213.191.066.029~so-1-0-0-0.cr01.dus.de.hansenet.net
-213.191.087.246~so-6-0-0-0.cr01.dus.de.hansenet.net
+213.191.087.145~so-7-1-0-0.cr01.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
 213.191.066.010~so-1-1-0-0.cr02.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
 213.191.087.149~so-7-1-0-0.cr02.dus.de.hansenet.net
-213.191.087.145~so-7-1-0-0.cr01.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
 078.049.183.255=0*8
 =======8
 078.049.184.000=0 DE,Hamburg,Hamburg,53.55,10
@@ -1611,6 +1583,7 @@
 062.109.067.250@
 062.109.067.246@
 062.109.067.254@
+062.109.067.242@
 078.049.186.000=0 DE,Hamburg,Hamburg,53.55,10
 062.109.067.242@
 062.109.067.254@
@@ -1622,8 +1595,9 @@
 078.049.188.000=0 DE,Hamburg,Hamburg,53.55,10
 062.109.067.246@
 062.109.067.250@
-062.109.067.254@
 078.049.189.000=0 DE,Hamburg,Hamburg,53.55,10
+062.109.067.242@
+062.109.067.250@
 078.049.190.000=0 DE,Hamburg,Hamburg,53.55,10
 078.049.191.000=0 DE,Hamburg,Hamburg,53.55,10
 213.191.087.217~so-0-1-0-0.cr01.weham.de.hansenet.net
@@ -1644,9 +1618,9 @@
 213.191.090.000@
 213.191.091.002@
 078.049.194.000=0 DE,Nordrhein-Westfalen,Köln,50.9333,6.95
-213.191.090.000@
 213.191.091.000@
 213.191.090.002@
+213.191.090.000@
 078.049.195.000=0 DE,Nordrhein-Westfalen,Remscheid,51.1833,7.2
 213.191.091.002@
 213.191.090.000@
@@ -1654,9 +1628,11 @@
 213.191.091.000@
 213.191.090.000@
 213.191.090.002@
-078.049.197.000=0 DE,Nordrhein-Westfalen,Köln,50.9333,6.95
 213.191.091.002@
+078.049.197.000=0 DE,Nordrhein-Westfalen,Köln,50.9333,6.95
 213.191.090.000@
+213.191.090.002@
+213.191.091.002@
 213.191.091.000@
 078.049.198.000=0 DE,Nordrhein-Westfalen,Köln,50.9333,6.95
 213.191.091.002@
@@ -1676,8 +1652,8 @@
 213.191.087.169~so-6-1-0-0.cr02.dus.de.hansenet.net
 213.191.087.246~so-6-0-0-0.cr01.dus.de.hansenet.net
 213.191.087.157~so-6-1-0-0.cr01.dus.de.hansenet.net
-213.191.066.029~so-1-0-0-0.cr01.dus.de.hansenet.net
 213.191.066.033~so-1-0-0-0.cr02.dus.de.hansenet.net
+213.191.066.029~so-1-0-0-0.cr01.dus.de.hansenet.net
 =======8
 078.049.200.000=0 DE,Nordrhein-Westfalen,Hürth,50.8667,6.8667
 213.191.090.000@
@@ -1688,20 +1664,20 @@
 213.191.090.000@
 078.049.202.000=0 DE,Nordrhein-Westfalen,Leichlingen,51.1167,7.0167
 213.191.090.002@
-213.191.091.002@
-213.191.090.000@
 213.191.091.000@
+213.191.090.000@
 078.049.203.000=0 DE,Nordrhein-Westfalen,Castrop-Rauxel,51.55,7.3167
-213.191.090.002@
-213.191.090.000@
 213.191.091.000@
+213.191.091.002@
 078.049.204.000=0 DE,Nordrhein-Westfalen,Köln,50.9333,6.95
 213.191.090.000@
 213.191.091.002@
 213.191.091.000@
 078.049.205.000=0 DE,Nordrhein-Westfalen,Polsum,51.6333,7.05
-213.191.090.002@
 213.191.091.000@
+213.191.091.002@
+213.191.090.000@
+213.191.090.002@
 078.049.206.000=0 DE,Nordrhein-Westfalen,Köln,50.9333,6.95
 078.049.207.000=0 DE,Nordrhein-Westfalen,Iserlohn,51.3667,7.7
 213.191.066.006~so-1-1-0-0.cr01.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
@@ -1710,11 +1686,11 @@
 213.191.087.250~so-7-0-0-0.cr01.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
 213.191.066.010~so-1-1-0-0.cr02.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
 213.191.087.145~so-7-1-0-0.cr01.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
-213.191.087.169~so-6-1-0-0.cr02.dus.de.hansenet.net
-213.191.087.222~so-6-0-0-0.cr02.dus.de.hansenet.net
+213.191.066.033~so-1-0-0-0.cr02.dus.de.hansenet.net
 213.191.087.246~so-6-0-0-0.cr01.dus.de.hansenet.net
-213.191.087.157~so-6-1-0-0.cr01.dus.de.hansenet.net
 213.191.066.029~so-1-0-0-0.cr01.dus.de.hansenet.net
+213.191.087.157~so-6-1-0-0.cr01.dus.de.hansenet.net
+213.191.087.169~so-6-1-0-0.cr02.dus.de.hansenet.net
 078.049.207.255=0*16
 =======16
 078.049.208.000=0 DE,,,51,9
@@ -1741,7 +1717,6 @@
 078.049.224.000=0 DE,Nordrhein-Westfalen,Bochum,51.4833,7.2167
 213.191.091.002@
 213.191.090.002@
-213.191.091.000@
 078.049.225.000=0 DE,Nordrhein-Westfalen,Köln,50.9333,6.95
 213.191.090.002@
 213.191.091.000@
@@ -1755,33 +1730,28 @@
 213.191.091.002@
 213.191.090.000@
 078.049.228.000=0 DE,Nordrhein-Westfalen,Leverkusen,51.0167,6.9833
+213.191.091.002@
 213.191.090.002@
-213.191.090.000@
-213.191.091.002@
 078.049.229.000=0 DE,Nordrhein-Westfalen,Remscheid,51.1833,7.2
-213.191.091.000@
 213.191.091.002@
-213.191.090.000@
+213.191.090.002@
 078.049.230.000=0 DE,Nordrhein-Westfalen,Köln,50.9333,6.95
 213.191.091.000@
 213.191.091.002@
 213.191.090.000@
 078.049.231.000=0 DE,Nordrhein-Westfalen,Solingen,51.1833,7.0833
-213.191.090.002@
 213.191.090.000@
 213.191.091.002@
 213.191.091.000@
-213.191.066.010~so-1-1-0-0.cr02.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
-213.191.087.154~so-7-0-0-0.cr02.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
-213.191.087.250~so-7-0-0-0.cr01.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
 213.191.087.149~so-7-1-0-0.cr02.dus.de.hansenet.net
+213.191.066.010~so-1-1-0-0.cr02.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
 213.191.066.006~so-1-1-0-0.cr01.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
+213.191.087.250~so-7-0-0-0.cr01.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
+213.191.087.154~so-7-0-0-0.cr02.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
 213.191.087.157~so-6-1-0-0.cr01.dus.de.hansenet.net
 213.191.087.246~so-6-0-0-0.cr01.dus.de.hansenet.net
 213.191.087.222~so-6-0-0-0.cr02.dus.de.hansenet.net
-213.191.066.029~so-1-0-0-0.cr01.dus.de.hansenet.net
-213.191.087.169~so-6-1-0-0.cr02.dus.de.hansenet.net
-213.191.066.033~so-1-0-0-0.cr02.dus.de.hansenet.net
+213.191.087.145~so-7-1-0-0.cr01.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
 =======8
 078.049.232.000=0 DE,Nordrhein-Westfalen,Köln,50.9333,6.95
 213.191.090.002@
@@ -1819,6 +1789,7 @@
 213.191.087.246~so-6-0-0-0.cr01.dus.de.hansenet.net
 213.191.066.033~so-1-0-0-0.cr02.dus.de.hansenet.net
 213.191.087.157~so-6-1-0-0.cr01.dus.de.hansenet.net
+213.191.066.010~so-1-1-0-0.cr02.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
 078.049.239.255=0*16
 =======16
 078.049.240.000=0 DE,Nordrhein-Westfalen,Hürth,50.8667,6.8667
@@ -1863,9 +1834,8 @@
 =======16
 078.050.016.000=0 DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
 078.050.016.000=0 DE,Nordrhein-Westfalen,Mülheim,51.4333,6.8833
-213.191.091.000@
 213.191.090.000@
-213.191.090.002@
+213.191.091.000@
 078.050.017.000=0 DE,Nordrhein-Westfalen,Essen,51.45,7.0167
 213.191.090.000@
 213.191.091.000@
@@ -1886,29 +1856,26 @@
 078.050.022.000=0 DE,Nordrhein-Westfalen,Essen,51.45,7.0167
 213.191.091.002@
 213.191.090.000@
-213.191.090.002@
 213.191.091.000@
 078.050.023.000=0 DE,Nordrhein-Westfalen,Oberhausen,51.4667,6.85
 213.191.091.000@
 213.191.090.002@
 213.191.090.000@
-213.191.066.029~so-1-0-0-0.cr01.dus.de.hansenet.net
-213.191.087.157~so-6-1-0-0.cr01.dus.de.hansenet.net
-213.191.087.246~so-6-0-0-0.cr01.dus.de.hansenet.net
-213.191.087.169~so-6-1-0-0.cr02.dus.de.hansenet.net
-213.191.087.250~so-7-0-0-0.cr01.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
 213.191.066.006~so-1-1-0-0.cr01.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
 213.191.087.145~so-7-1-0-0.cr01.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
+213.191.087.250~so-7-0-0-0.cr01.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
 213.191.066.010~so-1-1-0-0.cr02.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
 213.191.087.149~so-7-1-0-0.cr02.dus.de.hansenet.net
 213.191.087.154~so-7-0-0-0.cr02.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
+213.191.087.169~so-6-1-0-0.cr02.dus.de.hansenet.net
+213.191.066.029~so-1-0-0-0.cr01.dus.de.hansenet.net
 213.191.087.222~so-6-0-0-0.cr02.dus.de.hansenet.net
 078.050.023.255=0*8
 =======8
 078.050.024.000=0 DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
 078.050.024.000=0 DE,Nordrhein-Westfalen,Gelsenkirchen,51.5167,7.05
-213.191.090.000@
 213.191.091.000@
+213.191.090.000@
 078.050.025.000=0 DE,Nordrhein-Westfalen,Gladbeck,51.5667,6.9833
 213.191.090.000@
 213.191.091.000@
@@ -1933,9 +1900,10 @@
 213.191.090.000@
 078.050.031.000=0 DE,Nordrhein-Westfalen,Gelsenkirchen,51.5167,7.05
 213.191.091.000@
+213.191.090.002@
 213.191.090.000@
-213.191.087.250~so-7-0-0-0.cr01.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
 213.191.087.145~so-7-1-0-0.cr01.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
+213.191.087.250~so-7-0-0-0.cr01.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
 213.191.066.006~so-1-1-0-0.cr01.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
 213.191.087.157~so-6-1-0-0.cr01.dus.de.hansenet.net
 213.191.066.029~so-1-0-0-0.cr01.dus.de.hansenet.net
@@ -1965,8 +1933,8 @@
 213.191.091.002@
 213.191.090.000@
 078.050.037.000=0 DE,Nordrhein-Westfalen,Recklinghausen,51.6132,7.1956
+213.191.091.002@
 213.191.090.002@
-213.191.090.000@
 213.191.091.000@
 078.050.038.000=0 DE,Nordrhein-Westfalen,Recklinghausen,51.6167,7.2
 213.191.090.002@
@@ -1979,9 +1947,9 @@
 213.191.066.010~so-1-1-0-0.cr02.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
 213.191.087.157~so-6-1-0-0.cr01.dus.de.hansenet.net
 213.191.087.222~so-6-0-0-0.cr02.dus.de.hansenet.net
-213.191.087.169~so-6-1-0-0.cr02.dus.de.hansenet.net
-213.191.066.029~so-1-0-0-0.cr01.dus.de.hansenet.net
+213.191.087.250~so-7-0-0-0.cr01.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
 213.191.087.246~so-6-0-0-0.cr01.dus.de.hansenet.net
+213.191.087.169~so-6-1-0-0.cr02.dus.de.hansenet.net
 213.191.066.033~so-1-0-0-0.cr02.dus.de.hansenet.net
 078.050.039.255=0*8
 =======8
@@ -2029,41 +1997,33 @@
 078.050.056.000=0 DE,Nordrhein-Westfalen,Mülheim,51.4333,6.8833
 213.191.091.002@
 213.191.090.002@
-213.191.091.000@
 078.050.057.000=0 DE,Nordrhein-Westfalen,Oberhausen,51.4667,6.85
 213.191.091.002@
 213.191.090.002@
 078.050.058.000=0 DE,Nordrhein-Westfalen,Mülheim,51.4333,6.8833
+213.191.090.000@
 213.191.090.002@
-213.191.091.002@
 078.050.059.000=0 DE,Nordrhein-Westfalen,Essen,51.45,7.0167
 213.191.091.002@
 213.191.090.002@
 078.050.060.000=0 DE,Nordrhein-Westfalen,Oberhausen,51.4667,6.85
-213.191.091.002@
 213.191.090.002@
-213.191.091.000@
 078.050.061.000=0 DE,Nordrhein-Westfalen,Essen,51.45,7.0167
-213.191.091.002@
-213.191.090.000@
 213.191.090.002@
+213.191.091.002@
 078.050.062.000=0 DE,Nordrhein-Westfalen,Oberhausen,51.4667,6.85
 213.191.091.002@
 213.191.090.002@
 078.050.063.000=0 DE,Nordrhein-Westfalen,Mülheim,51.4333,6.8833
 213.191.091.002@
 213.191.090.002@
-213.191.087.149~so-7-1-0-0.cr02.dus.de.hansenet.net
-213.191.087.154~so-7-0-0-0.cr02.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
-213.191.087.145~so-7-1-0-0.cr01.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
-213.191.087.250~so-7-0-0-0.cr01.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
 213.191.066.010~so-1-1-0-0.cr02.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
-213.191.087.222~so-6-0-0-0.cr02.dus.de.hansenet.net
-213.191.066.033~so-1-0-0-0.cr02.dus.de.hansenet.net
-213.191.066.029~so-1-0-0-0.cr01.dus.de.hansenet.net
-213.191.087.169~so-6-1-0-0.cr02.dus.de.hansenet.net
-213.191.087.157~so-6-1-0-0.cr01.dus.de.hansenet.net
+213.191.087.154~so-7-0-0-0.cr02.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
+213.191.087.149~so-7-1-0-0.cr02.dus.de.hansenet.net
 213.191.087.246~so-6-0-0-0.cr01.dus.de.hansenet.net
+213.191.066.033~so-1-0-0-0.cr02.dus.de.hansenet.net
+213.191.087.157~so-6-1-0-0.cr01.dus.de.hansenet.net
+213.191.087.222~so-6-0-0-0.cr02.dus.de.hansenet.net
 078.050.063.255=0*16
 =======64
 078.050.064.000=0 DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
@@ -2071,9 +2031,8 @@
 213.191.091.000@
 213.191.090.000@
 078.050.065.000=0 DE,Nordrhein-Westfalen,Dortmund,51.5167,7.45
-213.191.090.002@
-213.191.090.000@
 213.191.091.000@
+213.191.090.000@
 078.050.066.000=0 DE,Nordrhein-Westfalen,Dortmund,51.5167,7.45
 213.191.090.002@
 213.191.091.002@
@@ -2081,33 +2040,32 @@
 213.191.090.000@
 213.191.091.000@
 078.050.068.000=0 DE,Nordrhein-Westfalen,Dortmund,51.5167,7.45
+213.191.090.002@
 213.191.091.000@
-213.191.090.000@
 078.050.069.000=0 DE,Nordrhein-Westfalen,Dortmund,51.5167,7.45
 213.191.090.000@
-213.191.090.002@
 213.191.091.000@
 078.050.070.000=0 DE,Nordrhein-Westfalen,Dortmund,51.5167,7.45
 213.191.091.000@
 213.191.090.000@
 213.191.090.002@
 078.050.071.000=0 DE,Nordrhein-Westfalen,Dortmund,51.5167,7.45
+213.191.090.002@
+213.191.091.002@
 213.191.090.000@
-213.191.091.000@
 213.191.087.250~so-7-0-0-0.cr01.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
+213.191.087.145~so-7-1-0-0.cr01.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
 213.191.066.006~so-1-1-0-0.cr01.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
 213.191.066.033~so-1-0-0-0.cr02.dus.de.hansenet.net
-213.191.087.169~so-6-1-0-0.cr02.dus.de.hansenet.net
-213.191.087.246~so-6-0-0-0.cr01.dus.de.hansenet.net
 213.191.087.222~so-6-0-0-0.cr02.dus.de.hansenet.net
-213.191.087.145~so-7-1-0-0.cr01.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
 213.191.087.157~so-6-1-0-0.cr01.dus.de.hansenet.net
 213.191.066.029~so-1-0-0-0.cr01.dus.de.hansenet.net
 213.191.087.149~so-7-1-0-0.cr02.dus.de.hansenet.net
+213.191.087.169~so-6-1-0-0.cr02.dus.de.hansenet.net
 =======8
 078.050.072.000=0 DE,Nordrhein-Westfalen,Dortmund,51.5167,7.45
+213.191.090.002@
 213.191.091.000@
-213.191.090.000@
 078.050.073.000=0 DE,Nordrhein-Westfalen,Dortmund,51.5167,7.45
 213.191.090.002@
 213.191.091.002@
@@ -2120,39 +2078,42 @@
 078.050.075.000=0 DE,Nordrhein-Westfalen,Dortmund,51.5167,7.45
 213.191.091.000@
 078.050.076.000=0 DE,Nordrhein-Westfalen,Dortmund,51.5167,7.45
+213.191.090.002@
 213.191.091.000@
+213.191.091.002@
 213.191.090.000@
 078.050.077.000=0 DE,Nordrhein-Westfalen,Dortmund,51.5167,7.45
-213.191.090.000@
+213.191.091.002@
 213.191.091.000@
+213.191.090.000@
 078.050.078.000=0 DE,Nordrhein-Westfalen,Dortmund,51.5167,7.45
 213.191.091.000@
-078.050.079.000=0 DE,Nordrhein-Westfalen,Dortmund,51.5167,7.45
-213.191.091.002@
-213.191.090.002@
 213.191.090.000@
+078.050.079.000=0 DE,Nordrhein-Westfalen,Dortmund,51.5167,7.45
+213.191.091.000@
+213.191.090.000@
+213.191.087.149~so-7-1-0-0.cr02.dus.de.hansenet.net
 213.191.087.145~so-7-1-0-0.cr01.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
-213.191.066.006~so-1-1-0-0.cr01.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
-213.191.087.250~so-7-0-0-0.cr01.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
+213.191.087.154~so-7-0-0-0.cr02.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
+213.191.066.010~so-1-1-0-0.cr02.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
 213.191.087.169~so-6-1-0-0.cr02.dus.de.hansenet.net
 213.191.066.033~so-1-0-0-0.cr02.dus.de.hansenet.net
 213.191.087.246~so-6-0-0-0.cr01.dus.de.hansenet.net
-213.191.087.149~so-7-1-0-0.cr02.dus.de.hansenet.net
-213.191.087.154~so-7-0-0-0.cr02.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
-213.191.087.222~so-6-0-0-0.cr02.dus.de.hansenet.net
+213.191.066.006~so-1-1-0-0.cr01.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
+213.191.087.250~so-7-0-0-0.cr01.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
 213.191.087.157~so-6-1-0-0.cr01.dus.de.hansenet.net
-213.191.066.029~so-1-0-0-0.cr01.dus.de.hansenet.net
 =======16
 078.050.080.000=0 DE,Nordrhein-Westfalen,Hagen,51.35,7.4667
 213.191.090.000@
 213.191.091.002@
 213.191.091.000@
+213.191.090.002@
 078.050.081.000=0 DE,Nordrhein-Westfalen,Hagen,51.35,7.4667
 213.191.090.002@
 213.191.091.000@
 078.050.082.000=0 DE,Nordrhein-Westfalen,Hagen,51.35,7.4667
-213.191.090.002@
 213.191.091.002@
+213.191.090.002@
 078.050.083.000=0 DE,Nordrhein-Westfalen,Hagen,51.35,7.4667
 213.191.091.002@
 213.191.090.002@
@@ -2174,14 +2135,14 @@
 213.191.090.000@
 213.191.091.002@
 213.191.066.029~so-1-0-0-0.cr01.dus.de.hansenet.net
-213.191.066.033~so-1-0-0-0.cr02.dus.de.hansenet.net
 213.191.087.169~so-6-1-0-0.cr02.dus.de.hansenet.net
-213.191.087.149~so-7-1-0-0.cr02.dus.de.hansenet.net
-213.191.066.010~so-1-1-0-0.cr02.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
-213.191.087.154~so-7-0-0-0.cr02.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
-213.191.087.157~so-6-1-0-0.cr01.dus.de.hansenet.net
-213.191.087.246~so-6-0-0-0.cr01.dus.de.hansenet.net
 213.191.087.222~so-6-0-0-0.cr02.dus.de.hansenet.net
+213.191.087.246~so-6-0-0-0.cr01.dus.de.hansenet.net
+213.191.066.033~so-1-0-0-0.cr02.dus.de.hansenet.net
+213.191.087.154~so-7-0-0-0.cr02.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
+213.191.066.010~so-1-1-0-0.cr02.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
+213.191.087.149~so-7-1-0-0.cr02.dus.de.hansenet.net
+213.191.087.157~so-6-1-0-0.cr01.dus.de.hansenet.net
 213.191.087.145~so-7-1-0-0.cr01.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
 213.191.066.006~so-1-1-0-0.cr01.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
 =======8
@@ -2217,9 +2178,10 @@
 213.191.091.002@
 213.191.091.000@
 078.050.095.000=0 DE,Nordrhein-Westfalen,Aachen,50.7708,6.1053
+213.191.090.002@
+213.191.090.000@
 213.191.091.002@
 213.191.091.000@
-213.191.090.000@
 213.191.087.145~so-7-1-0-0.cr01.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
 213.191.087.250~so-7-0-0-0.cr01.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
 213.191.087.154~so-7-0-0-0.cr02.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
@@ -2231,7 +2193,6 @@
 213.191.066.033~so-1-0-0-0.cr02.dus.de.hansenet.net
 213.191.087.157~so-6-1-0-0.cr01.dus.de.hansenet.net
 213.191.087.169~so-6-1-0-0.cr02.dus.de.hansenet.net
-213.191.087.246~so-6-0-0-0.cr01.dus.de.hansenet.net
 =======32
 078.050.096.000=0 DE,Nordrhein-Westfalen,Wuppertal,51.2667,7.1833
 213.191.091.000@
@@ -2239,7 +2200,8 @@
 213.191.090.000@
 078.050.097.000=0 DE,Nordrhein-Westfalen,Wuppertal,51.2667,7.1833
 213.191.090.000@
-213.191.091.000@
+213.191.091.002@
+213.191.090.002@
 078.050.098.000=0 DE,Nordrhein-Westfalen,Wuppertal,51.2667,7.1833
 213.191.090.000@
 078.050.099.000=0 DE,Nordrhein-Westfalen,Wuppertal,51.2667,7.1833
@@ -2266,11 +2228,11 @@
 213.191.087.157~so-6-1-0-0.cr01.dus.de.hansenet.net
 213.191.087.169~so-6-1-0-0.cr02.dus.de.hansenet.net
 213.191.066.029~so-1-0-0-0.cr01.dus.de.hansenet.net
-213.191.087.145~so-7-1-0-0.cr01.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
+213.191.087.222~so-6-0-0-0.cr02.dus.de.hansenet.net
 213.191.066.006~so-1-1-0-0.cr01.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
 213.191.087.250~so-7-0-0-0.cr01.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
 213.191.066.033~so-1-0-0-0.cr02.dus.de.hansenet.net
-213.191.087.222~so-6-0-0-0.cr02.dus.de.hansenet.net
+213.191.087.145~so-7-1-0-0.cr01.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
 213.191.066.010~so-1-1-0-0.cr02.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
 =======8
 078.050.104.000=0 DE,Nordrhein-Westfalen,Wuppertal,51.2667,7.1833
@@ -2283,21 +2245,20 @@
 213.191.091.000@
 213.191.091.002@
 078.050.107.000=0 DE,Nordrhein-Westfalen,Wuppertal,51.2667,7.1833
-213.191.090.000@
 213.191.091.000@
 078.050.108.000=0 DE,Nordrhein-Westfalen,Wuppertal,51.2667,7.1833
-213.191.090.000@
 213.191.091.000@
+213.191.090.000@
 078.050.109.000=0 DE,Nordrhein-Westfalen,Solingen,51.1833,7.0833
 213.191.091.000@
 213.191.090.000@
 078.050.110.000=0 DE,Nordrhein-Westfalen,Solingen,51.1833,7.0833
-213.191.090.002@
-213.191.091.002@
-213.191.090.000@
-078.050.111.000=0 DE,Nordrhein-Westfalen,Wuppertal,51.2667,7.1833
 213.191.091.000@
 213.191.090.000@
+078.050.111.000=0 DE,Nordrhein-Westfalen,Wuppertal,51.2667,7.1833
+213.191.091.002@
+213.191.091.000@
+213.191.090.002@
 213.191.087.157~so-6-1-0-0.cr01.dus.de.hansenet.net
 213.191.087.169~so-6-1-0-0.cr02.dus.de.hansenet.net
 213.191.087.246~so-6-0-0-0.cr01.dus.de.hansenet.net
@@ -2315,43 +2276,46 @@
 213.191.091.000@
 078.050.113.000=0 DE,Nordrhein-Westfalen,Schwelm,51.2833,7.2833
 213.191.091.000@
+213.191.090.000@
+213.191.091.002@
 213.191.090.002@
 078.050.114.000=0 DE,Nordrhein-Westfalen,Remscheid,51.1833,7.2
-213.191.090.000@
+213.191.091.000@
 213.191.090.002@
-213.191.091.002@
 078.050.115.000=0 DE,Nordrhein-Westfalen,Remscheid,51.1833,7.2
 213.191.090.002@
 213.191.090.000@
 213.191.091.000@
 078.050.116.000=0 DE,Nordrhein-Westfalen,Schwelm,51.2833,7.2833
-213.191.090.002@
 213.191.090.000@
+213.191.090.002@
 213.191.091.000@
-213.191.091.002@
 078.050.117.000=0 DE,Nordrhein-Westfalen,Remscheid,51.1833,7.2
 213.191.090.002@
-213.191.091.002@
+213.191.091.000@
 213.191.090.000@
+213.191.091.002@
 078.050.118.000=0 DE,Nordrhein-Westfalen,Remscheid,51.1833,7.2
 213.191.090.000@
 213.191.091.002@
 213.191.091.000@
 078.050.119.000=0 DE,Nordrhein-Westfalen,Schwelm,51.2833,7.2833
-213.191.091.002@
 213.191.090.000@
 213.191.090.002@
+213.191.091.002@
+213.191.091.000@
 213.191.066.029~so-1-0-0-0.cr01.dus.de.hansenet.net
 213.191.087.169~so-6-1-0-0.cr02.dus.de.hansenet.net
 213.191.087.222~so-6-0-0-0.cr02.dus.de.hansenet.net
 213.191.087.246~so-6-0-0-0.cr01.dus.de.hansenet.net
-213.191.066.033~so-1-0-0-0.cr02.dus.de.hansenet.net
-213.191.087.157~so-6-1-0-0.cr01.dus.de.hansenet.net
-213.191.087.149~so-7-1-0-0.cr02.dus.de.hansenet.net
-213.191.087.154~so-7-0-0-0.cr02.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
-213.191.087.145~so-7-1-0-0.cr01.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
-213.191.066.010~so-1-1-0-0.cr02.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
+213.191.087.250~so-7-0-0-0.cr01.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
 213.191.066.006~so-1-1-0-0.cr01.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
+213.191.066.010~so-1-1-0-0.cr02.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
+213.191.087.154~so-7-0-0-0.cr02.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
+213.191.087.149~so-7-1-0-0.cr02.dus.de.hansenet.net
+213.191.087.157~so-6-1-0-0.cr01.dus.de.hansenet.net
+213.191.087.145~so-7-1-0-0.cr01.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
+213.191.066.033~so-1-0-0-0.cr02.dus.de.hansenet.net
 =======8
 078.050.120.000=0 DE,Nordrhein-Westfalen,Schwelm,51.2833,7.2833
 213.191.091.002@
@@ -2368,9 +2332,8 @@
 213.191.091.002@
 213.191.090.002@
 078.050.123.000=0 DE,Nordrhein-Westfalen,Schwelm,51.2833,7.2833
-213.191.090.002@
-213.191.091.002@
 213.191.091.000@
+213.191.090.002@
 078.050.124.000=0 DE,Nordrhein-Westfalen,Wuppertal,51.2667,7.1833
 078.050.125.000=0 DE,Nordrhein-Westfalen,Wuppertal,51.2667,7.1833
 078.050.126.000=0 DE,Nordrhein-Westfalen,Wuppertal,51.2667,7.1833
@@ -2380,7 +2343,6 @@
 213.191.066.006~so-1-1-0-0.cr01.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
 213.191.087.154~so-7-0-0-0.cr02.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
 213.191.087.145~so-7-1-0-0.cr01.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
-213.191.066.010~so-1-1-0-0.cr02.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
 078.050.127.255=0*64
 =======128
 078.050.128.000=0 DE,,,51,9
@@ -2473,8 +2435,8 @@
 078.050.187.255=0*1
 -------
 078.050.188.000=0 DE,Niedersachsen,Hannover,52.3667,9.7167
-213.191.067.117@
 213.191.067.113@
+213.191.067.117@
 078.050.189.000=0 DE,Niedersachsen,Hannover,52.3667,9.7167
 213.191.067.117@
 213.191.067.113@
@@ -2483,10 +2445,10 @@
 078.050.191.000=0 DE,Niedersachsen,Hannover,52.3667,9.7167
 213.191.067.113@
 213.191.067.117@
-062.109.067.006~ae1-0.xd02.asham.de.hansenet.net
-062.109.067.242~ae0-0.xd01.weham.de.hansenet.net
 062.109.067.246~ae1-0.xd01.weham.de.hansenet.net
+062.109.067.242~ae0-0.xd01.weham.de.hansenet.net
 062.109.067.002~ae0-0.xd02.asham.de.hansenet.net
+062.109.067.006~ae1-0.xd02.asham.de.hansenet.net
 213.191.066.174~ae4-0.xd01.weham.de.hansenet.net
 078.050.191.255=0*4
 =======64
@@ -2542,7 +2504,6 @@
 078.050.201.000=0 DE,Baden-Württemberg,Stuttgart,48.7667,9.1833
 062.109.070.002@
 062.109.070.000@
-062.109.069.002@
 062.109.069.000@
 078.050.202.000=0 DE,Baden-Württemberg,Stuttgart,48.7667,9.1833
 062.109.069.000@
@@ -2551,8 +2512,9 @@
 062.109.070.010@
 062.109.069.010@
 078.050.204.000=0 DE,Baden-Württemberg,Stuttgart,48.7667,9.1833
-062.109.070.010@
-062.109.069.010@
+062.109.070.000@
+062.109.070.002@
+062.109.069.002@
 078.050.205.000=0 DE,Baden-Württemberg,Stuttgart,48.7667,9.1833
 062.109.070.000@
 062.109.069.002@
@@ -2562,17 +2524,20 @@
 062.109.070.002@
 062.109.069.000@
 078.050.207.000=0 DE,Baden-Württemberg,Stuttgart,48.7667,9.1833
-062.109.070.010@
-062.109.069.010@
+062.109.069.002@
+062.109.070.000@
+062.109.070.002@
+062.109.069.000@
 213.191.087.242~so-0-1-0-0.cr01.fra.de.hansenet.net
 213.191.087.225~so-0-1-0-0.cr01.fra.de.hansenet.net
 213.191.087.173~so-0-2-0-0.cr01.fra.de.hansenet.net
 213.191.066.025~so-0-0-0-0.cr01.fra.de.hansenet.net
+213.191.066.077~ae4-0.cr01.fra.de.hansenet.net~DE,Hessen,Frankfurt Am Main,50.1167,8.6833
+213.191.066.073~ae4-0.cr01.fra.de.hansenet.net~DE,Hessen,Frankfurt Am Main,50.1167,8.6833
 213.191.087.189~so-0-2-0-0.cr01.fra.de.hansenet.net
 062.109.069.172~62.109.69.172
 062.109.069.158~62.109.69.158
-213.191.066.073~ae4-0.cr01.fra.de.hansenet.net~DE,Hessen,Frankfurt Am Main,50.1167,8.6833
-213.191.066.077~ae4-0.cr01.fra.de.hansenet.net~DE,Hessen,Frankfurt Am Main,50.1167,8.6833
+213.191.066.021~so-0-0-0-0.cr01.fra.de.hansenet.net
 078.050.207.255=0*8
 =======16
 078.050.208.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
@@ -2581,12 +2546,14 @@
 062.109.070.002@
 062.109.070.000@
 078.050.209.000=0 DE,Baden-Württemberg,Stuttgart,48.7667,9.1833
-062.109.070.010@
-062.109.069.010@
-078.050.210.000=0 DE,Baden-Württemberg,Stuttgart,48.7667,9.1833
-062.109.069.000@
 062.109.070.002@
 062.109.070.000@
+062.109.069.000@
+062.109.069.002@
+078.050.210.000=0 DE,Baden-Württemberg,Stuttgart,48.7667,9.1833
+062.109.070.000@
+062.109.069.002@
+062.109.069.000@
 078.050.211.000=0 DE,Baden-Württemberg,Stuttgart,48.7667,9.1833
 062.109.070.000@
 062.109.069.000@
@@ -2595,11 +2562,9 @@
 213.191.087.225~so-0-1-0-0.cr01.fra.de.hansenet.net
 213.191.087.173~so-0-2-0-0.cr01.fra.de.hansenet.net
 213.191.087.242~so-0-1-0-0.cr01.fra.de.hansenet.net
-062.109.069.172~62.109.69.172
-062.109.069.158~62.109.69.158
-213.191.087.189~so-0-2-0-0.cr01.fra.de.hansenet.net
-213.191.066.073~ae4-0.cr01.fra.de.hansenet.net~DE,Hessen,Frankfurt Am Main,50.1167,8.6833
 213.191.066.077~ae4-0.cr01.fra.de.hansenet.net~DE,Hessen,Frankfurt Am Main,50.1167,8.6833
+213.191.066.073~ae4-0.cr01.fra.de.hansenet.net~DE,Hessen,Frankfurt Am Main,50.1167,8.6833
+213.191.087.189~so-0-2-0-0.cr01.fra.de.hansenet.net
 078.050.211.255=0*4
 -------
 078.050.212.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
@@ -2622,7 +2587,8 @@
 062.109.070.010@
 062.109.069.010@
 078.050.218.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
-062.109.069.002@
+062.109.069.010@
+062.109.070.010@
 078.050.219.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
 062.109.070.010@
 062.109.069.010@
@@ -2659,9 +2625,8 @@
 062.109.070.000@
 062.109.069.002@
 078.050.226.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
-062.109.070.002@
-062.109.070.000@
-062.109.069.002@
+062.109.069.010@
+062.109.070.010@
 078.050.227.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
 062.109.070.000@
 062.109.070.002@
@@ -2686,12 +2651,12 @@
 213.191.066.030~so-1-0-0-0.cr01.fra.de.hansenet.net
 213.191.087.170~so-1-2-0-0.cr01.fra.de.hansenet.net
 213.191.087.221~so-1-1-0-0.cr01.fra.de.hansenet.net
-213.191.087.189~so-0-2-0-0.cr01.fra.de.hansenet.net
-213.191.066.021~so-0-0-0-0.cr01.fra.de.hansenet.net
-213.191.066.025~so-0-0-0-0.cr01.fra.de.hansenet.net
 213.191.087.242~so-0-1-0-0.cr01.fra.de.hansenet.net
 213.191.087.225~so-0-1-0-0.cr01.fra.de.hansenet.net
 213.191.087.173~so-0-2-0-0.cr01.fra.de.hansenet.net
+213.191.066.025~so-0-0-0-0.cr01.fra.de.hansenet.net
+213.191.087.189~so-0-2-0-0.cr01.fra.de.hansenet.net
+213.191.066.021~so-0-0-0-0.cr01.fra.de.hansenet.net
 078.050.231.255=0*8
 =======8
 078.050.232.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
@@ -2722,8 +2687,9 @@
 062.109.070.000@
 062.109.069.002@
 078.050.239.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
-062.109.070.010@
-062.109.069.010@
+062.109.069.002@
+062.109.070.000@
+062.109.069.000@
 213.191.066.021~so-0-0-0-0.cr01.fra.de.hansenet.net
 213.191.087.189~so-0-2-0-0.cr01.fra.de.hansenet.net
 213.191.087.173~so-0-2-0-0.cr01.fra.de.hansenet.net
@@ -2737,15 +2703,16 @@
 078.050.239.255=0*8
 =======16
 078.050.240.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
+062.109.070.002@
 062.109.069.000@
 062.109.069.002@
-062.109.070.002@
 078.050.241.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
-062.109.069.010@
 062.109.070.010@
+062.109.069.010@
 078.050.242.000=0 DE,Rheinland-Pfalz,Pirmasens,49.2,7.6
-062.109.069.010@
-062.109.070.010@
+062.109.070.002@
+062.109.069.002@
+062.109.070.000@
 078.050.243.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
 062.109.070.010@
 062.109.069.010@
@@ -2756,13 +2723,16 @@
 078.050.245.000=0 DE,Baden-Württemberg,Gaggenau,48.8,8.3333
 078.050.246.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
 078.050.247.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
-213.191.087.242~so-0-1-0-0.cr01.fra.de.hansenet.net
-213.191.087.225~so-0-1-0-0.cr01.fra.de.hansenet.net
-213.191.087.173~so-0-2-0-0.cr01.fra.de.hansenet.net
-213.191.087.189~so-0-2-0-0.cr01.fra.de.hansenet.net
-062.109.069.158~62.109.69.158
-062.109.069.172~62.109.69.172
 213.191.066.025~so-0-0-0-0.cr01.fra.de.hansenet.net
+213.191.087.173~so-0-2-0-0.cr01.fra.de.hansenet.net
+213.191.066.021~so-0-0-0-0.cr01.fra.de.hansenet.net
+213.191.087.225~so-0-1-0-0.cr01.fra.de.hansenet.net
+062.109.069.172~62.109.69.172
+062.109.069.158~62.109.69.158
+213.191.066.077~ae4-0.cr01.fra.de.hansenet.net~DE,Hessen,Frankfurt Am Main,50.1167,8.6833
+213.191.066.073~ae4-0.cr01.fra.de.hansenet.net~DE,Hessen,Frankfurt Am Main,50.1167,8.6833
+213.191.087.189~so-0-2-0-0.cr01.fra.de.hansenet.net
+213.191.087.242~so-0-1-0-0.cr01.fra.de.hansenet.net
 078.050.247.255=0*8
 =======8
 078.050.248.000=0 DE,,,51,9
@@ -2783,20 +2753,21 @@
 062.109.069.002@
 062.109.070.000@
 078.051.002.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
-062.109.069.010@
-062.109.070.010@
-078.051.003.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
-062.109.069.002@
 062.109.070.002@
+062.109.069.002@
+078.051.003.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
+062.109.070.002@
+062.109.069.002@
 078.051.004.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
 062.109.070.002@
 062.109.069.002@
 078.051.005.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
-062.109.070.010@
-062.109.069.010@
+062.109.070.000@
+062.109.069.000@
+062.109.069.002@
 078.051.006.000=0 DE,Baden-Württemberg,Möglingen,48.8833,9.1333
-062.109.069.010@
-062.109.070.010@
+062.109.070.002@
+062.109.069.002@
 078.051.007.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
 062.109.070.002@
 062.109.069.002@
@@ -2804,13 +2775,13 @@
 213.191.066.025~so-0-0-0-0.cr01.fra.de.hansenet.net
 213.191.066.077~ae4-0.cr01.fra.de.hansenet.net~DE,Hessen,Frankfurt Am Main,50.1167,8.6833
 213.191.066.073~ae4-0.cr01.fra.de.hansenet.net~DE,Hessen,Frankfurt Am Main,50.1167,8.6833
-062.109.069.158~62.109.69.158
-062.109.069.172~62.109.69.172
 213.191.087.225~so-0-1-0-0.cr01.fra.de.hansenet.net
 =======8
 078.051.008.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
-062.109.069.010@
-062.109.070.010@
+062.109.070.002@
+062.109.069.000@
+062.109.069.002@
+062.109.070.000@
 078.051.009.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
 062.109.069.010@
 062.109.070.010@
@@ -2818,7 +2789,7 @@
 062.109.070.002@
 062.109.069.002@
 078.051.011.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
-062.109.070.002@
+062.109.069.000@
 062.109.069.002@
 078.051.012.000=0 DE,Baden-Württemberg,Eppingen,49.1369,8.9103
 062.109.070.002@
@@ -2827,32 +2798,38 @@
 062.109.069.002@
 062.109.070.002@
 078.051.014.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
-062.109.070.010@
-062.109.069.010@
+062.109.070.002@
+062.109.070.000@
+062.109.069.000@
 078.051.015.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
-062.109.070.010@
-062.109.069.010@
+062.109.069.002@
+062.109.070.002@
+213.191.066.025~so-0-0-0-0.cr01.fra.de.hansenet.net
+213.191.087.242~so-0-1-0-0.cr01.fra.de.hansenet.net
+213.191.087.225~so-0-1-0-0.cr01.fra.de.hansenet.net
+213.191.087.173~so-0-2-0-0.cr01.fra.de.hansenet.net
 062.109.069.158~62.109.69.158
 062.109.069.172~62.109.69.172
-213.191.087.225~so-0-1-0-0.cr01.fra.de.hansenet.net
-213.191.066.025~so-0-0-0-0.cr01.fra.de.hansenet.net
 213.191.087.189~so-0-2-0-0.cr01.fra.de.hansenet.net
+213.191.066.073~ae4-0.cr01.fra.de.hansenet.net~DE,Hessen,Frankfurt Am Main,50.1167,8.6833
+213.191.066.077~ae4-0.cr01.fra.de.hansenet.net~DE,Hessen,Frankfurt Am Main,50.1167,8.6833
 078.051.015.255=0*16
 =======16
 078.051.016.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
-062.109.070.010@
-062.109.069.010@
+062.109.069.000@
+062.109.070.000@
+062.109.069.002@
 078.051.017.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
-062.109.070.010@
-062.109.069.010@
+062.109.069.002@
+062.109.070.002@
 078.051.018.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
 062.109.070.000@
 062.109.069.000@
 062.109.069.002@
 062.109.070.002@
 078.051.019.000=0 DE,Baden-Württemberg,Edingen-Neckarhausen,49.4572,8.6064
-062.109.070.002@
-062.109.069.002@
+062.109.069.010@
+062.109.070.010@
 078.051.020.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
 062.109.069.002@
 062.109.070.002@
@@ -2861,13 +2838,13 @@
 062.109.069.002@
 078.051.022.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
 078.051.023.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
-062.109.069.172~62.109.69.172
-062.109.069.158~62.109.69.158
 213.191.066.073~ae4-0.cr01.fra.de.hansenet.net~DE,Hessen,Frankfurt Am Main,50.1167,8.6833
 213.191.066.077~ae4-0.cr01.fra.de.hansenet.net~DE,Hessen,Frankfurt Am Main,50.1167,8.6833
 213.191.066.025~so-0-0-0-0.cr01.fra.de.hansenet.net
 213.191.087.189~so-0-2-0-0.cr01.fra.de.hansenet.net
 213.191.087.225~so-0-1-0-0.cr01.fra.de.hansenet.net
+062.109.069.158~62.109.69.158
+062.109.069.172~62.109.69.172
 078.051.023.255=0*8
 =======8
 078.051.024.000=0 DE,,,51,9
@@ -2900,17 +2877,18 @@
 062.109.069.000@
 062.109.070.002@
 078.051.037.000=0 DE,Baden-Württemberg,Metzingen,48.5333,9.2667
-062.109.070.000@
-062.109.069.002@
 062.109.069.000@
+062.109.070.002@
+062.109.070.000@
 078.051.038.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
-062.109.069.002@
-062.109.069.000@
 062.109.070.002@
+062.109.069.000@
+062.109.069.002@
 078.051.039.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
+062.109.069.000@
+062.109.069.002@
 062.109.070.000@
 062.109.070.002@
-062.109.069.000@
 213.191.087.189~so-0-2-0-0.cr01.fra.de.hansenet.net
 213.191.087.242~so-0-1-0-0.cr01.fra.de.hansenet.net
 062.109.069.172~62.109.69.172
@@ -2949,9 +2927,8 @@
 062.109.069.002@
 062.109.070.000@
 078.051.047.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
-062.109.069.002@
-062.109.070.002@
 062.109.070.000@
+062.109.070.002@
 062.109.069.172~62.109.69.172
 062.109.069.158~62.109.69.158
 213.191.066.025~so-0-0-0-0.cr01.fra.de.hansenet.net
@@ -2977,9 +2954,8 @@
 062.109.069.002@
 062.109.070.000@
 078.051.050.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
-062.109.070.000@
-062.109.069.002@
 062.109.069.000@
+062.109.070.000@
 078.051.051.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
 062.109.069.010@
 062.109.070.010@
@@ -2996,8 +2972,6 @@
 213.191.087.242~so-0-1-0-0.cr01.fra.de.hansenet.net
 213.191.066.073~ae4-0.cr01.fra.de.hansenet.net~DE,Hessen,Frankfurt Am Main,50.1167,8.6833
 213.191.066.077~ae4-0.cr01.fra.de.hansenet.net~DE,Hessen,Frankfurt Am Main,50.1167,8.6833
-213.191.087.225~so-0-1-0-0.cr01.fra.de.hansenet.net
-213.191.066.025~so-0-0-0-0.cr01.fra.de.hansenet.net
 062.109.069.158~62.109.69.158
 062.109.069.172~62.109.69.172
 078.051.055.255=0*8
@@ -3026,20 +3000,20 @@
 062.109.070.002@
 062.109.069.000@
 078.051.068.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
+062.109.069.002@
+062.109.070.002@
+078.051.069.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
+062.109.069.002@
+062.109.070.002@
+078.051.070.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
 062.109.069.010@
 062.109.070.010@
-078.051.069.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
-062.109.069.000@
-062.109.070.000@
-062.109.069.002@
-078.051.070.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
-062.109.069.002@
 078.051.071.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
 062.109.070.002@
 062.109.069.002@
+213.191.066.025~so-0-0-0-0.cr01.fra.de.hansenet.net
 213.191.087.189~so-0-2-0-0.cr01.fra.de.hansenet.net
 213.191.087.225~so-0-1-0-0.cr01.fra.de.hansenet.net
-213.191.066.025~so-0-0-0-0.cr01.fra.de.hansenet.net
 062.109.069.158~62.109.69.158
 062.109.069.172~62.109.69.172
 213.191.066.077~ae4-0.cr01.fra.de.hansenet.net~DE,Hessen,Frankfurt Am Main,50.1167,8.6833
@@ -3047,8 +3021,8 @@
 078.051.071.255=0*8
 =======8
 078.051.072.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
-062.109.070.002@
 062.109.069.002@
+062.109.070.002@
 078.051.073.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
 062.109.069.010@
 062.109.070.010@
@@ -3056,8 +3030,8 @@
 062.109.069.010@
 062.109.070.010@
 078.051.075.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
-062.109.070.002@
 062.109.069.002@
+062.109.070.002@
 078.051.076.000=0 DE,Hessen,Flörsheim Am Main,50.0167,8.4333
 062.109.069.002@
 062.109.070.002@
@@ -3069,13 +3043,13 @@
 062.109.070.002@
 062.109.069.002@
 078.051.079.000=0 DE,Baden-Württemberg,Edingen-Neckarhausen,49.4572,8.6064
-062.109.069.010@
 062.109.070.010@
-213.191.087.225~so-0-1-0-0.cr01.fra.de.hansenet.net
+062.109.069.010@
 213.191.066.025~so-0-0-0-0.cr01.fra.de.hansenet.net
+213.191.087.189~so-0-2-0-0.cr01.fra.de.hansenet.net
+213.191.087.225~so-0-1-0-0.cr01.fra.de.hansenet.net
 062.109.069.158~62.109.69.158
 062.109.069.172~62.109.69.172
-213.191.087.189~so-0-2-0-0.cr01.fra.de.hansenet.net
 213.191.066.077~ae4-0.cr01.fra.de.hansenet.net~DE,Hessen,Frankfurt Am Main,50.1167,8.6833
 213.191.066.073~ae4-0.cr01.fra.de.hansenet.net~DE,Hessen,Frankfurt Am Main,50.1167,8.6833
 078.051.079.255=0*8
@@ -3090,17 +3064,17 @@
 062.109.069.010@
 062.109.070.010@
 078.051.083.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
-062.109.069.002@
 062.109.070.002@
+062.109.069.002@
 078.051.084.000=0 DE,Baden-Württemberg,Allensbach,47.7167,9.0667
 078.051.085.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
 078.051.086.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
 078.051.087.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
 062.109.069.172~62.109.69.172
 062.109.069.158~62.109.69.158
-213.191.087.225~so-0-1-0-0.cr01.fra.de.hansenet.net
-213.191.066.025~so-0-0-0-0.cr01.fra.de.hansenet.net
 213.191.087.189~so-0-2-0-0.cr01.fra.de.hansenet.net
+213.191.066.025~so-0-0-0-0.cr01.fra.de.hansenet.net
+213.191.087.225~so-0-1-0-0.cr01.fra.de.hansenet.net
 078.051.087.255=0*8
 =======8
 078.051.088.000=0 DE,,,51,9
@@ -3129,14 +3103,17 @@
 062.109.069.000@
 062.109.070.002@
 078.051.100.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
-062.109.070.002@
+062.109.069.002@
+062.109.069.000@
 062.109.070.000@
+062.109.070.002@
 078.051.101.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
 062.109.070.002@
 062.109.070.000@
 078.051.102.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
-062.109.069.002@
 062.109.070.000@
+062.109.069.002@
+062.109.070.002@
 062.109.069.000@
 078.051.103.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
 062.109.070.010@
@@ -3162,32 +3139,35 @@
 078.051.106.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
 062.109.070.002@
 062.109.070.000@
-062.109.069.002@
 062.109.069.000@
 078.051.107.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
 062.109.070.010@
 062.109.069.010@
 078.051.108.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
-062.109.069.010@
-062.109.070.010@
-078.051.109.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
-062.109.070.000@
-062.109.070.002@
 062.109.069.000@
+062.109.070.002@
+062.109.069.002@
+062.109.070.000@
+078.051.109.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
+062.109.069.000@
+062.109.069.002@
 078.051.110.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
 062.109.069.010@
 062.109.070.010@
 078.051.111.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
-062.109.069.010@
-062.109.070.010@
+062.109.069.000@
+062.109.069.002@
+062.109.070.000@
 213.191.087.225~so-0-1-0-0.cr01.fra.de.hansenet.net
 213.191.087.189~so-0-2-0-0.cr01.fra.de.hansenet.net
 213.191.066.021~so-0-0-0-0.cr01.fra.de.hansenet.net
 062.109.069.158~62.109.69.158
 062.109.069.172~62.109.69.172
-213.191.087.173~so-0-2-0-0.cr01.fra.de.hansenet.net
+213.191.066.077~ae4-0.cr01.fra.de.hansenet.net~DE,Hessen,Frankfurt Am Main,50.1167,8.6833
+213.191.066.073~ae4-0.cr01.fra.de.hansenet.net~DE,Hessen,Frankfurt Am Main,50.1167,8.6833
 213.191.087.242~so-0-1-0-0.cr01.fra.de.hansenet.net
 213.191.066.025~so-0-0-0-0.cr01.fra.de.hansenet.net
+213.191.087.173~so-0-2-0-0.cr01.fra.de.hansenet.net
 078.051.111.255=0*8
 =======16
 078.051.112.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
@@ -3200,8 +3180,9 @@
 062.109.069.002@
 062.109.070.000@
 078.051.114.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
-062.109.069.010@
-062.109.070.010@
+062.109.069.000@
+062.109.070.002@
+062.109.069.002@
 078.051.115.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
 062.109.070.002@
 062.109.069.000@
@@ -3214,8 +3195,8 @@
 213.191.087.242~so-0-1-0-0.cr01.fra.de.hansenet.net
 213.191.087.189~so-0-2-0-0.cr01.fra.de.hansenet.net
 213.191.066.025~so-0-0-0-0.cr01.fra.de.hansenet.net
-062.109.069.158~62.109.69.158
-062.109.069.172~62.109.69.172
+213.191.066.073~ae4-0.cr01.fra.de.hansenet.net~DE,Hessen,Frankfurt Am Main,50.1167,8.6833
+213.191.066.077~ae4-0.cr01.fra.de.hansenet.net~DE,Hessen,Frankfurt Am Main,50.1167,8.6833
 213.191.087.173~so-0-2-0-0.cr01.fra.de.hansenet.net
 078.051.119.255=0*8
 =======8
@@ -3239,8 +3220,8 @@
 062.109.070.010@
 062.109.069.010@
 078.051.131.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
-062.109.070.010@
-062.109.069.010@
+062.109.070.002@
+062.109.069.002@
 078.051.132.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
 062.109.070.002@
 062.109.069.002@
@@ -3251,8 +3232,8 @@
 062.109.069.000@
 062.109.070.000@
 078.051.134.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
-062.109.070.010@
 062.109.069.010@
+062.109.070.010@
 078.051.135.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
 062.109.070.010@
 062.109.069.010@
@@ -3300,8 +3281,7 @@
 078.051.143.255=0*8
 =======16
 078.051.144.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
-062.109.070.010@
-062.109.069.010@
+062.109.070.002@
 078.051.145.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
 062.109.069.010@
 062.109.070.010@
@@ -3318,10 +3298,11 @@
 062.109.070.000@
 078.051.150.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
 078.051.151.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
-062.109.069.172~62.109.69.172
-062.109.069.158~62.109.69.158
-213.191.087.225~so-0-1-0-0.cr01.fra.de.hansenet.net
+213.191.087.189~so-0-2-0-0.cr01.fra.de.hansenet.net
 213.191.066.025~so-0-0-0-0.cr01.fra.de.hansenet.net
+213.191.087.225~so-0-1-0-0.cr01.fra.de.hansenet.net
+062.109.069.158~62.109.69.158
+062.109.069.172~62.109.69.172
 213.191.066.034~so-1-0-0-0.cr01.fra.de.hansenet.net
 213.191.087.245~so-1-1-0-0.cr01.fra.de.hansenet.net
 213.191.087.158~so-1-2-0-0.cr01.fra.de.hansenet.net
@@ -3356,13 +3337,11 @@
 062.109.070.010@
 078.051.165.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
 062.109.070.002@
-062.109.069.000@
-062.109.069.002@
 078.051.166.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
 078.051.166.000!0 DE,Bayern,Karlstein,47.7167,12.85
-062.109.070.000@
-062.109.070.002@
 062.109.069.000@
+062.109.069.002@
+062.109.070.000@
 078.051.167.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
 062.109.070.010@
 062.109.069.010@
@@ -3374,23 +3353,21 @@
 213.191.087.242~so-0-1-0-0.cr01.fra.de.hansenet.net
 062.109.069.158~62.109.69.158
 062.109.069.172~62.109.69.172
-213.191.066.077~ae4-0.cr01.fra.de.hansenet.net~DE,Hessen,Frankfurt Am Main,50.1167,8.6833
 213.191.066.073~ae4-0.cr01.fra.de.hansenet.net~DE,Hessen,Frankfurt Am Main,50.1167,8.6833
+213.191.066.077~ae4-0.cr01.fra.de.hansenet.net~DE,Hessen,Frankfurt Am Main,50.1167,8.6833
 078.051.167.255=0*8
 =======8
 078.051.168.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
-062.109.069.002@
-062.109.069.000@
-062.109.070.002@
-062.109.070.000@
+062.109.069.010@
+062.109.070.010@
 078.051.169.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
 062.109.069.000@
 062.109.069.002@
 062.109.070.000@
 078.051.170.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
-062.109.070.002@
 062.109.069.002@
 062.109.070.000@
+062.109.070.002@
 078.051.171.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
 062.109.069.010@
 062.109.070.010@
@@ -3401,52 +3378,46 @@
 062.109.069.002@
 062.109.070.002@
 078.051.174.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
+062.109.070.002@
 062.109.069.002@
-062.109.070.000@
-062.109.069.000@
 078.051.175.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
 062.109.070.010@
 062.109.069.010@
-213.191.087.189~so-0-2-0-0.cr01.fra.de.hansenet.net
-213.191.087.242~so-0-1-0-0.cr01.fra.de.hansenet.net
-213.191.066.025~so-0-0-0-0.cr01.fra.de.hansenet.net
-213.191.066.021~so-0-0-0-0.cr01.fra.de.hansenet.net
+062.109.069.158~62.109.69.158
+062.109.069.172~62.109.69.172
 213.191.087.158~so-1-2-0-0.cr01.fra.de.hansenet.net
 213.191.066.034~so-1-0-0-0.cr01.fra.de.hansenet.net
 213.191.087.170~so-1-2-0-0.cr01.fra.de.hansenet.net
 213.191.066.030~so-1-0-0-0.cr01.fra.de.hansenet.net
+213.191.066.077~ae4-0.cr01.fra.de.hansenet.net~DE,Hessen,Frankfurt Am Main,50.1167,8.6833
+213.191.066.073~ae4-0.cr01.fra.de.hansenet.net~DE,Hessen,Frankfurt Am Main,50.1167,8.6833
+213.191.087.189~so-0-2-0-0.cr01.fra.de.hansenet.net
 213.191.087.225~so-0-1-0-0.cr01.fra.de.hansenet.net
-062.109.069.158~62.109.69.158
-062.109.069.172~62.109.69.172
+213.191.066.025~so-0-0-0-0.cr01.fra.de.hansenet.net
 078.051.175.255=0*8
 =======16
 078.051.176.000=0 DE,Bayern,Mainaschaff,49.9817,9.09
 062.109.070.002@
 062.109.069.002@
 078.051.177.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
-062.109.070.000@
-062.109.069.002@
 062.109.070.002@
+062.109.069.002@
 078.051.178.000=0 DE,Baden-Württemberg,Zaberfeld,49.0561,8.9269
 062.109.069.002@
-062.109.070.000@
 062.109.070.002@
 078.051.179.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
-062.109.069.010@
-062.109.070.010@
+062.109.069.000@
+062.109.070.002@
+062.109.069.002@
 078.051.180.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
 078.051.181.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
 078.051.182.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
 078.051.183.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
 213.191.066.025~so-0-0-0-0.cr01.fra.de.hansenet.net
 213.191.087.225~so-0-1-0-0.cr01.fra.de.hansenet.net
+213.191.087.189~so-0-2-0-0.cr01.fra.de.hansenet.net
 213.191.066.073~ae4-0.cr01.fra.de.hansenet.net~DE,Hessen,Frankfurt Am Main,50.1167,8.6833
 213.191.066.077~ae4-0.cr01.fra.de.hansenet.net~DE,Hessen,Frankfurt Am Main,50.1167,8.6833
-213.191.087.242~so-0-1-0-0.cr01.fra.de.hansenet.net
-213.191.087.189~so-0-2-0-0.cr01.fra.de.hansenet.net
-213.191.087.173~so-0-2-0-0.cr01.fra.de.hansenet.net
-062.109.069.158~62.109.69.158
-062.109.069.172~62.109.69.172
 078.051.183.255=0*8
 =======8
 078.051.184.000=0 DE,,,51,9
@@ -3466,8 +3437,9 @@
 062.109.069.010@
 062.109.070.010@
 078.051.194.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
-062.109.069.002@
 062.109.070.002@
+062.109.069.000@
+062.109.069.002@
 078.051.195.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
 062.109.070.002@
 062.109.069.002@
@@ -3485,9 +3457,11 @@
 062.109.069.002@
 062.109.069.158~62.109.69.158
 062.109.069.172~62.109.69.172
-213.191.066.025~so-0-0-0-0.cr01.fra.de.hansenet.net
-213.191.087.225~so-0-1-0-0.cr01.fra.de.hansenet.net
 213.191.087.189~so-0-2-0-0.cr01.fra.de.hansenet.net
+213.191.087.242~so-0-1-0-0.cr01.fra.de.hansenet.net
+213.191.087.225~so-0-1-0-0.cr01.fra.de.hansenet.net
+213.191.066.025~so-0-0-0-0.cr01.fra.de.hansenet.net
+213.191.087.173~so-0-2-0-0.cr01.fra.de.hansenet.net
 =======8
 078.051.200.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
 062.109.069.010@
@@ -3495,11 +3469,10 @@
 078.051.201.000=0 DE,Baden-Württemberg,Renningen,48.7667,8.9333
 062.109.069.002@
 062.109.070.000@
-062.109.069.000@
-078.051.202.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
-062.109.069.000@
 062.109.070.002@
-062.109.070.000@
+078.051.202.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
+062.109.069.010@
+062.109.070.010@
 078.051.203.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
 062.109.070.010@
 062.109.069.010@
@@ -3511,6 +3484,7 @@
 062.109.070.002@
 062.109.069.000@
 078.051.206.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
+062.109.070.002@
 062.109.069.000@
 062.109.070.000@
 078.051.207.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
@@ -3520,13 +3494,13 @@
 062.109.069.158~62.109.69.158
 062.109.069.172~62.109.69.172
 213.191.066.025~so-0-0-0-0.cr01.fra.de.hansenet.net
-213.191.087.173~so-0-2-0-0.cr01.fra.de.hansenet.net
 213.191.066.021~so-0-0-0-0.cr01.fra.de.hansenet.net
 213.191.087.189~so-0-2-0-0.cr01.fra.de.hansenet.net
-213.191.087.242~so-0-1-0-0.cr01.fra.de.hansenet.net
 213.191.087.225~so-0-1-0-0.cr01.fra.de.hansenet.net
-213.191.066.073~ae4-0.cr01.fra.de.hansenet.net~DE,Hessen,Frankfurt Am Main,50.1167,8.6833
+213.191.087.173~so-0-2-0-0.cr01.fra.de.hansenet.net
+213.191.087.242~so-0-1-0-0.cr01.fra.de.hansenet.net
 213.191.066.077~ae4-0.cr01.fra.de.hansenet.net~DE,Hessen,Frankfurt Am Main,50.1167,8.6833
+213.191.066.073~ae4-0.cr01.fra.de.hansenet.net~DE,Hessen,Frankfurt Am Main,50.1167,8.6833
 078.051.207.255=0*16
 =======16
 078.051.208.000=0 DE,,,51,9
@@ -3571,8 +3545,8 @@
 062.109.069.137@
 062.109.070.137@
 078.051.231.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
-062.109.070.137@
 062.109.069.137@
+062.109.070.137@
 062.109.070.000~62.109.70.0~DE,Hessen,Frankfurt Am Main,50.1167,8.6833
 062.109.069.002~ae0-0.xd01.fra.de.hansenet.net~DE,Hessen,Frankfurt Am Main,50.1167,8.6833
 062.109.069.000~62.109.69.0~DE,Hessen,Frankfurt Am Main,50.1167,8.6833
@@ -3612,14 +3586,16 @@
 078.051.255.255=0*8
 =======256
 078.052.000.000=0 DE,Berlin,Berlin,52.5167,13.4
+213.191.090.117@
+213.191.090.119@
 078.052.001.000=0 DE,Berlin,Berlin,52.5167,13.4
 078.052.002.000=0 DE,Berlin,Berlin,52.5167,13.4
 078.052.003.000=0 DE,Berlin,Berlin,52.5167,13.4
 078.052.004.000=0 DE,Berlin,Berlin,52.5167,13.4
-213.191.087.190@
-213.191.087.241@
-213.191.066.026@
-213.191.066.022@
+213.191.087.218@
+213.191.066.018@
+213.191.087.130@
+213.191.066.014@
 078.052.005.000=0 DE,Berlin,Berlin,52.5167,13.4
 213.191.090.117@
 213.191.090.121@
@@ -3629,12 +3605,11 @@
 078.052.007.000=0 DE,Berlin,Berlin,52.5167,13.4
 213.191.090.121@
 213.191.090.117@
-062.109.069.169~62.109.69.169
-062.109.069.153~62.109.69.153
-062.109.069.155~62.109.69.155
-062.109.069.167~62.109.69.167
 213.191.090.126~213.191.90.126
 213.191.090.130~213.191.90.130
+062.109.067.249~ae8-0.cr01.weham.de.hansenet.net~DE,Hamburg,Hamburg,53.55,10
+062.109.067.245~ae7-0.cr01.asham.de.hansenet.net~DE,Hamburg,Hamburg,53.55,10
+062.109.067.241~ae7-0.cr01.weham.de.hansenet.net~DE,Hamburg,Hamburg,53.55,10
 078.052.007.255=0*8
 =======8
 078.052.008.000=0 DE,Berlin,Berlin,52.5167,13.4
@@ -3647,12 +3622,14 @@
 062.109.108.016@
 062.109.111.009@
 078.052.010.000=0 DE,Berlin,Berlin,52.5167,13.4
-062.109.108.016@
-062.109.111.009@
-078.052.011.000=0 DE,Berlin,Berlin,52.5167,13.4
-062.109.108.016@
 062.109.108.080@
 062.109.111.009@
+062.109.111.041@
+078.052.011.000=0 DE,Berlin,Berlin,52.5167,13.4
+062.109.111.041@
+062.109.111.009@
+062.109.108.080@
+062.109.108.016@
 078.052.012.000=0 DE,Berlin,Berlin,52.5167,13.4
 062.109.108.103@
 062.109.108.039@
@@ -3671,19 +3648,21 @@
 213.191.087.241~so-6-0-0-0.cr01.ber.de.hansenet.net
 213.191.066.022~so-1-1-0-0.cr01.ber.de.hansenet.net
 213.191.087.226~so-7-0-0-0.cr02.ber.de.hansenet.net
-213.191.066.026~so-1-1-0-0.cr02.ber.de.hansenet.net
-213.191.087.174~so-6-1-0-0.cr01.ber.de.hansenet.net
+213.191.087.238~so-6-0-0-0.cr02.ber.de.hansenet.net~DE,Berlin,Berlin,52.5167,13.4
+213.191.066.018~so-1-0-0-0.cr02.ber.de.hansenet.net~DE,Berlin,Berlin,52.5167,13.4
+213.191.087.130~so-7-1-0-0.cr01.ber.de.hansenet.net~DE,Berlin,Berlin,52.5167,13.4
+213.191.087.218~so-7-0-0-0.cr01.ber.de.hansenet.net~DE,Berlin,Berlin,52.5167,13.4
 078.052.015.255=0*8
 =======16
 078.052.016.000=0 DE,Berlin,Berlin,52.5167,13.4
-062.109.108.039@
 062.109.108.103@
+062.109.108.039@
 078.052.017.000=0 DE,Berlin,Berlin,52.5167,13.4
 062.109.108.039@
 062.109.108.103@
 078.052.018.000=0 DE,Berlin,Berlin,52.5167,13.4
-062.109.108.039@
 062.109.108.103@
+062.109.108.039@
 078.052.019.000=0 DE,Berlin,Berlin,52.5167,13.4
 062.109.108.103@
 062.109.108.039@
@@ -3697,27 +3676,31 @@
 062.109.108.039@
 062.109.108.103@
 078.052.023.000=0 DE,Berlin,Berlin,52.5167,13.4
-062.109.108.103@
 062.109.108.039@
-213.191.090.117~213.191.90.117
-213.191.090.119~213.191.90.119
+062.109.108.103@
+213.191.087.174~so-6-1-0-0.cr01.ber.de.hansenet.net
+213.191.087.190~so-7-1-0-0.cr02.ber.de.hansenet.net
+213.191.087.241~so-6-0-0-0.cr01.ber.de.hansenet.net
+213.191.066.026~so-1-1-0-0.cr02.ber.de.hansenet.net
 213.191.087.138~so-6-1-0-0.cr02.ber.de.hansenet.net~DE,Berlin,Berlin,52.5167,13.4
 213.191.087.218~so-7-0-0-0.cr01.ber.de.hansenet.net~DE,Berlin,Berlin,52.5167,13.4
 213.191.066.018~so-1-0-0-0.cr02.ber.de.hansenet.net~DE,Berlin,Berlin,52.5167,13.4
 213.191.066.014~so-1-0-0-0.cr01.ber.de.hansenet.net~DE,Berlin,Berlin,52.5167,13.4
 213.191.087.130~so-7-1-0-0.cr01.ber.de.hansenet.net~DE,Berlin,Berlin,52.5167,13.4
-213.191.066.026~so-1-1-0-0.cr02.ber.de.hansenet.net
-213.191.087.241~so-6-0-0-0.cr01.ber.de.hansenet.net
+213.191.090.117~213.191.90.117
+213.191.090.119~213.191.90.119
 213.191.087.226~so-7-0-0-0.cr02.ber.de.hansenet.net
-213.191.087.190~so-7-1-0-0.cr02.ber.de.hansenet.net
+213.191.066.022~so-1-1-0-0.cr01.ber.de.hansenet.net
 078.052.023.255=0*8
 =======8
 078.052.024.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
-062.109.070.010@
 062.109.069.010@
+062.109.070.010@
 078.052.025.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
-062.109.069.010@
-062.109.070.010@
+062.109.070.002@
+062.109.070.000@
+062.109.069.002@
+062.109.069.000@
 078.052.026.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
 062.109.069.000@
 078.052.027.000=0 DE,Baden-Württemberg,Heidenheim,48.6833,10.15
@@ -3728,22 +3711,20 @@
 062.109.070.010@
 062.109.069.010@
 078.052.029.000=0 DE,Hessen,Lützelbach,49.7425,8.7675
-062.109.070.002@
-062.109.069.002@
-062.109.069.000@
+062.109.070.010@
+062.109.069.010@
 078.052.030.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
+062.109.070.000@
 062.109.069.000@
-062.109.070.002@
-062.109.069.002@
 078.052.031.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
 062.109.069.000@
 062.109.070.000@
-062.109.069.172~62.109.69.172
 062.109.069.158~62.109.69.158
-213.191.087.242~so-0-1-0-0.cr01.fra.de.hansenet.net
-213.191.066.021~so-0-0-0-0.cr01.fra.de.hansenet.net
+062.109.069.172~62.109.69.172
 213.191.066.077~ae4-0.cr01.fra.de.hansenet.net~DE,Hessen,Frankfurt Am Main,50.1167,8.6833
 213.191.066.073~ae4-0.cr01.fra.de.hansenet.net~DE,Hessen,Frankfurt Am Main,50.1167,8.6833
+213.191.087.242~so-0-1-0-0.cr01.fra.de.hansenet.net
+213.191.066.021~so-0-0-0-0.cr01.fra.de.hansenet.net
 213.191.087.173~so-0-2-0-0.cr01.fra.de.hansenet.net
 078.052.031.255=0*8
 =======32
@@ -3801,9 +3782,6 @@
 213.191.066.230@
 078.052.045.000=0 DE,Baden-Württemberg,Reutlingen,48.4833,9.2167
 213.191.066.230@
-213.191.066.222@
-213.191.066.234@
-213.191.066.226@
 078.052.046.000=0 DE,Baden-Württemberg,Reutlingen,48.4833,9.2167
 213.191.066.222@
 213.191.066.226@
@@ -3818,8 +3796,6 @@
 213.191.066.014~so-1-0-0-0.cr01.ber.de.hansenet.net~DE,Berlin,Berlin,52.5167,13.4
 213.191.087.138~so-6-1-0-0.cr02.ber.de.hansenet.net~DE,Berlin,Berlin,52.5167,13.4
 213.191.087.130~so-7-1-0-0.cr01.ber.de.hansenet.net~DE,Berlin,Berlin,52.5167,13.4
-213.191.087.218~so-7-0-0-0.cr01.ber.de.hansenet.net~DE,Berlin,Berlin,52.5167,13.4
-213.191.066.077~ae4-0.cr01.fra.de.hansenet.net~DE,Hessen,Frankfurt Am Main,50.1167,8.6833
 078.052.047.255=0*8
 =======16
 078.052.048.000=0 DE,Berlin,Berlin,52.5167,13.4
@@ -3827,17 +3803,17 @@
 213.191.066.014@
 213.191.087.238@
 078.052.049.000=0 DE,Berlin,Berlin,52.5167,13.4
-213.191.066.022@
-213.191.087.226@
-213.191.087.174@
-213.191.066.026@
-078.052.050.000=0 DE,Berlin,Berlin,52.5167,13.4
-213.191.087.174@
-213.191.066.026@
-213.191.087.190@
-078.052.051.000=0 DE,Berlin,Berlin,52.5167,13.4
 213.191.090.117@
 213.191.090.119@
+078.052.050.000=0 DE,Berlin,Berlin,52.5167,13.4
+213.191.087.226@
+213.191.066.022@
+213.191.066.026@
+213.191.087.190@
+213.191.087.174@
+078.052.051.000=0 DE,Berlin,Berlin,52.5167,13.4
+213.191.090.119@
+213.191.090.117@
 078.052.052.000=0 DE,Berlin,Berlin,52.5167,13.4
 213.191.090.119@
 213.191.090.117@
@@ -3846,47 +3822,49 @@
 213.191.090.119@
 078.052.054.000=0 DE,Berlin,Berlin,52.5167,13.4
 213.191.087.174@
-213.191.087.190@
 213.191.087.226@
-213.191.087.241@
+213.191.066.022@
+213.191.066.026@
 078.052.055.000=0 DE,Berlin,Berlin,52.5167,13.4
 213.191.090.117@
 213.191.090.119@
 062.109.067.249~ae8-0.cr01.weham.de.hansenet.net~DE,Hamburg,Hamburg,53.55,10
 062.109.067.241~ae7-0.cr01.weham.de.hansenet.net~DE,Hamburg,Hamburg,53.55,10
 062.109.067.253~ae8-0.cr01.asham.de.hansenet.net~DE,Hamburg,Hamburg,53.55,10
-062.109.069.167~62.109.69.167
-062.109.069.169~62.109.69.169
-062.109.069.153~62.109.69.153
-062.109.069.155~62.109.69.155
 213.191.090.126~213.191.90.126
 213.191.090.130~213.191.90.130
+062.109.069.155~62.109.69.155
+062.109.069.153~62.109.69.153
+062.109.069.167~62.109.69.167
+062.109.069.169~62.109.69.169
 078.052.055.255=0*8
 =======8
 078.052.056.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
 062.109.069.000@
 062.109.070.000@
 078.052.057.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
-062.109.069.000@
-062.109.070.000@
+062.109.069.010@
+062.109.070.010@
 078.052.058.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
 062.109.070.010@
 062.109.069.010@
 078.052.059.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
-062.109.069.010@
-062.109.070.010@
+062.109.069.000@
+062.109.070.000@
+062.109.069.002@
 078.052.060.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
 062.109.070.000@
 062.109.070.002@
 062.109.069.000@
 078.052.061.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
+062.109.070.010@
+062.109.069.010@
 078.052.062.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
 078.052.063.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
 213.191.087.173~so-0-2-0-0.cr01.fra.de.hansenet.net
 213.191.087.242~so-0-1-0-0.cr01.fra.de.hansenet.net
-213.191.066.021~so-0-0-0-0.cr01.fra.de.hansenet.net
-062.109.069.172~62.109.69.172
 062.109.069.158~62.109.69.158
+062.109.069.172~62.109.69.172
 213.191.066.073~ae4-0.cr01.fra.de.hansenet.net~DE,Hessen,Frankfurt Am Main,50.1167,8.6833
 213.191.066.077~ae4-0.cr01.fra.de.hansenet.net~DE,Hessen,Frankfurt Am Main,50.1167,8.6833
 078.052.063.255=0*8
@@ -3912,8 +3890,10 @@
 213.191.090.117@
 213.191.090.119@
 078.052.069.000=0 DE,Berlin,Berlin,52.5167,13.4
-213.191.090.117@
-213.191.090.119@
+213.191.066.022@
+213.191.087.174@
+213.191.087.241@
+213.191.066.026@
 078.052.070.000=0 DE,Berlin,Berlin,52.5167,13.4
 213.191.087.241@
 213.191.066.026@
@@ -3928,8 +3908,8 @@
 062.109.067.253~ae8-0.cr01.asham.de.hansenet.net~DE,Hamburg,Hamburg,53.55,10
 062.109.069.153~62.109.69.153
 062.109.069.155~62.109.69.155
-062.109.069.167~62.109.69.167
 062.109.069.169~62.109.69.169
+062.109.069.167~62.109.69.167
 078.052.071.255=0*8
 =======8
 078.052.072.000=0 DE,,,51,9
@@ -3956,10 +3936,14 @@
 062.109.108.039@
 062.109.108.103@
 078.052.087.000=0 DE,Berlin,Berlin,52.5167,13.4
-062.109.108.039@
 062.109.108.103@
-213.191.090.119~213.191.90.119
+062.109.108.039@
 213.191.090.117~213.191.90.117
+213.191.090.119~213.191.90.119
+213.191.087.138~so-6-1-0-0.cr02.ber.de.hansenet.net~DE,Berlin,Berlin,52.5167,13.4
+213.191.087.238~so-6-0-0-0.cr02.ber.de.hansenet.net~DE,Berlin,Berlin,52.5167,13.4
+213.191.066.018~so-1-0-0-0.cr02.ber.de.hansenet.net~DE,Berlin,Berlin,52.5167,13.4
+213.191.087.218~so-7-0-0-0.cr01.ber.de.hansenet.net~DE,Berlin,Berlin,52.5167,13.4
 078.052.087.255=0*8
 =======8
 078.052.088.000=0 DE,,,51,9
@@ -4049,37 +4033,29 @@
 062.109.069.000@
 062.109.070.000@
 078.052.126.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
-062.109.069.002@
 062.109.070.000@
 062.109.069.000@
-062.109.070.002@
 078.052.127.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
-062.109.070.000@
 062.109.069.000@
-062.109.069.002@
+062.109.070.000@
 062.109.069.158~62.109.69.158
 062.109.069.172~62.109.69.172
 213.191.087.173~so-0-2-0-0.cr01.fra.de.hansenet.net
 213.191.066.021~so-0-0-0-0.cr01.fra.de.hansenet.net
 213.191.087.242~so-0-1-0-0.cr01.fra.de.hansenet.net
-213.191.066.077~ae4-0.cr01.fra.de.hansenet.net~DE,Hessen,Frankfurt Am Main,50.1167,8.6833
-213.191.066.073~ae4-0.cr01.fra.de.hansenet.net~DE,Hessen,Frankfurt Am Main,50.1167,8.6833
 078.052.127.255=0*8
 =======128
 078.052.128.000=0 DE,Berlin,Berlin,52.5167,13.4
 213.191.090.121@
 213.191.090.117@
 078.052.129.000=0 DE,Berlin,Berlin,52.5167,13.4
+213.191.087.174@
 213.191.066.022@
 213.191.066.026@
 213.191.087.226@
-213.191.087.241@
-213.191.087.190@
 078.052.130.000=0 DE,Berlin,Berlin,52.5167,13.4
-213.191.087.226@
-213.191.087.190@
-213.191.087.241@
-213.191.066.022@
+213.191.090.121@
+213.191.090.117@
 078.052.131.000=0 DE,Berlin,Berlin,52.5167,13.4
 213.191.090.117@
 213.191.090.121@
@@ -4087,20 +4063,18 @@
 213.191.090.121@
 213.191.090.117@
 078.052.133.000=0 DE,Berlin,Berlin,52.5167,13.4
-213.191.090.117@
-213.191.090.121@
+213.191.087.241@
+213.191.087.174@
+213.191.066.022@
 078.052.134.000=0 DE,Berlin,Berlin,52.5167,13.4
 213.191.090.121@
 213.191.090.117@
 078.052.135.000=0 DE,Berlin,Berlin,52.5167,13.4
-213.191.087.226@
-213.191.087.190@
-213.191.087.241@
-213.191.087.174@
+213.191.090.117@
+213.191.090.121@
 213.191.090.130~213.191.90.130
 213.191.090.126~213.191.90.126
 062.109.069.153~62.109.69.153
-062.109.069.169~62.109.69.169
 062.109.069.155~62.109.69.155
 062.109.069.167~62.109.69.167
 =======8
@@ -4108,10 +4082,8 @@
 213.191.090.117@
 213.191.090.121@
 078.052.137.000=0 DE,Berlin,Berlin,52.5167,13.4
-213.191.087.226@
-213.191.087.241@
-213.191.087.174@
-213.191.066.022@
+213.191.090.117@
+213.191.090.121@
 078.052.138.000=0 DE,Berlin,Berlin,52.5167,13.4
 213.191.066.022@
 213.191.087.241@
@@ -4124,23 +4096,25 @@
 213.191.087.226@
 213.191.066.026@
 078.052.141.000=0 DE,Berlin,Berlin,52.5167,13.4
-213.191.087.241@
-213.191.087.190@
-213.191.066.026@
-213.191.087.226@
+213.191.090.121@
+213.191.090.117@
 078.052.142.000=0 DE,Berlin,Berlin,52.5167,13.4
 213.191.087.241@
 213.191.066.026@
 213.191.087.226@
 078.052.143.000=0 DE,Berlin,Berlin,52.5167,13.4
-213.191.090.121@
-213.191.090.117@
+213.191.066.018@
+213.191.066.014@
+213.191.087.238@
 213.191.090.126~213.191.90.126
 213.191.090.130~213.191.90.130
-062.109.069.169~62.109.69.169
-062.109.069.167~62.109.69.167
 062.109.069.153~62.109.69.153
+062.109.069.169~62.109.69.169
 062.109.069.155~62.109.69.155
+062.109.069.167~62.109.69.167
+062.109.067.245~ae7-0.cr01.asham.de.hansenet.net~DE,Hamburg,Hamburg,53.55,10
+062.109.067.249~ae8-0.cr01.weham.de.hansenet.net~DE,Hamburg,Hamburg,53.55,10
+062.109.067.253~ae8-0.cr01.asham.de.hansenet.net~DE,Hamburg,Hamburg,53.55,10
 078.052.143.255=0*16
 =======16
 078.052.144.000=0 DE,Berlin,Berlin,52.5167,13.4
@@ -4150,8 +4124,8 @@
 062.109.108.103@
 062.109.108.039@
 078.052.146.000=0 DE,Berlin,Berlin,52.5167,13.4
-062.109.108.103@
 062.109.108.039@
+062.109.108.103@
 078.052.147.000=0 DE,Berlin,Berlin,52.5167,13.4
 062.109.108.039@
 062.109.108.103@
@@ -4165,10 +4139,8 @@
 078.052.147.255=0*4
 -------
 078.052.148.000=0 DE,Berlin,Berlin,52.5167,13.4
-213.191.087.174@
-213.191.066.022@
-213.191.087.190@
-213.191.087.226@
+213.191.090.117@
+213.191.090.121@
 078.052.149.000=0 DE,Berlin,Berlin,52.5167,13.4
 213.191.087.138@
 213.191.087.218@
@@ -4178,41 +4150,40 @@
 213.191.090.117@
 213.191.090.121@
 078.052.151.000=0 DE,Berlin,Berlin,52.5167,13.4
-213.191.066.026@
-213.191.087.241@
-213.191.066.022@
-213.191.087.190@
-062.109.069.167~62.109.69.167
-062.109.069.153~62.109.69.153
-062.109.069.169~62.109.69.169
-062.109.069.155~62.109.69.155
+213.191.087.138@
+213.191.087.218@
+213.191.087.130@
+213.191.090.126~213.191.90.126
+213.191.090.130~213.191.90.130
 062.109.067.253~ae8-0.cr01.asham.de.hansenet.net~DE,Hamburg,Hamburg,53.55,10
 062.109.067.245~ae7-0.cr01.asham.de.hansenet.net~DE,Hamburg,Hamburg,53.55,10
 062.109.067.241~ae7-0.cr01.weham.de.hansenet.net~DE,Hamburg,Hamburg,53.55,10
 062.109.067.249~ae8-0.cr01.weham.de.hansenet.net~DE,Hamburg,Hamburg,53.55,10
-213.191.090.126~213.191.90.126
-213.191.090.130~213.191.90.130
 078.052.151.255=0*4
 =======8
 078.052.152.000=0 DE,Berlin,Berlin,52.5167,13.4
-213.191.066.026@
+213.191.087.226@
 213.191.087.190@
-213.191.087.174@
 213.191.066.022@
+213.191.087.241@
+213.191.087.174@
 078.052.153.000=0 DE,Berlin,Berlin,52.5167,13.4
 213.191.087.238@
 213.191.066.014@
 213.191.087.130@
 078.052.154.000=0 DE,Brandenburg,Oranienburg,52.75,13.2333
-213.191.087.138@
-213.191.066.014@
-213.191.087.238@
+213.191.087.190@
+213.191.066.022@
+213.191.066.026@
+213.191.087.241@
 078.052.155.000=0 DE,Brandenburg,Eberswalde,52.8333,13.8333
 213.191.090.121@
 213.191.090.115@
 078.052.156.000=0 DE,Berlin,Berlin,52.5167,13.4
-213.191.090.119@
-213.191.090.117@
+213.191.087.226@
+213.191.087.174@
+213.191.066.022@
+213.191.087.241@
 078.052.157.000=0 DE,Berlin,Berlin,52.5167,13.4
 213.191.090.117@
 213.191.090.119@
@@ -4241,22 +4212,19 @@
 062.109.111.041@
 062.109.111.009@
 078.052.161.000=0 DE,Berlin,Berlin,52.5167,13.4
-062.109.108.016@
-062.109.108.080@
 062.109.111.009@
-062.109.111.041@
+062.109.108.016@
 078.052.162.000=0 DE,Berlin,Berlin,52.5167,13.4
 062.109.108.080@
-062.109.108.016@
 062.109.111.009@
+062.109.108.016@
 062.109.111.041@
 078.052.163.000=0 DE,Berlin,Berlin,52.5167,13.4
-062.109.108.080@
-062.109.111.009@
 062.109.108.016@
+062.109.111.009@
 078.052.164.000=0 DE,Berlin,Berlin,52.5167,13.4
 062.109.108.080@
-062.109.108.016@
+062.109.111.041@
 078.052.165.000=0 DE,Berlin,Berlin,52.5167,13.4
 062.109.108.080@
 062.109.111.041@
@@ -4270,22 +4238,22 @@
 062.109.111.009@
 213.191.090.119~213.191.90.119
 213.191.090.117~213.191.90.117
-213.191.087.238~so-6-0-0-0.cr02.ber.de.hansenet.net~DE,Berlin,Berlin,52.5167,13.4
-213.191.087.218~so-7-0-0-0.cr01.ber.de.hansenet.net~DE,Berlin,Berlin,52.5167,13.4
-213.191.087.130~so-7-1-0-0.cr01.ber.de.hansenet.net~DE,Berlin,Berlin,52.5167,13.4
+213.191.087.226~so-7-0-0-0.cr02.ber.de.hansenet.net
+213.191.066.022~so-1-1-0-0.cr01.ber.de.hansenet.net
+213.191.087.190~so-7-1-0-0.cr02.ber.de.hansenet.net
+213.191.066.026~so-1-1-0-0.cr02.ber.de.hansenet.net
+213.191.087.174~so-6-1-0-0.cr01.ber.de.hansenet.net
+213.191.087.241~so-6-0-0-0.cr01.ber.de.hansenet.net
 =======8
 078.052.168.000=0 DE,Berlin,Berlin,52.5167,13.4
-062.109.111.009@
-062.109.108.016@
 062.109.108.080@
+062.109.108.016@
 078.052.169.000=0 DE,Berlin,Berlin,52.5167,13.4
-062.109.111.009@
-062.109.108.016@
-062.109.108.080@
-078.052.170.000=0 DE,Berlin,Berlin,52.5167,13.4
-062.109.108.016@
 062.109.111.041@
-062.109.111.009@
+062.109.108.016@
+078.052.170.000=0 DE,Berlin,Berlin,52.5167,13.4
+062.109.108.080@
+062.109.111.041@
 078.052.171.000=0 DE,Berlin,Berlin,52.5167,13.4
 062.109.108.080@
 062.109.108.016@
@@ -4294,26 +4262,29 @@
 062.109.108.080@
 062.109.111.009@
 078.052.173.000=0 DE,Berlin,Berlin,52.5167,13.4
-062.109.111.009@
-062.109.111.041@
 062.109.108.080@
+062.109.108.016@
+062.109.111.009@
 078.052.174.000=0 DE,Berlin,Berlin,52.5167,13.4
 062.109.108.080@
-062.109.108.016@
-062.109.111.009@
-078.052.175.000=0 DE,Berlin,Berlin,52.5167,13.4
-062.109.111.009@
-062.109.108.016@
 062.109.111.041@
-213.191.066.022~so-1-1-0-0.cr01.ber.de.hansenet.net
-213.191.066.026~so-1-1-0-0.cr02.ber.de.hansenet.net
-213.191.087.190~so-7-1-0-0.cr02.ber.de.hansenet.net
-213.191.087.241~so-6-0-0-0.cr01.ber.de.hansenet.net
-213.191.087.174~so-6-1-0-0.cr01.ber.de.hansenet.net
-213.191.066.018~so-1-0-0-0.cr02.ber.de.hansenet.net~DE,Berlin,Berlin,52.5167,13.4
+062.109.108.016@
+078.052.175.000=0 DE,Berlin,Berlin,52.5167,13.4
+062.109.111.041@
+062.109.111.009@
+062.109.108.016@
+213.191.090.117~213.191.90.117
+213.191.090.119~213.191.90.119
 213.191.087.138~so-6-1-0-0.cr02.ber.de.hansenet.net~DE,Berlin,Berlin,52.5167,13.4
 213.191.087.130~so-7-1-0-0.cr01.ber.de.hansenet.net~DE,Berlin,Berlin,52.5167,13.4
 213.191.066.014~so-1-0-0-0.cr01.ber.de.hansenet.net~DE,Berlin,Berlin,52.5167,13.4
+213.191.087.226~so-7-0-0-0.cr02.ber.de.hansenet.net
+213.191.066.026~so-1-1-0-0.cr02.ber.de.hansenet.net
+213.191.087.174~so-6-1-0-0.cr01.ber.de.hansenet.net
+213.191.066.022~so-1-1-0-0.cr01.ber.de.hansenet.net
+213.191.087.241~so-6-0-0-0.cr01.ber.de.hansenet.net
+213.191.066.018~so-1-0-0-0.cr02.ber.de.hansenet.net~DE,Berlin,Berlin,52.5167,13.4
+213.191.087.238~so-6-0-0-0.cr02.ber.de.hansenet.net~DE,Berlin,Berlin,52.5167,13.4
 078.052.175.255=0*16
 =======16
 078.052.176.000=0 DE,,,51,9
@@ -4337,17 +4308,16 @@
 062.109.069.000@
 078.052.187.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
 078.052.187.000!0 DE,Bayern,München,48.15,11.5833
-062.109.070.000@
 062.109.069.002@
 062.109.070.002@
+062.109.070.000@
+062.109.069.000@
 078.052.188.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
 062.109.070.000@
-062.109.070.002@
 062.109.069.000@
-062.109.069.002@
 078.052.189.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
-062.109.069.000@
-062.109.070.000@
+062.109.070.010@
+062.109.069.010@
 078.052.190.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
 062.109.070.010@
 062.109.069.010@
@@ -4358,9 +4328,9 @@
 062.109.069.172~62.109.69.172
 213.191.066.021~so-0-0-0-0.cr01.fra.de.hansenet.net
 213.191.087.242~so-0-1-0-0.cr01.fra.de.hansenet.net
-213.191.066.073~ae4-0.cr01.fra.de.hansenet.net~DE,Hessen,Frankfurt Am Main,50.1167,8.6833
-213.191.066.077~ae4-0.cr01.fra.de.hansenet.net~DE,Hessen,Frankfurt Am Main,50.1167,8.6833
 213.191.087.173~so-0-2-0-0.cr01.fra.de.hansenet.net
+213.191.066.077~ae4-0.cr01.fra.de.hansenet.net~DE,Hessen,Frankfurt Am Main,50.1167,8.6833
+213.191.066.073~ae4-0.cr01.fra.de.hansenet.net~DE,Hessen,Frankfurt Am Main,50.1167,8.6833
 078.052.191.255=0*8
 =======64
 078.052.192.000=0 DE,Berlin,Berlin,52.5167,13.4
@@ -4406,7 +4376,6 @@
 078.052.200.000=0 DE,Berlin,Berlin,52.5167,13.4
 213.191.087.174@
 213.191.087.190@
-213.191.087.226@
 213.191.066.026@
 078.052.201.000=0 DE,Berlin,Berlin,52.5167,13.4
 213.191.066.026@
@@ -4421,9 +4390,10 @@
 213.191.090.117@
 213.191.090.121@
 078.052.204.000=0 DE,Berlin,Berlin,52.5167,13.4
-213.191.087.190@
-213.191.066.026@
-213.191.087.226@
+213.191.087.138@
+213.191.087.238@
+213.191.087.130@
+213.191.066.018@
 078.052.205.000=0 DE,Berlin,Berlin,52.5167,13.4
 213.191.090.121@
 213.191.090.117@
@@ -4470,6 +4440,7 @@
 062.109.069.158~62.109.69.158
 213.191.066.021~so-0-0-0-0.cr01.fra.de.hansenet.net
 213.191.087.173~so-0-2-0-0.cr01.fra.de.hansenet.net
+213.191.087.242~so-0-1-0-0.cr01.fra.de.hansenet.net
 078.052.215.255=0*8
 =======8
 078.052.216.000=0 DE,,,51,9
@@ -4486,25 +4457,27 @@
 213.191.090.115@
 213.191.090.119@
 078.052.225.000=0 DE,Berlin,Berlin,52.5167,13.4
-213.191.090.119@
-213.191.090.115@
+213.191.087.138@
+213.191.087.130@
+213.191.087.238@
+213.191.087.218@
 078.052.226.000=0 DE,Berlin,Berlin,52.5167,13.4
-213.191.090.119@
-213.191.090.115@
+213.191.066.018@
+213.191.066.014@
+213.191.087.238@
+213.191.087.130@
+213.191.087.218@
 078.052.227.000=0 DE,Berlin,Berlin,52.5167,13.4
+213.191.087.174@
 213.191.087.241@
-213.191.066.022@
 213.191.087.226@
-213.191.066.026@
-213.191.087.190@
 078.052.228.000=0 DE,Berlin,Berlin,52.5167,13.4
 213.191.090.115@
 213.191.090.119@
 078.052.229.000=0 DE,Berlin,Berlin,52.5167,13.4
-213.191.087.190@
-213.191.087.174@
-213.191.087.226@
-213.191.087.241@
+213.191.087.238@
+213.191.087.218@
+213.191.066.014@
 078.052.230.000=0 DE,Berlin,Berlin,52.5167,13.4
 213.191.090.115@
 213.191.090.119@
@@ -4513,30 +4486,34 @@
 213.191.090.115@
 213.191.090.126~213.191.90.126
 213.191.090.130~213.191.90.130
+062.109.067.245~ae7-0.cr01.asham.de.hansenet.net~DE,Hamburg,Hamburg,53.55,10
+062.109.067.249~ae8-0.cr01.weham.de.hansenet.net~DE,Hamburg,Hamburg,53.55,10
+062.109.067.241~ae7-0.cr01.weham.de.hansenet.net~DE,Hamburg,Hamburg,53.55,10
+062.109.067.253~ae8-0.cr01.asham.de.hansenet.net~DE,Hamburg,Hamburg,53.55,10
 062.109.069.153~62.109.69.153
 062.109.069.167~62.109.69.167
 062.109.069.169~62.109.69.169
 062.109.069.155~62.109.69.155
 =======8
 078.052.232.000=0 DE,Berlin,Berlin,52.5167,13.4
-213.191.087.226@
-213.191.066.026@
-213.191.087.241@
+213.191.066.018@
+213.191.066.014@
+213.191.087.138@
 078.052.233.000=0 DE,Berlin,Berlin,52.5167,13.4
+213.191.087.238@
+213.191.066.018@
+213.191.087.130@
+078.052.234.000=0 DE,Berlin,Berlin,52.5167,13.4
 213.191.090.115@
 213.191.090.119@
-078.052.234.000=0 DE,Berlin,Berlin,52.5167,13.4
-213.191.087.174@
-213.191.066.022@
-213.191.087.190@
-213.191.087.226@
 078.052.235.000=0 DE,Berlin,Berlin,52.5167,13.4
 213.191.066.026@
 213.191.087.241@
 213.191.066.022@
 078.052.236.000=0 DE,Berlin,Berlin,52.5167,13.4
-213.191.090.119@
-213.191.090.115@
+213.191.087.226@
+213.191.087.174@
+213.191.066.026@
 078.052.237.000=0 DE,Berlin,Berlin,52.5167,13.4
 213.191.090.115@
 213.191.090.119@
@@ -4547,12 +4524,16 @@
 213.191.087.190@
 213.191.087.174@
 213.191.087.241@
-062.109.069.169~62.109.69.169
-062.109.069.167~62.109.69.167
+062.109.067.245~ae7-0.cr01.asham.de.hansenet.net~DE,Hamburg,Hamburg,53.55,10
+062.109.067.241~ae7-0.cr01.weham.de.hansenet.net~DE,Hamburg,Hamburg,53.55,10
+062.109.067.253~ae8-0.cr01.asham.de.hansenet.net~DE,Hamburg,Hamburg,53.55,10
+062.109.067.249~ae8-0.cr01.weham.de.hansenet.net~DE,Hamburg,Hamburg,53.55,10
 213.191.090.126~213.191.90.126
 213.191.090.130~213.191.90.130
-062.109.069.153~62.109.69.153
 062.109.069.155~62.109.69.155
+062.109.069.169~62.109.69.169
+062.109.069.167~62.109.69.167
+062.109.069.153~62.109.69.153
 078.052.239.255=0*16
 =======16
 078.052.240.000=0 DE,Berlin,Berlin,52.5167,13.4
@@ -4596,20 +4577,17 @@
 213.191.087.138@
 213.191.087.238@
 078.053.002.000=0 DE,Berlin,Berlin,52.5167,13.4
-213.191.087.174@
+213.191.087.241@
 213.191.087.190@
-213.191.066.022@
-213.191.087.226@
+213.191.087.174@
 078.053.003.000=0 DE,Berlin,Berlin,52.5167,13.4
-213.191.066.018@
-213.191.087.218@
-213.191.066.014@
-213.191.087.238@
+213.191.090.115@
+213.191.090.121@
 078.053.004.000=0 DE,Berlin,Berlin,52.5167,13.4
 213.191.087.190@
 213.191.087.241@
 213.191.066.026@
-213.191.087.226@
+213.191.087.174@
 078.053.005.000=0 DE,Berlin,Berlin,52.5167,13.4
 213.191.090.115@
 213.191.090.121@
@@ -4619,10 +4597,11 @@
 213.191.066.018@
 213.191.087.238@
 078.053.007.000=0 DE,Berlin,Berlin,52.5167,13.4
-213.191.087.174@
 213.191.066.022@
-213.191.066.026@
+213.191.087.174@
 213.191.087.241@
+213.191.087.190@
+213.191.066.026@
 213.191.090.130~213.191.90.130
 213.191.090.126~213.191.90.126
 062.109.067.241~ae7-0.cr01.weham.de.hansenet.net~DE,Hamburg,Hamburg,53.55,10
@@ -4631,7 +4610,6 @@
 062.109.069.153~62.109.69.153
 062.109.069.169~62.109.69.169
 062.109.069.155~62.109.69.155
-062.109.067.249~ae8-0.cr01.weham.de.hansenet.net~DE,Hamburg,Hamburg,53.55,10
 062.109.069.167~62.109.69.167
 =======8
 078.053.008.000=0 DE,Berlin,Berlin,52.5167,13.4
@@ -4645,16 +4623,18 @@
 078.053.010.000=0 DE,Berlin,Berlin,52.5167,13.4
 213.191.087.241@
 213.191.066.022@
-213.191.066.026@
+213.191.087.226@
 213.191.087.174@
 078.053.011.000=0 DE,Berlin,Berlin,52.5167,13.4
+213.191.066.026@
+213.191.087.241@
+213.191.087.226@
+213.191.087.174@
+213.191.066.022@
+078.053.012.000=0 DE,Berlin,Berlin,52.5167,13.4
 213.191.087.190@
 213.191.087.241@
 213.191.087.226@
-078.053.012.000=0 DE,Berlin,Berlin,52.5167,13.4
-213.191.087.226@
-213.191.066.022@
-213.191.087.190@
 078.053.013.000=0 DE,Berlin,Berlin,52.5167,13.4
 213.191.090.121@
 213.191.090.115@
@@ -4691,9 +4671,10 @@
 213.191.087.233@
 213.191.066.238@
 078.053.026.000=0 DE,Sachsen,Dresden,51.05,13.75
-213.191.066.242@
 213.191.087.202@
-213.191.087.233@
+213.191.066.246@
+213.191.066.250@
+213.191.066.238@
 078.053.027.000=0 DE,Sachsen,Dresden,51.05,13.75
 213.191.087.230@
 213.191.066.250@
@@ -4702,6 +4683,10 @@
 062.109.069.169~62.109.69.169
 062.109.069.167~62.109.69.167
 062.109.069.155~62.109.69.155
+213.191.066.018~so-1-0-0-0.cr02.ber.de.hansenet.net~DE,Berlin,Berlin,52.5167,13.4
+213.191.066.014~so-1-0-0-0.cr01.ber.de.hansenet.net~DE,Berlin,Berlin,52.5167,13.4
+213.191.066.077~ae4-0.cr01.fra.de.hansenet.net~DE,Hessen,Frankfurt Am Main,50.1167,8.6833
+213.191.066.073~ae4-0.cr01.fra.de.hansenet.net~DE,Hessen,Frankfurt Am Main,50.1167,8.6833
 078.053.027.255=0*4
 -------
 078.053.028.000=0 DE,Sachsen,Leipzig,51.3,12.3333
@@ -4709,26 +4694,23 @@
 213.191.087.230@
 213.191.066.250@
 078.053.029.000=0 DE,Thüringen,Jena,50.9333,11.5833
-213.191.066.246@
+213.191.087.202@
 213.191.066.238@
 213.191.066.242@
-213.191.087.182@
-213.191.087.230@
 078.053.030.000=0 DE,Thüringen,Jena,50.9333,11.5833
-213.191.066.250@
 213.191.087.230@
+213.191.066.250@
 078.053.031.000=0 DE,Thüringen,Jena,50.9333,11.5833
 213.191.066.238@
-213.191.087.202@
 213.191.066.242@
+213.191.087.202@
+213.191.087.233@
 213.191.090.121~213.191.90.121
 213.191.090.117~213.191.90.117
-213.191.066.014~so-1-0-0-0.cr01.ber.de.hansenet.net~DE,Berlin,Berlin,52.5167,13.4
-213.191.087.218~so-7-0-0-0.cr01.ber.de.hansenet.net~DE,Berlin,Berlin,52.5167,13.4
-213.191.087.238~so-6-0-0-0.cr02.ber.de.hansenet.net~DE,Berlin,Berlin,52.5167,13.4
+062.109.069.155~62.109.69.155
+062.109.069.167~62.109.69.167
 062.109.069.153~62.109.69.153
 062.109.069.169~62.109.69.169
-062.109.069.155~62.109.69.155
 078.053.031.255=0*4
 =======32
 078.053.032.000=0 DE,Berlin,Berlin,52.5167,13.4
@@ -4741,10 +4723,8 @@
 213.191.090.119@
 213.191.090.115@
 078.053.035.000=0 DE,Berlin,Berlin,52.5167,13.4
-213.191.087.190@
-213.191.087.241@
-213.191.066.026@
-213.191.087.226@
+213.191.090.115@
+213.191.090.119@
 078.053.036.000=0 DE,Berlin,Berlin,52.5167,13.4
 213.191.090.115@
 213.191.090.119@
@@ -4765,25 +4745,24 @@
 213.191.087.130@
 213.191.090.130~213.191.90.130
 213.191.090.126~213.191.90.126
-062.109.069.155~62.109.69.155
-062.109.069.153~62.109.69.153
-062.109.069.169~62.109.69.169
 062.109.069.167~62.109.69.167
+062.109.069.155~62.109.69.155
+062.109.069.169~62.109.69.169
+062.109.069.153~62.109.69.153
 062.109.067.245~ae7-0.cr01.asham.de.hansenet.net~DE,Hamburg,Hamburg,53.55,10
 062.109.067.249~ae8-0.cr01.weham.de.hansenet.net~DE,Hamburg,Hamburg,53.55,10
 062.109.067.253~ae8-0.cr01.asham.de.hansenet.net~DE,Hamburg,Hamburg,53.55,10
 062.109.067.241~ae7-0.cr01.weham.de.hansenet.net~DE,Hamburg,Hamburg,53.55,10
 =======8
 078.053.040.000=0 DE,Berlin,Berlin,52.5167,13.4
-213.191.087.241@
-213.191.087.190@
 213.191.087.174@
-078.053.041.000=0 DE,Berlin,Berlin,52.5167,13.4
-213.191.087.174@
-213.191.066.026@
-213.191.087.241@
 213.191.087.190@
 213.191.087.226@
+213.191.066.026@
+078.053.041.000=0 DE,Berlin,Berlin,52.5167,13.4
+213.191.066.022@
+213.191.087.190@
+213.191.087.174@
 078.053.042.000=0 DE,Berlin,Berlin,52.5167,13.4
 213.191.090.115@
 213.191.090.119@
@@ -4794,8 +4773,8 @@
 213.191.087.130@
 078.053.044.000=0 DE,Berlin,Berlin,52.5167,13.4
 213.191.087.241@
-213.191.087.226@
-213.191.066.022@
+213.191.087.190@
+213.191.066.026@
 078.053.045.000=0 DE,Berlin,Berlin,52.5167,13.4
 213.191.087.226@
 213.191.087.174@
@@ -4810,21 +4789,20 @@
 213.191.087.241@
 062.109.069.167~62.109.69.167
 062.109.069.169~62.109.69.169
+062.109.069.155~62.109.69.155
 213.191.090.126~213.191.90.126
 213.191.090.130~213.191.90.130
 062.109.067.253~ae8-0.cr01.asham.de.hansenet.net~DE,Hamburg,Hamburg,53.55,10
 062.109.067.241~ae7-0.cr01.weham.de.hansenet.net~DE,Hamburg,Hamburg,53.55,10
 062.109.067.245~ae7-0.cr01.asham.de.hansenet.net~DE,Hamburg,Hamburg,53.55,10
 062.109.069.153~62.109.69.153
-062.109.069.155~62.109.69.155
 078.053.047.255=0*16
 =======16
 078.053.048.000=0 DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
 078.053.048.000=0 DE,Nordrhein-Westfalen,Herne,51.55,7.2167
-213.191.090.000@
 213.191.091.002@
+213.191.090.000@
 213.191.090.002@
-213.191.091.000@
 078.053.049.000=0 DE,Nordrhein-Westfalen,Velbert,51.3333,7.05
 213.191.091.000@
 213.191.090.002@
@@ -4842,16 +4820,16 @@
 213.191.091.002@
 213.191.090.002@
 078.053.053.000=0 DE,Nordrhein-Westfalen,Velbert,51.3333,7.05
-213.191.090.002@
-213.191.091.002@
 213.191.091.000@
+213.191.090.000@
+213.191.090.002@
 078.053.054.000=0 DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
 078.053.055.000=0 DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
-213.191.087.250~so-7-0-0-0.cr01.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
 213.191.087.149~so-7-1-0-0.cr02.dus.de.hansenet.net
-213.191.087.154~so-7-0-0-0.cr02.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
-213.191.087.145~so-7-1-0-0.cr01.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
 213.191.066.006~so-1-1-0-0.cr01.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
+213.191.087.154~so-7-0-0-0.cr02.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
+213.191.087.250~so-7-0-0-0.cr01.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
+213.191.087.145~so-7-1-0-0.cr01.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
 213.191.066.010~so-1-1-0-0.cr02.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
 213.191.066.029~so-1-0-0-0.cr01.dus.de.hansenet.net
 213.191.087.246~so-6-0-0-0.cr01.dus.de.hansenet.net
@@ -4907,20 +4885,19 @@
 213.191.090.115@
 213.191.090.121@
 078.053.065.000=0 DE,Brandenburg,Hennigsdorf,52.6333,13.2
-213.191.066.022@
-213.191.087.226@
-213.191.066.026@
-213.191.087.190@
+213.191.090.121@
+213.191.090.115@
 078.053.066.000=0 DE,Brandenburg,Werder,52.3833,12.95
 213.191.087.138@
 213.191.066.014@
 078.053.067.000=0 DE,Berlin,Berlin,52.5167,13.4
-213.191.087.190@
-213.191.066.026@
-213.191.087.226@
-078.053.068.000=0 DE,Berlin,Berlin,52.5167,13.4
-213.191.090.115@
 213.191.090.121@
+213.191.090.115@
+078.053.068.000=0 DE,Berlin,Berlin,52.5167,13.4
+213.191.066.018@
+213.191.066.014@
+213.191.087.130@
+213.191.087.218@
 078.053.069.000=0 DE,Brandenburg,Hennigsdorf,52.6333,13.2
 213.191.090.121@
 213.191.090.115@
@@ -4930,18 +4907,19 @@
 213.191.066.026@
 213.191.087.174@
 078.053.071.000=0 DE,Brandenburg,Bernau,52.6667,13.5833
-213.191.090.121@
-213.191.090.115@
+213.191.087.226@
+213.191.087.174@
+213.191.066.022@
 213.191.090.126~213.191.90.126
 213.191.090.130~213.191.90.130
-062.109.069.167~62.109.69.167
-062.109.069.155~62.109.69.155
-062.109.069.169~62.109.69.169
 062.109.067.245~ae7-0.cr01.asham.de.hansenet.net~DE,Hamburg,Hamburg,53.55,10
 062.109.067.249~ae8-0.cr01.weham.de.hansenet.net~DE,Hamburg,Hamburg,53.55,10
 062.109.067.241~ae7-0.cr01.weham.de.hansenet.net~DE,Hamburg,Hamburg,53.55,10
 062.109.067.253~ae8-0.cr01.asham.de.hansenet.net~DE,Hamburg,Hamburg,53.55,10
 062.109.069.153~62.109.69.153
+062.109.069.155~62.109.69.155
+062.109.069.169~62.109.69.169
+062.109.069.167~62.109.69.167
 =======8
 078.053.072.000=0 DE,Berlin,Berlin,52.5167,13.4
 213.191.087.130@
@@ -4949,18 +4927,23 @@
 213.191.066.014@
 213.191.087.218@
 078.053.073.000=0 DE,Berlin,Berlin,52.5167,13.4
-213.191.090.121@
-213.191.090.115@
-078.053.074.000=0 DE,Brandenburg,Strausberg,52.5833,13.8833
-213.191.087.226@
+213.191.066.026@
 213.191.087.190@
+213.191.087.174@
+078.053.074.000=0 DE,Brandenburg,Strausberg,52.5833,13.8833
+213.191.066.022@
+213.191.087.190@
+213.191.087.226@
 213.191.066.026@
 078.053.075.000=0 DE,Berlin,Berlin,52.5167,13.4
-213.191.090.115@
-213.191.090.121@
+213.191.066.026@
+213.191.087.226@
+213.191.066.022@
 078.053.076.000=0 DE,Berlin,Berlin,52.5167,13.4
-213.191.090.119@
-213.191.090.117@
+213.191.087.241@
+213.191.087.226@
+213.191.066.026@
+213.191.066.022@
 078.053.077.000=0 DE,Berlin,Berlin,52.5167,13.4
 213.191.066.018@
 213.191.087.138@
@@ -4974,13 +4957,13 @@
 062.109.067.249~ae8-0.cr01.weham.de.hansenet.net~DE,Hamburg,Hamburg,53.55,10
 062.109.067.241~ae7-0.cr01.weham.de.hansenet.net~DE,Hamburg,Hamburg,53.55,10
 062.109.067.253~ae8-0.cr01.asham.de.hansenet.net~DE,Hamburg,Hamburg,53.55,10
-213.191.090.130~213.191.90.130
-213.191.090.126~213.191.90.126
 062.109.069.169~62.109.69.169
 062.109.069.155~62.109.69.155
-062.109.067.245~ae7-0.cr01.asham.de.hansenet.net~DE,Hamburg,Hamburg,53.55,10
-062.109.069.153~62.109.69.153
 062.109.069.167~62.109.69.167
+062.109.069.153~62.109.69.153
+062.109.067.245~ae7-0.cr01.asham.de.hansenet.net~DE,Hamburg,Hamburg,53.55,10
+213.191.090.126~213.191.90.126
+213.191.090.130~213.191.90.130
 078.053.079.255=0*16
 =======16
 078.053.080.000=0 DE,Sachsen,Leipzig,51.3,12.3333
@@ -4991,8 +4974,8 @@
 213.191.066.250@
 213.191.087.230@
 078.053.082.000=0 DE,Sachsen,Dresden,51.05,13.75
-213.191.066.250@
 213.191.087.230@
+213.191.066.250@
 078.053.083.000=0 DE,Sachsen,Dresden,51.05,13.75
 213.191.066.250@
 213.191.087.230@
@@ -5024,24 +5007,26 @@
 213.191.066.246@
 213.191.066.250@
 078.053.090.000=0 DE,Thüringen,Jena,50.9333,11.5833
-213.191.066.242@
-213.191.087.233@
 213.191.087.202@
-213.191.066.238@
+213.191.066.250@
+213.191.066.242@
+213.191.087.230@
 078.053.091.000=0 DE,Thüringen,Jena,50.9333,11.5833
 213.191.087.230@
 213.191.066.250@
 078.053.092.000=0 DE,Sachsen,Leipzig,51.3,12.3333
-213.191.066.242@
-213.191.087.202@
-213.191.066.238@
+213.191.087.182@
+213.191.066.246@
+213.191.066.250@
 213.191.087.233@
 078.053.093.000=0 DE,Sachsen,Leipzig,51.3,12.3333
 213.191.066.242@
 213.191.087.233@
 078.053.094.000=0 DE,Sachsen,Leipzig,51.3,12.3333
-213.191.066.246@
-213.191.087.182@
+213.191.066.238@
+213.191.066.242@
+213.191.087.233@
+213.191.087.202@
 078.053.095.000=0 DE,Sachsen,Leipzig,51.3,12.3333
 213.191.066.246@
 213.191.087.182@
@@ -5051,23 +5036,22 @@
 213.191.066.073~ae4-0.cr01.fra.de.hansenet.net~DE,Hessen,Frankfurt Am Main,50.1167,8.6833
 213.191.066.077~ae4-0.cr01.fra.de.hansenet.net~DE,Hessen,Frankfurt Am Main,50.1167,8.6833
 213.191.087.138~so-6-1-0-0.cr02.ber.de.hansenet.net~DE,Berlin,Berlin,52.5167,13.4
-062.109.069.169~62.109.69.169
-062.109.069.167~62.109.69.167
-062.109.069.153~62.109.69.153
 213.191.090.117~213.191.90.117
 213.191.090.121~213.191.90.121
+213.191.087.130~so-7-1-0-0.cr01.ber.de.hansenet.net~DE,Berlin,Berlin,52.5167,13.4
+062.109.069.169~62.109.69.169
 062.109.069.155~62.109.69.155
-213.191.090.119~213.191.90.119
+062.109.069.153~62.109.69.153
+062.109.069.167~62.109.69.167
 213.191.090.115~213.191.90.115
+213.191.090.119~213.191.90.119
 078.053.095.255=0*8
 =======32
 078.053.096.000=0 DE,Sachsen,Leipzig,51.3,12.3333
-213.191.066.242@
-213.191.066.238@
-213.191.087.202@
-062.109.069.169~62.109.69.169
-062.109.069.167~62.109.69.167
-062.109.069.155~62.109.69.155
+213.191.066.246@
+213.191.087.182@
+213.191.090.115~213.191.90.115
+213.191.090.119~213.191.90.119
 078.053.096.255=0*1
 -------
 078.053.097.000=0 DE,Sachsen,Leipzig,51.3,12.3333
@@ -5128,7 +5112,7 @@
 062.109.069.155~62.109.69.155
 062.109.069.169~62.109.69.169
 062.109.069.153~62.109.69.153
-078.053.107.255=0*4
+078.053.107.255=0^4
 -------
 078.053.108.000=0 DE,Baden-Württemberg,Stuttgart,48.7667,9.1833
 213.191.066.234@
@@ -5138,15 +5122,20 @@
 078.053.108.255=0*1
 -------
 078.053.109.000=0 DE,Baden-Württemberg,Stuttgart,48.7667,9.1833
-213.191.066.226@
-213.191.066.222@
-062.109.069.169~62.109.69.169
-062.109.069.153~62.109.69.153
+213.191.066.230@
+213.191.066.234@
+213.191.090.115~213.191.90.115
+213.191.090.121~213.191.90.121
 078.053.109.255=0*1
 -------
 078.053.110.000=0 DE,,,51,9
+213.191.066.222@
+213.191.066.226@
 078.053.111.000=0 DE,Baden-Württemberg,Stuttgart,48.7667,9.1833
-078.053.111.255=0*2
+062.109.069.153~62.109.69.153
+062.109.069.167~62.109.69.167
+062.109.069.155~62.109.69.155
+078.053.111.255=0^2
 =======16
 078.053.112.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
 078.053.112.000=0 DE,Hessen,Wiesbaden,50.0833,8.25
@@ -5162,9 +5151,8 @@
 062.109.069.010@
 062.109.070.010@
 078.053.116.000=0 DE,Hessen,Wiesbaden,50.0833,8.25
-062.109.070.000@
 062.109.069.002@
-062.109.069.000@
+062.109.070.002@
 078.053.117.000=0 DE,Hessen,Wiesbaden,50.0833,8.25
 062.109.070.000@
 062.109.070.002@
@@ -5199,7 +5187,9 @@
 062.109.070.000@
 062.109.070.002@
 078.053.124.000=0 DE,Rheinland-Pfalz,Mainz,50,8.2711
+062.109.069.002@
 062.109.069.000@
+062.109.070.002@
 062.109.070.000@
 078.053.125.000=0 DE,Rheinland-Pfalz,Mainz,50,8.2711
 062.109.069.000@
@@ -5207,8 +5197,8 @@
 062.109.069.000@
 062.109.070.000@
 078.053.127.000=0 DE,Rheinland-Pfalz,Mainz,50,8.2711
-062.109.070.010@
-062.109.069.010@
+062.109.069.000@
+062.109.070.000@
 213.191.066.021~so-0-0-0-0.cr01.fra.de.hansenet.net
 213.191.087.173~so-0-2-0-0.cr01.fra.de.hansenet.net
 062.109.069.158~62.109.69.158
@@ -5236,8 +5226,7 @@
 062.109.070.010@
 062.109.069.010@
 078.053.133.000=0 DE,Rheinland-Pfalz,Mainz,50,8.2711
-062.109.070.010@
-062.109.069.010@
+062.109.069.000@
 078.053.134.000=0 DE,Rheinland-Pfalz,Mainz,50,8.2711
 062.109.070.010@
 062.109.069.010@
@@ -5251,6 +5240,8 @@
 062.109.069.158~62.109.69.158
 062.109.069.172~62.109.69.172
 213.191.066.021~so-0-0-0-0.cr01.fra.de.hansenet.net
+213.191.087.242~so-0-1-0-0.cr01.fra.de.hansenet.net
+213.191.087.173~so-0-2-0-0.cr01.fra.de.hansenet.net
 078.053.135.255=0*8
 =======8
 078.053.136.000=0 DE,,,51,9
@@ -5271,6 +5262,8 @@
 062.109.069.137@
 062.109.069.010~ae0-0.xd01.fra.de.hansenet.net
 062.109.070.010~ge-7-0-3-0.xd01.fra.de.hansenet.net
+062.109.069.002~ae0-0.xd01.fra.de.hansenet.net~DE,Hessen,Frankfurt Am Main,50.1167,8.6833
+062.109.070.002~ae3-0.xd01.fra.de.hansenet.net~DE,Hessen,Frankfurt Am Main,50.1167,8.6833
 078.053.145.255=0*2
 -------
 078.053.146.000=0 DE,Niedersachsen,Hannover,52.3667,9.7167
@@ -5294,9 +5287,9 @@
 078.053.150.000=0 DE,Niedersachsen,Hannover,52.3667,9.7167
 078.053.151.000=0 DE,Niedersachsen,Hannover,52.3667,9.7167
 062.109.067.246~ae1-0.xd01.weham.de.hansenet.net
+062.109.067.002~ae0-0.xd02.asham.de.hansenet.net
 062.109.067.242~ae0-0.xd01.weham.de.hansenet.net
 062.109.067.006~ae1-0.xd02.asham.de.hansenet.net
-062.109.067.002~ae0-0.xd02.asham.de.hansenet.net
 078.053.151.255=0*4
 =======8
 078.053.152.000=0 DE,Niedersachsen,Hannover,52.3667,9.7167
@@ -5306,21 +5299,22 @@
 078.053.153.000=0 DE,Niedersachsen,Braunschweig,52.2667,10.5333
 213.191.067.117@
 078.053.154.000=0 DE,Niedersachsen,Braunschweig,52.2667,10.5333
-213.191.067.117@
 213.191.067.113@
+213.191.067.117@
 078.053.155.000=0 DE,Niedersachsen,Braunschweig,52.2667,10.5333
 213.191.067.113@
 213.191.067.117@
 062.109.067.002~ae0-0.xd02.asham.de.hansenet.net
 062.109.067.246~ae1-0.xd01.weham.de.hansenet.net
+062.109.067.242~ae0-0.xd01.weham.de.hansenet.net
 078.053.155.255=0*4
 -------
 078.053.156.000=0 DE,Bremen,Bremen,53.0833,8.8
 213.191.067.125@
 213.191.067.121@
 078.053.157.000=0 DE,Bremen,Bremen,53.0833,8.8
-213.191.067.121@
 213.191.067.125@
+213.191.067.121@
 062.109.067.250~ae0-0.xd02.weham.de.hansenet.net
 062.109.067.254~ae1-0.xd02.weham.de.hansenet.net
 062.109.072.006~ae1-0.xd01.asham.de.hansenet.net
@@ -5329,19 +5323,14 @@
 -------
 078.053.158.000=0 DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
 078.053.158.000=0 DE,Nordrhein-Westfalen,Lünen,51.6167,7.5167
-213.191.090.002@
-213.191.090.000@
 213.191.091.002@
+213.191.090.002@
 078.053.159.000=0 DE,Nordrhein-Westfalen,Lünen,51.6167,7.5167
-213.191.091.002@
 213.191.090.002@
-213.191.087.222~so-6-0-0-0.cr02.dus.de.hansenet.net
-213.191.087.157~so-6-1-0-0.cr01.dus.de.hansenet.net
-213.191.087.246~so-6-0-0-0.cr01.dus.de.hansenet.net
-213.191.087.169~so-6-1-0-0.cr02.dus.de.hansenet.net
-213.191.066.010~so-1-1-0-0.cr02.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
+213.191.091.002@
 213.191.087.154~so-7-0-0-0.cr02.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
 213.191.087.149~so-7-1-0-0.cr02.dus.de.hansenet.net
+213.191.066.010~so-1-1-0-0.cr02.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
 078.053.159.255=0*2
 =======32
 078.053.160.000=0 DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
@@ -5362,19 +5351,19 @@
 078.053.163.255=0*4
 -------
 078.053.164.000=0 DE,Nordrhein-Westfalen,Oberhausen,51.4667,6.85
-213.191.090.000@
+213.191.091.002@
 213.191.090.002@
-213.191.091.000@
 078.053.165.000=0 DE,Nordrhein-Westfalen,Oberhausen,51.4667,6.85
-213.191.090.000@
-213.191.091.000@
 213.191.090.002@
+213.191.091.000@
+213.191.090.000@
 078.053.166.000=0 DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
 078.053.167.000=0 DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
-213.191.087.246~so-6-0-0-0.cr01.dus.de.hansenet.net
-213.191.087.222~so-6-0-0-0.cr02.dus.de.hansenet.net
-213.191.066.029~so-1-0-0-0.cr01.dus.de.hansenet.net
-213.191.066.033~so-1-0-0-0.cr02.dus.de.hansenet.net
+213.191.087.149~so-7-1-0-0.cr02.dus.de.hansenet.net
+213.191.066.010~so-1-1-0-0.cr02.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
+213.191.087.154~so-7-0-0-0.cr02.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
+213.191.087.145~so-7-1-0-0.cr01.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
+213.191.087.250~so-7-0-0-0.cr01.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
 078.053.167.255=0*4
 =======8
 078.053.168.000=0 DE,Nordrhein-Westfalen,Solingen,51.1728,7.094
@@ -5391,7 +5380,6 @@
 078.053.175.000=0 DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
 213.191.087.145~so-7-1-0-0.cr01.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
 213.191.066.006~so-1-1-0-0.cr01.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
-213.191.087.250~so-7-0-0-0.cr01.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
 078.053.175.255=0*8
 =======16
 078.053.176.000=0 DE,,,51,9
@@ -5416,13 +5404,13 @@
 213.191.091.000@
 213.191.090.000@
 078.053.187.000=0 DE,Nordrhein-Westfalen,Essen,51.45,7.0167
+213.191.090.000@
 213.191.091.000@
-213.191.090.000@
-078.053.188.000=0 DE,Nordrhein-Westfalen,Dortmund,51.5167,7.45
-213.191.090.000@
 213.191.090.002@
-213.191.091.002@
+078.053.188.000=0 DE,Nordrhein-Westfalen,Dortmund,51.5167,7.45
+213.191.090.002@
 213.191.091.000@
+213.191.090.000@
 078.053.189.000=0 DE,Nordrhein-Westfalen,Dortmund,51.5167,7.45
 213.191.091.000@
 213.191.090.002@
@@ -5442,19 +5430,19 @@
 213.191.087.145~so-7-1-0-0.cr01.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
 213.191.087.250~so-7-0-0-0.cr01.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
 213.191.066.006~so-1-1-0-0.cr01.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
+213.191.087.154~so-7-0-0-0.cr02.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
 213.191.087.149~so-7-1-0-0.cr02.dus.de.hansenet.net
 213.191.066.010~so-1-1-0-0.cr02.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
-213.191.087.154~so-7-0-0-0.cr02.dus.de.hansenet.net~DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
 213.191.087.157~so-6-1-0-0.cr01.dus.de.hansenet.net
 078.053.191.255=0*8
 =======64
 078.053.192.000=0 DE,Sachsen,Leipzig,51.3,12.3333
 078.053.192.000=0 DE,Thüringen,Jena,50.9333,11.5833
-213.191.087.230@
+213.191.087.182@
 213.191.066.250@
+213.191.066.246@
 078.053.193.000=0 DE,Thüringen,Jena,50.9333,11.5833
 213.191.066.250@
-213.191.066.238@
 213.191.087.230@
 078.053.194.000=0 DE,Thüringen,Jena,50.9333,11.5833
 213.191.066.250@
@@ -5462,34 +5450,34 @@
 213.191.066.246@
 213.191.087.230@
 078.053.195.000=0 DE,Thüringen,Jena,50.9333,11.5833
-213.191.087.230@
 213.191.066.250@
+213.191.087.230@
 078.053.196.000=0 DE,Thüringen,Erfurt,50.9833,11.0333
 213.191.087.233@
 213.191.066.242@
 213.191.066.238@
 078.053.197.000=0 DE,Thüringen,Jena,50.9333,11.5833
-213.191.066.242@
-213.191.066.238@
+213.191.087.182@
 213.191.087.202@
+213.191.066.246@
+213.191.066.238@
 078.053.198.000=0 DE,Thüringen,Jena,50.9333,11.5833
 213.191.066.242@
 078.053.199.000=0 DE,Thüringen,Jena,50.9333,11.5833
-213.191.066.238@
-213.191.087.202@
-213.191.087.233@
-213.191.066.242@
+213.191.066.250@
+213.191.066.014~so-1-0-0-0.cr01.ber.de.hansenet.net~DE,Berlin,Berlin,52.5167,13.4
+213.191.066.018~so-1-0-0-0.cr02.ber.de.hansenet.net~DE,Berlin,Berlin,52.5167,13.4
 213.191.090.121~213.191.90.121
 213.191.090.117~213.191.90.117
 213.191.087.238~so-6-0-0-0.cr02.ber.de.hansenet.net~DE,Berlin,Berlin,52.5167,13.4
-213.191.066.014~so-1-0-0-0.cr01.ber.de.hansenet.net~DE,Berlin,Berlin,52.5167,13.4
-213.191.087.130~so-7-1-0-0.cr01.ber.de.hansenet.net~DE,Berlin,Berlin,52.5167,13.4
 213.191.066.073~ae4-0.cr01.fra.de.hansenet.net~DE,Hessen,Frankfurt Am Main,50.1167,8.6833
 213.191.066.077~ae4-0.cr01.fra.de.hansenet.net~DE,Hessen,Frankfurt Am Main,50.1167,8.6833
 213.191.087.138~so-6-1-0-0.cr02.ber.de.hansenet.net~DE,Berlin,Berlin,52.5167,13.4
 062.109.069.167~62.109.69.167
 062.109.069.169~62.109.69.169
 062.109.069.153~62.109.69.153
+213.191.087.130~so-7-1-0-0.cr01.ber.de.hansenet.net~DE,Berlin,Berlin,52.5167,13.4
+213.191.087.218~so-7-0-0-0.cr01.ber.de.hansenet.net~DE,Berlin,Berlin,52.5167,13.4
 062.109.069.155~62.109.69.155
 078.053.199.255=0*8
 =======8
@@ -5503,14 +5491,13 @@
 213.191.090.117@
 078.053.202.000=0 DE,Berlin,Berlin,52.5167,13.4
 078.053.202.000!0 DE,Sachsen-Anhalt,Magdeburg,52.1667,11.6667
-213.191.066.014@
-213.191.087.138@
-213.191.087.130@
+213.191.090.117@
+213.191.090.121@
 078.053.203.000=0 DE,Berlin,Berlin,52.5167,13.4
 078.053.203.000!0 DE,Sachsen-Anhalt,Magdeburg,52.1667,11.6667
-213.191.087.226@
+213.191.066.022@
 213.191.087.174@
-213.191.087.241@
+213.191.066.026@
 078.053.204.000=0 DE,Berlin,Berlin,52.5167,13.4
 078.053.204.000!0 DE,Sachsen-Anhalt,Magdeburg,52.1667,11.6667
 213.191.090.117@
@@ -5522,33 +5509,28 @@
 213.191.087.174@
 078.053.206.000=0 DE,Berlin,Berlin,52.5167,13.4
 078.053.206.000!0 DE,Sachsen-Anhalt,Magdeburg,52.1667,11.6667
-213.191.066.022@
-213.191.087.241@
-213.191.066.026@
-213.191.087.226@
-213.191.087.190@
+213.191.087.238@
+213.191.066.018@
+213.191.087.138@
+213.191.066.014@
 078.053.207.000=0 DE,Berlin,Berlin,52.5167,13.4
 078.053.207.000!0 DE,Sachsen-Anhalt,Magdeburg,52.1667,11.6667
-213.191.087.226@
-213.191.087.241@
-213.191.087.190@
-213.191.066.022@
-213.191.087.174@
+213.191.090.121@
+213.191.090.117@
 213.191.090.126~213.191.90.126
 213.191.090.130~213.191.90.130
-062.109.067.241~ae7-0.cr01.weham.de.hansenet.net~DE,Hamburg,Hamburg,53.55,10
+062.109.069.167~62.109.69.167
+062.109.069.169~62.109.69.169
+062.109.069.155~62.109.69.155
+062.109.067.245~ae7-0.cr01.asham.de.hansenet.net~DE,Hamburg,Hamburg,53.55,10
 062.109.067.253~ae8-0.cr01.asham.de.hansenet.net~DE,Hamburg,Hamburg,53.55,10
 062.109.067.249~ae8-0.cr01.weham.de.hansenet.net~DE,Hamburg,Hamburg,53.55,10
-062.109.069.155~62.109.69.155
-062.109.069.167~62.109.69.167
-062.109.069.153~62.109.69.153
-062.109.069.169~62.109.69.169
 078.053.207.255=0*8
 =======16
 078.053.208.000=0 DE,Baden-Württemberg,Stuttgart,48.7667,9.1833
 078.053.208.000=0 DE,Baden-Württemberg,Karlsruhe,49.0047,8.3858
-213.191.066.226@
-213.191.066.222@
+213.191.066.234@
+213.191.066.230@
 078.053.209.000=0 DE,Baden-Württemberg,Karlsruhe,49.0047,8.3858
 213.191.066.230@
 213.191.066.222@
@@ -5557,8 +5539,8 @@
 213.191.066.234@
 213.191.066.230@
 078.053.211.000=0 DE,Baden-Württemberg,Karlsruhe,49.0047,8.3858
-213.191.066.230@
 213.191.066.234@
+213.191.066.230@
 078.053.212.000=0 DE,Baden-Württemberg,Karlsruhe,49.0047,8.3858
 213.191.066.226@
 213.191.066.222@
@@ -5570,20 +5552,18 @@
 213.191.066.230@
 078.053.215.000=0 DE,Baden-Württemberg,Karlsruhe,49.0047,8.3858
 213.191.066.230@
-213.191.066.226@
-062.109.069.155~62.109.69.155
-062.109.069.167~62.109.69.167
-062.109.069.153~62.109.69.153
+213.191.066.234@
+213.191.090.117~213.191.90.117
+213.191.090.119~213.191.90.119
 213.191.066.073~ae4-0.cr01.fra.de.hansenet.net~DE,Hessen,Frankfurt Am Main,50.1167,8.6833
 213.191.087.238~so-6-0-0-0.cr02.ber.de.hansenet.net~DE,Berlin,Berlin,52.5167,13.4
 213.191.087.218~so-7-0-0-0.cr01.ber.de.hansenet.net~DE,Berlin,Berlin,52.5167,13.4
 213.191.066.018~so-1-0-0-0.cr02.ber.de.hansenet.net~DE,Berlin,Berlin,52.5167,13.4
 213.191.087.130~so-7-1-0-0.cr01.ber.de.hansenet.net~DE,Berlin,Berlin,52.5167,13.4
 213.191.066.077~ae4-0.cr01.fra.de.hansenet.net~DE,Hessen,Frankfurt Am Main,50.1167,8.6833
-213.191.090.119~213.191.90.119
-213.191.090.117~213.191.90.117
+062.109.069.155~62.109.69.155
 062.109.069.169~62.109.69.169
-213.191.066.014~so-1-0-0-0.cr01.ber.de.hansenet.net~DE,Berlin,Berlin,52.5167,13.4
+062.109.069.153~62.109.69.153
 =======8
 078.053.216.000=0 DE,Baden-Württemberg,Karlsruhe,49.0047,8.3858
 213.191.066.230@
@@ -5595,26 +5575,33 @@
 213.191.066.226@
 213.191.066.222@
 078.053.219.000=0 DE,Baden-Württemberg,Karlsruhe,49.0047,8.3858
-213.191.066.234@
-213.191.066.230@
+213.191.066.226@
+213.191.066.222@
 078.053.220.000=0 DE,Baden-Württemberg,Karlsruhe,49.0047,8.3858
 213.191.066.226@
 213.191.066.222@
 078.053.221.000=0 DE,Baden-Württemberg,Karlsruhe,49.0047,8.3858
-213.191.066.234@
 213.191.066.230@
+213.191.066.234@
 078.053.222.000=0 DE,Baden-Württemberg,Karlsruhe,49.0047,8.3858
 213.191.066.226@
 213.191.066.222@
 078.053.223.000=0 DE,Baden-Württemberg,Karlsruhe,49.0047,8.3858
 213.191.066.234@
 213.191.066.230@
+213.191.066.014~so-1-0-0-0.cr01.ber.de.hansenet.net~DE,Berlin,Berlin,52.5167,13.4
+213.191.066.077~ae4-0.cr01.fra.de.hansenet.net~DE,Hessen,Frankfurt Am Main,50.1167,8.6833
+213.191.066.018~so-1-0-0-0.cr02.ber.de.hansenet.net~DE,Berlin,Berlin,52.5167,13.4
+213.191.066.073~ae4-0.cr01.fra.de.hansenet.net~DE,Hessen,Frankfurt Am Main,50.1167,8.6833
 213.191.090.119~213.191.90.119
 213.191.090.117~213.191.90.117
 062.109.069.155~62.109.69.155
 062.109.069.167~62.109.69.167
 062.109.069.169~62.109.69.169
 062.109.069.153~62.109.69.153
+213.191.087.130~so-7-1-0-0.cr01.ber.de.hansenet.net~DE,Berlin,Berlin,52.5167,13.4
+213.191.087.218~so-7-0-0-0.cr01.ber.de.hansenet.net~DE,Berlin,Berlin,52.5167,13.4
+213.191.087.138~so-6-1-0-0.cr02.ber.de.hansenet.net~DE,Berlin,Berlin,52.5167,13.4
 078.053.223.255=0*16
 =======32
 078.053.224.000=0 DE,Bayern,München,48.15,11.5833
@@ -5644,23 +5631,20 @@
 062.053.003.032~62.53.3.32
 062.053.003.034~62.53.3.34
 062.053.002.214~62.53.2.214
-213.191.066.070~so-5-1-0-0.cr01.muc.de.hansenet.net~DE,Bayern,München,48.15,11.5833
 062.053.002.226~62.53.2.226
-213.191.087.166~so-5-0-0-0.cr01.muc.de.hansenet.net~DE,Bayern,München,48.15,11.5833
-213.191.066.066~so-5-1-0-0.cr02.muc.de.hansenet.net~DE,Bayern,München,48.15,11.5833
 078.053.231.255=0*8
 =======8
 078.053.232.000=0 DE,Bayern,München,48.15,11.5833
-213.191.088.080@
 213.191.088.112@
+213.191.088.080@
 078.053.233.000=0 DE,Bayern,München,48.15,11.5833
 213.191.088.112@
 213.191.088.080@
 078.053.234.000=0 DE,Bayern,München,48.15,11.5833
 213.191.088.080@
 078.053.235.000=0 DE,Bayern,München,48.15,11.5833
-213.191.088.112@
 213.191.088.080@
+213.191.088.112@
 078.053.236.000=0 DE,Bayern,München,48.15,11.5833
 213.191.088.080@
 213.191.088.112@
@@ -5673,22 +5657,18 @@
 078.053.239.000=0 DE,Bayern,München,48.15,11.5833
 213.191.088.080@
 213.191.088.112@
-213.191.066.066~so-5-1-0-0.cr02.muc.de.hansenet.net~DE,Bayern,München,48.15,11.5833
-213.191.066.070~so-5-1-0-0.cr01.muc.de.hansenet.net~DE,Bayern,München,48.15,11.5833
-213.191.087.162~so-5-0-0-0.cr02.muc.de.hansenet.net~DE,Bayern,München,48.15,11.5833
-062.053.002.226~62.53.2.226
+062.053.003.034~62.53.3.34
 062.053.002.214~62.53.2.214
 062.053.003.032~62.53.3.32
-062.053.003.034~62.53.3.34
-213.191.087.166~so-5-0-0-0.cr01.muc.de.hansenet.net~DE,Bayern,München,48.15,11.5833
+062.053.002.226~62.53.2.226
 078.053.239.255=0*8
 =======16
 078.053.240.000=0 DE,Bayern,München,48.15,11.5833
 213.191.088.112@
 213.191.088.080@
 078.053.241.000=0 DE,Bayern,München,48.15,11.5833
-213.191.088.080@
 213.191.088.112@
+213.191.088.080@
 078.053.242.000=0 DE,Bayern,München,48.15,11.5833
 078.053.243.000=0 DE,Bayern,München,48.15,11.5833
 078.053.244.000=0 DE,Bayern,München,48.15,11.5833
@@ -5698,7 +5678,7 @@
 062.053.002.226~62.53.2.226
 062.053.003.034~62.53.3.34
 062.053.003.032~62.53.3.32
-213.191.066.070~so-5-1-0-0.cr01.muc.de.hansenet.net~DE,Bayern,München,48.15,11.5833
+062.053.002.214~62.53.2.214
 078.053.247.255=0*8
 =======8
 078.053.248.000=0 DE,,,51,9
@@ -5721,8 +5701,8 @@
 062.109.117.205@
 062.109.116.205@
 078.054.003.000=0 DE,Hamburg,Hamburg,53.55,10
-062.109.117.205@
 062.109.116.205@
+062.109.117.205@
 078.054.004.000=0 DE,Hamburg,Hamburg,53.55,10
 062.109.116.205@
 062.109.117.205@
@@ -5730,8 +5710,8 @@
 062.109.117.205@
 062.109.116.205@
 078.054.006.000=0 DE,Hamburg,Hamburg,53.55,10
-062.109.117.205@
 062.109.116.205@
+062.109.117.205@
 078.054.007.000=0 DE,Hamburg,Hamburg,53.55,10
 062.109.117.205@
 062.109.116.205@
@@ -5742,13 +5722,14 @@
 213.191.087.129~so-0-2-0-0.cr01.weham.de.hansenet.net
 213.191.087.237~so-0-1-0-0.cr01.asham.de.hansenet.net
 213.191.066.013~so-0-0-0-0.cr01.weham.de.hansenet.net
+062.109.067.241~ae7-0.cr01.weham.de.hansenet.net~DE,Hamburg,Hamburg,53.55,10
+062.109.067.249~ae8-0.cr01.weham.de.hansenet.net~DE,Hamburg,Hamburg,53.55,10
+062.109.067.245~ae7-0.cr01.asham.de.hansenet.net~DE,Hamburg,Hamburg,53.55,10
 213.191.066.017~so-0-0-0-0.cr01.asham.de.hansenet.net
 213.191.087.217~so-0-1-0-0.cr01.weham.de.hansenet.net
 213.191.066.078~ae2-0.cr01.asham.de.hansenet.net
 213.191.066.074~ae2-0.cr01.weham.de.hansenet.net
 062.109.067.253~ae8-0.cr01.asham.de.hansenet.net~DE,Hamburg,Hamburg,53.55,10
-062.109.067.249~ae8-0.cr01.weham.de.hansenet.net~DE,Hamburg,Hamburg,53.55,10
-062.109.067.245~ae7-0.cr01.asham.de.hansenet.net~DE,Hamburg,Hamburg,53.55,10
 =======8
 078.054.008.000=0 DE,Hamburg,Hamburg,53.55,10
 062.109.117.205@
@@ -5766,8 +5747,8 @@
 062.109.067.242@
 062.109.067.250@
 078.054.013.000=0 DE,Schleswig-Holstein,Lübeck,53.8667,10.7
-213.191.066.182@
-213.191.066.174@
+062.109.067.246@
+062.109.067.242@
 078.054.014.000=0 DE,Schleswig-Holstein,Lübeck,53.8667,10.7
 062.109.067.250@
 062.109.067.254@
@@ -5787,7 +5768,6 @@
 213.191.087.237~so-0-1-0-0.cr01.asham.de.hansenet.net
 213.191.066.078~ae2-0.cr01.asham.de.hansenet.net
 213.191.066.074~ae2-0.cr01.weham.de.hansenet.net
-084.016.007.234~HANSENET-0-0-grtdusix1.red.telefonica-wholesale.net
 213.191.066.005~so-1-0-0-0.cr01.weham.de.hansenet.net
 213.191.066.009~so-1-0-0-0.cr01.asham.de.hansenet.net
 213.191.087.153~so-1-1-0-0.cr01.asham.de.hansenet.net
@@ -5796,15 +5776,17 @@
 078.054.015.255=0*16
 =======16
 078.054.016.000=0 DE,Hamburg,Hamburg,53.55,10
-062.109.067.006@
 062.109.072.006@
+062.109.072.002@
 078.054.017.000=0 DE,Hamburg,Hamburg,53.55,10
 062.109.067.006@
 062.109.072.002@
 062.109.072.006@
 078.054.018.000=0 DE,Hamburg,Hamburg,53.55,10
-062.109.067.038@
-062.109.072.038@
+062.109.072.002@
+062.109.072.006@
+062.109.067.002@
+062.109.067.006@
 078.054.019.000=0 DE,Hamburg,Hamburg,53.55,10
 062.109.067.006@
 062.109.072.006@
@@ -5816,19 +5798,20 @@
 213.191.076.027@
 078.054.023.000=0 DE,Hamburg,Hamburg,53.55,10
 213.191.076.027@
+213.191.066.013~so-0-0-0-0.cr01.weham.de.hansenet.net
+213.191.087.137~so-0-2-0-0.cr01.asham.de.hansenet.net
 213.191.066.074~ae2-0.cr01.weham.de.hansenet.net
 213.191.066.078~ae2-0.cr01.asham.de.hansenet.net
-213.191.066.182~ae4-0.xd02.weham.de.hansenet.net
-213.191.066.174~ae4-0.xd01.weham.de.hansenet.net
+213.191.087.237~so-0-1-0-0.cr01.asham.de.hansenet.net
+213.191.066.017~so-0-0-0-0.cr01.asham.de.hansenet.net
 213.191.087.217~so-0-1-0-0.cr01.weham.de.hansenet.net
-213.191.066.013~so-0-0-0-0.cr01.weham.de.hansenet.net
 213.191.087.129~so-0-2-0-0.cr01.weham.de.hansenet.net
-062.109.067.002~ae0-0.xd02.asham.de.hansenet.net
-062.109.072.002~ae0-0.xd01.asham.de.hansenet.net
+062.109.072.038~ae2-0.xd01.asham.de.hansenet.net~DE,Hamburg,Hamburg,53.55,10
+062.109.067.038~ae2-0.xd02.asham.de.hansenet.net~DE,Hamburg,Hamburg,53.55,10
 062.109.067.006~ae1-0.xd02.asham.de.hansenet.net
 062.109.072.006~ae1-0.xd01.asham.de.hansenet.net
-062.109.067.038~ae2-0.xd02.asham.de.hansenet.net~DE,Hamburg,Hamburg,53.55,10
-062.109.072.038~ae2-0.xd01.asham.de.hansenet.net~DE,Hamburg,Hamburg,53.55,10
+062.109.072.002~ae0-0.xd01.asham.de.hansenet.net
+062.109.067.002~ae0-0.xd02.asham.de.hansenet.net
 078.054.023.255=0*8
 =======8
 078.054.024.000=0 DE,Schleswig-Holstein,Schenefeld,53.6,9.8167
@@ -5875,31 +5858,32 @@
 =======32
 078.054.032.000=0 DE,Hamburg,Hamburg,53.55,10
 078.054.032.000=0 DE,Mecklenburg-Vorpommern,Rostock,54.0833,12.1333
-062.109.067.246@
 062.109.067.254@
+062.109.067.246@
 078.054.033.000=0 DE,Mecklenburg-Vorpommern,Rostock,54.0833,12.1333
-213.191.066.182@
 213.191.066.174@
+213.191.066.182@
 078.054.034.000=0 DE,Mecklenburg-Vorpommern,Greifswald,54.1,13.3833
 062.109.067.246@
 062.109.067.254@
 078.054.035.000=0 DE,Mecklenburg-Vorpommern,Rostock,54.0833,12.1333
-062.109.067.254@
-062.109.067.246@
+213.191.066.174@
+213.191.066.182@
 078.054.036.000=0 DE,Mecklenburg-Vorpommern,Rostock,54.0833,12.1333
 062.109.067.246@
 078.054.037.000=0 DE,Mecklenburg-Vorpommern,Rostock,54.0833,12.1333
 062.109.067.246@
 062.109.067.250@
 078.054.038.000=0 DE,Mecklenburg-Vorpommern,Rostock,54.0833,12.1333
-062.109.067.246@
 062.109.067.254@
+062.109.067.246@
+062.109.067.250@
 078.054.039.000=0 DE,Mecklenburg-Vorpommern,Rostock,54.0833,12.1333
 062.109.067.246@
 062.109.067.254@
-213.191.087.237~so-0-1-0-0.cr01.asham.de.hansenet.net
 213.191.066.017~so-0-0-0-0.cr01.asham.de.hansenet.net
 213.191.087.137~so-0-2-0-0.cr01.asham.de.hansenet.net
+213.191.087.237~so-0-1-0-0.cr01.asham.de.hansenet.net
 084.016.007.234~HANSENET-0-0-grtdusix1.red.telefonica-wholesale.net
 213.191.066.078~ae2-0.cr01.asham.de.hansenet.net
 213.191.066.074~ae2-0.cr01.weham.de.hansenet.net
@@ -5933,25 +5917,25 @@
 062.109.067.250@
 062.109.067.246@
 078.054.054.000=0 DE,Hamburg,Hamburg,53.55,10
-062.109.067.250@
-062.109.067.254@
-062.109.067.246@
-062.109.067.242@
-078.054.055.000=0 DE,Hamburg,Hamburg,53.55,10
 213.191.066.182@
 213.191.066.174@
-062.109.067.242~ae0-0.xd01.weham.de.hansenet.net
-062.109.067.254~ae1-0.xd02.weham.de.hansenet.net
-062.109.067.246~ae1-0.xd01.weham.de.hansenet.net
+078.054.055.000=0 DE,Hamburg,Hamburg,53.55,10
+062.109.067.250@
+062.109.067.242@
+062.109.067.254@
 213.191.066.174~ae4-0.xd01.weham.de.hansenet.net
 213.191.066.182~ae4-0.xd02.weham.de.hansenet.net
-062.109.067.250~ae0-0.xd02.weham.de.hansenet.net
+062.109.067.246~ae1-0.xd01.weham.de.hansenet.net
+062.109.067.242~ae0-0.xd01.weham.de.hansenet.net
+062.109.067.254~ae1-0.xd02.weham.de.hansenet.net
 213.191.087.137~so-0-2-0-0.cr01.asham.de.hansenet.net
 213.191.066.013~so-0-0-0-0.cr01.weham.de.hansenet.net
 213.191.066.017~so-0-0-0-0.cr01.asham.de.hansenet.net
 213.191.087.237~so-0-1-0-0.cr01.asham.de.hansenet.net
 213.191.087.217~so-0-1-0-0.cr01.weham.de.hansenet.net
 084.016.007.234~HANSENET-0-0-grtdusix1.red.telefonica-wholesale.net
+213.191.066.074~ae2-0.cr01.weham.de.hansenet.net
+213.191.066.078~ae2-0.cr01.asham.de.hansenet.net
 =======8
 078.054.056.000=0 DE,Hamburg,Hamburg,53.55,10
 062.109.067.250@
@@ -5969,8 +5953,9 @@
 213.191.066.182@
 078.054.060.000=0 DE,Hamburg,Hamburg,53.55,10
 062.109.067.254@
-062.109.067.250@
+062.109.067.242@
 062.109.067.246@
+062.109.067.250@
 078.054.061.000=0 DE,Hamburg,Hamburg,53.55,10
 062.109.067.254@
 062.109.067.246@
@@ -5986,10 +5971,9 @@
 213.191.087.129~so-0-2-0-0.cr01.weham.de.hansenet.net
 084.016.007.234~HANSENET-0-0-grtdusix1.red.telefonica-wholesale.net
 062.109.067.242~ae0-0.xd01.weham.de.hansenet.net
-062.109.067.246~ae1-0.xd01.weham.de.hansenet.net
 062.109.067.254~ae1-0.xd02.weham.de.hansenet.net
-213.191.066.182~ae4-0.xd02.weham.de.hansenet.net
-213.191.066.174~ae4-0.xd01.weham.de.hansenet.net
+062.109.067.246~ae1-0.xd01.weham.de.hansenet.net
+062.109.067.250~ae0-0.xd02.weham.de.hansenet.net
 078.054.063.255=0*16
 =======64
 078.054.064.000=0 DE,Hamburg,Hamburg,53.55,10
@@ -6004,8 +5988,8 @@
 062.109.117.205@
 062.109.116.205@
 078.054.068.000=0 DE,Hamburg,Hamburg,53.55,10
-062.109.117.205@
 062.109.116.205@
+062.109.117.205@
 078.054.069.000=0 DE,Hamburg,Hamburg,53.55,10
 062.109.116.205@
 062.109.117.205@
@@ -6044,30 +6028,31 @@
 062.109.116.205@
 062.109.117.205@
 078.054.078.000=0 DE,Hamburg,Hamburg,53.55,10
-062.109.117.205@
 062.109.116.205@
+062.109.117.205@
 078.054.079.000=0 DE,Hamburg,Hamburg,53.55,10
 062.109.117.205@
 062.109.116.205@
+062.109.067.245~ae7-0.cr01.asham.de.hansenet.net~DE,Hamburg,Hamburg,53.55,10
+062.109.067.249~ae8-0.cr01.weham.de.hansenet.net~DE,Hamburg,Hamburg,53.55,10
+062.109.067.241~ae7-0.cr01.weham.de.hansenet.net~DE,Hamburg,Hamburg,53.55,10
+062.109.067.253~ae8-0.cr01.asham.de.hansenet.net~DE,Hamburg,Hamburg,53.55,10
 213.191.066.074~ae2-0.cr01.weham.de.hansenet.net
 213.191.066.078~ae2-0.cr01.asham.de.hansenet.net
-062.109.067.253~ae8-0.cr01.asham.de.hansenet.net~DE,Hamburg,Hamburg,53.55,10
-062.109.067.241~ae7-0.cr01.weham.de.hansenet.net~DE,Hamburg,Hamburg,53.55,10
-062.109.067.249~ae8-0.cr01.weham.de.hansenet.net~DE,Hamburg,Hamburg,53.55,10
-062.109.067.245~ae7-0.cr01.asham.de.hansenet.net~DE,Hamburg,Hamburg,53.55,10
 213.191.087.137~so-0-2-0-0.cr01.asham.de.hansenet.net
 213.191.087.129~so-0-2-0-0.cr01.weham.de.hansenet.net
 213.191.087.237~so-0-1-0-0.cr01.asham.de.hansenet.net
+213.191.066.013~so-0-0-0-0.cr01.weham.de.hansenet.net
+213.191.066.017~so-0-0-0-0.cr01.asham.de.hansenet.net
 =======16
 078.054.080.000=0 DE,Hamburg,Hamburg,53.55,10
 062.109.116.205@
 062.109.117.205@
 078.054.081.000=0 DE,Hamburg,Hamburg,53.55,10
-062.109.117.205@
 062.109.116.205@
+062.109.117.205@
 078.054.082.000=0 DE,Hamburg,Hamburg,53.55,10
 062.109.116.205@
-062.109.117.205@
 078.054.083.000=0 DE,Hamburg,Hamburg,53.55,10
 062.109.117.205@
 062.109.116.205@
@@ -6078,23 +6063,19 @@
 062.109.117.205@
 062.109.116.205@
 078.054.086.000=0 DE,Hamburg,Hamburg,53.55,10
-062.109.117.205@
 062.109.116.205@
+062.109.117.205@
 078.054.087.000=0 DE,Hamburg,Hamburg,53.55,10
 062.109.117.205@
 062.109.116.205@
 213.191.066.074~ae2-0.cr01.weham.de.hansenet.net
 213.191.066.078~ae2-0.cr01.asham.de.hansenet.net
-062.109.067.241~ae7-0.cr01.weham.de.hansenet.net~DE,Hamburg,Hamburg,53.55,10
-062.109.067.253~ae8-0.cr01.asham.de.hansenet.net~DE,Hamburg,Hamburg,53.55,10
-062.109.067.245~ae7-0.cr01.asham.de.hansenet.net~DE,Hamburg,Hamburg,53.55,10
-062.109.067.249~ae8-0.cr01.weham.de.hansenet.net~DE,Hamburg,Hamburg,53.55,10
 213.191.066.017~so-0-0-0-0.cr01.asham.de.hansenet.net
 213.191.087.137~so-0-2-0-0.cr01.asham.de.hansenet.net
+213.191.066.013~so-0-0-0-0.cr01.weham.de.hansenet.net
+213.191.087.237~so-0-1-0-0.cr01.asham.de.hansenet.net
 213.191.087.217~so-0-1-0-0.cr01.weham.de.hansenet.net
 213.191.087.129~so-0-2-0-0.cr01.weham.de.hansenet.net
-213.191.087.237~so-0-1-0-0.cr01.asham.de.hansenet.net
-213.191.066.013~so-0-0-0-0.cr01.weham.de.hansenet.net
 213.191.087.150~so-1-2-0-0.cr01.asham.de.hansenet.net
 213.191.087.146~so-1-2-0-0.cr01.weham.de.hansenet.net
 213.191.066.005~so-1-0-0-0.cr01.weham.de.hansenet.net
@@ -6103,35 +6084,36 @@
 062.109.116.205@
 062.109.117.205@
 078.054.089.000=0 DE,Hamburg,Hamburg,53.55,10
-062.109.116.205@
 062.109.117.205@
+062.109.116.205@
 078.054.090.000=0 DE,Hamburg,Hamburg,53.55,10
 062.109.116.205@
 062.109.117.205@
 078.054.091.000=0 DE,Hamburg,Hamburg,53.55,10
-062.109.117.205@
 062.109.116.205@
+062.109.117.205@
 078.054.092.000=0 DE,Hamburg,Hamburg,53.55,10
 062.109.116.205@
 062.109.117.205@
 078.054.093.000=0 DE,Hamburg,Hamburg,53.55,10
-062.109.117.205@
 062.109.116.205@
+062.109.117.205@
 078.054.094.000=0 DE,Hamburg,Hamburg,53.55,10
 062.109.116.205@
 062.109.117.205@
 078.054.095.000=0 DE,Hamburg,Hamburg,53.55,10
-062.109.117.205@
 062.109.116.205@
+062.109.117.205@
+062.109.067.241~ae7-0.cr01.weham.de.hansenet.net~DE,Hamburg,Hamburg,53.55,10
+062.109.067.249~ae8-0.cr01.weham.de.hansenet.net~DE,Hamburg,Hamburg,53.55,10
+213.191.087.217~so-0-1-0-0.cr01.weham.de.hansenet.net
+213.191.087.137~so-0-2-0-0.cr01.asham.de.hansenet.net
+062.109.067.253~ae8-0.cr01.asham.de.hansenet.net~DE,Hamburg,Hamburg,53.55,10
+062.109.067.245~ae7-0.cr01.asham.de.hansenet.net~DE,Hamburg,Hamburg,53.55,10
 213.191.066.074~ae2-0.cr01.weham.de.hansenet.net
 213.191.066.078~ae2-0.cr01.asham.de.hansenet.net
-213.191.087.217~so-0-1-0-0.cr01.weham.de.hansenet.net
-213.191.066.017~so-0-0-0-0.cr01.asham.de.hansenet.net
 213.191.066.013~so-0-0-0-0.cr01.weham.de.hansenet.net
-062.109.067.253~ae8-0.cr01.asham.de.hansenet.net~DE,Hamburg,Hamburg,53.55,10
-062.109.067.241~ae7-0.cr01.weham.de.hansenet.net~DE,Hamburg,Hamburg,53.55,10
-062.109.067.245~ae7-0.cr01.asham.de.hansenet.net~DE,Hamburg,Hamburg,53.55,10
-062.109.067.249~ae8-0.cr01.weham.de.hansenet.net~DE,Hamburg,Hamburg,53.55,10
+213.191.066.017~so-0-0-0-0.cr01.asham.de.hansenet.net
 213.191.087.129~so-0-2-0-0.cr01.weham.de.hansenet.net
 078.054.095.255=0*32
 =======32
@@ -6139,10 +6121,9 @@
 062.109.072.002@
 062.109.067.006@
 078.054.097.000=0 DE,Hamburg,Hamburg,53.55,10
-062.109.072.006@
+062.109.067.002@
 062.109.067.006@
 062.109.072.002@
-062.109.067.002@
 078.054.098.000=0 DE,Hamburg,Hamburg,53.55,10
 062.109.067.038@
 062.109.072.038@
@@ -6165,12 +6146,14 @@
 062.109.072.002@
 213.191.087.237~so-0-1-0-0.cr01.asham.de.hansenet.net
 213.191.087.217~so-0-1-0-0.cr01.weham.de.hansenet.net
-213.191.066.013~so-0-0-0-0.cr01.weham.de.hansenet.net
-213.191.087.129~so-0-2-0-0.cr01.weham.de.hansenet.net
-213.191.087.137~so-0-2-0-0.cr01.asham.de.hansenet.net
+213.191.066.078~ae2-0.cr01.asham.de.hansenet.net
+213.191.066.074~ae2-0.cr01.weham.de.hansenet.net
 213.191.066.182~ae4-0.xd02.weham.de.hansenet.net
 213.191.066.174~ae4-0.xd01.weham.de.hansenet.net
+213.191.087.137~so-0-2-0-0.cr01.asham.de.hansenet.net
 213.191.066.017~so-0-0-0-0.cr01.asham.de.hansenet.net
+213.191.066.013~so-0-0-0-0.cr01.weham.de.hansenet.net
+213.191.087.129~so-0-2-0-0.cr01.weham.de.hansenet.net
 =======8
 078.054.104.000=0 DE,Hamburg,Hamburg,53.55,10
 062.109.072.038@
@@ -6180,8 +6163,9 @@
 062.109.072.006@
 062.109.072.002@
 078.054.106.000=0 DE,Hamburg,Hamburg,53.55,10
-062.109.072.006@
 062.109.072.002@
+062.109.067.002@
+062.109.072.006@
 062.109.067.006@
 078.054.107.000=0 DE,Hamburg,Hamburg,53.55,10
 062.109.067.002@
@@ -6194,7 +6178,6 @@
 078.054.109.000=0 DE,Hamburg,Hamburg,53.55,10
 062.109.067.002@
 062.109.072.006@
-062.109.072.002@
 078.054.110.000=0 DE,Hamburg,Hamburg,53.55,10
 062.109.067.038@
 062.109.072.038@
@@ -6207,12 +6190,12 @@
 213.191.066.182~ae4-0.xd02.weham.de.hansenet.net
 213.191.066.078~ae2-0.cr01.asham.de.hansenet.net
 213.191.066.074~ae2-0.cr01.weham.de.hansenet.net
-213.191.087.217~so-0-1-0-0.cr01.weham.de.hansenet.net
-213.191.087.137~so-0-2-0-0.cr01.asham.de.hansenet.net
-213.191.087.129~so-0-2-0-0.cr01.weham.de.hansenet.net
-213.191.087.237~so-0-1-0-0.cr01.asham.de.hansenet.net
 213.191.066.017~so-0-0-0-0.cr01.asham.de.hansenet.net
+213.191.087.217~so-0-1-0-0.cr01.weham.de.hansenet.net
 213.191.066.013~so-0-0-0-0.cr01.weham.de.hansenet.net
+213.191.087.237~so-0-1-0-0.cr01.asham.de.hansenet.net
+213.191.087.129~so-0-2-0-0.cr01.weham.de.hansenet.net
+213.191.087.137~so-0-2-0-0.cr01.asham.de.hansenet.net
 =======16
 078.054.112.000=0 DE,Hamburg,Hamburg,53.55,10
 062.109.067.006@
@@ -6220,12 +6203,9 @@
 062.109.072.006@
 062.109.072.002@
 078.054.113.000=0 DE,Hamburg,Hamburg,53.55,10
-062.109.067.002@
-062.109.067.006@
-062.109.072.006@
+062.109.067.038@
+062.109.072.038@
 078.054.114.000=0 DE,Hamburg,Hamburg,53.55,10
-062.109.067.006@
-062.109.067.002@
 062.109.072.006@
 078.054.115.000=0 DE,Hamburg,Hamburg,53.55,10
 062.109.067.002@
@@ -6233,7 +6213,6 @@
 062.109.072.002@
 062.109.072.006@
 078.054.116.000=0 DE,Hamburg,Hamburg,53.55,10
-062.109.067.002@
 062.109.067.006@
 062.109.072.002@
 078.054.117.000=0 DE,Hamburg,Hamburg,53.55,10
@@ -6250,17 +6229,16 @@
 213.191.087.237~so-0-1-0-0.cr01.asham.de.hansenet.net
 213.191.087.217~so-0-1-0-0.cr01.weham.de.hansenet.net
 213.191.087.137~so-0-2-0-0.cr01.asham.de.hansenet.net
+213.191.066.182~ae4-0.xd02.weham.de.hansenet.net
+213.191.066.174~ae4-0.xd01.weham.de.hansenet.net
+213.191.066.013~so-0-0-0-0.cr01.weham.de.hansenet.net
 213.191.066.017~so-0-0-0-0.cr01.asham.de.hansenet.net
 213.191.066.074~ae2-0.cr01.weham.de.hansenet.net
 213.191.066.078~ae2-0.cr01.asham.de.hansenet.net
-213.191.066.013~so-0-0-0-0.cr01.weham.de.hansenet.net
-213.191.066.174~ae4-0.xd01.weham.de.hansenet.net
-213.191.066.182~ae4-0.xd02.weham.de.hansenet.net
 =======8
 078.054.120.000=0 DE,Schleswig-Holstein,Elmshorn,53.75,9.65
-062.109.067.002@
-062.109.067.006@
 062.109.072.002@
+062.109.072.006@
 078.054.121.000=0 DE,Hamburg,Hamburg,53.55,10
 062.109.072.006@
 062.109.067.002@
@@ -6281,25 +6259,25 @@
 213.191.076.027@
 078.054.127.000=0 DE,Hamburg,Hamburg,53.55,10
 213.191.076.027@
-213.191.066.078~ae2-0.cr01.asham.de.hansenet.net
+213.191.087.137~so-0-2-0-0.cr01.asham.de.hansenet.net
+213.191.087.129~so-0-2-0-0.cr01.weham.de.hansenet.net
 213.191.066.074~ae2-0.cr01.weham.de.hansenet.net
+213.191.066.078~ae2-0.cr01.asham.de.hansenet.net
 213.191.066.174~ae4-0.xd01.weham.de.hansenet.net
 213.191.066.182~ae4-0.xd02.weham.de.hansenet.net
-062.109.072.038~ae2-0.xd01.asham.de.hansenet.net~DE,Hamburg,Hamburg,53.55,10
-062.109.067.038~ae2-0.xd02.asham.de.hansenet.net~DE,Hamburg,Hamburg,53.55,10
-062.109.072.006~ae1-0.xd01.asham.de.hansenet.net
 062.109.072.002~ae0-0.xd01.asham.de.hansenet.net
+062.109.067.038~ae2-0.xd02.asham.de.hansenet.net~DE,Hamburg,Hamburg,53.55,10
+062.109.072.038~ae2-0.xd01.asham.de.hansenet.net~DE,Hamburg,Hamburg,53.55,10
 062.109.067.002~ae0-0.xd02.asham.de.hansenet.net
 078.054.127.255=0*32
 =======128
 078.054.128.000=0 DE,Hamburg,Hamburg,53.55,10
+062.109.067.246@
 062.109.067.254@
-062.109.067.242@
 078.054.129.000=0 DE,Hamburg,Hamburg,53.55,10
 213.191.066.174@
 213.191.066.182@
 078.054.130.000=0 DE,Hamburg,Hamburg,53.55,10
-062.109.067.250@
 062.109.067.246@
 062.109.067.254@
 078.054.131.000=0 DE,Hamburg,Hamburg,53.55,10
@@ -6307,8 +6285,8 @@
 062.109.067.242@
 062.109.067.246@
 078.054.132.000=0 DE,Hamburg,Hamburg,53.55,10
-213.191.066.174@
-213.191.066.182@
+062.109.067.246@
+062.109.067.254@
 078.054.133.000=0 DE,Hamburg,Hamburg,53.55,10
 062.109.067.242@
 062.109.067.246@
@@ -6317,19 +6295,20 @@
 062.109.067.254@
 062.109.067.246@
 078.054.135.000=0 DE,Hamburg,Hamburg,53.55,10
-062.109.067.242@
-062.109.067.246@
 062.109.067.254@
 062.109.067.250@
-213.191.066.078~ae2-0.cr01.asham.de.hansenet.net
-213.191.066.074~ae2-0.cr01.weham.de.hansenet.net
+062.109.067.246@
+062.109.067.242@
+213.191.066.017~so-0-0-0-0.cr01.asham.de.hansenet.net
+213.191.087.137~so-0-2-0-0.cr01.asham.de.hansenet.net
+213.191.087.237~so-0-1-0-0.cr01.asham.de.hansenet.net
 084.016.007.234~HANSENET-0-0-grtdusix1.red.telefonica-wholesale.net
+213.191.066.078~ae2-0.cr01.asham.de.hansenet.net
 213.191.087.146~so-1-2-0-0.cr01.weham.de.hansenet.net
 213.191.087.249~so-1-1-0-0.cr01.weham.de.hansenet.net
 213.191.066.005~so-1-0-0-0.cr01.weham.de.hansenet.net
 213.191.066.009~so-1-0-0-0.cr01.asham.de.hansenet.net
-213.191.087.237~so-0-1-0-0.cr01.asham.de.hansenet.net
-213.191.066.017~so-0-0-0-0.cr01.asham.de.hansenet.net
+213.191.066.074~ae2-0.cr01.weham.de.hansenet.net
 078.054.135.255=0*8
 =======8
 078.054.136.000=0 DE,Hamburg,Hamburg,53.55,10
@@ -6354,11 +6333,11 @@
 062.109.067.254@
 062.109.067.246@
 078.054.142.000=0 DE,Hamburg,Hamburg,53.55,10
-062.109.067.242@
 062.109.067.254@
 062.109.067.246@
 078.054.143.000=0 DE,Hamburg,Hamburg,53.55,10
-062.109.067.254@
+213.191.066.174@
+213.191.066.182@
 213.191.066.074~ae2-0.cr01.weham.de.hansenet.net
 213.191.066.078~ae2-0.cr01.asham.de.hansenet.net
 213.191.066.017~so-0-0-0-0.cr01.asham.de.hansenet.net
@@ -6409,17 +6388,13 @@
 062.109.067.242@
 062.109.067.246@
 078.054.153.000=0 DE,Hamburg,Hamburg,53.55,10
-213.191.066.182@
-213.191.066.174@
+062.109.067.246@
 078.054.154.000=0 DE,Hamburg,Hamburg,53.55,10
-062.109.067.250@
-062.109.067.242@
-062.109.067.246@
 062.109.067.254@
+062.109.067.246@
 078.054.155.000=0 DE,Hamburg,Hamburg,53.55,10
-062.109.067.242@
-062.109.067.254@
-062.109.067.246@
+213.191.066.174@
+213.191.066.182@
 078.054.156.000=0 DE,Hamburg,Hamburg,53.55,10
 062.109.067.246@
 062.109.067.250@
@@ -6436,15 +6411,15 @@
 062.109.067.246@
 213.191.066.074~ae2-0.cr01.weham.de.hansenet.net
 213.191.066.078~ae2-0.cr01.asham.de.hansenet.net
-084.016.007.234~HANSENET-0-0-grtdusix1.red.telefonica-wholesale.net
 213.191.066.017~so-0-0-0-0.cr01.asham.de.hansenet.net
-213.191.087.237~so-0-1-0-0.cr01.asham.de.hansenet.net
 213.191.087.137~so-0-2-0-0.cr01.asham.de.hansenet.net
+213.191.087.237~so-0-1-0-0.cr01.asham.de.hansenet.net
+084.016.007.234~HANSENET-0-0-grtdusix1.red.telefonica-wholesale.net
 078.054.159.255=0*8
 =======32
 078.054.160.000=0 DE,Hamburg,Hamburg,53.55,10
-213.191.066.174@
-213.191.066.182@
+062.109.067.254@
+062.109.067.246@
 078.054.161.000=0 DE,Hamburg,Hamburg,53.55,10
 062.109.067.246@
 062.109.067.254@
@@ -6452,8 +6427,9 @@
 062.109.067.246@
 062.109.067.254@
 078.054.163.000=0 DE,Hamburg,Hamburg,53.55,10
-062.109.067.254@
+062.109.067.246@
 062.109.067.250@
+062.109.067.242@
 078.054.164.000=0 DE,Hamburg,Hamburg,53.55,10
 062.109.067.246@
 062.109.067.254@
@@ -6468,35 +6444,33 @@
 078.054.167.000=0 DE,Hamburg,Hamburg,53.55,10
 062.109.067.254@
 062.109.067.246@
-084.016.007.234~HANSENET-0-0-grtdusix1.red.telefonica-wholesale.net
-213.191.087.137~so-0-2-0-0.cr01.asham.de.hansenet.net
-213.191.066.017~so-0-0-0-0.cr01.asham.de.hansenet.net
 213.191.087.237~so-0-1-0-0.cr01.asham.de.hansenet.net
+213.191.066.017~so-0-0-0-0.cr01.asham.de.hansenet.net
+213.191.087.137~so-0-2-0-0.cr01.asham.de.hansenet.net
 213.191.066.078~ae2-0.cr01.asham.de.hansenet.net
 213.191.066.074~ae2-0.cr01.weham.de.hansenet.net
 078.054.167.255=0*8
 =======8
 078.054.168.000=0 DE,Hamburg,Hamburg,53.55,10
+062.109.067.246@
+062.109.067.242@
 062.109.067.254@
+078.054.169.000=0 DE,Hamburg,Hamburg,53.55,10
 062.109.067.250@
 062.109.067.242@
-078.054.169.000=0 DE,Hamburg,Hamburg,53.55,10
-213.191.066.174@
-213.191.066.182@
 078.054.170.000=0 DE,Hamburg,Hamburg,53.55,10
 062.109.067.250@
 062.109.067.242@
 078.054.171.000=0 DE,Hamburg,Hamburg,53.55,10
-062.109.067.250@
-062.109.067.246@
-062.109.067.242@
+213.191.066.174@
 078.054.172.000=0 DE,Hamburg,Hamburg,53.55,10
-062.109.067.242@
 062.109.067.250@
+062.109.067.242@
 078.054.173.000=0 DE,Hamburg,Hamburg,53.55,10
+062.109.067.242@
 062.109.067.250@
 062.109.067.254@
-062.109.067.242@
+062.109.067.246@
 078.054.174.000=0 DE,Hamburg,Hamburg,53.55,10
 062.109.067.242@
 062.109.067.250@
@@ -6505,10 +6479,10 @@
 062.109.067.242@
 213.191.066.078~ae2-0.cr01.asham.de.hansenet.net
 213.191.066.074~ae2-0.cr01.weham.de.hansenet.net
-084.016.007.234~HANSENET-0-0-grtdusix1.red.telefonica-wholesale.net
-213.191.066.013~so-0-0-0-0.cr01.weham.de.hansenet.net
-213.191.087.217~so-0-1-0-0.cr01.weham.de.hansenet.net
 213.191.087.129~so-0-2-0-0.cr01.weham.de.hansenet.net
+213.191.087.217~so-0-1-0-0.cr01.weham.de.hansenet.net
+213.191.066.013~so-0-0-0-0.cr01.weham.de.hansenet.net
+084.016.007.234~HANSENET-0-0-grtdusix1.red.telefonica-wholesale.net
 078.054.175.255=0*8
 =======16
 078.054.176.000=0 DE,Hamburg,Hamburg,53.55,10
@@ -6527,16 +6501,18 @@
 213.191.076.027@
 078.054.183.000=0 DE,Hamburg,Hamburg,53.55,10
 213.191.076.027@
-062.109.072.002~ae0-0.xd01.asham.de.hansenet.net
-062.109.067.002~ae0-0.xd02.asham.de.hansenet.net
 062.109.072.006~ae1-0.xd01.asham.de.hansenet.net
 062.109.067.006~ae1-0.xd02.asham.de.hansenet.net
+062.109.072.002~ae0-0.xd01.asham.de.hansenet.net
+062.109.067.002~ae0-0.xd02.asham.de.hansenet.net
+062.109.072.038~ae2-0.xd01.asham.de.hansenet.net~DE,Hamburg,Hamburg,53.55,10
+062.109.067.038~ae2-0.xd02.asham.de.hansenet.net~DE,Hamburg,Hamburg,53.55,10
 078.054.183.255=0*8
 =======8
 078.054.184.000=0 DE,Hamburg,Hamburg,53.55,10
-062.109.067.002@
 062.109.072.006@
-062.109.067.006@
+062.109.067.002@
+062.109.072.002@
 078.054.185.000=0 DE,Hamburg,Hamburg,53.55,10
 062.109.072.006@
 062.109.067.006@
@@ -6547,32 +6523,30 @@
 062.109.067.006@
 062.109.072.002@
 078.054.187.000=0 DE,Hamburg,Hamburg,53.55,10
-062.109.072.006@
 062.109.067.006@
-062.109.067.002@
+062.109.072.002@
+062.109.072.006@
 078.054.188.000=0 DE,Hamburg,Hamburg,53.55,10
-062.109.067.017@
+062.109.072.017@
 078.054.189.000=0 DE,Hamburg,Hamburg,53.55,10
 062.109.072.017@
 062.109.067.017@
 078.054.190.000=0 DE,Hamburg,Hamburg,53.55,10
-062.109.072.017@
 062.109.067.017@
+062.109.072.017@
 078.054.191.000=0 DE,Hamburg,Hamburg,53.55,10
 062.109.072.017@
 062.109.067.017@
-213.191.087.237~so-0-1-0-0.cr01.asham.de.hansenet.net
-213.191.087.217~so-0-1-0-0.cr01.weham.de.hansenet.net
-213.191.087.129~so-0-2-0-0.cr01.weham.de.hansenet.net
-213.191.066.013~so-0-0-0-0.cr01.weham.de.hansenet.net
 213.191.066.074~ae2-0.cr01.weham.de.hansenet.net
 213.191.066.078~ae2-0.cr01.asham.de.hansenet.net
-062.109.067.038~ae2-0.xd02.asham.de.hansenet.net~DE,Hamburg,Hamburg,53.55,10
+213.191.087.217~so-0-1-0-0.cr01.weham.de.hansenet.net
+213.191.066.017~so-0-0-0-0.cr01.asham.de.hansenet.net
+213.191.087.129~so-0-2-0-0.cr01.weham.de.hansenet.net
+213.191.087.137~so-0-2-0-0.cr01.asham.de.hansenet.net
+062.109.072.038~ae2-0.xd01.asham.de.hansenet.net~DE,Hamburg,Hamburg,53.55,10
 062.109.067.002~ae0-0.xd02.asham.de.hansenet.net
 062.109.067.006~ae1-0.xd02.asham.de.hansenet.net
-062.109.072.002~ae0-0.xd01.asham.de.hansenet.net
-062.109.072.006~ae1-0.xd01.asham.de.hansenet.net
-062.109.072.038~ae2-0.xd01.asham.de.hansenet.net~DE,Hamburg,Hamburg,53.55,10
+062.109.067.038~ae2-0.xd02.asham.de.hansenet.net~DE,Hamburg,Hamburg,53.55,10
 078.054.191.255=0*8
 =======64
 078.054.192.000=0 DE,,,51,9
@@ -6661,7 +6635,7 @@
 062.109.072.002~ae0-0.xd01.asham.de.hansenet.net
 213.191.066.078~ae2-0.cr01.asham.de.hansenet.net
 213.191.066.074~ae2-0.cr01.weham.de.hansenet.net
-078.054.255.255=0*8
+078.054.255.255=0^8
 =======256
 078.055.000.000=0 DE,Hamburg,Hamburg,53.55,10
 062.109.072.006@
@@ -6669,12 +6643,14 @@
 062.109.067.002@
 062.109.067.006@
 078.055.001.000=0 DE,Hamburg,Hamburg,53.55,10
-062.109.072.006@
-062.109.072.002@
-078.055.002.000=0 DE,Hamburg,Hamburg,53.55,10
 062.109.067.002@
 062.109.067.006@
 062.109.072.002@
+062.109.072.006@
+078.055.002.000=0 DE,Hamburg,Hamburg,53.55,10
+062.109.072.002@
+062.109.072.006@
+062.109.067.002@
 078.055.003.000=0 DE,Hamburg,Hamburg,53.55,10
 062.109.067.006@
 062.109.072.002@
@@ -6687,7 +6663,9 @@
 062.109.072.006@
 078.055.005.000=0 DE,Hamburg,Hamburg,53.55,10
 062.109.072.006@
+062.109.067.002@
 062.109.067.006@
+062.109.072.002@
 078.055.006.000=0 DE,Hamburg,Hamburg,53.55,10
 062.109.072.002@
 062.109.067.002@
@@ -6698,12 +6676,12 @@
 062.109.067.006@
 213.191.066.074~ae2-0.cr01.weham.de.hansenet.net
 213.191.066.078~ae2-0.cr01.asham.de.hansenet.net
+213.191.087.137~so-0-2-0-0.cr01.asham.de.hansenet.net
 213.191.087.129~so-0-2-0-0.cr01.weham.de.hansenet.net
-213.191.066.017~so-0-0-0-0.cr01.asham.de.hansenet.net
-213.191.087.217~so-0-1-0-0.cr01.weham.de.hansenet.net
 213.191.087.237~so-0-1-0-0.cr01.asham.de.hansenet.net
 213.191.066.013~so-0-0-0-0.cr01.weham.de.hansenet.net
-213.191.087.137~so-0-2-0-0.cr01.asham.de.hansenet.net
+213.191.087.217~so-0-1-0-0.cr01.weham.de.hansenet.net
+213.191.066.017~so-0-0-0-0.cr01.asham.de.hansenet.net
 =======8
 078.055.008.000=0 DE,Hamburg,Hamburg,53.55,10
 062.109.072.006@
@@ -6769,23 +6747,20 @@
 062.109.067.006@
 078.055.049.000=0 DE,Hamburg,Hamburg,53.55,10
 078.055.049.000!0 DE,Sachsen-Anhalt,Gölzau,51.65,12.0833
-062.109.067.002@
-062.109.072.002@
-062.109.067.006@
+062.109.067.038@
+062.109.072.038@
 078.055.050.000=0 DE,Hamburg,Hamburg,53.55,10
 062.109.067.006@
 062.109.067.002@
 078.055.051.000=0 DE,Hamburg,Hamburg,53.55,10
-062.109.067.002@
-062.109.067.006@
 062.109.072.006@
+062.109.067.002@
+062.109.072.002@
 078.055.052.000=0 DE,Hamburg,Hamburg,53.55,10
 062.109.067.038@
 078.055.053.000=0 DE,Hamburg,Hamburg,53.55,10
-062.109.067.002@
-062.109.072.006@
-062.109.072.002@
-062.109.067.006@
+062.109.067.038@
+062.109.072.038@
 078.055.054.000=0 DE,Hamburg,Hamburg,53.55,10
 062.109.067.006@
 062.109.072.002@
@@ -6799,19 +6774,18 @@
 213.191.087.137~so-0-2-0-0.cr01.asham.de.hansenet.net
 213.191.087.129~so-0-2-0-0.cr01.weham.de.hansenet.net
 213.191.087.237~so-0-1-0-0.cr01.asham.de.hansenet.net
-213.191.066.017~so-0-0-0-0.cr01.asham.de.hansenet.net
+213.191.066.182~ae4-0.xd02.weham.de.hansenet.net
+213.191.066.174~ae4-0.xd01.weham.de.hansenet.net
 213.191.066.013~so-0-0-0-0.cr01.weham.de.hansenet.net
+213.191.066.017~so-0-0-0-0.cr01.asham.de.hansenet.net
 213.191.087.217~so-0-1-0-0.cr01.weham.de.hansenet.net
 213.191.066.078~ae2-0.cr01.asham.de.hansenet.net
 213.191.066.074~ae2-0.cr01.weham.de.hansenet.net
-213.191.066.182~ae4-0.xd02.weham.de.hansenet.net
 =======8
 078.055.056.000=0 DE,Hamburg,Hamburg,53.55,10
 062.109.072.038@
 062.109.067.038@
 078.055.057.000=0 DE,Hamburg,Hamburg,53.55,10
-062.109.067.002@
-062.109.067.006@
 062.109.072.002@
 062.109.072.006@
 078.055.058.000=0 DE,Hamburg,Hamburg,53.55,10
@@ -6882,8 +6856,8 @@
 062.109.067.038@
 062.109.072.038@
 078.055.097.000=0 DE,Hamburg,Hamburg,53.55,10
-062.109.072.006@
 062.109.067.006@
+062.109.072.006@
 078.055.098.000=0 DE,Hamburg,Hamburg,53.55,10
 062.109.067.006@
 062.109.067.002@
@@ -6898,18 +6872,18 @@
 062.109.072.038@
 062.109.067.038@
 078.055.102.000=0 DE,Hamburg,Hamburg,53.55,10
-062.109.072.038@
-062.109.067.038@
+062.109.072.006@
+062.109.067.006@
 078.055.103.000=0 DE,Hamburg,Hamburg,53.55,10
 062.109.072.006@
 062.109.067.006@
 213.191.066.182~ae4-0.xd02.weham.de.hansenet.net
 213.191.066.174~ae4-0.xd01.weham.de.hansenet.net
-213.191.087.217~so-0-1-0-0.cr01.weham.de.hansenet.net
 213.191.087.129~so-0-2-0-0.cr01.weham.de.hansenet.net
+213.191.066.013~so-0-0-0-0.cr01.weham.de.hansenet.net
+213.191.087.217~so-0-1-0-0.cr01.weham.de.hansenet.net
 213.191.066.074~ae2-0.cr01.weham.de.hansenet.net
 213.191.066.078~ae2-0.cr01.asham.de.hansenet.net
-213.191.066.013~so-0-0-0-0.cr01.weham.de.hansenet.net
 =======8
 078.055.104.000=0 DE,Hamburg,Hamburg,53.55,10
 062.109.072.006@
@@ -6917,14 +6891,13 @@
 062.109.072.002@
 062.109.067.006@
 078.055.105.000=0 DE,Hamburg,Hamburg,53.55,10
-062.109.072.038@
-062.109.067.038@
+062.109.067.002@
+062.109.072.006@
 078.055.106.000=0 DE,Hamburg,Hamburg,53.55,10
 062.109.072.006@
 062.109.067.006@
 078.055.107.000=0 DE,Hamburg,Hamburg,53.55,10
-062.109.067.002@
-062.109.072.002@
+062.109.067.006@
 062.109.072.006@
 078.055.108.000=0 DE,Hamburg,Hamburg,53.55,10
 078.055.109.000=0 DE,Hamburg,Hamburg,53.55,10
@@ -6934,8 +6907,6 @@
 078.055.111.000=0 DE,Hamburg,Hamburg,53.55,10
 213.191.066.074~ae2-0.cr01.weham.de.hansenet.net
 213.191.066.078~ae2-0.cr01.asham.de.hansenet.net
-213.191.066.174~ae4-0.xd01.weham.de.hansenet.net
-213.191.066.182~ae4-0.xd02.weham.de.hansenet.net
 213.191.066.013~so-0-0-0-0.cr01.weham.de.hansenet.net
 213.191.087.129~so-0-2-0-0.cr01.weham.de.hansenet.net
 213.191.087.217~so-0-1-0-0.cr01.weham.de.hansenet.net
@@ -6986,13 +6957,10 @@
 062.109.067.002@
 062.109.067.006@
 078.055.145.000=0 DE,Hamburg,Hamburg,53.55,10
-062.109.067.038@
 062.109.072.038@
+062.109.067.038@
 078.055.146.000=0 DE,Hamburg,Hamburg,53.55,10
-062.109.067.006@
-062.109.072.002@
-062.109.072.006@
-062.109.067.002@
+062.109.072.038@
 078.055.147.000=0 DE,Hamburg,Hamburg,53.55,10
 062.109.067.006@
 062.109.072.002@
@@ -7014,8 +6982,8 @@
 213.191.087.137~so-0-2-0-0.cr01.asham.de.hansenet.net
 213.191.066.013~so-0-0-0-0.cr01.weham.de.hansenet.net
 213.191.087.237~so-0-1-0-0.cr01.asham.de.hansenet.net
-213.191.066.182~ae4-0.xd02.weham.de.hansenet.net
 213.191.066.174~ae4-0.xd01.weham.de.hansenet.net
+213.191.066.182~ae4-0.xd02.weham.de.hansenet.net
 213.191.066.074~ae2-0.cr01.weham.de.hansenet.net
 213.191.066.078~ae2-0.cr01.asham.de.hansenet.net
 =======8
@@ -7028,9 +6996,8 @@
 062.109.067.006@
 062.109.072.002@
 078.055.154.000=0 DE,Hamburg,Hamburg,53.55,10
-062.109.072.006@
+062.109.067.002@
 062.109.067.006@
-062.109.072.002@
 078.055.155.000=0 DE,Hamburg,Hamburg,53.55,10
 062.109.067.002@
 062.109.072.002@
@@ -7046,7 +7013,6 @@
 213.191.087.137~so-0-2-0-0.cr01.asham.de.hansenet.net
 213.191.066.074~ae2-0.cr01.weham.de.hansenet.net
 213.191.066.078~ae2-0.cr01.asham.de.hansenet.net
-213.191.066.017~so-0-0-0-0.cr01.asham.de.hansenet.net
 078.055.159.255=0*16
 =======32
 078.055.160.000=0 DE,,,51,9
@@ -7202,19 +7168,16 @@
 062.109.067.250@
 062.109.067.242@
 078.055.243.000=0 DE,Hamburg,Hamburg,53.55,10
-062.109.067.242@
 062.109.067.250@
+062.109.067.242@
 078.055.244.000=0 DE,Hamburg,Hamburg,53.55,10
 062.109.067.242@
 062.109.067.250@
 078.055.245.000=0 DE,Hamburg,Hamburg,53.55,10
-062.109.067.246@
-062.109.067.250@
-062.109.067.254@
+213.191.066.174@
+213.191.066.182@
 078.055.246.000=0 DE,Hamburg,Hamburg,53.55,10
-062.109.067.254@
 062.109.067.242@
-062.109.067.246@
 062.109.067.250@
 078.055.247.000=0 DE,Hamburg,Hamburg,53.55,10
 062.109.067.242@
@@ -7224,6 +7187,7 @@
 213.191.066.013~so-0-0-0-0.cr01.weham.de.hansenet.net
 213.191.087.217~so-0-1-0-0.cr01.weham.de.hansenet.net
 213.191.087.129~so-0-2-0-0.cr01.weham.de.hansenet.net
+084.016.007.234~HANSENET-0-0-grtdusix1.red.telefonica-wholesale.net
 =======8
 078.055.248.000=0 DE,Hamburg,Hamburg,53.55,10
 213.191.066.182@

@@ -194,12 +194,16 @@
 109.090.063.255=0*4
 =======64
 109.090.064.000=0 DE,Nordrhein-Westfalen,Köln,50.9333,6.95
+109.090.064.000!0 DE,Hessen,Kriftel,50.0833,8.4833
 081.210.131.250@
 109.090.065.000=0 DE,Nordrhein-Westfalen,Köln,50.9333,6.95
+109.090.065.000!0 DE,Hessen,Hofheim,50.0833,8.45
 081.210.131.250@
 109.090.066.000=0 DE,Nordrhein-Westfalen,Köln,50.9333,6.95
+109.090.066.000!0 DE,Hessen,Hofheim,50.0833,8.45
 081.210.131.250@
 109.090.067.000=0 DE,Nordrhein-Westfalen,Köln,50.9333,6.95
+109.090.067.000!0 DE,Hessen,Wiesbaden,50.0833,8.25
 081.210.131.250@
 080.069.106.134~1311A-MX960-02-ae0.cgn.unity-media.net
 080.069.107.093~1311A-MX960-02-ae2.cgn.unity-media.net
@@ -303,8 +307,10 @@
 109.090.103.255=0*4
 =======8
 109.090.104.000=0 DE,Nordrhein-Westfalen,Mannheim,51.1,6.8917
+109.090.104.000!0 DE,Nordrhein-Westfalen,Monheim,51.1,6.8917
 080.069.102.234@
 109.090.105.000=0 DE,Nordrhein-Westfalen,Mannheim,51.1,6.8917
+109.090.105.000!0 DE,Nordrhein-Westfalen,Monheim,51.1,6.8917
 080.069.102.234@
 109.090.106.000=0 DE,Nordrhein-Westfalen,Velbert,51.3333,7.05
 080.069.102.234@
@@ -781,12 +787,15 @@
 109.090.247.255=0*2
 =======8
 109.090.248.000=0 DE,Nordrhein-Westfalen,Essen,51.45,7.0167
+109.090.248.000!0 DE,Nordrhein-Westfalen,Grevenbroich,51.0833,6.5833
 081.210.130.246@
 109.090.249.000=0 DE,Nordrhein-Westfalen,Essen,51.45,7.0167
 081.210.130.246@
 109.090.250.000=0 DE,Nordrhein-Westfalen,Essen,51.45,7.0167
+109.090.250.000!0 DE,Nordrhein-Westfalen,Grevenbroich,51.0833,6.5833
 081.210.130.246@
 109.090.251.000=0 DE,Nordrhein-Westfalen,Essen,51.45,7.0167
+109.090.251.000!0 DE,Nordrhein-Westfalen,Grevenbroich,51.0833,6.5833
 081.210.130.246@
 080.069.107.033~80.69.107.33
 080.069.107.233~1415A-MX960-01-ae0.ess.unity-media.net
@@ -919,21 +928,24 @@
 109.091.043.255=0*4
 -------
 109.091.044.000=0 DE,Nordrhein-Westfalen,Mannheim,51.0833,6.8833
+109.091.044.000!0 DE,Nordrhein-Westfalen,Monheim,51.0833,6.8833
 080.069.102.234@
 109.091.045.000=0 DE,Nordrhein-Westfalen,Wülfrath,51.2833,7.05
 080.069.102.234@
+080.069.107.082~1411C-MX960-01-ae1.mhm.unity-media.net
 109.091.045.255=0*2
 -------
 109.091.046.000=0 DE,Nordrhein-Westfalen,Waltrop,51.6333,7.4
 109.091.047.000=0 DE,Nordrhein-Westfalen,Datteln,51.6667,7.3833
-080.069.107.082~1411C-MX960-01-ae1.mhm.unity-media.net
-109.091.047.255=0*4
+109.091.047.255=0*2
 =======16
 109.091.048.000=0 DE,Nordrhein-Westfalen,Mannheim,51.1,6.8917
+109.091.048.000!0 DE,Nordrhein-Westfalen,Monheim,51.1,6.8917
 080.069.102.234@
 109.091.049.000=0 DE,Nordrhein-Westfalen,Velbert,51.3333,7.05
 080.069.102.234@
 109.091.050.000=0 DE,Nordrhein-Westfalen,Mannheim,51.0833,6.8833
+109.091.050.000!0 DE,Nordrhein-Westfalen,Monheim,51.0833,6.8833
 080.069.102.234@
 109.091.051.000=0 DE,Nordrhein-Westfalen,Wülfrath,51.2833,7.05
 080.069.102.234@
@@ -1343,6 +1355,7 @@
 109.091.189.255=0*2
 -------
 109.091.190.000=0 DE,Nordrhein-Westfalen,Mannheim,51.0833,6.8833
+109.091.190.000!0 DE,Nordrhein-Westfalen,Monheim,51.0833,6.8833
 080.069.102.234@
 080.069.107.082~1411C-MX960-01-ae1.mhm.unity-media.net
 109.091.190.255=0*1
