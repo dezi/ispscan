@@ -1,0 +1,341 @@
+{
+	"xxx" :
+	[
+		"xxxx",
+		"xxxx",
+		"xxxx",
+		"xxxx",
+		"xxxx",
+		"xxxx",
+		"xxxx"
+	],
+
+	"xxx" :
+	[
+		"xxxx",
+		"xxxx",
+		"xxxx",
+		"xxxx",
+		"xxxx",
+		"xxxx",
+		"xxxx"
+	],
+
+	"DE,Baden-Württemberg,Ludwigsburg,48.9,9.1833" :
+	[
+		"DE,Baden-Württemberg,Aspach",
+		"DE,Baden-Württemberg,Asperg",
+		"DE,Baden-Württemberg,Besigheim",
+		"DE,Baden-Württemberg,Winnenden",
+		"DE,Baden-Württemberg,Marbach",
+		"DE,Baden-Württemberg,Freiberg",
+		"DE,Baden-Württemberg,Hessigheim",
+		"DE,Baden-Württemberg,Steinheim",
+		"DE,Baden-Württemberg,Backnang",
+		"DE,Baden-Württemberg,Schwieberdingen",
+		"DE,Baden-Württemberg,Freiberg Am Neckar",
+		"DE,Baden-Württemberg,Bietigheim-Bissingen",
+		"DE,Baden-Württemberg,Kornwestheim",
+		"DE,Baden-Württemberg,Markgröningen",
+		"DE,Baden-Württemberg,Pleidelsheim"
+	],
+
+	"DE,Baden-Württemberg,Mannheim,49.4883,8.4647" :
+	[
+		"xxxx",
+		"xxxx",
+		"DE,Baden-Württemberg,Oftersheim",
+		"DE,Baden-Württemberg,Weinheim",
+		"DE,Baden-Württemberg,Gaiberg",
+		"DE,Baden-Württemberg,Neckargemünd",
+		"DE,Baden-Württemberg,Hockenheim",
+		"DE,Baden-Württemberg,Brühl",
+		"DE,Baden-Württemberg,Eppelheim",
+		"DE,Baden-Württemberg,Nußloch",
+		"DE,Baden-Württemberg,Wiesloch",
+		"DE,Baden-Württemberg,Heddesheim",
+		"DE,Baden-Württemberg,Schwetzingen",
+		"DE,Baden-Württemberg,Heidelberg",
+		"DE,Baden-Württemberg,Schriesheim",
+		"DE,Baden-Württemberg,Sandhausen"
+	],
+	
+	"DE,Baden-Württemberg,Horb,48.4333,8.6833" :
+	[
+		"xxxx",
+		"xxxx",
+		"DE,Baden-Württemberg,Vöhringen",
+		"DE,Baden-Württemberg,Sulz",
+		"DE,Baden-Württemberg,Sulz Am Neckar",
+		"DE,Baden-Württemberg,Eutingen",
+		"DE,Baden-Württemberg,Oberndorf",
+		"DE,Baden-Württemberg,Baiersbronn"
+	],
+
+	"DE,Baden-Württemberg,Lörrach,47.6163,7.6648" :
+	[
+		"xxxx",
+		"DE,Baden-Württemberg,Müllheim",
+		"DE,Baden-Württemberg,Rheinfelden",
+		"DE,Baden-Württemberg,Efringen-Kirchen",
+		"DE,Baden-Württemberg,Bad Säckingen",
+		"DE,Baden-Württemberg,Weil Am Rhein",
+		"DE,Baden-Württemberg,Grenzach-Wyhlen",
+		"DE,Baden-Württemberg,Schopfheim",
+		"DE,Baden-Württemberg,Lauchringen",
+		"DE,Baden-Württemberg,Maulburg"
+	],
+
+	"DE,Baden-Württemberg,Villingen-Schwenningen,48.0667,8.45" :
+	[
+		"xxxx",
+		"xxxx",
+		"xxxx",
+		"DE,Baden-Württemberg,Tuttlingen",
+		"DE,Baden-Württemberg,Deilingen",
+		"DE,Baden-Württemberg,Dauchingen",
+		"DE,Baden-Württemberg,Donaueschingen",
+		"DE,Baden-Württemberg,Bad Dürrheim",
+		"DE,Baden-Württemberg,Villingendorf",
+		"DE,Baden-Württemberg,Hardt",
+		"DE,Baden-Württemberg,Aldingen",
+		"DE,Baden-Württemberg,Rottweil",
+		"DE,Baden-Württemberg,Spaichingen",
+		"DE,Baden-Württemberg,Deißlingen",
+		"DE,Baden-Württemberg,Geisingen"
+	],
+
+	"DE,Baden-Württemberg,Pforzheim,48.8833,8.7" :
+	[
+		"xxxx",
+		"xxxx",
+		"xxxx",
+		"xxxx",
+		"xxxx",
+		"DE,Baden-Württemberg,Niefern",
+		"DE,Baden-Württemberg,Bad Liebenzell",
+		"DE,Baden-Württemberg,Wildberg",
+		"DE,Baden-Württemberg,Calw",
+		"DE,Baden-Württemberg,Niefern-Öschelbronn",
+		"DE,Baden-Württemberg,Bad Wildbad",
+		"DE,Baden-Württemberg,Birkenfeld"
+	],
+
+	"DE,Baden-Württemberg,Sindelfingen,48.7,9.0167" :
+	[
+		"xxxx",
+		"xxxx",
+		"DE,Baden-Württemberg,Waldenbuch",
+		"DE,Baden-Württemberg,Gärtringen",
+		"DE,Baden-Württemberg,Magstadt",
+		"DE,Baden-Württemberg,Renningen",
+		"DE,Baden-Württemberg,Schönaich",
+		"DE,Baden-Württemberg,Ehningen",
+		"DE,Baden-Württemberg,Holzgerlingen",
+		"DE,Baden-Württemberg,Sindelfingen",
+		"DE,Baden-Württemberg,Leonberg",
+		"DE,Baden-Württemberg,Böblingen"
+	],
+
+	"DE,Baden-Württemberg,Stuttgart,48.7667,9.1833" :
+	[
+		"xxxx",
+		"xxxx",
+		"xxxx",
+		"DE,Baden-Württemberg,Ostfildern",
+		"DE,Baden-Württemberg,Esslingen",
+		"DE,Baden-Württemberg,Waiblingen",
+		"DE,Baden-Württemberg,Leinfelden-Echterdingen"
+	],
+
+	"DE,Baden-Württemberg,Göppingen,48.7,9.6667" :
+	[
+		"xxxx",
+		"xxxx",
+		"xxxx",
+		"DE,Baden-Württemberg,Weilheim An Der Teck",
+		"DE,Baden-Württemberg,Unterensingen",
+		"DE,Baden-Württemberg,Bad Ditzenbach",
+		"DE,Baden-Württemberg,Oberboihingen",
+		"DE,Baden-Württemberg,Geislingen An Der Steige",
+		"DE,Baden-Württemberg,Salach",
+		"DE,Baden-Württemberg,Wendlingen",
+		"DE,Baden-Württemberg,Kirchheim Unter Teck",
+		"DE,Baden-Württemberg,Ebersbach",
+		"DE,Baden-Württemberg,Ohmden",
+		"DE,Baden-Württemberg,Eislingen",
+		"DE,Baden-Württemberg,Wäschenbeuren",
+		"DE,Baden-Württemberg,Baltmannsweiler",
+		"DE,Baden-Württemberg,Gruibingen",
+		"DE,Baden-Württemberg,Kirchheim",
+		"DE,Baden-Württemberg,Lorch",
+		"DE,Baden-Württemberg,Bad Boll",
+		"DE,Baden-Württemberg,Nürtingen",
+		"DE,Baden-Württemberg,Albershausen",
+		"DE,Baden-Württemberg,Hattenhofen",
+		"DE,Baden-Württemberg,Uhingen"
+	],
+
+	"DE,Baden-Württemberg,Heilbronn,49.1403,9.22" :
+	[
+		"xxxx",
+		"xxxx",
+		"xxxx",
+		"DE,Baden-Württemberg,Weinsberg",
+		"DE,Baden-Württemberg,Zaberfeld",
+		"DE,Baden-Württemberg,Bretzfeld",
+		"DE,Baden-Württemberg,Lauffen",
+		"DE,Baden-Württemberg,Untergruppenbach",
+		"DE,Baden-Württemberg,Öhringen",
+		"DE,Baden-Württemberg,Neckarsulm",
+		"DE,Baden-Württemberg,Widdern"
+	],
+
+	"DE,Baden-Württemberg,Karlsruhe,49.0047,8.3858" :
+	[
+		"xxxx",
+		"DE,Baden-Württemberg,Waghäusel",
+		"DE,Baden-Württemberg,Muggensturm",
+		"DE,Baden-Württemberg,Kronau",
+		"DE,Baden-Württemberg,Ettlingen",
+		"DE,Baden-Württemberg,Baden-Baden",
+		"DE,Baden-Württemberg,Eggenstein-Leopoldshafen",
+		"DE,Baden-Württemberg,Bruchsal",
+		"DE,Baden-Württemberg,Königsbach-Stein",
+		"DE,Baden-Württemberg,Eisingen"
+	],
+
+	"DE,Baden-Württemberg,Offenburg,48.4833,7.9333" :
+	[
+		"xxxx",
+		"xxxx",
+		"xxxx",
+		"xxxx",
+		"xxxx",
+		"DE,Hessen,Gengenbach",
+		"DE,Baden-Württemberg,Durbach"
+	],
+
+	"DE,Baden-Württemberg,Bad Mergentheim,49.4925,9.7736" :
+	[
+		"xxxx",
+		"DE,Baden-Württemberg,Igersheim",
+		"DE,Baden-Württemberg,Lauda-Königshofen",
+		"DE,Baden-Württemberg,Wertheim",
+		"DE,Baden-Württemberg,Boxberg",
+		"DE,Baden-Württemberg,Satteldorf",
+		"DE,Baden-Württemberg,Crailsheim"
+	],
+
+	"DE,Baden-Württemberg,Reutlingen,48.4833,9.2167" :
+	[
+		"xxxx",
+		"xxxx",
+		"xxxx",
+		"DE,Baden-Württemberg,Mössingen",
+		"DE,Baden-Württemberg,Kusterdingen",
+		"DE,Baden-Württemberg,Bisingen",
+		"DE,Baden-Württemberg,Burladingen",
+		"DE,Baden-Württemberg,Dußlingen",
+		"DE,Baden-Württemberg,Nehren",
+		"DE,Baden-Württemberg,Tübingen",
+		"DE,Baden-Württemberg,Dettingen",
+		"DE,Baden-Württemberg,Balingen",
+		"DE,Baden-Württemberg,Hechingen",
+		"DE,Baden-Württemberg,Gomaringen",
+		"DE,Baden-Württemberg,Metzingen",
+		"DE,Baden-Württemberg,Bad Urach",
+		"DE,Baden-Württemberg,Grosselfingen",
+		"DE,Baden-Württemberg,Pfullingen",
+		"DE,Baden-Württemberg,Rottenburg"
+	],
+
+	"DE,Baden-Württemberg,Ulm,48.4,10" :
+	[
+		"xxxx",
+		"xxxx",
+		"xxxx",
+		"DE,Baden-Württemberg,Hüttisheim",
+		"DE,Baden-Württemberg,Ehingen",
+		"DE,Baden-Württemberg,Baltringen",
+		"DE,Baden-Württemberg,Laupheim",
+		"DE,Baden-Württemberg,Langenau",
+		"DE,Baden-Württemberg,Erbach"
+	],
+
+	"DE,Baden-Württemberg,Konstanz,47.6667,9.1833" :
+	[
+		"xxxx",
+		"DE,Baden-Württemberg,Sipplingen",
+		"DE,Baden-Württemberg,Überlingen",
+		"DE,Baden-Württemberg,Allensbach",
+		"DE,Baden-Württemberg,Singen",
+		"DE,Baden-Württemberg,Stockach",
+		"DE,Baden-Württemberg,Radolfzell"
+	],
+
+	"DE,Baden-Württemberg,Ravensburg,47.7833,9.6167" :
+	[
+		"xxxx",
+		"DE,Baden-Württemberg,Leutkirch",
+		"DE,Baden-Württemberg,Baienfurt",
+		"DE,Baden-Württemberg,Immenstaad",
+		"DE,Baden-Württemberg,Tettnang",
+		"DE,Baden-Württemberg,Oberteuringen",
+		"DE,Baden-Württemberg,Weingarten",
+		"DE,Baden-Württemberg,Friedrichshafen"
+	],
+
+	"DE,Baden-Württemberg,Riedlingen,48.15,9.4667" :
+	[
+		"xxxx",
+		"xxxx",
+		"DE,Baden-Württemberg,Sigmaringen",
+		"DE,Baden-Württemberg,Herbertingen",
+		"DE,Baden-Württemberg,Saulgau",
+		"DE,Baden-Württemberg,Mengen",
+		"DE,Baden-Württemberg,Albstadt"
+	],
+
+	"DE,Baden-Württemberg,Aalen,48.8333,10.1" :
+	[
+		"xxxx",
+		"xxxx",
+		"xxxx",
+		"DE,Baden-Württemberg,Ellwangen",
+		"DE,Baden-Württemberg,Hüttlingen",
+		"DE,Baden-Württemberg,Oberkochen",
+		"DE,Baden-Württemberg,Westheim",
+		"DE,Baden-Württemberg,Heidenheim",
+		"DE,Baden-Württemberg,Gaildorf",
+		"DE,Baden-Württemberg,Mögglingen",
+		"DE,Baden-Württemberg,Königsbronn",
+		"DE,Baden-Württemberg,Lauchheim",
+		"DE,Baden-Württemberg,Schwäbisch Hall",
+		"DE,Baden-Württemberg,Westhausen",
+		"DE,Baden-Württemberg,Giengen",
+		"DE,Baden-Württemberg,Steinheim Am Albuch",
+		"DE,Baden-Württemberg,Mutlangen",
+		"DE,Baden-Württemberg,Schechingen"
+	]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,450 @@
+085.216.000.000=0 DE,Baden-Württemberg,Stuttgart,48.7667,9.1833
+172.030.010.106@
+172.030.010.110@
+172.030.010.114@
+172.030.010.118@
+085.216.001.000=0 DE,Baden-Württemberg,Stuttgart,48.7667,9.1833
+172.030.010.110@
+172.030.010.114@
+172.030.010.106@
+078.042.040.242~HSI-KBW-078-042-040-242.hsi3.kabel-badenwuerttemberg.de
+085.216.001.255=0*2
+-------
+085.216.002.000=0 DE,Baden-Württemberg,Waldkirch,48.1,7.9667
+172.030.018.250@
+085.216.003.000=0 DE,Baden-Württemberg,Freiburg,48,7.85
+172.030.018.250@
+078.042.040.010~ae2.KAE-M1.ip-bb.kabel-badenwuerttemberg.de
+085.216.003.255=0*2
+-------
+085.216.004.000=0 DE,Baden-Württemberg,Pleidelsheim,48.9667,9.2
+172.030.030.077@
+085.216.005.000=0 DE,Baden-Württemberg,Besigheim,48.9833,9.1333
+172.030.030.077@
+085.216.006.000=0 DE,Baden-Württemberg,Ludwigsburg,48.9,9.1833
+172.030.030.077@
+085.216.007.000=0 DE,Baden-Württemberg,Ludwigsburg,48.9,9.1833
+172.030.030.077@
+078.042.040.005~ae0.STR-M2.ip-bb.kabel-badenwuerttemberg.de
+085.216.007.255=0*4
+=======8
+085.216.008.000=0 DE,Baden-Württemberg,Ludwigsburg,48.9,9.1833
+172.030.030.077@
+085.216.009.000=0 DE,Baden-Württemberg,Ludwigsburg,48.9,9.1833
+172.030.030.077@
+085.216.010.000=0 DE,Baden-Württemberg,Ludwigsburg,48.9,9.1833
+172.030.030.077@
+085.216.011.000=0 DE,Baden-Württemberg,Ludwigsburg,48.9,9.1833
+172.030.030.077@
+078.042.040.005~ae0.STR-M2.ip-bb.kabel-badenwuerttemberg.de
+085.216.011.255=0*4
+-------
+085.216.012.000=0 DE,Baden-Württemberg,Rottweil,48.1667,8.6167
+172.030.015.254@
+085.216.013.000=0 DE,Baden-Württemberg,Donaueschingen,47.95,8.5
+172.030.015.254@
+085.216.014.000=0 DE,Baden-Württemberg,Donaueschingen,47.95,8.5
+172.030.015.254@
+085.216.015.000=0 DE,Baden-Württemberg,Villingen-Schwenningen,48.0667,8.45
+172.030.015.254@
+078.042.040.016~ae2.STR-M1.ip-bb.kabel-badenwuerttemberg.de
+085.216.015.255=0*4
+=======16
+085.216.016.000=0 DE,Baden-Württemberg,Ravensburg,47.7833,9.6167
+172.030.005.038@
+172.030.005.098@
+172.030.005.062@
+085.216.017.000=0 DE,Baden-Württemberg,Weingarten,47.8,9.6333
+172.030.005.038@
+172.030.005.098@
+172.030.005.102@
+172.030.005.058@
+085.216.018.000=0 DE,Baden-Württemberg,Weingarten,47.8,9.6333
+172.030.005.098@
+172.030.005.102@
+172.030.005.062@
+085.216.019.000=0 DE,Baden-Württemberg,Weingarten,47.8,9.6333
+172.030.005.058@
+172.030.005.062@
+172.030.005.038@
+172.030.005.034@
+172.030.005.102@
+172.030.005.250~172.30.5.250
+085.216.019.255=0*4
+-------
+085.216.020.000=0 DE,Baden-Württemberg,Donaueschingen,47.95,8.5
+172.030.015.254@
+085.216.021.000=0 DE,Baden-Württemberg,Donaueschingen,47.95,8.5
+172.030.015.254@
+085.216.022.000=0 DE,Baden-Württemberg,Villingen-Schwenningen,48.0667,8.45
+172.030.015.254@
+085.216.023.000=0 DE,Baden-Württemberg,Dauchingen,48.0833,8.55
+172.030.015.254@
+078.042.040.016~ae2.STR-M1.ip-bb.kabel-badenwuerttemberg.de
+085.216.023.255=0*4
+=======8
+085.216.024.000=0 DE,Baden-Württemberg,Mannheim,49.4883,8.4647
+172.030.022.001@
+085.216.025.000=0 DE,Baden-Württemberg,Mannheim,49.4883,8.4647
+172.030.022.001@
+085.216.026.000=0 DE,Baden-Württemberg,Heidelberg,49.4167,8.7
+172.030.022.001@
+085.216.027.000=0 DE,Baden-Württemberg,Gaiberg,49.3664,8.7497
+172.030.022.001@
+078.042.040.010~ae2.KAE-M1.ip-bb.kabel-badenwuerttemberg.de
+085.216.027.255=0*4
+-------
+085.216.028.000=0 DE,Baden-Württemberg,Böblingen,48.6803,9.0204
+172.030.013.250@
+085.216.029.000=0 DE,Baden-Württemberg,Aidlingen,48.6667,8.9167
+172.030.013.250@
+085.216.030.000=0 DE,Baden-Württemberg,Sindelfingen,48.7,9.0167
+172.030.013.250@
+085.216.031.000=0 DE,Baden-Württemberg,Böblingen,48.6833,9.0167
+172.030.013.250@
+078.042.040.016~ae2.STR-M1.ip-bb.kabel-badenwuerttemberg.de
+085.216.031.255=0*4
+=======32
+085.216.032.000=0 DE,Baden-Württemberg,Albershausen,48.6833,9.5667
+172.030.007.098@
+172.030.007.034@
+172.030.007.130@
+172.030.007.038@
+172.030.007.126@
+085.216.033.000=0 DE,Baden-Württemberg,Uhingen,48.7,9.5833
+172.030.007.098@
+172.030.007.130@
+172.030.007.102@
+172.030.007.126@
+085.216.034.000=0 DE,Baden-Württemberg,Uhingen,48.7,9.5833
+172.030.007.130@
+172.030.007.102@
+172.030.007.034@
+172.030.007.038@
+172.030.007.126@
+085.216.035.000=0 DE,Baden-Württemberg,Uhingen,48.7,9.5833
+172.030.007.102@
+172.030.007.038@
+172.030.007.130@
+172.030.007.254~172.30.7.254
+085.216.035.255=0*4
+-------
+085.216.036.000=0 DE,Baden-Württemberg,Reutlingen,48.4833,9.2167
+172.030.025.254@
+085.216.037.000=0 DE,Baden-Württemberg,Reutlingen,48.4833,9.2167
+172.030.025.254@
+085.216.038.000=0 DE,Baden-Württemberg,Balingen,48.2833,8.85
+172.030.025.254@
+085.216.039.000=0 DE,Baden-Württemberg,Bisingen,48.3167,8.9167
+172.030.025.254@
+078.042.040.016~ae2.STR-M1.ip-bb.kabel-badenwuerttemberg.de
+085.216.039.255=0*4
+=======8
+085.216.040.000=0 DE,Baden-Württemberg,Eisingen,48.95,8.6667
+172.030.021.254@
+085.216.041.000=0 DE,Baden-Württemberg,Eisingen,48.95,8.6667
+172.030.021.254@
+085.216.042.000=0 DE,Baden-Württemberg,Eisingen,48.95,8.6667
+085.216.042.000!0 DE,Baden-Württemberg,Hambrücken,49.19,8.5406
+172.030.021.254@
+085.216.043.000=0 DE,Baden-Württemberg,Eisingen,48.95,8.6667
+085.216.043.000!0 DE,Baden-Württemberg,Sigmaringen,48.0833,9.2167
+172.030.021.254@
+078.042.040.010~ae2.KAE-M1.ip-bb.kabel-badenwuerttemberg.de
+085.216.043.255=0*4
+-------
+085.216.044.000=0 DE,Baden-Württemberg,Schwäbisch Gmünd,48.8,9.7833
+172.030.002.038@
+172.030.002.118@
+172.030.002.122@
+172.030.002.070@
+085.216.045.000=0 DE,Baden-Württemberg,Aalen,48.8333,10.1
+172.030.002.118@
+172.030.002.122@
+172.030.002.070@
+172.030.002.038@
+085.216.046.000=0 DE,Baden-Württemberg,Mutlangen,48.8167,9.8
+172.030.002.038@
+172.030.002.118@
+172.030.002.122@
+172.030.002.070@
+085.216.047.000=0 DE,Baden-Württemberg,Aalen,48.8333,10.1
+172.030.002.038@
+172.030.002.118@
+172.030.002.122@
+172.030.002.070@
+172.030.002.250~172.30.2.250
+085.216.047.255=0*4
+=======16
+085.216.048.000=0 DE,Baden-Württemberg,Bruchsal,49.1281,8.5836
+172.030.021.254@
+085.216.049.000=0 DE,Baden-Württemberg,Bruchsal,49.1281,8.5836
+172.030.021.254@
+085.216.050.000=0 DE,Baden-Württemberg,Karlsruhe,49.0047,8.3858
+172.030.021.254@
+085.216.051.000=0 DE,Baden-Württemberg,Eggenstein-Leopoldshafen,49.0953,8.3906
+172.030.021.254@
+078.042.040.010~ae2.KAE-M1.ip-bb.kabel-badenwuerttemberg.de
+085.216.051.255=0*4
+-------
+085.216.052.000=0 DE,Baden-Württemberg,Sindelfingen,48.7,9.0167
+172.030.013.250@
+085.216.053.000=0 DE,Baden-Württemberg,Sindelfingen,48.7,9.0167
+172.030.013.250@
+085.216.054.000=0 DE,Baden-Württemberg,Magstadt,48.7333,8.9667
+172.030.013.250@
+085.216.055.000=0 DE,Baden-Württemberg,Schönaich,48.65,9.0667
+172.030.013.250@
+078.042.040.016~ae2.STR-M1.ip-bb.kabel-badenwuerttemberg.de
+085.216.055.255=0*4
+=======8
+085.216.056.000=0 DE,Baden-Württemberg,Rommelshausen,48.8,9.3167
+172.030.010.050@
+172.030.010.054@
+172.030.009.146@
+172.030.009.174@
+172.030.009.074@
+085.216.057.000=0 DE,Baden-Württemberg,Waiblingen,48.8333,9.3
+172.030.010.054@
+172.030.009.174@
+172.030.009.070@
+085.216.058.000=0 DE,Baden-Württemberg,Stuttgart,48.7667,9.1833
+172.030.009.146@
+172.030.009.174@
+172.030.009.070@
+172.030.009.074@
+085.216.059.000=0 DE,Baden-Württemberg,Großheppach,48.8167,9.3833
+172.030.010.050@
+172.030.009.070@
+078.042.040.242~HSI-KBW-078-042-040-242.hsi3.kabel-badenwuerttemberg.de
+085.216.059.255=0*4
+-------
+085.216.060.000=0 DE,Baden-Württemberg,Hambrücken,49.19,8.5406
+172.030.021.254@
+085.216.061.000=0 DE,Baden-Württemberg,Ubstadt-Weiher,49.1708,8.6189
+172.030.021.254@
+085.216.062.000=0 DE,Baden-Württemberg,Ettlingen,48.95,8.4
+172.030.021.254@
+085.216.063.000=0 DE,Baden-Württemberg,Ettlingen,48.95,8.4
+172.030.021.254@
+078.042.040.010~ae2.KAE-M1.ip-bb.kabel-badenwuerttemberg.de
+085.216.063.255=0*4
+=======64
+085.216.064.000=0 DE,Baden-Württemberg,Neckarsulm,49.1928,9.2261
+172.030.012.250@
+085.216.065.000=0 DE,Baden-Württemberg,Heilbronn,49.1403,9.22
+172.030.012.250@
+085.216.066.000=0 DE,Baden-Württemberg,Heilbronn,49.1403,9.22
+172.030.012.250@
+085.216.067.000=0 DE,Baden-Württemberg,Öhringen,49.2017,9.5039
+172.030.012.250@
+078.042.040.016~ae2.STR-M1.ip-bb.kabel-badenwuerttemberg.de
+085.216.067.255=0*4
+-------
+085.216.068.000=0 DE,Baden-Württemberg,Kirchentellinsfurt,48.5333,9.15
+172.030.025.254@
+085.216.069.000=0 DE,Baden-Württemberg,Kusterdingen,48.5167,9.1167
+172.030.025.254@
+085.216.070.000=0 DE,Baden-Württemberg,Rottenburg,48.4667,8.9333
+172.030.025.254@
+085.216.071.000=0 DE,Baden-Württemberg,Kusterdingen,48.5167,9.1167
+172.030.025.254@
+078.042.040.016~ae2.STR-M1.ip-bb.kabel-badenwuerttemberg.de
+085.216.071.255=0*4
+=======8
+085.216.072.000=0 DE,Baden-Württemberg,Kornwestheim,48.8667,9.1833
+172.030.030.077@
+085.216.073.000=0 DE,Baden-Württemberg,Backnang,48.95,9.4333
+172.030.030.077@
+085.216.074.000=0 DE,Baden-Württemberg,Aspach,48.9667,9.4
+172.030.030.077@
+085.216.075.000=0 DE,Baden-Württemberg,Backnang,48.95,9.4333
+172.030.030.077@
+078.042.040.005~ae0.STR-M2.ip-bb.kabel-badenwuerttemberg.de
+085.216.075.255=0*4
+-------
+085.216.076.000=0 DE,Baden-Württemberg,Westhausen,48.8833,10.1833
+085.216.076.000!0 DE,Baden-Württemberg,Steinheim,48.9667,9.2833
+172.030.002.126@
+172.030.002.074@
+085.216.077.000=0 DE,Baden-Württemberg,Westhausen,48.8833,10.1833
+172.030.002.126@
+172.030.002.074@
+172.030.002.042@
+172.030.002.250~172.30.2.250
+085.216.077.255=0*2
+-------
+085.216.078.000=0 DE,Baden-Württemberg,Stuttgart,48.7667,9.1833
+172.030.009.042@
+172.030.009.182@
+172.030.009.158@
+172.030.009.046@
+085.216.079.000=0 DE,Baden-Württemberg,Stuttgart,48.7667,9.1833
+172.030.009.158@
+172.030.009.046@
+172.030.009.042@
+172.030.009.182@
+078.042.040.242~HSI-KBW-078-042-040-242.hsi3.kabel-badenwuerttemberg.de
+085.216.079.255=0*2
+=======16
+085.216.080.000=0 DE,Baden-Württemberg,Brühl,49.3972,8.5336
+172.030.022.001@
+085.216.081.000=0 DE,Baden-Württemberg,Heidelberg,49.4167,8.7
+172.030.022.001@
+085.216.082.000=0 DE,Baden-Württemberg,Brühl,49.3972,8.5336
+172.030.022.001@
+085.216.083.000=0 DE,Baden-Württemberg,Ladenburg,49.475,8.6069
+172.030.022.001@
+078.042.040.010~ae2.KAE-M1.ip-bb.kabel-badenwuerttemberg.de
+085.216.083.255=0*4
+-------
+085.216.084.000=0 DE,Baden-Württemberg,Rottenburg,48.4667,8.9333
+172.030.025.254@
+085.216.085.000=0 DE,Baden-Württemberg,Tübingen,48.5333,9.05
+172.030.025.254@
+085.216.086.000=0 DE,Baden-Württemberg,Reutlingen,48.4833,9.2167
+172.030.025.254@
+085.216.087.000=0 DE,Baden-Württemberg,Reutlingen,48.4833,9.2167
+172.030.025.254@
+078.042.040.016~ae2.STR-M1.ip-bb.kabel-badenwuerttemberg.de
+085.216.087.255=0*4
+=======8
+085.216.088.000=0 DE,Baden-Württemberg,Bad Mergentheim,49.4925,9.7736
+172.030.011.038@
+172.030.011.066@
+172.030.011.050@
+172.030.011.070@
+085.216.089.000=0 DE,Baden-Württemberg,Wertheim,49.7575,9.5094
+172.030.011.058@
+172.030.011.066@
+172.030.011.050@
+172.030.011.034@
+172.030.011.254~172.30.11.254
+085.216.089.255=0*2
+-------
+085.216.090.000=0 DE,Baden-Württemberg,Pforzheim,48.8833,8.7
+172.030.020.254@
+085.216.091.000=0 DE,Baden-Württemberg,Pforzheim,48.8833,8.7
+172.030.020.254@
+078.042.040.010~ae2.KAE-M1.ip-bb.kabel-badenwuerttemberg.de
+085.216.091.255=0*2
+-------
+085.216.092.000=0 DE,Baden-Württemberg,Mannheim,49.4883,8.4647
+172.030.022.001@
+085.216.093.000=0 DE,Baden-Württemberg,Mannheim,49.4883,8.4647
+172.030.022.001@
+085.216.094.000=0 DE,Baden-Württemberg,Mannheim,49.4883,8.4647
+172.030.022.001@
+085.216.095.000=0 DE,Baden-Württemberg,Mannheim,49.4883,8.4647
+172.030.022.001@
+078.042.040.010~ae2.KAE-M1.ip-bb.kabel-badenwuerttemberg.de
+085.216.095.255=0*4
+=======32
+085.216.096.000=0 DE,Baden-Württemberg,Rottweil,48.1667,8.6167
+172.030.015.254@
+085.216.097.000=0 DE,Baden-Württemberg,Donaueschingen,47.95,8.5
+172.030.015.254@
+085.216.098.000=0 DE,Baden-Württemberg,Dauchingen,48.0833,8.55
+172.030.015.254@
+085.216.099.000=0 DE,Baden-Württemberg,Donaueschingen,47.95,8.5
+172.030.015.254@
+078.042.040.016~ae2.STR-M1.ip-bb.kabel-badenwuerttemberg.de
+085.216.099.255=0*4
+-------
+085.216.100.000=0 DE,Baden-Württemberg,Heidelberg,49.4167,8.7
+172.030.022.001@
+085.216.101.000=0 DE,Baden-Württemberg,Mannheim,49.4883,8.4647
+172.030.022.001@
+085.216.102.000=0 DE,Baden-Württemberg,Hockenheim,49.3228,8.5458
+172.030.022.001@
+085.216.103.000=0 DE,Baden-Württemberg,Heidelberg,49.4167,8.7
+172.030.022.001@
+078.042.040.010~ae2.KAE-M1.ip-bb.kabel-badenwuerttemberg.de
+085.216.103.255=0*4
+=======8
+085.216.104.000=0 DE,Baden-Württemberg,Freiburg,48,7.85
+172.030.018.250@
+085.216.105.000=0 DE,Baden-Württemberg,Freiburg,48,7.85
+172.030.018.250@
+085.216.106.000=0 DE,Baden-Württemberg,Freiburg,48,7.85
+172.030.018.250@
+085.216.107.000=0 DE,Baden-Württemberg,Freiburg,48,7.85
+172.030.018.250@
+078.042.040.010~ae2.KAE-M1.ip-bb.kabel-badenwuerttemberg.de
+085.216.107.255=0*4
+-------
+085.216.108.000=0 DE,Baden-Württemberg,Singen,47.7667,8.8333
+172.030.006.034@
+172.030.006.038@
+172.030.006.098@
+172.030.006.058@
+085.216.109.000=0 DE,Baden-Württemberg,Singen,47.7667,8.8333
+172.030.006.038@
+172.030.006.098@
+172.030.006.034@
+172.030.006.102@
+085.216.110.000=0 DE,Baden-Württemberg,Singen,47.7667,8.8333
+172.030.006.034@
+172.030.006.038@
+172.030.006.098@
+172.030.006.058@
+085.216.111.000=0 DE,Baden-Württemberg,Überlingen,47.7667,9.1667
+172.030.006.062@
+172.030.006.038@
+172.030.006.034@
+172.030.006.254~172.30.6.254
+085.216.111.255=0*4
+=======16
+085.216.112.000=0 DE,Baden-Württemberg,Lauffen,49.0744,9.1469
+172.030.012.250@
+085.216.113.000=0 DE,Baden-Württemberg,Lauffen,49.0744,9.1469
+172.030.012.250@
+085.216.114.000=0 DE,Baden-Württemberg,Lauffen,49.0744,9.1469
+172.030.012.250@
+085.216.115.000=0 DE,Baden-Württemberg,Lauffen,49.0744,9.1469
+172.030.012.250@
+078.042.040.016~ae2.STR-M1.ip-bb.kabel-badenwuerttemberg.de
+085.216.115.255=0*4
+-------
+085.216.116.000=0 DE,Baden-Württemberg,Schwetzingen,49.3781,8.5819
+172.030.022.001@
+085.216.117.000=0 DE,Baden-Württemberg,Schwetzingen,49.3781,8.5819
+172.030.022.001@
+085.216.118.000=0 DE,Baden-Württemberg,Wiesloch,49.2978,8.7014
+172.030.022.001@
+085.216.119.000=0 DE,Baden-Württemberg,Heidelberg,49.4167,8.7
+172.030.022.001@
+078.042.040.010~ae2.KAE-M1.ip-bb.kabel-badenwuerttemberg.de
+085.216.119.255=0*4
+=======8
+085.216.120.000=0 DE,Baden-Württemberg,Karlsruhe,49.0047,8.3858
+172.030.021.254@
+085.216.121.000=0 DE,Baden-Württemberg,Karlsruhe,49.0047,8.3858
+172.030.021.254@
+085.216.122.000=0 DE,Baden-Württemberg,Karlsruhe,49.0047,8.3858
+172.030.021.254@
+085.216.123.000=0 DE,Baden-Württemberg,Karlsruhe,49.0047,8.3858
+172.030.021.254@
+078.042.040.010~ae2.KAE-M1.ip-bb.kabel-badenwuerttemberg.de
+085.216.123.255=0*4
+-------
+085.216.124.000=0 DE,Baden-Württemberg,Bad Säckingen,47.55,7.95
+172.030.017.250@
+085.216.125.000=0 DE,Baden-Württemberg,Bad Säckingen,47.55,7.95
+172.030.017.250@
+078.042.040.012~ae2.KAE-M2.ip-bb.kabel-badenwuerttemberg.de
+085.216.125.255=0*2
+-------
+085.216.126.000=0 DE,Baden-Württemberg,Baden,48.75,8.25
+085.216.126.255=0*1
+-------
+085.216.127.000=0 DE,Baden-Württemberg,Baden,48.75,8.25
+078.042.040.097@
+078.042.040.020@
+078.042.040.014@
+172.030.005.250@
+078.042.040.016~ae2.STR-M1.ip-bb.kabel-badenwuerttemberg.de
+078.042.040.009~ae0.FRA-M2.ip-bb.kabel-badenwuerttemberg.de
+078.042.040.014~ae2.STR-M2.ip-bb.kabel-badenwuerttemberg.de
+085.216.127.255=0^1
+=======128
