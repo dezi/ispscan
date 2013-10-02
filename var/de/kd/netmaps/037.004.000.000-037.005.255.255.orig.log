@@ -9,14 +9,12 @@
 083.169.134.188@
 083.169.135.188@
 037.004.003.000=0 DE,Bayern,Piding,47.7667,12.9167
-083.169.135.188@
 083.169.134.188@
+083.169.135.188@
 037.004.004.000=5 DE,Bayern,Piding,47.7667,12.9167
 083.169.134.188@
 083.169.135.188@
 037.004.005.000=0 DE,Bayern,Piding,47.7667,12.9167
-083.169.135.188@
-083.169.134.188@
 037.004.006.000=0 DE,Bayern,Bischofswiesen,47.65,12.95
 083.169.134.188@
 083.169.135.188@
@@ -26,11 +24,11 @@
 083.169.128.094~83-169-128-94.static.superkabel.de~DE,Bayern,München,48.15,11.5833
 083.169.128.022~83-169-128-22.static.superkabel.de~DE,Bayern,München,48.15,11.5833
 083.169.128.018~83-169-128-18.static.superkabel.de~DE,Bayern,München,48.15,11.5833
-083.169.128.090~83-169-128-90.static.superkabel.de~DE,Bayern,München,48.15,11.5833
-083.169.128.098~83-169-128-98.static.superkabel.de~DE,Bayern,München,48.15,11.5833
 083.169.128.086~83-169-128-86.static.superkabel.de~DE,Bayern,München,48.15,11.5833
+083.169.128.098~83-169-128-98.static.superkabel.de~DE,Bayern,München,48.15,11.5833
 083.169.128.002~83-169-128-2.static.superkabel.de~DE,Bayern,München,48.15,11.5833
 083.169.128.030~83-169-128-30.static.superkabel.de~DE,Bayern,München,48.15,11.5833
+083.169.128.090~83-169-128-90.static.superkabel.de~DE,Bayern,München,48.15,11.5833
 037.004.007.254=1+
 037.004.007.255=0*8
 =======8
@@ -38,31 +36,32 @@
 088.134.219.137@
 088.134.219.129@
 088.134.193.197@
+088.134.193.196@
 037.004.009.000=0 DE,Hamburg,Hamburg,53.4514,9.935
-088.134.219.137@
-088.134.219.129@
-088.134.193.196@
-037.004.010.000=0 DE,Hamburg,Hamburg,53.55,10
-088.134.193.196@
-088.134.219.129@
-088.134.219.137@
-037.004.011.000=5 DE,Hamburg,Hamburg,53.55,10
 088.134.219.137@
 088.134.193.197@
 088.134.219.129@
 088.134.193.196@
+037.004.010.000=0 DE,Hamburg,Hamburg,53.55,10
+088.134.219.137@
+088.134.219.129@
+088.134.193.196@
+088.134.193.197@
+037.004.011.000=5 DE,Hamburg,Hamburg,53.55,10
+088.134.219.129@
+088.134.193.196@
 088.134.193.198~88-134-193-198-dynip.superkabel.de
 088.134.193.195~88-134-193-195-dynip.superkabel.de
+088.134.193.196~88-134-193-196-dynip.superkabel.de
 088.134.219.129~88-134-219-129-dynip.superkabel.de
-088.134.193.197~88-134-193-197-dynip.superkabel.de
 088.134.219.137~88-134-219-137-dynip.superkabel.de
+088.134.193.197~88-134-193-197-dynip.superkabel.de
 037.004.011.254=1+
 037.004.011.255=0*4
 -------
 037.004.012.000=0 DE,Bremen,Bremerhaven,53.55,8.5833
 001.000.000.025@
 037.004.013.000=0 DE,Niedersachsen,Nordenham,53.4982,8.4647
-001.000.000.025@
 037.004.014.000=0 DE,Bremen,Bremerhaven,53.5002,8.6047
 001.000.000.025@
 037.004.015.000=0 DE,Bremen,Bremerhaven,53.5002,8.6047
@@ -75,48 +74,47 @@
 037.004.015.255=0*4
 =======16
 037.004.016.000=2 DE,Bayern,München,48.15,11.5833
-088.134.220.033@
 088.134.193.179@
 088.134.220.041@
+088.134.220.033@
 037.004.017.000=5 DE,Bayern,München,48.15,11.5833
 088.134.220.041@
-088.134.193.179@
 088.134.220.033@
 037.004.018.000=5 DE,Bayern,München,48.15,11.5833
+088.134.220.033@
+088.134.193.179@
 088.134.193.178@
+037.004.019.000=0 DE,Bayern,Puchheim,48.15,11.35
 088.134.220.041@
 088.134.193.179@
-088.134.220.033@
-037.004.019.000=0 DE,Bayern,Puchheim,48.15,11.35
-088.134.220.033@
-088.134.220.041@
 088.134.193.178@
 037.004.020.000=5 DE,Bayern,München,48.15,11.5833
 088.134.193.178@
-088.134.220.033@
 088.134.220.041@
 037.004.021.000=0 DE,Bayern,Puchheim,48.15,11.35
-088.134.220.041@
 088.134.193.178@
+088.134.220.033@
+088.134.220.041@
 037.004.022.000=0 DE,Bayern,Gräfelfing,48.1,11.45
-088.134.220.033@
+088.134.193.179@
 088.134.193.178@
 088.134.220.041@
-088.134.193.179@
 037.004.023.000=5 DE,Bayern,München,48.15,11.5833
+088.134.193.179@
+088.134.220.041@
 088.134.220.033@
-088.134.193.179~88-134-193-179-dynip.superkabel.de
-088.134.193.177~88-134-193-177-dynip.superkabel.de
 088.134.193.180~88-134-193-180-dynip.superkabel.de
-088.134.193.178~88-134-193-178-dynip.superkabel.de
 088.134.220.033~88-134-220-33-dynip.superkabel.de
+088.134.193.179~88-134-193-179-dynip.superkabel.de
+088.134.193.178~88-134-193-178-dynip.superkabel.de
 088.134.220.041~88-134-220-41-dynip.superkabel.de
+088.134.193.177~88-134-193-177-dynip.superkabel.de
 037.004.023.254=1+
 037.004.023.255=0*8
 =======8
 037.004.024.000=2 DE,Bayern,Neu-Ulm,48.4,10.0167
-083.169.135.083@
 083.169.134.083@
+083.169.135.083@
 037.004.025.000=5 DE,Bayern,Neu-Ulm,48.4,10.0167
 083.169.135.083@
 083.169.134.083@
@@ -125,6 +123,7 @@
 083.169.134.083@
 037.004.027.000=5 DE,Bayern,Neu-Ulm,48.4,10.0167
 083.169.135.083@
+083.169.134.083@
 037.004.028.000=0 DE,Bayern,Neu-Ulm,48.4,10.0167
 083.169.135.083@
 037.004.029.000=0 DE,Bayern,Neu-Ulm,48.4,10.0167
@@ -135,12 +134,13 @@
 083.169.134.083@
 037.004.031.000=5 DE,Bayern,Neu-Ulm,48.4,10.0167
 083.169.135.083@
-083.169.128.086~83-169-128-86.static.superkabel.de~DE,Bayern,München,48.15,11.5833
+083.169.134.083@
 083.169.128.094~83-169-128-94.static.superkabel.de~DE,Bayern,München,48.15,11.5833
 083.169.128.022~83-169-128-22.static.superkabel.de~DE,Bayern,München,48.15,11.5833
-083.169.128.098~83-169-128-98.static.superkabel.de~DE,Bayern,München,48.15,11.5833
 083.169.128.090~83-169-128-90.static.superkabel.de~DE,Bayern,München,48.15,11.5833
 083.169.128.018~83-169-128-18.static.superkabel.de~DE,Bayern,München,48.15,11.5833
+083.169.128.098~83-169-128-98.static.superkabel.de~DE,Bayern,München,48.15,11.5833
+083.169.128.086~83-169-128-86.static.superkabel.de~DE,Bayern,München,48.15,11.5833
 083.169.128.002~83-169-128-2.static.superkabel.de~DE,Bayern,München,48.15,11.5833
 083.169.128.030~83-169-128-30.static.superkabel.de~DE,Bayern,München,48.15,11.5833
 037.004.031.254=1+
@@ -156,26 +156,26 @@
 083.169.133.114@
 083.169.132.114@
 037.004.035.000=0 DE,Bayern,Amberg,49.4414,11.8622
-083.169.133.114@
 083.169.132.114@
+083.169.133.114@
 037.004.036.000=0 DE,Bayern,Amberg,49.4502,11.848
 083.169.133.114@
 083.169.132.114@
 037.004.037.000=0 DE,Bayern,Amberg,49.4502,11.848
-083.169.132.114@
 083.169.133.114@
+083.169.132.114@
 037.004.038.000=0 DE,Bayern,Amberg,49.4502,11.848
-083.169.133.114@
 083.169.132.114@
+083.169.133.114@
 037.004.039.000=5 DE,Bayern,Kümmersbruck,49.4192,11.8883
 083.169.133.114@
 083.169.132.114@
-088.134.238.117~88-134-238-117-dynip.superkabel.de~DE,Bayern,Nürnberg,49.4478,11.0683
+088.134.238.121~88-134-238-121-dynip.superkabel.de~DE,Bayern,Nürnberg,49.4478,11.0683
 088.134.237.097~88-134-237-97-dynip.superkabel.de~DE,Bayern,Nürnberg,49.4478,11.0683
 088.134.237.093~88-134-237-93-dynip.superkabel.de~DE,Bayern,Nürnberg,49.4478,11.0683
-088.134.237.101~88-134-237-101-dynip.superkabel.de~DE,Bayern,Nürnberg,49.4478,11.0683
 088.134.238.113~88-134-238-113-dynip.superkabel.de~DE,Bayern,Nürnberg,49.4478,11.0683
-088.134.238.121~88-134-238-121-dynip.superkabel.de~DE,Bayern,Nürnberg,49.4478,11.0683
+088.134.238.117~88-134-238-117-dynip.superkabel.de~DE,Bayern,Nürnberg,49.4478,11.0683
+088.134.237.101~88-134-237-101-dynip.superkabel.de~DE,Bayern,Nürnberg,49.4478,11.0683
 037.004.039.254=1+
 037.004.039.255=0*8
 =======8
@@ -205,19 +205,18 @@
 037.004.047.000=0 DE,Bayern,Amberg,49.4414,11.8622
 083.169.132.114@
 083.169.133.114@
-088.134.238.121~88-134-238-121-dynip.superkabel.de~DE,Bayern,Nürnberg,49.4478,11.0683
-088.134.238.113~88-134-238-113-dynip.superkabel.de~DE,Bayern,Nürnberg,49.4478,11.0683
-088.134.237.101~88-134-237-101-dynip.superkabel.de~DE,Bayern,Nürnberg,49.4478,11.0683
-088.134.237.093~88-134-237-93-dynip.superkabel.de~DE,Bayern,Nürnberg,49.4478,11.0683
-088.134.237.097~88-134-237-97-dynip.superkabel.de~DE,Bayern,Nürnberg,49.4478,11.0683
 088.134.238.117~88-134-238-117-dynip.superkabel.de~DE,Bayern,Nürnberg,49.4478,11.0683
+088.134.238.121~88-134-238-121-dynip.superkabel.de~DE,Bayern,Nürnberg,49.4478,11.0683
+088.134.237.097~88-134-237-97-dynip.superkabel.de~DE,Bayern,Nürnberg,49.4478,11.0683
+088.134.237.093~88-134-237-93-dynip.superkabel.de~DE,Bayern,Nürnberg,49.4478,11.0683
+088.134.237.101~88-134-237-101-dynip.superkabel.de~DE,Bayern,Nürnberg,49.4478,11.0683
+088.134.238.113~88-134-238-113-dynip.superkabel.de~DE,Bayern,Nürnberg,49.4478,11.0683
 037.004.047.254=1+
 037.004.047.255=0*8
 =======16
 037.004.048.000=0 DE,Bayern,Starnberg,48,11.35
 001.000.000.026@
 037.004.049.000=0 DE,Bayern,Starnberg,48,11.35
-001.000.000.026@
 037.004.050.000=5 DE,Bayern,Geretsried,47.8667,11.4667
 001.000.000.026@
 037.004.051.000=0 DE,Bayern,Geretsried,47.8694,11.4686
@@ -230,42 +229,42 @@
 001.000.000.026@
 037.004.055.000=5 DE,Bayern,Geretsried,47.8667,11.4667
 001.000.000.026@
-083.169.128.094~83-169-128-94.static.superkabel.de~DE,Bayern,München,48.15,11.5833
-083.169.128.018~83-169-128-18.static.superkabel.de~DE,Bayern,München,48.15,11.5833
-083.169.128.022~83-169-128-22.static.superkabel.de~DE,Bayern,München,48.15,11.5833
-083.169.128.030~83-169-128-30.static.superkabel.de~DE,Bayern,München,48.15,11.5833
-083.169.128.090~83-169-128-90.static.superkabel.de~DE,Bayern,München,48.15,11.5833
 083.169.128.086~83-169-128-86.static.superkabel.de~DE,Bayern,München,48.15,11.5833
-083.169.128.098~83-169-128-98.static.superkabel.de~DE,Bayern,München,48.15,11.5833
 083.169.128.002~83-169-128-2.static.superkabel.de~DE,Bayern,München,48.15,11.5833
+083.169.128.094~83-169-128-94.static.superkabel.de~DE,Bayern,München,48.15,11.5833
+083.169.128.030~83-169-128-30.static.superkabel.de~DE,Bayern,München,48.15,11.5833
+083.169.128.018~83-169-128-18.static.superkabel.de~DE,Bayern,München,48.15,11.5833
+083.169.128.090~83-169-128-90.static.superkabel.de~DE,Bayern,München,48.15,11.5833
+083.169.128.098~83-169-128-98.static.superkabel.de~DE,Bayern,München,48.15,11.5833
+083.169.128.022~83-169-128-22.static.superkabel.de~DE,Bayern,München,48.15,11.5833
 037.004.055.254=5+
 037.004.055.255=0*8
 =======8
 037.004.056.000=2 DE,Bayern,Memmingen,47.9833,10.1667
-083.169.135.099@
 083.169.134.099@
-083.169.128.018~83-169-128-18.static.superkabel.de~DE,Bayern,München,48.15,11.5833
-083.169.128.086~83-169-128-86.static.superkabel.de~DE,Bayern,München,48.15,11.5833
+083.169.135.099@
+083.169.128.094~83-169-128-94.static.superkabel.de~DE,Bayern,München,48.15,11.5833
+083.169.128.002~83-169-128-2.static.superkabel.de~DE,Bayern,München,48.15,11.5833
 083.169.128.030~83-169-128-30.static.superkabel.de~DE,Bayern,München,48.15,11.5833
-083.169.128.090~83-169-128-90.static.superkabel.de~DE,Bayern,München,48.15,11.5833
 037.004.056.254=1+
 037.004.056.255=0*1
 -------
 037.004.057.000=0 DE,Bayern,Freising,48.4,11.7333
 083.169.134.226@
-083.169.128.030~83-169-128-30.static.superkabel.de~DE,Bayern,München,48.15,11.5833
+083.169.128.018~83-169-128-18.static.superkabel.de~DE,Bayern,München,48.15,11.5833
 083.169.128.098~83-169-128-98.static.superkabel.de~DE,Bayern,München,48.15,11.5833
-083.169.128.002~83-169-128-2.static.superkabel.de~DE,Bayern,München,48.15,11.5833
-083.169.128.090~83-169-128-90.static.superkabel.de~DE,Bayern,München,48.15,11.5833
+083.169.128.022~83-169-128-22.static.superkabel.de~DE,Bayern,München,48.15,11.5833
+083.169.128.086~83-169-128-86.static.superkabel.de~DE,Bayern,München,48.15,11.5833
+083.169.128.030~83-169-128-30.static.superkabel.de~DE,Bayern,München,48.15,11.5833
 037.004.057.254=1+
 037.004.057.255=0*1
 -------
 037.004.058.000=0 DE,Bayern,Memmingen,47.9826,10.1725
 037.004.058.000=0 DE,Bayern,Mindelheim,48.043,10.4949
 083.169.134.058@
-083.169.128.094~83-169-128-94.static.superkabel.de~DE,Bayern,München,48.15,11.5833
-083.169.128.018~83-169-128-18.static.superkabel.de~DE,Bayern,München,48.15,11.5833
 083.169.128.098~83-169-128-98.static.superkabel.de~DE,Bayern,München,48.15,11.5833
+083.169.128.002~83-169-128-2.static.superkabel.de~DE,Bayern,München,48.15,11.5833
+083.169.128.022~83-169-128-22.static.superkabel.de~DE,Bayern,München,48.15,11.5833
 083.169.128.030~83-169-128-30.static.superkabel.de~DE,Bayern,München,48.15,11.5833
 037.004.058.254=1+
 037.004.058.255=0*1
@@ -273,10 +272,10 @@
 037.004.059.000=0 DE,Bayern,Kempten,47.7167,10.3167
 083.169.135.017@
 083.169.134.017@
-083.169.128.098~83-169-128-98.static.superkabel.de~DE,Bayern,München,48.15,11.5833
-083.169.128.030~83-169-128-30.static.superkabel.de~DE,Bayern,München,48.15,11.5833
-083.169.128.090~83-169-128-90.static.superkabel.de~DE,Bayern,München,48.15,11.5833
+083.169.128.094~83-169-128-94.static.superkabel.de~DE,Bayern,München,48.15,11.5833
 083.169.128.002~83-169-128-2.static.superkabel.de~DE,Bayern,München,48.15,11.5833
+083.169.128.022~83-169-128-22.static.superkabel.de~DE,Bayern,München,48.15,11.5833
+083.169.128.086~83-169-128-86.static.superkabel.de~DE,Bayern,München,48.15,11.5833
 037.004.059.254=1+
 037.004.059.255=0*1
 -------
@@ -285,62 +284,53 @@
 083.169.135.226@
 037.004.061.000=5 DE,Bayern,Freising,48.4,11.7333
 083.169.134.226@
-083.169.135.226@
-083.169.128.018~83-169-128-18.static.superkabel.de~DE,Bayern,München,48.15,11.5833
+083.169.128.002~83-169-128-2.static.superkabel.de~DE,Bayern,München,48.15,11.5833
 083.169.128.086~83-169-128-86.static.superkabel.de~DE,Bayern,München,48.15,11.5833
 083.169.128.098~83-169-128-98.static.superkabel.de~DE,Bayern,München,48.15,11.5833
-083.169.128.030~83-169-128-30.static.superkabel.de~DE,Bayern,München,48.15,11.5833
-083.169.128.002~83-169-128-2.static.superkabel.de~DE,Bayern,München,48.15,11.5833
-083.169.128.094~83-169-128-94.static.superkabel.de~DE,Bayern,München,48.15,11.5833
-083.169.128.022~83-169-128-22.static.superkabel.de~DE,Bayern,München,48.15,11.5833
 083.169.128.090~83-169-128-90.static.superkabel.de~DE,Bayern,München,48.15,11.5833
+083.169.128.018~83-169-128-18.static.superkabel.de~DE,Bayern,München,48.15,11.5833
 037.004.061.254=1+
 037.004.061.255=0*2
 -------
 037.004.062.000=0 DE,Bayern,Augsburg,48.3667,10.8833
-088.134.193.205@
-088.134.193.206~88-134-193-206-dynip.superkabel.de
+088.134.193.204@
+088.134.193.203~88-134-193-203-dynip.superkabel.de
 037.004.062.254=5+
 037.004.062.255=0*1
 -------
 037.004.063.000=0 DE,Bayern,Buchloe,48.0343,10.7249
 083.169.134.057@
-083.169.128.022~83-169-128-22.static.superkabel.de~DE,Bayern,München,48.15,11.5833
 083.169.128.002~83-169-128-2.static.superkabel.de~DE,Bayern,München,48.15,11.5833
-083.169.128.090~83-169-128-90.static.superkabel.de~DE,Bayern,München,48.15,11.5833
+083.169.128.094~83-169-128-94.static.superkabel.de~DE,Bayern,München,48.15,11.5833
+083.169.128.030~83-169-128-30.static.superkabel.de~DE,Bayern,München,48.15,11.5833
 037.004.063.254=1+
 037.004.063.255=0*1
 =======64
 037.004.064.000=0 DE,Bayern,Weiden,49.7,12.2333
-083.169.132.105@
 083.169.133.105@
+083.169.132.105@
 037.004.065.000=5 DE,Bayern,Weiden,49.6775,12.1567
 083.169.133.105@
 083.169.132.105@
 037.004.066.000=5 DE,Bayern,Weiden,49.6775,12.1567
 083.169.132.105@
-083.169.133.105@
 037.004.067.000=0 DE,Bayern,Weiden,49.6775,12.1567
 083.169.133.105@
 083.169.132.105@
 037.004.068.000=0 DE,Bayern,Weiden,49.7,12.2333
-083.169.133.105@
-083.169.132.105@
 037.004.069.000=0 DE,Bayern,Weiden,49.7,12.2333
 083.169.132.105@
 083.169.133.105@
 037.004.070.000=0 DE,Bayern,Weiden,49.7,12.2333
-083.169.132.105@
-083.169.133.105@
 037.004.071.000=0 DE,Bayern,Weiden,49.6775,12.1567
 083.169.133.105@
 083.169.132.105@
-088.134.238.117~88-134-238-117-dynip.superkabel.de~DE,Bayern,Nürnberg,49.4478,11.0683
 088.134.237.101~88-134-237-101-dynip.superkabel.de~DE,Bayern,Nürnberg,49.4478,11.0683
-088.134.238.113~88-134-238-113-dynip.superkabel.de~DE,Bayern,Nürnberg,49.4478,11.0683
+088.134.238.117~88-134-238-117-dynip.superkabel.de~DE,Bayern,Nürnberg,49.4478,11.0683
+088.134.237.093~88-134-237-93-dynip.superkabel.de~DE,Bayern,Nürnberg,49.4478,11.0683
 088.134.237.097~88-134-237-97-dynip.superkabel.de~DE,Bayern,Nürnberg,49.4478,11.0683
 088.134.238.121~88-134-238-121-dynip.superkabel.de~DE,Bayern,Nürnberg,49.4478,11.0683
-088.134.237.093~88-134-237-93-dynip.superkabel.de~DE,Bayern,Nürnberg,49.4478,11.0683
+088.134.238.113~88-134-238-113-dynip.superkabel.de~DE,Bayern,Nürnberg,49.4478,11.0683
 037.004.071.254=1+
 037.004.071.255=0*8
 =======8
@@ -361,48 +351,42 @@
 001.000.000.027@
 037.004.079.000=0 DE,Bayern,Marktredwitz,50.0103,12.1008
 001.000.000.027@
-088.134.237.101~88-134-237-101-dynip.superkabel.de~DE,Bayern,Nürnberg,49.4478,11.0683
-088.134.238.113~88-134-238-113-dynip.superkabel.de~DE,Bayern,Nürnberg,49.4478,11.0683
-088.134.238.121~88-134-238-121-dynip.superkabel.de~DE,Bayern,Nürnberg,49.4478,11.0683
 088.134.237.097~88-134-237-97-dynip.superkabel.de~DE,Bayern,Nürnberg,49.4478,11.0683
-088.134.238.117~88-134-238-117-dynip.superkabel.de~DE,Bayern,Nürnberg,49.4478,11.0683
+088.134.238.121~88-134-238-121-dynip.superkabel.de~DE,Bayern,Nürnberg,49.4478,11.0683
 088.134.237.093~88-134-237-93-dynip.superkabel.de~DE,Bayern,Nürnberg,49.4478,11.0683
+088.134.238.117~88-134-238-117-dynip.superkabel.de~DE,Bayern,Nürnberg,49.4478,11.0683
+088.134.238.113~88-134-238-113-dynip.superkabel.de~DE,Bayern,Nürnberg,49.4478,11.0683
+088.134.237.101~88-134-237-101-dynip.superkabel.de~DE,Bayern,Nürnberg,49.4478,11.0683
 037.004.079.254=5+
 037.004.079.255=0*8
 =======16
 037.004.080.000=2 DE,Bayern,Bamberg,49.8667,10.8667
-088.134.220.218@
 088.134.220.210@
+088.134.220.218@
 037.004.081.000=0 DE,Bayern,Hallstadt,49.9333,10.8833
 088.134.220.210@
 088.134.220.218@
-088.134.193.236~DE,Bayern,Nürnberg,49.4478,11.0683
 088.134.193.235~88-134-193-235-dynip.superkabel.de
+088.134.193.236~DE,Bayern,Nürnberg,49.4478,11.0683
 037.004.081.254=1+
 037.004.081.255=0*2
 -------
 037.004.082.000=0 DE,Bayern,Nürnberg,49.4478,11.0683
 037.004.082.000!0 DE,Bayern,Augsburg,48.3667,10.8833
 083.169.132.130@
-088.134.237.097~88-134-237-97-dynip.superkabel.de~DE,Bayern,Nürnberg,49.4478,11.0683
-088.134.238.121~88-134-238-121-dynip.superkabel.de~DE,Bayern,Nürnberg,49.4478,11.0683
 088.134.237.101~88-134-237-101-dynip.superkabel.de~DE,Bayern,Nürnberg,49.4478,11.0683
+088.134.238.121~88-134-238-121-dynip.superkabel.de~DE,Bayern,Nürnberg,49.4478,11.0683
+088.134.237.097~88-134-237-97-dynip.superkabel.de~DE,Bayern,Nürnberg,49.4478,11.0683
+088.134.238.117~88-134-238-117-dynip.superkabel.de~DE,Bayern,Nürnberg,49.4478,11.0683
 037.004.082.254=1+
 037.004.082.255=0*1
 -------
 037.004.083.000=0 DE,Bayern,Traunstein,47.8833,12.65
-083.169.135.154@
-083.169.134.154@
-083.169.128.094~83-169-128-94.static.superkabel.de~DE,Bayern,München,48.15,11.5833
-083.169.128.022~83-169-128-22.static.superkabel.de~DE,Bayern,München,48.15,11.5833
-083.169.128.002~83-169-128-2.static.superkabel.de~DE,Bayern,München,48.15,11.5833
-083.169.128.086~83-169-128-86.static.superkabel.de~DE,Bayern,München,48.15,11.5833
 037.004.083.254=0+
 037.004.083.255=0*1
 -------
 037.004.084.000=0 DE,Bayern,Amberg,49.4502,11.848
 037.004.084.000=0 DE,Bayern,Schwandorf,49.3236,12.0994
-088.134.220.153@
 037.004.085.000=0 DE,Bayern,Bruck,49.25,12.3
 088.134.220.153@
 037.004.086.000=0 DE,Bayern,Schwandorf,49.3236,12.0994
@@ -414,7 +398,6 @@
 =======8
 037.004.088.000=2 DE,Bayern,Aschaffenburg,49.9739,9.1492
 083.169.132.011@
-083.169.133.011@
 037.004.089.000=5 DE,Bayern,Aschaffenburg,49.9739,9.1492
 083.169.133.011@
 083.169.132.011@
@@ -432,13 +415,12 @@
 083.169.132.011@
 083.169.133.011@
 037.004.095.000=0 DE,Bayern,Aschaffenburg,49.9739,9.1492
-083.169.132.011@
-088.134.238.117~88-134-238-117-dynip.superkabel.de~DE,Bayern,Nürnberg,49.4478,11.0683
-088.134.237.093~88-134-237-93-dynip.superkabel.de~DE,Bayern,Nürnberg,49.4478,11.0683
 088.134.238.113~88-134-238-113-dynip.superkabel.de~DE,Bayern,Nürnberg,49.4478,11.0683
 088.134.237.097~88-134-237-97-dynip.superkabel.de~DE,Bayern,Nürnberg,49.4478,11.0683
-088.134.237.101~88-134-237-101-dynip.superkabel.de~DE,Bayern,Nürnberg,49.4478,11.0683
 088.134.238.121~88-134-238-121-dynip.superkabel.de~DE,Bayern,Nürnberg,49.4478,11.0683
+088.134.237.093~88-134-237-93-dynip.superkabel.de~DE,Bayern,Nürnberg,49.4478,11.0683
+088.134.237.101~88-134-237-101-dynip.superkabel.de~DE,Bayern,Nürnberg,49.4478,11.0683
+088.134.238.117~88-134-238-117-dynip.superkabel.de~DE,Bayern,Nürnberg,49.4478,11.0683
 037.004.095.254=1+
 037.004.095.255=0*8
 =======32
@@ -465,11 +447,12 @@
 037.004.103.000=0 DE,Bayern,Aschaffenburg,49.9648,9.1647
 083.169.132.011@
 083.169.133.011@
-088.134.237.097~88-134-237-97-dynip.superkabel.de~DE,Bayern,Nürnberg,49.4478,11.0683
 088.134.237.101~88-134-237-101-dynip.superkabel.de~DE,Bayern,Nürnberg,49.4478,11.0683
+088.134.237.097~88-134-237-97-dynip.superkabel.de~DE,Bayern,Nürnberg,49.4478,11.0683
+088.134.238.121~88-134-238-121-dynip.superkabel.de~DE,Bayern,Nürnberg,49.4478,11.0683
 088.134.238.113~88-134-238-113-dynip.superkabel.de~DE,Bayern,Nürnberg,49.4478,11.0683
-088.134.238.117~88-134-238-117-dynip.superkabel.de~DE,Bayern,Nürnberg,49.4478,11.0683
 088.134.237.093~88-134-237-93-dynip.superkabel.de~DE,Bayern,Nürnberg,49.4478,11.0683
+088.134.238.117~88-134-238-117-dynip.superkabel.de~DE,Bayern,Nürnberg,49.4478,11.0683
 037.004.103.254=1+
 037.004.103.255=0*8
 =======8
@@ -489,8 +472,8 @@
 088.134.220.129@
 088.134.220.137@
 037.004.109.000=5 DE,Bayern,Bayreuth,49.9481,11.5783
-088.134.220.137@
 088.134.220.129@
+088.134.220.137@
 037.004.110.000=5 DE,Bayern,Bayreuth,49.9481,11.5783
 088.134.220.129@
 088.134.220.137@
@@ -506,8 +489,6 @@
 088.134.220.129@
 088.134.220.137@
 037.004.113.000=5 DE,Bayern,Bayreuth,49.9481,11.5783
-088.134.220.137@
-088.134.220.129@
 037.004.114.000=5 DE,Bayern,Bayreuth,49.9481,11.5783
 088.134.220.137@
 088.134.220.129@
@@ -519,6 +500,7 @@
 088.134.220.129@
 037.004.117.000=5 DE,Bayern,Bayreuth,49.9481,11.5783
 088.134.220.137@
+088.134.220.129@
 037.004.118.000=5 DE,Bayern,Bayreuth,49.9481,11.5783
 088.134.220.137@
 088.134.220.129@
@@ -561,70 +543,67 @@
 037.004.128.000=0 DE,Niedersachsen,Hannover,52.3667,9.7167
 083.169.175.101@
 083.169.175.109@
-088.134.193.053@
-088.134.193.052@
 037.004.129.000=0 DE,Niedersachsen,Hannover,52.3667,9.7167
-083.169.175.101@
 083.169.175.109@
+088.134.193.053@
+083.169.175.101@
+088.134.193.052@
 037.004.130.000=0 DE,Niedersachsen,Hannover,52.3667,9.7167
-083.169.175.101@
 083.169.175.109@
+083.169.175.101@
 037.004.131.000=0 DE,Niedersachsen,Hannover,52.3667,9.7167
 083.169.175.109@
+083.169.175.101@
 037.004.132.000=0 DE,Niedersachsen,Hannover,52.3667,9.7167
-083.169.175.109@
+088.134.193.052@
+088.134.193.053@
 083.169.175.101@
 037.004.133.000=0 DE,Niedersachsen,Laatzen,52.3167,9.8
-088.134.193.052@
-083.169.175.101@
 083.169.175.109@
+083.169.175.101@
 037.004.134.000=0 DE,Niedersachsen,Hannover,52.3667,9.7167
+088.134.193.053@
+088.134.193.052@
 083.169.175.101@
 083.169.175.109@
 037.004.135.000=0 DE,Niedersachsen,Hannover,52.3667,9.7167
-083.169.175.109@
 083.169.175.101@
-088.134.193.053@
-083.169.175.109~83-169-175-109-isp.superkabel.de
-088.134.193.054~88-134-193-54-dynip.superkabel.de
-088.134.193.051~88-134-193-51-dynip.superkabel.de
+083.169.175.109@
 088.134.193.053~88-134-193-53-dynip.superkabel.de
+088.134.193.054~88-134-193-54-dynip.superkabel.de
 088.134.193.052~88-134-193-52-dynip.superkabel.de
+088.134.193.051~88-134-193-51-dynip.superkabel.de
 083.169.175.101~83-169-175-101-isp.superkabel.de
+083.169.175.109~83-169-175-109-isp.superkabel.de
 037.004.135.254=1+
 037.004.135.255=0*8
 =======8
 037.004.136.000=2 DE,Niedersachsen,Braunschweig,52.2667,10.5333
-083.169.175.066@
-083.169.175.074@
-088.134.193.215~88-134-193-215-dynip.superkabel.de
-088.134.193.213~DE,Niedersachsen,Hannover,52.3667,9.7167
 037.004.136.254=1+
 037.004.136.255=0*1
 -------
 037.004.137.000=0 DE,Niedersachsen,Bückeburg,52.2845,9.0495
 083.169.155.154@
 083.169.154.154@
-088.134.237.073~DE,Niedersachsen,Hannover,52.3667,9.7167
-088.134.237.081~DE,Niedersachsen,Hannover,52.3667,9.7167
+088.134.237.065~DE,Niedersachsen,Hannover,52.3667,9.7167
+088.134.237.069~DE,Niedersachsen,Hannover,52.3667,9.7167
 088.134.237.085~DE,Niedersachsen,Hannover,52.3667,9.7167
+088.134.237.081~DE,Niedersachsen,Hannover,52.3667,9.7167
 037.004.137.254=1+
 037.004.137.255=0*1
 -------
 037.004.138.000=2 DE,Mecklenburg-Vorpommern,Rostock,54.0833,12.1333
 083.169.172.171@
-088.134.192.017@
 083.169.172.067@
 037.004.139.000=5 DE,Mecklenburg-Vorpommern,Rostock,54.0833,12.1333
-088.134.192.017@
-083.169.172.067@
 083.169.172.171@
+088.134.192.017@
+088.134.192.016@
 083.169.172.067~83-169-172-67-isp.superkabel.de
-088.134.192.013~88-134-192-13-dynip.superkabel.de
 088.134.192.016~88-134-192-16-dynip.superkabel.de
-088.134.192.017~88-134-192-17-dynip.superkabel.de
-083.169.172.171~83-169-172-171-isp.superkabel.de
 088.134.192.015~88-134-192-15-dynip.superkabel.de
+088.134.192.017~88-134-192-17-dynip.superkabel.de
+088.134.192.013~88-134-192-13-dynip.superkabel.de
 037.004.139.254=1+
 037.004.139.255=0*2
 -------
@@ -643,10 +622,10 @@
 001.000.000.028@
 037.004.143.000=0 DE,Bremen,Bremerhaven,53.55,8.5833
 001.000.000.028@
+088.134.237.174~88-134-237-174-dynip.superkabel.de~DE,Bremen,Bremen,53.0833,8.8
 088.134.237.166~88-134-237-166-dynip.superkabel.de~DE,Bremen,Bremen,53.0833,8.8
 088.134.237.170~88-134-237-170-dynip.superkabel.de~DE,Bremen,Bremen,53.0833,8.8
 088.134.237.162~88-134-237-162-dynip.superkabel.de~DE,Bremen,Bremen,53.0833,8.8
-088.134.237.174~88-134-237-174-dynip.superkabel.de~DE,Bremen,Bremen,53.0833,8.8
 037.004.143.254=5+
 037.004.143.255=0*2
 =======16
@@ -674,19 +653,18 @@
 037.004.151.255=0*8
 =======8
 037.004.152.000=0 DE,Niedersachsen,Einbeck,51.8167,9.8667
-083.169.154.091@
 083.169.155.091@
+083.169.154.091@
 037.004.153.000=5 DE,Niedersachsen,Bad Gandersheim,51.8667,10.0333
 083.169.155.091@
-083.169.154.091@
 037.004.154.000=5 DE,Niedersachsen,Bad Gandersheim,51.8667,10.0333
 037.004.154.000!0 DE,Niedersachsen,Einbeck,51.8188,9.8522
 083.169.155.091@
 083.169.154.091@
 037.004.155.000=0 DE,Niedersachsen,Einbeck,51.8167,9.8667
 037.004.155.000!0 DE,Niedersachsen,Bad Gandersheim,51.8667,10.0333
-083.169.155.091@
 083.169.154.091@
+083.169.155.091@
 037.004.156.000=0 DE,Niedersachsen,Einbeck,51.8188,9.8522
 083.169.154.091@
 083.169.155.091@
@@ -699,28 +677,26 @@
 037.004.159.000=0 DE,Niedersachsen,Einbeck,51.8188,9.8522
 083.169.155.091@
 083.169.154.091@
-088.134.237.065~88-134-237-65-dynip.superkabel.de~DE,Niedersachsen,Hannover,52.3667,9.7167
-088.134.237.081~DE,Niedersachsen,Hannover,52.3667,9.7167
-088.134.237.069~88-134-237-69-dynip.superkabel.de~DE,Niedersachsen,Hannover,52.3667,9.7167
 088.134.237.077~88-134-237-77-dynip.superkabel.de~DE,Niedersachsen,Hannover,52.3667,9.7167
+088.134.237.065~DE,Niedersachsen,Hannover,52.3667,9.7167
+088.134.237.081~DE,Niedersachsen,Hannover,52.3667,9.7167
 088.134.237.085~DE,Niedersachsen,Hannover,52.3667,9.7167
-088.134.237.073~DE,Niedersachsen,Hannover,52.3667,9.7167
+088.134.237.069~DE,Niedersachsen,Hannover,52.3667,9.7167
+088.134.237.073~88-134-237-73-dynip.superkabel.de~DE,Niedersachsen,Hannover,52.3667,9.7167
 037.004.159.254=1+
 037.004.159.255=0*8
 =======32
 037.004.160.000=0 DE,Niedersachsen,Hannover,52.3667,9.7167
 083.169.175.101@
 083.169.175.109@
-088.134.193.052@
 037.004.161.000=0 DE,Niedersachsen,Langenhagen,52.45,9.75
+083.169.175.109@
 083.169.175.101@
-088.134.193.053@
-088.134.193.052@
-083.169.175.109~83-169-175-109-isp.superkabel.de
-083.169.175.101~83-169-175-101-isp.superkabel.de
-088.134.193.054~88-134-193-54-dynip.superkabel.de
-088.134.193.051~88-134-193-51-dynip.superkabel.de
 088.134.193.053~88-134-193-53-dynip.superkabel.de
+088.134.193.052~88-134-193-52-dynip.superkabel.de
+088.134.193.051~88-134-193-51-dynip.superkabel.de
+088.134.193.054~88-134-193-54-dynip.superkabel.de
+083.169.175.109~83-169-175-109-isp.superkabel.de
 037.004.161.254=1+
 037.004.161.255=0*2
 -------
@@ -729,37 +705,28 @@
 083.169.157.171@
 083.169.156.171@
 088.134.237.162~88-134-237-162-dynip.superkabel.de~DE,Bremen,Bremen,53.0833,8.8
-088.134.237.174~88-134-237-174-dynip.superkabel.de~DE,Bremen,Bremen,53.0833,8.8
-088.134.237.166~88-134-237-166-dynip.superkabel.de~DE,Bremen,Bremen,53.0833,8.8
+088.134.237.170~88-134-237-170-dynip.superkabel.de~DE,Bremen,Bremen,53.0833,8.8
 037.004.162.254=1+
 037.004.162.255=0*1
 -------
 037.004.163.000=0 DE,Niedersachsen,Wolfsburg,52.4333,10.8
 001.000.000.030@
-088.134.237.065~88-134-237-65-dynip.superkabel.de~DE,Niedersachsen,Hannover,52.3667,9.7167
+088.134.237.073~88-134-237-73-dynip.superkabel.de~DE,Niedersachsen,Hannover,52.3667,9.7167
 088.134.237.085~DE,Niedersachsen,Hannover,52.3667,9.7167
-088.134.237.077~88-134-237-77-dynip.superkabel.de~DE,Niedersachsen,Hannover,52.3667,9.7167
 088.134.237.081~DE,Niedersachsen,Hannover,52.3667,9.7167
+088.134.237.069~DE,Niedersachsen,Hannover,52.3667,9.7167
 037.004.163.254=5+
 037.004.163.255=0*1
 -------
 037.004.164.000=0 DE,Niedersachsen,Bückeburg,52.2667,9.05
 083.169.154.154@
 083.169.155.154@
-088.134.237.065~88-134-237-65-dynip.superkabel.de~DE,Niedersachsen,Hannover,52.3667,9.7167
 088.134.237.077~88-134-237-77-dynip.superkabel.de~DE,Niedersachsen,Hannover,52.3667,9.7167
-088.134.237.073~DE,Niedersachsen,Hannover,52.3667,9.7167
+088.134.237.073~88-134-237-73-dynip.superkabel.de~DE,Niedersachsen,Hannover,52.3667,9.7167
 037.004.164.254=1+
 037.004.164.255=0*1
 -------
 037.004.165.000=0 DE,Niedersachsen,Einbeck,51.8167,9.8667
-083.169.155.091@
-083.169.154.091@
-088.134.237.081~DE,Niedersachsen,Hannover,52.3667,9.7167
-088.134.237.073~DE,Niedersachsen,Hannover,52.3667,9.7167
-088.134.237.065~88-134-237-65-dynip.superkabel.de~DE,Niedersachsen,Hannover,52.3667,9.7167
-088.134.237.069~88-134-237-69-dynip.superkabel.de~DE,Niedersachsen,Hannover,52.3667,9.7167
-088.134.237.085~DE,Niedersachsen,Hannover,52.3667,9.7167
 037.004.165.254=1+
 037.004.165.255=0*1
 -------
@@ -768,8 +735,6 @@
 037.004.167.000=5 DE,Bremen,Bremerhaven,53.55,8.5833
 001.000.000.031@
 088.134.237.174~88-134-237-174-dynip.superkabel.de~DE,Bremen,Bremen,53.0833,8.8
-088.134.237.170~88-134-237-170-dynip.superkabel.de~DE,Bremen,Bremen,53.0833,8.8
-088.134.237.166~88-134-237-166-dynip.superkabel.de~DE,Bremen,Bremen,53.0833,8.8
 088.134.237.162~88-134-237-162-dynip.superkabel.de~DE,Bremen,Bremen,53.0833,8.8
 037.004.167.254=5+
 037.004.167.255=0*2
@@ -794,56 +759,56 @@
 083.169.157.179@
 083.169.156.179@
 037.004.174.000=0 DE,Niedersachsen,Meppen,52.6986,7.2933
-083.169.156.179@
 083.169.157.179@
+083.169.156.179@
 037.004.175.000=0 DE,Niedersachsen,Meppen,52.6986,7.2933
 083.169.156.179@
 083.169.157.179@
-088.134.237.166~88-134-237-166-dynip.superkabel.de~DE,Bremen,Bremen,53.0833,8.8
 088.134.237.162~88-134-237-162-dynip.superkabel.de~DE,Bremen,Bremen,53.0833,8.8
+088.134.237.166~88-134-237-166-dynip.superkabel.de~DE,Bremen,Bremen,53.0833,8.8
 088.134.237.174~88-134-237-174-dynip.superkabel.de~DE,Bremen,Bremen,53.0833,8.8
 088.134.237.170~88-134-237-170-dynip.superkabel.de~DE,Bremen,Bremen,53.0833,8.8
 037.004.175.254=1+
 037.004.175.255=0*8
 =======16
 037.004.176.000=2 DE,Mecklenburg-Vorpommern,Rostock,54.0833,12.1333
-083.169.172.067@
 083.169.172.171@
+088.134.192.016@
+083.169.172.067@
+088.134.192.017@
 037.004.177.000=5 DE,Mecklenburg-Vorpommern,Rostock,54.0833,12.1333
 083.169.172.171@
 083.169.172.067@
 088.134.192.017@
-088.134.192.016~88-134-192-16-dynip.superkabel.de
-088.134.192.013~88-134-192-13-dynip.superkabel.de
-083.169.172.067~83-169-172-67-isp.superkabel.de
-088.134.192.015~88-134-192-15-dynip.superkabel.de
-083.169.172.171~83-169-172-171-isp.superkabel.de
 088.134.192.017~88-134-192-17-dynip.superkabel.de
+088.134.192.015~88-134-192-15-dynip.superkabel.de
+088.134.192.013~88-134-192-13-dynip.superkabel.de
+088.134.192.016~88-134-192-16-dynip.superkabel.de
+083.169.172.067~83-169-172-67-isp.superkabel.de
 037.004.177.254=1+
 037.004.177.255=0*2
 -------
 037.004.178.000=0 DE,Niedersachsen,Salzgitter,52.0358,10.3531
 083.169.154.017@
-088.134.237.065~88-134-237-65-dynip.superkabel.de~DE,Niedersachsen,Hannover,52.3667,9.7167
+088.134.237.069~DE,Niedersachsen,Hannover,52.3667,9.7167
 088.134.237.085~DE,Niedersachsen,Hannover,52.3667,9.7167
-088.134.237.073~DE,Niedersachsen,Hannover,52.3667,9.7167
-088.134.237.069~88-134-237-69-dynip.superkabel.de~DE,Niedersachsen,Hannover,52.3667,9.7167
 037.004.178.254=1+
 037.004.178.255=0*1
 -------
 037.004.179.000=0 DE,Niedersachsen,Göttingen,51.5333,9.9333
 001.000.000.032@
-088.134.237.069~88-134-237-69-dynip.superkabel.de~DE,Niedersachsen,Hannover,52.3667,9.7167
 088.134.237.085~DE,Niedersachsen,Hannover,52.3667,9.7167
+088.134.237.073~88-134-237-73-dynip.superkabel.de~DE,Niedersachsen,Hannover,52.3667,9.7167
 088.134.237.081~DE,Niedersachsen,Hannover,52.3667,9.7167
+088.134.237.069~DE,Niedersachsen,Hannover,52.3667,9.7167
 037.004.179.254=5+
 037.004.179.255=0*1
 -------
 037.004.180.000=0 DE,Niedersachsen,Herzberg Am Harz,51.65,10.3333
 088.134.237.174@
 088.134.237.166@
-088.134.237.170@
 088.134.237.162@
+088.134.237.170@
 088.134.205.074~DE,Bremen,Bremen,53.0833,8.8
 088.134.205.066~DE,Bremen,Bremen,53.0833,8.8
 037.004.180.254=1+
@@ -860,20 +825,17 @@
 037.004.182.000=0 DE,Niedersachsen,Peine,52.3167,10.2333
 037.004.182.000=0 DE,Niedersachsen,Lahstedt,52.25,10.2167
 001.000.000.033@
-088.134.237.077~88-134-237-77-dynip.superkabel.de~DE,Niedersachsen,Hannover,52.3667,9.7167
-088.134.237.073~DE,Niedersachsen,Hannover,52.3667,9.7167
 088.134.237.085~DE,Niedersachsen,Hannover,52.3667,9.7167
-088.134.237.065~88-134-237-65-dynip.superkabel.de~DE,Niedersachsen,Hannover,52.3667,9.7167
+088.134.237.073~88-134-237-73-dynip.superkabel.de~DE,Niedersachsen,Hannover,52.3667,9.7167
+088.134.237.077~88-134-237-77-dynip.superkabel.de~DE,Niedersachsen,Hannover,52.3667,9.7167
 037.004.182.254=5+
 037.004.182.255=0*1
 -------
 037.004.183.000=0 DE,Bremen,Bremen,53.0833,8.8
+088.134.193.141@
 088.134.193.140@
-088.134.193.142@
-088.134.193.139@
+088.134.193.142~88-134-193-142-dynip.superkabel.de
 088.134.193.139~88-134-193-139-dynip.superkabel.de
-088.134.205.066~DE,Bremen,Bremen,53.0833,8.8
-088.134.205.074~DE,Bremen,Bremen,53.0833,8.8
 037.004.183.254=5+
 037.004.183.255=0*1
 =======8
@@ -904,8 +866,8 @@
 083.169.157.202@
 088.134.237.166~88-134-237-166-dynip.superkabel.de~DE,Bremen,Bremen,53.0833,8.8
 088.134.237.170~88-134-237-170-dynip.superkabel.de~DE,Bremen,Bremen,53.0833,8.8
-088.134.237.174~88-134-237-174-dynip.superkabel.de~DE,Bremen,Bremen,53.0833,8.8
 088.134.237.162~88-134-237-162-dynip.superkabel.de~DE,Bremen,Bremen,53.0833,8.8
+088.134.237.174~88-134-237-174-dynip.superkabel.de~DE,Bremen,Bremen,53.0833,8.8
 037.004.191.254=1+
 037.004.191.255=0*8
 =======64
@@ -917,14 +879,13 @@
 083.169.157.202@
 083.169.156.202@
 037.004.194.000=5 DE,Niedersachsen,Emden,53.3667,7.2167
-083.169.157.202@
 083.169.156.202@
+083.169.157.202@
 037.004.195.000=5 DE,Niedersachsen,Emden,53.3667,7.2167
 083.169.157.202@
-083.169.156.202@
-088.134.237.166~88-134-237-166-dynip.superkabel.de~DE,Bremen,Bremen,53.0833,8.8
-088.134.237.174~88-134-237-174-dynip.superkabel.de~DE,Bremen,Bremen,53.0833,8.8
 088.134.237.162~88-134-237-162-dynip.superkabel.de~DE,Bremen,Bremen,53.0833,8.8
+088.134.237.174~88-134-237-174-dynip.superkabel.de~DE,Bremen,Bremen,53.0833,8.8
+088.134.237.166~88-134-237-166-dynip.superkabel.de~DE,Bremen,Bremen,53.0833,8.8
 088.134.237.170~88-134-237-170-dynip.superkabel.de~DE,Bremen,Bremen,53.0833,8.8
 037.004.195.254=1+
 037.004.195.255=0*4
@@ -934,16 +895,15 @@
 083.169.175.026@
 083.169.175.018@
 088.134.193.134@
+088.134.193.135@
 037.004.197.000=0 DE,Niedersachsen,Osterholz-Scharmbeck,53.2333,8.8
 083.169.175.018@
 083.169.175.026@
 088.134.193.135@
 088.134.193.134~88-134-193-134-dynip.superkabel.de
-083.169.175.026~83-169-175-26-isp.superkabel.de
 088.134.193.133~88-134-193-133-dynip.superkabel.de
-083.169.175.018~83-169-175-18-isp.superkabel.de
-088.134.193.135~88-134-193-135-dynip.superkabel.de
 088.134.193.136~88-134-193-136-dynip.superkabel.de
+083.169.175.026~83-169-175-26-isp.superkabel.de
 037.004.197.254=1+
 037.004.197.255=0*2
 -------
@@ -952,26 +912,25 @@
 083.169.157.171@
 083.169.156.171@
 088.134.237.170~88-134-237-170-dynip.superkabel.de~DE,Bremen,Bremen,53.0833,8.8
-088.134.237.162~88-134-237-162-dynip.superkabel.de~DE,Bremen,Bremen,53.0833,8.8
-088.134.237.166~88-134-237-166-dynip.superkabel.de~DE,Bremen,Bremen,53.0833,8.8
 088.134.237.174~88-134-237-174-dynip.superkabel.de~DE,Bremen,Bremen,53.0833,8.8
+088.134.237.166~88-134-237-166-dynip.superkabel.de~DE,Bremen,Bremen,53.0833,8.8
+088.134.237.162~88-134-237-162-dynip.superkabel.de~DE,Bremen,Bremen,53.0833,8.8
 037.004.198.254=1+
 037.004.198.255=0*1
 -------
 037.004.199.000=0 DE,Niedersachsen,Herzberg Am Harz,51.65,10.3333
 083.169.154.066@
 083.169.155.066@
-088.134.237.077~88-134-237-77-dynip.superkabel.de~DE,Niedersachsen,Hannover,52.3667,9.7167
-088.134.237.073~DE,Niedersachsen,Hannover,52.3667,9.7167
 088.134.237.085~DE,Niedersachsen,Hannover,52.3667,9.7167
-088.134.237.069~88-134-237-69-dynip.superkabel.de~DE,Niedersachsen,Hannover,52.3667,9.7167
+088.134.237.069~DE,Niedersachsen,Hannover,52.3667,9.7167
+088.134.237.073~88-134-237-73-dynip.superkabel.de~DE,Niedersachsen,Hannover,52.3667,9.7167
 037.004.199.254=1+
 037.004.199.255=0*1
 =======8
 037.004.200.000=2 DE,Niedersachsen,Leer,53.2333,7.4333
 037.004.200.000=2 DE,Niedersachsen,Emden,53.3667,7.2167
-083.169.157.202@
 083.169.156.202@
+083.169.157.202@
 037.004.201.000=0 DE,Niedersachsen,Hinte,53.4133,7.2206
 083.169.156.202@
 083.169.157.202@
@@ -985,25 +944,23 @@
 083.169.156.202@
 083.169.157.202@
 037.004.205.000=5 DE,Niedersachsen,Emden,53.3667,7.2167
-083.169.156.202@
 083.169.157.202@
+083.169.156.202@
 037.004.206.000=0 DE,Niedersachsen,Emden,53.3701,7.2031
 083.169.157.202@
 083.169.156.202@
 037.004.207.000=0 DE,Niedersachsen,Emden,53.3667,7.2167
 083.169.156.202@
 083.169.157.202@
-088.134.237.174~88-134-237-174-dynip.superkabel.de~DE,Bremen,Bremen,53.0833,8.8
 088.134.237.162~88-134-237-162-dynip.superkabel.de~DE,Bremen,Bremen,53.0833,8.8
-088.134.237.166~88-134-237-166-dynip.superkabel.de~DE,Bremen,Bremen,53.0833,8.8
 088.134.237.170~88-134-237-170-dynip.superkabel.de~DE,Bremen,Bremen,53.0833,8.8
+088.134.237.166~88-134-237-166-dynip.superkabel.de~DE,Bremen,Bremen,53.0833,8.8
+088.134.237.174~88-134-237-174-dynip.superkabel.de~DE,Bremen,Bremen,53.0833,8.8
 037.004.207.254=1+
 037.004.207.255=0*8
 =======16
 037.004.208.000=2 DE,Niedersachsen,Wilhelmshaven,53.5167,8.1333
 037.004.208.000=0 DE,Niedersachsen,Jever,53.5833,7.9
-083.169.157.235@
-083.169.156.235@
 037.004.209.000=5 DE,Niedersachsen,Schortens,53.5333,7.95
 083.169.156.235@
 083.169.157.235@
@@ -1012,34 +969,31 @@
 083.169.157.235@
 037.004.211.000=0 DE,Niedersachsen,Jever,53.5833,7.9
 083.169.156.235@
+083.169.157.235@
+088.134.237.174~88-134-237-174-dynip.superkabel.de~DE,Bremen,Bremen,53.0833,8.8
+088.134.237.166~88-134-237-166-dynip.superkabel.de~DE,Bremen,Bremen,53.0833,8.8
 088.134.237.162~88-134-237-162-dynip.superkabel.de~DE,Bremen,Bremen,53.0833,8.8
 088.134.237.170~88-134-237-170-dynip.superkabel.de~DE,Bremen,Bremen,53.0833,8.8
-088.134.237.166~88-134-237-166-dynip.superkabel.de~DE,Bremen,Bremen,53.0833,8.8
-088.134.237.174~88-134-237-174-dynip.superkabel.de~DE,Bremen,Bremen,53.0833,8.8
 037.004.211.254=1+
 037.004.211.255=0*4
 -------
 037.004.212.000=2 DE,Niedersachsen,Wilhelmshaven,53.5167,8.1333
-083.169.157.218@
-083.169.156.218@
 037.004.213.000=5 DE,Niedersachsen,Wilhelmshaven,53.5167,8.1333
-083.169.156.218@
 083.169.157.218@
-088.134.237.166~88-134-237-166-dynip.superkabel.de~DE,Bremen,Bremen,53.0833,8.8
-088.134.237.170~88-134-237-170-dynip.superkabel.de~DE,Bremen,Bremen,53.0833,8.8
+083.169.156.218@
 088.134.237.174~88-134-237-174-dynip.superkabel.de~DE,Bremen,Bremen,53.0833,8.8
-088.134.237.162~88-134-237-162-dynip.superkabel.de~DE,Bremen,Bremen,53.0833,8.8
+088.134.237.166~88-134-237-166-dynip.superkabel.de~DE,Bremen,Bremen,53.0833,8.8
 037.004.213.254=3+
 037.004.213.255=0*2
 -------
 037.004.214.000=2 DE,Niedersachsen,Braunschweig,52.2667,10.5333
-083.169.175.065@
 083.169.175.073@
+083.169.175.065@
 037.004.215.000=5 DE,Niedersachsen,Braunschweig,52.2667,10.5333
 083.169.175.073@
 083.169.175.065@
-088.134.193.215~88-134-193-215-dynip.superkabel.de
 088.134.193.213~DE,Niedersachsen,Hannover,52.3667,9.7167
+088.134.193.215~88-134-193-215-dynip.superkabel.de
 037.004.215.254=1+
 037.004.215.255=0*2
 =======8
@@ -1048,31 +1002,29 @@
 083.169.155.034@
 083.169.154.034@
 037.004.217.000=0 DE,Niedersachsen,Gifhorn,52.4927,10.5337
-083.169.154.034@
 083.169.155.034@
+083.169.154.034@
 037.004.218.000=0 DE,Niedersachsen,Gifhorn,52.4927,10.5337
-083.169.155.034@
 083.169.154.034@
+083.169.155.034@
 037.004.219.000=0 DE,Niedersachsen,Gifhorn,52.4927,10.5337
 083.169.154.034@
 037.004.220.000=0 DE,Niedersachsen,Gifhorn,52.4927,10.5337
 083.169.155.034@
 083.169.154.034@
 037.004.221.000=5 DE,Niedersachsen,Gifhorn,52.4833,10.55
-083.169.155.034@
-083.169.154.034@
 037.004.222.000=0 DE,Niedersachsen,Gifhorn,52.4927,10.5337
 083.169.155.034@
 083.169.154.034@
 037.004.223.000=0 DE,Niedersachsen,Isenbüttel,52.4333,10.5833
 083.169.154.034@
 083.169.155.034@
-088.134.237.065~88-134-237-65-dynip.superkabel.de~DE,Niedersachsen,Hannover,52.3667,9.7167
-088.134.237.069~88-134-237-69-dynip.superkabel.de~DE,Niedersachsen,Hannover,52.3667,9.7167
-088.134.237.073~DE,Niedersachsen,Hannover,52.3667,9.7167
-088.134.237.085~DE,Niedersachsen,Hannover,52.3667,9.7167
-088.134.237.081~DE,Niedersachsen,Hannover,52.3667,9.7167
+088.134.237.065~DE,Niedersachsen,Hannover,52.3667,9.7167
+088.134.237.073~88-134-237-73-dynip.superkabel.de~DE,Niedersachsen,Hannover,52.3667,9.7167
 088.134.237.077~88-134-237-77-dynip.superkabel.de~DE,Niedersachsen,Hannover,52.3667,9.7167
+088.134.237.069~DE,Niedersachsen,Hannover,52.3667,9.7167
+088.134.237.081~DE,Niedersachsen,Hannover,52.3667,9.7167
+088.134.237.085~DE,Niedersachsen,Hannover,52.3667,9.7167
 037.004.223.254=3+
 037.004.223.255=0*8
 =======32
@@ -1081,14 +1033,11 @@
 083.169.154.034@
 083.169.155.034@
 037.004.225.000=0 DE,Niedersachsen,Gifhorn,52.4927,10.5337
-083.169.155.034@
-083.169.154.034@
 037.004.226.000=0 DE,Niedersachsen,Gifhorn,52.4927,10.5337
 083.169.154.034@
 083.169.155.034@
 037.004.227.000=0 DE,Niedersachsen,Gifhorn,52.4927,10.5337
 083.169.155.034@
-083.169.154.034@
 037.004.228.000=0 DE,Niedersachsen,Gifhorn,52.4927,10.5337
 083.169.155.034@
 083.169.154.034@
@@ -1101,12 +1050,12 @@
 037.004.231.000=0 DE,Niedersachsen,Gifhorn,52.4927,10.5337
 083.169.155.034@
 083.169.154.034@
-088.134.237.065~88-134-237-65-dynip.superkabel.de~DE,Niedersachsen,Hannover,52.3667,9.7167
-088.134.237.073~DE,Niedersachsen,Hannover,52.3667,9.7167
-088.134.237.077~88-134-237-77-dynip.superkabel.de~DE,Niedersachsen,Hannover,52.3667,9.7167
-088.134.237.069~88-134-237-69-dynip.superkabel.de~DE,Niedersachsen,Hannover,52.3667,9.7167
-088.134.237.085~DE,Niedersachsen,Hannover,52.3667,9.7167
+088.134.237.065~DE,Niedersachsen,Hannover,52.3667,9.7167
+088.134.237.073~88-134-237-73-dynip.superkabel.de~DE,Niedersachsen,Hannover,52.3667,9.7167
 088.134.237.081~DE,Niedersachsen,Hannover,52.3667,9.7167
+088.134.237.069~DE,Niedersachsen,Hannover,52.3667,9.7167
+088.134.237.077~88-134-237-77-dynip.superkabel.de~DE,Niedersachsen,Hannover,52.3667,9.7167
+088.134.237.085~DE,Niedersachsen,Hannover,52.3667,9.7167
 037.004.231.254=1+
 037.004.231.255=0*8
 =======8
@@ -1127,11 +1076,11 @@
 001.000.000.034@
 037.004.239.000=0 DE,Niedersachsen,Northeim,51.7032,9.989
 001.000.000.034@
+088.134.237.065~DE,Niedersachsen,Hannover,52.3667,9.7167
 088.134.237.077~88-134-237-77-dynip.superkabel.de~DE,Niedersachsen,Hannover,52.3667,9.7167
-088.134.237.073~DE,Niedersachsen,Hannover,52.3667,9.7167
-088.134.237.069~88-134-237-69-dynip.superkabel.de~DE,Niedersachsen,Hannover,52.3667,9.7167
+088.134.237.073~88-134-237-73-dynip.superkabel.de~DE,Niedersachsen,Hannover,52.3667,9.7167
 088.134.237.085~DE,Niedersachsen,Hannover,52.3667,9.7167
-088.134.237.065~88-134-237-65-dynip.superkabel.de~DE,Niedersachsen,Hannover,52.3667,9.7167
+088.134.237.069~DE,Niedersachsen,Hannover,52.3667,9.7167
 088.134.237.081~DE,Niedersachsen,Hannover,52.3667,9.7167
 037.004.239.254=5+
 037.004.239.255=0*8
@@ -1152,25 +1101,25 @@
 001.000.000.035@
 037.004.247.000=0 DE,Niedersachsen,Goslar,51.9191,10.4167
 001.000.000.035@
-088.134.237.077~88-134-237-77-dynip.superkabel.de~DE,Niedersachsen,Hannover,52.3667,9.7167
-088.134.237.065~88-134-237-65-dynip.superkabel.de~DE,Niedersachsen,Hannover,52.3667,9.7167
+088.134.237.065~DE,Niedersachsen,Hannover,52.3667,9.7167
 088.134.237.085~DE,Niedersachsen,Hannover,52.3667,9.7167
-088.134.237.073~DE,Niedersachsen,Hannover,52.3667,9.7167
+088.134.237.069~DE,Niedersachsen,Hannover,52.3667,9.7167
 088.134.237.081~DE,Niedersachsen,Hannover,52.3667,9.7167
-088.134.237.069~88-134-237-69-dynip.superkabel.de~DE,Niedersachsen,Hannover,52.3667,9.7167
+088.134.237.077~88-134-237-77-dynip.superkabel.de~DE,Niedersachsen,Hannover,52.3667,9.7167
+088.134.237.073~88-134-237-73-dynip.superkabel.de~DE,Niedersachsen,Hannover,52.3667,9.7167
 037.004.247.254=5+
 037.004.247.255=0*8
 =======8
 037.004.248.000=0 DE,Niedersachsen,Hameln,52.1,9.35
 037.004.248.000!0 DE,Bremen,Bremen,53.0833,8.8
-083.169.175.203@
 083.169.175.195@
+083.169.175.203@
 037.004.249.000=0 DE,Niedersachsen,Hameln,52.1,9.35
 037.004.249.000!0 DE,Bremen,Bremen,53.0833,8.8
 083.169.175.195@
 083.169.175.203@
-088.134.194.036~DE,Niedersachsen,Hannover,52.3667,9.7167
 088.134.194.035~DE,Niedersachsen,Hannover,52.3667,9.7167
+088.134.194.036~DE,Niedersachsen,Hannover,52.3667,9.7167
 037.004.249.254=1+
 037.004.249.255=0*2
 -------
@@ -1183,10 +1132,6 @@
 -------
 037.004.251.000=0 DE,Niedersachsen,Hameln,52.1,9.35
 037.004.251.000!0 DE,Bremen,Bremen,53.0833,8.8
-083.169.175.195@
-083.169.175.203@
-088.134.194.035~DE,Niedersachsen,Hannover,52.3667,9.7167
-088.134.194.036~DE,Niedersachsen,Hannover,52.3667,9.7167
 037.004.251.254=1+
 037.004.251.255=0*1
 -------
@@ -1200,107 +1145,101 @@
 083.169.175.233@
 083.169.175.225@
 037.004.255.000=0 DE,Bremen,Bremen,53.0833,8.8
-083.169.175.225@
 083.169.175.233@
+083.169.175.225@
 088.134.194.033~88-134-194-33-dynip.superkabel.de
 037.004.255.254=0+
 037.004.255.255=0*4
 =======256
 037.005.000.000=0 DE,Berlin,Berlin,52.5167,13.4
-088.134.192.005@
+088.134.192.004@
+088.134.192.001@
 037.005.001.000=5 DE,Berlin,Berlin,52.5167,13.4
 088.134.192.005@
-037.005.002.000=5 DE,Berlin,Berlin,52.5167,13.4
 088.134.192.004@
-037.005.003.000=0 DE,Berlin,Berlin,52.5167,13.4
+088.134.192.001@
+088.134.192.003@
+037.005.002.000=5 DE,Berlin,Berlin,52.5167,13.4
 088.134.192.005@
+037.005.003.000=0 DE,Berlin,Berlin,52.5167,13.4
 088.134.192.004@
 037.005.004.000=5 DE,Berlin,Berlin,52.5167,13.4
 088.134.192.005@
+088.134.192.001@
+088.134.192.003@
 037.005.005.000=0 DE,Berlin,Berlin,52.5167,13.4
-088.134.192.005@
+088.134.192.004@
 037.005.006.000=5 DE,Berlin,Berlin,52.5167,13.4
 088.134.192.004@
 088.134.192.005@
 037.005.007.000=0 DE,Berlin,Berlin,52.5167,13.4
-088.134.192.005@
 088.134.192.004@
-088.134.192.001~88-134-192-1-dynip.superkabel.de
+088.134.192.005@
 088.134.192.003~88-134-192-3-dynip.superkabel.de
+088.134.196.226~88-134-196-226-dynip.superkabel.de
+088.134.192.001~88-134-192-1-dynip.superkabel.de
+088.134.196.218~88-134-196-218-dynip.superkabel.de
 037.005.007.254=5+
 037.005.007.255=0*8
 =======8
 037.005.008.000=0 DE,Berlin,Berlin,52.5167,13.4
 088.134.194.046@
-037.005.009.000=5 DE,Berlin,Berlin,52.5167,13.4
-088.134.194.048@
 088.134.194.047@
-088.134.194.045@
+037.005.009.000=5 DE,Berlin,Berlin,52.5167,13.4
 088.134.194.046@
 037.005.010.000=0 DE,Berlin,Berlin,52.5167,13.4
 088.134.194.047@
-088.134.194.045@
-088.134.194.046@
-088.134.194.048@
 037.005.011.000=5 DE,Berlin,Berlin,52.5167,13.4
 088.134.194.045@
-088.134.194.046@
-037.005.012.000=5 DE,Berlin,Berlin,52.5167,13.4
-088.134.194.045@
-088.134.194.046@
+088.134.194.048@
 088.134.194.047@
+037.005.012.000=5 DE,Berlin,Berlin,52.5167,13.4
+088.134.194.046@
 037.005.013.000=0 DE,Berlin,Berlin,52.5167,13.4
 088.134.194.046@
 037.005.014.000=0 DE,Berlin,Berlin,52.5167,13.4
+088.134.194.046@
 088.134.194.047@
 037.005.015.000=0 DE,Berlin,Berlin,52.5167,13.4
 088.134.194.046@
-088.134.194.045@
 088.134.194.048~88-134-194-48-dynip.superkabel.de
-088.134.237.242~88-134-237-242-dynip.superkabel.de~DE,Berlin,Berlin,52.5167,13.4
 088.134.194.045~88-134-194-45-dynip.superkabel.de
-083.169.128.178~83-169-128-178.static.superkabel.de~DE,Berlin,Berlin,52.5167,13.4
-083.169.128.186~83-169-128-186.static.superkabel.de~DE,Berlin,Berlin,52.5167,13.4
 088.134.202.202~88-134-202-202-dynip.superkabel.de~DE,Berlin,Berlin,52.5167,13.4
-088.134.203.005~88-134-203-5-dynip.superkabel.de~DE,Berlin,Berlin,52.5167,13.4
+088.134.203.013~88-134-203-13-dynip.superkabel.de~DE,Berlin,Berlin,52.5167,13.4
+088.134.237.242~88-134-237-242-dynip.superkabel.de~DE,Berlin,Berlin,52.5167,13.4
 037.005.015.254=5+
 037.005.015.255=0*8
 =======16
 037.005.016.000=0 DE,Berlin,Berlin,52.5167,13.4
-088.134.192.005@
-088.134.192.004@
-088.134.192.001@
-088.134.192.003@
 037.005.017.000=0 DE,Berlin,Berlin,52.4887,13.3781
-088.134.192.004@
 088.134.192.005@
 037.005.018.000=0 DE,Brandenburg,Angermünde,53.0333,14
+088.134.192.005@
 037.005.019.000=0 DE,Berlin,Berlin,52.5167,13.4
 088.134.192.001~88-134-192-1-dynip.superkabel.de
-088.134.192.003~88-134-192-3-dynip.superkabel.de
-088.134.196.002~88-134-196-2-dynip.superkabel.de
-083.169.183.250~83-169-183-250-isp.superkabel.de
 037.005.019.254=5+
 037.005.019.255=0*4
 -------
 037.005.020.000=0 DE,Berlin,Berlin,52.5167,13.4
-088.134.192.059@
-088.134.192.055@
-037.005.021.000=0 DE,Berlin,Berlin,52.5167,13.4
 088.134.192.058@
+088.134.192.057@
+037.005.021.000=0 DE,Berlin,Berlin,52.5167,13.4
 088.134.192.059@
-088.134.192.057~88-134-192-57-dynip.superkabel.de
-088.134.204.138~88-134-204-138-dynip.superkabel.de
 088.134.192.055~88-134-192-55-dynip.superkabel.de
+088.134.196.226~88-134-196-226-dynip.superkabel.de
+088.134.192.057~88-134-192-57-dynip.superkabel.de
 037.005.021.254=5+
 037.005.021.255=0*2
 -------
 037.005.022.000=0 DE,Berlin,Berlin,52.5167,13.4
-088.134.194.046@
-037.005.023.000=0 DE,Berlin,Berlin,52.5167,13.4
 088.134.194.047@
-088.134.194.048~88-134-194-48-dynip.superkabel.de
+037.005.023.000=0 DE,Berlin,Berlin,52.5167,13.4
+088.134.194.045@
+088.134.194.047@
+088.134.194.048@
 088.134.194.045~88-134-194-45-dynip.superkabel.de
+083.169.128.170~83-169-128-170.static.superkabel.de~DE,Berlin,Berlin,52.5167,13.4
+088.134.203.009~88-134-203-9-dynip.superkabel.de~DE,Berlin,Berlin,52.5167,13.4
 037.005.023.254=0+
 037.005.023.255=0*2
 =======8
@@ -1310,8 +1249,8 @@
 083.169.175.233@
 037.005.025.000=0 DE,Bremen,Bremen,53.0833,8.8
 037.005.025.000!0 DE,Brandenburg,Königs Wusterhausen,52.2833,13.6167
-083.169.175.233@
 083.169.175.225@
+083.169.175.233@
 037.005.026.000=0 DE,Bremen,Bremen,53.0833,8.8
 083.169.175.225@
 083.169.175.233@
@@ -1327,8 +1266,8 @@
 083.169.175.233@
 083.169.175.225@
 037.005.030.000=0 DE,Bremen,Bremen,53.0833,8.8
-083.169.175.225@
 083.169.175.233@
+083.169.175.225@
 037.005.031.000=0 DE,Bremen,Bremen,53.0833,8.8
 083.169.175.233@
 083.169.175.225@
@@ -1337,75 +1276,75 @@
 037.005.031.255=0*8
 =======32
 037.005.032.000=0 DE,Berlin,Berlin,52.5167,13.4
-088.134.194.046@
+088.134.194.047@
 037.005.033.000=5 DE,Berlin,Berlin,52.5167,13.4
+088.134.194.047@
 088.134.194.048@
-088.134.194.045@
 037.005.034.000=5 DE,Berlin,Berlin,52.5167,13.4
 088.134.194.046@
 037.005.035.000=5 DE,Berlin,Berlin,52.5167,13.4
 088.134.194.046@
 037.005.036.000=5 DE,Berlin,Berlin,52.5167,13.4
+088.134.194.048@
 088.134.194.047@
-088.134.194.046@
 037.005.037.000=5 DE,Berlin,Berlin,52.5167,13.4
-088.134.194.046@
+088.134.194.047@
 037.005.038.000=5 DE,Berlin,Berlin,52.5167,13.4
+088.134.194.047@
 088.134.194.046@
 037.005.039.000=0 DE,Berlin,Berlin,52.5167,13.4
-088.134.194.046@
 088.134.194.047@
-088.134.194.048~88-134-194-48-dynip.superkabel.de
-088.134.203.142~88-134-203-142-dynip.superkabel.de~DE,Berlin,Berlin,52.5167,13.4
-088.134.202.202~88-134-202-202-dynip.superkabel.de~DE,Berlin,Berlin,52.5167,13.4
-083.169.128.174~83-169-128-174.static.superkabel.de~DE,Berlin,Berlin,52.5167,13.4
 088.134.194.045~88-134-194-45-dynip.superkabel.de
+088.134.203.013~88-134-203-13-dynip.superkabel.de~DE,Berlin,Berlin,52.5167,13.4
+088.134.194.048~88-134-194-48-dynip.superkabel.de
+088.134.203.009~88-134-203-9-dynip.superkabel.de~DE,Berlin,Berlin,52.5167,13.4
+088.134.237.230~88-134-237-230-dynip.superkabel.de~DE,Berlin,Berlin,52.5167,13.4
 037.005.039.254=5+
 037.005.039.255=0*8
 =======8
 037.005.040.000=0 DE,Berlin,Berlin,52.4853,13.355
-088.134.192.005@
+088.134.194.046@
 037.005.041.000=0 DE,Berlin,Berlin,52.5167,13.4
-088.134.192.005@
+088.134.194.048@
+088.134.194.047@
 037.005.042.000=0 DE,Berlin,Berlin,52.5167,13.4
-088.134.192.005@
+088.134.194.046@
 037.005.043.000=5 DE,Berlin,Berlin,52.5167,13.4
-088.134.192.001@
-088.134.192.005@
-088.134.192.003@
-088.134.192.001~88-134-192-1-dynip.superkabel.de
-088.134.205.106~88-134-205-106-dynip.superkabel.de
-088.134.205.114~88-134-205-114-dynip.superkabel.de
+088.134.194.047@
+088.134.194.048~88-134-194-48-dynip.superkabel.de
+088.134.237.238~DE,Berlin,Berlin,52.5167,13.4
+088.134.237.230~88-134-237-230-dynip.superkabel.de~DE,Berlin,Berlin,52.5167,13.4
+088.134.194.045~88-134-194-45-dynip.superkabel.de
 037.005.043.254=5+
 037.005.043.255=0*4
 -------
 037.005.044.000=0 DE,Berlin,Berlin,52.5167,13.4
 037.005.044.000=0 DE,Brandenburg,Wriezen,52.7167,14.1333
-083.169.180.121@
 083.169.180.113@
+083.169.180.121@
 037.005.045.000=0 DE,Brandenburg,Wriezen,52.7167,14.1333
-088.134.193.200~88-134-193-200-dynip.superkabel.de
 088.134.193.076~88-134-193-76-dynip.superkabel.de
+088.134.193.200~88-134-193-200-dynip.superkabel.de
 037.005.045.254=1+
 037.005.045.255=0*2
 -------
 037.005.046.000=0 DE,Berlin,Berlin,52.5167,13.4
 037.005.046.000=0 DE,Brandenburg,Strausberg,52.5578,13.8757
-083.169.180.114@
 083.169.180.122@
+083.169.180.114@
 037.005.047.000=0 DE,Brandenburg,Strausberg,52.5833,13.8833
 083.169.180.114@
 083.169.180.122@
-088.134.193.076~88-134-193-76-dynip.superkabel.de
 088.134.193.200~88-134-193-200-dynip.superkabel.de
+088.134.193.076~88-134-193-76-dynip.superkabel.de
 037.005.047.254=1+
 037.005.047.255=0*2
 =======16
 037.005.048.000=0 DE,Berlin,Berlin,52.5167,13.4
-088.134.192.058@
 088.134.192.059@
-088.134.192.055~88-134-192-55-dynip.superkabel.de
+088.134.192.058@
 088.134.192.057~88-134-192-57-dynip.superkabel.de
+088.134.192.055~88-134-192-55-dynip.superkabel.de
 037.005.048.254=5+
 037.005.048.255=0*1
 -------
@@ -1414,19 +1353,22 @@
 037.005.049.255=0*1
 -------
 037.005.050.000=0 DE,Berlin,Berlin,52.5167,13.4
-088.134.192.005@
-088.134.192.001~88-134-192-1-dynip.superkabel.de
+088.134.192.004@
+088.134.192.001@
+088.134.192.003~88-134-192-3-dynip.superkabel.de
+088.134.204.146~88-134-204-146-dynip.superkabel.de
 037.005.050.254=5+
 037.005.050.255=0*1
 -------
 037.005.051.000=0 DE,Berlin,Berlin,52.598,13.358
 083.169.180.041@
-088.134.192.072@
 083.169.180.033@
+088.134.192.073@
+088.134.192.072@
 088.134.192.072~88-134-192-72-dynip.superkabel.de
-088.134.193.254~88-134-193-254-dynip.superkabel.de
+083.169.180.041~83-169-180-41-isp.superkabel.de
 088.134.192.074~88-134-192-74-dynip.superkabel.de
-088.134.192.073~88-134-192-73-dynip.superkabel.de
+088.134.193.254~88-134-193-254-dynip.superkabel.de
 037.005.051.254=1+
 037.005.051.255=0*1
 -------
@@ -1441,7 +1383,7 @@
 088.134.193.083@
 088.134.193.085@
 088.134.193.080~88-134-193-80-dynip.superkabel.de
-088.134.196.002~88-134-196-2-dynip.superkabel.de
+088.134.205.106~88-134-205-106-dynip.superkabel.de
 037.005.053.254=5+
 037.005.053.255=0*1
 -------
@@ -1453,114 +1395,118 @@
 -------
 037.005.055.000=0 DE,Berlin,Berlin,52.5167,13.4
 088.134.194.047@
-088.134.194.048@
 088.134.194.045~88-134-194-45-dynip.superkabel.de
-088.134.203.013~88-134-203-13-dynip.superkabel.de~DE,Berlin,Berlin,52.5167,13.4
 037.005.055.254=0+
 037.005.055.255=0*1
 =======8
 037.005.056.000=0 DE,Berlin,Berlin,52.5167,13.4
-088.134.192.057@
 088.134.192.058@
 037.005.057.000=5 DE,Berlin,Berlin,52.5167,13.4
+088.134.192.057@
+088.134.192.055@
 088.134.192.059@
 037.005.058.000=5 DE,Berlin,Berlin,52.5167,13.4
 088.134.192.058@
 037.005.059.000=5 DE,Berlin,Berlin,52.5167,13.4
-088.134.192.059@
 037.005.060.000=0 DE,Berlin,Berlin,52.5167,13.4
+088.134.192.058@
+088.134.192.055@
 088.134.192.059@
 037.005.061.000=0 DE,Berlin,Berlin,52.5167,13.4
 088.134.192.058@
 037.005.062.000=5 DE,Berlin,Berlin,52.5167,13.4
-088.134.192.055@
-088.134.192.059@
+088.134.192.058@
 037.005.063.000=5 DE,Berlin,Berlin,52.5167,13.4
 088.134.192.058@
-088.134.196.226~88-134-196-226-dynip.superkabel.de
 088.134.192.055~88-134-192-55-dynip.superkabel.de
+088.134.205.106~88-134-205-106-dynip.superkabel.de
+088.134.205.114~88-134-205-114-dynip.superkabel.de
 088.134.192.057~88-134-192-57-dynip.superkabel.de
-088.134.204.138~88-134-204-138-dynip.superkabel.de
+088.134.196.218~88-134-196-218-dynip.superkabel.de
 037.005.063.254=5+
 037.005.063.255=0*8
 =======64
 037.005.064.000=0 DE,Berlin,Berlin,52.5167,13.4
-088.134.192.004@
-088.134.192.005@
+088.134.194.046@
+088.134.194.047@
 037.005.065.000=5 DE,Berlin,Berlin,52.5167,13.4
-088.134.192.005@
+088.134.194.046@
+088.134.194.045@
+088.134.194.047@
+088.134.194.048@
 037.005.066.000=0 DE,Berlin,Berlin,52.5167,13.4
-088.134.192.005@
+088.134.194.047@
 037.005.067.000=5 DE,Berlin,Berlin,52.5167,13.4
-088.134.192.004@
+088.134.194.046@
 037.005.068.000=5 DE,Berlin,Berlin,52.5167,13.4
-088.134.192.005@
-088.134.192.004@
+088.134.194.047@
+088.134.194.048@
+088.134.194.045@
 037.005.069.000=0 DE,Berlin,Berlin,52.5167,13.4
-088.134.192.003@
-088.134.192.005@
-088.134.192.004@
-088.134.192.001@
+088.134.194.047@
+088.134.194.048@
 037.005.070.000=5 DE,Berlin,Berlin,52.5167,13.4
-088.134.192.005@
-088.134.192.001@
+088.134.194.046@
 037.005.071.000=0 DE,Berlin,Berlin,52.5167,13.4
-088.134.192.005@
-088.134.192.003~88-134-192-3-dynip.superkabel.de
-088.134.192.001~88-134-192-1-dynip.superkabel.de
-088.134.205.114~88-134-205-114-dynip.superkabel.de
-088.134.205.106~88-134-205-106-dynip.superkabel.de
+088.134.194.046@
+088.134.194.047@
+088.134.194.048~88-134-194-48-dynip.superkabel.de
+088.134.194.045~88-134-194-45-dynip.superkabel.de
+088.134.202.198~88-134-202-198-dynip.superkabel.de~DE,Berlin,Berlin,52.5167,13.4
+088.134.237.230~88-134-237-230-dynip.superkabel.de~DE,Berlin,Berlin,52.5167,13.4
+088.134.203.142~88-134-203-142-dynip.superkabel.de~DE,Berlin,Berlin,52.5167,13.4
+088.134.237.242~88-134-237-242-dynip.superkabel.de~DE,Berlin,Berlin,52.5167,13.4
+083.169.128.174~83-169-128-174.static.superkabel.de~DE,Berlin,Berlin,52.5167,13.4
 037.005.071.254=5+
 037.005.071.255=0*8
 =======8
 037.005.072.000=0 DE,Berlin,Berlin,52.5167,13.4
 088.134.192.064@
 037.005.073.000=5 DE,Berlin,Berlin,52.5167,13.4
+088.134.192.065@
 088.134.192.064@
 037.005.074.000=5 DE,Berlin,Berlin,52.5167,13.4
 088.134.192.065@
+088.134.192.064@
+088.134.192.063@
 037.005.075.000=5 DE,Berlin,Berlin,52.5167,13.4
 088.134.192.063@
 088.134.192.061@
-088.134.192.064@
 037.005.076.000=0 DE,Berlin,Berlin,52.5167,13.4
-088.134.192.065@
-037.005.077.000=5 DE,Berlin,Berlin,52.5167,13.4
 088.134.192.064@
+037.005.077.000=5 DE,Berlin,Berlin,52.5167,13.4
+088.134.192.061@
+088.134.192.064@
+088.134.192.063@
 037.005.078.000=5 DE,Berlin,Berlin,52.5167,13.4
 088.134.192.064@
-088.134.192.061@
-088.134.192.063@
 037.005.079.000=5 DE,Berlin,Berlin,52.5167,13.4
-088.134.192.061@
-088.134.192.064@
-088.134.192.065@
 088.134.192.061~88-134-192-61-dynip.superkabel.de
 088.134.192.063~88-134-192-63-dynip.superkabel.de
-088.134.196.226~88-134-196-226-dynip.superkabel.de
-088.134.196.218~88-134-196-218-dynip.superkabel.de
-088.134.204.138~88-134-204-138-dynip.superkabel.de
+088.134.205.106~88-134-205-106-dynip.superkabel.de
+088.134.205.114~88-134-205-114-dynip.superkabel.de
 037.005.079.254=5+
 037.005.079.255=0*8
 =======16
 037.005.080.000=0 DE,Niedersachsen,Hannover,52.3667,9.7167
-083.169.175.106@
+088.134.193.053@
+088.134.193.052@
 083.169.175.098@
 037.005.081.000=0 DE,Niedersachsen,Hannover,52.3667,9.7167
 083.169.175.098@
-083.169.175.106@
+088.134.193.052@
 037.005.082.000=0 DE,Niedersachsen,Hannover,52.3667,9.7167
+088.134.193.053@
 083.169.175.098@
+083.169.175.106@
 088.134.193.052@
 037.005.083.000=0 DE,Niedersachsen,Hannover,52.3667,9.7167
+083.169.175.098@
 083.169.175.106@
-088.134.193.053@
 088.134.193.054~88-134-193-54-dynip.superkabel.de
-088.134.193.053~88-134-193-53-dynip.superkabel.de
-088.134.193.052~88-134-193-52-dynip.superkabel.de
-083.169.175.106~83-169-175-106-isp.superkabel.de
-083.169.175.098~83-169-175-98-isp.superkabel.de
 088.134.193.051~88-134-193-51-dynip.superkabel.de
+088.134.193.053~88-134-193-53-dynip.superkabel.de
+083.169.175.106~83-169-175-106-isp.superkabel.de
 037.005.083.254=1+
 037.005.083.255=0*4
 -------
@@ -1574,27 +1520,29 @@
 -------
 037.005.086.000=0 DE,Berlin,Berlin,52.5167,13.4
 088.134.192.059@
+088.134.192.058@
 088.134.192.057~88-134-192-57-dynip.superkabel.de
+088.134.192.055~88-134-192-55-dynip.superkabel.de
 037.005.086.254=5+
 037.005.086.255=0*1
 -------
 037.005.087.000=0 DE,Berlin,Berlin,52.5167,13.4
 088.134.192.082@
-088.134.192.077@
-088.134.192.083@
 088.134.192.085~88-134-192-85-dynip.superkabel.de
-088.134.205.114~88-134-205-114-dynip.superkabel.de
-088.134.192.077~88-134-192-77-dynip.superkabel.de
 037.005.087.254=5+
 037.005.087.255=0*1
 =======8
 037.005.088.000=0 DE,Berlin,Berlin,52.5167,13.4
+088.134.192.064@
+088.134.192.061@
 088.134.192.065@
 037.005.089.000=5 DE,Berlin,Berlin,52.5167,13.4
+088.134.192.061@
+088.134.192.065@
 088.134.192.064@
 037.005.090.000=5 DE,Berlin,Berlin,52.5167,13.4
-088.134.192.064@
 088.134.192.065@
+088.134.192.064@
 037.005.091.000=0 DE,Berlin,Berlin,52.5167,13.4
 088.134.192.064@
 088.134.192.065@
@@ -1602,18 +1550,17 @@
 088.134.192.065@
 088.134.192.064@
 037.005.093.000=5 DE,Berlin,Berlin,52.5167,13.4
-088.134.192.064@
 088.134.192.065@
 037.005.094.000=5 DE,Berlin,Berlin,52.5167,13.4
 088.134.192.065@
 037.005.095.000=5 DE,Berlin,Berlin,52.5167,13.4
-088.134.192.064@
 088.134.192.061@
 088.134.192.065@
+088.134.192.064@
 088.134.192.063@
-088.134.192.063~88-134-192-63-dynip.superkabel.de
 088.134.192.061~88-134-192-61-dynip.superkabel.de
 088.134.204.138~88-134-204-138-dynip.superkabel.de
+088.134.192.063~88-134-192-63-dynip.superkabel.de
 088.134.204.146~88-134-204-146-dynip.superkabel.de
 037.005.095.254=5+
 037.005.095.255=0*8
@@ -1622,14 +1569,17 @@
 037.005.096.000=0 DE,Mecklenburg-Vorpommern,Wismar,53.892,11.4636
 088.134.193.175@
 037.005.097.000=5 DE,Mecklenburg-Vorpommern,Wismar,53.9,11.4667
-088.134.193.175@
-037.005.098.000=0 DE,Mecklenburg-Vorpommern,Wismar,53.892,11.4636
+088.134.193.027@
+088.134.193.028@
 088.134.193.174@
+037.005.098.000=0 DE,Mecklenburg-Vorpommern,Wismar,53.892,11.4636
 088.134.193.175@
+088.134.193.174@
 037.005.099.000=0 DE,Mecklenburg-Vorpommern,Wismar,53.892,11.4636
 088.134.193.175@
-088.134.193.174@
 088.134.193.027~DE,Hamburg,Hamburg,53.55,10
+088.134.193.024~88-134-193-24-dynip.superkabel.de
+088.134.193.030~88-134-193-30-dynip.superkabel.de
 088.134.193.028~88-134-193-28-dynip.superkabel.de
 037.005.099.254=5+
 037.005.099.255=0*4
@@ -1642,14 +1592,13 @@
 088.134.193.034@
 088.134.193.033@
 037.005.102.000=0 DE,Mecklenburg-Vorpommern,Hagenow,53.3833,11.0833
-088.134.193.033@
 088.134.193.034@
+088.134.193.033@
 037.005.103.000=0 DE,Mecklenburg-Vorpommern,Hagenow,53.4333,11.1833
 088.134.193.034@
 088.134.193.033@
 088.134.205.150~88-134-205-150-dynip.superkabel.de
 088.134.193.031~88-134-193-31-dynip.superkabel.de~DE,Hamburg,Hamburg,53.55,10
-088.134.193.035~88-134-193-35-dynip.superkabel.de~DE,Hamburg,Hamburg,53.55,10
 037.005.103.254=5+
 037.005.103.255=0*4
 =======8
@@ -1663,8 +1612,8 @@
 037.005.106.255=0^1
 -------
 037.005.107.000=0 DE,Berlin,Berlin,52.5167,13.4
-088.134.192.005@
-088.134.192.001~88-134-192-1-dynip.superkabel.de
+088.134.192.004@
+088.134.192.003~88-134-192-3-dynip.superkabel.de
 037.005.107.254=5+
 037.005.107.255=0*1
 -------
@@ -1680,8 +1629,8 @@
 037.005.111.000=0 DE,Schleswig-Holstein,Kiel,54.3187,10.1704
 088.134.192.159@
 088.134.192.147@
-088.134.193.022~88-134-193-22-dynip.superkabel.de~DE,Hamburg,Hamburg,53.55,10
-088.134.193.035~88-134-193-35-dynip.superkabel.de~DE,Hamburg,Hamburg,53.55,10
+088.134.205.142~88-134-205-142-dynip.superkabel.de
+088.134.205.150~88-134-205-150-dynip.superkabel.de
 037.005.111.254=5+
 037.005.111.255=0*4
 =======16
@@ -1692,37 +1641,38 @@
 083.169.173.066@
 083.169.172.194@
 037.005.114.000=0 DE,Schleswig-Holstein,Neumünster,54.0667,9.9833
-083.169.173.066@
-083.169.172.194@
 037.005.115.000=5 DE,Schleswig-Holstein,Neumünster,54.0667,9.9833
 037.005.115.000!0 DE,Schleswig-Holstein,Trappenkamp,54.05,10.25
-083.169.172.194@
 083.169.173.066@
+083.169.172.194@
 088.134.192.161~DE,Schleswig-Holstein,Neumünster,54.0667,9.9833
 088.134.192.181~DE,Schleswig-Holstein,Neumünster,54.0667,9.9833
 037.005.115.254=1+
 037.005.115.255=0*4
 -------
 037.005.116.000=0 DE,Schleswig-Holstein,Geesthacht,53.4333,10.45
-088.134.192.210@
-083.169.172.210@
-037.005.117.000=5 DE,Schleswig-Holstein,Geesthacht,53.4333,10.3667
-088.134.192.210@
-088.134.192.211@
 083.169.172.202@
+088.134.192.211@
+083.169.172.210@
+088.134.192.210@
+037.005.117.000=5 DE,Schleswig-Holstein,Geesthacht,53.4333,10.3667
+083.169.172.210@
+083.169.172.202@
+088.134.192.211@
 037.005.118.000=5 DE,Schleswig-Holstein,Geesthacht,53.4333,10.3667
 037.005.118.000!0 DE,Hamburg,Hamburg,53.4306,10.2678
 083.169.172.210@
-088.134.192.210@
+083.169.172.202@
+088.134.192.211@
 037.005.119.000=0 DE,Schleswig-Holstein,Geesthacht,53.4333,10.45
+088.134.192.211@
 083.169.172.210@
 083.169.172.202@
-088.134.192.210@
+083.169.172.210~83-169-172-210-isp.superkabel.de
+088.134.192.212~88-134-192-212-dynip.superkabel.de~DE,Schleswig-Holstein,Lübeck,53.8667,10.7
+088.134.192.211~88-134-192-211-dynip.superkabel.de
 088.134.192.209~88-134-192-209-dynip.superkabel.de~DE,Schleswig-Holstein,Lübeck,53.8667,10.7
 083.169.172.202~83-169-172-202-isp.superkabel.de
-088.134.192.211~88-134-192-211-dynip.superkabel.de
-088.134.192.212~88-134-192-212-dynip.superkabel.de~DE,Schleswig-Holstein,Lübeck,53.8667,10.7
-088.134.192.210~88-134-192-210-dynip.superkabel.de
 037.005.119.254=1+
 037.005.119.255=0*4
 =======8
@@ -1734,34 +1684,30 @@
 037.005.123.255=0^4
 -------
 037.005.124.000=0 DE,Schleswig-Holstein,Kiel,54.3333,10.1333
-088.134.192.159@
-088.134.192.147@
 037.005.125.000=0 DE,Schleswig-Holstein,Kiel,54.3333,10.1333
 088.134.192.159@
 088.134.192.147@
 088.134.205.150~88-134-205-150-dynip.superkabel.de
 088.134.205.142~88-134-205-142-dynip.superkabel.de
-088.134.193.035~88-134-193-35-dynip.superkabel.de~DE,Hamburg,Hamburg,53.55,10
-088.134.193.022~88-134-193-22-dynip.superkabel.de~DE,Hamburg,Hamburg,53.55,10
 037.005.125.254=5+
 037.005.125.255=0*2
 -------
 037.005.126.000=0 DE,Schleswig-Holstein,Kiel,54.3333,10.1333
 088.134.192.159@
 088.134.192.147@
-088.134.193.035~88-134-193-35-dynip.superkabel.de~DE,Hamburg,Hamburg,53.55,10
-088.134.193.022~88-134-193-22-dynip.superkabel.de~DE,Hamburg,Hamburg,53.55,10
+088.134.205.150~88-134-205-150-dynip.superkabel.de
+088.134.205.142~88-134-205-142-dynip.superkabel.de
 037.005.126.254=5+
 037.005.126.255=0*1
 -------
 037.005.127.000=2 DE,Hamburg,Hamburg,53.55,10
-083.169.172.114@
 083.169.172.122@
+083.169.172.114@
 088.134.192.132@
-088.134.192.132~88-134-192-132-dynip.superkabel.de
-088.134.192.133~88-134-192-133-dynip.superkabel.de
-088.134.192.131~88-134-192-131-dynip.superkabel.de~DE,Hamburg,Hamburg,53.55,10
+088.134.192.133@
 083.169.172.114~83-169-172-114-isp.superkabel.de
+083.169.172.122~83-169-172-122-isp.superkabel.de
+088.134.192.131~88-134-192-131-dynip.superkabel.de~DE,Hamburg,Hamburg,53.55,10
 088.134.192.129~88-134-192-129-dynip.superkabel.de~DE,Hamburg,Hamburg,53.55,10
 037.005.127.254=1+
 037.005.127.255=0*1
@@ -1774,26 +1720,26 @@
 088.134.193.033@
 088.134.193.034@
 037.005.130.000=0 DE,Mecklenburg-Vorpommern,Hagenow,53.4333,11.1833
-088.134.193.033@
 088.134.193.034@
+088.134.193.033@
 037.005.131.000=0 DE,Mecklenburg-Vorpommern,Hagenow,53.3833,11.0833
-088.134.193.034@
 088.134.193.033@
+088.134.193.034@
 088.134.193.031~88-134-193-31-dynip.superkabel.de~DE,Hamburg,Hamburg,53.55,10
-088.134.193.035~88-134-193-35-dynip.superkabel.de~DE,Hamburg,Hamburg,53.55,10
+088.134.205.150~88-134-205-150-dynip.superkabel.de
 037.005.131.254=5+
 037.005.131.255=0*4
 -------
 037.005.132.000=0 DE,Mecklenburg-Vorpommern,Rostock,54.0833,12.1333
 037.005.132.000=0 DE,Mecklenburg-Vorpommern,Hagenow,53.4333,11.1833
 037.005.132.000!0 DE,Mecklenburg-Vorpommern,Boizenburg,53.3833,10.7167
-088.134.193.034@
 088.134.193.033@
+088.134.193.034@
 037.005.133.000=0 DE,Mecklenburg-Vorpommern,Hagenow,53.3833,11.0833
 088.134.193.034@
 088.134.193.033@
-088.134.193.035~88-134-193-35-dynip.superkabel.de~DE,Hamburg,Hamburg,53.55,10
 088.134.193.031~88-134-193-31-dynip.superkabel.de~DE,Hamburg,Hamburg,53.55,10
+088.134.205.150~88-134-205-150-dynip.superkabel.de
 037.005.133.254=5+
 037.005.133.255=0*2
 -------
@@ -1809,10 +1755,10 @@
 083.169.172.066@
 083.169.172.170@
 088.134.192.017@
-088.134.192.016~88-134-192-16-dynip.superkabel.de
+083.169.172.170~83-169-172-170-isp.superkabel.de
 083.169.172.066~83-169-172-66-isp.superkabel.de
+088.134.192.017~88-134-192-17-dynip.superkabel.de
 088.134.192.013~88-134-192-13-dynip.superkabel.de
-088.134.192.015~88-134-192-15-dynip.superkabel.de
 037.005.135.254=1+
 037.005.135.255=0*1
 =======8
@@ -1820,9 +1766,10 @@
 037.005.136.000!0 DE,Niedersachsen,Herzberg,51.65,10.3333
 083.169.154.066@
 083.169.155.066@
-088.134.237.073~DE,Niedersachsen,Hannover,52.3667,9.7167
-088.134.237.085~DE,Niedersachsen,Hannover,52.3667,9.7167
-088.134.237.069~88-134-237-69-dynip.superkabel.de~DE,Niedersachsen,Hannover,52.3667,9.7167
+088.134.237.065~DE,Niedersachsen,Hannover,52.3667,9.7167
+088.134.237.077~88-134-237-77-dynip.superkabel.de~DE,Niedersachsen,Hannover,52.3667,9.7167
+088.134.237.073~88-134-237-73-dynip.superkabel.de~DE,Niedersachsen,Hannover,52.3667,9.7167
+088.134.237.081~DE,Niedersachsen,Hannover,52.3667,9.7167
 037.005.136.254=1+
 037.005.136.255=0*1
 -------
@@ -1830,18 +1777,15 @@
 037.005.137.000=0 DE,Niedersachsen,Georgsmarienhütte,52.2,8.05
 001.000.000.036@
 088.134.237.162~88-134-237-162-dynip.superkabel.de~DE,Bremen,Bremen,53.0833,8.8
-088.134.237.170~88-134-237-170-dynip.superkabel.de~DE,Bremen,Bremen,53.0833,8.8
-088.134.237.166~88-134-237-166-dynip.superkabel.de~DE,Bremen,Bremen,53.0833,8.8
 088.134.237.174~88-134-237-174-dynip.superkabel.de~DE,Bremen,Bremen,53.0833,8.8
 037.005.137.254=5+
 037.005.137.255=0*1
 -------
 037.005.138.000=0 DE,Niedersachsen,Einbeck,51.8188,9.8522
 083.169.154.091@
-083.169.155.091@
-088.134.237.069~88-134-237-69-dynip.superkabel.de~DE,Niedersachsen,Hannover,52.3667,9.7167
-088.134.237.077~88-134-237-77-dynip.superkabel.de~DE,Niedersachsen,Hannover,52.3667,9.7167
-088.134.237.073~DE,Niedersachsen,Hannover,52.3667,9.7167
+088.134.237.073~88-134-237-73-dynip.superkabel.de~DE,Niedersachsen,Hannover,52.3667,9.7167
+088.134.237.081~DE,Niedersachsen,Hannover,52.3667,9.7167
+088.134.237.065~DE,Niedersachsen,Hannover,52.3667,9.7167
 088.134.237.085~DE,Niedersachsen,Hannover,52.3667,9.7167
 037.005.138.254=1+
 037.005.138.255=0*1
@@ -1849,8 +1793,9 @@
 037.005.139.000=0 DE,Niedersachsen,Göttingen,51.5333,9.9333
 037.005.139.000=0 DE,Niedersachsen,Northeim,51.7032,9.989
 001.000.000.037@
-088.134.237.077~88-134-237-77-dynip.superkabel.de~DE,Niedersachsen,Hannover,52.3667,9.7167
-088.134.237.073~DE,Niedersachsen,Hannover,52.3667,9.7167
+088.134.237.073~88-134-237-73-dynip.superkabel.de~DE,Niedersachsen,Hannover,52.3667,9.7167
+088.134.237.081~DE,Niedersachsen,Hannover,52.3667,9.7167
+088.134.237.065~DE,Niedersachsen,Hannover,52.3667,9.7167
 088.134.237.085~DE,Niedersachsen,Hannover,52.3667,9.7167
 037.005.139.254=5+
 037.005.139.255=0*1
@@ -1865,8 +1810,8 @@
 088.134.194.026@
 088.134.194.025@
 037.005.143.000=5 DE,Niedersachsen,Oldenburg,53.1667,8.2
-088.134.194.026@
 088.134.194.025@
+088.134.194.026@
 088.134.196.162~88-134-196-162-dynip.superkabel.de~DE,Bremen,Bremen,53.0833,8.8
 088.134.196.154~88-134-196-154-dynip.superkabel.de~DE,Bremen,Bremen,53.0833,8.8
 037.005.143.254=5+
@@ -1878,66 +1823,60 @@
 088.134.192.145@
 037.005.145.000=5 DE,Hamburg,Hamburg,53.55,10
 083.169.172.139@
+088.134.192.144@
 083.169.172.131@
 037.005.146.000=5 DE,Hamburg,Hamburg,53.55,10
-083.169.172.131@
-088.134.192.144@
 083.169.172.139@
-037.005.147.000=5 DE,Hamburg,Hamburg,53.55,10
-083.169.172.131@
-088.134.192.144@
 088.134.192.145@
+088.134.192.144@
+037.005.147.000=5 DE,Hamburg,Hamburg,53.55,10
+088.134.192.145@
+083.169.172.131@
+083.169.172.139@
 037.005.148.000=0 DE,Hamburg,Hamburg,53.55,10
 083.169.172.131@
-088.134.192.144@
+088.134.192.145@
 083.169.172.139@
 037.005.149.000=0 DE,Hamburg,Hamburg,53.55,10
 083.169.172.131@
-088.134.192.145@
 083.169.172.139@
-088.134.192.144@
+088.134.192.145@
 037.005.150.000=0 DE,Hamburg,Hamburg,53.55,10
 083.169.172.139@
 083.169.172.131@
-088.134.192.144@
 037.005.151.000=5 DE,Schleswig-Holstein,Barsbüttel,53.5667,10.1667
 083.169.172.131@
 083.169.172.139@
-083.169.172.131~83-169-172-131-isp.superkabel.de
 088.134.192.143~88-134-192-143-dynip.superkabel.de~DE,Hamburg,Hamburg,53.55,10
+088.134.192.144~88-134-192-144-dynip.superkabel.de
 083.169.172.139~83-169-172-139-isp.superkabel.de
 088.134.192.165~88-134-192-165-dynip.superkabel.de~DE,Schleswig-Holstein,Neumünster,54.0667,9.9833
 088.134.192.145~88-134-192-145-dynip.superkabel.de
-088.134.192.144~88-134-192-144-dynip.superkabel.de
+083.169.172.131~83-169-172-131-isp.superkabel.de
 037.005.151.254=1+
 037.005.151.255=0*8
 =======8
 037.005.152.000=0 DE,Mecklenburg-Vorpommern,Rostock,54.0833,12.1333
 037.005.152.000=0 DE,Mecklenburg-Vorpommern,Wismar,53.892,11.4636
 088.134.193.174@
-088.134.193.028@
 037.005.153.000=0 DE,Mecklenburg-Vorpommern,Wismar,53.892,11.4636
-088.134.193.174@
-088.134.193.027@
 088.134.193.175@
 037.005.154.000=0 DE,Mecklenburg-Vorpommern,Wismar,53.892,11.4636
-088.134.193.175@
+088.134.193.174@
 037.005.155.000=0 DE,Mecklenburg-Vorpommern,Wismar,53.892,11.4636
+088.134.193.175@
 088.134.193.174@
 037.005.156.000=5 DE,Mecklenburg-Vorpommern,Wismar,53.9,11.4667
 088.134.193.174@
-088.134.193.027@
-088.134.193.028@
+088.134.193.175@
 037.005.157.000=0 DE,Mecklenburg-Vorpommern,Wismar,53.892,11.4636
+088.134.193.174@
 088.134.193.175@
 037.005.158.000=0 DE,Mecklenburg-Vorpommern,Wismar,53.9,11.4667
-088.134.193.175@
 088.134.193.174@
 037.005.159.000=0 DE,Mecklenburg-Vorpommern,Wismar,53.892,11.4636
 088.134.193.174@
 088.134.193.028~88-134-193-28-dynip.superkabel.de
-088.134.193.030~88-134-193-30-dynip.superkabel.de
-088.134.193.024~88-134-193-24-dynip.superkabel.de
 088.134.193.027~DE,Hamburg,Hamburg,53.55,10
 037.005.159.254=5+
 037.005.159.255=0*8
@@ -1968,72 +1907,53 @@
 083.169.137.002@
 083.169.136.002@
 083.169.128.098~83-169-128-98.static.superkabel.de~DE,Bayern,München,48.15,11.5833
-083.169.128.094~83-169-128-94.static.superkabel.de~DE,Bayern,München,48.15,11.5833
 083.169.128.086~83-169-128-86.static.superkabel.de~DE,Bayern,München,48.15,11.5833
 083.169.128.018~83-169-128-18.static.superkabel.de~DE,Bayern,München,48.15,11.5833
+083.169.128.002~83-169-128-2.static.superkabel.de~DE,Bayern,München,48.15,11.5833
+083.169.128.090~83-169-128-90.static.superkabel.de~DE,Bayern,München,48.15,11.5833
+083.169.128.094~83-169-128-94.static.superkabel.de~DE,Bayern,München,48.15,11.5833
 083.169.128.030~83-169-128-30.static.superkabel.de~DE,Bayern,München,48.15,11.5833
 083.169.128.022~83-169-128-22.static.superkabel.de~DE,Bayern,München,48.15,11.5833
-083.169.128.090~83-169-128-90.static.superkabel.de~DE,Bayern,München,48.15,11.5833
-083.169.128.002~83-169-128-2.static.superkabel.de~DE,Bayern,München,48.15,11.5833
 037.005.167.254=1+
 037.005.167.255=0*8
 =======8
 037.005.168.000=0 DE,Mecklenburg-Vorpommern,Rostock,54.0833,12.1333
-088.134.192.016@
+088.134.192.017@
 037.005.169.000=0 DE,Mecklenburg-Vorpommern,Rostock,54.0833,12.1333
-088.134.192.016@
+088.134.192.017@
 037.005.170.000=5 DE,Mecklenburg-Vorpommern,Rostock,54.0833,12.1333
 088.134.192.017@
+088.134.192.016@
 037.005.171.000=5 DE,Mecklenburg-Vorpommern,Rostock,54.0833,12.1333
 088.134.192.017@
-088.134.192.016@
 037.005.172.000=5 DE,Mecklenburg-Vorpommern,Rostock,54.0833,12.1333
 088.134.192.016@
+088.134.192.013@
+088.134.192.015@
 088.134.192.017@
 037.005.173.000=5 DE,Mecklenburg-Vorpommern,Rostock,54.0833,12.1333
-088.134.192.017@
 037.005.174.000=0 DE,Mecklenburg-Vorpommern,Rostock,54.0833,12.1333
 088.134.192.016@
-088.134.192.017@
 037.005.175.000=0 DE,Mecklenburg-Vorpommern,Rostock,54.0833,12.1333
 088.134.192.017@
-088.134.192.016@
-088.134.192.015~88-134-192-15-dynip.superkabel.de
+088.134.192.013@
+088.134.192.015@
 088.134.192.013~88-134-192-13-dynip.superkabel.de
+088.134.192.015~88-134-192-15-dynip.superkabel.de
+088.134.205.142~88-134-205-142-dynip.superkabel.de
+088.134.205.150~88-134-205-150-dynip.superkabel.de
 037.005.175.254=5+
 037.005.175.255=0*8
 =======16
 037.005.176.000=0 DE,Berlin,Berlin,52.4853,13.355
-088.134.192.005@
 037.005.177.000=0 DE,Berlin,Berlin,52.5167,13.4
-088.134.192.001@
-088.134.192.004@
 037.005.178.000=5 DE,Berlin,Berlin,52.5167,13.4
-088.134.192.004@
-088.134.192.005@
-088.134.192.003@
 037.005.179.000=5 DE,Berlin,Berlin,52.5167,13.4
-088.134.192.004@
-088.134.192.005@
-088.134.192.003@
-088.134.192.001@
 037.005.180.000=5 DE,Berlin,Berlin,52.5167,13.4
 037.005.180.000!0 DE,Bayern,Höchstadt,49.7143,10.8363
-088.134.192.001@
-088.134.192.005@
-088.134.192.004@
 037.005.181.000=5 DE,Berlin,Berlin,52.5167,13.4
-088.134.192.005@
 037.005.182.000=5 DE,Berlin,Berlin,52.5167,13.4
-088.134.192.004@
-088.134.192.005@
 037.005.183.000=0 DE,Berlin,Berlin,52.5167,13.4
-088.134.192.001@
-088.134.192.003@
-088.134.192.001~88-134-192-1-dynip.superkabel.de
-088.134.205.106~88-134-205-106-dynip.superkabel.de
-088.134.192.003~88-134-192-3-dynip.superkabel.de
-088.134.205.114~88-134-205-114-dynip.superkabel.de
 037.005.183.254=5+
 037.005.183.255=0*8
 =======8
@@ -2069,41 +1989,31 @@
 =======64
 037.005.192.000=2 DE,Bayern,München,48.15,11.5833
 037.005.192.000=2 DE,Bayern,Taufkirchen,48.05,11.6167
-088.134.222.105@
-088.134.194.021@
-088.134.194.020@
-088.134.222.097~88-134-222-97-dynip.superkabel.de
-088.134.194.019~88-134-194-19-dynip.superkabel.de
-088.134.194.020~88-134-194-20-dynip.superkabel.de
-088.134.194.022~88-134-194-22-dynip.superkabel.de
 037.005.192.254=1+
 037.005.192.255=0*1
 -------
-037.005.193.000=2 DE,Bayern,München,48.15,11.5833
-037.005.193.000=0 DE,Bayern,Grünwald,48.05,11.5167
-088.134.222.001@
+037.005.193.000=2 DE,Bayern,Regensburg,49.015,12.0956
+037.005.193.000!0 DE,Bayern,Grünwald,48.05,11.5167
 088.134.222.009@
-088.134.194.006@
-088.134.194.007~88-134-194-7-dynip.superkabel.de
-088.134.194.006~88-134-194-6-dynip.superkabel.de
-088.134.194.008~88-134-194-8-dynip.superkabel.de
+088.134.222.001@
+088.134.194.005~88-134-194-5-dynip.superkabel.de
 088.134.222.001~88-134-222-1-dynip.superkabel.de
+088.134.194.008~88-134-194-8-dynip.superkabel.de
 037.005.193.254=1+
 037.005.193.255=0*1
 -------
-037.005.194.000=2 DE,Bayern,München,48.15,11.5833
-037.005.194.000=2 DE,Bayern,Taufkirchen,48.05,11.6167
-088.134.194.007@
-088.134.222.009@
-088.134.222.001@
-037.005.195.000=5 DE,Bayern,Taufkirchen,48.05,11.6167
+037.005.194.000=2 DE,Bayern,Regensburg,49.015,12.0956
+037.005.194.000!0 DE,Bayern,Taufkirchen,48.05,11.6167
 088.134.222.001@
 088.134.222.009@
-088.134.194.005~88-134-194-5-dynip.superkabel.de
-088.134.194.006~88-134-194-6-dynip.superkabel.de
-088.134.194.008~88-134-194-8-dynip.superkabel.de
-088.134.194.007~88-134-194-7-dynip.superkabel.de
+037.005.195.000=5 DE,Bayern,Regensburg,49.015,12.0956
+037.005.195.000!0 DE,Bayern,Taufkirchen,48.05,11.6167
+088.134.222.001@
+088.134.194.006@
 088.134.222.009~88-134-222-9-dynip.superkabel.de
+088.134.194.007~88-134-194-7-dynip.superkabel.de
+088.134.194.008~88-134-194-8-dynip.superkabel.de
+088.134.194.006~88-134-194-6-dynip.superkabel.de
 037.005.195.254=1+
 037.005.195.255=0*2
 -------
@@ -2120,25 +2030,26 @@
 037.005.199.000=0 DE,Bayern,Weilheim,47.8333,11.15
 083.169.135.059@
 083.169.134.059@
-083.169.128.002~83-169-128-2.static.superkabel.de~DE,Bayern,München,48.15,11.5833
-083.169.128.086~83-169-128-86.static.superkabel.de~DE,Bayern,München,48.15,11.5833
 083.169.128.018~83-169-128-18.static.superkabel.de~DE,Bayern,München,48.15,11.5833
-083.169.128.022~83-169-128-22.static.superkabel.de~DE,Bayern,München,48.15,11.5833
-083.169.128.090~83-169-128-90.static.superkabel.de~DE,Bayern,München,48.15,11.5833
-083.169.128.030~83-169-128-30.static.superkabel.de~DE,Bayern,München,48.15,11.5833
 083.169.128.094~83-169-128-94.static.superkabel.de~DE,Bayern,München,48.15,11.5833
+083.169.128.086~83-169-128-86.static.superkabel.de~DE,Bayern,München,48.15,11.5833
+083.169.128.030~83-169-128-30.static.superkabel.de~DE,Bayern,München,48.15,11.5833
+083.169.128.022~83-169-128-22.static.superkabel.de~DE,Bayern,München,48.15,11.5833
+083.169.128.002~83-169-128-2.static.superkabel.de~DE,Bayern,München,48.15,11.5833
 083.169.128.098~83-169-128-98.static.superkabel.de~DE,Bayern,München,48.15,11.5833
+083.169.128.090~83-169-128-90.static.superkabel.de~DE,Bayern,München,48.15,11.5833
 037.005.199.254=1+
 037.005.199.255=0*4
 =======8
 037.005.200.000=0 DE,Bayern,Weilheim,47.8376,11.1489
+083.169.135.059@
 083.169.134.059@
 037.005.201.000=0 DE,Bayern,Weilheim,47.8333,11.15
-083.169.135.059@
 083.169.134.059@
+083.169.135.059@
 037.005.202.000=0 DE,Bayern,Weilheim,47.8376,11.1489
-083.169.135.059@
 083.169.134.059@
+083.169.135.059@
 037.005.203.000=5 DE,Bayern,Weilheim,47.8333,11.15
 083.169.135.059@
 083.169.134.059@
@@ -2155,77 +2066,68 @@
 037.005.207.000!0 DE,Bayern,Weilheim,47.8333,11.15
 083.169.135.059@
 083.169.134.059@
-083.169.128.086~83-169-128-86.static.superkabel.de~DE,Bayern,München,48.15,11.5833
-083.169.128.002~83-169-128-2.static.superkabel.de~DE,Bayern,München,48.15,11.5833
 083.169.128.090~83-169-128-90.static.superkabel.de~DE,Bayern,München,48.15,11.5833
+083.169.128.086~83-169-128-86.static.superkabel.de~DE,Bayern,München,48.15,11.5833
 083.169.128.030~83-169-128-30.static.superkabel.de~DE,Bayern,München,48.15,11.5833
-083.169.128.094~83-169-128-94.static.superkabel.de~DE,Bayern,München,48.15,11.5833
-083.169.128.022~83-169-128-22.static.superkabel.de~DE,Bayern,München,48.15,11.5833
 083.169.128.098~83-169-128-98.static.superkabel.de~DE,Bayern,München,48.15,11.5833
+083.169.128.022~83-169-128-22.static.superkabel.de~DE,Bayern,München,48.15,11.5833
 083.169.128.018~83-169-128-18.static.superkabel.de~DE,Bayern,München,48.15,11.5833
+083.169.128.094~83-169-128-94.static.superkabel.de~DE,Bayern,München,48.15,11.5833
+083.169.128.002~83-169-128-2.static.superkabel.de~DE,Bayern,München,48.15,11.5833
 037.005.207.254=1+
 037.005.207.255=0*8
 =======16
 037.005.208.000=2 DE,Bayern,München,48.15,11.5833
 088.134.220.075@
 088.134.220.067@
-088.134.193.184@
 037.005.209.000=5 DE,Bayern,München,48.15,11.5833
-088.134.193.184@
+088.134.220.067@
 088.134.220.075@
-088.134.220.067@
-037.005.210.000=5 DE,Bayern,München,48.15,11.5833
-088.134.193.184@
-088.134.220.067@
 088.134.193.185@
-088.134.220.075@
+088.134.193.184@
+037.005.210.000=5 DE,Bayern,München,48.15,11.5833
 037.005.211.000=5 DE,Bayern,München,48.15,11.5833
 088.134.220.075@
 088.134.220.067@
-088.134.193.184@
 037.005.212.000=5 DE,Bayern,München,48.15,11.5833
-088.134.220.075@
 088.134.220.067@
+088.134.220.075@
 088.134.193.184@
-088.134.193.185@
 037.005.213.000=0 DE,Bayern,München,48.15,11.5833
-088.134.220.075@
-088.134.220.067@
 088.134.193.184@
+088.134.220.067@
+088.134.220.075@
 037.005.214.000=0 DE,Bayern,München,48.15,11.5833
+088.134.220.075@
 088.134.220.067@
 088.134.193.184@
-088.134.220.075@
 037.005.215.000=0 DE,Bayern,München,48.1147,11.6972
 088.134.193.184@
 088.134.220.067@
-088.134.220.075@
 088.134.193.184~88-134-193-184-dynip.superkabel.de
-088.134.193.185~88-134-193-185-dynip.superkabel.de
-088.134.193.183~88-134-193-183-dynip.superkabel.de
 088.134.220.075~88-134-220-75-dynip.superkabel.de
 088.134.193.186~88-134-193-186-dynip.superkabel.de
+088.134.193.183~88-134-193-183-dynip.superkabel.de
 088.134.220.067~88-134-220-67-dynip.superkabel.de
+088.134.193.185~88-134-193-185-dynip.superkabel.de
 037.005.215.254=1+
 037.005.215.255=0*8
 =======8
 037.005.216.000=0 DE,Bayern,Bad Reichenhall,47.7333,12.8833
-083.169.134.188@
 083.169.135.188@
-083.169.128.090~83-169-128-90.static.superkabel.de~DE,Bayern,München,48.15,11.5833
-083.169.128.002~83-169-128-2.static.superkabel.de~DE,Bayern,München,48.15,11.5833
-083.169.128.030~83-169-128-30.static.superkabel.de~DE,Bayern,München,48.15,11.5833
+083.169.128.018~83-169-128-18.static.superkabel.de~DE,Bayern,München,48.15,11.5833
+083.169.128.094~83-169-128-94.static.superkabel.de~DE,Bayern,München,48.15,11.5833
 083.169.128.098~83-169-128-98.static.superkabel.de~DE,Bayern,München,48.15,11.5833
-083.169.128.022~83-169-128-22.static.superkabel.de~DE,Bayern,München,48.15,11.5833
+083.169.128.002~83-169-128-2.static.superkabel.de~DE,Bayern,München,48.15,11.5833
 037.005.216.254=1+
 037.005.216.255=0*1
 -------
 037.005.217.000=0 DE,Bayern,Miesbach,47.7861,11.8372
 083.169.135.137@
 083.169.134.137@
+083.169.128.098~83-169-128-98.static.superkabel.de~DE,Bayern,München,48.15,11.5833
 083.169.128.018~83-169-128-18.static.superkabel.de~DE,Bayern,München,48.15,11.5833
-083.169.128.086~83-169-128-86.static.superkabel.de~DE,Bayern,München,48.15,11.5833
-083.169.128.030~83-169-128-30.static.superkabel.de~DE,Bayern,München,48.15,11.5833
+083.169.128.090~83-169-128-90.static.superkabel.de~DE,Bayern,München,48.15,11.5833
 037.005.217.254=1+
 037.005.217.255=0*1
 -------
@@ -2240,30 +2142,33 @@
 037.005.219.000=0 DE,Bayern,Erding,48.3001,11.9082
 083.169.136.001@
 083.169.137.001@
-083.169.128.098~83-169-128-98.static.superkabel.de~DE,Bayern,München,48.15,11.5833
-083.169.128.022~83-169-128-22.static.superkabel.de~DE,Bayern,München,48.15,11.5833
+083.169.128.086~83-169-128-86.static.superkabel.de~DE,Bayern,München,48.15,11.5833
+083.169.128.002~83-169-128-2.static.superkabel.de~DE,Bayern,München,48.15,11.5833
 083.169.128.090~83-169-128-90.static.superkabel.de~DE,Bayern,München,48.15,11.5833
-083.169.128.018~83-169-128-18.static.superkabel.de~DE,Bayern,München,48.15,11.5833
-083.169.128.094~83-169-128-94.static.superkabel.de~DE,Bayern,München,48.15,11.5833
+083.169.128.030~83-169-128-30.static.superkabel.de~DE,Bayern,München,48.15,11.5833
+083.169.128.098~83-169-128-98.static.superkabel.de~DE,Bayern,München,48.15,11.5833
 037.005.219.254=1+
 037.005.219.255=0*1
 -------
 037.005.220.000=0 DE,Bayern,Memmingen,47.9826,10.1725
 083.169.134.099@
 083.169.135.099@
-083.169.128.022~83-169-128-22.static.superkabel.de~DE,Bayern,München,48.15,11.5833
 083.169.128.030~83-169-128-30.static.superkabel.de~DE,Bayern,München,48.15,11.5833
+083.169.128.002~83-169-128-2.static.superkabel.de~DE,Bayern,München,48.15,11.5833
+083.169.128.098~83-169-128-98.static.superkabel.de~DE,Bayern,München,48.15,11.5833
+083.169.128.018~83-169-128-18.static.superkabel.de~DE,Bayern,München,48.15,11.5833
+083.169.128.090~83-169-128-90.static.superkabel.de~DE,Bayern,München,48.15,11.5833
 037.005.220.254=1+
 037.005.220.255=0*1
 -------
 037.005.221.000=2 DE,Bayern,München,48.15,11.5833
 037.005.221.000=0 DE,Bayern,Höhenkirchen,48.0167,11.7167
-088.134.222.105@
+088.134.194.020@
 088.134.222.097@
-088.134.194.020~88-134-194-20-dynip.superkabel.de
+088.134.222.105@
 088.134.194.022~88-134-194-22-dynip.superkabel.de
-088.134.194.021~88-134-194-21-dynip.superkabel.de
-088.134.222.097~88-134-222-97-dynip.superkabel.de
+088.134.222.105~88-134-222-105-dynip.superkabel.de
+088.134.194.019~88-134-194-19-dynip.superkabel.de
 037.005.221.254=1+
 037.005.221.255=0*1
 -------
@@ -2273,11 +2178,11 @@
 037.005.223.000=0 DE,Bayern,Füssen,47.5667,10.7
 083.169.134.042@
 083.169.128.022~83-169-128-22.static.superkabel.de~DE,Bayern,München,48.15,11.5833
-083.169.128.090~83-169-128-90.static.superkabel.de~DE,Bayern,München,48.15,11.5833
 083.169.128.094~83-169-128-94.static.superkabel.de~DE,Bayern,München,48.15,11.5833
+083.169.128.018~83-169-128-18.static.superkabel.de~DE,Bayern,München,48.15,11.5833
 083.169.128.002~83-169-128-2.static.superkabel.de~DE,Bayern,München,48.15,11.5833
 083.169.128.030~83-169-128-30.static.superkabel.de~DE,Bayern,München,48.15,11.5833
-083.169.128.098~83-169-128-98.static.superkabel.de~DE,Bayern,München,48.15,11.5833
+083.169.128.086~83-169-128-86.static.superkabel.de~DE,Bayern,München,48.15,11.5833
 037.005.223.254=1+
 037.005.223.255=0*2
 =======32
@@ -2303,8 +2208,8 @@
 088.134.220.241@
 088.134.220.249@
 037.005.231.000=0 DE,Bayern,Altötting,48.2333,12.6833
-088.134.220.241@
 088.134.220.249@
+088.134.220.241@
 088.134.194.017~88-134-194-17-dynip.superkabel.de
 088.134.194.018~88-134-194-18-dynip.superkabel.de
 037.005.231.254=1+
@@ -2318,10 +2223,9 @@
 083.169.135.083@
 083.169.128.098~83-169-128-98.static.superkabel.de~DE,Bayern,München,48.15,11.5833
 083.169.128.002~83-169-128-2.static.superkabel.de~DE,Bayern,München,48.15,11.5833
-083.169.128.086~83-169-128-86.static.superkabel.de~DE,Bayern,München,48.15,11.5833
+083.169.128.094~83-169-128-94.static.superkabel.de~DE,Bayern,München,48.15,11.5833
 083.169.128.090~83-169-128-90.static.superkabel.de~DE,Bayern,München,48.15,11.5833
-083.169.128.022~83-169-128-22.static.superkabel.de~DE,Bayern,München,48.15,11.5833
-083.169.128.030~83-169-128-30.static.superkabel.de~DE,Bayern,München,48.15,11.5833
+083.169.128.018~83-169-128-18.static.superkabel.de~DE,Bayern,München,48.15,11.5833
 037.005.233.254=1+
 037.005.233.255=0*2
 -------
@@ -2330,42 +2234,34 @@
 037.005.235.000=5 DE,Bayern,Hof,50.3167,11.9167
 083.169.133.097@
 083.169.132.097@
-088.134.238.117~88-134-238-117-dynip.superkabel.de~DE,Bayern,Nürnberg,49.4478,11.0683
-088.134.237.093~88-134-237-93-dynip.superkabel.de~DE,Bayern,Nürnberg,49.4478,11.0683
-088.134.238.121~88-134-238-121-dynip.superkabel.de~DE,Bayern,Nürnberg,49.4478,11.0683
 088.134.238.113~88-134-238-113-dynip.superkabel.de~DE,Bayern,Nürnberg,49.4478,11.0683
+088.134.238.121~88-134-238-121-dynip.superkabel.de~DE,Bayern,Nürnberg,49.4478,11.0683
 088.134.237.097~88-134-237-97-dynip.superkabel.de~DE,Bayern,Nürnberg,49.4478,11.0683
+088.134.237.093~88-134-237-93-dynip.superkabel.de~DE,Bayern,Nürnberg,49.4478,11.0683
+088.134.238.117~88-134-238-117-dynip.superkabel.de~DE,Bayern,Nürnberg,49.4478,11.0683
 037.005.235.254=1+
 037.005.235.255=0*2
 -------
 037.005.236.000=2 DE,Bayern,München,48.15,11.5833
 037.005.236.000!0 DE,Bayern,Augsburg,48.3667,10.8833
-088.134.222.097@
 088.134.222.105@
+088.134.194.021@
+088.134.222.097@
 037.005.237.000=0 DE,Bayern,Unterhaching,48.05,11.6333
-088.134.222.097@
 088.134.222.105@
-088.134.194.022~88-134-194-22-dynip.superkabel.de
-088.134.222.105~88-134-222-105-dynip.superkabel.de
-088.134.194.021~88-134-194-21-dynip.superkabel.de
+088.134.194.021@
+088.134.194.020@
+088.134.222.097@
 088.134.194.020~88-134-194-20-dynip.superkabel.de
 088.134.194.019~88-134-194-19-dynip.superkabel.de
+088.134.194.022~88-134-194-22-dynip.superkabel.de
+088.134.194.021~88-134-194-21-dynip.superkabel.de
 037.005.237.254=1+
 037.005.237.255=0*2
 -------
 037.005.238.000=0 DE,Bayern,Traunstein,47.8833,12.65
 037.005.238.000=0 DE,Bayern,Siegsdorf,47.8333,12.65
-083.169.135.153@
 037.005.239.000=0 DE,Bayern,Siegsdorf,47.8333,12.65
-083.169.134.153@
-083.169.135.153@
-083.169.128.018~83-169-128-18.static.superkabel.de~DE,Bayern,München,48.15,11.5833
-083.169.128.090~83-169-128-90.static.superkabel.de~DE,Bayern,München,48.15,11.5833
-083.169.128.002~83-169-128-2.static.superkabel.de~DE,Bayern,München,48.15,11.5833
-083.169.128.098~83-169-128-98.static.superkabel.de~DE,Bayern,München,48.15,11.5833
-083.169.128.030~83-169-128-30.static.superkabel.de~DE,Bayern,München,48.15,11.5833
-083.169.128.094~83-169-128-94.static.superkabel.de~DE,Bayern,München,48.15,11.5833
-083.169.128.022~83-169-128-22.static.superkabel.de~DE,Bayern,München,48.15,11.5833
 037.005.239.254=1+
 037.005.239.255=0*2
 =======16
@@ -2385,11 +2281,12 @@
 083.169.134.017@
 037.005.243.000=5 DE,Bayern,Kempten,47.7167,10.3167
 083.169.135.017@
+083.169.128.090~83-169-128-90.static.superkabel.de~DE,Bayern,München,48.15,11.5833
 083.169.128.094~83-169-128-94.static.superkabel.de~DE,Bayern,München,48.15,11.5833
 083.169.128.018~83-169-128-18.static.superkabel.de~DE,Bayern,München,48.15,11.5833
-083.169.128.090~83-169-128-90.static.superkabel.de~DE,Bayern,München,48.15,11.5833
-083.169.128.002~83-169-128-2.static.superkabel.de~DE,Bayern,München,48.15,11.5833
 083.169.128.086~83-169-128-86.static.superkabel.de~DE,Bayern,München,48.15,11.5833
+083.169.128.022~83-169-128-22.static.superkabel.de~DE,Bayern,München,48.15,11.5833
+083.169.128.030~83-169-128-30.static.superkabel.de~DE,Bayern,München,48.15,11.5833
 037.005.243.254=1+
 037.005.243.255=0*2
 -------
@@ -2397,12 +2294,11 @@
 083.169.135.050@
 083.169.134.050@
 037.005.245.000=0 DE,Bayern,Kaufbeuren,47.8943,10.6319
-083.169.135.050@
-083.169.134.050@
-083.169.128.022~83-169-128-22.static.superkabel.de~DE,Bayern,München,48.15,11.5833
-083.169.128.018~83-169-128-18.static.superkabel.de~DE,Bayern,München,48.15,11.5833
-083.169.128.094~83-169-128-94.static.superkabel.de~DE,Bayern,München,48.15,11.5833
 083.169.128.030~83-169-128-30.static.superkabel.de~DE,Bayern,München,48.15,11.5833
+083.169.128.018~83-169-128-18.static.superkabel.de~DE,Bayern,München,48.15,11.5833
+083.169.128.086~83-169-128-86.static.superkabel.de~DE,Bayern,München,48.15,11.5833
+083.169.128.090~83-169-128-90.static.superkabel.de~DE,Bayern,München,48.15,11.5833
+083.169.128.002~83-169-128-2.static.superkabel.de~DE,Bayern,München,48.15,11.5833
 037.005.245.254=1+
 037.005.245.255=0*2
 -------
@@ -2413,11 +2309,10 @@
 037.005.247.000!0 DE,Bayern,Aschaffenburg,49.9739,9.1492
 083.169.132.011@
 088.134.237.093~88-134-237-93-dynip.superkabel.de~DE,Bayern,Nürnberg,49.4478,11.0683
-088.134.238.113~88-134-238-113-dynip.superkabel.de~DE,Bayern,Nürnberg,49.4478,11.0683
-088.134.237.101~88-134-237-101-dynip.superkabel.de~DE,Bayern,Nürnberg,49.4478,11.0683
 088.134.238.117~88-134-238-117-dynip.superkabel.de~DE,Bayern,Nürnberg,49.4478,11.0683
 088.134.237.097~88-134-237-97-dynip.superkabel.de~DE,Bayern,Nürnberg,49.4478,11.0683
-088.134.238.121~88-134-238-121-dynip.superkabel.de~DE,Bayern,Nürnberg,49.4478,11.0683
+088.134.238.113~88-134-238-113-dynip.superkabel.de~DE,Bayern,Nürnberg,49.4478,11.0683
+088.134.237.101~88-134-237-101-dynip.superkabel.de~DE,Bayern,Nürnberg,49.4478,11.0683
 037.005.247.254=1+
 037.005.247.255=0*2
 =======8
@@ -2426,58 +2321,57 @@
 083.169.133.114@
 037.005.249.000=0 DE,Bayern,Amberg,49.4502,11.848
 083.169.133.114@
-083.169.132.114@
+088.134.237.093~88-134-237-93-dynip.superkabel.de~DE,Bayern,Nürnberg,49.4478,11.0683
+088.134.238.117~88-134-238-117-dynip.superkabel.de~DE,Bayern,Nürnberg,49.4478,11.0683
 088.134.237.097~88-134-237-97-dynip.superkabel.de~DE,Bayern,Nürnberg,49.4478,11.0683
 088.134.238.121~88-134-238-121-dynip.superkabel.de~DE,Bayern,Nürnberg,49.4478,11.0683
-088.134.238.113~88-134-238-113-dynip.superkabel.de~DE,Bayern,Nürnberg,49.4478,11.0683
-088.134.237.093~88-134-237-93-dynip.superkabel.de~DE,Bayern,Nürnberg,49.4478,11.0683
+088.134.237.101~88-134-237-101-dynip.superkabel.de~DE,Bayern,Nürnberg,49.4478,11.0683
 037.005.249.254=1+
 037.005.249.255=0*2
 -------
 037.005.250.000=0 DE,Bayern,Mühldorf,48.25,12.5333
 037.005.250.000=0 DE,Bayern,Waldkraiburg,48.2058,12.41
 083.169.137.019@
+083.169.136.019@
 083.169.128.094~83-169-128-94.static.superkabel.de~DE,Bayern,München,48.15,11.5833
 083.169.128.086~83-169-128-86.static.superkabel.de~DE,Bayern,München,48.15,11.5833
 083.169.128.002~83-169-128-2.static.superkabel.de~DE,Bayern,München,48.15,11.5833
-083.169.128.090~83-169-128-90.static.superkabel.de~DE,Bayern,München,48.15,11.5833
-083.169.128.018~83-169-128-18.static.superkabel.de~DE,Bayern,München,48.15,11.5833
 037.005.250.254=1+
 037.005.250.255=0*1
 -------
 037.005.251.000=0 DE,Bayern,Eching,48.3,11.6167
 083.169.135.202@
-083.169.128.098~83-169-128-98.static.superkabel.de~DE,Bayern,München,48.15,11.5833
+083.169.128.094~83-169-128-94.static.superkabel.de~DE,Bayern,München,48.15,11.5833
 083.169.128.002~83-169-128-2.static.superkabel.de~DE,Bayern,München,48.15,11.5833
-083.169.128.022~83-169-128-22.static.superkabel.de~DE,Bayern,München,48.15,11.5833
+083.169.128.090~83-169-128-90.static.superkabel.de~DE,Bayern,München,48.15,11.5833
+083.169.128.030~83-169-128-30.static.superkabel.de~DE,Bayern,München,48.15,11.5833
 037.005.251.254=1+
 037.005.251.255=0*1
 -------
 037.005.252.000=0 DE,Bayern,München,48.15,11.5833
 037.005.252.000!0 DE,Bayern,Kleinwallstadt,49.8719,9.1678
+088.134.222.201@
 088.134.222.193@
 088.134.194.015@
 037.005.253.000=0 DE,Bayern,München,48.15,11.5833
 037.005.253.000!0 DE,Bayern,Obernburg,49.84,9.1414
-088.134.194.014@
-088.134.194.015@
 088.134.222.193@
-088.134.222.201@
+088.134.194.014@
 037.005.254.000=5 DE,Bayern,München,48.15,11.5833
 037.005.254.000!0 DE,Bayern,Großwallstadt,49.8833,9.1667
-088.134.222.201@
 088.134.222.193@
+088.134.222.201@
 037.005.255.000=0 DE,Bayern,München,48.15,11.5833
 037.005.255.000!0 DE,Bayern,Kleinwallstadt,49.8719,9.1678
-088.134.194.014@
+088.134.222.201@
 088.134.194.015@
 088.134.222.193@
+088.134.194.014~88-134-194-14-dynip.superkabel.de
+088.134.222.201~88-134-222-201-dynip.superkabel.de
+088.134.194.013~88-134-194-13-dynip.superkabel.de~DE,Bayern,München,48.15,11.5833
+088.134.222.193~88-134-222-193-dynip.superkabel.de
 088.134.194.016~88-134-194-16-dynip.superkabel.de
 088.134.194.015~88-134-194-15-dynip.superkabel.de
-088.134.194.013~88-134-194-13-dynip.superkabel.de~DE,Bayern,München,48.15,11.5833
-088.134.194.014~88-134-194-14-dynip.superkabel.de
-088.134.222.193~88-134-222-193-dynip.superkabel.de
-088.134.222.201~88-134-222-201-dynip.superkabel.de
 037.005.255.254=1+
 037.005.255.255=0*4
 =======256

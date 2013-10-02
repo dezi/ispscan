@@ -546,7 +546,7 @@ kappa.InitializeMenu = function()
 	{
 		var ce = document.createElement('span');
 		ce.style.display	 	 = 'inline-block'
-		ce.style.width  	 	 = '41px';
+		ce.style.width  	 	 = '34px';
 		ce.style.height		 	 = '15px';
 		ce.style.textAlign   	 = 'center';
 		ce.style.borderRight 	 = '1px solid grey';
@@ -565,7 +565,7 @@ kappa.InitializeMenu = function()
 	{
 		var pe = document.createElement('span');
 		pe.style.display	 	 = 'inline-block'
-		pe.style.width  	 	 = '41px';
+		pe.style.width  	 	 = '34px';
 		pe.style.height 	 	 = '15px';
 		pe.style.textAlign   	 = 'center';
 		pe.style.borderRight 	 = '1px solid grey';
@@ -584,7 +584,7 @@ kappa.InitializeMenu = function()
 	{
 		var ep = document.createElement('span');
 		ep.style.display	 	 = 'inline-block'
-		ep.style.width  	 	 = '41px';
+		ep.style.width  	 	 = '34px';
 		ep.style.height 	 	 = '15px';
 		ep.style.textAlign   	 = 'center';
 		ep.style.borderRight 	 = '1px solid grey';

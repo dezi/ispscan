@@ -115,41 +115,42 @@
 213.039.220.000=0 DE,Hamburg,Hamburg,53.55,10
 213.039.221.000=0 DE,Hamburg,Hamburg,53.55,10
 213.039.222.000=0 DE,Hamburg,Hamburg,53.55,10
-062.109.067.250@
-062.109.067.242@
+213.191.066.182@
+213.191.066.174@
 213.039.223.000=0 DE,,,51,9
-213.191.087.217~so-0-1-0-0.cr01.weham.de.hansenet.net
-213.191.066.013~so-0-0-0-0.cr01.weham.de.hansenet.net
+084.016.007.234~HANSENET-0-0-grtdusix1.red.telefonica-wholesale.net
 213.039.223.255=0*8
 =======32
 213.039.224.000=0 DE,Hamburg,Hamburg,53.55,10
-062.109.072.038@
-062.109.067.038@
+062.109.072.002@
+062.109.067.006@
+062.109.067.002@
 213.039.225.000=0 DE,Hamburg,Hamburg,53.55,10
-062.109.067.038@
-062.109.072.038@
+062.109.072.002@
+062.109.072.006@
+062.109.067.002@
 213.039.226.000=0 DE,,,51,9
 213.039.227.000=0 DE,Hamburg,Hamburg,53.55,10
-062.109.067.254@
+213.191.066.174@
+213.191.066.182@
 213.039.228.000=0 DE,Hamburg,Hamburg,53.55,10
-062.109.067.246@
-062.109.067.254@
+062.109.067.250@
+062.109.067.242@
 213.039.229.000=0 DE,,,51,9
 213.039.230.000=0 DE,Hamburg,Hamburg,53.55,10
+062.109.067.250@
 062.109.067.242@
-062.109.067.254@
+213.039.231.000=0 DE,Hamburg,Hamburg,53.55,10
+062.109.067.242@
 062.109.067.250@
 062.109.067.246@
-213.039.231.000=0 DE,Hamburg,Hamburg,53.55,10
-062.109.067.254@
-062.109.067.246@
-213.191.066.174~ae4-0.xd01.weham.de.hansenet.net
-213.191.066.182~ae4-0.xd02.weham.de.hansenet.net
-213.191.087.237~so-0-1-0-0.cr01.asham.de.hansenet.net
 213.191.066.017~so-0-0-0-0.cr01.asham.de.hansenet.net
+213.191.087.237~so-0-1-0-0.cr01.asham.de.hansenet.net
+213.191.087.217~so-0-1-0-0.cr01.weham.de.hansenet.net
 213.191.087.137~so-0-2-0-0.cr01.asham.de.hansenet.net
-213.191.066.074~ae2-0.cr01.weham.de.hansenet.net
-213.191.066.078~ae2-0.cr01.asham.de.hansenet.net
+213.191.066.013~so-0-0-0-0.cr01.weham.de.hansenet.net
+084.016.007.234~HANSENET-0-0-grtdusix1.red.telefonica-wholesale.net
+213.191.087.129~so-0-2-0-0.cr01.weham.de.hansenet.net
 213.039.231.255=0*8
 =======8
 213.039.232.000=0 DE,Schleswig-Holstein,Wedel,53.5837,9.7234
@@ -157,90 +158,95 @@
 213.039.233.000=0 DE,Schleswig-Holstein,Wedel,53.5833,9.7167
 062.109.127.101@
 213.039.234.000=0 DE,,,51,9
-062.109.116.205@
-062.109.118.041@
+062.109.117.205@
 062.109.119.041@
+062.109.118.041@
 213.039.235.000=0 DE,,,51,9
 213.039.236.000=0 DE,Hamburg,Hamburg,53.55,10
-213.191.087.217@
-213.191.087.129@
+062.109.067.249@
+062.109.067.245@
+062.109.067.253@
 213.039.237.000=0 DE,Hamburg,Hamburg,53.55,10
 213.191.084.200@
 213.039.238.000=0 DE,Hamburg,Hamburg,53.55,10
 213.191.084.196@
 213.039.239.000=0 DE,Hamburg,Hamburg,53.55,10
 062.109.067.250@
-062.109.067.242@
 062.109.067.254@
 062.109.067.246@
-062.109.072.129~gi0-0-0.er03.asham.de.hansenet.net
 062.109.072.125~gi0-0-2.er03.asham.de.hansenet.net~DE,Hamburg,Hamburg,53.55,10
 062.109.067.137~gi1-0-0.er03.asham.de.hansenet.net
 062.109.067.133~gi1-0-2.er03.asham.de.hansenet.net
-062.109.067.253~ae8-0.cr01.asham.de.hansenet.net~DE,Hamburg,Hamburg,53.55,10
-213.191.066.174~ae4-0.xd01.weham.de.hansenet.net
-213.191.066.182~ae4-0.xd02.weham.de.hansenet.net
-213.191.090.115~213.191.90.115
-213.191.090.119~213.191.90.119
-062.109.067.006~ae1-0.xd02.asham.de.hansenet.net
-062.109.072.006~ae1-0.xd01.asham.de.hansenet.net
-062.109.067.002~ae0-0.xd02.asham.de.hansenet.net
-062.109.067.246~ae1-0.xd01.weham.de.hansenet.net
-062.109.067.254~ae1-0.xd02.weham.de.hansenet.net
-213.191.066.074~ae2-0.cr01.weham.de.hansenet.net
+062.109.072.129~gi0-0-0.er03.asham.de.hansenet.net
 213.191.066.078~ae2-0.cr01.asham.de.hansenet.net
+062.109.067.242~ae0-0.xd01.weham.de.hansenet.net
+062.109.067.254~ae1-0.xd02.weham.de.hansenet.net
+213.191.066.182~ae4-0.xd02.weham.de.hansenet.net
+213.191.066.174~ae4-0.xd01.weham.de.hansenet.net
+062.109.072.006~ae1-0.xd01.asham.de.hansenet.net
+062.109.072.002~ae0-0.xd01.asham.de.hansenet.net
+062.109.067.002~ae0-0.xd02.asham.de.hansenet.net
+062.109.067.006~ae1-0.xd02.asham.de.hansenet.net
+062.109.067.250~ae0-0.xd02.weham.de.hansenet.net
+062.109.067.246~ae1-0.xd01.weham.de.hansenet.net
+213.191.087.129~so-0-2-0-0.cr01.weham.de.hansenet.net
+213.191.087.237~so-0-1-0-0.cr01.asham.de.hansenet.net
+213.191.087.137~so-0-2-0-0.cr01.asham.de.hansenet.net
 213.039.239.255=0*8
 =======16
 213.039.240.000=0 DE,Nordrhein-Westfalen,Paderborn,51.7273,8.7706
-062.109.122.012@
+062.109.122.076@
 213.191.066.078@
 213.039.240.019@
 213.039.241.000=0 DE,,,51,9
-062.109.067.002@
-213.191.090.119@
-213.191.090.115@
-062.053.003.034@
-213.191.066.230@
+213.191.066.182@
+062.109.067.038@
+213.191.087.138@
+062.053.002.214@
 213.039.242.000=0 DE,Hamburg,Hamburg,53.55,10
-062.109.067.250@
 062.109.067.246@
 062.109.067.242@
 062.109.067.254@
+062.109.067.250@
 213.039.243.000=0 DE,Hamburg,Hamburg,53.55,10
 213.191.084.196@
 085.183.191.018@
+172.026.029.072@
 213.039.244.000=0 DE,Hamburg,Hamburg,53.55,10
 213.191.084.192@
+213.039.244.051@
+213.191.087.237@
+213.191.066.017@
 213.039.245.000=0 DE,Schleswig-Holstein,Halstenbek,53.6333,9.85
 213.191.084.192@
 213.039.246.000=0 DE,Hamburg,Hamburg,53.6082,9.9694
 213.191.084.192@
-172.026.024.066@
-172.026.023.168@
 213.039.247.000=0 DE,,,51,9
 213.191.084.192@
 213.191.066.078~ae2-0.cr01.asham.de.hansenet.net
 062.109.069.169~62.109.69.169
 062.109.069.155~62.109.69.155
 213.039.240.018~213.39.240.18
-213.191.087.237~so-0-1-0-0.cr01.asham.de.hansenet.net
-213.191.090.130~213.191.90.130
-213.191.090.126~213.191.90.126
-213.191.087.162~so-5-0-0-0.cr02.muc.de.hansenet.net~DE,Bayern,München,48.15,11.5833
-213.191.090.115~213.191.90.115
-213.191.066.074~ae2-0.cr01.weham.de.hansenet.net
+084.016.007.234~HANSENET-0-0-grtdusix1.red.telefonica-wholesale.net
 213.191.066.182~ae4-0.xd02.weham.de.hansenet.net
-213.191.084.196~lo1.br01.weham.de.hansenet.net
-213.191.066.174~ae4-0.xd01.weham.de.hansenet.net
 062.109.067.245~ae7-0.cr01.asham.de.hansenet.net~DE,Hamburg,Hamburg,53.55,10
-062.109.067.241~ae7-0.cr01.weham.de.hansenet.net~DE,Hamburg,Hamburg,53.55,10
-213.191.066.013~so-0-0-0-0.cr01.weham.de.hansenet.net
-213.191.084.192~lo1.br01.acham.de.hansenet.net
-213.191.066.017~so-0-0-0-0.cr01.asham.de.hansenet.net
+213.191.066.070~so-5-1-0-0.cr01.muc.de.hansenet.net~DE,Bayern,München,48.15,11.5833
+213.191.087.237~so-0-1-0-0.cr01.asham.de.hansenet.net
+213.191.087.217~so-0-1-0-0.cr01.weham.de.hansenet.net
 213.191.087.137~so-0-2-0-0.cr01.asham.de.hansenet.net
+062.109.067.246~ae1-0.xd01.weham.de.hansenet.net
+213.191.084.196~lo1.br01.weham.de.hansenet.net
+062.109.067.254~ae1-0.xd02.weham.de.hansenet.net
+213.191.066.013~so-0-0-0-0.cr01.weham.de.hansenet.net
+172.026.018.125~172.26.18.125
+213.191.090.117~213.191.90.117
+213.191.066.074~ae2-0.cr01.weham.de.hansenet.net
+062.109.067.241~ae7-0.cr01.weham.de.hansenet.net~DE,Hamburg,Hamburg,53.55,10
+062.109.067.253~ae8-0.cr01.asham.de.hansenet.net~DE,Hamburg,Hamburg,53.55,10
 213.039.247.255=0*8
 =======8
 213.039.248.000=0 DE,Hamburg,Hamburg,53.55,10
+172.026.027.228@
 213.191.084.196@
 213.039.249.000=0 DE,Hamburg,Hamburg,53.55,10
 213.191.084.196@
@@ -248,48 +254,43 @@
 085.183.191.003@
 213.039.250.000=0 DE,Hamburg,Hamburg,53.55,10
 213.191.084.196@
-062.109.117.205@
+062.109.116.205@
 085.183.027.254@
-062.109.116.010@
-062.109.067.246@
+062.109.117.010@
+062.109.067.242@
 213.039.251.000=0 DE,Hamburg,Hamburg,53.55,10
-213.191.084.196@
-172.026.027.243@
+062.109.067.137@
+062.109.072.125@
 213.039.252.000=0 DE,Hamburg,Hamburg,53.55,10
 062.109.070.105@
-062.109.067.006@
-062.109.072.006@
-062.109.072.002@
 213.191.084.200@
+062.109.067.038@
 213.039.253.000=0 DE,Hamburg,Hamburg,53.55,10
 213.191.084.200@
 213.191.084.202@
 213.039.254.000=0 DE,Hamburg,Hamburg,53.55,10
-062.109.072.038@
-062.109.067.038@
-062.109.119.041@
-213.039.255.000=0 DE,Hamburg,Hamburg,53.55,10
-062.109.067.006@
-062.109.072.002@
 062.109.067.002@
 062.109.072.006@
-213.191.066.174~ae4-0.xd01.weham.de.hansenet.net
-062.109.067.246~ae1-0.xd01.weham.de.hansenet.net
+062.109.118.041@
+213.039.255.000=0 DE,Hamburg,Hamburg,53.55,10
+062.109.067.006@
+062.109.072.006@
 213.191.084.196~lo1.br01.weham.de.hansenet.net
-062.109.067.254~ae1-0.xd02.weham.de.hansenet.net
 062.109.067.250~ae0-0.xd02.weham.de.hansenet.net
-213.191.066.074~ae2-0.cr01.weham.de.hansenet.net
-062.109.117.205~62.109.117.205
-213.191.066.078~ae2-0.cr01.asham.de.hansenet.net
-062.109.069.002~ae0-0.xd01.fra.de.hansenet.net~DE,Hessen,Frankfurt Am Main,50.1167,8.6833
-213.191.087.217~so-0-1-0-0.cr01.weham.de.hansenet.net
-213.191.066.013~so-0-0-0-0.cr01.weham.de.hansenet.net
+062.109.067.242~ae0-0.xd01.weham.de.hansenet.net
+062.109.067.254~ae1-0.xd02.weham.de.hansenet.net
 213.191.066.017~so-0-0-0-0.cr01.asham.de.hansenet.net
-062.109.072.006~ae1-0.xd01.asham.de.hansenet.net
+062.109.117.205~62.109.117.205
+213.191.087.129~so-0-2-0-0.cr01.weham.de.hansenet.net
 062.109.067.038~ae2-0.xd02.asham.de.hansenet.net~DE,Hamburg,Hamburg,53.55,10
 062.109.072.038~ae2-0.xd01.asham.de.hansenet.net~DE,Hamburg,Hamburg,53.55,10
+062.109.070.000~62.109.70.0~DE,Hessen,Frankfurt Am Main,50.1167,8.6833
 213.191.066.182~ae4-0.xd02.weham.de.hansenet.net
-213.191.087.137~so-0-2-0-0.cr01.asham.de.hansenet.net
-213.191.087.237~so-0-1-0-0.cr01.asham.de.hansenet.net
+062.109.067.006~ae1-0.xd02.asham.de.hansenet.net
+062.109.067.002~ae0-0.xd02.asham.de.hansenet.net
+213.191.066.078~ae2-0.cr01.asham.de.hansenet.net
+213.191.066.074~ae2-0.cr01.weham.de.hansenet.net
+213.191.087.217~so-0-1-0-0.cr01.weham.de.hansenet.net
+213.191.066.013~so-0-0-0-0.cr01.weham.de.hansenet.net
 213.039.255.255=0*8
 =======256

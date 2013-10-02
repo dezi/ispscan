@@ -131,6 +131,8 @@ function ComputeEvents($isp,$what)
 						{
 							unset($json[ $ip ][ $laststamp ]);
 							$changed = $reorg = 2;
+							
+							echo "$ip => $reorg => $laststamp\n";
 						}
 
 						if (($time != -1) && ($lasttime == -1) && ($bfortime != -1))
@@ -155,6 +157,8 @@ function ComputeEvents($isp,$what)
 							{
 								unset($json[ $ip ][ $laststamp ]);
 								$changed = $reorg = 5;
+								
+								echo "$ip => $reorg => $laststamp\n";
 							}
 						}
 					}
@@ -402,12 +406,19 @@ function ComputeEvents($isp,$what)
 	WriteEvent   ("de/tf");
 	WriteEvent   ("de/vf");
 	
-	ComputeEvents("de/vf","eplping");
-	ComputeEvents("de/vf","uplping");
-	ComputeEvents("de/vf","bblping");
-	ComputeEvents("de/vf","gwyping");
-	ComputeEvents("de/vf","webping");
-	ComputeEvents("de/vf","endping");
+	ComputeEvents("de/um","eplping");
+	ComputeEvents("de/um","uplping");
+	ComputeEvents("de/um","bblping");
+	ComputeEvents("de/um","gwyping");
+	ComputeEvents("de/um","webping");
+	ComputeEvents("de/um","endping");
+	
+	ComputeEvents("de/kb","eplping");
+	ComputeEvents("de/kb","uplping");
+	ComputeEvents("de/kb","bblping");
+	ComputeEvents("de/kb","gwyping");
+	ComputeEvents("de/kb","webping");
+	ComputeEvents("de/kb","endping");
 
 	ComputeEvents("de/kd","eplping");
 	ComputeEvents("de/kd","uplping");
@@ -416,6 +427,13 @@ function ComputeEvents($isp,$what)
 	ComputeEvents("de/kd","webping");
 	ComputeEvents("de/kd","endping");
 	
+	ComputeEvents("de/vf","eplping");
+	ComputeEvents("de/vf","uplping");
+	ComputeEvents("de/vf","bblping");
+	ComputeEvents("de/vf","gwyping");
+	ComputeEvents("de/vf","webping");
+	ComputeEvents("de/vf","endping");
+
 	ComputeEvents("de/tk","uplping");
 	ComputeEvents("de/tk","bblping");
 	ComputeEvents("de/tk","gwyping");

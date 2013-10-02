@@ -1,8 +1,6 @@
 037.201.000.000=0 DE,,,51,9
-080.069.102.138@
-080.069.107.026@
-080.069.107.026~13NOC-MX960-01-ae8.krp.unity-media.net
-081.210.129.234~7111A-MX960-01-ae1.fra.unity-media.net
+080.069.107.201@
+080.069.107.005~13NOC-MX960-02-ae9.krp.unity-media.net
 037.201.000.255=0^1
 -------
 037.201.001.000=0 DE,Nordrhein-Westfalen,Neuss,51.2,6.6833
@@ -16,7 +14,7 @@
 081.210.130.078@
 037.201.003.000=0 DE,Nordrhein-Westfalen,Ruhne,51.5167,7.95
 081.210.130.078@
-080.069.107.158~1711A-MX960-02-ae1.soe.unity-media.net
+080.069.107.161~1711A-MX960-02-ae0.soe.unity-media.net
 037.201.003.255=0*2
 -------
 037.201.004.000=0 DE,Nordrhein-Westfalen,Münster,51.9667,7.6333
@@ -47,8 +45,8 @@
 081.210.130.030@
 037.201.015.000=0 DE,Nordrhein-Westfalen,Stolberg,50.7667,6.2333
 081.210.130.030@
-080.069.106.201~1313A-MX960-02-ae1.aah.unity-media.net
 080.069.106.198~1313A-MX960-02-ae0.aah.unity-media.net
+080.069.106.201~1313A-MX960-02-ae1.aah.unity-media.net
 037.201.015.255=0*8
 =======16
 037.201.016.000=0 DE,Nordrhein-Westfalen,Dortmund,51.5167,7.45
@@ -59,8 +57,8 @@
 080.069.106.014@
 037.201.019.000=0 DE,Nordrhein-Westfalen,Castrop-Rauxel,51.55,7.3167
 080.069.106.014@
-080.069.107.210~1211F-MX960-02-ae0.dtm.unity-media.net
 080.069.107.021~1211F-MX960-02-ae9.dtm.unity-media.net
+080.069.107.210~1211F-MX960-02-ae0.dtm.unity-media.net
 037.201.019.255=0*4
 -------
 037.201.020.000=0 DE,Nordrhein-Westfalen,Hemer,51.3756,7.7697
@@ -96,8 +94,8 @@
 080.069.103.118@
 037.201.031.000=0 DE,Nordrhein-Westfalen,Dortmund,51.5167,7.45
 080.069.103.118@
-080.069.107.210~1211F-MX960-02-ae0.dtm.unity-media.net
 080.069.107.021~1211F-MX960-02-ae9.dtm.unity-media.net
+080.069.107.210~1211F-MX960-02-ae0.dtm.unity-media.net
 037.201.031.255=0*4
 =======32
 037.201.032.000=0 DE,Hessen,Bad Nauheim,50.3667,8.75
@@ -148,6 +146,7 @@
 037.201.049.000=0 DE,Nordrhein-Westfalen,Kamen,51.6,7.6667
 080.069.105.086@
 080.069.107.021~1211F-MX960-02-ae9.dtm.unity-media.net
+080.069.107.210~1211F-MX960-02-ae0.dtm.unity-media.net
 037.201.049.255=0*2
 -------
 037.201.050.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
@@ -155,6 +154,7 @@
 037.201.051.000=0 DE,Hessen,Frankfurt Am Main,50.1167,8.6833
 081.210.130.054@
 080.069.107.214~7111A-MX960-02-ae0.fra.unity-media.net
+080.069.107.022~7111A-MX960-02-ae9.fra.unity-media.net
 037.201.051.255=0*2
 -------
 037.201.052.000=0 DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
@@ -237,8 +237,8 @@
 081.210.131.142@
 037.201.083.000=0 DE,Nordrhein-Westfalen,Jülich,50.9253,6.3627
 081.210.131.142@
-080.069.107.201~13NOC-MX960-01-ae0.krp.unity-media.net
 080.069.107.026~13NOC-MX960-01-ae8.krp.unity-media.net
+080.069.107.201~13NOC-MX960-01-ae0.krp.unity-media.net
 037.201.083.255=0*4
 -------
 037.201.084.000=0 DE,,,51,9
@@ -276,6 +276,7 @@
 081.210.130.038@
 037.201.098.000=0 DE,Nordrhein-Westfalen,Paderborn,51.7136,8.7554
 037.201.099.000=0 DE,Nordrhein-Westfalen,Paderborn,51.7167,8.7667
+081.210.130.038@
 080.069.106.173~1611A-MX960-02-ae2.bfe.unity-media.net
 037.201.099.255=0*4
 -------
@@ -292,15 +293,14 @@
 037.201.103.255=0*4
 =======8
 037.201.104.000=0 DE,Nordrhein-Westfalen,Hürth,50.8667,6.8667
-080.069.102.198@
+080.069.102.194@
 037.201.105.000=0 DE,Nordrhein-Westfalen,Köln,50.9333,6.95
-080.069.102.198@
+080.069.102.194@
 037.201.106.000=0 DE,Nordrhein-Westfalen,Köln,50.9333,6.95
-080.069.102.198@
+080.069.102.194@
 037.201.107.000=0 DE,Nordrhein-Westfalen,Köln,50.9333,6.95
-080.069.102.198@
-080.069.107.218~1311G-MX960-02-ae0.hue.unity-media.net
-080.069.107.045~1311G-MX960-02-ae9.hue.unity-media.net
+080.069.102.194@
+080.069.107.038~1311G-MX960-01-ae8.hue.unity-media.net
 037.201.107.255=0*4
 -------
 037.201.108.000=0 DE,Hessen,Geisenheim,49.9833,7.9667
@@ -312,6 +312,7 @@
 037.201.111.000=0 DE,Hessen,Wiesbaden,50.0833,8.25
 081.210.130.182@
 080.069.106.130~7114A-MX960-01-ae2.wib.unity-media.net
+080.069.107.106~7114A-MX960-01-ae0.wib.unity-media.net
 037.201.111.255=0*4
 =======16
 037.201.112.000=0 DE,Nordrhein-Westfalen,Bonn,50.7333,7.1
@@ -368,7 +369,6 @@
 037.201.131.000=0 DE,Nordrhein-Westfalen,Hemer,51.3833,7.7667
 080.069.103.134@
 080.069.107.210~1211F-MX960-02-ae0.dtm.unity-media.net
-080.069.107.021~1211F-MX960-02-ae9.dtm.unity-media.net
 037.201.131.255=0*4
 -------
 037.201.132.000=0 DE,Nordrhein-Westfalen,Unna,51.5333,7.6833
@@ -428,6 +428,7 @@
 080.069.103.102@
 037.201.155.000=0 DE,Nordrhein-Westfalen,Düsseldorf,51.2167,6.7667
 080.069.103.102@
+084.116.197.250~84.116.197.250
 080.069.107.006~1411G-MX960-02-ae9.nss.unity-media.net
 037.201.155.255=0*4
 -------
@@ -442,23 +443,23 @@
 080.069.106.230~1611A-MX960-01-ae2.bfe.unity-media.net
 037.201.159.255=0*4
 =======32
-037.201.160.000=0 DE,Nordrhein-Westfalen,Mannheim,51.0833,6.8833
+037.201.160.000=0 DE,Nordrhein-Westfalen,Monheim,51.0997,6.9022
 037.201.160.000!0 DE,Nordrhein-Westfalen,Monheim,51.0833,6.8833
 080.069.102.234@
-037.201.161.000=0 DE,Nordrhein-Westfalen,Mannheim,51.0833,6.8833
+037.201.161.000=0 DE,Nordrhein-Westfalen,Monheim,51.0997,6.9022
 037.201.161.000!0 DE,Nordrhein-Westfalen,Monheim,51.0833,6.8833
 080.069.102.234@
 037.201.162.000=0 DE,Nordrhein-Westfalen,Velbert,51.3333,7.05
 080.069.102.234@
 037.201.163.000=0 DE,Nordrhein-Westfalen,Wülfrath,51.2833,7.05
 080.069.102.234@
-037.201.164.000=0 DE,Nordrhein-Westfalen,Mannheim,51.1,6.8917
+037.201.164.000=0 DE,Nordrhein-Westfalen,Monheim,51.0997,6.9022
 037.201.164.000!0 DE,Nordrhein-Westfalen,Monheim,51.1,6.8917
 080.069.102.234@
-037.201.165.000=0 DE,Nordrhein-Westfalen,Mannheim,51.0833,6.8833
+037.201.165.000=0 DE,Nordrhein-Westfalen,Monheim,51.0997,6.9022
 080.069.102.234@
-037.201.166.000=0 DE,Nordrhein-Westfalen,Mannheim,51.0833,6.8833
-037.201.167.000=0 DE,Nordrhein-Westfalen,Mannheim,51.0833,6.8833
+037.201.166.000=0 DE,Nordrhein-Westfalen,Monheim,51.0997,6.9022
+037.201.167.000=0 DE,Nordrhein-Westfalen,Monheim,51.0997,6.9022
 080.069.107.082~1411C-MX960-01-ae1.mhm.unity-media.net
 037.201.167.255=0*8
 =======8
@@ -503,8 +504,8 @@
 081.210.130.110@
 037.201.183.000=0 DE,Hessen,Langen,49.9933,8.6728
 081.210.130.110@
-080.069.107.114~7113A-MX960-02-ae0.dar.unity-media.net
 080.069.107.117~7113A-MX960-02-ae1.dar.unity-media.net
+080.069.107.114~7113A-MX960-02-ae0.dar.unity-media.net
 037.201.183.255=0*4
 =======8
 037.201.184.000=0 DE,Nordrhein-Westfalen,Höxter,51.7667,9.3833
@@ -577,8 +578,8 @@
 -------
 037.201.209.000=0 DE,Nordrhein-Westfalen,Herne,51.55,7.2167
 080.069.105.102@
-080.069.107.058~1211F-MX960-02-ae5.dtm.unity-media.net
 080.069.107.061~1511G-MX960-01-ae0.bom.unity-media.net
+080.069.107.058~1211F-MX960-02-ae5.dtm.unity-media.net
 037.201.209.255=0*1
 -------
 037.201.210.000=0 DE,Hessen,Fulda,50.55,9.6667
@@ -596,8 +597,8 @@
 081.210.131.142@
 037.201.215.000=0 DE,Nordrhein-Westfalen,Jülich,50.9333,6.3667
 081.210.131.142@
-080.069.107.201~13NOC-MX960-01-ae0.krp.unity-media.net
 080.069.107.026~13NOC-MX960-01-ae8.krp.unity-media.net
+080.069.107.201~13NOC-MX960-01-ae0.krp.unity-media.net
 037.201.215.255=0*4
 =======8
 037.201.216.000=0 DE,Nordrhein-Westfalen,Bergkamen,51.6333,7.6333
@@ -634,8 +635,8 @@
 081.210.131.142@
 037.201.231.000=0 DE,Nordrhein-Westfalen,Düren,50.7907,6.4659
 081.210.131.142@
-080.069.107.026~13NOC-MX960-01-ae8.krp.unity-media.net
 080.069.107.201~13NOC-MX960-01-ae0.krp.unity-media.net
+080.069.107.026~13NOC-MX960-01-ae8.krp.unity-media.net
 037.201.231.255=0*4
 =======8
 037.201.232.000=0 DE,Nordrhein-Westfalen,Düren,50.8,6.4833
@@ -654,8 +655,8 @@
 081.210.131.142@
 037.201.239.000=0 DE,Nordrhein-Westfalen,Düren,50.8,6.4833
 081.210.131.142@
-080.069.107.026~13NOC-MX960-01-ae8.krp.unity-media.net
 080.069.107.201~13NOC-MX960-01-ae0.krp.unity-media.net
+080.069.107.026~13NOC-MX960-01-ae8.krp.unity-media.net
 =======16
 037.201.240.000=0 DE,Nordrhein-Westfalen,Düren,50.8,6.4833
 081.210.131.142@
@@ -699,6 +700,5 @@
 037.201.255.000=0 DE,Nordrhein-Westfalen,Werl,51.55,7.9167
 081.210.130.078@
 080.069.107.158~1711A-MX960-02-ae1.soe.unity-media.net
-080.069.107.161~1711A-MX960-02-ae0.soe.unity-media.net
 037.201.255.255=0*4
 =======256

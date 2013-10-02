@@ -384,20 +384,45 @@ function CorrectPingresult(&$list,$stamp,$ms)
 
 function ManagePingresult(&$list,$stamp,$ms)
 {
-	$change   = false;
+	$change = false;
 	
 	$oldstamp = null;
-	$oldms    = null;
-	
 	$bfostamp = null;
-	$bfoms    = null;
 	
-	reset($list);
+	while(count($list) > 1)
+	{
+		reset($list);
 	
-	if (count($list) > 0) list($oldstamp,$oldms) = each($list);
-	if (count($list) > 1) list($bfostamp,$bfoms) = each($list);
+		list($oldstamp,$oldms) = each($list);
+		list($bfostamp,$bfoms) = each($list);
 	
-	if ($oldms !== null)
+		if ((($ms == -1) && ($oldms == -1) && ($bfoms == -1)) ||
+			(($ms != -1) && ($oldms == -1) && ($bfoms != -1)) ||
+			(($ms == -1) && ($oldms != -1) && ($bfoms == -1)))
+		{
+			unset($list[ $oldstamp ]);
+			continue;
+		}
+		else
+		{
+			if (($ms != -1) && ($oldms != -1) && ($bfoms != -1))
+			{ 
+				$nowslow = ($ms    > 1000);
+				$oldslow = ($oldms > 1000);
+				$bfoslow = ($bfoms > 1000);
+			
+				if (($nowslow == $oldslow) && ($oldslow == $bfoslow))
+				{
+					unset($list[ $oldstamp ]);
+					continue;
+				}
+			}
+		}
+		
+		break;
+	}
+	
+	if ($oldstamp)
 	{
 		if (($oldms == -1) && ($ms != -1))
 		{
@@ -408,37 +433,8 @@ function ManagePingresult(&$list,$stamp,$ms)
 		{
 			$change = "died";
 		}
-
-		if ($bfoms != null)
-		{
-			if (($ms == -1) && ($oldms == -1) && ($bfoms == -1))
-			{
-				unset($list[ $oldstamp ]);
-			}
-			else
-			{
-				if (($ms != -1) && ($oldms == -1) && ($bfoms != -1))
-				{
-					unset($list[ $oldstamp ]);
-				}
-				else
-				{
-					if (($ms != -1) && ($oldms != -1) && ($bfoms != -1))
-					{ 
-						$nowslow = ($ms    > 1000);
-						$oldslow = ($oldms > 1000);
-						$bfoslow = ($bfoms > 1000);
-				
-						if (($nowslow == $oldslow) && ($oldslow == $bfoslow))
-						{
-							unset($list[ $oldstamp ]);
-						}
-					}
-				}
-			}
-		}
 	}
-	
+
 	$list[ $stamp ] = $ms;
 	krsort($list);
 
@@ -1618,9 +1614,9 @@ function ScheduleWebpingTask($task,&$request)
 	if (! HasFeature($task,"webping")) return;
 	if (! IsVersion($task,"1.03")) return;
 
-	$isp = GetRandomISP("mapdata/gateways.json");
+	$isp = GetRandomISP("domains");
 	if ($request[ "isp" ] != $isp) return;
-
+	
 	if (! is_dir("../var/$isp/webping")) mkdir("../var/$isp/webping",0777);
 	
 	//
@@ -1635,17 +1631,19 @@ function ScheduleWebpingTask($task,&$request)
 	
 	if ((! isset($GLOBALS[ $isp ][ "webpings" ]) ||
 		  (count($GLOBALS[ $isp ][ "webpings" ]) == 0)))
-	{			
-		$webpingsfile = "../var/$isp/mapdata/gateways.json";
-		$gateways = json_decdat(file_get_contents($webpingsfile));
+	{	
 		$webpings = array();
 		
-		foreach ($gateways as $webinkip => $gwdata)
+		$dfd = @opendir("../var/$isp/domains");
+		
+		if ($dfd)
 		{
-			if ($gwdata[ "loc" ] == "n.n.") continue;
-			
-			foreach ($gwdata[ "domains" ] as $domain => $dummy)
+			while (($file = readdir($dfd)) !== false)
 			{
+				if (substr($file,0,1) == ".") continue;
+				
+				$domain = substr($file,0,-5);
+				
 				$webpingfile = "../var/$isp/webping/$domain.ping.json";
 				
 				if (file_exists($webpingfile))
@@ -1657,10 +1655,12 @@ function ScheduleWebpingTask($task,&$request)
 					$webpings[ $domain ] = 0;
 				}
 			}
+			
+			closedir($dfd);
 		}
 		
 		asort($webpings);
-		
+
 		$GLOBALS[ $isp ][ "webpings"     ] = &$webpings;
 		$GLOBALS[ $isp ][ "webpingstime" ] = time();
 	}
@@ -1940,7 +1940,7 @@ function ScheduleTask($task,$remote_host,$remote_port)
 	if (! mt_rand(0,2)) ScheduleNetpingTask($task,$request);
 
 	if (! mt_rand(0,0)) ScheduleWebpingTask($task,$request);
-    if (! mt_rand(0,0)) ScheduleGwypingTask($task,$request);
+	if (! mt_rand(0,0)) ScheduleGwypingTask($task,$request);
     if (! mt_rand(0,0)) ScheduleBblpingTask($task,$request);
     if (! mt_rand(0,0)) ScheduleUplpingTask($task,$request);
     if (! mt_rand(0,0)) ScheduleEplpingTask($task,$request);
